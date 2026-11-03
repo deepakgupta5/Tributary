@@ -72,5 +72,10 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- | --- |
 | D025 | 2026-11-03 | Record material development feedback and the resulting instruction/code changes in the repository. | Trace initial instruction, observed issue, actual owner feedback, revisions, changes, and verification using DEVELOPMENT_FEEDBACK.md and linked Git history. Keep private judgments and external program ratings separate; do not fabricate owner reasoning. |
 
+## Execution environment decision
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D026 | 2026-11-03 | Execute source feasibility, coding, technical QC, and output iteration in the repository-connected Codex coding environment. | This planning conversation prepares requirements and handoffs. Task 001 integrates a bounded source trial with a working collection-to-review flow; owner feedback drives the next increment. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
