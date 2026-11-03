@@ -67,5 +67,10 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- | --- |
 | D024 | 2026-11-03 | Human investigation is core; the owner can spend multiple hours reviewing prospects, with exact weekly allocation open. | Support context, history, conflicting evidence, transparent triggers, and uncertain findings beyond the shortlist. No arbitrary cap should discard useful evidence. Trial measures usefulness and review workload; review is manual, not runtime LLM review. |
 
+## Development feedback decision
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D025 | 2026-11-03 | Record material development feedback and the resulting instruction/code changes in the repository. | Trace initial instruction, observed issue, actual owner feedback, revisions, changes, and verification using DEVELOPMENT_FEEDBACK.md and linked Git history. Keep private judgments and external program ratings separate; do not fabricate owner reasoning. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
