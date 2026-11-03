@@ -113,6 +113,13 @@ Private pursuit decisions, relationship notes, outreach status, and actual busin
 
 Feedback is used to refine documented collection and filtering rules. It does not imply automated learning or runtime AI.
 
+## Human investigation requirement
+Confirmed: human review is a core product activity. The owner can spend multiple hours investigating potential prospects; exact weekly allocation remains open. Do not impose a small review-time budget or use an arbitrary shortlist cap to discard potentially useful evidence.
+
+Support deep investigation with permitted source context, original links, dated history, contradictory evidence, and explanations of why each candidate surfaced. Keep uncertain but potentially relevant findings accessible and clearly labelled. The weekly shortlist is an entry point, not the boundary of review. Preserve the distinction between unreviewed, uncertain, and rejected findings.
+
+Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Review is manual; no runtime LLM is involved.
+
 ## Reliability and data boundaries
 - Every relationship and signal must be traceable to evidence; distinguish facts from interpretation.
 - Conservative identity matching with an unresolved queue; never force a name match.
