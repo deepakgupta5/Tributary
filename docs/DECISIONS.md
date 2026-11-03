@@ -27,6 +27,8 @@ Dates below are recording dates, not claims about when a discussion originally o
 | D014 | 2026-11-03 | Include a weekly shortlist of new or materially changed organizations, with reasons and no forced quota. | Keep wider findings searchable. Collection frequency, shortlist size, and ranking await trial evidence. |
 | D015 | 2026-11-03 | Separate evidence-quality feedback from business relevance. | Evidence: supported, insufficient, incorrect, duplicate, stale. Relevance: worth investigating, monitor, irrelevant. Retain reasons and reviewed versions. Real commercial feedback remains private. |
 
+| D016 | 2026-11-03 | All product operation must be free, with no paid subscriptions or operating services. | Zero additional monetary operating cost. Use free/local access and processing; paid-only sources become visible gaps. Free-tier limits must not trigger charges. This resolves the budget question. |
+
 ## Pending proposals, not agreed decisions
 | Item | Proposal | Status |
 | --- | --- | --- |
@@ -38,7 +40,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
 - The original no-runtime-AI restriction requires explicit confirmation. This documentation does not authorize runtime AI.
-- No nonprofit category exclusions, size cutoffs, source subscriptions, budgets, numeric quality thresholds, or collection frequency have been agreed. Weekly shortlist cadence is confirmed.
+- No nonprofit category exclusions, size cutoffs, numeric quality thresholds, or collection frequency have been agreed. Weekly shortlist cadence and the free-only cost constraint are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
 ## Change procedure
