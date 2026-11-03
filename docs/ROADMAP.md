@@ -15,6 +15,7 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 | 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
 
 ## Current scope decisions and pending proposals
+- Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
@@ -45,4 +46,4 @@ A synthetic end-to-end example plus a small approved live-source set should demo
 Do not implement nationwide collection simply to satisfy the geographic ambition. Expand coverage visibly without claiming unimplemented locations are monitored.
 
 ## Deferred decisions
-Stack, interface implementation details, hosting, collection scheduling, runtime AI, subscriptions, transcription, refresh windows, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+Stack, interface implementation details, hosting, collection scheduling, runtime AI, free/local source access and transcription feasibility, refresh windows, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
