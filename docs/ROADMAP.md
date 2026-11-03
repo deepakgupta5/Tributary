@@ -14,6 +14,12 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 | 6. Submission readiness | Prepare honest public project description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
 | 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
 
+## Current scope decisions and pending proposals
+- Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
+- Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
+- Pending: searchable dashboard with a weekly shortlist, feedback labels, and weekly review capacity.
+- Resolve these open items in the PRD before treating them as approved implementation requirements.
+
 ## Repeatable development cycle
 For every increment:
 1. Define a concrete requirement and acceptance checks.
