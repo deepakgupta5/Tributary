@@ -17,7 +17,8 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 ## Current scope decisions and pending proposals
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
-- Pending: searchable dashboard with a weekly shortlist, feedback labels, and weekly review capacity.
+- Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
+- Pending: collection frequency, shortlist size, ranking rules, and weekly human review capacity. Trial feedback will set these.
 - Resolve these open items in the PRD before treating them as approved implementation requirements.
 
 ## Repeatable development cycle
@@ -44,4 +45,4 @@ A synthetic end-to-end example plus a small approved live-source set should demo
 Do not implement nationwide collection simply to satisfy the geographic ambition. Expand coverage visibly without claiming unimplemented locations are monitored.
 
 ## Deferred decisions
-Stack, interface, hosting, scheduling, runtime AI, subscriptions, transcription, refresh windows, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+Stack, interface implementation details, hosting, collection scheduling, runtime AI, subscriptions, transcription, refresh windows, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
