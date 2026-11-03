@@ -31,6 +31,9 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
+## Language scope
+Confirmed: English only for the initial release and manual source trial across Canada and Washington State. French and other languages are recorded as coverage gaps. Nationwide geography does not imply multilingual coverage. English reporting about organizations in any Canadian jurisdiction remains eligible.
+
 ## Source breadth and coverage
 Use official records together with city/community newspapers, provincial/state and regional media, local radio/TV, sector publications, podcasts, newsletters, organizational publications, and funder/community networks. Generic search is one discovery channel, not the coverage strategy.
 
@@ -50,6 +53,8 @@ Amounts retain original currency and period. Missing dates, identifiers, amounts
 
 ## Review experience
 Required capabilities: inspect findings and organization evidence, filter by geography/signal/date, inspect relationships, see coverage gaps, and record feedback. Exact interface and delivery cadence remain open.
+
+Pending proposal, not approved: a searchable dashboard with a weekly shortlist. Each finding would show organization, signal, evidence, date, possible relevance, and any evidenced route in. Proposed review actions include useful, irrelevant, and needs investigation; the final labels and weekly review capacity remain undecided.
 
 Proposed feedback labels: useful, irrelevant, insufficient evidence, stale, duplicate, and incorrect organization match. Record a reason and the reviewed finding version. Private prospect choices, relationship notes, and actions stay outside the public repository and recorded development sessions.
 
@@ -83,9 +88,9 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 ## Open decisions
 | ID | Question |
 | --- | --- |
-| Q1 | Which nonprofit categories and size ranges, if any, should be excluded? |
-| Q2 | Which locations and languages form the manual trial sample? How will French-language and other coverage be handled? |
-| Q3 | Which interface, delivery cadence, and weekly human review capacity are preferred? |
+| Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
+| Q2 | Which locations form the manual trial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
+| Q3 | Should the proposed searchable dashboard and weekly shortlist be adopted? What weekly human review capacity and final feedback labels are preferred? |
 | Q4 | What monthly infrastructure, subscription, transcription, and source-access budget is acceptable? |
 | Q5 | Does the original no-runtime-AI constraint remain firm? No runtime AI is authorized by this draft. |
 | Q6 | What signal freshness windows, historical periods, and refresh frequencies are appropriate? |
