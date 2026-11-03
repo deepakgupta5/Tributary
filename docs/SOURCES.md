@@ -21,11 +21,16 @@ Initial geography: all Canadian provinces and territories, plus Washington State
 ## Language boundary
 Confirmed initial scope: English-language sources only, including the manual trial. Track French and other languages as coverage gaps across Canada and Washington State. Do not imply that all-language coverage exists in any jurisdiction. English sources concerning any in-scope location remain eligible.
 
+## Free-only access and operation
+Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, or other paid operating services. Investigate permitted free sources, published transcripts, and local processing. Do not subscribe, purchase access, or introduce automatic paid overages.
+
+Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio processing without a published transcript requires a feasible free/local method and the access/handling checks below.
+
 ## Source register fields
 For every discovered source record:
 - Source ID, publisher, URL/endpoint, category, geography, language, and organization/cause coverage.
 - Discovery method, formats, identifier availability, available history, publication frequency, and expected lag.
-- Access method: feed, API, download, permitted page retrieval, subscription, or manual import.
+- Access method: feed, API, download, permitted page retrieval, free authorized access, or manual import. Paid subscription methods are excluded.
 - Access/retention/redistribution conditions, permitted evidence excerpt handling, costs, and authentication requirements without credentials.
 - Audio/transcript availability, transcription permission and cost where applicable.
 - Verification status, date checked, sample reference, owner, and next action.
