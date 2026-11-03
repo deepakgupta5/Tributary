@@ -34,13 +34,13 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- |
 | Organization eligibility | Broad coverage across service-delivery nonprofits; foundations and umbrella bodies as buyers or routes in; hospitals, universities, religious organizations, and advocacy groups eligible when relevant; no initial revenue cutoff. | Unanswered. No category exclusions or size thresholds approved. |
 | Review workload | Weekly human review capacity, shortlist size, and ranking rules. | Open. Review structure and weekly shortlist are confirmed by D013-D014. |
-| Collection schedule | Source refresh frequency and freshness windows. | Open; weekly review does not determine collection frequency. |
+| Collection implementation | Exact local run time, source-specific access exceptions, and scheduler mechanism. | Daily collection confirmed by D023; implementation details remain open. |
 
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
 - The original no-runtime-AI restriction is confirmed for the initial core by D020. AI-assisted development is separate from runtime behavior.
-- No nonprofit category exclusions, size cutoffs, numeric quality thresholds, or collection frequency have been agreed. Weekly shortlist cadence and the free-only cost constraint are confirmed.
+- No nonprofit category exclusions, size cutoffs, or numeric quality thresholds have been agreed. Daily local collection, weekly shortlist cadence, and the free-only cost constraint are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
 ## Further confirmed decisions
@@ -56,6 +56,11 @@ Dates below are recording dates, not claims about when a discussion originally o
 | D020 | 2026-11-03 | Initial core is deterministic, with no runtime AI or model calls, including local models. | Software surfaces evidence through transparent processing and rules; humans interpret context and commercial relevance. |
 | D021 | 2026-11-03 | Foundation includes synthetic fixtures, replay without live calls, stable identifiers, rule provenance, reconciled audits, and actual development history. | These engineering practices support reproducibility, QC, and owner understanding. |
 | D022 | 2026-11-03 | Earlier project plans do not establish external program eligibility or transfer their buyer profiles, productization plans, ticket counts, or paid-hour estimates. | Program terms require separate confirmation; this repository records Tributary product requirements. |
+
+## Collection cadence decision
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D023 | 2026-11-03 | Run collection daily on the local computer when available. | Weekly shortlist remains separate. Show missed runs, catch up from successful source checkpoints where possible, and report unrecoverable gaps. No running scheduler is claimed by this decision. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
