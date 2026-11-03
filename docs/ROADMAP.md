@@ -20,7 +20,8 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
-- Pending: collection frequency, shortlist size, ranking rules, and weekly human review capacity. Trial feedback will set these.
+- Confirmed: daily local collection. Exact run time and source-specific access exceptions remain open.
+- Pending: shortlist size, ranking rules, and weekly human review capacity. Trial feedback will set these.
 - Resolve these open items in the PRD before treating them as approved implementation requirements.
 
 ## Repeatable development cycle
@@ -53,6 +54,11 @@ Do not implement nationwide collection simply to satisfy the geographic ambition
 
 ## Trial requirements for recency and indirect evidence
 Use the agreed 12-month discovery window and older records for comparisons. Test direct statements and indirect observations from local reporting/interviews and other source categories. Human review must check alternative explanations, comparability, source independence, current-status updates, and whether a recent weak clue incorrectly outranks an older relevant pattern. Derive detailed ranking and refresh rules from these results.
+
+## Daily local operation
+Confirmed: daily local collection and visible missed-run reporting. Implement catch-up on resume, per-source successful checkpoints, idempotent reruns, partial-failure reporting, and explicit unrecoverable gaps. Test interrupted/failed runs and a period when the host is unavailable using fixtures. The weekly review view is separate from the collection schedule.
+
+Scheduling is a later implementation deliverable, not an automation already running. Exact local time and mechanism remain open; source access limits and zero-cost operation still apply.
 
 ## Deferred decisions
 Stack, interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
