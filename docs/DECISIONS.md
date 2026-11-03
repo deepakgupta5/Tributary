@@ -62,5 +62,10 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- | --- |
 | D023 | 2026-11-03 | Run collection daily on the local computer when available. | Weekly shortlist remains separate. Show missed runs, catch up from successful source checkpoints where possible, and report unrecoverable gaps. No running scheduler is claimed by this decision. |
 
+## Human investigation decision
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D024 | 2026-11-03 | Human investigation is core; the owner can spend multiple hours reviewing prospects, with exact weekly allocation open. | Support context, history, conflicting evidence, transparent triggers, and uncertain findings beyond the shortlist. No arbitrary cap should discard useful evidence. Trial measures usefulness and review workload; review is manual, not runtime LLM review. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
