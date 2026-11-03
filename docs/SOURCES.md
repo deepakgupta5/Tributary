@@ -18,6 +18,9 @@ Initial geography: all Canadian provinces and territories, plus Washington State
 | Organization publications | Annual reports, campaign pages, newsletters, public meeting material | First-party statements, campaign outcomes, commitments. |
 | Funder/community networks | Foundation grant lists, sponsored support programs, umbrella bodies, event material | Organizational connections and funded support routes. |
 
+## Language boundary
+Confirmed initial scope: English-language sources only, including the manual trial. Track French and other languages as coverage gaps across Canada and Washington State. Do not imply that all-language coverage exists in any jurisdiction. English sources concerning any in-scope location remain eligible.
+
 ## Source register fields
 For every discovered source record:
 - Source ID, publisher, URL/endpoint, category, geography, language, and organization/cause coverage.
@@ -41,7 +44,7 @@ Suggested verification states: candidate, sample inspected, access confirmed, ap
 Search snippets can help discover a source but cannot alone verify a finding. A blocked or paywalled item remains an access gap unless authorized full evidence is available. Do not bypass access controls.
 
 ## Manual discovery trial
-Select a documented sample across Canadian regions and Washington State, localities of different sizes, source types, and pressure/opportunity categories. Sample size and locations remain open; do not treat a small sample as proof of full geographic feasibility.
+Select a documented sample of English-language material across Canadian regions and Washington State, localities of different sizes, source types, and pressure/opportunity categories. Sample size and locations remain open; do not treat a small sample as proof of full geographic feasibility.
 
 For each search/source checked, retain the query or retrieval method, date, outcome, and zero-result/access-failure cases. Prepare evidence-backed example findings for human review. Record useful findings, misleading indicators, missing evidence, duplicate stories, and unavailable material.
 
