@@ -120,6 +120,11 @@ Support deep investigation with permitted source context, original links, dated 
 
 Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Review is manual; no runtime LLM is involved.
 
+## Development feedback record
+Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Preserve the initial instruction, observed issue, actual feedback, revised instruction, change, verification, and unresolved outcome. Distinguish owner statements from assistant summaries. Do not invent owner reasoning or present documentation changes as verified software improvements.
+
+This records how the owner steers development; it does not add runtime AI to Tributary. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
+
 ## Reliability and data boundaries
 - Every relationship and signal must be traceable to evidence; distinguish facts from interpretation.
 - Conservative identity matching with an unresolved queue; never force a name match.
