@@ -23,18 +23,22 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- | --- |
 | D012 | 2026-11-03 | English only for the initial release and manual source trial across Canada and Washington State. | French and other languages remain explicit coverage gaps; geographic scope is unchanged. |
 
+| D013 | 2026-11-03 | Adopt an organization-based searchable dashboard with new/changed, organization profile, and coverage/collection views. | Aggregate related stories without losing evidence; expose collection gaps. |
+| D014 | 2026-11-03 | Include a weekly shortlist of new or materially changed organizations, with reasons and no forced quota. | Keep wider findings searchable. Collection frequency, shortlist size, and ranking await trial evidence. |
+| D015 | 2026-11-03 | Separate evidence-quality feedback from business relevance. | Evidence: supported, insufficient, incorrect, duplicate, stale. Relevance: worth investigating, monitor, irrelevant. Retain reasons and reviewed versions. Real commercial feedback remains private. |
+
 ## Pending proposals, not agreed decisions
 | Item | Proposal | Status |
 | --- | --- | --- |
 | Organization eligibility | Broad coverage across service-delivery nonprofits; foundations and umbrella bodies as buyers or routes in; hospitals, universities, religious organizations, and advocacy groups eligible when relevant; no initial revenue cutoff. | Unanswered. No category exclusions or size thresholds approved. |
-| Review format | Searchable dashboard and weekly shortlist with evidence, dates, possible relevance, and organizational routes in. | Unanswered. Interface and cadence not approved. |
-| Feedback | Useful, irrelevant, and needs investigation, alongside the more detailed draft PRD labels. | Final labels and weekly review capacity remain open. |
+| Review workload | Weekly human review capacity, shortlist size, and ranking rules. | Open. Review structure and weekly shortlist are confirmed by D013-D014. |
+| Collection schedule | Source refresh frequency and freshness windows. | Open; weekly review does not determine collection frequency. |
 
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
 - The original no-runtime-AI restriction requires explicit confirmation. This documentation does not authorize runtime AI.
-- No nonprofit category exclusions, size cutoffs, source subscriptions, budgets, numeric quality thresholds, or review cadence have been agreed.
+- No nonprofit category exclusions, size cutoffs, source subscriptions, budgets, numeric quality thresholds, or collection frequency have been agreed. Weekly shortlist cadence is confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
 ## Change procedure
