@@ -18,6 +18,18 @@ Dates below are recording dates, not claims about when a discussion originally o
 | D010 | 2026-11-03 | Public development describes the real business-development purpose; private target choices, relationship notes, and commercial actions stay outside it. | Product requirements can be reviewed without exposing private decisions. |
 | D011 | 2026-11-03 | Human review and feedback are part of product development. | Feedback refines source selection and rules; it does not authorize automated outreach or client delivery. |
 
+## Additional confirmed decisions
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D012 | 2026-11-03 | English only for the initial release and manual source trial across Canada and Washington State. | French and other languages remain explicit coverage gaps; geographic scope is unchanged. |
+
+## Pending proposals, not agreed decisions
+| Item | Proposal | Status |
+| --- | --- | --- |
+| Organization eligibility | Broad coverage across service-delivery nonprofits; foundations and umbrella bodies as buyers or routes in; hospitals, universities, religious organizations, and advocacy groups eligible when relevant; no initial revenue cutoff. | Unanswered. No category exclusions or size thresholds approved. |
+| Review format | Searchable dashboard and weekly shortlist with evidence, dates, possible relevance, and organizational routes in. | Unanswered. Interface and cadence not approved. |
+| Feedback | Useful, irrelevant, and needs investigation, alongside the more detailed draft PRD labels. | Final labels and weekly review capacity remain open. |
+
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
