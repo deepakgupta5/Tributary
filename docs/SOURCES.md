@@ -63,5 +63,12 @@ Use a separately reviewed sample to examine omissions where feasible. The observ
 - Preserve original currencies, dates, periods, language, and geographic distinctions.
 - Store only permitted content. Organization-level extraction does not justify saving unfiltered personal data in raw archives.
 
+## Contextual discovery and historical comparisons
+Confirmed: use a 12-month discovery window, with recent-six-month priority only when evidence and relevance are comparable. Retain earlier campaign periods and permitted historical records for comparisons. Record event/publication dates and current-status checks separately.
+
+Search beyond explicit terms such as fundraising shortfall. Inspect local interviews, podcasts, and community reporting for factual descriptions of demand, campaign participation, deadlines, funding concentration, and staff workload. Record alternative explanations and missing context. Repeated stories about one event do not supply independent corroboration.
+
+The manual trial must examine whether indirect discovery produces useful, defensible investigation prompts. Include weak or misleading clues and checks for subsequent resolution; do not measure success solely by finding explicit admissions. Log access gaps and unsuccessful searches.
+
 ## Deliverable before coding
 A populated source register, inspected samples, example findings, visible coverage gaps, access and data-handling decisions, and a proposed bounded source set for the first complete flow.
