@@ -74,6 +74,15 @@ Each finding must carry:
 
 Amounts retain original currency and period. Missing dates, identifiers, amounts, and full text must be explicit. Do not invent them.
 
+## Collection schedule
+Confirmed: one daily local collection run when the host computer is available. The weekly shortlist remains a separate review view. This is a product requirement; no collection scheduler is deployed yet.
+
+On startup or resume, identify missed daily runs and perform a catch-up collection from the last successful source checkpoint, within source availability and access limits. Do not claim complete recovery where feeds or archives no longer expose missed items. Avoid repeated full-history downloads; initial 12-month discovery/backfill and ongoing incremental collection are separate operations.
+
+Record scheduled date, actual start/end, run status, per-source attempts, last success, and failures. A partial run must not advance failed sources' successful checkpoints. Reruns must not multiply records. Show missed runs and unrecoverable gaps in the coverage view. Respect free access limits and publisher conditions; daily scheduling does not override source restrictions.
+
+Exact local run time, scheduler mechanism, and source-specific refresh exceptions remain implementation details to resolve before scheduling. Local execution cannot guarantee collection while the computer is off or asleep.
+
 ## Review experience
 Confirmed design: a searchable dashboard organized around organizations, with a weekly shortlist as one view. Multiple stories about an organization remain visible as evidence without creating multiple prospect entries.
 
@@ -90,7 +99,7 @@ Filter by geography, signal category, and date. Each review card must answer:
 - What remains unknown: including budget, internal causes, and whether the issue persists.
 - What route exists: documented organizational connections, or "none identified."
 
-The weekly shortlist contains new or materially changed organizations worth reviewing, with a visible reason for inclusion. There is no fixed quota that forces weak findings into the list. Wider findings remain searchable. Source refresh frequency, shortlist size, and ranking rules will be determined from the source trial and review workload. A weekly shortlist does not imply weekly collection.
+The weekly shortlist contains new or materially changed organizations worth reviewing, with a visible reason for inclusion. There is no fixed quota that forces weak findings into the list. Wider findings remain searchable. Daily local collection is confirmed. Shortlist size, ranking rules, and source-specific access exceptions will be determined from the source trial and review workload. A weekly shortlist does not imply weekly collection.
 
 Record two separate judgments:
 | Judgment | Options |
@@ -137,7 +146,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Resolved for the initial core: deterministic processing, no runtime AI or model calls; human interpretation remains explicit. |
-| Q6 | Discovery is set to 12 months, with contextual recent-six-month priority. What source refresh frequencies and category-specific historical comparison periods are appropriate? |
+| Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
 | Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
 | Q8 | What measured quality thresholds and verified sources define the first build? |
 
