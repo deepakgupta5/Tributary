@@ -45,5 +45,8 @@ A synthetic end-to-end example plus a small approved live-source set should demo
 
 Do not implement nationwide collection simply to satisfy the geographic ambition. Expand coverage visibly without claiming unimplemented locations are monitored.
 
+## Trial requirements for recency and indirect evidence
+Use the agreed 12-month discovery window and older records for comparisons. Test direct statements and indirect observations from local reporting/interviews and other source categories. Human review must check alternative explanations, comparability, source independence, current-status updates, and whether a recent weak clue incorrectly outranks an older relevant pattern. Derive detailed ranking and refresh rules from these results.
+
 ## Deferred decisions
-Stack, interface implementation details, hosting, collection scheduling, runtime AI, free/local source access and transcription feasibility, refresh windows, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+Stack, interface implementation details, hosting, collection scheduling, runtime AI, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
