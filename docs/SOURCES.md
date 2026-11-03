@@ -70,5 +70,10 @@ Search beyond explicit terms such as fundraising shortfall. Inspect local interv
 
 The manual trial must examine whether indirect discovery produces useful, defensible investigation prompts. Include weak or misleading clues and checks for subsequent resolution; do not measure success solely by finding explicit admissions. Log access gaps and unsuccessful searches.
 
+## Deterministic trial boundary
+Use manual research and transparent rules to test discovery. AI assistance used to prepare code or conduct exploratory research must not be presented as proof that the deterministic product can perform the same interpretation.
+
+For candidate rules, record trigger, supporting passage, false positives, missed relevant material, and the context the reviewer still needs. Test organization identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Preserve enough permitted context for human judgment. No runtime model or local AI integration is part of the initial core.
+
 ## Deliverable before coding
 A populated source register, inspected samples, example findings, visible coverage gaps, access and data-handling decisions, and a proposed bounded source set for the first complete flow.
