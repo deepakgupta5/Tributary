@@ -39,6 +39,15 @@ Paywalled sources and recordings without a usable free transcript remain visible
 ## Language scope
 Confirmed: English only for the initial release and manual source trial across Canada and Washington State. French and other languages are recorded as coverage gaps. Nationwide geography does not imply multilingual coverage. English reporting about organizations in any Canadian jurisdiction remains eligible.
 
+## Discovery window and indirect signals
+Confirmed on 2026-11-03: discover signals from the past 12 months. Give the most recent six months review priority when relevance and evidence are otherwise comparable; six months is not an exclusion cutoff. Keep older financial/funding records and earlier campaign periods for context and comparisons.
+
+Assess event date, publication date, last status check, relevance, current status, and timing separately. A recent weak clue must not automatically outrank an older supported pattern. Before promoting older findings to the shortlist, check for updates; record ongoing, resolved, recurring, or current status unknown, with supporting evidence. No update does not prove continuation.
+
+Do not depend on explicit admissions of fundraising difficulty. Investigate contextual observations in local reporting, interviews, podcasts, organizational publications, and records. Candidate observations include repeated campaign deadline extensions, comparable declines in participation, service-demand growth alongside flat donations, concentrated funding, and publicly described renewal/follow-up workload.
+
+These observations are investigation prompts. Record the underlying facts, possible relevance, alternative explanations, missing evidence, and period comparability. A deadline extension may be routine; a campaign change may explain participation differences. Never convert an indirect clue into a factual claim of fundraising failure, donor-retention problems, consulting budget, or willingness to engage. Independent observations may strengthen a case; syndicated copies are not independent corroboration.
+
 ## Source breadth and coverage
 Use official records together with city/community newspapers, provincial/state and regional media, local radio/TV, sector publications, podcasts, newsletters, organizational publications, and funder/community networks. Generic search is one discovery channel, not the coverage strategy.
 
@@ -119,7 +128,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Does the original no-runtime-AI constraint remain firm? No runtime AI is authorized by this draft. |
-| Q6 | What signal freshness windows, historical periods, and refresh frequencies are appropriate? |
+| Q6 | Discovery is set to 12 months, with contextual recent-six-month priority. What source refresh frequencies and category-specific historical comparison periods are appropriate? |
 | Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
 | Q8 | What measured quality thresholds and verified sources define the first build? |
 
