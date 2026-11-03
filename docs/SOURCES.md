@@ -75,5 +75,10 @@ Use manual research and transparent rules to test discovery. AI assistance used 
 
 For candidate rules, record trigger, supporting passage, false positives, missed relevant material, and the context the reviewer still needs. Test organization identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Preserve enough permitted context for human judgment. No runtime model or local AI integration is part of the initial core.
 
+## Daily collection and source checkpoints
+Confirmed: daily local collection when the computer is available. Record per-source attempt and success times, last successful checkpoint, rate/access limits, missed intervals, and whether backfill is possible. On resume, attempt catch-up from the last successful checkpoint without duplicate records. Report unrecoverable feed/archive gaps.
+
+The daily run checks sources that are due under their permitted access conditions. Any source-specific refresh exception must be documented; the default collection cadence remains daily. Static or slowly changing datasets need not be repeatedly downloaded unchanged. Initial historical discovery is distinct from daily incremental checks.
+
 ## Deliverable before coding
 A populated source register, inspected samples, example findings, visible coverage gaps, access and data-handling decisions, and a proposed bounded source set for the first complete flow.
