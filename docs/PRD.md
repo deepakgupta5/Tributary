@@ -31,6 +31,15 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
+## Deterministic core and human interpretation
+Confirmed: the initial core uses deterministic processing, with no runtime AI or model calls, including local models. AI-assisted development is distinct from product operation.
+
+Software collects permitted sources, normalizes dates, resolves organization identities conservatively, removes duplicates, applies transparent rules to surface candidate passages, joins funding records, displays organizational connections, and preserves evidence and processing audits. Rules surface candidates; they do not diagnose fundraising or donor-retention problems.
+
+The reviewer interprets context, examines alternative explanations, judges service relevance, and decides whom to pursue. Every rule-based candidate must identify its triggering rule and supporting passage or record. Human interpretation must remain distinguishable from recorded facts and rule output.
+
+The source trial must measure whether deterministic collection and filtering reduce reading effort while preserving relevant context. If this approach proves insufficient, record the limitation and revisit scope explicitly. Runtime AI requires a future owner decision; it is not implicitly permitted by a free/local implementation.
+
 ## Cost constraint
 Confirmed: zero additional monetary operating cost. No paid subscriptions, paid source access, paid hosting, paid APIs, paid transcription, or other paid operating services. Use local execution or genuinely free services without automatic paid overages. Development must not introduce a paid runtime dependency.
 
@@ -127,7 +136,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q2 | Which locations form the manual trial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
 | Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
-| Q5 | Does the original no-runtime-AI constraint remain firm? No runtime AI is authorized by this draft. |
+| Q5 | Resolved for the initial core: deterministic processing, no runtime AI or model calls; human interpretation remains explicit. |
 | Q6 | Discovery is set to 12 months, with contextual recent-six-month priority. What source refresh frequencies and category-specific historical comparison periods are appropriate? |
 | Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
 | Q8 | What measured quality thresholds and verified sources define the first build? |
