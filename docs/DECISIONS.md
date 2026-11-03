@@ -43,5 +43,12 @@ Dates below are recording dates, not claims about when a discussion originally o
 - No nonprofit category exclusions, size cutoffs, numeric quality thresholds, or collection frequency have been agreed. Weekly shortlist cadence and the free-only cost constraint are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
+## Further confirmed decisions
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D017 | 2026-11-03 | Use a 12-month discovery window, with recent-six-month priority where evidence and relevance are comparable. | No hard six-month exclusion. Older records support trends and campaign comparisons; current-status checks precede shortlisting older findings. |
+| D018 | 2026-11-03 | Investigate indirect evidence without relying on explicit admissions of fundraising difficulty. | Local interviews and contextual reporting are important. Preserve observations, hypotheses, alternative explanations, missing evidence, and source independence. |
+| D019 | 2026-11-03 | Distinguish recency, relevance, current status, and action timing. | Recent weak clues do not automatically outrank older supported patterns. Missing updates mean status unknown, not continuing need. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
