@@ -31,6 +31,11 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
+## Cost constraint
+Confirmed: zero additional monetary operating cost. No paid subscriptions, paid source access, paid hosting, paid APIs, paid transcription, or other paid operating services. Use local execution or genuinely free services without automatic paid overages. Development must not introduce a paid runtime dependency.
+
+Paywalled sources and recordings without a usable free transcript remain visible coverage gaps unless a permitted free alternative is available. Do not bypass access controls. A free tier's limits must be recorded; reaching them must pause or report the affected work rather than incur charges. Any future change to this constraint requires an explicit owner decision.
+
 ## Language scope
 Confirmed: English only for the initial release and manual source trial across Canada and Washington State. French and other languages are recorded as coverage gaps. Nationwide geography does not imply multilingual coverage. English reporting about organizations in any Canadian jurisdiction remains eligible.
 
@@ -112,7 +117,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
 | Q2 | Which locations form the manual trial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
 | Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
-| Q4 | What monthly infrastructure, subscription, transcription, and source-access budget is acceptable? |
+| Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Does the original no-runtime-AI constraint remain firm? No runtime AI is authorized by this draft. |
 | Q6 | What signal freshness windows, historical periods, and refresh frequencies are appropriate? |
 | Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
