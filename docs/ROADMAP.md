@@ -16,6 +16,7 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 
 ## Current scope decisions and pending proposals
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
+- Confirmed: initial core is deterministic with no runtime AI or model calls, including local models. Humans interpret contextual evidence and commercial relevance.
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
@@ -40,6 +41,11 @@ Human product feedback concerns usefulness and evidence quality. Any external pr
 - Owner review: commercial relevance, missing context, desired review workload, and scope decisions.
 - Release record: what changed, what was checked, observed limits, and open defects.
 
+## Foundation engineering requirements
+Use synthetic fixtures with planted identity, duplicate, date, and malformed-input cases. Provide a replay harness that exercises the full fixture pipeline with zero live calls. Use stable identifiers and auditable rule triggers. Import counters and mutually exclusive dispositions must reconcile; reconciliation failure must be visible and fail the run.
+
+Maintain a dated development log and commit actual changes as work happens. The owner must be able to run the foundation, inspect its output, and explain its limits. No inherited ticket count or effort estimate is treated as a requirement.
+
 ## First technical slice, provisional
 A synthetic end-to-end example plus a small approved live-source set should demonstrate more than funding joins: source evidence becomes a dated organization finding in a review queue. The exact mix of official records and local/media material is selected after feasibility and human review.
 
@@ -49,4 +55,4 @@ Do not implement nationwide collection simply to satisfy the geographic ambition
 Use the agreed 12-month discovery window and older records for comparisons. Test direct statements and indirect observations from local reporting/interviews and other source categories. Human review must check alternative explanations, comparability, source independence, current-status updates, and whether a recent weak clue incorrectly outranks an older relevant pattern. Derive detailed ranking and refresh rules from these results.
 
 ## Deferred decisions
-Stack, interface implementation details, hosting, collection scheduling, runtime AI, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+Stack, interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
