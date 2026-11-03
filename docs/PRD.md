@@ -52,11 +52,32 @@ Each finding must carry:
 Amounts retain original currency and period. Missing dates, identifiers, amounts, and full text must be explicit. Do not invent them.
 
 ## Review experience
-Required capabilities: inspect findings and organization evidence, filter by geography/signal/date, inspect relationships, see coverage gaps, and record feedback. Exact interface and delivery cadence remain open.
+Confirmed design: a searchable dashboard organized around organizations, with a weekly shortlist as one view. Multiple stories about an organization remain visible as evidence without creating multiple prospect entries.
 
-Pending proposal, not approved: a searchable dashboard with a weekly shortlist. Each finding would show organization, signal, evidence, date, possible relevance, and any evidenced route in. Proposed review actions include useful, irrelevant, and needs investigation; the final labels and weekly review capacity remain undecided.
+| View | Purpose |
+| --- | --- |
+| New and changed | New organizations, fresh evidence, and material updates to existing findings. |
+| Organization profile | Signals, campaign history, funding relationships, contradictory evidence, and possible routes in, linked to source records. |
+| Coverage and collection | Sources checked, failures, geographic/language gaps, and last successful updates; distinguish no findings from no coverage. |
 
-Proposed feedback labels: useful, irrelevant, insufficient evidence, stale, duplicate, and incorrect organization match. Record a reason and the reviewed finding version. Private prospect choices, relationship notes, and actions stay outside the public repository and recorded development sessions.
+Filter by geography, signal category, and date. Each review card must answer:
+- What happened: factual observation, event date, and publication date, with missing dates explicit.
+- Why examine it: a specific connection to the intended services, labelled as interpretation.
+- What supports it: direct evidence and access to its source.
+- What remains unknown: including budget, internal causes, and whether the issue persists.
+- What route exists: documented organizational connections, or "none identified."
+
+The weekly shortlist contains new or materially changed organizations worth reviewing, with a visible reason for inclusion. There is no fixed quota that forces weak findings into the list. Wider findings remain searchable. Source refresh frequency, shortlist size, and ranking rules will be determined from the source trial and review workload. A weekly shortlist does not imply weekly collection.
+
+Record two separate judgments:
+| Judgment | Options |
+| --- | --- |
+| Evidence quality | Supported, insufficient, incorrect, duplicate, stale |
+| Business relevance | Worth investigating, monitor, irrelevant |
+
+Evidence quality applies to a finding and its version; relevance is recorded against the organization and the findings supporting that judgment. Leave unreviewed judgments explicit. Record the reason and date. New evidence must not silently overwrite prior feedback or imply that an old review covers changed evidence. A supported finding may be irrelevant; a potentially relevant organization may lack sufficient evidence.
+
+Private pursuit decisions, relationship notes, outreach status, and actual business-relevance feedback stay outside the public repository and recorded development sessions. Public examples and session demonstrations use synthetic review records. The product may support private feedback without publishing it.
 
 Feedback is used to refine documented collection and filtering rules. It does not imply automated learning or runtime AI.
 
@@ -77,7 +98,7 @@ The first implementation scope must be approved after a manual source trial. At 
 4. Duplicate stories do not inflate the underlying event count.
 5. Incorrect/uncertain matches and inaccessible sources appear in visible queues.
 6. Import counts reconcile; rerunning identical inputs does not multiply records.
-7. Reviewer feedback is retained and traceable.
+7. Separate evidence-quality and relevance judgments retain reasons, dates, and reviewed versions; changed evidence does not silently inherit approval.
 8. Coverage reporting distinguishes intended, configured, and successfully checked coverage.
 
 These are draft acceptance criteria. Numeric quality thresholds and the live-source set are not yet approved.
@@ -90,7 +111,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | --- | --- |
 | Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
 | Q2 | Which locations form the manual trial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
-| Q3 | Should the proposed searchable dashboard and weekly shortlist be adopted? What weekly human review capacity and final feedback labels are preferred? |
+| Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | What monthly infrastructure, subscription, transcription, and source-access budget is acceptable? |
 | Q5 | Does the original no-runtime-AI constraint remain firm? No runtime AI is authorized by this draft. |
 | Q6 | What signal freshness windows, historical periods, and refresh frequencies are appropriate? |
