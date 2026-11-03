@@ -14,6 +14,11 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 | 6. Submission readiness | Prepare honest public project description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
 | 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
 
+## Execution handoff and sequencing update
+See [CODEX_HANDOFF.md](CODEX_HANDOFF.md) for Task 001. Source feasibility, a bounded working implementation, technical QC, and owner review are integrated in the repository-connected Codex coding environment. Stages 2-5 above are activities repeated within small increments, not a requirement to finish standalone nationwide research before writing code. The planning conversation prepares requirements and handoffs; it does not perform this implementation.
+
+Task 001 establishes the limited first slice and its review checkpoint. Other product requirements remain roadmap items, not an instruction to build everything at once.
+
 ## Current scope decisions and pending proposals
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
 - Confirmed: initial core is deterministic with no runtime AI or model calls, including local models. Humans interpret contextual evidence and commercial relevance.
@@ -21,7 +26,7 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
 - Confirmed: daily local collection. Exact run time and source-specific access exceptions remain open.
-- Pending: shortlist size, ranking rules, and weekly human review capacity. Trial feedback will set these.
+- Confirmed: human review can take multiple hours. Exact weekly allocation, shortlist size, and ranking rules remain open.
 - Resolve these open items in the PRD before treating them as approved implementation requirements.
 
 ## Repeatable development cycle
