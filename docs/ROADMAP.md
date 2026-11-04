@@ -73,10 +73,11 @@ Confirmed: the owner can spend multiple hours reviewing prospects. Exact weekly 
 ## Development feedback traceability
 Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementation: initial instruction, observed response, actual owner feedback, revised instructions, resulting change, and verification evidence. Link code changes and checks. Preserve unresolved and unsuccessful outcomes where material. Update the record during work rather than reconstructing an invented history. Private or restricted material stays outside the public log.
 
-## Separate collection, data QC, and verification
-Confirmed: collection and data QC are separate roles. Task 001 must expose candidate records to a distinct QC pass, then an explicit evidence-verification gate. Record ownership and outcomes for both; collection success cannot approve QC. Source-faithfulness checks requiring judgment stay pending for human review. This adds no runtime models or paid services.
+## Researcher, skeptic, and fact-checker workflow
+Task 001 follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
 
-Use a verified findings queue and a separately labelled pending/investigation queue. Corrections create a new version and reopen affected checks. Technical code QC remains distinct from data QC and from owner commercial review. Retention is approved for metadata/checksums and permitted sanitized excerpts; no permanent raw live articles/audio/transcripts.
+Implement distinct versioned outputs and actors for each review stage. Deterministic tools support human judgment; no runtime LLM roles are authorized. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
+
 
 ## Deferred decisions
 Stack, interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
