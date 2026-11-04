@@ -31,14 +31,17 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
-## Deterministic core and human interpretation
-Confirmed: the initial core uses deterministic processing, with no runtime AI or model calls, including local models. AI-assisted development is distinct from product operation.
+## Deterministic data handling and local AI review
+Current decision: permit local AI for researcher, skeptic, and fact-checker roles. This supersedes the earlier no-runtime-AI restriction for these roles. Collection controls, identifiers, arithmetic checks, deduplication, reconciliation, checkpoints, and audit handling remain deterministic.
 
-Software collects permitted sources, normalizes dates, resolves organization identities conservatively, removes duplicates, applies transparent rules to surface candidate passages, joins funding records, displays organizational connections, and preserves evidence and processing audits. Rules surface candidates; they do not diagnose fundraising or donor-retention problems.
+No paid or remote model service is required or authorized. A local application, CLI, in-process library, or local-only endpoint may be used; an API is not a product requirement. Automated daily role execution depends on the selected tool's automation support. The collector controls access; models receive permitted evidence and cannot independently bypass source restrictions.
 
-The reviewer interprets context, examines alternative explanations, judges service relevance, and decides whom to pursue. Every rule-based candidate must identify its triggering rule and supporting passage or record. Human interpretation must remain distinguishable from recorded facts and rule output.
+Use separate role instructions, contexts, and outputs. The roles may run sequentially on one local model; separate model weights are not required. Same-model agreement is not independent corroboration. The owner reviews the results, challenges reasoning, and revises instructions. Runtime interpretation is probabilistic and must not be described as deterministic.
 
-The source trial must measure whether deterministic collection and filtering reduce reading effort while preserving relevant context. If this approach proves insufficient, record the limitation and revisit scope explicitly. Runtime AI requires a future owner decision; it is not implicitly permitted by a free/local implementation.
+Feasibility must be tested on the owner's MacBook before a model/runtime is selected. See [LOCAL_AI_FEASIBILITY.md](LOCAL_AI_FEASIBILITY.md). Record prompts, model/version, configuration, evidence IDs, claim coverage, limitations, and measured outcomes without persisting unapproved source content. Do not train/fine-tune a model or automatically learn from feedback under this scope.
+
+Business use and the local-AI workflow must be disclosed honestly in any external program submission. Eligibility is unconfirmed; a rejection triggers an owner decision, not concealment or an automatic rewrite.
+
 
 ## Cost constraint
 Confirmed: zero additional monetary operating cost. No paid subscriptions, paid source access, paid hosting, paid APIs, paid transcription, or other paid operating services. Use local execution or genuinely free services without automatic paid overages. Development must not introduce a paid runtime dependency.
@@ -111,19 +114,19 @@ Evidence quality applies to a finding and its version; relevance is recorded aga
 
 Private pursuit decisions, relationship notes, outreach status, and actual business-relevance feedback stay outside the public repository and recorded development sessions. Public examples and session demonstrations use synthetic review records. The product may support private feedback without publishing it.
 
-Feedback is used to refine documented collection and filtering rules. It does not imply automated learning or runtime AI.
+Feedback informs documented prompts, role instructions, collection/filtering rules, and review presentation. It does not authorize automatic learning, training, or fine-tuning.
 
 ## Human investigation requirement
 Confirmed: human review is a core product activity. The owner can spend multiple hours investigating potential prospects; exact weekly allocation remains open. Do not impose a small review-time budget or use an arbitrary shortlist cap to discard potentially useful evidence.
 
 Support deep investigation with permitted source context, original links, dated history, contradictory evidence, and explanations of why each candidate surfaced. Keep uncertain but potentially relevant findings accessible and clearly labelled. The weekly shortlist is an entry point, not the boundary of review. Preserve the distinction between unreviewed, uncertain, and rejected findings.
 
-Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Review is manual; no runtime LLM is involved.
+Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Local AI prepares research and review outputs; the owner manually examines results and makes commercial decisions.
 
 ## Development feedback record
 Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Preserve the initial instruction, observed issue, actual feedback, revised instruction, change, verification, and unresolved outcome. Distinguish owner statements from assistant summaries. Do not invent owner reasoning or present documentation changes as verified software improvements.
 
-This records how the owner steers development; it does not add runtime AI to Tributary. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
+This records how the owner steers development and improves role instructions. Local runtime AI is separately authorized by the current scope. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
 ## Researcher, skeptic, and fact-checker roles
 Confirmed sequence: researcher -> skeptic -> fact-checker -> labelled evidence report -> owner investigation. Detailed role instructions and outputs are defined in [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md).
@@ -139,7 +142,7 @@ These are separate responsibilities with separate review records. The researcher
 
 Keep collection completion, skeptic review, and claim verification separate. Only checked claims appear as verified; partially checked reports and unresolved material stay labelled and accessible. Verified source-faithfulness does not prove an attributed statement is independently true or a business hypothesis is established. New substantive evidence/claim versions invalidate affected approvals.
 
-No runtime AI is introduced by role names. The initial implementation provides deterministic collection/checking tools and human review steps for contextual logic and source-faithfulness. Automated LLM execution of these roles would require a separate scope decision.
+Automated local LLM execution of these three roles is approved, subject to measured feasibility and free-only operation. Deterministic validators and owner review remain separate. Label model-generated checks as model checks, not independent human verification; keep pending or unresolved cases visible.
 
 
 ## Approved retention policy
@@ -179,7 +182,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q2 | Which additional locations should follow the bounded Canadian/Washington Task 001 sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
 | Q3 | The owner can spend multiple hours reviewing. What exact weekly allocation, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
-| Q5 | Resolved for the initial core: deterministic processing, no runtime AI or model calls; human interpretation remains explicit. |
+| Q5 | Resolved: local AI may execute researcher, skeptic, and fact-checker roles; no paid/cloud model service is authorized. Model/runtime selection and quality remain subject to MacBook feasibility testing. |
 | Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
 | Q7 | Retention approach approved: metadata and permitted sanitized excerpts, no permanent raw live content. Which sources permit the required transient processing/excerpts, and how will cleanup and personal-data exclusion be verified? Transcription remains deferred. |
 | Q8 | Task 001 has functional checks in CODEX_HANDOFF.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |

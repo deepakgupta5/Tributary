@@ -2,6 +2,8 @@
 Status: Draft v0.1
 Updated: 2026-11-03
 
+First Codex checkpoint: execute the local MacBook feasibility task in LOCAL_AI_FEASIBILITY.md before selecting a runtime/model or expanding the collection flow. Do not benchmark the cloud development container as though it were the owner's MacBook.
+
 Stages are outcome-based. Dates, effort, source counts, and quality thresholds remain uncommitted. Initial implementation uses Codex. A working foundation precedes any external program submission; program approval is not assumed.
 
 | Stage | Work | Exit condition |
@@ -9,9 +11,9 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 | 1. Requirements | Refine the PRD, resolve first-release questions, agree evidence/output rules. | Owner approves the first-release scope, acceptance criteria, and unresolved items that can safely wait. |
 | 2. Source feasibility | Populate source register; inspect permitted samples across Canada and Washington and required media types. | Access, formats, gaps, and evidence utility documented; bounded pilot sources proposed. |
 | 3. Manual discovery and human review | Prepare example findings; inspect supporting evidence; owner records relevance and reasons. | Signal definitions refined, review workflow agreed, and measurable first-build quality thresholds set. |
-| 4. Technical design and coding | Select stack; define organization/source/finding/relationship records; build synthetic fixtures, ingestion, matching, deduplication, audit, and review flow. | Fresh checkout runs a complete example; bounded source ingestion works; records reconcile and meaningful checks pass. |
+| 4. Technical design and coding | Validate local role feasibility; select stack; define organization/source/finding/relationship records; build synthetic fixtures, ingestion, matching, deduplication, audit, and review flow. | Fresh checkout runs a complete example; bounded source ingestion works; records reconcile and meaningful checks pass. |
 | 5. QC and real-data review | Check source fidelity, identity errors, unsupported claims, omissions in a reviewed sample, duplicate events, coverage, reruns, and review workload. | Agreed quality thresholds pass or deviations are documented and explicitly accepted; owner can run and explain the foundation. |
-| 6. Submission readiness | Prepare honest public project description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
+| 6. Submission readiness | Disclose local AI roles and business use honestly; prepare public description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
 | 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
 
 ## Execution handoff and sequencing update
@@ -21,7 +23,7 @@ Task 001 establishes the limited first slice and its review checkpoint. Other pr
 
 ## Current scope decisions and pending proposals
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
-- Confirmed: initial core is deterministic with no runtime AI or model calls, including local models. Humans interpret contextual evidence and commercial relevance.
+- Confirmed: deterministic data handling with local AI researcher, skeptic, and fact-checker roles. The owner reviews results; no paid/cloud model service is authorized. Local hardware and role-quality feasibility precede model selection.
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
@@ -76,7 +78,7 @@ Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementa
 ## Researcher, skeptic, and fact-checker workflow
 Task 001 follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
 
-Implement distinct versioned outputs and actors for each review stage. Deterministic tools support human judgment; no runtime LLM roles are authorized. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
+Implement distinct versioned outputs and actors for each review stage. Local LLM roles are authorized; deterministic checks and owner judgment remain separate. Model labels must not impersonate independent human verification. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
 
 
 ## Deferred decisions

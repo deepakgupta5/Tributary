@@ -5,7 +5,7 @@ Updated: 2026-11-03
 ## Purpose
 Record how owner feedback, analysis, and revised instructions change assistant responses and the resulting product. This is a user-required repository practice. It is not a claim that an external program mandates this exact format.
 
-The product remains deterministic. The assistant is used during development. Development feedback differs from private prospect judgments and external program response ratings.
+Current architecture uses deterministic data handling and local AI review roles. Development assistants remain distinct from the installed product. Development feedback differs from private prospect judgments and external program response ratings.
 
 ## Entry requirements
 Record material feedback near the relevant work, with links to issues, pull requests, commits, and checks where available. Keep unsuccessful attempts when they explain a decision. Do not manufacture iterations, backdate entries, or claim unperformed tests.
@@ -79,5 +79,16 @@ Do not copy full session transcripts, restricted task instructions, credentials,
 - Change made: role specifications linked from PRD, SOURCES, ROADMAP, CODEX_HANDOFF, and DECISIONS.
 - Verification and evidence: documentation changes only; no implementation or runtime role execution performed.
 - Outcome: instructions clarified; error reduction remains unmeasured.
-- Remaining issue/next step: implement separate review handoffs in Codex without introducing runtime AI; semantic checks require actual human review under the current constraint.
+- Remaining issue/next step at the time: implement separate handoffs without runtime AI. Superseded by FB-005 and D030: local AI roles are now authorized, with model checks distinct from human review.
 - Related PR: https://github.com/deepakgupta5/Tributary/pull/1
+
+### FB-005: permit local AI review roles and benchmark the actual MacBook
+- Date: 2026-11-03, recording date.
+- Stage/task: architecture and handoff.
+- Owner feedback, assistant-prepared summary: proceed with automated researcher, skeptic, and fact-checker roles; let the external program assess eligibility. Roles can use local AI and need not use an API. Target is the owner's MacBook.
+- Hardware evidence: owner-provided system screenshot shows MacBook Air 15-inch, Apple M5, 24 GB memory, macOS 27.2; approximately 261 GB storage available at the screenshot time. Serial number excluded.
+- Owner rationale: not separately recorded.
+- Revised instruction/constraint: supersede no-runtime-AI restriction for these roles; retain free-only operation, deterministic validation, role separation, and human review.
+- Change made: architecture documents revised; LOCAL_AI_FEASIBILITY.md defines first Codex checkpoint.
+- Verification and evidence: documentation update only. No model installed or benchmark run; local runtime/model choice remains unproven.
+- Outcome: execution scope clarified. Performance and role accuracy remain unmeasured.

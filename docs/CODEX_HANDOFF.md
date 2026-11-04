@@ -12,6 +12,9 @@ The planning conversation defines requirements and prepares repository handoffs.
 
 The earlier chat performed exploratory searches but did not commit a source register, establish automated collection access, or verify a deterministic extraction pipeline. No source should inherit verified status from that exploration.
 
+## Checkpoint 000: local AI feasibility
+Execute [LOCAL_AI_FEASIBILITY.md](LOCAL_AI_FEASIBILITY.md) first. Work within the repository-connected Codex environment and distinguish development-host results from actual MacBook measurements. Produce a reviewable feasibility report before selecting the runtime/model and expanding Task 001. Do not substitute a cloud benchmark or download/install on the owner's computer without an explicitly initiated local setup step.
+
 ## Task 001: first collection-to-review flow
 Build a small, runnable local flow that collects permitted English-language source material, preserves evidence, surfaces transparent rule-based candidates, groups them by organization, and produces an inspectable local review output. Integrate source inspection into this task; do not substitute an unconnected research report for implementation.
 
@@ -23,7 +26,7 @@ The full product scope is Canada and Washington State. This first slice is inten
 3. Inspect candidate source pages/formats and access conditions without persisting unapproved content. Before live collection, document each source's transient-processing, evidence-excerpt, raw-retention, incidental-person-data, logging, deletion, and redistribution decisions. Unresolved handling choices block that source, not synthetic implementation. Populate the source register in SOURCES.md or a linked data file. Distinguish manually readable, permitted automated access, and implemented/tested collection.
 4. Define minimal organization, source, evidence item, candidate finding, rule trigger, and run-audit records. Namespace identifiers by source/jurisdiction. Unknown identity must remain unresolved rather than forced.
 5. Implement collection with explicit network invocation, timeouts, failure reporting, incremental checkpoints, stable identifiers, and rerun deduplication. Offline examples and tests must not call the network.
-6. Implement deterministic rules that surface candidate evidence passages with enough permitted context. Separate source facts, rule triggers, and reviewer interpretation. Do not invent fundraising diagnoses, consulting budgets, or introductions.
+6. Implement deterministic candidate rules and, after Checkpoint 000, the local researcher -> skeptic -> fact-checker pipeline with distinct instructions, contexts, and versioned outputs. Keep deterministic baseline results available for comparison. Separate source facts, rule triggers, and reviewer interpretation. Do not invent fundraising diagnoses, consulting budgets, or introductions.
 7. Produce a local review artifact or minimal interface grouped by organization, with source links, dates, triggered rules, unknowns, and coverage/failure details. A simple output is sufficient for this slice; the final dashboard remains a subsequent increment.
 8. Allow local recording of the separate evidence-quality and relevance judgments defined in the PRD, using synthetic records for public demonstrations. Real feedback/output stays in ignored local paths.
 9. Add meaningful synthetic fixtures and replay checks. Run them, inspect the output, and report exact results and limitations.
@@ -41,16 +44,16 @@ The full product scope is Canada and Washington State. This first slice is inten
 - Review output preserves contradictory/uncertain evidence and access to findings beyond any shortlist. No arbitrary quota discards findings.
 - Private outputs, credentials, raw personal data, and restricted content are absent from tracked files.
 - DEVLOG.md records changes and checks. DEVELOPMENT_FEEDBACK.md distinguishes actual owner feedback from assistant summaries and pending owner review.
-- No runtime model calls, paid service dependencies, unsolicited outreach, account creation, or automatic merge.
+- Local role-model calls are permitted after feasibility checks. No paid/cloud model dependencies, unsolicited outreach, account creation, or automatic merge.
 
 ## Product constraints
 - Geography: Canada and Washington State; English only.
 - Zero additional monetary operating cost. No paid subscriptions, hosting, APIs, or transcription; no automatic paid overages.
-- Deterministic core, explicit human interpretation.
+- Deterministic data handling with local AI research/review roles and explicit owner judgment.
 - Public organizational evidence only. Incidental person data and rights must be handled before storing raw content. Do not commit whole articles/transcripts merely because a page is readable.
 - Initial discovery window: 12 months, with older records for comparisons. Recent six months gets priority only when evidence and relevance are comparable.
 - Event/publication date, current status, relevance, and timing are separate.
-- Daily local collection is the product requirement. First slice supports explicit runs and checkpoint/rerun behavior; OS scheduling is a later task because host OS and preferred time are not agreed.
+- Daily local collection is the product requirement. First slice supports explicit runs and checkpoint/rerun behavior; OS scheduling is a later task. Target OS is macOS 27.2; preferred local run time and actual scheduling behavior remain to be established.
 - Weekly shortlist is an entry point. Human investigation may take multiple hours.
 - Private pursuit choices and real commercial feedback stay outside public code and recorded sessions.
 - No client donor analysis, campaign execution, or outreach.
@@ -63,11 +66,11 @@ No category exclusion or revenue cutoff is approved. Preserve these fields for l
 ## Mandatory research and QC workflow
 Read [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md). Implement distinct researcher, skeptic, and fact-checker responsibilities and versioned handoffs. Research output includes observations, attributed statements, hypotheses, cross-checks, source locators, and a complete claim ledger. Skeptic output is a short ranked list of material evidence/logic problems with remedies. Fact-checker input includes both the full report/ledger and the problem list.
 
-Provide checking of every number, quote, and paraphrase against the original document. Record values/units/periods, quotation fidelity, paraphrase context, claim status, reviewer identity, evidence locator, reasons, and corrections. Unperformed semantic checks remain pending for human review. Do not simulate independent review by reusing a collector success flag or assigning stage names.
+Provide checking of every number, quote, and paraphrase against the original document. Record values/units/periods, quotation fidelity, paraphrase context, claim status, reviewer identity, evidence locator, reasons, and corrections. Unperformed semantic checks remain pending; model checks and subsequent human checks carry distinct actor labels. Do not simulate independent review by reusing a collector success flag or assigning stage names.
 
 Final output distinguishes verified, partly verified, contradicted, unverifiable, and pending claims, with a ranked residual-issue list and check-coverage counts. It does not certify an entire report when only some claims are checked. Changes reopen affected approvals. Keep uncertain findings inspectable, and owner commercial judgments private.
 
-Use deterministic collection/rules and human review steps for contextual skepticism and claim-faithfulness. Do not add runtime model calls, local LLMs, or paid services. This role specification does not authorize automated LLM agents.
+Use deterministic collection/validation plus approved local LLM researcher, skeptic, and fact-checker roles. No paid/cloud model service is authorized. The roles may run sequentially using one model with separate contexts. Record same-model correlated-error limitations; retain owner review. Automation support must be proven, not assumed.
 
 Add fixtures for wrong numbers, missing qualifiers, altered quotes, overstated paraphrases, syndicated corroboration, inaccessible originals, and changed-evidence/reopened-review. Synthetic fixture review is not evidence of live independent checking.
 
@@ -91,4 +94,4 @@ Show the owner the actual review output and ask for feedback on:
 Do not fill in owner judgments. Record pending review until feedback arrives. After feedback, revise prompts/instructions and implementation, rerun relevant checks, and link the before/after evidence in the development feedback log.
 
 ## Copy into Codex
-> Read docs/CODEX_HANDOFF.md and the linked product documents on the documentation branch (or main if merged). Execute Task 001 on a new implementation branch. Integrate bounded source feasibility with a working deterministic collection-to-review flow, synthetic offline replay tests, reconciled audits, and development feedback traceability. Respect free-only operation and data boundaries. Open a PR with run commands, actual checks, limitations, and reviewable output. Do not merge or expand scope before owner review.
+> Read docs/CODEX_HANDOFF.md, docs/LOCAL_AI_FEASIBILITY.md, and linked product documents on the documentation branch (or main if merged). Start Checkpoint 000 on a new implementation branch. Record actual MacBook feasibility results or clearly state local execution is pending. Continue to Task 001 after the feasibility review. Integrate bounded source feasibility with a working collection-to-review flow with deterministic data handling and local AI review roles, synthetic offline replay tests, reconciled audits, and development feedback traceability. Respect free-only operation and data boundaries. Open a PR with run commands, actual checks, limitations, and reviewable output. Do not merge or expand scope before owner review.

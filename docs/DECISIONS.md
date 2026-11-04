@@ -37,7 +37,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
-- The original no-runtime-AI restriction is confirmed for the initial core by D020. AI-assisted development is separate from runtime behavior.
+- The original no-runtime-AI restriction recorded in D020 is superseded by D030. Historical entries remain; current local AI scope governs implementation.
 - No nonprofit category exclusions, size cutoffs, or numeric quality thresholds have been agreed. Daily local collection, weekly shortlist cadence, and the free-only cost constraint are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
@@ -88,6 +88,14 @@ The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and stat
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
 | D029 | 2026-11-03 | Refine D028 into researcher, skeptic, and fact-checker roles with explicit instructions. | Researcher uses prescribed sources and separates facts/speculation; skeptic produces a constructive ranked problem list; fact-checker checks every number, quote, and paraphrase against the original, including unflagged claims. Final report retains claim-level verification flags and unresolved issues. Runtime-AI restriction is unchanged. |
+
+## Local AI scope superseding earlier restrictions
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D030 | 2026-11-03 | Permit local AI researcher, skeptic, and fact-checker roles; supersede D020 and the no-runtime-model portions of D021/D029. | Deterministic data handling remains. Separate role contexts/outputs, model-check labels, and owner review are required. No paid/cloud model service or automatic training is authorized. |
+| D031 | 2026-11-03 | No API interface is required. Local application, CLI, in-process library, or local-only endpoint may be considered. | Free-only operation remains; unattended automation support must be demonstrated. |
+| D032 | 2026-11-03 | Target MacBook Air 15-inch with Apple M5, 24 GB memory, macOS 27.2. | User-provided screenshot; approximately 261 GB available at capture. Do not record serial number. Test actual hardware before selecting runtime/model. |
+| D033 | 2026-11-03 | Proceed with this scope and disclose it honestly for external program assessment. | Eligibility remains unconfirmed; if refused, owner decides whether to revise or continue independently. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

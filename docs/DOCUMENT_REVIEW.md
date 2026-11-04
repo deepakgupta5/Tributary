@@ -22,8 +22,11 @@ The six documents capture the agreed product direction, but were not ready to ha
 | Podcast discussion could imply transcription is an initial feature. | Scope creep or conflict with runtime-model constraints. | Task 001 uses existing text; transcription remains deferred. |
 | PR description still referred to only four documents and resolved questions as open. | Reviewer would see an outdated summary. | Refresh PR metadata with current scope and review findings. |
 
+## Scope update after this review
+The owner subsequently authorized local AI researcher, skeptic, and fact-checker roles, superseding the earlier no-runtime-model restriction. Deterministic data handling remains. Target hardware is MacBook Air 15-inch, Apple M5, 24 GB, macOS 27.2. The next Codex checkpoint is LOCAL_AI_FEASIBILITY.md. This report's historical findings remain a record of the earlier review; current instructions are in the updated PRD and handoff.
+
 ## Confirmed baseline
-Canada and Washington; English only; no paid operating services; no runtime models; 12-month discovery with contextual recency; daily local collection as a future product capability; organization-based review; substantial human investigation; development feedback recorded in Git. Client delivery, donor analysis, campaign execution, and outreach are excluded.
+Canada and Washington; English only; no paid operating services; local runtime review roles now permitted; 12-month discovery with contextual recency; daily local collection as a future product capability; organization-based review; substantial human investigation; development feedback recorded in Git. Client delivery, donor analysis, campaign execution, and outreach are excluded.
 
 ## Blockers versus deferred decisions
 | Item | When needed | Current status |
@@ -44,12 +47,12 @@ For the first live slice, retain source metadata, checksums, and only necessary 
 Owner approved this retention approach on 2026-11-03 and required separate collection/data-QC roles with explicit verification. See PRD.md, DECISIONS.md D027-D028, and CODEX_HANDOFF.md. Access conditions and permitted use still need source-specific inspection.
 
 ## Remaining product risk
-Deterministic rules may produce noisy or incomplete indirect signals. More review hours do not remove that risk. Task 001 must show rule triggers, permit inspection of non-matching/uncertain items, and compare results with a small human-reviewed sample. Quality improvement is not established until observed.
+Deterministic rules and local models may produce noisy or incomplete indirect signals. Model reviews can repeat errors across roles; prompt changes and source-grounded accuracy checks must be measured. More review hours do not remove that risk. Task 001 must show rule triggers, permit inspection of non-matching/uncertain items, and compare results with a small human-reviewed sample. Quality improvement is not established until observed.
 
 Free English-only access will leave geographic/language and audio gaps. A daily run does not guarantee a 12-month archive. Public-page readability does not establish a stable free automated discovery service.
 
 ## README follow-up
-README.md remains the original Canada-only funding-map description and is stale relative to the PRD. Updating its public product summary and documentation links is recommended in the documentation PR; implementation run instructions must wait for working code.
+README.md was updated during the review and now reflects Canada/Washington scope and the subsequently approved local AI roles. Implementation run instructions must wait for working code.
 
 ## Validation
 All six baseline documents were read. Corrections were checked against confirmed discussion decisions; relative Markdown file links and decision-table structure were checked in the prepared document set. No software tests or source trials were run as part of this documentation review.

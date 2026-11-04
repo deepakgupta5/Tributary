@@ -24,7 +24,7 @@ Confirmed initial scope: English-language sources only, including the manual tri
 ## Free-only access and operation
 Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, or other paid operating services. Investigate permitted free sources, published transcripts, and local processing. Do not subscribe, purchase access, or introduce automatic paid overages.
 
-Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from Task 001. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must preserve the deterministic-core and free-only constraints.
+Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from Task 001. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved local-AI scope and free-only constraint; transcription remains a separate deferred feature.
 
 ## Source register fields
 For every discovered source record:
@@ -73,7 +73,7 @@ The integrated source trial must examine whether indirect discovery produces use
 ## Deterministic trial boundary
 Use manual research and transparent rules to test discovery. AI assistance used to prepare code or conduct exploratory research must not be presented as proof that the deterministic product can perform the same interpretation.
 
-For candidate rules, record trigger, supporting passage, false positives, missed relevant material, and the context the reviewer still needs. Test organization identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Preserve enough permitted context for human judgment. No runtime model or local AI integration is part of the initial core.
+For candidate rules, record trigger, supporting passage, false positives, missed relevant material, and the context the reviewer still needs. Test organization identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Preserve enough permitted context for human judgment. Local AI role integration is now authorized after the MacBook feasibility checkpoint. Preserve deterministic baselines so model outputs can be compared with extraction rules and original evidence. Model agreement does not supply independent source corroboration.
 
 ## Daily collection and source checkpoints
 Confirmed: daily local collection when the computer is available. Record per-source attempt and success times, last successful checkpoint, rate/access limits, missed intervals, and whether backfill is possible. On resume, attempt catch-up from the last successful checkpoint without duplicate records. Report unrecoverable feed/archive gaps.

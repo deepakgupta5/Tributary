@@ -8,7 +8,7 @@ Researcher -> Skeptic -> Fact-checker -> labelled evidence report -> owner inves
 
 Each stage reads a versioned input and writes its own output with role identity, actor/run identity, time, and references. The researcher cannot approve its own output as independent QC. The skeptic and fact-checker have distinct instructions and review records; they must not simply inherit the researcher's confidence.
 
-This specifies responsibilities, not an authorization to add runtime AI agents. Under the agreed deterministic core, software gathers evidence, applies rules, and supports structured review; human reviewers perform contextual skepticism and document-faithfulness judgments that deterministic checks cannot establish. Coding assistants may implement and test this workflow. Any future automated LLM execution of these roles requires a separate scope decision. Do not simulate human approval with role names.
+Current authorization: local AI may execute these three roles, with separate instructions, contexts, outputs, and reviewer/run identities. One model may run them sequentially; three models are not required. Same-model passes are not independent corroboration and may repeat errors. Deterministic validators assist the pipeline; the owner reviews conclusions and revises prompts/instructions. Do not simulate human approval with model role names. Follow LOCAL_AI_FEASIBILITY.md before selecting a model/runtime. No paid/cloud model service is authorized, and no API interface is required.
 
 ## Researcher instructions
 1. Work within Canada and Washington State, English-only, free permitted access, and the agreed 12-month discovery window. Use earlier records for comparisons, not as evidence of a current issue without a status check.
@@ -60,7 +60,7 @@ Resolve skeptic issues as corrected, supported as written, limitation retained, 
 - Coverage limits and current-status dates.
 - Links between research version, skeptic issues, verification results, and revisions.
 
-Do not use one green report badge to imply every statement is verified. Verified claims can enter the verified evidence view; unresolved or partial claims remain visible in the investigation view. A partially checked report is not fully verified. Owner commercial relevance is a separate private judgment.
+Do not use one green report badge to imply every statement is verified. Use an explicit actor/basis label such as model-checked, deterministically checked, or human-checked beside each verification result. A model's verified verdict is not a guarantee or human approval. Checked claims can enter the evidence view with those labels; unresolved or partial claims remain visible in the investigation view. A partially checked report is not fully verified. Owner commercial relevance is a separate private judgment.
 
 ## Corrections and replay
 A substantive edit creates a new version. Reopen affected verification and skeptic issues; retain prior decisions. Deterministic tests should exercise numeric mismatch, altered quote, overstated paraphrase, missing qualifier, duplicate corroboration, unresolved identity, inaccessible original, and stale approval after edits. Synthetic fixture answers are not substitutes for live human review.
