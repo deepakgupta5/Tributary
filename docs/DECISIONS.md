@@ -2,7 +2,7 @@
 Status: Draft v0.1
 Recorded: 2026-11-03
 
-Dates below are recording dates, not claims about when a discussion originally occurred. Current direction is D036-D038 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
+Dates below are recording dates, not claims about when a discussion originally occurred. Current direction includes D036-D045 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
 
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
@@ -29,7 +29,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 
 ## Pending proposals, not agreed decisions
 The authoritative open-product-decision register is PRD.md, Open decisions. Earlier proposals remain unapproved unless a subsequent owner decision resolves them:
-- Organization eligibility and size exclusions: PRD Q1.
+- Remaining undecided organization categories: PRD Q1; starting categories and no revenue cutoff are confirmed by D043.
 - Owner availability, shortlist/ranking and expansion rules: PRD Q3.
 - Collection scheduling and source-specific refresh details: PRD Q6.
 - Other unresolved design/source/quality/start choices: PRD Q2 and Q7-Q10.
@@ -38,7 +38,7 @@ The authoritative open-product-decision register is PRD.md, Open decisions. Earl
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
 - The original no-runtime-AI restriction recorded in D020 is superseded by D030. Historical entries remain; D036 supersedes the local-model interpretation.
-- No nonprofit category exclusions, size cutoffs, or numeric quality thresholds have been agreed. Daily local collection, weekly shortlist cadence, and the free-only cost constraint are confirmed.
+- D043 confirms starting categories and no revenue cutoff; other named categories remain undecided. Numerical quality thresholds remain unapproved. Daily collection, weekly shortlist cadence, and free-only operation are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
 ## Further confirmed decisions
@@ -122,6 +122,13 @@ The authoritative open-product-decision register is PRD.md, Open decisions. Earl
 | D040 | 2026-11-03 | The same four checkpoints apply to findings, nonprofit additions, and daily source additions. | Collection/separate data QC, researcher, skeptic, and fact-checker are required; collector cannot approve its own proposals. Material changes reopen affected checks. Unchanged approved records do not require full daily re-review. |
 | D041 | 2026-11-03 | The project plan has a beginning baseline, the first seven project days with expected achievements and reconciliation, and an ongoing cycle from week two. | PROJECT_PLAN.md records scope, deliverables, QC/testing, dependencies, evidence-based acceptance, and reconciliation. The owner separately instructs Codex to implement; no execution authorization is created for the planning conversation. |
 | D042 | 2026-11-03 | The deliverable is one consistent product-documentation baseline with open decisions explicitly identified and no unapproved numerical quality targets or source quotas. | PRD.md is the single open-product-decision register. First-week day numbers are planning targets, not promises, measured results, or a start date. |
+
+## Confirmed starting scope and first delivery
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D043 | 2026-11-03 | Begin with service-delivery nonprofits; include foundations and umbrella bodies as potential buyers or routes in; no revenue cutoff. | Hospitals, universities, religious organizations, and advocacy groups remain undecided and pending admission decisions, not silently included or permanently excluded. |
+| D044 | 2026-11-03 | The first live sample focuses on BC and Washington, using local reporting, organization publications, and official/funder records. | Overall geography remains Canada and Washington. Specific endpoints/localities and subsequent expansion remain design choices; no source quota is approved. |
+| D045 | 2026-11-03 | The initial delivery is Day 1 only: documentation inspection and proposed technical design, record formats, initial source sample, and test matrix. | The proposal returns to the owner for review before implementation. Days 2-7 remain conditional; implementation requires separate owner authorization. All execution assignments still pass through owner chat. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

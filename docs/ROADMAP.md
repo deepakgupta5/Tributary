@@ -26,7 +26,9 @@ Source feasibility, a bounded working implementation, technical QC, and owner re
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
 - Confirmed: deterministic data handling and separate coding-session research roles. Codex runs the initial workflow; Claude Code can later continue from the repository. No new paid runtime service is introduced.
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
-- Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
+- Confirmed: service-delivery nonprofits; foundations and umbrella bodies as potential buyers/routes; no revenue cutoff. Hospitals, universities, religious organizations, and advocacy groups remain undecided.
+- Confirmed: BC/Washington first live sample, prioritizing local reporting, organization publications, and official/funder records. The overall geography remains Canada and Washington.
+- Confirmed: first delivery is Day 1 design only, returning proposed technical design, record formats, source sample, and test matrix for owner review before separately authorized implementation.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
 - Confirmed: daily local collection. Exact run time and source-specific access exceptions remain open.
 - Confirmed: human review can take multiple hours. Exact weekly allocation, shortlist size, and ranking rules remain open.
@@ -55,7 +57,7 @@ Use synthetic fixtures with planted identity, duplicate, date, and malformed-inp
 
 Maintain a dated development log and commit actual changes as work happens. The owner must be able to run the foundation, inspect its output, and explain its limits. No inherited ticket count or effort estimate is treated as a requirement.
 
-## First technical slice, pending documentation approval
+## First technical slice, conditional on Day 1 design review and implementation approval
 The initial implementation integrates source inspection with a synthetic end-to-end example and bounded live collection where permitted. It demonstrates evidence becoming a dated organization finding in a review queue. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
 
 Clear each live source's access and content-handling gate before collecting it. If all live sources are blocked, the synthetic foundation can pass its own checks, but live feasibility remains unproven. Broader source coverage and relevance thresholds follow owner review.

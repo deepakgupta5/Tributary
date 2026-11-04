@@ -13,13 +13,16 @@ This document specifies software behavior and evidence requirements. Coding assi
 - Researcher, skeptic, and fact-checker roles executed within coding sessions with distinct contexts and outputs.
 - Separate evidence quality and private business relevance judgments.
 - Local inspectable output grouped by organization; complete dashboard styling is outside the initial scope.
-- A bounded English-language source sample includes Canadian local/community reporting and Washington local/community or funder material. Dated interviews or existing podcast text are additional candidates.
+- The first bounded English-language live sample focuses on BC and Washington, prioritizing local reporting, organization publications, and official/funder records. Dated interviews or existing podcast text remain additional candidates for expansion.
 - Limited source coverage and unavailable source types remain explicit.
 
 Workflow evaluation is described in WORKFLOW_EVALUATION.md. A synthetic executable foundation does not establish live-source coverage, autonomous reasoning, or daily scheduling.
 
 ## Expanding-register scope
 The bounded foundation demonstrates source-to-organization and organization-to-source discovery, versioned candidate queues, and all four checkpoints before admission. Collection and data QC have separate responsibilities. Unresolved or blocked additions remain visible, merges retain provenance, and changed records reopen affected checks. Daily source/organization growth is not a quota. PROJECT_PLAN.md defines the baseline, first seven project days, and ongoing reconciliation; PRD.md holds open decisions.
+
+## Initial design boundary
+Starting eligibility is service-delivery nonprofits, with foundations and umbrella bodies as potential buyers/routes and no revenue cutoff. Hospitals, universities, religious organizations, and advocacy groups remain undecided. The first delivery is a Day 1 technical-design proposal, record formats, proposed source sample, and test matrix for owner review. Implementation is separately authorized after that review; this specification is not an execution assignment.
 
 ## Data records
 The minimum record types are organization, source, evidence item, claim, candidate finding, role output, review judgment, and run audit. Records retain stable identifiers, versions, source locators, dates or explicit unknowns, geography, identity certainty, and evidence references.
@@ -60,4 +63,4 @@ Gate A covers synthetic functionality and software checks. Gate B covers permitt
 Malformed input; missing dates; ambiguous identity; exact/syndicated duplicates; irrelevant keywords; indirect clues with alternative explanations; numeric mismatch; altered quotes; overstated paraphrases; omitted qualifications; inaccessible originals; partial runs; rerun idempotence; stale approval; and source text containing untrusted instructions.
 
 ## Deferred scope
-Nationwide crawling, full funding graph, all source adapters, advanced ranking, polished dashboard, scheduler installation, audio transcription, hosting, and productization are later increments. Source coverage, benchmark quality, and operating constraints govern their feasibility. Category exclusions, revenue cutoffs, and a license have not been selected.
+Nationwide crawling, full funding graph, all source adapters, advanced ranking, polished dashboard, scheduler installation, audio transcription, hosting, and productization are later increments. Source coverage, benchmark quality, and operating constraints govern their feasibility. Starting categories and no revenue cutoff are confirmed. Additional categories, specific source endpoints, and a license remain open.

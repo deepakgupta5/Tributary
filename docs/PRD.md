@@ -1,5 +1,5 @@
 # Tributary product requirements
-Status: Draft v0.1, not approved for implementation
+Status: Starting eligibility, pilot geography, and design-only first delivery confirmed; implementation approval remains separate
 Owner: Deepak Gupta
 Updated: 2026-11-03
 
@@ -17,9 +17,15 @@ The initial geographic scope is all of Canada and Washington State. Oregon and C
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
 ## Project baseline and delivery
-[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, seven-day implementation planning targets, reconciliation, deliverables, and ongoing weekly cycle. Day 1 begins only with the owner's separate implementation instruction; no start date is assumed. Implementation timing is conditional on dependencies and actual evidence. This planning conversation maintains documentation, not executable implementation.
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, seven-day implementation planning targets, reconciliation, deliverables, and ongoing weekly cycle. Day 1 begins only with the owner's separate design-assignment instruction; no start date is assumed. Implementation follows owner review of the design proposal and separate authorization. Implementation timing is conditional on dependencies and actual evidence. This planning conversation maintains documentation, not executable implementation.
 
 No numerical quality targets, source quotas, organization quotas, throughput targets, or forced shortlist count have been approved. Expected source/organization growth is measured, not promised. Product open choices are listed only in this document's Open decisions section; other documents refer here.
+## Confirmed starting decisions
+- Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
+- Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
+- First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
+- Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+
 ## Discovery requirements
 Discovery must cover both pressure and opportunity. Successful fundraising or expansion is not a prerequisite. Candidate signals include:
 | Category | Evidence to investigate |
@@ -193,13 +199,13 @@ This is the authoritative open-product-decision register. Resolved requirements 
 
 | ID | Open choice | Dependency / when required |
 | --- | --- | --- |
-| Q1 | Nonprofit categories and size ranges, if any, to exclude. Broad service-delivery coverage, eligible foundations/umbrella bodies and other relevant categories, and no initial revenue cutoff remain proposals. | Bounded eligibility rules agreed before live organization admission; no silent blanket exclusions. Synthetic work can proceed without claiming approval of these proposals. |
-| Q2 | Initial seed sources/localities and the next expansion priorities. No source or organization quota is approved. | Bounded source selection by first-week design; source-specific admission before routine collection; expansion priorities revisited weekly. |
+| Q1 | Whether and when to include hospitals, universities, religious organizations, and advocacy groups. Service-delivery nonprofits plus foundations/umbrella bodies as potential buyers/routes are confirmed, with no revenue cutoff. | Undecided categories remain pending an owner decision before admission; they do not block the approved starting categories or Day 1 design. |
+| Q2 | Specific source endpoints/localities within the confirmed BC/Washington pilot and subsequent expansion priorities. Priority source types are local reporting, organization publications, and official/funder records. No quota is approved. | The first design proposal includes the proposed source sample; source-specific admission precedes routine collection. Canada-wide geography remains the product scope. |
 | Q3 | Exact weekly owner availability, shortlist presentation, ranking, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity and no forced shortlist quota are confirmed. | Owner availability before scheduling review; detailed ranking/batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
 | Q6 | Local run time, scheduler mechanism, source-specific refresh exceptions, and comparison periods beyond the agreed discovery window. | Before unattended daily operation or source-specific scheduling; initial research can remain owner-initiated. |
 | Q7 | Source-specific access, permitted transient processing/excerpts, cleanup, personal-data handling, and redistribution basis. | Before inspection/collection under the applicable source conditions. Whole live content is not permanently stored. Transcription is deferred. |
 | Q8 | Measured numerical quality/omission thresholds and the source/role evaluation sample. Required functional checks and complete claim accounting are already specified. | Measurement method before the trial; numerical acceptance targets require owner approval before a numerical pass claim. Trial observations can be reported without declaring an unapproved threshold met. |
 | Q9 | Implementation stack, persistent-store/export formats, role execution details, and license. | Stack/contracts during initial technical design; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
-| Q10 | Implementation start date, owner approval state, availability, and first-week capacity. | Before converting project days into dated commitments. Approval of the planning document does not start code execution here. |
+| Q10 | Start date/availability for the design stage and later implementation approval/capacity. The initial authorized delivery scope is Day 1 design only. | Owner chat initiates the design assignment; its proposal returns for owner review before implementation. No calendar start date or implementation permission is implied. |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.

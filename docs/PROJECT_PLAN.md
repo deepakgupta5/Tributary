@@ -9,6 +9,12 @@ This plan defines the beginning, first seven project days, ongoing cycle, expect
 
 There are no approved numerical accuracy targets, source quotas, organization quotas, weekly shortlist quotas, throughput promises, or effort estimates. Counts are observations unless the owner approves a target separately. Requirements such as checking every number, quote, and paraphrase remain applicable. No target date can turn an incomplete check into a pass.
 
+## Confirmed starting decisions
+- Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
+- Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
+- First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
+- Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+
 ## Part 1: Beginning and baseline
 
 ### Purpose, scope, and expectations
@@ -56,15 +62,15 @@ Gate A is the synthetic foundation. Gate B is the bounded live flow. Owner usefu
 ### Responsibilities and beginning checkpoint
 The planning conversation reviews and updates product documentation and reports its judgments to the owner in chat. The owner separately instructs repository-connected Codex to implement and run tests, assesses usefulness, and approves scope changes. Codex implementation artifacts are evaluated from actual results. Claude Code may later continue from the same repository; private data access is separate.
 
-The beginning checkpoint is a consistent documentation baseline with open decisions identified, an owner-approved bounded first increment, and no fabricated targets or source counts. Approval of this plan does not itself start implementation. Source-specific access/handling is required before live material is collected.
+The starting eligibility, BC/Washington pilot, and design-only first delivery are owner-confirmed. The beginning checkpoint is a consistent documentation baseline with remaining open decisions identified and no fabricated targets or source counts. Day 1 returns a design proposal for owner review before implementation. Approval of this plan does not itself launch work or authorize implementation. Source-specific access/handling is required before live material is collected.
 
 ## Part 2: First seven project days
-This is a dependency-based planning target. The clock starts with the owner's implementation instruction; start date and availability remain unset. If a dependency fails, the affected outcome remains incomplete and is carried forward with a reason. It is not replaced by an invented pass or a weaker unrecorded requirement.
+This is a dependency-based planning target. Day 1 starts with the owner's design-assignment instruction; start date and availability remain unset. Days 2-7 remain conditional planning targets and cannot begin implementation until the owner reviews the Day 1 proposal and separately authorizes it. If a dependency fails, the affected outcome remains incomplete and is carried forward with a reason. It is not replaced by an invented pass or a weaker unrecorded requirement.
 
 | Day | Planned outcome | Expected deliverables and completion evidence | Dependency |
 | --- | --- | --- | --- |
-| 1 | Approved bounded scope and acceptance design. | Baseline approval state, initial source candidates and coverage rationale, record contracts, test matrix, and open dependencies. No preset source/organization count. | Owner implementation instruction and approval of the bounded increment. |
-| 2 | Synthetic collection and persistent evidence foundation. | Source/organization references, storage/provenance, identity uncertainty, duplicate handling, reconciled dispositions, and reruns without multiplying records. | Day 1 contracts and synthetic fixtures. |
+| 1 | Design proposal only, returned for owner review before implementation. | Documentation inspection, proposed technical design, record formats, proposed BC/Washington source sample and coverage rationale, test matrix, and remaining design decisions. No preset source/organization count. | Owner instruction to begin the design assignment. No implementation or test execution is part of this stage. |
+| 2 | Synthetic collection and persistent evidence foundation. | Source/organization references, storage/provenance, identity uncertainty, duplicate handling, reconciled dispositions, and reruns without multiplying records. | Owner review of Day 1 proposal, separate implementation authorization, agreed contracts, and synthetic fixtures. |
 | 3 | Expanding registers and admission flow. | Both discovery directions demonstrated; candidate queues, four-check admission records, merges/exclusions, changed-version rechecks, and coverage reporting. | Day 2 storage and identifiers. |
 | 4 | Complete research-to-report flow. | Separate researcher, skeptic, and fact-checker inputs/outputs; source locators, claim checks, residual problems, and a reviewable report. Actual role outputs are distinct from fixture replay. | Evidence storage and versioned review/admission logic. |
 | 5 | Bounded live collection through the same flow. | Permitted Canadian and Washington source material, actual findings/candidate additions, access/QC results, and explicit gaps. If blocked, Gate B remains incomplete. | Source access/retention decisions and a working synthetic flow. |
@@ -104,6 +110,6 @@ Expansion batches have continuation points so research does not become an unboun
 Daily scheduling is adopted only after its checkpoints, catch-up, failure handling, and actual operational run have been demonstrated. Source access limits and free-only operation still apply. Weekly reporting continues even when no useful findings are produced.
 
 ## Open decisions and change control
-The authoritative open-decision register is the Open decisions section in PRD.md. The source sample, organization eligibility limits, technical stack, numerical quality thresholds, ranking/expansion rules, scheduling mechanism/time, source-specific permissions, and start date remain explicitly unresolved where not already agreed.
+The authoritative open-decision register is the Open decisions section in PRD.md. Starting organization eligibility, no revenue cutoff, BC/Washington pilot geography, priority source types, and the Day 1 design-only review boundary are confirmed. Specific source endpoints, undecided organization categories, technical stack, numerical quality thresholds, ranking/expansion rules, scheduling mechanism/time, source-specific permissions, and start date remain unresolved.
 
 Decisions affecting Gate A, Gate B, weekly prioritization, or later operation are identified by their dependency rather than all being treated as day-zero blockers. Approved changes update the affected product documents and factual decision history together. Execution prompts, assistant-to-assistant handoffs, assistant review judgments, private prospect decisions, and unaided program ratings are not part of this plan.

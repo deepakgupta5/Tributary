@@ -31,7 +31,7 @@ Sources reveal new organizations; organization research reveals new sources. Dis
 
 Canonical source admission states are candidate, inspected, approved for collection, blocked, merged, or inactive. Organization admission states are candidate, identity unresolved, admitted, merged, or excluded with reason. Fetch/parse status and the four checkpoint results are separate fields. Both registers and findings follow all four checks in RESEARCH_WORKFLOW.md before admission/approval; pending and blocked records remain visible.
 
-Permitted bounded source inspection provides evidence for admission, without authorizing routine collection. Access and transient-retention conditions apply to inspection too. Newly approved sources can supply available 12-month history and then incremental checks, with archive gaps recorded. Both discovery directions are evaluated in the bounded foundation. Detailed seed samples, batch sizes, and expansion rules remain open in PRD.md.
+Permitted bounded source inspection provides evidence for admission, without authorizing routine collection. Access and transient-retention conditions apply to inspection too. Newly approved sources can supply available 12-month history and then incremental checks, with archive gaps recorded. Both discovery directions are evaluated in the bounded foundation. BC and Washington State are the confirmed first live-sample geography; local reporting, organization publications, and official/funder records are the priority source types. Specific endpoints/localities, batch sizes, and subsequent expansion rules remain open in PRD.md.
 
 Coverage reports distinguish discovered, admitted, configured, attempted, and successfully checked sources, and known/admitted organizations. Gaps by geography and source type guide expansion. No percentage of the entire nonprofit universe is inferred from an incomplete register.
 ## Source register fields
@@ -57,7 +57,7 @@ Checkpoint outcomes are recorded for each reviewed source version. Inspection/ac
 Search snippets can help discover a source but cannot alone verify a finding. A blocked or paywalled item remains an access gap unless authorized full evidence is available. Do not bypass access controls.
 
 ## Source inspection and human review within development
-Select a documented sample of English-language material across Canadian regions and Washington State, localities of different sizes, source types, and pressure/opportunity categories. Sample size and locations remain open; do not treat a small sample as proof of full geographic feasibility.
+The first proposed live sample uses English-language BC and Washington material, prioritizing local reporting, organization publications, and official/funder records. Specific endpoints/localities and sample size remain open; no quota is approved. Expansion later covers other Canadian regions and broader source types, including interviews. A bounded sample does not establish full geographic feasibility.
 
 For each search/source checked, retain the query or retrieval method, date, outcome, and zero-result/access-failure cases. Prepare evidence-backed example findings for human review. Record useful findings, misleading indicators, missing evidence, duplicate stories, and unavailable material.
 

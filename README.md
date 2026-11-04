@@ -11,6 +11,12 @@ Planning documents only. No collector, dashboard, daily scheduler, or verified s
 [PROJECT_PLAN.md](docs/PROJECT_PLAN.md) defines the starting baseline, the first seven project days, and week two onward. [PRD.md](docs/PRD.md) is the single open-product-decision register. The plan is documentation, not authorization to execute implementation in the planning conversation. The start date is unset. Numerical quality thresholds and source/organization quotas have not been approved.
 
 Both the organization register and source register expand continuously. Findings, organization additions, and source additions all pass collection/data QC, researcher, skeptic, and fact-checker checkpoints. Collection and data QC are separate responsibilities. Candidate discovery does not itself admit a record.
+## Confirmed starting decisions
+- Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
+- Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
+- First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
+- Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+
 ## Documents
 - [Project plan and baseline](docs/PROJECT_PLAN.md)
 - [Product requirements](docs/PRD.md)

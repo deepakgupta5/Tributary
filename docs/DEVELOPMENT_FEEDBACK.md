@@ -31,6 +31,7 @@ Owner reasoning is recorded only when supplied by the owner. Synthetic fixture o
 | Repository communication | "no assistant-to-Codex instructions" | D034-D035. |
 | Expanding registers | "even the list of non profits AND the daily source addition have to go through these 4 checks" | D039-D040; four checkpoints apply to all three record types. |
 | Baseline deliverable | "one consistent baseline in the product documents, with open decisions explicitly identified. No unapproved numerical quality targets or source quotas." | D041-D042; PROJECT_PLAN.md and the PRD open-decision register. |
+| Starting decisions | "agree on all three...lock them" | D043-D045: starting categories/no revenue cutoff, BC/Washington pilot, and design-only first delivery for review before implementation. |
 | Instruction channel | "all instructions via me only", "in the chat" | D034-D035. |
 
 These entries record product decisions, not paid-session ratings or a claim of software validation. Private commercial judgments, credentials, client data, and restricted source content are excluded.
