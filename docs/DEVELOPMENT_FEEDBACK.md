@@ -5,7 +5,7 @@ Recorded: 2026-11-03
 ## Scope
 This record contains owner-provided product feedback, resulting product changes, and actual validation evidence. Assistant opinions, assistant-to-assistant messages, review verdicts, task assignments, and execution prompts are excluded. All such communication passes through the owner in chat.
 
-No implementation or hardware benchmark has been completed at this documentation stage.
+Actual implementation checks are recorded in DEVLOG.md. No hardware benchmark is required by current scope.
 
 ## Record fields
 - Date and product area.
@@ -27,7 +27,7 @@ Owner reasoning is recorded only when supplied by the owner. Synthetic fixture o
 | Collection | "daily run" | Collection schedule and D023. |
 | Human review | "I can spend multiple hours on this" | Review capacity and D024. |
 | Collection/data QC | "data collection and data QC has to be seperate roles" | Research workflow and D028-D029. |
-| Local AI | "and these all can be my local AI" | Local AI scope and D030-D031. |
+| Execution continuity | "Build everything as if you are running in Codex (the way I would run in Claude Code)" | D036 supersedes the earlier local-inference interpretation. |
 | Repository communication | "no assistant-to-Codex instructions" | D034-D035. |
 | Instruction channel | "all instructions via me only", "in the chat" | D034-D035. |
 

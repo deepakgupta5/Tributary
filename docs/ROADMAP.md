@@ -2,19 +2,17 @@
 Status: Draft v0.1
 Updated: 2026-11-03
 
-Local hardware and role-quality feasibility precede runtime/model selection and collection expansion. Measurements on development hosts and on the target MacBook are separate evidence categories. See [LOCAL_AI_FEASIBILITY.md](LOCAL_AI_FEASIBILITY.md).
+Development occurs in bounded increments in Codex. The repository preserves code, logic, product role definitions, data contracts, tests, and factual outcomes so Claude Code can later continue the work. No model installation, provider adapter, or hardware test is a prerequisite. See [WORKFLOW_EVALUATION.md](WORKFLOW_EVALUATION.md).
 
-Stages are outcome-based. Dates, effort, source counts, and quality thresholds remain uncommitted. Implementation tool selection and assignments remain with the owner. A working foundation precedes any external program submission; program approval is not assumed.
-
-| Stage | Work | Exit condition |
+| Stage | Outcome | Evidence |
 | --- | --- | --- |
-| 1. Requirements | Refine the PRD, resolve first-release questions, agree evidence/output rules. | Owner approves the first-release scope, acceptance criteria, and unresolved items that can safely wait. |
-| 2. Source feasibility | Populate source register; inspect permitted samples across Canada and Washington and required media types. | Access, formats, gaps, and evidence utility documented; bounded pilot sources proposed. |
-| 3. Manual discovery and human review | Prepare example findings; inspect supporting evidence; owner records relevance and reasons. | Signal definitions refined, review workflow agreed, and measurable first-build quality thresholds set. |
-| 4. Technical design and coding | Validate local role feasibility; select stack; define organization/source/finding/relationship records; build synthetic fixtures, ingestion, matching, deduplication, audit, and review flow. | Fresh checkout runs a complete example; bounded source ingestion works; records reconcile and meaningful checks pass. |
-| 5. QC and real-data review | Check source fidelity, identity errors, unsupported claims, omissions in a reviewed sample, duplicate events, coverage, reruns, and review workload. | Agreed quality thresholds pass or deviations are documented and explicitly accepted; owner can run and explain the foundation. |
-| 6. Submission readiness | Disclose local AI roles and business use honestly; prepare public description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
-| 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
+| 1. Synthetic foundation | Collection to stored evidence to three review stages to report. | Fresh-checkout run, structured records, failure handling, known-answer tests, and actual outputs. |
+| 2. Bounded live increment | Permitted sources in Canada and Washington feed the same flow. | Source register, original evidence, coverage gaps, source checks, and owner feedback. |
+| 3. Refinement | Correct missed context, identity, duplicates, and role failures. | Changed rules/contracts, regression tests, and observed improvements or unresolved failures. |
+| 4. Daily operation | Scheduling, checkpoints, catch-up, and visible failures. | Interrupted/missed-run tests and an actual operational run; unattended reasoning assessed separately. |
+| 5. Expansion and submission | Broader demonstrated coverage and inspectable working history. | Measured coverage/quality, documented limits, honest external program disclosure. |
+
+Stages do not imply dates, ticket counts, paid hours, or program approval. Owner feedback accompanies every increment. A broad manual source study is not required before implementing the bounded foundation.
 
 ## Incremental implementation
 Source feasibility, a bounded working implementation, technical QC, and owner review form repeated activities within small increments. A nationwide research exercise is not a prerequisite to all coding.
@@ -24,7 +22,7 @@ Source feasibility, a bounded working implementation, technical QC, and owner re
 
 ## Current scope decisions and pending proposals
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
-- Confirmed: deterministic data handling with local AI researcher, skeptic, and fact-checker roles. The owner reviews results; no paid/cloud model service is authorized. Local hardware and role-quality feasibility precede model selection.
+- Confirmed: deterministic data handling and separate coding-session research roles. Codex runs the initial workflow; Claude Code can later continue from the repository. No new paid runtime service is introduced.
 - Confirmed: initial source trial and release use English only across Canada and Washington State. Record other-language coverage gaps.
 - Pending: organization-category exclusions and size thresholds; broad eligibility and no revenue cutoff are proposals only.
 - Confirmed: organization-based searchable dashboard with new/changed, organization profile, and coverage views; a weekly shortlist without a forced quota; separate evidence-quality and relevance judgments.
@@ -74,12 +72,12 @@ Scheduling is a later implementation deliverable, not an automation already runn
 Confirmed: the owner can spend multiple hours reviewing prospects. Exact weekly allocation remains open. Test detailed organization profiles, source context, conflicting evidence, candidate explanations, and access to uncertain findings beyond the shortlist. Record review time as an observation, not a restrictive target. Do not discard useful candidates to meet an arbitrary count or time limit.
 
 ## Development feedback traceability
-Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementation: initial instruction, observed response, actual owner feedback, revised instructions, resulting change, and verification evidence. Link code changes and checks. Preserve unresolved and unsuccessful outcomes where material. Update the record during work rather than reconstructing an invented history. Private or restricted material stays outside the public log.
+Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementation: owner-provided product feedback, changed requirement or implementation, related commits, actual verification evidence, and unresolved factual limits. Execution prompts and assistant review judgments remain in owner chat. Link code changes and checks. Preserve unresolved and unsuccessful outcomes where material. Update the record during work rather than reconstructing an invented history. Private or restricted material stays outside the public log.
 
 ## Researcher, skeptic, and fact-checker workflow
 The initial implementation follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
 
-Implement distinct versioned outputs and actors for each review stage. Local LLM roles are authorized; deterministic checks and owner judgment remain separate. Model labels must not impersonate independent human verification. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
+Implement distinct versioned outputs and actors for each review stage. Coding-session role execution is authorized; deterministic checks and owner judgment remain separate. Model labels must not impersonate independent human verification. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
 
 
 ## Deferred decisions

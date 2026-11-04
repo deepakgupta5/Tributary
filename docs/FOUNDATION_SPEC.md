@@ -3,20 +3,20 @@ Status: Draft technical scope
 Recorded: 2026-11-03
 
 ## Purpose
-The foundation demonstrates a bounded local collection-to-review flow. Source feasibility, implementation, data QC, and owner review are evaluated together. Full product geography remains Canada and Washington State.
+The foundation demonstrates a bounded collection-to-report flow executed in the coding environment. Source feasibility, implementation, data QC, and owner review are evaluated together. Full product geography remains Canada and Washington State.
 
 This document specifies software behavior and evidence requirements. Coding assignments and execution instructions are supplied by the owner in chat.
 
 ## Scope
 - Local execution with zero additional monetary operating cost.
 - Deterministic collection controls, identifiers, arithmetic checks, deduplication, counters, and checkpoints.
-- Local AI researcher, skeptic, and fact-checker roles with distinct contexts and outputs.
+- Researcher, skeptic, and fact-checker roles executed within coding sessions with distinct contexts and outputs.
 - Separate evidence quality and private business relevance judgments.
 - Local inspectable output grouped by organization; complete dashboard styling is outside the initial scope.
 - A bounded English-language source sample includes Canadian local/community reporting and Washington local/community or funder material. Dated interviews or existing podcast text are additional candidates.
 - Limited source coverage and unavailable source types remain explicit.
 
-Local model/runtime suitability is an unproven prerequisite described in LOCAL_AI_FEASIBILITY.md. There is no installed collector, model integration, or scheduler at this documentation stage.
+Workflow evaluation is described in WORKFLOW_EVALUATION.md. A synthetic executable foundation does not establish live-source coverage, autonomous reasoning, or daily scheduling.
 
 ## Data records
 The minimum record types are organization, source, evidence item, claim, candidate finding, role output, review judgment, and run audit. Records retain stable identifiers, versions, source locators, dates or explicit unknowns, geography, identity certainty, and evidence references.
@@ -45,7 +45,7 @@ Persisted live content is limited to metadata, checksums where available, and pe
 | Live feasibility | Permitted retrieval and parseable evidence from a Canadian source and a Washington source. Blocked portions remain incomplete. |
 | Claim provenance | IDs, source locators, dates/unknowns, organization certainty, role/model/prompt versions, and supporting evidence. |
 | Data QC | Reconciled dispositions, duplicate handling, identity uncertainty, and no success inherited from collection alone. |
-| Role quality | Expected synthetic outcomes compared with measured local outputs; errors and false verification reported. |
+| Role quality | Expected synthetic outcomes compared with recorded role outputs; errors and false verification reported. |
 | Versioning | Changed evidence reopens affected reviews. |
 | Privacy/retention | No unapproved raw content, credentials, device serial numbers, or private judgments in tracked files. |
 | Human review | Actual owner feedback distinguished from assistant summaries and unperformed review. |

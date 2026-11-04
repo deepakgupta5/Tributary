@@ -19,12 +19,12 @@ Initial geography: all Canadian provinces and territories, plus Washington State
 | Funder/community networks | Foundation grant lists, sponsored support programs, umbrella bodies, event material | Organizational connections and funded support routes. |
 
 ## Language boundary
-Confirmed initial scope: English-language sources only, including the manual trial. Track French and other languages as coverage gaps across Canada and Washington State. Do not imply that all-language coverage exists in any jurisdiction. English sources concerning any in-scope location remain eligible.
+Confirmed initial scope: English-language sources only, including the integrated trial. Track French and other languages as coverage gaps across Canada and Washington State. Do not imply that all-language coverage exists in any jurisdiction. English sources concerning any in-scope location remain eligible.
 
 ## Free-only access and operation
 Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, or other paid operating services. Investigate permitted free sources, published transcripts, and local processing. Do not subscribe, purchase access, or introduce automatic paid overages.
 
-Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from the initial implementation. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved local-AI scope and free-only constraint; transcription remains a separate deferred feature.
+Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from the initial implementation. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved coding-session scope and free-only constraint; transcription remains a separate deferred feature.
 
 ## Source register fields
 For every discovered source record:
@@ -70,10 +70,10 @@ Search beyond explicit terms such as fundraising shortfall. Inspect local interv
 
 The integrated source trial must examine whether indirect discovery produces useful, defensible investigation prompts. Include weak or misleading clues and checks for subsequent resolution; do not measure success solely by finding explicit admissions. Log access gaps and unsuccessful searches.
 
-## Deterministic trial boundary
-Use manual research and transparent rules to test discovery. AI assistance used to prepare code or conduct exploratory research must not be presented as proof that the deterministic product can perform the same interpretation.
+## Integrated discovery evaluation
+Source inspection, code, actual collection attempts, role outputs, and owner feedback are evaluated in bounded development increments. There is no nationwide manual trial prerequisite to coding.
 
-For candidate rules, record trigger, supporting passage, false positives, missed relevant material, and the context the reviewer still needs. Test organization identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Preserve enough permitted context for human judgment. Local AI role integration is now authorized after the MacBook feasibility checkpoint. Preserve deterministic baselines so model outputs can be compared with extraction rules and original evidence. Model agreement does not supply independent source corroboration.
+Record rule triggers, supporting passages, false positives, missed relevant material, and context still needed. Test identity, syndication, date handling, and audit reconciliation separately from commercial relevance. Coding-session role outputs must be compared with original evidence and known-answer fixtures. A fixture replay does not demonstrate reasoning quality, and model agreement is not independent source corroboration.
 
 ## Daily collection and source checkpoints
 Confirmed: daily local collection when the computer is available. Record per-source attempt and success times, last successful checkpoint, rate/access limits, missed intervals, and whether backfill is possible. On resume, attempt catch-up from the last successful checkpoint without duplicate records. Report unrecoverable feed/archive gaps.

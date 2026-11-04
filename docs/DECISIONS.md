@@ -2,7 +2,7 @@
 Status: Draft v0.1
 Recorded: 2026-11-03
 
-Dates below are recording dates, not claims about when a discussion originally occurred. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
+Dates below are recording dates, not claims about when a discussion originally occurred. Current direction is D036-D037 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
 
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
@@ -37,7 +37,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
 - Fresh media signals are core requirements, not merely an optional later feed.
-- The original no-runtime-AI restriction recorded in D020 is superseded by D030. Historical entries remain; current local AI scope governs implementation.
+- The original no-runtime-AI restriction recorded in D020 is superseded by D030. Historical entries remain; D036 supersedes the local-model interpretation.
 - No nonprofit category exclusions, size cutoffs, or numeric quality thresholds have been agreed. Daily local collection, weekly shortlist cadence, and the free-only cost constraint are confirmed.
 - External program acceptance, hours, payment, and ownership conditions are not product guarantees and are not asserted here.
 
@@ -86,7 +86,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 | --- | --- | --- | --- |
 | D029 | 2026-11-03 | Refine D028 into researcher, skeptic, and fact-checker roles with explicit instructions. | Researcher uses prescribed sources and separates facts/speculation; skeptic produces a constructive ranked problem list; fact-checker checks every number, quote, and paraphrase against the original, including unflagged claims. Final report retains claim-level verification flags and unresolved issues. Runtime-AI restriction is unchanged. |
 
-## Local AI scope superseding earlier restrictions
+## Historical local-AI interpretation, superseded by D036
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
 | D030 | 2026-11-03 | Permit local AI researcher, skeptic, and fact-checker roles; supersede D020 and the no-runtime-model portions of D021/D029. | Deterministic data handling remains. Separate role contexts/outputs, model-check labels, and owner review are required. No paid/cloud model service or automatic training is authorized. |
@@ -103,6 +103,12 @@ Dates below are recording dates, not claims about when a discussion originally o
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
 | D035 | 2026-11-03 | Repository access for review and owner-directed product updates is permitted. Assistant judgments, review commentary, and instructions to other coding assistants are not repository content. | All review feedback and execution instructions pass through the owner in chat. Product requirements and factual development records remain in the repository. |
+
+## Current execution and implementation decisions
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D036 | 2026-11-03 | Build and execute the complete flow in Codex; preserve tested logic, rules, code, data contracts, role definitions, and factual results for continuation in Claude Code through repository access. | Supersedes the execution restrictions in D020, D024, D029-D032 and the local-inference interpretation. No MacBook benchmark, model installation, provider adapter, or API migration prerequisite. No new paid services or automatic charges. Daily unattended execution remains separately unproven. |
+| D037 | 2026-11-03 | Correct the documents and build a bounded collection, stored-evidence, researcher, skeptic, fact-checker, and reviewable-report flow. | Source trials and implementation form one bounded increment. D034-D035 continue to govern communication. D025 records owner product feedback and factual changes, not assistant execution prompts or review commentary. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

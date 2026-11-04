@@ -31,17 +31,14 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
-## Deterministic data handling and local AI review
-Current decision: permit local AI for researcher, skeptic, and fact-checker roles. This supersedes the earlier no-runtime-AI restriction for these roles. Collection controls, identifiers, arithmetic checks, deduplication, reconciliation, checkpoints, and audit handling remain deterministic.
+## Execution and repository continuity
+Codex is the initial execution environment. Collection, storage, deduplication, audits, research logic, role definitions, input/output contracts, evidence records, tests, and actual results belong to the repository or its documented private data store. Claude Code can later inspect and continue the same project through repository access. No provider adapter, API migration, local model installation, or hardware benchmark is required for this continuity.
 
-No paid or remote model service is required or authorized. A local application, CLI, in-process library, or local-only endpoint may be used; an API is not a product requirement. Automated daily role execution depends on the selected tool's automation support. The collector controls access; models receive permitted evidence and cannot independently bypass source restrictions.
+Collection controls, identifiers, arithmetic checks, deduplication, reconciliation, checkpoints, and audits are deterministic. Researcher, skeptic, and fact-checker roles use separate versioned inputs and outputs. Coding-assistant reasoning remains probabilistic; same-assistant passes are not independent corroboration. Owner commercial review is separate.
 
-Use separate role instructions, contexts, and outputs. The roles may run sequentially on one local model; separate model weights are not required. Same-model agreement is not independent corroboration. The owner reviews the results, challenges reasoning, and revises instructions. Runtime interpretation is probabilistic and must not be described as deterministic.
+Role evaluation compares actual outputs with independently specified expected answers and planted errors. See [WORKFLOW_EVALUATION.md](WORKFLOW_EVALUATION.md). Synthetic replay, coding-session role execution, and unattended operation are different capabilities and must be reported separately. Repository access alone does not schedule a daily run or grant access to private data.
 
-Feasibility must be tested on the owner's MacBook before a model/runtime is selected. See [LOCAL_AI_FEASIBILITY.md](LOCAL_AI_FEASIBILITY.md). Record prompts, model/version, configuration, evidence IDs, claim coverage, limitations, and measured outcomes without persisting unapproved source content. Do not train/fine-tune a model or automatically learn from feedback under this scope.
-
-Business use and the local-AI workflow must be disclosed honestly in any external program submission. Eligibility is unconfirmed; a rejection triggers an owner decision, not concealment or an automatic rewrite.
-
+No automatic model training or fine-tuning is included. External program eligibility remains unconfirmed; the actual workflow and business purpose must be disclosed honestly.
 
 ## Cost constraint
 Confirmed: zero additional monetary operating cost. No paid subscriptions, paid source access, paid hosting, paid APIs, paid transcription, or other paid operating services. Use local execution or genuinely free services without automatic paid overages. Development must not introduce a paid runtime dependency.
@@ -49,7 +46,7 @@ Confirmed: zero additional monetary operating cost. No paid subscriptions, paid 
 Paywalled sources and recordings without a usable free transcript remain visible coverage gaps unless a permitted free alternative is available. Do not bypass access controls. A free tier's limits must be recorded; reaching them must pause or report the affected work rather than incur charges. Any future change to this constraint requires an explicit owner decision.
 
 ## Language scope
-Confirmed: English only for the initial release and manual source trial across Canada and Washington State. French and other languages are recorded as coverage gaps. Nationwide geography does not imply multilingual coverage. English reporting about organizations in any Canadian jurisdiction remains eligible.
+Confirmed: English only for the initial release and integrated source trial across Canada and Washington State. French and other languages are recorded as coverage gaps. Nationwide geography does not imply multilingual coverage. English reporting about organizations in any Canadian jurisdiction remains eligible.
 
 ## Discovery window and indirect signals
 Confirmed on 2026-11-03: discover signals from the past 12 months. Give the most recent six months review priority when relevance and evidence are otherwise comparable; six months is not an exclusion cutoff. Keep older financial/funding records and earlier campaign periods for context and comparisons.
@@ -121,12 +118,12 @@ Confirmed: human review is a core product activity. The owner can spend multiple
 
 Support deep investigation with permitted source context, original links, dated history, contradictory evidence, and explanations of why each candidate surfaced. Keep uncertain but potentially relevant findings accessible and clearly labelled. The weekly shortlist is an entry point, not the boundary of review. Preserve the distinction between unreviewed, uncertain, and rejected findings.
 
-Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Local AI prepares research and review outputs; the owner manually examines results and makes commercial decisions.
+Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Coding-session roles prepare research and review outputs; the owner manually examines results and makes commercial decisions.
 
 ## Development feedback record
 Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Record owner-provided or owner-approved product feedback, changed requirements/implementation, related commits, and actual validation evidence. Assistant judgments, review commentary, execution prompts, and instructions to other assistants remain in owner chat and are excluded from repository records.
 
-This records how the owner steers development and improves role instructions. Local runtime AI is separately authorized by the current scope. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
+This records how the owner steers development and improves role instructions. Coding-session role execution follows the current scope. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
 ## Researcher, skeptic, and fact-checker roles
 Confirmed sequence: researcher -> skeptic -> fact-checker -> labelled evidence report -> owner investigation. Detailed role instructions and outputs are defined in [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md).
@@ -142,7 +139,7 @@ These are separate responsibilities with separate review records. The researcher
 
 Keep collection completion, skeptic review, and claim verification separate. Only checked claims appear as verified; partially checked reports and unresolved material stay labelled and accessible. Verified source-faithfulness does not prove an attributed statement is independently true or a business hypothesis is established. New substantive evidence/claim versions invalidate affected approvals.
 
-Automated local LLM execution of these three roles is approved, subject to measured feasibility and free-only operation. Deterministic validators and owner review remain separate. Label model-generated checks as model checks, not independent human verification; keep pending or unresolved cases visible.
+The three roles execute within the coding environment under owner direction. Unattended role execution is not established by a session run. Deterministic validators and owner review remain separate. Label model-generated checks as model checks, not independent human verification; keep pending or unresolved cases visible.
 
 
 ## Approved retention policy
@@ -182,7 +179,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q2 | Which additional locations should follow the bounded Canadian/Washington initial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
 | Q3 | The owner can spend multiple hours reviewing. What exact weekly allocation, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
-| Q5 | Resolved: local AI may execute researcher, skeptic, and fact-checker roles; no paid/cloud model service is authorized. Model/runtime selection and quality remain subject to MacBook feasibility testing. |
+| Q5 | Resolved: develop and execute in Codex now; preserve repository continuity for Claude Code. No local-model benchmark or provider migration is required. Unattended execution remains a separate capability. |
 | Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
 | Q7 | Retention approach approved: metadata and permitted sanitized excerpts, no permanent raw live content. Which sources permit the required transient processing/excerpts, and how will cleanup and personal-data exclusion be verified? Transcription remains deferred. |
 | Q8 | The initial implementation has functional checks in FOUNDATION_SPEC.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
