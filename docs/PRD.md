@@ -124,7 +124,7 @@ Support deep investigation with permitted source context, original links, dated 
 Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Local AI prepares research and review outputs; the owner manually examines results and makes commercial decisions.
 
 ## Development feedback record
-Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Preserve the initial instruction, observed issue, actual feedback, revised instruction, change, verification, and unresolved outcome. Distinguish owner statements from assistant summaries. Do not invent owner reasoning or present documentation changes as verified software improvements.
+Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Record owner-provided or owner-approved product feedback, changed requirements/implementation, related commits, and actual validation evidence. Assistant judgments, review commentary, execution prompts, and instructions to other assistants remain in owner chat and are excluded from repository records.
 
 This records how the owner steers development and improves role instructions. Local runtime AI is separately authorized by the current scope. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
@@ -160,7 +160,7 @@ Verification can revisit the original source. If it is unavailable and retained 
 - Respect source access conditions. Snippets alone do not qualify a substantive finding as verified.
 
 ## First-build acceptance criteria
-The bounded Task 001 scope and checks are specified in [CODEX_HANDOFF.md](CODEX_HANDOFF.md), pending owner approval of this documentation. Source inspection, implementation, technical QC, and owner review occur within that increment. Synthetic work does not require prior live-source approval; each live source requires its own access and handling decision before collection. Broader rollout thresholds follow observed results. At minimum:
+The initial implementation is described in [FOUNDATION_SPEC.md](FOUNDATION_SPEC.md). Source inspection, implementation, technical QC, and owner review are parts of the same bounded increment. Repository specifications describe expected behavior; execution assignments are issued by the owner through chat. Synthetic work does not require prior live-source approval; each live source requires its own access and handling decision before collection. Broader rollout thresholds follow observed results. At minimum:
 1. A fresh checkout runs the documented synthetic example and meaningful tests.
 2. A bounded, verified source set feeds a complete collection-to-review flow.
 3. Every emitted finding links to evidence and separates observation from interpretation.
@@ -179,12 +179,12 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | ID | Question |
 | --- | --- |
 | Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
-| Q2 | Which additional locations should follow the bounded Canadian/Washington Task 001 sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
+| Q2 | Which additional locations should follow the bounded Canadian/Washington initial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
 | Q3 | The owner can spend multiple hours reviewing. What exact weekly allocation, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Resolved: local AI may execute researcher, skeptic, and fact-checker roles; no paid/cloud model service is authorized. Model/runtime selection and quality remain subject to MacBook feasibility testing. |
 | Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
 | Q7 | Retention approach approved: metadata and permitted sanitized excerpts, no permanent raw live content. Which sources permit the required transient processing/excerpts, and how will cleanup and personal-data exclusion be verified? Transcription remains deferred. |
-| Q8 | Task 001 has functional checks in CODEX_HANDOFF.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
+| Q8 | The initial implementation has functional checks in FOUNDATION_SPEC.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.

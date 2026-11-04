@@ -2,9 +2,9 @@
 Status: Draft v0.1
 Updated: 2026-11-03
 
-First Codex checkpoint: execute the local MacBook feasibility task in LOCAL_AI_FEASIBILITY.md before selecting a runtime/model or expanding the collection flow. Do not benchmark the cloud development container as though it were the owner's MacBook.
+Local hardware and role-quality feasibility precede runtime/model selection and collection expansion. Measurements on development hosts and on the target MacBook are separate evidence categories. See [LOCAL_AI_FEASIBILITY.md](LOCAL_AI_FEASIBILITY.md).
 
-Stages are outcome-based. Dates, effort, source counts, and quality thresholds remain uncommitted. Initial implementation uses Codex. A working foundation precedes any external program submission; program approval is not assumed.
+Stages are outcome-based. Dates, effort, source counts, and quality thresholds remain uncommitted. Implementation tool selection and assignments remain with the owner. A working foundation precedes any external program submission; program approval is not assumed.
 
 | Stage | Work | Exit condition |
 | --- | --- | --- |
@@ -16,10 +16,11 @@ Stages are outcome-based. Dates, effort, source counts, and quality thresholds r
 | 6. Submission readiness | Disclose local AI roles and business use honestly; prepare public description, setup/demo, actual development history, and remaining engineering backlog. | Working foundation can be inspected; applicable program eligibility/terms confirmed separately before program-dependent work. |
 | 7. Expansion and refinement | Add sources and localities, improve coverage and matching, implement feedback-driven refinements. | Each increment meets its acceptance criteria and updates coverage/quality evidence. |
 
-## Execution handoff and sequencing update
-See [CODEX_HANDOFF.md](CODEX_HANDOFF.md) for Task 001. Source feasibility, a bounded working implementation, technical QC, and owner review are integrated in the repository-connected Codex coding environment. Stages 2-5 above are activities repeated within small increments, not a requirement to finish standalone nationwide research before writing code. The planning conversation prepares requirements and handoffs; it does not perform this implementation.
+## Incremental implementation
+Source feasibility, a bounded working implementation, technical QC, and owner review form repeated activities within small increments. A nationwide research exercise is not a prerequisite to all coding.
 
-Task 001 establishes the limited first slice and its review checkpoint. Other product requirements remain roadmap items, not an instruction to build everything at once.
+[FOUNDATION_SPEC.md](FOUNDATION_SPEC.md) describes the limited initial scope. The repository contains requirements, code, research logic, and analysis; it does not issue assignments to coding assistants. Execution instructions are supplied by the owner in chat.
+
 
 ## Current scope decisions and pending proposals
 - Confirmed: zero additional monetary operating cost, with no paid subscriptions, source access, hosting, APIs, or transcription. Choose free/local methods; record inaccessible sources as coverage gaps. No automatic paid overages.
@@ -55,7 +56,7 @@ Use synthetic fixtures with planted identity, duplicate, date, and malformed-inp
 Maintain a dated development log and commit actual changes as work happens. The owner must be able to run the foundation, inspect its output, and explain its limits. No inherited ticket count or effort estimate is treated as a requirement.
 
 ## First technical slice, pending documentation approval
-Task 001 integrates source inspection with a synthetic end-to-end example and bounded live collection where permitted. It demonstrates evidence becoming a dated organization finding in a review queue. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
+The initial implementation integrates source inspection with a synthetic end-to-end example and bounded live collection where permitted. It demonstrates evidence becoming a dated organization finding in a review queue. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
 
 Clear each live source's access and content-handling gate before collecting it. If all live sources are blocked, the synthetic foundation can pass its own checks, but live feasibility remains unproven. Broader source coverage and relevance thresholds follow owner review.
 
@@ -76,7 +77,7 @@ Confirmed: the owner can spend multiple hours reviewing prospects. Exact weekly 
 Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementation: initial instruction, observed response, actual owner feedback, revised instructions, resulting change, and verification evidence. Link code changes and checks. Preserve unresolved and unsuccessful outcomes where material. Update the record during work rather than reconstructing an invented history. Private or restricted material stays outside the public log.
 
 ## Researcher, skeptic, and fact-checker workflow
-Task 001 follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
+The initial implementation follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
 
 Implement distinct versioned outputs and actors for each review stage. Local LLM roles are authorized; deterministic checks and owner judgment remain separate. Model labels must not impersonate independent human verification. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
 

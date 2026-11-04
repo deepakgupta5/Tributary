@@ -13,9 +13,8 @@ Planning documents only. No collector, dashboard, daily scheduler, or verified s
 - [Roadmap](docs/ROADMAP.md)
 - [Decisions](docs/DECISIONS.md)
 - [Development feedback](docs/DEVELOPMENT_FEEDBACK.md)
-- [Codex handoff](docs/CODEX_HANDOFF.md)
-- [Documentation review](docs/DOCUMENT_REVIEW.md)
+- [Foundation specification](docs/FOUNDATION_SPEC.md)
 - [Research workflow](docs/RESEARCH_WORKFLOW.md)
 - [Local AI feasibility](docs/LOCAL_AI_FEASIBILITY.md)
 
-The handoff defines a bounded first task, pending owner approval. Private commercial judgments and restricted material stay outside this public repository.
+The specifications describe expected behavior and evaluation evidence. All execution instructions to coding assistants are supplied by the owner through chat. Private commercial judgments and restricted material stay outside this public repository.

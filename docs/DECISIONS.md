@@ -73,10 +73,7 @@ Dates below are recording dates, not claims about when a discussion originally o
 ## Execution environment decision
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
-| D026 | 2026-11-03 | Execute source feasibility, coding, technical QC, and output iteration in the repository-connected Codex coding environment. | This planning conversation prepares requirements and handoffs. Task 001 integrates a bounded source trial with a working collection-to-review flow; owner feedback drives the next increment. |
-
-## Documentation review note
-The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and status wording without approving unresolved product choices. Synthetic development, live-source feasibility, and owner relevance review have separate pass conditions. Source handling must cover local persistence as well as public repository content.
+| D026 | 2026-11-03 | Source feasibility, implementation, technical QC, and output iteration form an integrated development increment. | Initial planning referenced a coding handoff; D034 supersedes repository-based execution instructions. |
 
 ## Retention and separate data-review decisions
 | ID | Recorded | Decision | Rationale / consequence |
@@ -96,6 +93,16 @@ The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and stat
 | D031 | 2026-11-03 | No API interface is required. Local application, CLI, in-process library, or local-only endpoint may be considered. | Free-only operation remains; unattended automation support must be demonstrated. |
 | D032 | 2026-11-03 | Target MacBook Air 15-inch with Apple M5, 24 GB memory, macOS 27.2. | User-provided screenshot; approximately 261 GB available at capture. Do not record serial number. Test actual hardware before selecting runtime/model. |
 | D033 | 2026-11-03 | Proceed with this scope and disclose it honestly for external program assessment. | Eligibility remains unconfirmed; if refused, owner decides whether to revise or continue independently. |
+
+## Execution instruction boundary
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D034 | 2026-11-03 | All execution instructions to coding assistants are issued by the owner through chat. | Repository content is product documentation, code, logic, analysis, and factual development records. Assistant-to-Codex task prompts and handoffs are excluded from the current branch. |
+
+## Communication boundary
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D035 | 2026-11-03 | Repository access for review and owner-directed product updates is permitted. Assistant judgments, review commentary, and instructions to other coding assistants are not repository content. | All review feedback and execution instructions pass through the owner in chat. Product requirements and factual development records remain in the repository. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

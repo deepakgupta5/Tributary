@@ -24,7 +24,7 @@ Confirmed initial scope: English-language sources only, including the manual tri
 ## Free-only access and operation
 Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, or other paid operating services. Investigate permitted free sources, published transcripts, and local processing. Do not subscribe, purchase access, or introduce automatic paid overages.
 
-Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from Task 001. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved local-AI scope and free-only constraint; transcription remains a separate deferred feature.
+Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from the initial implementation. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved local-AI scope and free-only constraint; transcription remains a separate deferred feature.
 
 ## Source register fields
 For every discovered source record:
@@ -88,7 +88,7 @@ Each evidence claim needs a locator, checked version, verification state, review
 Approved retention remains metadata/checksums and permitted sanitized excerpts, without permanent whole live articles/audio/transcripts. Source-specific access and transient-processing decisions still apply.
 
 
-## Task 001 source deliverables and live-source gate
-Source inspection and coding are integrated under CODEX_HANDOFF.md. Synthetic implementation may precede live access. For each proposed live source, record the access basis and a handling decision before collection: transient retrieval, permitted evidence/excerpts, raw retention or no retention, incidental-person-data removal, log fields, deletion rules, and redistribution limits. If uncertain, leave the source blocked and continue with fixtures. The owner must resolve policy choices rather than having the coding assistant imply approval.
+## Initial source evidence and live-source gate
+Source inspection and implementation are integrated in the initial scope described in FOUNDATION_SPEC.md. Synthetic implementation may precede live access. For each proposed live source, record the access basis and a handling decision before collection: transient retrieval, permitted evidence/excerpts, raw retention or no retention, incidental-person-data removal, log fields, deletion rules, and redistribution limits. If uncertain, leave the source blocked and continue with fixtures. Unresolved policy choices remain with the owner.
 
 A live-source attempt is not equivalent to a successful integration. Report separately: sources discovered, inspected, cleared for access/handling, attempted, fetched, parsed, and evidence produced. No verified source register or live integration is currently complete.

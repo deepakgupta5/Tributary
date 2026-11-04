@@ -1,6 +1,6 @@
 # Local AI feasibility checkpoint
 Recorded: 2026-11-03
-Status: Task specification only. No runtime/model selected or benchmark performed.
+Status: Technical evaluation specification only. No runtime/model selected or benchmark performed.
 Owner: Deepak Gupta
 
 ## Target machine
@@ -12,10 +12,10 @@ Owner-provided system screenshot:
 
 Exclude serial numbers and other device identifiers. Do not infer speed, supported model size, or compatibility from specifications alone.
 
-## Checkpoint 000 objective
-In the repository-connected Codex coding environment, determine whether free local AI can execute the researcher -> skeptic -> fact-checker workflow acceptably on this machine. Prepare a reviewable evidence-based recommendation before committing the product to a runtime or model.
+## Evaluation objective
+The evaluation establishes whether free local AI can execute the researcher -> skeptic -> fact-checker workflow acceptably on the target MacBook. Runtime/model selection depends on measured evidence. Execution assignments are issued separately by the owner in chat.
 
-The development environment may be a remote container. Detect and state where each command actually runs. Only results obtained on the owner's MacBook establish MacBook performance. If no authorized local execution channel is available, prepare a small local test harness and exact commands, then mark hardware measurements pending. Do not silently run tests on another machine and relabel the results.
+Development-host and actual MacBook results are separate evidence categories. Only MacBook measurements establish MacBook performance. Where local measurements are unavailable, they remain pending; a portable test harness can support later local measurement.
 
 ## Requirements
 - Free runtime and weights usable for the intended business use under their actual licenses; inspect licenses, do not assume every downloadable model is unrestricted.
@@ -24,7 +24,7 @@ The development environment may be a remote container. Detect and state where ea
 - Automation capability must be checked. A manual chat app alone does not establish unattended daily operation.
 - Sequential roles with separate instructions/contexts are acceptable; one set of weights can serve all three.
 - Record model/version, runtime/version, quantization where applicable, configuration, prompt/instruction version, context limits, and output validation.
-- Before a local install/download, present actual disk requirements and commands for an explicitly initiated setup. Do not install or download large weights through this planning handoff.
+- Local installation and model downloads are owner-initiated activities, with documented storage requirements.
 - No training, fine-tuning, remote inference, paid services, or collection of real client/private donor data.
 
 ## Minimal trial design
@@ -59,7 +59,7 @@ Record prompts/instructions separately from transient source payloads. Local run
 These measurements are not known in advance. Do not promise a model size, throughput, or daily capacity. Synthetic accuracy does not establish real-source accuracy; live testing follows source permission/retention checks.
 
 ## Deliverables
-Commit a minimal reproducible test harness, synthetic inputs/answers, role instructions, exact commands, and a feasibility report. Persist no system serial numbers or private source data.
+Evaluation artifacts consist of a reproducible test harness, synthetic inputs/answers, product role definitions, usage documentation, and a feasibility report. System serial numbers and private source data are excluded.
 
 The report must separate:
 - tests performed in the development host;
@@ -70,7 +70,7 @@ The report must separate:
 - automation support and remaining source/access/retention issues.
 
 ## Review gate
-Present results to the owner before expanding implementation. If the model cannot meet the intended workflow, recommend narrower scope or continued human checking; do not switch to paid/cloud inference silently. No artificial accuracy threshold is pre-approved. The owner assesses observed misses and false verification before adopting a configuration.
+The owner evaluates measured results before adopting a runtime/model or expanding the implementation. Inadequate quality may imply narrower scope or more human checking. Paid/cloud inference is not an authorized fallback. No accuracy threshold has been pre-approved.
 
 ## External program boundary
 Disclose the local AI review roles and own-business use honestly in any application. Eligibility remains unconfirmed. Any restriction or rejection triggers an owner decision on scope or independent continuation.
