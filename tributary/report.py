@@ -3,19 +3,33 @@ import json
 from .core import REQUIRED, STAGES, encode
 
 
+def coverage(claims, checks):
+    eligible = {c['id'] for c in claims}
+    submitted = eligible & set(checks)
+    completed = {cid for cid in submitted if checks[cid]['status'] != 'pending'}
+    return {'eligible': len(eligible), 'submitted': len(submitted), 'completed': len(completed),
+            'pending': len(eligible - completed), 'unsubmitted': len(eligible - submitted)}
+
+
 def export(store, directory, demonstration):
     tables = {}
     for table, order in [('records', 'id,version'), ('reviews', 'rowid'), ('decisions', 'id'), ('history', 'seq'), ('runs', 'id')]:
         tables[table] = [dict(row) for row in store.db.execute(f'SELECT * FROM {table} ORDER BY {order}')]
         for row in tables[table]:
-            for key in ('body', 'reasons'):
-                if key in row:
+            for key in ('body', 'reasons', 'packet'):
+                if key in row and row[key] is not None:
                     row[key] = json.loads(row[key])
     statuses = {r['id']: {'state': store.status(r['id']), 'blockers': store.blockers(r['id'])}
                 for r in store.current() if r['kind'] in REQUIRED}
     bases = sorted({r['body']['basis'] for r in tables['reviews']})
-    data = {'schema_version': 1, 'synthetic_only': True, 'execution_bases': bases,
+    data = {'schema_version': 2, 'synthetic_only': True, 'execution_bases': bases,
             'tables': tables, 'current_status': statuses, 'demonstration': demonstration}
+    data['claim_coverage'] = {}
+    for record in store.current():
+        if record['kind'] in REQUIRED:
+            review = store.latest_review(record['id'], 'fact_checker')
+            checks = {c['claim_id']: c for c in review['body']['checks']} if review else {}
+            data['claim_coverage'][record['id']] = coverage(record['body']['claims'], checks)
     (directory / 'records.json').write_text(json.dumps(data, indent=2) + '\n')
     with (directory / 'records.jsonl').open('w') as stream:
         for table, rows in tables.items():
@@ -61,10 +75,16 @@ def export(store, directory, demonstration):
         fact = store.latest_review(rid, 'fact_checker')
         checks = {c['claim_id']: c for c in fact['body']['checks']} if fact else {}
         basis = fact['body']['basis'] if fact else 'pending'
-        lines += ['', f'Claim-check coverage: {len(checks)}/{len(body["claims"])} ({basis}).', '']
+        counts = data['claim_coverage'][rid]
+        lines += ['', f'Claim-check coverage: {counts["completed"]}/{counts["eligible"]} completed; '
+                  f'{counts["submitted"]} submitted; {counts["pending"]} pending '
+                  f'({counts["unsubmitted"]} unsubmitted) ({basis}).', '']
         for claim in body['claims']:
             check = checks.get(claim['id'], {})
-            lines += [f'- **{claim["id"]} — {check.get("status", "pending")} [{basis}]:** {claim["text"]}',
+            label = check.get('status', 'pending')
+            if claim['type'] == 'hypothesis':
+                label = 'hypothesis — ' + label + ' (not a verified fact)'
+            lines += [f'- **{claim["id"]} — {label} [{basis}]:** {claim["text"]}',
                       f'  Evidence: {check.get("evidence", "unavailable")} / {check.get("locator", "unavailable")}; {check.get("reason", "Check pending.")}',
                       f'  Corroboration: {check.get("corroboration", "unknown")}; this is separate from source-faithfulness.']
             if check.get('correction'):

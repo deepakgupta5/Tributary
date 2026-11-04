@@ -12,6 +12,7 @@ REQUIRED = {
     'finding': ('identity', 'evidence'),
 }
 VERDICTS = {'verified', 'partly_verified', 'contradicted', 'unverifiable', 'pending'}
+CLAIM_VERDICTS = VERDICTS | {'reviewed_hypothesis'}
 
 
 def encode(value):
@@ -48,7 +49,8 @@ class Store:
         CREATE TABLE IF NOT EXISTS reviews(
           id TEXT PRIMARY KEY, subject TEXT NOT NULL, version INTEGER NOT NULL,
           stage TEXT NOT NULL, packet_hash TEXT NOT NULL, body TEXT NOT NULL,
-          created TEXT NOT NULL, FOREIGN KEY(subject,version) REFERENCES records(id,version));
+          created TEXT NOT NULL, packet TEXT,
+          FOREIGN KEY(subject,version) REFERENCES records(id,version));
         CREATE TABLE IF NOT EXISTS decisions(
           id INTEGER PRIMARY KEY, subject TEXT NOT NULL, version INTEGER NOT NULL,
           fingerprint TEXT NOT NULL, state TEXT NOT NULL, reasons TEXT NOT NULL,
@@ -60,6 +62,10 @@ class Store:
         CREATE TABLE IF NOT EXISTS runs(
           id TEXT PRIMARY KEY, body TEXT NOT NULL, created TEXT NOT NULL);
         ''')
+        # Legacy reviews did not preserve inputs. Never invent/backfill a packet.
+        if 'packet' not in {r['name'] for r in self.db.execute('PRAGMA table_info(reviews)')}:
+            self.db.execute('ALTER TABLE reviews ADD COLUMN packet TEXT')
+            self.db.commit()
 
     def close(self):
         self.db.close()
@@ -214,7 +220,7 @@ class Store:
             r = self.latest_review(rid, prior)
             if r:
                 predecessors[prior] = r['body']
-        packet = {'contract_version': 1, 'subject': {'id': rid, 'version': subject['version'],
+        packet = {'contract_version': 2, 'subject': {'id': rid, 'version': subject['version'],
                   'kind': subject['kind'], 'body': subject['body']}, 'stage': stage,
                   'fingerprint': self.fingerprint(rid), 'dependencies': dependencies,
                   'prior_reviews': predecessors, 'required_details': list(REQUIRED[subject['kind']])}
@@ -223,10 +229,23 @@ class Store:
     def latest_review(self, rid, stage):
         rows = self.db.execute('SELECT * FROM reviews WHERE subject=? AND stage=? ORDER BY rowid DESC', (rid, stage))
         for row in rows:
-            r = {**dict(row), 'body': json.loads(row['body'])}
+            if row['packet'] is None:
+                continue  # unverifiable historical input; a new execution is required
+            r = self.get_review(row['id'])
             if r['packet_hash'] == digest(self.packet(rid, stage)):
                 return r
         return None
+
+    def get_review(self, execution_id):
+        """Inspect the saved input independently of current source/review versions."""
+        row = self.db.execute('SELECT * FROM reviews WHERE id=?', (execution_id,)).fetchone()
+        require(row is not None, 'Unknown review execution')
+        result = {**dict(row), 'body': json.loads(row['body']),
+                  'packet': json.loads(row['packet']) if row['packet'] is not None else None}
+        result['input_state'] = 'preserved' if result['packet'] is not None else 'unavailable_legacy'
+        if result['packet'] is not None:
+            require(digest(result['packet']) == result['packet_hash'], 'Stored review packet hash mismatch')
+        return result
 
     def review(self, packet, output):
         rid, stage = packet['subject']['id'], packet['stage']
@@ -265,7 +284,12 @@ class Store:
                     ev = self.get(value['evidence'])
                     require(ev['kind'] == 'evidence' and ev['body']['available'] and value.get('locator') in ev['body']['paragraphs'], 'Required detail lacks available locator')
             for check in checks:
-                require(check.get('status') in VERDICTS and bool(check.get('reason')), 'Invalid claim check')
+                require(check.get('status') in CLAIM_VERDICTS and bool(check.get('reason')), 'Invalid claim check')
+                hypothesis = claims[check['claim_id']]['type'] == 'hypothesis'
+                if hypothesis:
+                    require(check['status'] in {'reviewed_hypothesis', 'pending'}, 'Hypothesis cannot receive a factual verdict')
+                else:
+                    require(check['status'] != 'reviewed_hypothesis', 'Factual claim cannot receive hypothesis disposition')
                 require(check.get('corroboration') in {'single_origin', 'independent', 'unknown'}, 'Corroboration required')
                 if check['status'] == 'verified':
                     evidence = check.get('evidence')
@@ -282,8 +306,10 @@ class Store:
             existing = self.db.execute('SELECT * FROM reviews WHERE id=?', (review_id,)).fetchone()
             if existing:
                 require(existing['packet_hash'] == digest(packet) and existing['body'] == encode(output), 'Execution ID reused')
+                require(existing['packet'] == encode(packet), 'Historical packet unavailable or different; use a new execution')
                 return review_id
-            self.db.execute('INSERT INTO reviews VALUES(?,?,?,?,?,?,?)', (review_id, rid, subject['version'], stage, digest(packet), encode(output), now()))
+            self.db.execute('INSERT INTO reviews(id,subject,version,stage,packet_hash,body,created,packet) VALUES(?,?,?,?,?,?,?,?)',
+                            (review_id, rid, subject['version'], stage, digest(packet), encode(output), now(), encode(packet)))
         return review_id
 
     def blockers(self, rid):
@@ -322,7 +348,10 @@ class Store:
                 if check['status'] != 'verified':
                     reasons.append('Required detail not verified: ' + field)
             for check in result['checks']:
-                if claims[check['claim_id']]['material'] and check['status'] != 'verified':
+                claim = claims[check['claim_id']]
+                if claim['type'] == 'hypothesis' and claim['material']:
+                    reasons.append('Material hypothesis cannot establish required fact: ' + check['claim_id'])
+                elif claim['material'] and check['status'] != 'verified':
                     reasons.append('Material claim not verified: ' + check['claim_id'])
                 if check['status'] == 'pending':
                     reasons.append('Claim not checked: ' + check['claim_id'])

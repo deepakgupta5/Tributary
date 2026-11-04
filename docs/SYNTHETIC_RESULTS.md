@@ -8,8 +8,9 @@ The branch was created from the approved documentation commit in a fresh checkou
 
 ## Actual checks
 
-- `python3 -m unittest discover -s tests -v`: 38 tests passed on Python 3.12.10. The complete command output, including measured duration, is in [examples/tests.txt](../examples/tests.txt).
-- `python3 -m tributary.demo --out out/release-demo`: synthetic end-to-end demonstration completed; captured outputs are in [examples](../examples/).
+- `python3 -m unittest discover -s tests -v`: 49 tests passed on Python 3.12.10. The complete command output, including measured duration, is in [examples/tests.txt](../examples/tests.txt).
+- `python3 -m tributary.demo --out out/review-fixes-demo`: synthetic end-to-end demonstration completed; captured outputs are in [examples](../examples/).
+- `python3 -m tributary.demo --partial --out out/review-fixes-partial`: a partially checked report completed with 4 submitted entries, 3 completed checks, and 1 pending check for the campaign finding; its decision remains pending. Captured report and coverage summary are in [examples/partial](../examples/partial/).
 - `git diff --check`: no whitespace errors.
 
 The suite covers stage order and bypass attempts on all three admission subject types, collection/QC execution separation checks, explicit context metadata, optional versus material issues, required claim/detail/issue accounting, unavailable locators, stale inputs, upstream review changes, transitive material-change rechecks, dependency-cycle rollback, persistence, duplicate/repeated runs, malformed/unknown dates, interrupted ingestion recovery, answer-key separation, numeric context/arithmetic, evaluator counters, network refusal during the demo, and export reconciliation. The network refusal check patches socket creation; the application itself contains no network integration.
@@ -47,6 +48,12 @@ The finding after correction attributes CAD 110000 to the corrected bulletin and
 | Known-answer evaluation support | Separate `fixtures/role_inputs.json` and `fixtures/expected.json`; evaluator tested with deliberately flawed saved verdicts. |
 | Actual coding-session role evaluation | Not performed. No accuracy or independent-review result claimed. |
 | Live feasibility and owner usefulness | Not performed; separate review gates. |
+
+## Review-input, coverage, and hypothesis corrections
+
+The correction increment persists exact review packets, exposes separate submitted/completed/pending coverage, and prevents hypotheses receiving factual verdicts. Eleven additional regression tests exercise historical packet retrieval after source changes and upstream review changes, disk persistence, legacy-schema migration without invented inputs, packet hash integrity, partial-report counts, hypothesis classification in Markdown/JSON, blocked material hypotheses, and pending hypothesis checks. The main demonstration now includes a nonmaterial hypothesis in its claim ledger, with `reviewed_hypothesis` disposition and an explicit not-a-verified-fact label.
+
+Previously saved hash-only reviews cannot be made historically inspectable retroactively. They remain marked unavailable and require new review executions; no past inputs are inferred from current records. Current JSON/JSONL examples include exact packets. These fixes establish tested workflow behavior only; actual coding-session role evaluation remains unperformed and must precede live collection.
 
 ## Remaining limits
 

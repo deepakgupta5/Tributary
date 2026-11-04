@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "execution_bases": [
+    "fixture_replay"
+  ],
+  "claim_coverage": {
+    "f-campaign": {
+      "eligible": 4,
+      "submitted": 4,
+      "completed": 3,
+      "pending": 1,
+      "unsubmitted": 0
+    },
+    "f-grant": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "o-ambiguous": {
+      "eligible": 0,
+      "submitted": 0,
+      "completed": 0,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "o-cedar": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "o-willow": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "s-blocked": {
+      "eligible": 0,
+      "submitted": 0,
+      "completed": 0,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "s-news": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "s-org": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    },
+    "s-wa": {
+      "eligible": 1,
+      "submitted": 1,
+      "completed": 1,
+      "pending": 0,
+      "unsubmitted": 0
+    }
+  },
+  "campaign_decision": {
+    "id": "f-campaign",
+    "state": "pending",
+    "blockers": [
+      "Checkpoint missing/stale/not passed: fact_checker",
+      "Material claim not verified: receipts",
+      "Claim not checked: receipts"
+    ]
+  }
+}

@@ -26,7 +26,7 @@ Kind: organization; version: 1; state: **pending**.
 | skeptic | initial:o-ambiguous:skeptic | True / passed |
 | fact_checker | initial:o-ambiguous:fact_checker | True / passed |
 
-Claim-check coverage: 0/0 (fixture_replay).
+Claim-check coverage: 0/0 completed; 0 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 
 Context record: Hand-authored replay; no model execution or context isolation.
@@ -46,7 +46,7 @@ Kind: organization; version: 2; state: **admitted**.
 | skeptic | recheck:o-cedar:skeptic | True / passed |
 | fact_checker | recheck:o-cedar:fact_checker | True / passed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **identity — verified [fixture_replay]:** Fictional Cedar Support is a BC service-delivery nonprofit.
   Evidence: e-news / p1; Synthetic fixture citation.
@@ -68,7 +68,7 @@ Kind: finding; version: 2; state: **approved**.
 | skeptic | recheck:f-campaign:skeptic | True / passed |
 | fact_checker | recheck:f-campaign:fact_checker | True / passed |
 
-Claim-check coverage: 3/3 (fixture_replay).
+Claim-check coverage: 4/4 completed; 4 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **receipts — verified [fixture_replay]:** 2025 receipts were CAD 110000 according to the corrected bulletin.
   Evidence: e-news / p2; Synthetic fixture citation.
@@ -78,6 +78,9 @@ Claim-check coverage: 3/3 (fixture_replay).
   Corroboration: single_origin; this is separate from source-faithfulness.
 - **cause — verified [fixture_replay]:** Venue flooding explains the extension; donor loss is not established.
   Evidence: e-news / p2; Synthetic fixture citation.
+  Corroboration: single_origin; this is separate from source-faithfulness.
+- **h-context — hypothesis — reviewed_hypothesis (not a verified fact) [fixture_replay]:** Campaign follow-through may warrant investigation; no consulting budget is established.
+  Evidence: e-news / p1; Synthetic fixture citation.
   Corroboration: single_origin; this is separate from source-faithfulness.
 
 Skeptic issues and dispositions:
@@ -89,8 +92,6 @@ Context record: Hand-authored replay; no model execution or context isolation.
 Organization: o-cedar
 
 Route investigation: not_investigated
-
-Hypothesis (not a verified fact): Campaign follow-through may warrant investigation; no consulting budget is established.
 - Alternative: Venue disruption explains the extension.
 
 ## Organization group: o-willow
@@ -107,7 +108,7 @@ Kind: organization; version: 2; state: **admitted**.
 | skeptic | initial:o-willow:skeptic | True / passed |
 | fact_checker | initial:o-willow:fact_checker | True / passed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **identity — verified [fixture_replay]:** Fictional Willow Network is a Washington umbrella nonprofit.
   Evidence: e-wa / p1; Synthetic fixture citation.
@@ -130,7 +131,7 @@ Kind: finding; version: 1; state: **pending**.
 | skeptic | initial:f-grant:skeptic | True / passed |
 | fact_checker | initial:f-grant:fact_checker | True / failed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **grant — contradicted [fixture_replay]:** USD 9000 is available for consulting.
   Evidence: e-wa / p2; Restricted to food; consulting is not established.
@@ -163,7 +164,7 @@ Kind: source; version: 1; state: **pending**.
 | skeptic | initial:s-blocked:skeptic | True / passed |
 | fact_checker | initial:s-blocked:fact_checker | True / passed |
 
-Claim-check coverage: 0/0 (fixture_replay).
+Claim-check coverage: 0/0 completed; 0 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 
 Context record: Hand-authored replay; no model execution or context isolation.
@@ -180,7 +181,7 @@ Kind: source; version: 2; state: **approved_for_collection**.
 | skeptic | recheck:s-news:skeptic | True / passed |
 | fact_checker | recheck:s-news:fact_checker | True / passed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **identity — verified [fixture_replay]:** Synthetic BC Community Bulletin publishes freely reusable English community material.
   Evidence: e-news / p1; Synthetic fixture citation.
@@ -200,7 +201,7 @@ Kind: source; version: 2; state: **approved_for_collection**.
 | skeptic | initial:s-org:skeptic | True / passed |
 | fact_checker | initial:s-org:fact_checker | True / passed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **identity — verified [fixture_replay]:** Fictional Cedar publications contains freely reusable synthetic campaign reports.
   Evidence: e-org / p1; Synthetic fixture citation.
@@ -220,7 +221,7 @@ Kind: source; version: 2; state: **approved_for_collection**.
 | skeptic | initial:s-wa:skeptic | True / passed |
 | fact_checker | initial:s-wa:fact_checker | True / passed |
 
-Claim-check coverage: 1/1 (fixture_replay).
+Claim-check coverage: 1/1 completed; 1 submitted; 0 pending (0 unsubmitted) (fixture_replay).
 
 - **identity — verified [fixture_replay]:** Synthetic Washington funder register publishes freely reusable grant awards.
   Evidence: e-wa / p1; Synthetic fixture citation.

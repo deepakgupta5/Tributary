@@ -70,8 +70,8 @@ def seed(store):
             claim('receipts', '2025 receipts were CAD 120000.', 'e-news', 'number'),
             claim('quote', 'Demand increased, but donor retention has not been measured.', 'e-news', 'quote'),
             claim('cause', 'Venue flooding explains the extension; donor loss is not established.', 'e-news'),
+            claim('h-context', 'Campaign follow-through may warrant investigation; no consulting budget is established.', 'e-news', 'hypothesis', False),
         ], organization='o-cedar', route_status='not_investigated',
-        hypothesis='Campaign follow-through may warrant investigation; no consulting budget is established.',
         alternatives=['Venue disruption explains the extension.'], limitations=['Donor retention is unknown.']), 'collector:findings')
     store.put('f-grant', 'finding', subject('finding', 'Willow restricted award',
         ['o-willow', 'e-wa', 's-wa'], [claim('grant', 'USD 9000 is available for consulting.', 'e-wa', 'number')],
@@ -105,7 +105,7 @@ def replay_output(packet, execution, *, contradiction=False, issue=False):
         for c in body['claims']:
             eid = c['evidence'][0]
             locator = {'receipts': 'p2', 'quote': 'p3', 'cause': 'p2', 'grant': 'p2'}.get(c['id'], 'p1')
-            status = 'contradicted' if contradiction else 'verified'
+            status = 'reviewed_hypothesis' if c['type'] == 'hypothesis' else ('contradicted' if contradiction else 'verified')
             output['checks'].append({'claim_id': c['id'], 'status': status, 'evidence': eid,
                 'locator': locator, 'reason': 'Restricted to food; consulting is not established.' if contradiction else 'Synthetic fixture citation.',
                 'corroboration': 'single_origin', 'correction': 'USD 9000 restricted to food purchases.' if contradiction else ''})
@@ -165,11 +165,20 @@ def demonstrate(store):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, required=True)
+    parser.add_argument('--partial', action='store_true', help='Produce a partially checked fixture report')
     args = parser.parse_args()
     args.out.mkdir(parents=True, exist_ok=False)
     store = Store(args.out / 'tributary.sqlite')
     try:
         metrics = demonstrate(store)
+        if args.partial:
+            packet = store.packet('f-campaign', 'fact_checker')
+            output = replay_output(packet, 'partial:fact_checker')
+            output['checks'][0]['status'] = 'pending'
+            output['checks'][0]['reason'] = 'Fixture check deliberately left unperformed.'
+            output['outcome'] = 'incomplete'
+            store.review(packet, output)
+            metrics['partial_report_decision'] = store.decide('f-campaign', 'partial-example')
         export(store, args.out, metrics)
         print(json.dumps(metrics, indent=2))
     finally:

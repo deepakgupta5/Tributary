@@ -11,6 +11,7 @@ From a checkout of `codex/bounded-synthetic-v1`, using Python 3.12 or later with
 ```sh
 python3 -m unittest discover -s tests -v
 python3 -m tributary.demo --out out/demo
+python3 -m tributary.demo --partial --out out/partial-demo
 ```
 
 The demonstration refuses an existing output directory. Choose a new directory to repeat it. It creates `tributary.sqlite`, `report.md`, `records.json`, `records.jsonl`, and `demonstration.json`. No dependency installation is necessary. All data is fictional. Audits and records contain execution timestamps; business records, decisions, and reconciliation outcomes repeat, but timestamped export bytes need not be identical.
@@ -35,6 +36,12 @@ Record IDs are stable, while substantive edits append immutable versions. Equal-
 Source-to-organization and organization-to-source discoveries retain first-seen run, parent, method, and next action. Repeated discovery retains the existing event. Unknown identity stays pending with candidate duplicate links; no identity merge is performed. Evidence deduplication uses stable input IDs and equal content, not fuzzy matching or automatic cross-URL syndication detection. Source origin is retained; human/role analysis must establish independence.
 
 `Store.packet(subject, stage)` exports the actual subject, transitive current dependency versions, required-detail names, and prior stage outputs. The packet excludes answer keys. `Store.review(packet, output)` validates provenance, order, full claim/detail coverage, evidence locators, and skeptic issue dispositions. The fact-checker receives all claims, including unflagged claims. Reviews may record a completed execution with a failed or incomplete outcome. `Store.decide` computes approval; callers do not submit an admission state directly.
+
+Review contract version 2 persists the exact packet alongside each output and its hash. `Store.get_review(execution_id)` returns that historical packet without consulting current source or upstream-review versions, and verifies its hash. Packets include the subject and dependency versions/bodies and the actual prior review outputs. JSON and JSONL exports include these packets; export schema version 2 also includes claim coverage in the JSON envelope. Existing databases receive a nullable packet column. Legacy rows with no saved packet remain inspectable as `unavailable_legacy`, cannot count as current passing checks, and cannot be silently backfilled. New review executions are required. Packet retention here is suitable only for synthetic inputs; it does not authorize persisting whole live documents.
+
+Coverage separates eligible claims, submitted entries, completed checks, pending checks, and unsubmitted entries. An explicit pending entry is submitted but not completed; missing entries are also pending. A completed check can be contradicted or unverifiable and is not synonymous with verification. Hypothesis review completion also does not count as factual verification.
+
+Hypothesis claims retain their classification in the saved packet and exports. Their only dispositions are `reviewed_hypothesis` and `pending`; factual verdicts such as verified or partly verified are rejected. A reviewed nonmaterial hypothesis can remain visible as speculation, labelled not a verified fact. A material hypothesis cannot satisfy a required factual basis for admission and remains blocking. Factual claims cannot use the hypothesis disposition. The main example includes a hypothesis inside the claim ledger; the partial example leaves a factual check pending and shows less than full completed coverage.
 
 The stage order is QC, researcher, skeptic, fact-checker; collection is recorded separately before QC. A distinct QC execution ID is required, including against dependency collectors. This is a traceability check, **not authentication or proof of separate contexts**. All outputs retain a basis and context description. Trusted callers can supply misleading IDs or edit the database directly; no independent-review enforcement is claimed.
 
