@@ -68,3 +68,16 @@ Do not copy full session transcripts, restricted task instructions, credentials,
 - Verification and evidence: documentation consistency review only. No implementation has begun here.
 - Outcome: execution responsibilities clarified; product effectiveness not verified.
 - Related PR: https://github.com/deepakgupta5/Tributary/pull/1
+
+### FB-004: specify constructive skepticism and complete source checking
+- Date: 2026-11-03, recording date.
+- Stage/task: data-review design.
+- Observed response/result: generic collection, data-QC, and verification roles lacked the owner's detailed review instructions.
+- Owner feedback, assistant-prepared summary: start with an instructed researcher, pass its report to a contrarian but constructive skeptic, then have a fact-checker verify every number, quote, and paraphrase against the original document. Final output must flag verified and unverified material.
+- Owner rationale: stated intended result is fewer errors with explicit verification flags.
+- Revised instruction/constraint: add RESEARCH_WORKFLOW.md; give the fact-checker the full report and claim ledger as well as ranked issues, to avoid checking only flagged claims.
+- Change made: role specifications linked from PRD, SOURCES, ROADMAP, CODEX_HANDOFF, and DECISIONS.
+- Verification and evidence: documentation changes only; no implementation or runtime role execution performed.
+- Outcome: instructions clarified; error reduction remains unmeasured.
+- Remaining issue/next step: implement separate review handoffs in Codex without introducing runtime AI; semantic checks require actual human review under the current constraint.
+- Related PR: https://github.com/deepakgupta5/Tributary/pull/1
