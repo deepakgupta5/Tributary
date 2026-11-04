@@ -28,3 +28,8 @@ Record exact input/output counts, rejected records and reasons, duplicates, inco
 
 ## Retention and operation
 Only permitted metadata and sanitized excerpts may persist from live sources. Whole synthetic documents are permitted test material. No paid service, credentials, hidden remote inference, or automatic charges are introduced. External program eligibility remains unconfirmed. Execution instructions and assistant code-review judgments stay in owner chat.
+
+## Register expansion and reconciliation evaluation
+Findings, organization additions, and source additions all pass the four checkpoints defined in RESEARCH_WORKFLOW.md. Tests distinguish candidate discovery from admission; a source inspection or organization name alone cannot confer approval. Cases include both discovery directions, identity ambiguity, source access/handling uncertainty, mergers preserving provenance, a required-check bypass attempt, unchanged records, and material revisions reopening affected checks.
+
+Period accounting covers opening pending work, new discoveries, reopened versions, admissions, merges, blocked/excluded records, and closing pending work. Source attempts/retries are distinct from unique sources. PROJECT_PLAN.md defines delivery and data reconciliation and the seven-day/ongoing cycle. Actual observed counts are not quotas; no numerical quality threshold is treated as approved. PRD.md contains the single open-product-decision register.

@@ -1,15 +1,30 @@
 # Research, skepticism, and fact-checking workflow
 Recorded: 2026-11-03
 Status: Agreed role sequence; implementation remains pending.
-Scope: Tributary evidence reports, separate from software code review and private pursuit decisions.
+Scope: Tributary findings, organization additions, and source additions; separate from software code review and private pursuit decisions.
 
 ## Sequence and independence
-Researcher -> Skeptic -> Fact-checker -> labelled evidence report -> owner investigation.
+Collection and separate data QC -> Researcher -> Skeptic -> Fact-checker -> admission decision or labelled finding -> owner investigation.
 
 Each stage reads a versioned input and writes its own output with role identity, actor/run identity, time, and references. The researcher cannot approve its own output as independent QC. The skeptic and fact-checker have distinct instructions and review records; they must not simply inherit the researcher's confidence.
 
 Current execution: Codex performs the initial workflow in coding sessions; Claude Code can later continue from the repository. Role definitions, source/evidence references, structured outputs, and evaluations are persistent product artifacts. Role contexts and outputs remain separate. Same-assistant passes can repeat errors and do not establish independent corroboration. Deterministic validators assist the flow; the owner reviews commercial conclusions. No provider API or MacBook model benchmark is a prerequisite. See WORKFLOW_EVALUATION.md. Session execution is not a claim of unattended automation.
 
+## Four checkpoints across three record types
+| Checkpoint | Finding | Organization addition | Source addition |
+| --- | --- | --- | --- |
+| 1. Collection and separate data QC | Extraction, dates, completeness, identity references, and duplicates. | Identity, geography, aliases, official identifiers where available, and duplicate matches. | Publisher/endpoint identity, coverage metadata, accessibility, and duplicates. |
+| 2. Researcher | Evidence-backed observations, cross-checks, hypotheses, and unknowns. | Activities, area served, in-scope eligibility evidence, identity references, and unknowns. | Provenance, actual sample utility, independence, formats/history, access and handling basis, and limits. |
+| 3. Skeptic | Unsupported conclusions, alternative explanations, and weak corroboration. | Mistaken identity, unsupported eligibility, stale organizational status, and weak admission grounds. | Reliability, redundant/syndicated material, coverage bias, and unsupported access/usefulness assumptions. |
+| 4. Fact-checker | Every number, quotation, and paraphrase against original evidence, including unflagged claims. | Required organizational details and every number, quotation, and paraphrase against original records. | Required source/access/coverage details and every number, quotation, and paraphrase against the publication, conditions, and inspected samples. |
+
+Collection and data QC are separate responsibilities and review records even though grouped in the first checkpoint. The collector cannot approve its own proposals. Each checkpoint identifies the candidate/finding version, actor/run, result, evidence, reason, unresolved issues, and next action. Researcher and later roles retain both the complete detail/claim ledger and relevant originals; the skeptic list is not the fact-checker's entire workload.
+
+Required admission evidence includes resolved identity and scope for organizations, plus resolved access/handling suitability for sources. All required checkpoint results must pass for the reviewed version before admission or routine collection. Optional missing fields can remain explicit; material unresolved required evidence leaves the record pending or blocked. A successful fetch or model confidence does not confer admission.
+
+Admission output records admitted/approved, merged into an existing record, pending/unresolved, or excluded/blocked with reason. The underlying register uses the canonical states in PRD.md. Merges preserve aliases and provenance rather than erasing prior discoveries. Unchanged approved records are not fully rechecked daily; affected checks reopen after material changes. Commercial relevance is never inherited from register admission.
+
+Source inspection for admission is bounded and subject to source access/retention conditions. A candidate can be inspected without entering routine collection. Unknowns remain recorded without circularly requiring prior approval to inspect the permitted evidence needed for approval.
 ## Researcher instructions
 1. Work within Canada and Washington State, English-only, free permitted access, and the agreed 12-month discovery window. Use earlier records for comparisons, not as evidence of a current issue without a status check.
 2. Cast a broad net: city/community and regional newspapers, local radio/TV reporting, podcasts/interviews with available text, sector media, organization publications, funder/community networks, and official records. Explain sampled coverage and gaps. General search alone is not coverage.

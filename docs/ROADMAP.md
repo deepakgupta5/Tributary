@@ -2,11 +2,13 @@
 Status: Draft v0.1
 Updated: 2026-11-03
 
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, first seven project days, daily/weekly reconciliation, and week-two onward cycle. PRD.md holds the single open-product-decision register. Day numbers are planning targets after owner instruction, not dated or completed milestones. There are no approved numerical quality targets or source/organization quotas.
+
 Development occurs in bounded increments in Codex. The repository preserves code, logic, product role definitions, data contracts, tests, and factual outcomes so Claude Code can later continue the work. No model installation, provider adapter, or hardware test is a prerequisite. See [WORKFLOW_EVALUATION.md](WORKFLOW_EVALUATION.md).
 
 | Stage | Outcome | Evidence |
 | --- | --- | --- |
-| 1. Synthetic foundation | Collection to stored evidence to three review stages to report. | Fresh-checkout run, structured records, failure handling, known-answer tests, and actual outputs. |
+| 1. Synthetic foundation | Collection to stored evidence, expanding organization/source registers, all four checkpoints, and report. | Fresh-checkout run, structured records, failure handling, known-answer tests, and actual outputs. |
 | 2. Bounded live increment | Permitted sources in Canada and Washington feed the same flow. | Source register, original evidence, coverage gaps, source checks, and owner feedback. |
 | 3. Refinement | Correct missed context, identity, duplicates, and role failures. | Changed rules/contracts, regression tests, and observed improvements or unresolved failures. |
 | 4. Daily operation | Scheduling, checkpoints, catch-up, and visible failures. | Interrupted/missed-run tests and an actual operational run; unattended reasoning assessed separately. |
@@ -75,7 +77,7 @@ Confirmed: the owner can spend multiple hours reviewing prospects. Exact weekly 
 Maintain [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md) alongside implementation: owner-provided product feedback, changed requirement or implementation, related commits, actual verification evidence, and unresolved factual limits. Execution prompts and assistant review judgments remain in owner chat. Link code changes and checks. Preserve unresolved and unsuccessful outcomes where material. Update the record during work rather than reconstructing an invented history. Private or restricted material stays outside the public log.
 
 ## Researcher, skeptic, and fact-checker workflow
-The initial implementation follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
+The initial implementation follows [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md): researcher report and full claim ledger, constructive skeptic's ranked issues, comprehensive source fact-checking, then a report with individual verification flags and unresolved problems. Collection and QC remain separate. Findings, organization additions, and source additions all pass collection/separate data QC, researcher, skeptic, and fact-checker checkpoints. Both discovery directions and changed-record rechecks are acceptance cases. Every number, quote, and paraphrase must be checked; a skeptic's silence is not approval.
 
 Implement distinct versioned outputs and actors for each review stage. Coding-session role execution is authorized; deterministic checks and owner judgment remain separate. Model labels must not impersonate independent human verification. Test faulty numbers, altered quotes, misleading paraphrases, source access failures, and invalidated approvals. Technical code QC remains separate from evidence review and owner relevance judgments.
 

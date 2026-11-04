@@ -16,6 +16,10 @@ The initial geographic scope is all of Canada and Washington State. Oregon and C
 
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
+## Project baseline and delivery
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, seven-day implementation planning targets, reconciliation, deliverables, and ongoing weekly cycle. Day 1 begins only with the owner's separate implementation instruction; no start date is assumed. Implementation timing is conditional on dependencies and actual evidence. This planning conversation maintains documentation, not executable implementation.
+
+No numerical quality targets, source quotas, organization quotas, throughput targets, or forced shortlist count have been approved. Expected source/organization growth is measured, not promised. Product open choices are listed only in this document's Open decisions section; other documents refer here.
 ## Discovery requirements
 Discovery must cover both pressure and opportunity. Successful fundraising or expansion is not a prerequisite. Candidate signals include:
 | Category | Evidence to investigate |
@@ -31,6 +35,18 @@ An active campaign does not establish poor performance. A deficit does not estab
 
 Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
 
+## Continuously expanding organization and source universes
+The product begins with bounded seeds, not an assumed complete list of nonprofits or sources. Two discovery directions are required: a source reveals organizations, and research on an organization reveals sources. Each discovery has a stable record ID, first-seen date, discovery method, parent organization/source/evidence reference, last check, reviewed version, status, reason, and next action.
+
+New organizations and sources enter candidate queues. Organization admission checks identity, geography, aliases, available official identifiers, and in-scope eligibility. Source admission checks publisher/endpoint identity, coverage, sample utility, independence/syndication, access, formats/history, and permitted handling. Admission is separate from commercial qualification. Unknown organization identity remains unresolved; an accessible URL does not prove source suitability.
+
+Findings, organization additions, and source additions all pass the same four checkpoints in RESEARCH_WORKFLOW.md. Collection and data QC are separate responsibilities within the first checkpoint. Collection cannot approve its own proposals. Researcher, skeptic, and fact-checker maintain distinct versioned records. No candidate is admitted or approved for routine collection with a missing or unresolved required check.
+
+Organization states are candidate, identity unresolved, admitted, merged, or excluded with reason. Source states are candidate, inspected, approved for collection, blocked, merged, or inactive. These admission states are distinct from fetch status, review status, and private business relevance. Missing optional information is explicit; unresolved identity, required eligibility, access/handling, or material verification prevents admission.
+
+A candidate source can receive bounded permitted inspection to establish its admission evidence; inspection is not approval for routine collection. On source admission, inspect available history within the agreed discovery window and then use incremental checks. Incomplete archives remain gaps. Material changes reopen affected checks; unchanged approved records do not require the full process daily.
+
+Daily research includes candidate discovery and queue processing when execution is available. Bounded batches and continuation points prevent unbounded recursive research. Pending checks can carry across runs. Expansion priorities use geographic/source-type gaps, useful findings, and owner feedback; detailed batch sizes and ranking rules remain open. Coverage distinguishes intended, discovered, admitted, configured, attempted, and successfully checked populations. No percentage of all nonprofits is claimed without a defensible denominator.
 ## Execution and repository continuity
 Codex is the initial execution environment. Collection, storage, deduplication, audits, research logic, role definitions, input/output contracts, evidence records, tests, and actual results belong to the repository or its documented private data store. Claude Code can later inspect and continue the same project through repository access. No provider adapter, API migration, local model installation, or hardware benchmark is required for this continuity.
 
@@ -173,15 +189,17 @@ These are draft acceptance criteria for the bounded foundation as a whole. Gate 
 Measure source/geographic coverage, findings judged useful, unsupported claims, incorrect identity matches, duplicate events, source-to-review delay, missed relevant items in an independently reviewed sample, and review time per useful finding. Do not claim completeness across the open web. Revenue or introductions are downstream outcomes, not guaranteed software results.
 
 ## Open decisions
-| ID | Question |
-| --- | --- |
-| Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
-| Q2 | Which additional locations should follow the bounded Canadian/Washington initial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
-| Q3 | The owner can spend multiple hours reviewing. What exact weekly allocation, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
-| Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
-| Q5 | Resolved: develop and execute in Codex now; preserve repository continuity for Claude Code. No local-model benchmark or provider migration is required. Unattended execution remains a separate capability. |
-| Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
-| Q7 | Retention approach approved: metadata and permitted sanitized excerpts, no permanent raw live content. Which sources permit the required transient processing/excerpts, and how will cleanup and personal-data exclusion be verified? Transcription remains deferred. |
-| Q8 | The initial implementation has functional checks in FOUNDATION_SPEC.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
+This is the authoritative open-product-decision register. Resolved requirements remain in the product sections and DECISIONS.md; they are not additional open blockers. No unapproved proposal is an implementation requirement.
+
+| ID | Open choice | Dependency / when required |
+| --- | --- | --- |
+| Q1 | Nonprofit categories and size ranges, if any, to exclude. Broad service-delivery coverage, eligible foundations/umbrella bodies and other relevant categories, and no initial revenue cutoff remain proposals. | Bounded eligibility rules agreed before live organization admission; no silent blanket exclusions. Synthetic work can proceed without claiming approval of these proposals. |
+| Q2 | Initial seed sources/localities and the next expansion priorities. No source or organization quota is approved. | Bounded source selection by first-week design; source-specific admission before routine collection; expansion priorities revisited weekly. |
+| Q3 | Exact weekly owner availability, shortlist presentation, ranking, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity and no forced shortlist quota are confirmed. | Owner availability before scheduling review; detailed ranking/batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
+| Q6 | Local run time, scheduler mechanism, source-specific refresh exceptions, and comparison periods beyond the agreed discovery window. | Before unattended daily operation or source-specific scheduling; initial research can remain owner-initiated. |
+| Q7 | Source-specific access, permitted transient processing/excerpts, cleanup, personal-data handling, and redistribution basis. | Before inspection/collection under the applicable source conditions. Whole live content is not permanently stored. Transcription is deferred. |
+| Q8 | Measured numerical quality/omission thresholds and the source/role evaluation sample. Required functional checks and complete claim accounting are already specified. | Measurement method before the trial; numerical acceptance targets require owner approval before a numerical pass claim. Trial observations can be reported without declaring an unapproved threshold met. |
+| Q9 | Implementation stack, persistent-store/export formats, role execution details, and license. | Stack/contracts during initial technical design; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
+| Q10 | Implementation start date, owner approval state, availability, and first-week capacity. | Before converting project days into dated commitments. Approval of the planning document does not start code execution here. |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.

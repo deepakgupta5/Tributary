@@ -28,11 +28,11 @@ Dates below are recording dates, not claims about when a discussion originally o
 | D016 | 2026-11-03 | All product operation must be free, with no paid subscriptions or operating services. | Zero additional monetary operating cost. Use free/local access and processing; paid-only sources become visible gaps. Free-tier limits must not trigger charges. This resolves the budget question. |
 
 ## Pending proposals, not agreed decisions
-| Item | Proposal | Status |
-| --- | --- | --- |
-| Organization eligibility | Broad coverage across service-delivery nonprofits; foundations and umbrella bodies as buyers or routes in; hospitals, universities, religious organizations, and advocacy groups eligible when relevant; no initial revenue cutoff. | Unanswered. No category exclusions or size thresholds approved. |
-| Review workload | Exact weekly allocation, shortlist size, and ranking rules. | Multiple-hour capacity is confirmed by D024; precise allocation and ranking remain open. |
-| Collection implementation | Exact local run time, source-specific access exceptions, and scheduler mechanism. | Daily collection confirmed by D023; implementation details remain open. |
+The authoritative open-product-decision register is PRD.md, Open decisions. Earlier proposals remain unapproved unless a subsequent owner decision resolves them:
+- Organization eligibility and size exclusions: PRD Q1.
+- Owner availability, shortlist/ranking and expansion rules: PRD Q3.
+- Collection scheduling and source-specific refresh details: PRD Q6.
+- Other unresolved design/source/quality/start choices: PRD Q2 and Q7-Q10.
 
 ## Earlier assumptions requiring revision or confirmation
 - The original Canada-only funding-map emphasis has expanded to Canadian and Washington nonprofit discovery with broad signal coverage.
@@ -114,6 +114,14 @@ Dates below are recording dates, not claims about when a discussion originally o
 | ID | Recorded | Decision | Consequence |
 | --- | --- | --- | --- |
 | D038 | 2026-11-03 | The planning conversation reviews and updates product documentation. The owner separately instructs repository-connected Codex through chat to build and run code. | D036-D037 do not authorize implementation or test execution in the planning conversation. PR #2 was closed at the owner's direction; its implementation branch remains untouched for traceability and is not an approved baseline. PR #1 remains documentation only. D034-D035 continue to exclude assistant handoffs and review judgments from repository content. |
+
+## Expanding universes and project baseline
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D039 | 2026-11-03 | Organization and source universes expand continuously in both directions rather than assuming complete day-zero lists. | Candidate discovery, provenance, separate admission checks, bounded expansion, current statuses, and visible coverage gaps are required. No register-growth quota is approved. |
+| D040 | 2026-11-03 | The same four checkpoints apply to findings, nonprofit additions, and daily source additions. | Collection/separate data QC, researcher, skeptic, and fact-checker are required; collector cannot approve its own proposals. Material changes reopen affected checks. Unchanged approved records do not require full daily re-review. |
+| D041 | 2026-11-03 | The project plan has a beginning baseline, the first seven project days with expected achievements and reconciliation, and an ongoing cycle from week two. | PROJECT_PLAN.md records scope, deliverables, QC/testing, dependencies, evidence-based acceptance, and reconciliation. The owner separately instructs Codex to implement; no execution authorization is created for the planning conversation. |
+| D042 | 2026-11-03 | The deliverable is one consistent product-documentation baseline with open decisions explicitly identified and no unapproved numerical quality targets or source quotas. | PRD.md is the single open-product-decision register. First-week day numbers are planning targets, not promises, measured results, or a start date. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

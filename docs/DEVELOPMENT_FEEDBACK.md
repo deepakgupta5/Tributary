@@ -29,6 +29,8 @@ Owner reasoning is recorded only when supplied by the owner. Synthetic fixture o
 | Collection/data QC | "data collection and data QC has to be seperate roles" | Research workflow and D028-D029. |
 | Execution continuity | "Build everything as if you are running in Codex (the way I would run in Claude Code)" | D036 supersedes the earlier local-inference interpretation. |
 | Repository communication | "no assistant-to-Codex instructions" | D034-D035. |
+| Expanding registers | "even the list of non profits AND the daily source addition have to go through these 4 checks" | D039-D040; four checkpoints apply to all three record types. |
+| Baseline deliverable | "one consistent baseline in the product documents, with open decisions explicitly identified. No unapproved numerical quality targets or source quotas." | D041-D042; PROJECT_PLAN.md and the PRD open-decision register. |
 | Instruction channel | "all instructions via me only", "in the chat" | D034-D035. |
 
 These entries record product decisions, not paid-session ratings or a claim of software validation. Private commercial judgments, credentials, client data, and restricted source content are excluded.

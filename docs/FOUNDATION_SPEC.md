@@ -18,6 +18,9 @@ This document specifies software behavior and evidence requirements. Coding assi
 
 Workflow evaluation is described in WORKFLOW_EVALUATION.md. A synthetic executable foundation does not establish live-source coverage, autonomous reasoning, or daily scheduling.
 
+## Expanding-register scope
+The bounded foundation demonstrates source-to-organization and organization-to-source discovery, versioned candidate queues, and all four checkpoints before admission. Collection and data QC have separate responsibilities. Unresolved or blocked additions remain visible, merges retain provenance, and changed records reopen affected checks. Daily source/organization growth is not a quota. PROJECT_PLAN.md defines the baseline, first seven project days, and ongoing reconciliation; PRD.md holds open decisions.
+
 ## Data records
 The minimum record types are organization, source, evidence item, claim, candidate finding, role output, review judgment, and run audit. Records retain stable identifiers, versions, source locators, dates or explicit unknowns, geography, identity certainty, and evidence references.
 
@@ -44,7 +47,8 @@ Persisted live content is limited to metadata, checksums where available, and pe
 | Offline functionality | Fresh-checkout synthetic example, documented prerequisites, and zero live calls. |
 | Live feasibility | Permitted retrieval and parseable evidence from a Canadian source and a Washington source. Blocked portions remain incomplete. |
 | Claim provenance | IDs, source locators, dates/unknowns, organization certainty, role/model/prompt versions, and supporting evidence. |
-| Data QC | Reconciled dispositions, duplicate handling, identity uncertainty, and no success inherited from collection alone. |
+| Data QC | Reconciled dispositions, duplicate handling, identity uncertainty, all four checks for each of the three record types, and no success inherited from collection alone. |
+| Discovery/admission | Both discovery directions, candidate queues, admission blocked by missing required checks, provenance-preserving merges, and changed-version rechecks. |
 | Role quality | Expected synthetic outcomes compared with recorded role outputs; errors and false verification reported. |
 | Versioning | Changed evidence reopens affected reviews. |
 | Privacy/retention | No unapproved raw content, credentials, device serial numbers, or private judgments in tracked files. |

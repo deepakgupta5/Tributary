@@ -26,6 +26,14 @@ Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, o
 
 Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from the initial implementation. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must comply with the approved coding-session scope and free-only constraint; transcription remains a separate deferred feature.
 
+## Expanding registers and admission
+Sources reveal new organizations; organization research reveals new sources. Discovery records retain first seen, method, parent record/evidence reference, candidate version, and next action. Neither register is complete on day zero. Daily research queues new candidates and changed versions; a daily additions quota is not required.
+
+Canonical source admission states are candidate, inspected, approved for collection, blocked, merged, or inactive. Organization admission states are candidate, identity unresolved, admitted, merged, or excluded with reason. Fetch/parse status and the four checkpoint results are separate fields. Both registers and findings follow all four checks in RESEARCH_WORKFLOW.md before admission/approval; pending and blocked records remain visible.
+
+Permitted bounded source inspection provides evidence for admission, without authorizing routine collection. Access and transient-retention conditions apply to inspection too. Newly approved sources can supply available 12-month history and then incremental checks, with archive gaps recorded. Both discovery directions are evaluated in the bounded foundation. Detailed seed samples, batch sizes, and expansion rules remain open in PRD.md.
+
+Coverage reports distinguish discovered, admitted, configured, attempted, and successfully checked sources, and known/admitted organizations. Gaps by geography and source type guide expansion. No percentage of the entire nonprofit universe is inferred from an incomplete register.
 ## Source register fields
 For every discovered source record:
 - Source ID, publisher, URL/endpoint, category, geography, language, and organization/cause coverage.
@@ -36,7 +44,7 @@ For every discovered source record:
 - Verification status, date checked, sample reference, owner, and next action.
 - Operational status: last attempt, last success, failure reason, next check, and known coverage gaps.
 
-Suggested verification states: candidate, sample inspected, access confirmed, approved for pilot, blocked, or retired. Keep verification status separate from fetch status.
+Checkpoint outcomes are recorded for each reviewed source version. Inspection/access findings do not replace the canonical admission state or imply all four checks passed. Keep admission, review, and fetch status separate.
 
 ## Feasibility procedure
 1. Inspect the actual publication or dataset and applicable access conditions.
