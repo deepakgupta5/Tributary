@@ -1,0 +1,13 @@
+{
+  "role": "researcher", "actor": "synthetic-fixture-author", "basis": "synthetic_fixture",
+  "role_version": "research-v1", "execution_id": "fixture-research-v1", "created_at": "2026-11-03T12:00:00+00:00",
+  "claims": [
+    {"claim_id":"c1","organization_id":"DEMO_CA_001","source_id":"demo-ca-report","locator":"campaign","kind":"number","classification":"observation","text":"The 2026 campaign raised CAD 68,000.","value":"68000","unit":"CAD"},
+    {"claim_id":"c2","organization_id":"DEMO_CA_001","source_id":"demo-ca-report","locator":"campaign","kind":"number","classification":"observation","text":"The 2026 target was CAD 80,000.","value":"80000","unit":"CAD"},
+    {"claim_id":"c3","organization_id":"DEMO_CA_001","source_id":"demo-ca-report","locator":"leader","kind":"quote","classification":"attributed_statement","text":"The director said funding had collapsed.","quote":"Our funding has collapsed."},
+    {"claim_id":"c4","organization_id":"DEMO_WA_001","source_id":"demo-wa-update","locator":"deadline","kind":"paraphrase","classification":"observation","text":"The campaign deadline was extended because donations were weak."},
+    {"claim_id":"c5","organization_id":"DEMO_CA_001","source_id":"demo-ca-report","locator":"demand","kind":"hypothesis","classification":"hypothesis","text":"Supporter re-engagement may be worth investigating.","alternative":"The funding mix, campaign design, or service demand may have changed; donor retention is unknown."},
+    {"claim_id":"c6","organization_id":"DEMO_CA_001","source_id":"demo-ca-report","locator":"demand","kind":"number","classification":"observation","text":"Monthly service requests reached 300.","value":"300","unit":"requests per month"}
+  ],
+  "unknowns": ["Donor retention is not disclosed.","Consulting budget and willingness to engage are unknown.","Current status has not been rechecked.","No real sources have been integrated."]
+}

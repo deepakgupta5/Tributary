@@ -1,0 +1,71 @@
+{
+  "role": "fact-checker",
+  "actor": "Codex current coding session, same assistant for all roles",
+  "basis": "model_checked",
+  "role_version": "factcheck-v1",
+  "execution_id": "coding-session-2026-11-03-fact-checker",
+  "created_at": "2026-11-04T00:53:09.084449+00:00",
+  "checks": [
+    {
+      "claim_id": "c1",
+      "status": "verified",
+      "explanation": "The source says CAD 64,000 for the 2026 actual amount and separately gives the CAD 80,000 target.",
+      "support": "The 2026 campaign raised CAD 64,000 against a CAD 80,000 target.",
+      "evidence_id": "ev_184713993273eeef375e2a99",
+      "locator": "campaign"
+    },
+    {
+      "claim_id": "c2",
+      "status": "verified",
+      "explanation": "The source gives CAD 80,000 as the 2026 target; this is not the actual amount raised.",
+      "support": "The 2026 campaign raised CAD 64,000 against a CAD 80,000 target.",
+      "evidence_id": "ev_184713993273eeef375e2a99",
+      "locator": "campaign"
+    },
+    {
+      "claim_id": "c3",
+      "status": "verified",
+      "explanation": "The quotation matches the director statement in the source. It is an attributed statement, not independent proof of the funding situation.",
+      "support": "We are serving more households, but our funding mix has changed.",
+      "evidence_id": "ev_184713993273eeef375e2a99",
+      "locator": "leader"
+    },
+    {
+      "claim_id": "c4",
+      "status": "verified",
+      "explanation": "The source explicitly gives the venue closure as the reason and says no campaign total is published. Publication date is known; event date remains unknown.",
+      "support": "The deadline moved from September 30 to October 14 to accommodate a venue closure.",
+      "evidence_id": "ev_aa55f4680496e24d69b697aa",
+      "locator": "deadline"
+    },
+    {
+      "claim_id": "c5",
+      "status": "unverifiable",
+      "explanation": "A commercial investigation hypothesis is not established by the source. Donor retention, budgets, and internal causes remain unknown.",
+      "evidence_id": "ev_184713993273eeef375e2a99",
+      "locator": "demand"
+    },
+    {
+      "claim_id": "c6",
+      "status": "verified",
+      "explanation": "The source reports 300 monthly requests. This does not prove a fundraising or donor-retention problem.",
+      "support": "Monthly service requests increased from 240 to 300.",
+      "evidence_id": "ev_184713993273eeef375e2a99",
+      "locator": "demand"
+    }
+  ],
+  "resolutions": [
+    {
+      "issue_id": "i4",
+      "status": "limitation retained",
+      "reason": "The commercial hypothesis remains unverifiable; donor retention is not disclosed."
+    },
+    {
+      "issue_id": "i5",
+      "status": "unresolved",
+      "reason": "No independent corroborating record or subsequent update is in these synthetic sources."
+    }
+  ],
+  "model_version": "Exact model identifier not exposed in this session",
+  "input_digest": "a7d416522af327216f3cc901fba40f7c6bc095122161ac1c721435b55ee2528e"
+}

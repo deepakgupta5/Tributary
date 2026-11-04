@@ -1,0 +1,12 @@
+{
+  "recorded_date": "2026-11-03",
+  "python": "3.12.14",
+  "unit_tests_passed": 18,
+  "fresh_directory_unit_tests_passed": 18,
+  "cli_expected_exit_codes_passed": 11,
+  "source_mode": "synthetic only",
+  "network_calls": 0,
+  "inference_calls_from_code": 0,
+  "independent_model_accuracy_measured": false,
+  "owner_usefulness_review_performed": false
+}

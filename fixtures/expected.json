@@ -1,0 +1,12 @@
+{
+  "description": "Synthetic expectations, not model output or real organization findings.",
+  "collection": {"total": 4, "inserted": 2, "duplicate": 1, "rejected": 1},
+  "claims": {
+    "c1": "contradicted", "c2": "verified", "c3": "contradicted",
+    "c4": "partly verified", "c5": "unverifiable", "c6": "verified"
+  },
+  "planted_errors": ["c1", "c3", "c4"],
+  "unverifiable_hypotheses": ["c5"],
+  "independent_corroboration": false,
+  "live_source_coverage": false
+}

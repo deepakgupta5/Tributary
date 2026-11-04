@@ -1,0 +1,33 @@
+{
+  "counts": {
+    "total": 4,
+    "inserted": 2,
+    "duplicate": 1,
+    "rejected": 1
+  },
+  "dispositions": [
+    {
+      "index": 0,
+      "result": "inserted",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "index": 1,
+      "result": "duplicate",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "index": 2,
+      "result": "inserted",
+      "evidence_id": "ev_aa55f4680496e24d69b697aa"
+    },
+    {
+      "index": 3,
+      "result": "rejected",
+      "reason": "Missing organization_id"
+    }
+  ],
+  "synthetic_only": true,
+  "status": "partial",
+  "run_id": 1
+}

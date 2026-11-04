@@ -1,0 +1,18 @@
+{
+  "role":"fact-checker","actor":"synthetic-fixture-author","basis":"synthetic_fixture",
+  "role_version":"factcheck-v1","execution_id":"fixture-factcheck-v1","created_at":"2026-11-03T12:02:00+00:00",
+  "checks":[
+    {"claim_id":"c1","status":"contradicted","explanation":"The original says CAD 64,000, not CAD 68,000.","support":"The 2026 campaign raised CAD 64,000 against a CAD 80,000 target.","correction":"The 2026 campaign raised CAD 64,000."},
+    {"claim_id":"c2","status":"verified","explanation":"The source gives CAD 80,000 as the 2026 target; this is not the actual amount raised.","support":"The 2026 campaign raised CAD 64,000 against a CAD 80,000 target."},
+    {"claim_id":"c3","status":"contradicted","explanation":"The supplied quotation is not in the original and materially changes its meaning.","support":"We are serving more households, but our funding mix has changed.","correction":"The director said: We are serving more households, but our funding mix has changed."},
+    {"claim_id":"c4","status":"partly verified","explanation":"The extension is supported; weak donations are not. The source attributes the move to a venue closure. Event date remains unknown.","support":"The deadline moved from September 30 to October 14 to accommodate a venue closure.","correction":"The deadline moved to accommodate a venue closure; no campaign total was published."},
+    {"claim_id":"c5","status":"unverifiable","explanation":"A commercial investigation hypothesis is not established by the source. Donor retention, budgets, and internal causes remain unknown."},
+    {"claim_id":"c6","status":"verified","explanation":"The source reports 300 monthly requests. This does not prove a fundraising or donor-retention problem.","support":"Monthly service requests increased from 240 to 300."}
+  ],
+  "resolutions":[
+    {"issue_id":"i1","status":"corrected","reason":"Correct amount supplied alongside original claim; original remains in the audit history."},
+    {"issue_id":"i2","status":"corrected","reason":"Faithful quotation supplied."},
+    {"issue_id":"i3","status":"corrected","reason":"Stated venue explanation replaces unsupported cause."},
+    {"issue_id":"i4","status":"limitation retained","reason":"Hypothesis remains unverified and separate from factual findings."}
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "role": "researcher",
+  "actor": "Codex current coding session, same assistant for all roles",
+  "basis": "model_checked",
+  "role_version": "research-v1",
+  "execution_id": "coding-session-2026-11-03-researcher",
+  "created_at": "2026-11-04T00:53:09.071873+00:00",
+  "claims": [
+    {
+      "claim_id": "c1",
+      "organization_id": "DEMO_CA_001",
+      "locator": "campaign",
+      "kind": "number",
+      "classification": "observation",
+      "text": "The synthetic 2026 campaign raised CAD 64,000.",
+      "value": "64000",
+      "unit": "CAD",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "claim_id": "c2",
+      "organization_id": "DEMO_CA_001",
+      "locator": "campaign",
+      "kind": "number",
+      "classification": "observation",
+      "text": "The 2026 target was CAD 80,000.",
+      "value": "80000",
+      "unit": "CAD",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "claim_id": "c3",
+      "organization_id": "DEMO_CA_001",
+      "locator": "leader",
+      "kind": "quote",
+      "classification": "attributed_statement",
+      "text": "The director described serving more households and a changed funding mix.",
+      "quote": "We are serving more households, but our funding mix has changed.",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "claim_id": "c4",
+      "organization_id": "DEMO_WA_001",
+      "locator": "deadline",
+      "kind": "paraphrase",
+      "classification": "observation",
+      "text": "The deadline moved from September 30 to October 14 because of a venue closure. The source does not publish a campaign total.",
+      "evidence_id": "ev_aa55f4680496e24d69b697aa"
+    },
+    {
+      "claim_id": "c5",
+      "organization_id": "DEMO_CA_001",
+      "locator": "demand",
+      "kind": "hypothesis",
+      "classification": "hypothesis",
+      "text": "Supporter re-engagement may be worth investigating.",
+      "alternative": "The funding mix, campaign design, or service demand may have changed; donor retention is unknown.",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    },
+    {
+      "claim_id": "c6",
+      "organization_id": "DEMO_CA_001",
+      "locator": "demand",
+      "kind": "number",
+      "classification": "observation",
+      "text": "Monthly service requests reached 300.",
+      "value": "300",
+      "unit": "requests per month",
+      "evidence_id": "ev_184713993273eeef375e2a99"
+    }
+  ],
+  "unknowns": [
+    "Donor retention is not disclosed.",
+    "Consulting budget and willingness to engage are unknown.",
+    "Current status has not been rechecked.",
+    "No real sources have been integrated."
+  ],
+  "model_version": "Exact model identifier not exposed in this session",
+  "input_digest": "40509942b232154504c75f688a483ed055ce1c4d80a957eadf39815ab55ed9e5"
+}

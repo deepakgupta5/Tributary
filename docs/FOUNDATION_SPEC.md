@@ -1,5 +1,5 @@
 # Foundation specification
-Status: Draft technical scope
+Status: Product scope; bounded synthetic subset implemented
 Recorded: 2026-11-03
 
 ## Purpose
@@ -57,3 +57,8 @@ Malformed input; missing dates; ambiguous identity; exact/syndicated duplicates;
 
 ## Deferred scope
 Nationwide crawling, full funding graph, all source adapters, advanced ranking, polished dashboard, scheduler installation, audio transcription, hosting, and productization are later increments. Source coverage, benchmark quality, and operating constraints govern their feasibility. Category exclusions, revenue cutoffs, and a license have not been selected.
+
+## Implemented subset and remaining evidence
+The executable subset supports synthetic JSON collection, SQLite storage, exact-content deduplication, audit reconciliation, versioned role submission, stale-review detection, and report rendering. DATA_CONTRACTS.md documents the actual schema and validator limits. Examples retain fixture replay and same-session role outputs separately.
+
+Live Canadian/Washington retrieval, source-specific retention checks, identity resolution, arithmetic beyond count reconciliation/numeric tokens, independent role contexts, private commercial judgments, dashboard, and daily scheduling are not implemented. The live-feasibility and owner-usefulness acceptance outcomes remain pending.
