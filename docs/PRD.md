@@ -125,6 +125,27 @@ Confirmed: record material owner feedback on assistant outputs and resulting dev
 
 This records how the owner steers development; it does not add runtime AI to Tributary. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
+## Collection, data QC, and verification roles
+Confirmed: data collection and data QC are separate roles. Collection completion is not approval of the collected evidence.
+
+| Role | Responsibility | Output |
+| --- | --- | --- |
+| Collector | Retrieve permitted material and extract organization-level records and evidence without treating its own output as verified. | Candidate records, source references, extraction metadata, and collection audit. |
+| Data QC reviewer | Independently check collector output for completeness, dates, identity, amounts/units, source attribution, duplicates, missing context, and processing reconciliation. | Pass, return for correction, or reject, with reason and checked record version. |
+| Evidence verifier | Check substantive claims against the permitted original source, including context, qualifications, contradictions, and whether source evidence supports each claim. | Verified, partly verified, contradicted, or unverifiable, with verification basis and time. |
+| Owner | Interpret relevance and decide whether to investigate or pursue. | Private commercial judgment; separate from factual verification. |
+
+The collector cannot approve its own QC. Data QC must be a separate review pass with its own recorded role/run identity and checks, rather than reusing the collector's success flag. Evidence verification is an explicit gate within the QC workflow; it need not imply a third model or paid service. The coding environment must document who or what performs each role. Deterministic automated checks assist the QC reviewer; source-faithfulness judgments that cannot be checked reliably remain pending for human review. No runtime LLM is introduced.
+
+Maintain collection, QC, and verification states separately. Only QC-passed, verified evidence enters the verified findings queue. Pending/partial/unverifiable material remains inspectable in a labelled investigation queue, not silently discarded or described as verified. Source facts may be verified while a business hypothesis remains unproven.
+
+Record finding version, review identity, check time, evidence reference, result, reason, and correction history. Changes to supporting content or substantive claims invalidate the affected QC/verification approval until reviewed again. A hash or working URL alone does not verify factual accuracy. Source verification establishes what a source supports, not independent proof that every statement by the publisher is true.
+
+## Approved retention policy
+Retain source metadata, checksums where available, and necessary permitted sanitized evidence excerpts. Do not permanently store whole live articles, audio, or transcripts. Full content may be processed transiently only where the source-specific access/handling decision permits it; exclude it from persistent caches, logs, tracked files, and error dumps. Record transient cleanup behavior and verify it.
+
+Verification can revisit the original source. If it is unavailable and retained evidence is insufficient, mark verification incomplete. Synthetic fixtures provide repeatable offline checks; do not claim full replay of live pages from metadata alone. Source-specific access and excerpt permissions still require inspection.
+
 ## Reliability and data boundaries
 - Every relationship and signal must be traceable to evidence; distinguish facts from interpretation.
 - Conservative identity matching with an unresolved queue; never force a name match.
@@ -159,7 +180,7 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Resolved for the initial core: deterministic processing, no runtime AI or model calls; human interpretation remains explicit. |
 | Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
-| Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
+| Q7 | Retention approach approved: metadata and permitted sanitized excerpts, no permanent raw live content. Which sources permit the required transient processing/excerpts, and how will cleanup and personal-data exclusion be verified? Transcription remains deferred. |
 | Q8 | Task 001 has functional checks in CODEX_HANDOFF.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.
