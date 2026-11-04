@@ -125,21 +125,22 @@ Confirmed: record material owner feedback on assistant outputs and resulting dev
 
 This records how the owner steers development; it does not add runtime AI to Tributary. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
-## Collection, data QC, and verification roles
-Confirmed: data collection and data QC are separate roles. Collection completion is not approval of the collected evidence.
+## Researcher, skeptic, and fact-checker roles
+Confirmed sequence: researcher -> skeptic -> fact-checker -> labelled evidence report -> owner investigation. Detailed role instructions and outputs are defined in [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md).
 
 | Role | Responsibility | Output |
 | --- | --- | --- |
-| Collector | Retrieve permitted material and extract organization-level records and evidence without treating its own output as verified. | Candidate records, source references, extraction metadata, and collection audit. |
-| Data QC reviewer | Independently check collector output for completeness, dates, identity, amounts/units, source attribution, duplicates, missing context, and processing reconciliation. | Pass, return for correction, or reject, with reason and checked record version. |
-| Evidence verifier | Check substantive claims against the permitted original source, including context, qualifications, contradictions, and whether source evidence supports each claim. | Verified, partly verified, contradicted, or unverifiable, with verification basis and time. |
-| Owner | Interpret relevance and decide whether to investigate or pursue. | Private commercial judgment; separate from factual verification. |
+| Researcher | Use the required source types, separate observations/attributed statements from speculation, and cross-check consequential claims. | Evidence report, full claim ledger, source locators, coverage gaps, and collection audit. |
+| Skeptic | Challenge evidence and logic constructively; identify alternatives without becoming a roadblock. | Short ranked issue list, referencing claims and needed evidence. |
+| Fact-checker | Recheck every number, quote, and paraphrase against its original document, including unflagged claims; resolve or retain skeptic issues. | Versioned claim checks, corrections, verification flags, and residual issues. |
+| Owner | Assess relevance and decide what to investigate or pursue. | Private commercial judgment, separate from factual checking. |
 
-The collector cannot approve its own QC. Data QC must be a separate review pass with its own recorded role/run identity and checks, rather than reusing the collector's success flag. Evidence verification is an explicit gate within the QC workflow; it need not imply a third model or paid service. The coding environment must document who or what performs each role. Deterministic automated checks assist the QC reviewer; source-faithfulness judgments that cannot be checked reliably remain pending for human review. No runtime LLM is introduced.
+These are separate responsibilities with separate review records. The researcher cannot approve its own QC. The fact-checker receives the full report and claim ledger as well as the skeptic's list, so unchallenged errors do not escape review.
 
-Maintain collection, QC, and verification states separately. Only QC-passed, verified evidence enters the verified findings queue. Pending/partial/unverifiable material remains inspectable in a labelled investigation queue, not silently discarded or described as verified. Source facts may be verified while a business hypothesis remains unproven.
+Keep collection completion, skeptic review, and claim verification separate. Only checked claims appear as verified; partially checked reports and unresolved material stay labelled and accessible. Verified source-faithfulness does not prove an attributed statement is independently true or a business hypothesis is established. New substantive evidence/claim versions invalidate affected approvals.
 
-Record finding version, review identity, check time, evidence reference, result, reason, and correction history. Changes to supporting content or substantive claims invalidate the affected QC/verification approval until reviewed again. A hash or working URL alone does not verify factual accuracy. Source verification establishes what a source supports, not independent proof that every statement by the publisher is true.
+No runtime AI is introduced by role names. The initial implementation provides deterministic collection/checking tools and human review steps for contextual logic and source-faithfulness. Automated LLM execution of these roles would require a separate scope decision.
+
 
 ## Approved retention policy
 Retain source metadata, checksums where available, and necessary permitted sanitized evidence excerpts. Do not permanently store whole live articles, audio, or transcripts. Full content may be processed transiently only where the source-specific access/handling decision permits it; exclude it from persistent caches, logs, tracked files, and error dumps. Record transient cleanup behavior and verify it.
