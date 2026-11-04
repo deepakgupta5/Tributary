@@ -18,3 +18,5 @@ Planning documents only. No collector, dashboard, daily scheduler, or verified s
 - [Workflow evaluation](docs/WORKFLOW_EVALUATION.md)
 
 The specifications describe expected behavior and evaluation evidence. All execution instructions to coding assistants are supplied by the owner through chat. Private commercial judgments and restricted material stay outside this public repository.
+
+The planning conversation is limited to documentation and review. Implementation and test execution are separately directed by the owner to Codex in chat. Closed PR #2 and its preserved branch are not an approved implementation baseline. PR #1 remains the documentation proposal.

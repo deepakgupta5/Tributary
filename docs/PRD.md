@@ -151,7 +151,7 @@ Verification can revisit the original source. If it is unavailable and retained 
 - Every relationship and signal must be traceable to evidence; distinguish facts from interpretation.
 - Conservative identity matching with an unresolved queue; never force a name match.
 - Reconcile records through import stages, using mutually exclusive dispositions and explicit duplicate/rejection/unmatched counts.
-- Preserve reproducibility using permitted source snapshots or checksums and retrieval metadata. Full source retention depends on rights and personal-data handling.
+- Preserve permitted sanitized evidence excerpts, checksums where available, and retrieval metadata. These do not guarantee full replay of a live page. The approved no-permanent-whole-content retention policy governs all source handling.
 - Public code and fixtures remain organization-level. No donor records, director lists, private watchlists, credentials, or client data.
 - Incidental personal information in articles and transcripts requires a handling policy before ingestion. Public availability alone does not settle storage or redistribution. Repository exclusion alone is insufficient: persistent local raw storage, transient retrieval, evidence excerpts, and logs each require an explicit handling decision. If unresolved, use synthetic fixtures and source references without retaining live content.
 - Respect source access conditions. Snippets alone do not qualify a substantive finding as verified.
@@ -167,7 +167,7 @@ The initial implementation is described in [FOUNDATION_SPEC.md](FOUNDATION_SPEC.
 7. Separate evidence-quality and relevance judgments retain reasons, dates, and reviewed versions; changed evidence does not silently inherit approval.
 8. Coverage reporting distinguishes intended, configured, and successfully checked coverage.
 
-These are draft acceptance criteria. Numeric quality thresholds and the live-source set are not yet approved.
+These are draft acceptance criteria for the bounded foundation as a whole. Gate A is the synthetic end-to-end implementation and its software checks. Gate B is permitted live-source collection through the same flow, with separate source/QC evidence. Owner usefulness review is a further distinct outcome. Passing Gate A does not establish Gate B or owner approval. Numeric quality thresholds and the live-source set are not yet approved.
 
 ## Success measures to establish in the trial
 Measure source/geographic coverage, findings judged useful, unsupported claims, incorrect identity matches, duplicate events, source-to-review delay, missed relevant items in an independently reviewed sample, and review time per useful finding. Do not claim completeness across the open web. Revenue or introductions are downstream outcomes, not guaranteed software results.

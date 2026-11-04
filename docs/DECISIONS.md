@@ -2,7 +2,7 @@
 Status: Draft v0.1
 Recorded: 2026-11-03
 
-Dates below are recording dates, not claims about when a discussion originally occurred. Current direction is D036-D037 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
+Dates below are recording dates, not claims about when a discussion originally occurred. Current direction is D036-D038 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
 
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
@@ -108,7 +108,12 @@ Dates below are recording dates, not claims about when a discussion originally o
 | ID | Recorded | Decision | Consequence |
 | --- | --- | --- | --- |
 | D036 | 2026-11-03 | Build and execute the complete flow in Codex; preserve tested logic, rules, code, data contracts, role definitions, and factual results for continuation in Claude Code through repository access. | Supersedes the execution restrictions in D020, D024, D029-D032 and the local-inference interpretation. No MacBook benchmark, model installation, provider adapter, or API migration prerequisite. No new paid services or automatic charges. Daily unattended execution remains separately unproven. |
-| D037 | 2026-11-03 | Correct the documents and build a bounded collection, stored-evidence, researcher, skeptic, fact-checker, and reviewable-report flow. | Source trials and implementation form one bounded increment. D034-D035 continue to govern communication. D025 records owner product feedback and factual changes, not assistant execution prompts or review commentary. |
+| D037 | 2026-11-03 | The intended first implementation scope is a bounded collection, stored-evidence, researcher, skeptic, fact-checker, and reviewable-report flow. | This is product scope, not authorization for the planning conversation to execute it. D038 specifies the execution boundary. Source trials and implementation form one bounded increment. |
+
+## Planning and implementation boundary
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D038 | 2026-11-03 | The planning conversation reviews and updates product documentation. The owner separately instructs repository-connected Codex through chat to build and run code. | D036-D037 do not authorize implementation or test execution in the planning conversation. PR #2 was closed at the owner's direction; its implementation branch remains untouched for traceability and is not an approved baseline. PR #1 remains documentation only. D034-D035 continue to exclude assistant handoffs and review judgments from repository content. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

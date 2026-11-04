@@ -8,7 +8,7 @@ The foundation demonstrates a bounded collection-to-report flow executed in the 
 This document specifies software behavior and evidence requirements. Coding assignments and execution instructions are supplied by the owner in chat.
 
 ## Scope
-- Local execution with zero additional monetary operating cost.
+- Execution in the owner-directed coding environment with zero additional monetary operating cost; cloud development is permitted.
 - Deterministic collection controls, identifiers, arithmetic checks, deduplication, counters, and checkpoints.
 - Researcher, skeptic, and fact-checker roles executed within coding sessions with distinct contexts and outputs.
 - Separate evidence quality and private business relevance judgments.
@@ -50,7 +50,7 @@ Persisted live content is limited to metadata, checksums where available, and pe
 | Privacy/retention | No unapproved raw content, credentials, device serial numbers, or private judgments in tracked files. |
 | Human review | Actual owner feedback distinguished from assistant summaries and unperformed review. |
 
-Synthetic functionality, live-source feasibility, and owner usefulness review have separate outcomes. One does not establish the others.
+Gate A covers synthetic functionality and software checks. Gate B covers permitted live-source feasibility through the same flow. Owner usefulness review is separate from both. Passing one gate does not establish the others. These are staged outcomes within the bounded foundation, not permission for the planning conversation to execute implementation.
 
 ## Test cases
 Malformed input; missing dates; ambiguous identity; exact/syndicated duplicates; irrelevant keywords; indirect clues with alternative explanations; numeric mismatch; altered quotes; overstated paraphrases; omitted qualifications; inaccessible originals; partial runs; rerun idempotence; stale approval; and source text containing untrusted instructions.

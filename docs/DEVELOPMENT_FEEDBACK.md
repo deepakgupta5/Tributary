@@ -5,7 +5,7 @@ Recorded: 2026-11-03
 ## Scope
 This record contains owner-provided product feedback, resulting product changes, and actual validation evidence. Assistant opinions, assistant-to-assistant messages, review verdicts, task assignments, and execution prompts are excluded. All such communication passes through the owner in chat.
 
-Actual implementation checks are recorded in DEVLOG.md. No hardware benchmark is required by current scope.
+This documentation branch contains no approved implementation checks or development log. Future implementation records must identify checks actually performed. No hardware benchmark is required by current scope.
 
 ## Record fields
 - Date and product area.
