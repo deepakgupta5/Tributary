@@ -29,7 +29,7 @@ Canada and Washington; English only; no paid operating services; no runtime mode
 | Item | When needed | Current status |
 | --- | --- | --- |
 | Owner accepts the reviewed Task 001 scope/checks | Before issuing the implementation task | Pending; documents are not self-approving. |
-| Source handling policy and source-specific permitted access | Before each live source is collected/persisted | Unresolved policy; source evidence must be checked in Codex. Synthetic fixtures can be used meanwhile. |
+| Source handling policy and source-specific permitted access | Before each live source is collected/persisted | Retention approach approved; each source's permissions and implementation checks remain to be established in Codex. |
 | Stack and bounded source selection | Within Task 001 | Assigned to Codex; justify choices and report gaps. |
 | Category exclusions/revenue cutoffs | Before applying such exclusions | None approved; do not silently filter. Does not block source-format fixtures. |
 | Numeric commercial relevance/omission thresholds | Before broader rollout | Derive from owner review; do not invent acceptance rates. Functional Task 001 checks are already specified. |
@@ -38,10 +38,10 @@ Canada and Washington; English only; no paid operating services; no runtime mode
 | License | Before representing the code as open source | Not selected; public visibility alone is insufficient. |
 | External program rules | Before program-dependent work | Separate confirmation; not a technical bootstrap gate. |
 
-## Recommended source-handling choice, not yet approved
+## Source-handling choice, subsequently approved
 For the first live slice, retain source metadata, checksums, and only necessary permitted sanitized evidence excerpts; do not keep persistent raw articles, audio, or transcripts. Retrieval still needs a source-specific transient-processing decision. Drop person fields from structured records; ensure excerpts and logs do not retain incidental personal information. If an excerpt cannot preserve useful organizational context within the handling rules, retain only a reference and visible gap. Do not claim full offline reproduction of live pages when raw content is not retained; offline repeatability comes from synthetic fixtures.
 
-The owner must approve or revise this policy. Access conditions and permitted use still need source-specific inspection.
+Owner approved this retention approach on 2026-11-03 and required separate collection/data-QC roles with explicit verification. See PRD.md, DECISIONS.md D027-D028, and CODEX_HANDOFF.md. Access conditions and permitted use still need source-specific inspection.
 
 ## Remaining product risk
 Deterministic rules may produce noisy or incomplete indirect signals. More review hours do not remove that risk. Task 001 must show rule triggers, permit inspection of non-matching/uncertain items, and compare results with a small human-reviewed sample. Quality improvement is not established until observed.
