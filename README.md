@@ -5,7 +5,16 @@ Tributary is a research tool for discovering potential nonprofit clients and org
 Software gathers and organizes evidence; the owner interprets context and makes commercial decisions. Initial requirements include zero additional operating cost, deterministic data handling, coding-session researcher/skeptic/fact-checker roles, and owner review. Codex executes the initial development and research workflow; Claude Code can later continue from the same repository. Client donor analysis, campaign delivery, and outreach are outside scope.
 
 ## Status
-Planning documents only. No collector, dashboard, daily scheduler, or verified source integration is implemented. The documentation is under review in PR #1; no license has been selected.
+This implementation branch contains a bounded synthetic Python/SQLite workflow based on the approved documentation commit `f91734d98392bcfc3066c45972fad26695c86472`. It includes versioned evidence, both discovery directions, four-checkpoint admission, rechecks, reconciliation, and Markdown/JSON/JSONL outputs. Reviews in its demonstration are labelled fixture replay, not actual coding-session role evaluation. No live collector, dashboard, daily scheduler, provider integration, or verified live source is implemented. No license has been selected.
+
+## Synthetic demonstration
+
+```sh
+python3 -m unittest discover -s tests -v
+python3 -m tributary.demo --out out/demo
+```
+
+Use a new output directory for each demonstration. Python 3.12+ with SQLite is sufficient; no dependency installation is required. See [implementation and limits](docs/SYNTHETIC_IMPLEMENTATION.md), [captured report](examples/report.md), [actual check record](docs/SYNTHETIC_RESULTS.md), and [JSON demonstration](examples/demonstration.json). Live work and expansion remain separate owner-review gates.
 
 ## Project baseline
 [PROJECT_PLAN.md](docs/PROJECT_PLAN.md) defines the starting baseline, the first seven project days, and week two onward. [PRD.md](docs/PRD.md) is the single open-product-decision register. The plan is documentation, not authorization to execute implementation in the planning conversation. The start date is unset. Numerical quality thresholds and source/organization quotas have not been approved.

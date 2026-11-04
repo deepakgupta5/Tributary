@@ -1,0 +1,16 @@
+{
+  "synthetic": true,
+  "documents": {
+    "d1": {"p1": "Fictional Ash Aid received CAD 40 in 2025 against a CAD 50 target.", "p2": "Director said: We may reduce hours if the grant is not renewed.", "p3": "The campaign extension followed venue flooding. Donor retention was not measured."},
+    "d2": {"p1": "A syndicated copy of d1, not an independent origin."},
+    "d3": null
+  },
+  "claims": [
+    {"id": "correct", "text": "2025 receipts were CAD 40.", "source": "d1", "locator": "p1"},
+    {"id": "target", "text": "2025 receipts were CAD 50.", "source": "d1", "locator": "p1"},
+    {"id": "quote", "text": "Director said: We have reduced hours.", "source": "d1", "locator": "p2"},
+    {"id": "cause", "text": "The extension proves donor retention collapsed.", "source": "d1", "locator": "p3"},
+    {"id": "independence", "text": "d1 and d2 are two independent origins.", "source": "d2", "locator": "p1"},
+    {"id": "missing", "text": "The unavailable d3 confirms CAD 80 of revenue.", "source": "d3", "locator": null}
+  ]
+}

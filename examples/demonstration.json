@@ -1,0 +1,124 @@
+{
+  "basis": "fixture_replay",
+  "initial": {
+    "opening_pending": 0,
+    "new_candidates": 9,
+    "reopened": 0,
+    "admitted": 6,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-campaign",
+      "f-grant",
+      "o-ambiguous",
+      "o-cedar",
+      "o-willow",
+      "s-blocked",
+      "s-news",
+      "s-org",
+      "s-wa"
+    ],
+    "candidate_balance": true,
+    "opening_active": 0,
+    "activations": 6,
+    "inactivations": 0,
+    "closing_active": 6,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [
+      "initial-ingestion"
+    ],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  },
+  "after_change_before_recheck": {
+    "f-campaign": "awaiting_recheck",
+    "f-grant": "pending",
+    "o-ambiguous": "pending",
+    "o-cedar": "awaiting_recheck",
+    "o-willow": "admitted",
+    "s-blocked": "pending",
+    "s-news": "awaiting_recheck",
+    "s-org": "approved_for_collection",
+    "s-wa": "approved_for_collection"
+  },
+  "changed_period": {
+    "opening_pending": 3,
+    "new_candidates": 0,
+    "reopened": 3,
+    "admitted": 3,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-campaign",
+      "f-grant",
+      "o-ambiguous",
+      "o-cedar",
+      "s-blocked",
+      "s-news"
+    ],
+    "candidate_balance": true,
+    "opening_active": 6,
+    "activations": 0,
+    "inactivations": 0,
+    "closing_active": 6,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [
+      "initial-ingestion"
+    ],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  },
+  "rerun": {
+    "opening_pending": 3,
+    "new_candidates": 0,
+    "reopened": 0,
+    "admitted": 0,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-grant",
+      "o-ambiguous",
+      "s-blocked"
+    ],
+    "candidate_balance": true,
+    "opening_active": 6,
+    "activations": 0,
+    "inactivations": 0,
+    "closing_active": 6,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [
+      "initial-ingestion"
+    ],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  },
+  "rerun_ingestion": {
+    "id": "repeat-ingestion",
+    "input_hash": "55b70701a0be276efc361002ed230e1f3aaeb911379dab56c27f0a79fb862ef3",
+    "items": [
+      {
+        "index": 0,
+        "id": "e-news",
+        "version": 2,
+        "disposition": "duplicate"
+      }
+    ],
+    "status": "complete",
+    "input_count": 1,
+    "counts": {
+      "unique": 0,
+      "duplicate": 1,
+      "quarantined": 0
+    },
+    "pending_count": 0,
+    "reconciled": true
+  },
+  "deterministic_checks": {
+    "basis": "explicit synthetic structured amounts; not semantic extraction",
+    "original_shortfall_CAD": "30000",
+    "target_equals_actual": false
+  },
+  "actual_coding_session_review": "not_performed",
+  "live_source_feasibility": "not_performed",
+  "owner_usefulness": "not_performed"
+}
