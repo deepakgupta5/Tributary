@@ -1,0 +1,352 @@
+{
+  "s-register": {
+    "execution_id": "session-001:researcher:s-register",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037553+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Useful fictional identity register with explicit exercise permission. Entry assertions remain register-attributed.",
+    "claim_ids": [
+      "sr1"
+    ],
+    "assessments": [
+      {
+        "claim_id": "sr1",
+        "status": "verified",
+        "reason": "p0 expressly permits reading/reuse with attribution, without authentication or payment.",
+        "evidence": "d-register",
+        "locator": "p0",
+        "classification": "attributed_statement"
+      }
+    ],
+    "unknowns": [
+      "Real publisher and live endpoint have not been tested."
+    ]
+  },
+  "s-annual": {
+    "execution_id": "session-001:researcher:s-annual",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037651+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Relevant first-party campaign source with limited attributed-excerpt handling basis for the exercise.",
+    "claim_ids": [
+      "sa1"
+    ],
+    "assessments": [
+      {
+        "claim_id": "sa1",
+        "status": "verified",
+        "reason": "Report p0 identifies the society and permits retaining attributed excerpts; registry p2 identifies its endpoint.",
+        "evidence": "d-annual",
+        "locator": "p0",
+        "classification": "attributed_statement"
+      }
+    ],
+    "unknowns": [
+      "No independent audit of campaign receipts."
+    ]
+  },
+  "s-reprint": {
+    "execution_id": "session-001:researcher:s-reprint",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037654+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Candidate source adds a reprint relationship but no independent receipt confirmation; routine handling permission cannot be established.",
+    "claim_ids": [
+      "sp1",
+      "sp2"
+    ],
+    "assessments": [
+      {
+        "claim_id": "sp1",
+        "status": "verified",
+        "reason": "p0 states readable without login; p1 explicitly says reprinted and no independent reporting.",
+        "evidence": "d-reprint",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "sp2",
+        "status": "unverifiable",
+        "reason": "p0 supplies no permission or handling basis for routine collection.",
+        "evidence": "d-reprint",
+        "locator": "p0",
+        "classification": "attributed_statement"
+      }
+    ],
+    "unknowns": [
+      "Routine access/retention terms remain unresolved."
+    ]
+  },
+  "o-harbor": {
+    "execution_id": "session-001:researcher:o-harbor",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037656+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Registry supplies a unique BC identity and eligible service-delivery category. No budget or buying intent is established.",
+    "claim_ids": [
+      "oh1"
+    ],
+    "assessments": [
+      {
+        "claim_id": "oh1",
+        "status": "verified",
+        "reason": "Full name, SYN-BC-041, category and BC location appear together.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      }
+    ],
+    "unknowns": [
+      "Consulting budget and demand."
+    ]
+  },
+  "o-ambiguous": {
+    "execution_id": "session-001:researcher:o-ambiguous",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037658+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Candidate cannot be resolved to either entity from its short name.",
+    "claim_ids": [
+      "oa1"
+    ],
+    "assessments": [
+      {
+        "claim_id": "oa1",
+        "status": "contradicted",
+        "reason": "Registry explicitly says the shortened name does not distinguish the two entities. The claim of unique identification is false, while actual identity remains unknown.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      }
+    ],
+    "unknowns": [
+      "Which entity the candidate denotes; geography and eligibility for this unresolved candidate."
+    ]
+  },
+  "f-chain": {
+    "execution_id": "session-001:researcher:f-chain",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037660+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "A source-faithful campaign observation can be reported, with a clearly separated exploratory hypothesis.",
+    "claim_ids": [
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6"
+    ],
+    "assessments": [
+      {
+        "claim_id": "f1",
+        "status": "verified",
+        "reason": "2025 actual CAD 84500 and target CAD 100000 are explicit.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "f2",
+        "status": "verified",
+        "reason": "Subtracting the same-period CAD actual from target gives CAD 15500.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "derived_calculation"
+      },
+      {
+        "claim_id": "f3",
+        "status": "verified",
+        "reason": "Exact conditional statement retains may, if and restricted grant.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "classification": "quotation"
+      },
+      {
+        "claim_id": "f4",
+        "status": "verified",
+        "reason": "Both flooding and unmeasured retention are explicit; no donor-causation inference added.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "f5",
+        "status": "verified",
+        "reason": "One-time gift and changed eligibility prevent naive comparable-donor interpretation.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "f6",
+        "status": "reviewed_hypothesis",
+        "reason": "Possible relevance is an exploratory proposition, not evidence of demand or budget.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "classification": "hypothesis"
+      }
+    ],
+    "narrative": "The society reports CAD 84500 against a CAD 100000 campaign target in 2025, a calculated CAD 15500 shortfall. Its delivery warning is conditional on a restricted grant renewal. Flooding explains the deadline extension. Different eligibility and a prior one-time gift limit year comparisons. Donor retention was not measured. Administration assistance is only a hypothesis; no consulting budget or demand is established.",
+    "unknowns": [
+      "Independent receipt confirmation",
+      "Grant renewal outcome",
+      "Consulting budget and demand"
+    ],
+    "alternative_explanation": "Venue flooding can explain the extension without a fundraising-process failure."
+  },
+  "f-challenge": {
+    "execution_id": "session-001:researcher:f-challenge",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:57.037662+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Only the receipt/target control and exact conditional quote are supported facts. Preserve the proposal ledger but do not publish its errors as accepted findings.",
+    "claim_ids": [
+      "c1",
+      "c2",
+      "c3",
+      "c4",
+      "c5",
+      "c6",
+      "c7",
+      "c8",
+      "c9",
+      "c10",
+      "c11",
+      "c12"
+    ],
+    "assessments": [
+      {
+        "claim_id": "c1",
+        "status": "contradicted",
+        "reason": "Tenfold error: source is CAD 84500, not CAD 845000.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c2",
+        "status": "contradicted",
+        "reason": "Currency is CAD, not USD.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c3",
+        "status": "contradicted",
+        "reason": "Quote invents completed reductions and grant nonrenewal; source says may/if.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "classification": "quotation"
+      },
+      {
+        "claim_id": "c4",
+        "status": "contradicted",
+        "reason": "Source is conditional, not inevitable regardless of renewal.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c5",
+        "status": "partly_verified",
+        "reason": "Receipts supported; retention improvement unsupported because retention was not measured.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c6",
+        "status": "contradicted",
+        "reason": "Dispatch expressly reprints the same society statement, without independent reporting.",
+        "evidence": "d-reprint",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c7",
+        "status": "contradicted",
+        "reason": "Registry explicitly denies that the short name uniquely distinguishes the entities.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c8",
+        "status": "unverifiable",
+        "reason": "Readable sample does not establish routine processing/retention permission.",
+        "evidence": "d-reprint",
+        "locator": "p0",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c9",
+        "status": "unverifiable",
+        "reason": "Original unavailable, no paragraph supporting any consulting budget.",
+        "evidence": "d-missing",
+        "locator": null,
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c10",
+        "status": "verified",
+        "reason": "Both 2025 CAD numbers and actual/target roles match p1.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "classification": "attributed_statement"
+      },
+      {
+        "claim_id": "c11",
+        "status": "verified",
+        "reason": "Exact conditional quote matches p2.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "classification": "quotation"
+      },
+      {
+        "claim_id": "c12",
+        "status": "reviewed_hypothesis",
+        "reason": "Tentative assistance relevance remains nonfactual and explicitly acknowledges unknowns.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "classification": "hypothesis"
+      }
+    ],
+    "unknowns": [
+      "Candidate identity",
+      "Routine source permission",
+      "Consulting budget",
+      "Any independent corroboration"
+    ],
+    "narrative": "The challenge cannot be approved. Its supported controls are the CAD receipts/target and original conditional quote. The possible assistance hypothesis remains separate from facts."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "basis": "Predeclared synthetic expectations authored in the same chat; evaluation is open-book and contaminated, not blind.",
+  "challenge": {"c1":"contradicted","c2":"contradicted","c3":"contradicted","c4":"contradicted","c5":"partly_verified","c6":"contradicted","c7":"unverifiable","c8":"unverifiable","c9":"unverifiable","c10":"verified","c11":"verified"},
+  "challenge_hypotheses": ["c12"],
+  "chain": {
+    "s-register":{"sr1":"verified"},
+    "s-annual":{"sa1":"verified"},
+    "s-reprint":{"sp1":"verified","sp2":"unverifiable"},
+    "o-harbor":{"oh1":"verified"},
+    "o-ambiguous":{"oa1":"unverifiable"},
+    "f-chain":{"f1":"verified","f2":"verified","f3":"verified","f4":"verified","f5":"verified"}
+  },
+  "chain_hypotheses": {"f-chain":["f6"]},
+  "required_pending": ["s-reprint","o-ambiguous","f-challenge"],
+  "required_admitted": ["s-register","s-annual","o-harbor","f-chain"],
+  "collection": {"documents":4,"available":3,"unavailable":1,"discovery_directions":["source_to_organization","organization_to_source"],"must_preserve":{"receipts":"CAD 84500","target":"CAD 100000","period":"2025","quote":"We may reduce weekend deliveries if the restricted grant is not renewed."}},
+  "scoring_rule": "Unverifiable claims are unsupported defects for admission; a correct unverifiable disposition counts as detected and as an abstention. Hypotheses are scored separately, never as factual verification."
+}

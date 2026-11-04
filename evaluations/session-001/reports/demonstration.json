@@ -1,0 +1,142 @@
+{
+  "run": "session-001",
+  "execution": "original recorded coding session",
+  "tracks": {
+    "complete_chain": [
+      "s-register",
+      "s-annual",
+      "s-reprint",
+      "o-harbor",
+      "o-ambiguous",
+      "f-chain"
+    ],
+    "reviewer_challenge": [
+      "f-challenge"
+    ]
+  },
+  "context": {
+    "session": "session-001",
+    "baseline": "087b12329d7c776dcbec3d22f93d899f54709516",
+    "basis": "coding_session",
+    "actor": "Codex assistant",
+    "model_identifier": "Exact runtime model identifier unavailable",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "context_isolation": false,
+    "expected_answers_seen": true,
+    "execution": "Actual assistant-authored stage assessments serialized during this coding session. Reproduction loads these saved assessments; it does not execute a new reviewer.",
+    "stage_packets": "Separate versioned packets include prior stage outputs. Prior reasoning and answer key also remained in shared chat context.",
+    "collection_qc_separation": "Different saved collection and QC executions by the same assistant; no personnel or context independence.",
+    "transport": "Python standard library and existing Store/report. No model API calls or local model runtime.",
+    "started_at": "2026-11-04T05:08:47.248871+00:00"
+  },
+  "decisions": [
+    {
+      "id": "s-register",
+      "state": "approved_for_collection",
+      "blockers": []
+    },
+    {
+      "id": "s-annual",
+      "state": "approved_for_collection",
+      "blockers": []
+    },
+    {
+      "id": "s-reprint",
+      "state": "pending",
+      "blockers": [
+        "Required detail unresolved: handling",
+        "Checkpoint missing/stale/not passed: qc",
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Required detail not verified: handling",
+        "Material claim not verified: sp2",
+        "Material issue requires resolution/revision: sp-handling"
+      ]
+    },
+    {
+      "id": "o-harbor",
+      "state": "admitted",
+      "blockers": []
+    },
+    {
+      "id": "o-ambiguous",
+      "state": "pending",
+      "blockers": [
+        "Required detail unresolved: identity",
+        "Required geography unresolved",
+        "Checkpoint missing/stale/not passed: qc",
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Required detail not verified: eligibility",
+        "Required detail not verified: identity",
+        "Material claim not verified: oa1",
+        "Material issue requires resolution/revision: oa-identity"
+      ]
+    },
+    {
+      "id": "f-chain",
+      "state": "approved",
+      "blockers": []
+    },
+    {
+      "id": "f-challenge",
+      "state": "pending",
+      "blockers": [
+        "Source not currently approved: s-reprint",
+        "Source not currently approved: s-reprint",
+        "Checkpoint missing/stale/not passed: qc",
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Required detail not verified: evidence",
+        "Required detail not verified: identity",
+        "Material claim not verified: c1",
+        "Material claim not verified: c2",
+        "Material claim not verified: c3",
+        "Material claim not verified: c4",
+        "Material claim not verified: c5",
+        "Material claim not verified: c6",
+        "Material claim not verified: c7",
+        "Material claim not verified: c8",
+        "Material claim not verified: c9",
+        "Material issue requires resolution/revision: ch-number",
+        "Material issue requires resolution/revision: ch-currency",
+        "Material issue requires resolution/revision: ch-quote",
+        "Material issue requires resolution/revision: ch-condition",
+        "Material issue requires resolution/revision: ch-retention",
+        "Material issue requires resolution/revision: ch-origin",
+        "Material issue requires resolution/revision: ch-identity",
+        "Material issue requires resolution/revision: ch-permission",
+        "Material issue requires resolution/revision: ch-budget"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "opening_pending": 0,
+    "new_candidates": 7,
+    "reopened": 0,
+    "admitted": 4,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-chain",
+      "f-challenge",
+      "o-ambiguous",
+      "o-harbor",
+      "s-annual",
+      "s-register",
+      "s-reprint"
+    ],
+    "candidate_balance": true,
+    "opening_active": 0,
+    "activations": 4,
+    "inactivations": 0,
+    "closing_active": 4,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  }
+}

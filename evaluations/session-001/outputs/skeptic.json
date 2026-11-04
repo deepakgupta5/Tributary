@@ -1,0 +1,194 @@
+{
+  "s-register": {
+    "execution_id": "session-001:skeptic:s-register",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543159+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "No material inconsistency in exercise-only identity/permission statement. The synthetic permission cannot be generalized to an actual registry.",
+    "issues": []
+  },
+  "s-annual": {
+    "execution_id": "session-001:skeptic:s-annual",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543269+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "First-party source can support faithful attribution, but cannot independently establish objective receipt accuracy. Existing limitation preserves this distinction.",
+    "issues": []
+  },
+  "s-reprint": {
+    "execution_id": "session-001:skeptic:s-reprint",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543272+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Routine handling basis remains material and unresolved. Reprint provenance does not provide independent corroboration.",
+    "issues": [
+      {
+        "id": "sp-handling",
+        "material": true,
+        "severity": "blocking",
+        "reason": "sp2 infers permission that p0 expressly leaves unspecified.",
+        "remedy": "Keep source pending until a permitted handling basis is established.",
+        "claim_id": "sp2"
+      }
+    ]
+  },
+  "o-harbor": {
+    "execution_id": "session-001:skeptic:o-harbor",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543274+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Full name and unique ID resolve the entity. Missing consulting budget is optional and not evidence of buying intent.",
+    "issues": []
+  },
+  "o-ambiguous": {
+    "execution_id": "session-001:skeptic:o-ambiguous",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543276+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Short form matches two distinct entities; no reliable identity assignment or merge can be made.",
+    "issues": [
+      {
+        "id": "oa-identity",
+        "material": true,
+        "severity": "blocking",
+        "reason": "oa1 claims uniqueness despite the explicit two-entity warning.",
+        "remedy": "Obtain distinguishing identifier and revise identity before admission.",
+        "claim_id": "oa1"
+      }
+    ]
+  },
+  "f-chain": {
+    "execution_id": "session-001:skeptic:f-chain",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543278+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Reported source facts preserve currency, period, uncertainty and donor-comparability limits. Two nonblocking checks guard overinterpretation.",
+    "issues": [
+      {
+        "id": "f-arithmetic",
+        "material": false,
+        "severity": "nonblocking",
+        "reason": "Confirm the CAD 15500 calculation uses the 2025 target and actual, not a cross-year difference.",
+        "remedy": "Show the two inputs and subtraction.",
+        "claim_id": "f2"
+      },
+      {
+        "id": "f-hypothesis",
+        "material": false,
+        "severity": "nonblocking",
+        "reason": "The report does not establish a consulting need, budget or purchasing intent.",
+        "remedy": "Retain hypothesis classification and explicit commercial unknowns.",
+        "claim_id": "f6"
+      }
+    ]
+  },
+  "f-challenge": {
+    "execution_id": "session-001:skeptic:f-challenge",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:11:23.543280+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Nine factual propositions contain contradictions or unavailable support. Correct controls and the labelled hypothesis should remain distinguishable from those defects.",
+    "issues": [
+      {
+        "id": "ch-number",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c1 adds a zero to the source amount.",
+        "remedy": "Replace with CAD 84500 in a new record version.",
+        "claim_id": "c1"
+      },
+      {
+        "id": "ch-currency",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c2 changes CAD to USD without conversion evidence.",
+        "remedy": "Restore CAD currency.",
+        "claim_id": "c2"
+      },
+      {
+        "id": "ch-quote",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c3 changes a conditional future possibility into completed reductions and nonrenewal.",
+        "remedy": "Restore the exact quotation and attribution.",
+        "claim_id": "c3"
+      },
+      {
+        "id": "ch-condition",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c4 drops may/if and makes the reduction unconditional.",
+        "remedy": "Retain uncertainty and grant-renewal condition.",
+        "claim_id": "c4"
+      },
+      {
+        "id": "ch-retention",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c5 joins a supported amount to an unsupported retention improvement.",
+        "remedy": "Separate receipts from unmeasured retention; do not assert improvement.",
+        "claim_id": "c5"
+      },
+      {
+        "id": "ch-origin",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c6 counts a declared reprint as independent corroboration.",
+        "remedy": "Treat both items as one society-statement origin.",
+        "claim_id": "c6"
+      },
+      {
+        "id": "ch-identity",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c7 assumes a unique Washington identity from an ambiguous short name.",
+        "remedy": "Retain unresolved identity and seek a unique identifier.",
+        "claim_id": "c7"
+      },
+      {
+        "id": "ch-permission",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c8 treats no-login readability as routine collection/retention permission.",
+        "remedy": "Keep permission unresolved; no admission.",
+        "claim_id": "c8"
+      },
+      {
+        "id": "ch-budget",
+        "material": true,
+        "severity": "blocking",
+        "reason": "c9 purports to verify a budget from an unavailable original.",
+        "remedy": "Abstain and retain unavailable evidence state.",
+        "claim_id": "c9"
+      }
+    ]
+  }
+}

@@ -16,7 +16,9 @@ python3 -m tributary.demo --out out/demo
 
 Use a new output directory for each demonstration. Python 3.12+ with SQLite is sufficient; no dependency installation is required. See [implementation and limits](docs/SYNTHETIC_IMPLEMENTATION.md), [captured report](examples/report.md), [actual check record](docs/SYNTHETIC_RESULTS.md), and [JSON demonstration](examples/demonstration.json). Live work and expansion remain separate owner-review gates.
 
-The [partial report](examples/partial/report.md) demonstrates submitted checks that remain pending; reproduce with `python3 -m tributary.demo --partial --out out/partial-demo`. Saved review packets preserve historical inputs, and hypotheses remain explicitly nonfactual after review. Actual coding-session role evaluation is still pending before live collection.
+The [partial report](examples/partial/report.md) demonstrates submitted checks that remain pending; reproduce with `python3 -m tributary.demo --partial --out out/partial-demo`. Saved review packets preserve historical inputs, and hypotheses remain explicitly nonfactual after review.
+
+[Session 001](evaluations/session-001/README.md) records actual assistant-authored collection, QC, researcher, skeptic and fact-checker outputs from a synthetic coding-session evaluation. It is explicitly **open-book, contaminated, and same-assistant**, with no isolated review contexts. Its complete-chain and planted-challenge results are separate from the scripted demonstration. Frozen-output replay reproduces persistence and reporting, not new role reasoning. Live collection remains unimplemented and unauthorized.
 
 ## Project baseline
 [PROJECT_PLAN.md](docs/PROJECT_PLAN.md) defines the starting baseline, the first seven project days, and week two onward. [PRD.md](docs/PRD.md) is the single open-product-decision register. The plan is documentation, not authorization to execute implementation in the planning conversation. The start date is unset. Numerical quality thresholds and source/organization quotas have not been approved.

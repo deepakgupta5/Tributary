@@ -1,0 +1,15 @@
+{
+  "session": "session-001",
+  "baseline": "087b12329d7c776dcbec3d22f93d899f54709516",
+  "basis": "coding_session",
+  "actor": "Codex assistant",
+  "model_identifier": "Exact runtime model identifier unavailable",
+  "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+  "context_isolation": false,
+  "expected_answers_seen": true,
+  "execution": "Actual assistant-authored stage assessments serialized during this coding session. Reproduction loads these saved assessments; it does not execute a new reviewer.",
+  "stage_packets": "Separate versioned packets include prior stage outputs. Prior reasoning and answer key also remained in shared chat context.",
+  "collection_qc_separation": "Different saved collection and QC executions by the same assistant; no personnel or context independence.",
+  "transport": "Python standard library and existing Store/report. No model API calls or local model runtime.",
+  "started_at": "2026-11-04T05:08:47.248871+00:00"
+}

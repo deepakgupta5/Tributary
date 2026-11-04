@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "synthetic": true,
+  "subject_id": "f-challenge",
+  "claims": [
+    {"id":"c1","text":"The 2025 campaign received CAD 845000.","type":"number","material":true,"evidence":["d-annual"]},
+    {"id":"c2","text":"The 2025 campaign received USD 84500.","type":"number","material":true,"evidence":["d-annual"]},
+    {"id":"c3","text":"The director said: We have reduced weekend deliveries because the grant was not renewed.","type":"quote","material":true,"evidence":["d-annual"]},
+    {"id":"c4","text":"The organization will reduce weekend deliveries, regardless of grant renewal.","type":"paraphrase","material":true,"evidence":["d-annual"]},
+    {"id":"c5","text":"The campaign received CAD 84500 and improved donor retention.","type":"paraphrase","material":true,"evidence":["d-annual"]},
+    {"id":"c6","text":"The annual report and Dispatch reprint are two independent confirmations of receipts.","type":"paraphrase","material":true,"evidence":["d-annual","d-reprint"]},
+    {"id":"c7","text":"A record labelled only Harbor Meals uniquely identifies the Washington organization.","type":"paraphrase","material":true,"evidence":["d-register"]},
+    {"id":"c8","text":"Reading the Dispatch without a login establishes permission for routine collection and retention.","type":"paraphrase","material":true,"evidence":["d-reprint"]},
+    {"id":"c9","text":"The unavailable original confirms a CAD 60000 consulting budget.","type":"number","material":true,"evidence":["d-missing"]},
+    {"id":"c10","text":"The 2025 campaign received CAD 84500 against a CAD 100000 target.","type":"number","material":true,"evidence":["d-annual"]},
+    {"id":"c11","text":"We may reduce weekend deliveries if the restricted grant is not renewed.","type":"quote","material":true,"evidence":["d-annual"]},
+    {"id":"c12","text":"Campaign administration assistance might be relevant, but budget and demand for assistance remain unknown.","type":"hypothesis","material":false,"evidence":["d-annual"]}
+  ]
+}

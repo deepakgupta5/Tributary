@@ -107,7 +107,7 @@ def export(store, directory, demonstration):
                 lines.append('- Alternative: ' + alternative)
         lines.append('')
     lines += ['## Discovery and coverage', '',
-              'Demonstrated categories: fictional BC community reporting, organization publication, and Washington funder record.',
+              'Source coverage is limited to the fictional records listed above; it does not establish live publication or geographic coverage.',
               'No real endpoint was attempted. No geographic completeness percentage is claimed.', '']
     for event in tables['history']:
         if event['type'] == 'discovery':
@@ -115,5 +115,5 @@ def export(store, directory, demonstration):
             lines.append(f'- {b["direction"]}: {b["parent"]} → {b["candidate"]}; {b["method"]}.')
     lines += ['', '## Reconciliation', '', '```json', json.dumps(demonstration, indent=2), '```', '',
               '## Limits', '',
-              'Review IDs and packets provide traceability, not reviewer independence. Semantic verdicts here are scripted. No authentication boundary prevents a trusted local operator editing SQLite directly. No live retrieval, scheduler, merge engine, paid dependency, or provider API is included.', '']
+              'Review IDs and packets provide traceability, not reviewer independence. Execution basis and actual context limitations are recorded per review. No authentication boundary prevents a trusted local operator editing SQLite directly. No live retrieval, scheduler, merge engine, paid dependency, or provider API is included.', '']
     (directory / 'report.md').write_text('\n'.join(lines))
