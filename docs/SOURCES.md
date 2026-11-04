@@ -80,10 +80,13 @@ Confirmed: daily local collection when the computer is available. Record per-sou
 
 The daily run checks sources that are due under their permitted access conditions. Any source-specific refresh exception must be documented; the default collection cadence remains daily. Static or slowly changing datasets need not be repeatedly downloaded unchanged. Initial historical discovery is distinct from daily incremental checks.
 
-## Separate data review and verification
-Collector output is candidate data. A separate data-QC role checks identity, dates, amounts, attribution, duplicates, context completeness, and audit reconciliation. Explicit source verification checks whether the original supports the claim and its qualifications. Record checked version, reviewer/run identity, time, outcome, and reason. A fetch success or content checksum is not factual verification.
+## Researcher, skeptic, and fact-checker review
+Follow [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md). The researcher uses the prescribed source mix, separates facts and attributed statements from speculation, and cross-checks consequential claims. The skeptic produces a short ranked issue list. The fact-checker checks the complete report's numbers, quotes, and paraphrases against the original documents, not merely the skeptic's flagged subset.
 
-Approved retention: metadata, checksums, and permitted sanitized evidence excerpts; no permanent whole articles, recordings, or transcripts. Any transient retrieval must follow source conditions and leave no raw content in persistent caches/logs. If access prevents verification, report the gap rather than passing the record.
+Each evidence claim needs a locator, checked version, verification state, reviewer identity, and check time. Record source-faithfulness and independent corroboration separately. Inaccessible originals, missing context, and unperformed checks remain explicit. A successful fetch is not factual verification.
+
+Approved retention remains metadata/checksums and permitted sanitized excerpts, without permanent whole live articles/audio/transcripts. Source-specific access and transient-processing decisions still apply.
+
 
 ## Task 001 source deliverables and live-source gate
 Source inspection and coding are integrated under CODEX_HANDOFF.md. Synthetic implementation may precede live access. For each proposed live source, record the access basis and a handling decision before collection: transient retrieval, permitted evidence/excerpts, raw retention or no retention, incidental-person-data removal, log fields, deletion rules, and redistribution limits. If uncertain, leave the source blocked and continue with fixtures. The owner must resolve policy choices rather than having the coding assistant imply approval.
