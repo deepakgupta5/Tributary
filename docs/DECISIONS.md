@@ -84,5 +84,10 @@ The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and stat
 | D027 | 2026-11-03 | Approve metadata/checksums and necessary permitted sanitized excerpts, without permanent storage of whole live articles, recordings, or transcripts. | Source-specific permissions still apply. Transient processing needs cleanup; synthetic fixtures support offline replay. |
 | D028 | 2026-11-03 | Collection and data QC must be separate roles, with explicit evidence verification. | Collector cannot approve its own output. Record versioned QC and verification outcomes; preserve labelled uncertain material for investigation. Owner relevance judgment remains separate. |
 
+## Research review workflow refinement
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D029 | 2026-11-03 | Refine D028 into researcher, skeptic, and fact-checker roles with explicit instructions. | Researcher uses prescribed sources and separates facts/speculation; skeptic produces a constructive ranked problem list; fact-checker checks every number, quote, and paraphrase against the original, including unflagged claims. Final report retains claim-level verification flags and unresolved issues. Runtime-AI restriction is unchanged. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
