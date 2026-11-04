@@ -60,6 +60,15 @@ Nationwide crawling, all-source adapters, a full funding graph, sophisticated ra
 
 No category exclusion or revenue cutoff is approved. Preserve these fields for later filtering without silently excluding organizations.
 
+## Mandatory role separation and retention
+Implement collection and data QC as distinct responsibilities. Collector writes candidate records and audit results; a separate QC review pass checks the actual record/evidence against expected fields and source context. Do not implement QC as an alias for collector success. Document the independent checks and the actor responsible for judgment. A separate review workflow is required; additional models or agents are not required by this task.
+
+Provide explicit evidence verification against the original source: verified, partly verified, contradicted, or unverifiable. Automated structural tests do not substitute for source-faithfulness review. Where judgment is required, show pending human verification. Record reviewed version, reviewer/run identity, evidence reference, check time, reasons, and corrections. Any substantive source/extraction change invalidates affected approvals.
+
+Expose verified findings only after QC pass and evidence verification. Keep pending, partial, and failed items accessible with visible status and reasons. Test collection-success/QC-failure, unsupported claim, missing qualification, identity mismatch, unavailable source, and changed-evidence/reopened-review cases. Do not prefill owner commercial judgments.
+
+Approved retention: metadata/checksums and permitted sanitized excerpts only. Do not permanently store whole live articles, audio, or transcripts. Audit transient processing cleanup, persistent caches, logs, and error handling. Verification may revisit source pages; if unavailable and evidence is inadequate, mark it incomplete. Source-specific access decisions remain necessary.
+
 ## Pass levels and decisions that can wait
 Report synthetic functionality, live-source feasibility, and owner relevance review as separate results. Overall Task 001 is incomplete until its required live checks and owner review are satisfied; do not mark a blocked live trial as fully passed.
 
