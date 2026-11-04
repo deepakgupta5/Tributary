@@ -1,6 +1,6 @@
 # Codex development handoff
 Prepared: 2026-11-03
-Status: First task ready for execution in the repository-connected Codex coding environment. No implementation has been performed by this handoff.
+Status: Draft task definition, pending owner approval after documentation review. No implementation has been performed by this handoff.
 
 ## Start here
 Read PRD.md, SOURCES.md, ROADMAP.md, DECISIONS.md, and DEVELOPMENT_FEEDBACK.md in this directory. Requirements are evolving drafts; confirmed decisions govern the first task. Do not treat open proposals as approvals.
@@ -20,7 +20,7 @@ The full product scope is Canada and Washington State. This first slice is inten
 ### Implementation sequence
 1. Inspect the current repository and any applicable repository instructions. Choose a minimal local stack and document the rationale, prerequisites, and tradeoffs.
 2. Create DEVLOG.md and a bounded task/checklist. Record actual work and dates, not manufactured history.
-3. Inspect candidate source pages/formats and access conditions. Populate the source register in SOURCES.md or a linked data file. Distinguish manually readable, permitted automated access, and implemented/tested collection.
+3. Inspect candidate source pages/formats and access conditions without persisting unapproved content. Before live collection, document each source's transient-processing, evidence-excerpt, raw-retention, incidental-person-data, logging, deletion, and redistribution decisions. Unresolved handling choices block that source, not synthetic implementation. Populate the source register in SOURCES.md or a linked data file. Distinguish manually readable, permitted automated access, and implemented/tested collection.
 4. Define minimal organization, source, evidence item, candidate finding, rule trigger, and run-audit records. Namespace identifiers by source/jurisdiction. Unknown identity must remain unresolved rather than forced.
 5. Implement collection with explicit network invocation, timeouts, failure reporting, incremental checkpoints, stable identifiers, and rerun deduplication. Offline examples and tests must not call the network.
 6. Implement deterministic rules that surface candidate evidence passages with enough permitted context. Separate source facts, rule triggers, and reviewer interpretation. Do not invent fundraising diagnoses, consulting budgets, or introductions.
@@ -31,10 +31,10 @@ The full product scope is Canada and Washington State. This first slice is inten
 
 ### Acceptance checks
 - A fresh checkout can run a documented synthetic collection-to-review example without network access or paid services.
-- A live collection command is separate, explicit, and works on the bounded permitted sources, or reports specific access failures honestly.
+- A live collection command is separate and explicit. Passing the live portion requires successful permitted collection and parseable evidence from at least one Canadian source and one Washington source in the bounded sample. If either is blocked, report that portion incomplete; fixtures and honest errors do not establish live-source feasibility.
 - Each candidate includes stable ID, organization identity status, geography, source reference, publication/event dates or explicit unknowns, rule ID, and supporting evidence.
 - Article age and event age are distinct. The 12-month discovery window uses an explicit run/as-of date; unknown dates are retained for review with visible status.
-- Two stories about the same event do not silently count as independent corroboration. Matching ambiguity is visible.
+- Exact/known syndicated duplicates are grouped in fixtures and live cases where detectable; uncertain event matches are flagged rather than claimed solved. Two copies do not become independent corroboration. Matching ambiguity is visible.
 - Every input item has a mutually exclusive final disposition. Counters reconcile, and a reconciliation error fails the run.
 - Rerunning identical input does not multiply stored records. Failed sources do not advance successful checkpoints.
 - Fixtures cover malformed input, absent dates, ambiguous organization identity, duplicates, irrelevant keyword matches, and an indirect clue with a plausible alternative explanation.
@@ -59,6 +59,13 @@ The full product scope is Canada and Washington State. This first slice is inten
 Nationwide crawling, all-source adapters, a full funding graph, sophisticated ranking, full dashboard polish, OS scheduler installation, audio transcription, hosted deployment, productization, or external-program onboarding. Do not add an open-source license without owner selection.
 
 No category exclusion or revenue cutoff is approved. Preserve these fields for later filtering without silently excluding organizations.
+
+## Pass levels and decisions that can wait
+Report synthetic functionality, live-source feasibility, and owner relevance review as separate results. Overall Task 001 is incomplete until its required live checks and owner review are satisfied; do not mark a blocked live trial as fully passed.
+
+No category exclusions, size cutoffs, license, final ranking, host scheduler, or full-dashboard architecture need be invented to finish synthetic checks. Do not silently filter by category or size. License selection precedes any claim that the core is open source; public visibility alone does not establish that status. All applicable source access/handling decisions precede that source's live collection.
+
+Keep a route state such as not investigated, none found after investigation, or evidence available. Missing work must not look like proof that no route exists.
 
 ## Owner review checkpoint
 Show the owner the actual review output and ask for feedback on:

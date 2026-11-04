@@ -24,7 +24,7 @@ Confirmed initial scope: English-language sources only, including the manual tri
 ## Free-only access and operation
 Confirmed: no paid subscriptions, source access, hosting, APIs, transcription, or other paid operating services. Investigate permitted free sources, published transcripts, and local processing. Do not subscribe, purchase access, or introduce automatic paid overages.
 
-Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio processing without a published transcript requires a feasible free/local method and the access/handling checks below.
+Record paywalls and unavailable free transcripts as coverage gaps. A free alternative must be checked for sufficient evidence and permitted use. Free-tier quotas, expiry, and failure behavior must be documented; limits must stop or flag work rather than trigger charges. Audio transcription is deferred from Task 001. Use existing English transcripts or show notes, with their limits recorded; any later transcription method needs a separate scope/access decision and must preserve the deterministic-core and free-only constraints.
 
 ## Source register fields
 For every discovered source record:
@@ -48,7 +48,7 @@ Suggested verification states: candidate, sample inspected, access confirmed, ap
 
 Search snippets can help discover a source but cannot alone verify a finding. A blocked or paywalled item remains an access gap unless authorized full evidence is available. Do not bypass access controls.
 
-## Manual discovery trial
+## Source inspection and human review within development
 Select a documented sample of English-language material across Canadian regions and Washington State, localities of different sizes, source types, and pressure/opportunity categories. Sample size and locations remain open; do not treat a small sample as proof of full geographic feasibility.
 
 For each search/source checked, retain the query or retrieval method, date, outcome, and zero-result/access-failure cases. Prepare evidence-backed example findings for human review. Record useful findings, misleading indicators, missing evidence, duplicate stories, and unavailable material.
@@ -68,7 +68,7 @@ Confirmed: use a 12-month discovery window, with recent-six-month priority only 
 
 Search beyond explicit terms such as fundraising shortfall. Inspect local interviews, podcasts, and community reporting for factual descriptions of demand, campaign participation, deadlines, funding concentration, and staff workload. Record alternative explanations and missing context. Repeated stories about one event do not supply independent corroboration.
 
-The manual trial must examine whether indirect discovery produces useful, defensible investigation prompts. Include weak or misleading clues and checks for subsequent resolution; do not measure success solely by finding explicit admissions. Log access gaps and unsuccessful searches.
+The integrated source trial must examine whether indirect discovery produces useful, defensible investigation prompts. Include weak or misleading clues and checks for subsequent resolution; do not measure success solely by finding explicit admissions. Log access gaps and unsuccessful searches.
 
 ## Deterministic trial boundary
 Use manual research and transparent rules to test discovery. AI assistance used to prepare code or conduct exploratory research must not be presented as proof that the deterministic product can perform the same interpretation.
@@ -80,5 +80,7 @@ Confirmed: daily local collection when the computer is available. Record per-sou
 
 The daily run checks sources that are due under their permitted access conditions. Any source-specific refresh exception must be documented; the default collection cadence remains daily. Static or slowly changing datasets need not be repeatedly downloaded unchanged. Initial historical discovery is distinct from daily incremental checks.
 
-## Deliverable before coding
-A populated source register, inspected samples, example findings, visible coverage gaps, access and data-handling decisions, and a proposed bounded source set for the first complete flow.
+## Task 001 source deliverables and live-source gate
+Source inspection and coding are integrated under CODEX_HANDOFF.md. Synthetic implementation may precede live access. For each proposed live source, record the access basis and a handling decision before collection: transient retrieval, permitted evidence/excerpts, raw retention or no retention, incidental-person-data removal, log fields, deletion rules, and redistribution limits. If uncertain, leave the source blocked and continue with fixtures. The owner must resolve policy choices rather than having the coding assistant imply approval.
+
+A live-source attempt is not equivalent to a successful integration. Report separately: sources discovered, inspected, cleared for access/handling, attempted, fetched, parsed, and evidence produced. No verified source register or live integration is currently complete.

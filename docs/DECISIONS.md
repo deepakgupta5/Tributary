@@ -22,18 +22,16 @@ Dates below are recording dates, not claims about when a discussion originally o
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
 | D012 | 2026-11-03 | English only for the initial release and manual source trial across Canada and Washington State. | French and other languages remain explicit coverage gaps; geographic scope is unchanged. |
-
 | D013 | 2026-11-03 | Adopt an organization-based searchable dashboard with new/changed, organization profile, and coverage/collection views. | Aggregate related stories without losing evidence; expose collection gaps. |
-| D014 | 2026-11-03 | Include a weekly shortlist of new or materially changed organizations, with reasons and no forced quota. | Keep wider findings searchable. Collection frequency, shortlist size, and ranking await trial evidence. |
+| D014 | 2026-11-03 | Include a weekly shortlist of new or materially changed organizations, with reasons and no forced quota. | Keep wider findings searchable. Daily collection was subsequently confirmed by D023; shortlist size and ranking await trial evidence. |
 | D015 | 2026-11-03 | Separate evidence-quality feedback from business relevance. | Evidence: supported, insufficient, incorrect, duplicate, stale. Relevance: worth investigating, monitor, irrelevant. Retain reasons and reviewed versions. Real commercial feedback remains private. |
-
 | D016 | 2026-11-03 | All product operation must be free, with no paid subscriptions or operating services. | Zero additional monetary operating cost. Use free/local access and processing; paid-only sources become visible gaps. Free-tier limits must not trigger charges. This resolves the budget question. |
 
 ## Pending proposals, not agreed decisions
 | Item | Proposal | Status |
 | --- | --- | --- |
 | Organization eligibility | Broad coverage across service-delivery nonprofits; foundations and umbrella bodies as buyers or routes in; hospitals, universities, religious organizations, and advocacy groups eligible when relevant; no initial revenue cutoff. | Unanswered. No category exclusions or size thresholds approved. |
-| Review workload | Weekly human review capacity, shortlist size, and ranking rules. | Open. Review structure and weekly shortlist are confirmed by D013-D014. |
+| Review workload | Exact weekly allocation, shortlist size, and ranking rules. | Multiple-hour capacity is confirmed by D024; precise allocation and ranking remain open. |
 | Collection implementation | Exact local run time, source-specific access exceptions, and scheduler mechanism. | Daily collection confirmed by D023; implementation details remain open. |
 
 ## Earlier assumptions requiring revision or confirmation
@@ -76,6 +74,9 @@ Dates below are recording dates, not claims about when a discussion originally o
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
 | D026 | 2026-11-03 | Execute source feasibility, coding, technical QC, and output iteration in the repository-connected Codex coding environment. | This planning conversation prepares requirements and handoffs. Task 001 integrates a bounded source trial with a working collection-to-review flow; owner feedback drives the next increment. |
+
+## Documentation review note
+The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and status wording without approving unresolved product choices. Synthetic development, live-source feasibility, and owner relevance review have separate pass conditions. Source handling must cover local persistence as well as public repository content.
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

@@ -1,2 +1,19 @@
 # Tributary
-Tributary is a deterministic map of Canadian nonprofit funding relationships. Its practical purpose is to identify intermediaries, funder-sponsored operational support programs, and shared-funder introduction paths for Autonomy Bridge
+
+Tributary is a deterministic research tool for discovering potential nonprofit clients and organizational routes in across Canada and Washington State. It supports Autonomy Bridge's business development through public organizational funding records and evidence from free English-language local media, interviews, and other sources.
+
+Software gathers and organizes evidence; the owner interprets context and makes commercial decisions. Initial requirements include zero additional operating cost, no runtime AI, and human review. Client donor analysis, campaign delivery, and outreach are outside scope.
+
+## Status
+Planning documents only. No collector, dashboard, daily scheduler, or verified source integration is implemented. The documentation is under review in PR #1; no license has been selected.
+
+## Documents
+- [Product requirements](docs/PRD.md)
+- [Sources and feasibility](docs/SOURCES.md)
+- [Roadmap](docs/ROADMAP.md)
+- [Decisions](docs/DECISIONS.md)
+- [Development feedback](docs/DEVELOPMENT_FEEDBACK.md)
+- [Codex handoff](docs/CODEX_HANDOFF.md)
+- [Documentation review](docs/DOCUMENT_REVIEW.md)
+
+The handoff defines a bounded first task, pending owner approval. Private commercial judgments and restricted material stay outside this public repository.

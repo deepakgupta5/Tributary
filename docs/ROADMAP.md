@@ -52,8 +52,10 @@ Use synthetic fixtures with planted identity, duplicate, date, and malformed-inp
 
 Maintain a dated development log and commit actual changes as work happens. The owner must be able to run the foundation, inspect its output, and explain its limits. No inherited ticket count or effort estimate is treated as a requirement.
 
-## First technical slice, provisional
-A synthetic end-to-end example plus a small approved live-source set should demonstrate more than funding joins: source evidence becomes a dated organization finding in a review queue. The exact mix of official records and local/media material is selected after feasibility and human review.
+## First technical slice, pending documentation approval
+Task 001 integrates source inspection with a synthetic end-to-end example and bounded live collection where permitted. It demonstrates evidence becoming a dated organization finding in a review queue. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
+
+Clear each live source's access and content-handling gate before collecting it. If all live sources are blocked, the synthetic foundation can pass its own checks, but live feasibility remains unproven. Broader source coverage and relevance thresholds follow owner review.
 
 Do not implement nationwide collection simply to satisfy the geographic ambition. Expand coverage visibly without claiming unimplemented locations are monitored.
 

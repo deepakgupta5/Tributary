@@ -131,11 +131,11 @@ This records how the owner steers development; it does not add runtime AI to Tri
 - Reconcile records through import stages, using mutually exclusive dispositions and explicit duplicate/rejection/unmatched counts.
 - Preserve reproducibility using permitted source snapshots or checksums and retrieval metadata. Full source retention depends on rights and personal-data handling.
 - Public code and fixtures remain organization-level. No donor records, director lists, private watchlists, credentials, or client data.
-- Incidental personal information in articles and transcripts requires a handling policy before ingestion. Public availability alone does not settle storage or redistribution.
+- Incidental personal information in articles and transcripts requires a handling policy before ingestion. Public availability alone does not settle storage or redistribution. Repository exclusion alone is insufficient: persistent local raw storage, transient retrieval, evidence excerpts, and logs each require an explicit handling decision. If unresolved, use synthetic fixtures and source references without retaining live content.
 - Respect source access conditions. Snippets alone do not qualify a substantive finding as verified.
 
 ## First-build acceptance criteria
-The first implementation scope must be approved after a manual source trial. At minimum:
+The bounded Task 001 scope and checks are specified in [CODEX_HANDOFF.md](CODEX_HANDOFF.md), pending owner approval of this documentation. Source inspection, implementation, technical QC, and owner review occur within that increment. Synthetic work does not require prior live-source approval; each live source requires its own access and handling decision before collection. Broader rollout thresholds follow observed results. At minimum:
 1. A fresh checkout runs the documented synthetic example and meaningful tests.
 2. A bounded, verified source set feeds a complete collection-to-review flow.
 3. Every emitted finding links to evidence and separates observation from interpretation.
@@ -154,12 +154,12 @@ Measure source/geographic coverage, findings judged useful, unsupported claims, 
 | ID | Question |
 | --- | --- |
 | Q1 | Which nonprofit categories and size ranges, if any, should be excluded? Pending proposal: broad service-delivery coverage, foundations and umbrella bodies as buyers or routes in, hospitals/universities/religious/advocacy organizations eligible when relevant, and no initial revenue cutoff. No approval or exclusions have been recorded. |
-| Q2 | Which locations form the manual trial sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
-| Q3 | What weekly human review capacity, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
+| Q2 | Which additional locations should follow the bounded Canadian/Washington Task 001 sample? Language is resolved: English only; French and other languages remain visible coverage gaps. |
+| Q3 | The owner can spend multiple hours reviewing. What exact weekly allocation, shortlist size, and transparent ranking rules are appropriate? Dashboard views, weekly shortlist, and separate feedback judgments are confirmed. |
 | Q4 | Resolved: zero additional monetary operating cost; no paid subscriptions or operating services. Which free/local access methods are feasible is determined in the source trial. |
 | Q5 | Resolved for the initial core: deterministic processing, no runtime AI or model calls; human interpretation remains explicit. |
 | Q6 | Discovery is set to 12 months and local collection to daily. What local run time, source-specific access exceptions, and category-specific historical comparison periods are appropriate? |
 | Q7 | What source-retention, incidental-person-data, licensing, and audio-transcription policies are workable? |
-| Q8 | What measured quality thresholds and verified sources define the first build? |
+| Q8 | Task 001 has functional checks in CODEX_HANDOFF.md. Which verified sources can pass the live-source gate, and what measured relevance/omission thresholds justify subsequent expansion? |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.

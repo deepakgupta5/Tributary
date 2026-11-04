@@ -36,10 +36,10 @@ Do not copy full session transcripts, restricted task instructions, credentials,
 - Initial requirement or instruction: discover nonprofit prospects and routes in.
 - Observed response/result: early assistant proposals emphasized funding announcements and expansion.
 - Owner feedback, assistant-prepared summary: include struggling nonprofits, existing-supporter and campaign improvement opportunities, and city/regional newspapers, media, and podcasts.
-- Owner rationale: explicit concern that organizations rarely announce fundraising problems; relevant context may emerge in local interviews.
+- Owner rationale, assistant-prepared summary of stated concern: organizations rarely announce fundraising problems; relevant context may emerge in local interviews.
 - Revised instruction/constraint: discover indirect contextual observations, preserve alternative explanations, and avoid depending on explicit admissions.
 - Change made: PRD, source coverage, roadmap, and decision log revised in PR #1.
-- Verification and evidence: documentation changes are recorded in Git history; no source trial or runtime extraction has been performed.
+- Verification and evidence: documentation changes are recorded in Git history; no implemented source trial or runtime extraction has been performed. Later exploratory chat browsing did occur; it did not verify collector feasibility.
 - Outcome: product definition changed; discovery effectiveness not yet verified.
 - Remaining issue/next step: test these requirements against permitted free English-language sources.
 - Related PR: https://github.com/deepakgupta5/Tributary/pull/1
@@ -55,4 +55,16 @@ Do not copy full session transcripts, restricted task instructions, credentials,
 - Change made: this log and associated process requirements added.
 - Verification and evidence: repository documentation only; no external program requirement or acceptance is verified.
 - Outcome: process documented; use in engineering remains to be demonstrated.
+- Related PR: https://github.com/deepakgupta5/Tributary/pull/1
+
+### FB-003: execute source trial inside repository-connected Codex
+- Date: 2026-11-03, recording date.
+- Stage/task: execution handoff.
+- Observed response/result: the planning assistant began standalone web research after proposing a source trial.
+- Owner feedback, assistant-prepared summary: the work should be performed by the repository-connected coding environment.
+- Owner rationale: not separately recorded.
+- Revised instruction/constraint: keep this conversation to planning, documentation, and handoff; integrate source inspection with implementation and owner review in Codex.
+- Change made: CODEX_HANDOFF.md and roadmap sequencing updated; inconsistent pre-coding gates corrected during documentation review.
+- Verification and evidence: documentation consistency review only. No implementation has begun here.
+- Outcome: execution responsibilities clarified; product effectiveness not verified.
 - Related PR: https://github.com/deepakgupta5/Tributary/pull/1
