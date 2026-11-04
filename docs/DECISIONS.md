@@ -78,5 +78,11 @@ Dates below are recording dates, not claims about when a discussion originally o
 ## Documentation review note
 The consolidated review in DOCUMENT_REVIEW.md corrects stale sequencing and status wording without approving unresolved product choices. Synthetic development, live-source feasibility, and owner relevance review have separate pass conditions. Source handling must cover local persistence as well as public repository content.
 
+## Retention and separate data-review decisions
+| ID | Recorded | Decision | Rationale / consequence |
+| --- | --- | --- | --- |
+| D027 | 2026-11-03 | Approve metadata/checksums and necessary permitted sanitized excerpts, without permanent storage of whole live articles, recordings, or transcripts. | Source-specific permissions still apply. Transient processing needs cleanup; synthetic fixtures support offline replay. |
+| D028 | 2026-11-03 | Collection and data QC must be separate roles, with explicit evidence verification. | Collector cannot approve its own output. Record versioned QC and verification outcomes; preserve labelled uncertain material for investigation. Owner relevance judgment remains separate. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
