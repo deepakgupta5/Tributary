@@ -1,5 +1,5 @@
 # Tributary product requirements
-Status: Starting eligibility, pilot geography, and design-only first delivery confirmed; implementation approval remains separate
+Status: Day 1 design accepted with refinements; implementation approval remains separate
 Owner: Deepak Gupta
 Updated: 2026-11-03
 
@@ -25,6 +25,17 @@ No numerical quality targets, source quotas, organization quotas, throughput tar
 - Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
 - First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
 - Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+
+## Accepted foundation design
+Accepted choices are recorded in D046-D052 and detailed in FOUNDATION_SPEC.md and RESEARCH_WORKFLOW.md:
+- Python + SQLite; JSON/JSONL interchange; Markdown report before dashboard.
+- Minimum schema supporting the complete synthetic flow; six logical record groups, not mandatory separate subsystems.
+- Review completion separate from passing review; material unresolved required details block approval, while optional omissions and nonmaterial limitations remain visible.
+- Separate collection/QC executions and role packets, with actual context separation and shared-assistant limits recorded.
+- Dependency-based rechecks after material changes.
+- Named candidate publications, datasets, and exact endpoints with selection reasons before live collection; no unperformed verification implied.
+
+Day 1 design is complete. Implementation and tests remain separately authorized; live collection has its own gate. No live feasibility, role accuracy, or usefulness result is established.
 
 ## Discovery requirements
 Discovery must cover both pressure and opportunity. Successful fundraising or expansion is not a prerequisite. Candidate signals include:
@@ -200,12 +211,12 @@ This is the authoritative open-product-decision register. Resolved requirements 
 | ID | Open choice | Dependency / when required |
 | --- | --- | --- |
 | Q1 | Whether and when to include hospitals, universities, religious organizations, and advocacy groups. Service-delivery nonprofits plus foundations/umbrella bodies as potential buyers/routes are confirmed, with no revenue cutoff. | Undecided categories remain pending an owner decision before admission; they do not block the approved starting categories or Day 1 design. |
-| Q2 | Specific source endpoints/localities within the confirmed BC/Washington pilot and subsequent expansion priorities. Priority source types are local reporting, organization publications, and official/funder records. No quota is approved. | The first design proposal includes the proposed source sample; source-specific admission precedes routine collection. Canada-wide geography remains the product scope. |
+| Q2 | Specific source endpoints/localities within the confirmed BC/Washington pilot and subsequent expansion priorities. Priority source types are local reporting, organization publications, and official/funder records. No quota is approved. | A concrete proposal naming candidate publications, datasets, and exact endpoints with selection reasons is required before live collection; verification/access states remain explicit. Source-specific admission precedes routine collection. Canada-wide geography remains the product scope. |
 | Q3 | Exact weekly owner availability, shortlist presentation, ranking, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity and no forced shortlist quota are confirmed. | Owner availability before scheduling review; detailed ranking/batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
 | Q6 | Local run time, scheduler mechanism, source-specific refresh exceptions, and comparison periods beyond the agreed discovery window. | Before unattended daily operation or source-specific scheduling; initial research can remain owner-initiated. |
 | Q7 | Source-specific access, permitted transient processing/excerpts, cleanup, personal-data handling, and redistribution basis. | Before inspection/collection under the applicable source conditions. Whole live content is not permanently stored. Transcription is deferred. |
 | Q8 | Measured numerical quality/omission thresholds and the source/role evaluation sample. Required functional checks and complete claim accounting are already specified. | Measurement method before the trial; numerical acceptance targets require owner approval before a numerical pass claim. Trial observations can be reported without declaring an unapproved threshold met. |
-| Q9 | Implementation stack, persistent-store/export formats, role execution details, and license. | Stack/contracts during initial technical design; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
-| Q10 | Start date/availability for the design stage and later implementation approval/capacity. The initial authorized delivery scope is Day 1 design only. | Owner chat initiates the design assignment; its proposal returns for owner review before implementation. No calendar start date or implementation permission is implied. |
+| Q9 | Exact schema/runtime contracts, demonstrated role-context separation, and repository license. Python + SQLite, JSON/JSONL interchange, and Markdown-first reporting are accepted by D046-D049. | Detailed contracts before the authorized synthetic build; actual isolation evidence before claiming enforcement or independence; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
+| Q10 | Explicit synthetic implementation authorization, start/availability, and capacity; separate live-collection authorization. Day 1 design is complete and accepted with refinements. | Before implementation or tests. Design acceptance does not authorize execution; project days remain conditional rather than dated commitments. |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.

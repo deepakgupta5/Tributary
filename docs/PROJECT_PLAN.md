@@ -1,7 +1,7 @@
 # Tributary project plan
 Recorded: 2026-11-03
 Owner: Deepak Gupta
-Status: Documentation baseline prepared from owner decisions. Implementation has not been authorized through this planning conversation.
+Status: Day 1 design decisions and refinements accepted and recorded. Implementation has not been authorized through this planning conversation.
 Start date: Unset. Days 1-7 are project days, not dated commitments.
 
 ## Document roles
@@ -14,6 +14,11 @@ There are no approved numerical accuracy targets, source quotas, organization qu
 - Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
 - First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
 - Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+
+## Accepted Day 1 design and execution boundary
+Day 1 design is complete. D046-D052 record the accepted choices and refinements: Python + SQLite, JSON/JSONL interchange, Markdown-first output, a minimum schema organized into six logical groups, explicit required-versus-optional approval criteria, actual context-separation evidence, and dependency-based rechecks. Reversible merges, detailed funding relationships, HTML, and dashboard work are deferred from the first synthetic build.
+
+Implementation and tests still require separate owner authorization. Any next implementation authorization is for the bounded synthetic flow unless live work is separately authorized. Before live collection, the source proposal must name candidate publications, datasets, and exact endpoints with selection reasons and explicit verification states. No source quota is introduced. No live-source feasibility, role accuracy, or product usefulness result is established by design acceptance.
 
 ## Part 1: Beginning and baseline
 
@@ -46,7 +51,7 @@ The same four checkpoints apply to news/evidence findings, organization addition
 3. Skeptic. Constructive ranked objections, alternative explanations, and evidence needed.
 4. Fact-checker. Original-document checks for every number, quote, paraphrase, and required admission detail, including unflagged claims; disposition of every skeptic issue.
 
-Each checkpoint has its own versioned result and actor/run identity. Same-model reviews do not establish independent corroboration. Owner commercial usefulness is separate from all four checks. An unchanged approved record is not fully re-reviewed daily; a material change reopens affected checks before a revised version can replace an approval.
+Each checkpoint has its own versioned result and actor/run identity; execution completion is separate from passing review. A skeptic question alone does not fail a record. Material unresolved required details block approval, while optional missing information and documented nonmaterial limitations may remain visible without blocking approval. Actual context separation is recorded; separate IDs/files do not prove isolation. Same-model reviews do not establish independent corroboration. Owner commercial usefulness is separate from all four checks. An unchanged approved record is not fully re-reviewed daily; a material change reopens affected checks before a revised version can replace an approval.
 
 ### Testing and acceptance
 | Evidence category | Required cases or observations | What a pass establishes |
@@ -71,9 +76,9 @@ This is a dependency-based planning target. Day 1 starts with the owner's design
 | --- | --- | --- | --- |
 | 1 | Design proposal only, returned for owner review before implementation. | Documentation inspection, proposed technical design, record formats, proposed BC/Washington source sample and coverage rationale, test matrix, and remaining design decisions. No preset source/organization count. | Owner instruction to begin the design assignment. No implementation or test execution is part of this stage. |
 | 2 | Synthetic collection and persistent evidence foundation. | Source/organization references, storage/provenance, identity uncertainty, duplicate handling, reconciled dispositions, and reruns without multiplying records. | Owner review of Day 1 proposal, separate implementation authorization, agreed contracts, and synthetic fixtures. |
-| 3 | Expanding registers and admission flow. | Both discovery directions demonstrated; candidate queues, four-check admission records, merges/exclusions, changed-version rechecks, and coverage reporting. | Day 2 storage and identifiers. |
+| 3 | Expanding registers and admission flow. | Both discovery directions demonstrated; candidate queues, four-check admission records, duplicate links/unresolved matches and exclusions, changed-version rechecks, and coverage reporting. | Day 2 storage and identifiers. |
 | 4 | Complete research-to-report flow. | Separate researcher, skeptic, and fact-checker inputs/outputs; source locators, claim checks, residual problems, and a reviewable report. Actual role outputs are distinct from fixture replay. | Evidence storage and versioned review/admission logic. |
-| 5 | Bounded live collection through the same flow. | Permitted Canadian and Washington source material, actual findings/candidate additions, access/QC results, and explicit gaps. If blocked, Gate B remains incomplete. | Source access/retention decisions and a working synthetic flow. |
+| 5 | Bounded live collection through the same flow. | Permitted Canadian and Washington source material, actual findings/candidate additions, access/QC results, and explicit gaps. If blocked, Gate B remains incomplete. | Separate live-collection authorization, concrete candidate endpoints, source access/retention decisions, and a working synthetic flow. |
 | 6 | Owner review and corrections. | Actual owner feedback; resulting product/code changes; relevant regression evidence; unresolved defects. No invented review if owner input is unavailable. | Inspectable outputs and owner availability. |
 | 7 | Reconciled week-one close and next increment. | Planned-versus-delivered register, data/queue reconciliation, acceptance outcomes, actual checks, limitations, carryovers, and a proposed next-week backlog. | Actual evidence from completed work; blocked outcomes remain visible. |
 
@@ -110,6 +115,6 @@ Expansion batches have continuation points so research does not become an unboun
 Daily scheduling is adopted only after its checkpoints, catch-up, failure handling, and actual operational run have been demonstrated. Source access limits and free-only operation still apply. Weekly reporting continues even when no useful findings are produced.
 
 ## Open decisions and change control
-The authoritative open-decision register is the Open decisions section in PRD.md. Starting organization eligibility, no revenue cutoff, BC/Washington pilot geography, priority source types, and the Day 1 design-only review boundary are confirmed. Specific source endpoints, undecided organization categories, technical stack, numerical quality thresholds, ranking/expansion rules, scheduling mechanism/time, source-specific permissions, and start date remain unresolved.
+The authoritative open-decision register is the Open decisions section in PRD.md. Starting organization eligibility, no revenue cutoff, BC/Washington pilot geography, priority source types, and the Day 1 design-only review boundary are confirmed. Specific source endpoints, undecided organization categories, detailed schema/runtime contracts and actual role-context separation, numerical quality thresholds, ranking/expansion rules, scheduling mechanism/time, source-specific permissions, and start date remain unresolved.
 
 Decisions affecting Gate A, Gate B, weekly prioritization, or later operation are identified by their dependency rather than all being treated as day-zero blockers. Approved changes update the affected product documents and factual decision history together. Execution prompts, assistant-to-assistant handoffs, assistant review judgments, private prospect decisions, and unaided program ratings are not part of this plan.

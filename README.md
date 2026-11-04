@@ -17,6 +17,9 @@ Both the organization register and source register expand continuously. Findings
 - First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
 - Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
 
+## Accepted Day 1 design
+Python + SQLite, JSON/JSONL interchange, and Markdown-first reporting are accepted for a minimal synthetic foundation. Review completion and approval are separate; actual context separation is recorded; material changes reopen dependent checks. See D046-D052 and FOUNDATION_SPEC.md. Reversible merges, detailed funding relationships, HTML, and dashboard work are deferred. Implementation/tests require separate owner authorization, and live collection remains a separate gate. No live feasibility, role accuracy, or product usefulness has been established.
+
 ## Documents
 - [Project plan and baseline](docs/PROJECT_PLAN.md)
 - [Product requirements](docs/PRD.md)

@@ -22,9 +22,27 @@ Collection and data QC are separate responsibilities and review records even tho
 
 Required admission evidence includes resolved identity and scope for organizations, plus resolved access/handling suitability for sources. All required checkpoint results must pass for the reviewed version before admission or routine collection. Optional missing fields can remain explicit; material unresolved required evidence leaves the record pending or blocked. A successful fetch or model confidence does not confer admission.
 
-Admission output records admitted/approved, merged into an existing record, pending/unresolved, or excluded/blocked with reason. The underlying register uses the canonical states in PRD.md. Merges preserve aliases and provenance rather than erasing prior discoveries. Unchanged approved records are not fully rechecked daily; affected checks reopen after material changes. Commercial relevance is never inherited from register admission.
+Admission output records admitted/approved, merged into an existing record, pending/unresolved, or excluded/blocked with reason. The underlying register uses the canonical states in PRD.md. Merges preserve aliases and provenance rather than erasing prior discoveries when implemented. Reversible merge execution is deferred from the first synthetic build; suspected duplicates remain linked and unresolved without destructive merging. Unchanged approved records are not fully rechecked daily; affected checks reopen after material changes. Commercial relevance is never inherited from register admission.
 
 Source inspection for admission is bounded and subject to source access/retention conditions. A candidate can be inspected without entering routine collection. Unknowns remain recorded without circularly requiring prior approval to inspect the permitted evidence needed for approval.
+## Review completion and approval
+Execution completion and checkpoint outcome are separate fields. A completed review may find a material contradiction and therefore prevent approval. All four required checkpoint results must be current for the exact reviewed version.
+
+The required-detail checklist distinguishes:
+- Required identity and eligibility evidence for organization admission.
+- Required publisher/endpoint identity, access/handling suitability, and material coverage/usefulness evidence for source admission.
+- Required identity references, supporting evidence, and complete checks of the finding's numbers, quotes, paraphrases, and material conclusions.
+- Optional information and documented nonmaterial limitations, retained explicitly without automatically blocking approval.
+
+Missing, stale, failed, or incomplete required checks block approval. Material unresolved identity, eligibility, access/handling, or factual issues also block approval. An unsupported or contradicted material assertion cannot pass unchanged. A skeptic question alone does not fail a record: each issue receives a disposition and reason, and any blocking classification identifies the affected required detail and material consequence. A limitation is nonblocking only when it does not undermine required admission evidence or the asserted conclusion; relabelling a material defect as a limitation does not resolve it.
+
+Optional missing fields and nonmaterial limitations can remain visible on an approved record. Uncertain findings remain reviewable in the investigation queue without acquiring approval. Register admission still does not confer commercial qualification.
+
+## Execution separation evidence
+Collection and QC use separate executions and review records; the collector cannot approve its own proposal. Each role receives its specified versioned packet. Records describe actual context separation: packet contents/references, prior outputs available, shared-session context where applicable, and known limitations. Separate execution IDs and files establish traceability only. They do not prove independent review, isolated contexts, or enforcement.
+
+Same-assistant limitations remain explicit. Any claimed isolation or enforcement must be supported by execution evidence; an unperformed required check stays incomplete. No model identity or independence is inferred from a role label.
+
 ## Researcher instructions
 1. Work within Canada and Washington State, English-only, free permitted access, and the agreed 12-month discovery window. Use earlier records for comparisons, not as evidence of a current issue without a status check.
 2. Cast a broad net: city/community and regional newspapers, local radio/TV reporting, podcasts/interviews with available text, sector media, organization publications, funder/community networks, and official records. Explain sampled coverage and gaps. General search alone is not coverage.
@@ -78,7 +96,7 @@ Resolve skeptic issues as corrected, supported as written, limitation retained, 
 Do not use one green report badge to imply every statement is verified. Use an explicit actor/basis label such as model-checked, deterministically checked, or human-checked beside each verification result. A model's verified verdict is not a guarantee or human approval. Checked claims can enter the evidence view with those labels; unresolved or partial claims remain visible in the investigation view. A partially checked report is not fully verified. Owner commercial relevance is a separate private judgment.
 
 ## Corrections and replay
-A substantive edit creates a new version. Reopen affected verification and skeptic issues; retain prior decisions. Deterministic tests should exercise numeric mismatch, altered quote, overstated paraphrase, missing qualifier, duplicate corroboration, unresolved identity, inaccessible original, and stale approval after edits. Synthetic fixture answers are not substitutes for live human review.
+A substantive edit creates a new version. Record changed fields and dependencies, reopen affected QC/researcher/skeptic/fact-checker checks, and retain prior decisions against their original versions. Material changes include identity, eligibility, evidence values or meaning, and source access/handling changes. The affected current version awaits recheck; unchanged records do not require full daily review. A nonmaterial change requires a recorded basis rather than silently inheriting approval. Deterministic tests should exercise numeric mismatch, altered quote, overstated paraphrase, missing qualifier, duplicate corroboration, unresolved identity, inaccessible original, and stale approval after edits. Synthetic fixture answers are not substitutes for live human review.
 
 ## Retention
 Preserve metadata, checksums where available, and necessary permitted sanitized excerpts. No permanent whole live articles, audio, or transcripts. Transient retrieval must comply with source conditions and leave no unapproved raw content in caches/logs. If sanitization removes needed evidence, expose the limitation rather than manufacturing verification. Public fixtures and demonstrations use synthetic organizations/claims and reviews.

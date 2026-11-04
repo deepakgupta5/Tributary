@@ -16,6 +16,11 @@ Development occurs in bounded increments in Codex. The repository preserves code
 
 Stages do not imply dates, ticket counts, paid hours, or program approval. Owner feedback accompanies every increment. A broad manual source study is not required before implementing the bounded foundation.
 
+## Accepted design and immediate scope
+D046-D052 record accepted Day 1 design choices: Python + SQLite, JSON/JSONL interchange, Markdown report first, a minimal complete synthetic flow, explicit approval blockers, actual context-separation evidence, and dependency-based rechecks. Reversible merges, detailed funding relationships, HTML, and dashboard work are deferred. Suspected duplicates remain linked and unresolved without destructive merging.
+
+Design acceptance does not authorize implementation or tests. Bounded synthetic implementation requires separate owner instruction. Live collection remains a separate gate, preceded by named candidate publications/datasets/endpoints with selection reasons and explicit verification/access states. Day 1 establishes no live feasibility, role accuracy, or usefulness result.
+
 ## Incremental implementation
 Source feasibility, a bounded working implementation, technical QC, and owner review form repeated activities within small increments. A nationwide research exercise is not a prerequisite to all coding.
 
@@ -58,7 +63,7 @@ Use synthetic fixtures with planted identity, duplicate, date, and malformed-inp
 Maintain a dated development log and commit actual changes as work happens. The owner must be able to run the foundation, inspect its output, and explain its limits. No inherited ticket count or effort estimate is treated as a requirement.
 
 ## First technical slice, conditional on Day 1 design review and implementation approval
-The initial implementation integrates source inspection with a synthetic end-to-end example and bounded live collection where permitted. It demonstrates evidence becoming a dated organization finding in a review queue. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
+The first implementation is a bounded synthetic end-to-end example demonstrating evidence becoming a dated organization finding in a review queue, with both expanding registers and all four checkpoints. Source inspection and bounded live collection belong to a separately authorized later gate. Identity resolution and funding joins can be limited or unresolved in this first slice; the complete funding map and official-data adapters are later increments. Explicitly report routes not yet investigated versus none found after investigation.
 
 Clear each live source's access and content-handling gate before collecting it. If all live sources are blocked, the synthetic foundation can pass its own checks, but live feasibility remains unproven. Broader source coverage and relevance thresholds follow owner review.
 
@@ -85,4 +90,4 @@ Implement distinct versioned outputs and actors for each review stage. Coding-se
 
 
 ## Deferred decisions
-Stack, interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+Detailed schema/runtime contracts, later interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.

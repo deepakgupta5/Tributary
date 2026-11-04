@@ -56,6 +56,11 @@ Checkpoint outcomes are recorded for each reviewed source version. Inspection/ac
 
 Search snippets can help discover a source but cannot alone verify a finding. A blocked or paywalled item remains an access gap unless authorized full evidence is available. Do not bypass access controls.
 
+## Concrete candidate proposal before live collection
+The live-source proposal identifies actual candidate publications, datasets, and exact endpoints, with locality/coverage, source category, selection reason, expected contribution, and verification/access status. Category lists alone do not satisfy this deliverable. Proposed endpoints remain explicitly unverified until permitted inspection supplies evidence; a candidate name or URL is not access clearance or source admission. No source quota is introduced.
+
+This documentation records the requirement, not a verified endpoint list. Synthetic implementation does not depend on live collection. Live collection requires separate authorization and the source-specific access/handling and admission gates.
+
 ## Source inspection and human review within development
 The first proposed live sample uses English-language BC and Washington material, prioritizing local reporting, organization publications, and official/funder records. Specific endpoints/localities and sample size remain open; no quota is approved. Expansion later covers other Canadian regions and broader source types, including interviews. A bounded sample does not establish full geographic feasibility.
 

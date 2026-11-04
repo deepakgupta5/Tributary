@@ -2,7 +2,7 @@
 Status: Draft v0.1
 Recorded: 2026-11-03
 
-Dates below are recording dates, not claims about when a discussion originally occurred. Current direction includes D036-D045 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
+Dates below are recording dates, not claims about when a discussion originally occurred. Current direction includes D036-D052 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
 
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
@@ -129,6 +129,17 @@ The authoritative open-product-decision register is PRD.md, Open decisions. Earl
 | D043 | 2026-11-03 | Begin with service-delivery nonprofits; include foundations and umbrella bodies as potential buyers or routes in; no revenue cutoff. | Hospitals, universities, religious organizations, and advocacy groups remain undecided and pending admission decisions, not silently included or permanently excluded. |
 | D044 | 2026-11-03 | The first live sample focuses on BC and Washington, using local reporting, organization publications, and official/funder records. | Overall geography remains Canada and Washington. Specific endpoints/localities and subsequent expansion remain design choices; no source quota is approved. |
 | D045 | 2026-11-03 | The initial delivery is Day 1 only: documentation inspection and proposed technical design, record formats, initial source sample, and test matrix. | The proposal returns to the owner for review before implementation. Days 2-7 remain conditional; implementation requires separate owner authorization. All execution assignments still pass through owner chat. |
+
+## Accepted Day 1 design decisions
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D046 | 2026-11-03 | Use Python and SQLite for the bounded foundation, JSON/JSONL interchange, and a Markdown report before a dashboard. | No additional service or provider integration is required. Exact schema and runtime details remain implementation contracts. |
+| D047 | 2026-11-03 | Minimize the first implementation while demonstrating the complete synthetic flow. | Six logical record groups organize the design, not six mandatory tables or separate subsystems. Reversible merges, detailed funding relationships, HTML output, and dashboard work are deferred; suspected duplicates remain linked and unresolved without destructive merging. |
+| D048 | 2026-11-03 | Separate review execution completion from passing review and distinguish required details from optional fields and documented limitations. | Missing/stale required checks and material unresolved identity, eligibility, access/handling, or factual issues block approval. A skeptic question alone does not fail a record. Nonmaterial limitations and optional missing fields remain visible without automatically blocking approval. |
+| D049 | 2026-11-03 | Separate collection/QC executions and role packets; record actual context separation and shared-assistant limitations. | Execution IDs and separate files establish traceability, not independent review or demonstrated isolation. Collection cannot approve its own output. No enforcement or independence claim exceeds observed execution evidence. |
+| D050 | 2026-11-03 | Reopen affected checks through recorded dependencies after material changes. | Changed evidence cannot inherit old approval. Historical decisions remain; the affected current version awaits recheck. Unchanged records do not require full daily review. |
+| D051 | 2026-11-03 | Identify actual candidate publications, datasets, and endpoints with selection reasons before live collection. | Candidates may remain explicitly unverified pending permitted inspection. Categories alone are insufficient for the live-source proposal; no source quota is introduced. |
+| D052 | 2026-11-03 | Day 1 design is complete and its accepted choices are recorded as product requirements. | Design acceptance and documentation updates do not authorize implementation or tests. Bounded synthetic implementation requires separate owner instruction; live collection remains a separate gate. Live-source feasibility, role accuracy, and product usefulness are not established. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.
