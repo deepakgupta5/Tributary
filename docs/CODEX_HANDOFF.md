@@ -60,14 +60,19 @@ Nationwide crawling, all-source adapters, a full funding graph, sophisticated ra
 
 No category exclusion or revenue cutoff is approved. Preserve these fields for later filtering without silently excluding organizations.
 
-## Mandatory role separation and retention
-Implement collection and data QC as distinct responsibilities. Collector writes candidate records and audit results; a separate QC review pass checks the actual record/evidence against expected fields and source context. Do not implement QC as an alias for collector success. Document the independent checks and the actor responsible for judgment. A separate review workflow is required; additional models or agents are not required by this task.
+## Mandatory research and QC workflow
+Read [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md). Implement distinct researcher, skeptic, and fact-checker responsibilities and versioned handoffs. Research output includes observations, attributed statements, hypotheses, cross-checks, source locators, and a complete claim ledger. Skeptic output is a short ranked list of material evidence/logic problems with remedies. Fact-checker input includes both the full report/ledger and the problem list.
 
-Provide explicit evidence verification against the original source: verified, partly verified, contradicted, or unverifiable. Automated structural tests do not substitute for source-faithfulness review. Where judgment is required, show pending human verification. Record reviewed version, reviewer/run identity, evidence reference, check time, reasons, and corrections. Any substantive source/extraction change invalidates affected approvals.
+Provide checking of every number, quote, and paraphrase against the original document. Record values/units/periods, quotation fidelity, paraphrase context, claim status, reviewer identity, evidence locator, reasons, and corrections. Unperformed semantic checks remain pending for human review. Do not simulate independent review by reusing a collector success flag or assigning stage names.
 
-Expose verified findings only after QC pass and evidence verification. Keep pending, partial, and failed items accessible with visible status and reasons. Test collection-success/QC-failure, unsupported claim, missing qualification, identity mismatch, unavailable source, and changed-evidence/reopened-review cases. Do not prefill owner commercial judgments.
+Final output distinguishes verified, partly verified, contradicted, unverifiable, and pending claims, with a ranked residual-issue list and check-coverage counts. It does not certify an entire report when only some claims are checked. Changes reopen affected approvals. Keep uncertain findings inspectable, and owner commercial judgments private.
 
-Approved retention: metadata/checksums and permitted sanitized excerpts only. Do not permanently store whole live articles, audio, or transcripts. Audit transient processing cleanup, persistent caches, logs, and error handling. Verification may revisit source pages; if unavailable and evidence is inadequate, mark it incomplete. Source-specific access decisions remain necessary.
+Use deterministic collection/rules and human review steps for contextual skepticism and claim-faithfulness. Do not add runtime model calls, local LLMs, or paid services. This role specification does not authorize automated LLM agents.
+
+Add fixtures for wrong numbers, missing qualifiers, altered quotes, overstated paraphrases, syndicated corroboration, inaccessible originals, and changed-evidence/reopened-review. Synthetic fixture review is not evidence of live independent checking.
+
+Retention remains metadata/checksums and permitted sanitized excerpts, no permanent raw live articles/audio/transcripts. Document and check transient cleanup, caches, logs, and error output.
+
 
 ## Pass levels and decisions that can wait
 Report synthetic functionality, live-source feasibility, and owner relevance review as separate results. Overall Task 001 is incomplete until its required live checks and owner review are satisfied; do not mark a blocked live trial as fully passed.
