@@ -1,8 +1,8 @@
 # Development roadmap
-Status: Draft v0.1
-Updated: 2026-11-03
+Status: Foundation and bounded live run complete; daily worklist is current delivery target
+Updated: 2026-11-05
 
-[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, first seven project days, daily/weekly reconciliation, and week-two onward cycle. PRD.md holds the single open-product-decision register. Day numbers are planning targets after owner instruction, not dated or completed milestones. There are no approved numerical quality targets or source/organization quotas.
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. PRD.md holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.
 
 Development occurs in bounded increments in Codex. The repository preserves code, logic, product role definitions, data contracts, tests, and factual outcomes so Claude Code can later continue the work. No model installation, provider adapter, or hardware test is a prerequisite. See [WORKFLOW_EVALUATION.md](WORKFLOW_EVALUATION.md).
 
