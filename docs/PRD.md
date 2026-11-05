@@ -1,7 +1,7 @@
 # Tributary product requirements
-Status: Day 1 design accepted with refinements; implementation approval remains separate
+Status: Bounded live prototype complete; seven-day daily-worklist plan is the current delivery schedule
 Owner: Deepak Gupta
-Updated: 2026-11-03
+Updated: 2026-11-05
 
 ## Purpose and user
 Tributary supports nonprofit business development for Autonomy Bridge. Its sole product goal is to find potential clients and credible organizational routes to reach them. Deepak reviews evidence and makes commercial decisions privately.
@@ -17,7 +17,7 @@ The initial geographic scope is all of Canada and Washington State. Oregon and C
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
 ## Project baseline and delivery
-[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the beginning, seven-day implementation planning targets, reconciliation, deliverables, and ongoing weekly cycle. Day 1 begins only with the owner's separate design-assignment instruction; no start date is assumed. Implementation follows owner review of the design proposal and separate authorization. Implementation timing is conditional on dependencies and actual evidence. This planning conversation maintains documentation, not executable implementation.
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
 
 No numerical quality targets, source quotas, organization quotas, throughput targets, or forced shortlist count have been approved. Expected source/organization growth is measured, not promised. Product open choices are listed only in this document's Open decisions section; other documents refer here.
 ## Confirmed starting decisions
@@ -217,6 +217,6 @@ This is the authoritative open-product-decision register. Resolved requirements 
 | Q7 | Source-specific access, permitted transient processing/excerpts, cleanup, personal-data handling, and redistribution basis. | Before inspection/collection under the applicable source conditions. Whole live content is not permanently stored. Transcription is deferred. |
 | Q8 | Measured numerical quality/omission thresholds and the source/role evaluation sample. Required functional checks and complete claim accounting are already specified. | Measurement method before the trial; numerical acceptance targets require owner approval before a numerical pass claim. Trial observations can be reported without declaring an unapproved threshold met. |
 | Q9 | Exact schema/runtime contracts, demonstrated role-context separation, and repository license. Python + SQLite, JSON/JSONL interchange, and Markdown-first reporting are accepted by D046-D049. | Detailed contracts before the authorized synthetic build; actual isolation evidence before claiming enforcement or independence; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
-| Q10 | Explicit synthetic implementation authorization, start/availability, and capacity; separate live-collection authorization. Day 1 design is complete and accepted with refinements. | Before implementation or tests. Design acceptance does not authorize execution; project days remain conditional rather than dated commitments. |
+| Q10 | Seven-project-day start date and actual owner availability for usefulness review. | Schedule when work begins; a missing owner review is recorded separately and cannot be invented. |
 
 See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.
