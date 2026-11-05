@@ -35,3 +35,12 @@ Owner reasoning is recorded only when supplied by the owner. Synthetic fixture o
 | Instruction channel | "all instructions via me only", "in the chat" | D034-D035. |
 
 These entries record product decisions, not paid-session ratings or a claim of software validation. Private commercial judgments, credentials, client data, and restricted source content are excluded.
+
+## 2026-11-05: account visibility and review scale
+
+- Owner feedback: "Greater Vancouver Food Bank is valid..it should have been included" and "I cant do this one by one...need to go wode".
+- Requirement affected: discovered accounts remain visible independently of admission, signal review, and private commercial qualification; the default output must support organization-level review rather than requiring the owner to inspect audit records one by one.
+- Change: added a compact Markdown and JSON account worklist. It separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society appears in the worklist with verified historical identity and its current-status question visible. The detailed report and packets remain the audit trail.
+- Branch: `codex/day-1-account-worklist`.
+- Validation: 60 unit tests passed; the bounded live replay generated a 69-line worklist containing all three organizations, compared with the 573-line detailed audit report. JSON parsing and `git diff --check` passed.
+- Limitation: this Day 1 output uses the existing saved live session. Fresh broad collection and signal generation begin in later days of the seven-day plan.
