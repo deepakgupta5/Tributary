@@ -11,6 +11,7 @@ sys.path.insert(0, str(ROOT))
 
 from tributary.core import Store  # noqa: E402
 from tributary.report import export  # noqa: E402
+from tributary.worklist import export_worklist  # noqa: E402
 
 
 STAGES = ('qc', 'researcher', 'skeptic', 'fact_checker')
@@ -119,6 +120,7 @@ def run(session_dir, output_dir):
             'context_limitation': assessments['context'],
         }
         export(store, output_dir, demonstration)
+        export_worklist(store, output_dir)
         write_json(output_dir / 'run.json', demonstration)
         return demonstration
     finally:
