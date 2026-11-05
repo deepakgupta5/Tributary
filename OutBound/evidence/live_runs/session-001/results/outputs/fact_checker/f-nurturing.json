@@ -1,0 +1,67 @@
+{
+  "execution_id": "live-session-001:fact_checker:f-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "Program and reported grant facts are source-faithful; allowable consulting use is unverifiable and blocks approval.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "The retained short passage states the $85,260 Food Equity Fund support.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant",
+      "corroboration": "single_origin",
+      "claim_id": "nr-grant"
+    },
+    {
+      "status": "verified",
+      "reason": "The inspected section describes ages 18–22, food-system careers and former participant requests.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-note",
+      "corroboration": "single_origin",
+      "claim_id": "nr-program"
+    },
+    {
+      "status": "unverifiable",
+      "reason": "No retained or inspected material states that the award can pay outside operational or data consultants.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant",
+      "corroboration": "unknown",
+      "claim_id": "nr-funding-use"
+    },
+    {
+      "status": "reviewed_hypothesis",
+      "reason": "Possible operational or outcome-tracking relevance remains an investigation prompt only.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-note",
+      "corroboration": "unknown",
+      "claim_id": "nr-hypothesis"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Finding links to the admitted Nurturing Roots identity.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382"
+    },
+    "evidence": {
+      "status": "verified",
+      "reason": "Article passage and factual note support the attributed program and grant claims.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant"
+    }
+  },
+  "resolutions": {
+    "nr-funding-use": {
+      "status": "unresolved",
+      "reason": "No award terms or official grant record were added."
+    },
+    "nr-origin": {
+      "status": "limitation_retained",
+      "reason": "The report labels the amount as South Seattle Emerald reporting and single-origin."
+    }
+  }
+}

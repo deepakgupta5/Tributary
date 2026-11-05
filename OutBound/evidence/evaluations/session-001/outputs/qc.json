@@ -1,0 +1,109 @@
+{
+  "s-register": {
+    "execution_id": "session-001:qc:s-register",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777244+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Registry paragraphs and date retained. sr1 accurately describes the fictional p0 terms. Source seed is replaced by version 2 with reviewable evidence; no real access asserted.",
+    "checks": [
+      "d-register p0-p2 preserved",
+      "fictional scope explicit"
+    ]
+  },
+  "s-annual": {
+    "execution_id": "session-001:qc:s-annual",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777331+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Annual report p0-p4 retained, with p4 hostile instruction stored only as data. First-party identity and attributed-excerpt terms are explicit; no independent corroboration inferred.",
+    "checks": [
+      "CAD amounts and 2025/2024 periods retained",
+      "conditional quotation p2 retained",
+      "p4 not followed"
+    ]
+  },
+  "s-reprint": {
+    "execution_id": "session-001:qc:s-reprint",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777334+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Sample storage is faithful, but sp2 is an unsupported admission proposition and handling remains unresolved. Public readability does not resolve permission. Failure is admission-data incompleteness, not lost source text.",
+    "checks": [
+      "p0 readable sample versus unknown handling distinguished",
+      "p1 reprint origin retained"
+    ]
+  },
+  "o-harbor": {
+    "execution_id": "session-001:qc:o-harbor",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777337+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Full name, unique synthetic identifier, category and BC geography match registry p1. Optional budget unknown does not affect the identity/eligibility checklist.",
+    "checks": [
+      "SYN-BC-041 not confused with SYN-WA-088"
+    ]
+  },
+  "o-ambiguous": {
+    "execution_id": "session-001:qc:o-ambiguous",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777339+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Short-name candidate is retained, but unique identity and geography cannot be assigned. The eligibility checklist labelled resolved is premature for an unresolved entity. Do not merge with the BC society.",
+    "checks": [
+      "two distinct entities preserved",
+      "candidate ambiguity retained"
+    ]
+  },
+  "f-chain": {
+    "execution_id": "session-001:qc:f-chain",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777340+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Source text supports the extracted amount/target, conditional quote, flooding context and comparability caveat. CAD 15500 is labelled a calculation. f6 is explicitly nonmaterial hypothesis, and commercial unknowns remain visible.",
+    "checks": [
+      "100000 - 84500 = 15500",
+      "quote preserves may and if",
+      "one-time gift and eligibility caveats retained"
+    ]
+  },
+  "f-challenge": {
+    "execution_id": "session-001:qc:f-challenge",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:10:20.777342+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Imported challenge ledger is preserved as unapproved proposals, but its resolved evidence checklist is incorrect: d-missing is unavailable. Its numeric, quotation and inference assertions require rejection or qualification. The unchanged ledger is retained for downstream evaluation.",
+    "checks": [
+      "source corpus preserved",
+      "unavailable document remains unavailable",
+      "false proposed assertions not admitted"
+    ]
+  }
+}

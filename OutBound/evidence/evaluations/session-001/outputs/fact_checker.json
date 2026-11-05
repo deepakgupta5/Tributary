@@ -1,0 +1,490 @@
+{
+  "s-register": {
+    "execution_id": "session-001:fact_checker:s-register",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502564+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "All required details supported within the fictional register only.",
+    "checks": [
+      {
+        "claim_id": "sr1",
+        "status": "verified",
+        "reason": "p0 explicitly states public register, attributed reuse, and no authentication/payment.",
+        "evidence": "d-register",
+        "locator": "p0",
+        "corroboration": "single_origin"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "verified",
+        "reason": "Named fictional register.",
+        "evidence": "d-register",
+        "locator": "p0"
+      },
+      "access": {
+        "status": "verified",
+        "reason": "Public reading without authentication/payment.",
+        "evidence": "d-register",
+        "locator": "p0"
+      },
+      "handling": {
+        "status": "verified",
+        "reason": "Attributed reuse explicitly permitted for synthetic entries.",
+        "evidence": "d-register",
+        "locator": "p0"
+      },
+      "utility": {
+        "status": "verified",
+        "reason": "Distinct organizations, IDs, categories and jurisdictions supplied.",
+        "evidence": "d-register",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {}
+  },
+  "s-annual": {
+    "execution_id": "session-001:fact_checker:s-annual",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502740+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Exercise source identity, access, excerpt handling and relevant content are supported. First-party status retained.",
+    "checks": [
+      {
+        "claim_id": "sa1",
+        "status": "verified",
+        "reason": "p0 identifies society publication and attributed excerpt permission; registry p2 corroborates endpoint relationship, not receipt accuracy.",
+        "evidence": "d-annual",
+        "locator": "p0",
+        "corroboration": "single_origin"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "verified",
+        "reason": "Society identifies itself as publisher.",
+        "evidence": "d-annual",
+        "locator": "p0"
+      },
+      "access": {
+        "status": "verified",
+        "reason": "Supplied report available without payment.",
+        "evidence": "d-annual",
+        "locator": "p0"
+      },
+      "handling": {
+        "status": "verified",
+        "reason": "Attributed excerpts expressly permitted for exercise.",
+        "evidence": "d-annual",
+        "locator": "p0"
+      },
+      "utility": {
+        "status": "verified",
+        "reason": "Campaign actual, target and comparability context supplied.",
+        "evidence": "d-annual",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {}
+  },
+  "s-reprint": {
+    "execution_id": "session-001:fact_checker:s-reprint",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502743+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Sample readability and publication identity are established; routine handling permission is not.",
+    "checks": [
+      {
+        "claim_id": "sp1",
+        "status": "verified",
+        "reason": "p1 identifies the reprint and absence of independent reporting; p0 separately states no-login readability.",
+        "evidence": "d-reprint",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "sp2",
+        "status": "unverifiable",
+        "reason": "No routine permission/retention basis supplied. Readability cannot supply it.",
+        "evidence": "d-reprint",
+        "locator": "p0",
+        "corroboration": "unknown"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "verified",
+        "reason": "Named fictional community publication.",
+        "evidence": "d-reprint",
+        "locator": "p0"
+      },
+      "access": {
+        "status": "verified",
+        "reason": "Supplied sample is readable without a login; this covers observed sample access only.",
+        "evidence": "d-reprint",
+        "locator": "p0"
+      },
+      "handling": {
+        "status": "unverifiable",
+        "reason": "Routine retention/processing basis absent.",
+        "evidence": "d-reprint",
+        "locator": "p0"
+      },
+      "utility": {
+        "status": "verified",
+        "reason": "Records republication relationship, without independent corroboration.",
+        "evidence": "d-reprint",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {
+      "sp-handling": {
+        "status": "unresolved",
+        "reason": "No permission evidence added; candidate remains pending."
+      }
+    }
+  },
+  "o-harbor": {
+    "execution_id": "session-001:fact_checker:o-harbor",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502745+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "Unique ID, full name, BC location and service-delivery category verified against registry.",
+    "checks": [
+      {
+        "claim_id": "oh1",
+        "status": "verified",
+        "reason": "p1 states all four identifying/eligibility facts together.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "verified",
+        "reason": "SYN-BC-041 identifies Harbor Meals Society.",
+        "evidence": "d-register",
+        "locator": "p1"
+      },
+      "eligibility": {
+        "status": "verified",
+        "reason": "BC service-delivery nonprofit is in confirmed scope.",
+        "evidence": "d-register",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {}
+  },
+  "o-ambiguous": {
+    "execution_id": "session-001:fact_checker:o-ambiguous",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502747+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "The uniqueness claim is explicitly contradicted; the actual entity remains unresolved.",
+    "checks": [
+      {
+        "claim_id": "oa1",
+        "status": "contradicted",
+        "reason": "p1 says the shortened name does not distinguish Society and Trust. This contradicts unique Washington identification; it does not identify which entity was intended.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "corroboration": "single_origin",
+        "correction": "Retain unresolved identity until a distinguishing identifier is supplied."
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "unverifiable",
+        "reason": "Two entities share the short form.",
+        "evidence": "d-register",
+        "locator": "p1"
+      },
+      "eligibility": {
+        "status": "unverifiable",
+        "reason": "Both named registry entities are eligible categories, but candidate identity/jurisdiction has not been assigned.",
+        "evidence": "d-register",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {
+      "oa-identity": {
+        "status": "unresolved",
+        "reason": "Unique identifier absent; no merge or admission."
+      }
+    }
+  },
+  "f-chain": {
+    "execution_id": "session-001:fact_checker:f-chain",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502749+00:00",
+    "packet_contract_version": 2,
+    "outcome": "passed",
+    "reason": "All five factual claims are source-faithful; the sixth remains a nonmaterial hypothesis.",
+    "checks": [
+      {
+        "claim_id": "f1",
+        "status": "verified",
+        "reason": "p1 gives 2025 CAD 84500 actual against CAD 100000 target.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "f2",
+        "status": "verified",
+        "reason": "Same currency and 2025 period: 100000 - 84500 = 15500. This is a derived shortfall, not a new source quotation.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "f3",
+        "status": "verified",
+        "reason": "Quoted sentence matches p2 exactly, retaining may, if and restricted.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "f4",
+        "status": "verified",
+        "reason": "p3 states extension followed flooding and retention has not been measured. No improved retention is inferred.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "f5",
+        "status": "verified",
+        "reason": "p1 states one-time CAD 20000 gift, changed eligibility and noncomparability limitation.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "f6",
+        "status": "reviewed_hypothesis",
+        "reason": "Possible assistance relevance is not verified demand. Unknown budget and demand remain explicit.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "corroboration": "unknown"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "verified",
+        "reason": "Finding belongs to uniquely identified BC society.",
+        "evidence": "d-register",
+        "locator": "p1"
+      },
+      "evidence": {
+        "status": "verified",
+        "reason": "Available annual report provides actual/target and qualifiers; p2-p3 support quote/context.",
+        "evidence": "d-annual",
+        "locator": "p1"
+      }
+    },
+    "resolutions": {
+      "f-arithmetic": {
+        "status": "supported_as_written",
+        "reason": "Both inputs are 2025 CAD amounts; subtraction yields CAD 15500."
+      },
+      "f-hypothesis": {
+        "status": "limitation_retained",
+        "reason": "Nonmaterial hypothesis stays nonfactual; no budget or demand inferred."
+      }
+    }
+  },
+  "f-challenge": {
+    "execution_id": "session-001:fact_checker:f-challenge",
+    "actor": "Codex assistant",
+    "basis": "coding_session",
+    "context": "Same Codex chat and assistant; stage-specific saved packet but no isolated context. Source documents, challenge construction and expected answers were visible in this context. Open-book/contaminated; not independent or blind.",
+    "completed": true,
+    "created": "2026-11-04T05:12:15.502750+00:00",
+    "packet_contract_version": 2,
+    "outcome": "failed",
+    "reason": "Nine defective/unsupported factual proposals block approval. Two controls are verified; the hypothesis remains nonfactual.",
+    "checks": [
+      {
+        "claim_id": "c1",
+        "status": "contradicted",
+        "reason": "Source amount has one fewer zero: CAD 84500.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin",
+        "correction": "CAD 84500 in 2025."
+      },
+      {
+        "claim_id": "c2",
+        "status": "contradicted",
+        "reason": "p1 uses CAD; no USD conversion supports this assertion.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin",
+        "correction": "Restore CAD."
+      },
+      {
+        "claim_id": "c3",
+        "status": "contradicted",
+        "reason": "p2 is a future possibility conditional on nonrenewal; no completed reduction is stated.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "corroboration": "single_origin",
+        "correction": "We may reduce weekend deliveries if the restricted grant is not renewed."
+      },
+      {
+        "claim_id": "c4",
+        "status": "contradicted",
+        "reason": "Regardless of renewal reverses the explicit if-condition and will overstates may.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "corroboration": "single_origin",
+        "correction": "Retain may and if the restricted grant is not renewed."
+      },
+      {
+        "claim_id": "c5",
+        "status": "partly_verified",
+        "reason": "CAD 84500 is in p1, but p3 says retention was not measured. The conjunctive claim is only partly supported.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "corroboration": "single_origin",
+        "correction": "Report the receipt amount separately; retention improvement is not established."
+      },
+      {
+        "claim_id": "c6",
+        "status": "contradicted",
+        "reason": "Dispatch p1 explicitly names a reprint of the society statement and no independent reporting. Two documents are one origin.",
+        "evidence": "d-reprint",
+        "locator": "p1",
+        "corroboration": "single_origin",
+        "correction": "Single-origin evidence, not two independent confirmations."
+      },
+      {
+        "claim_id": "c7",
+        "status": "contradicted",
+        "reason": "Registry explicitly says the short name does not distinguish the two entities. Uniqueness is contradicted; entity identity is still unknown.",
+        "evidence": "d-register",
+        "locator": "p1",
+        "corroboration": "single_origin",
+        "correction": "Unresolved identity; do not assign Washington from the short name."
+      },
+      {
+        "claim_id": "c8",
+        "status": "unverifiable",
+        "reason": "The readable sample supplies no routine collection/retention permission. No conclusion about actual permission can be verified.",
+        "evidence": "d-reprint",
+        "locator": "p0",
+        "corroboration": "unknown"
+      },
+      {
+        "claim_id": "c9",
+        "status": "unverifiable",
+        "reason": "d-missing has no available original or paragraph. No CAD 60000 budget evidence exists in the supplied corpus.",
+        "evidence": "d-missing",
+        "locator": null,
+        "corroboration": "unknown"
+      },
+      {
+        "claim_id": "c10",
+        "status": "verified",
+        "reason": "p1 gives both 2025 CAD amounts and actual/target roles exactly.",
+        "evidence": "d-annual",
+        "locator": "p1",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "c11",
+        "status": "verified",
+        "reason": "Matches original p2 sentence exactly including modal and condition.",
+        "evidence": "d-annual",
+        "locator": "p2",
+        "corroboration": "single_origin"
+      },
+      {
+        "claim_id": "c12",
+        "status": "reviewed_hypothesis",
+        "reason": "Exploratory relevance is not an established fact or buying signal. Budget and demand remain unknown.",
+        "evidence": "d-annual",
+        "locator": "p3",
+        "corroboration": "unknown"
+      }
+    ],
+    "details": {
+      "identity": {
+        "status": "unverifiable",
+        "reason": "Although the parent BC society is identified, c7 asserts an unresolved Washington identity.",
+        "evidence": "d-register",
+        "locator": "p1"
+      },
+      "evidence": {
+        "status": "unverifiable",
+        "reason": "Ledger includes unavailable original and unsupported material assertions; resolved input flag is not accepted.",
+        "evidence": null,
+        "locator": null
+      }
+    },
+    "resolutions": {
+      "ch-number": {
+        "status": "unresolved",
+        "reason": "Correction proposed only; original candidate text remains erroneous."
+      },
+      "ch-currency": {
+        "status": "unresolved",
+        "reason": "Original USD assertion not revised."
+      },
+      "ch-quote": {
+        "status": "unresolved",
+        "reason": "Altered quote retained in failed ledger; corrected wording supplied in check."
+      },
+      "ch-condition": {
+        "status": "unresolved",
+        "reason": "Missing qualification remains in original proposal."
+      },
+      "ch-retention": {
+        "status": "unresolved",
+        "reason": "No retention measurement supplied."
+      },
+      "ch-origin": {
+        "status": "unresolved",
+        "reason": "Original independence assertion remains false."
+      },
+      "ch-identity": {
+        "status": "unresolved",
+        "reason": "No distinguishing identity supplied."
+      },
+      "ch-permission": {
+        "status": "unresolved",
+        "reason": "No routine handling basis supplied."
+      },
+      "ch-budget": {
+        "status": "unresolved",
+        "reason": "Original still unavailable; budget not established."
+      }
+    }
+  }
+}

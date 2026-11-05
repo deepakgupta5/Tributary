@@ -1,0 +1,9 @@
+{
+  "execution_id": "live-session-001:qc:f-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "Article date, URL, section locator, amount, program note and hypothesis classification are retained; the unsupported funding-use proposition remains explicit for review."
+}

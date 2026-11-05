@@ -1,0 +1,186 @@
+{
+  "run_id": "live-session-001",
+  "retrieved_at": "2026-11-05",
+  "purpose": "Supervised noncommercial research prototype",
+  "organization_count": 3,
+  "collection": {
+    "id": "live-session-001:collection",
+    "input_hash": "e7e3b5a8dd8c3429a4915f1c8d4ebf76633d93a0dae24ac21b110a032be8a041",
+    "items": [
+      {
+        "index": 0,
+        "id": "e-irs-foodlifeline",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 1,
+        "id": "e-irs-nurturing",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 2,
+        "id": "e-cra-gvfb",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 3,
+        "id": "e-irs-use",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 4,
+        "id": "e-cra-license",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 5,
+        "id": "e-foodlifeline-impact-2025",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 6,
+        "id": "e-foodlifeline-terms",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 7,
+        "id": "e-emerald-nurturing-2026",
+        "version": 1,
+        "disposition": "unique"
+      },
+      {
+        "index": 8,
+        "id": "e-emerald-handling",
+        "version": 1,
+        "disposition": "unique"
+      }
+    ],
+    "status": "complete",
+    "input_count": 9,
+    "counts": {
+      "unique": 9,
+      "duplicate": 0,
+      "quarantined": 0
+    },
+    "pending_count": 0,
+    "reconciled": true
+  },
+  "decisions": [
+    {
+      "id": "s-irs-wa",
+      "state": "approved_for_collection",
+      "blockers": []
+    },
+    {
+      "id": "s-cra-2024",
+      "state": "approved_for_collection",
+      "blockers": []
+    },
+    {
+      "id": "s-foodlifeline",
+      "state": "approved_for_collection",
+      "blockers": []
+    },
+    {
+      "id": "s-emerald",
+      "state": "pending",
+      "blockers": [
+        "Required detail unresolved: handling",
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Required detail not verified: handling",
+        "Material issue requires resolution/revision: emerald-handling"
+      ]
+    },
+    {
+      "id": "o-gvfb",
+      "state": "pending",
+      "blockers": [
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Required detail not verified: eligibility",
+        "Material issue requires resolution/revision: gvfb-current"
+      ]
+    },
+    {
+      "id": "o-foodlifeline",
+      "state": "admitted",
+      "blockers": []
+    },
+    {
+      "id": "o-nurturing",
+      "state": "admitted",
+      "blockers": []
+    },
+    {
+      "id": "f-foodlifeline",
+      "state": "approved",
+      "blockers": []
+    },
+    {
+      "id": "f-nurturing",
+      "state": "pending",
+      "blockers": [
+        "Source not currently approved: s-emerald",
+        "Checkpoint missing/stale/not passed: researcher",
+        "Checkpoint missing/stale/not passed: skeptic",
+        "Checkpoint missing/stale/not passed: fact_checker",
+        "Material claim not verified: nr-funding-use",
+        "Material issue requires resolution/revision: nr-funding-use"
+      ]
+    }
+  ],
+  "reconciliation": {
+    "opening_pending": 0,
+    "new_candidates": 9,
+    "reopened": 0,
+    "admitted": 6,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-foodlifeline",
+      "f-nurturing",
+      "o-foodlifeline",
+      "o-gvfb",
+      "o-nurturing",
+      "s-cra-2024",
+      "s-emerald",
+      "s-foodlifeline",
+      "s-irs-wa"
+    ],
+    "candidate_balance": true,
+    "opening_active": 0,
+    "activations": 6,
+    "inactivations": 0,
+    "closing_active": 6,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  },
+  "transient_downloads": [
+    {
+      "url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "bytes": 7354770,
+      "sha256": "a04c7897480c07b89ed5cb1e32fc756ef3561a8a901f9e79c5621d9c31ab0c3c",
+      "retained": false
+    },
+    {
+      "url": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "bytes": 13203780,
+      "sha256": "4f214ff2a9e659185b20f50431fd98f1d89e2d08fff8c2a9583b82b24fc4cd8e",
+      "retained": false
+    }
+  ],
+  "whole_documents_stored": 0,
+  "context_limitation": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification."
+}

@@ -1,0 +1,55 @@
+{
+  "execution_id": "live-session-001:fact_checker:s-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The report page and terms note support a factual-note-only use.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "The inspected FY2025 report page provides FY24 and FY25 network-visit values.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits",
+      "corroboration": "single_origin",
+      "claim_id": "fl-source"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Report is linked from Food Lifeline's financials page and identified by its source URL.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits"
+    },
+    "access": {
+      "status": "verified",
+      "reason": "Report page was inspected without authentication.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits"
+    },
+    "handling": {
+      "status": "verified",
+      "reason": "Prototype retains factual notes and locators, excluding copied report text and electronic republication.",
+      "evidence": "e-foodlifeline-terms",
+      "locator": "terms-note"
+    },
+    "utility": {
+      "status": "verified",
+      "reason": "Report provides comparable network-visit periods for an attributed trend calculation.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits"
+    }
+  },
+  "resolutions": {
+    "fl-origin": {
+      "status": "limitation_retained",
+      "reason": "Claims and report label the figures first-party and single-origin."
+    },
+    "fl-date": {
+      "status": "limitation_retained",
+      "reason": "Publication date remains explicitly unknown."
+    }
+  }
+}

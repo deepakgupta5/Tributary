@@ -1,0 +1,19 @@
+{
+  "execution_id": "live-session-001:researcher:f-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The report supports an attributed network-visit increase; it does not establish unique people, organizational strain, consulting need or budget.",
+  "claim_ids": [
+    "fl-visits",
+    "fl-change",
+    "fl-hypothesis"
+  ],
+  "unknowns": [
+    "Independent confirmation.",
+    "Cause and operational effect of the increase.",
+    "Any unmet need, budget or buying intent."
+  ]
+}

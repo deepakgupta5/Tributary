@@ -1,0 +1,159 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "s-irs-wa",
+    "version": 2,
+    "kind": "source",
+    "body": {
+      "claims": [
+        {
+          "evidence": [
+            "e-irs-foodlifeline"
+          ],
+          "id": "irs-fl",
+          "material": true,
+          "text": "The Washington CSV contains a Food Lifeline row with EIN 91-1090450 and a Seattle address.",
+          "type": "paraphrase"
+        },
+        {
+          "evidence": [
+            "e-irs-nurturing"
+          ],
+          "id": "irs-nr",
+          "material": true,
+          "text": "The Washington CSV contains a Nurturing Roots row with EIN 46-3115382 and a Seattle address.",
+          "type": "paraphrase"
+        }
+      ],
+      "dependencies": [
+        "e-irs-foodlifeline",
+        "e-irs-nurturing",
+        "e-irs-use"
+      ],
+      "details": {
+        "access": "resolved",
+        "handling": "resolved",
+        "identity": "resolved",
+        "utility": "resolved"
+      },
+      "endpoint": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "geography": [
+        "Washington"
+      ],
+      "limitations": [
+        "Filing address does not establish area served or current operating activity.",
+        "Only selected public fields are retained; the downloaded CSV is transient."
+      ],
+      "live": true,
+      "name": "IRS Washington EO BMF CSV"
+    }
+  },
+  "stage": "fact_checker",
+  "fingerprint": "83b56233ad9384cae1a8414513fbc383a0a0423d42309f13fe49846a3896bf35",
+  "dependencies": {
+    "e-irs-foodlifeline": {
+      "id": "e-irs-foodlifeline",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-911090450": "EIN=911090450; NAME=FOOD LIFELINE; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202506; NTEE_CD=K33Z."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-nurturing": {
+      "id": "e-irs-nurturing",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-463115382": "EIN=463115382; NAME=NURTURING ROOTS; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202412; NTEE_CD=K30."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-use": {
+      "id": "e-irs-use",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected IRS use notice.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Copyright notice",
+        "paragraphs": {
+          "copyright-note": "Factual note: IRS says federal employee-created site content may be copied, requests credit, and excludes third-party copyrighted material."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/about-irs/use-of-content-from-irsgov",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:s-irs-wa",
+      "outcome": "passed",
+      "reason": "The two retained rows match exact names and EINs in the downloaded Washington CSV; only selected fields, file hash and retrieval metadata were retained."
+    },
+    "researcher": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "claim_ids": [
+        "irs-fl",
+        "irs-nr"
+      ],
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:researcher:s-irs-wa",
+      "outcome": "passed",
+      "reason": "The dataset is useful for organization identity and tax-exempt listing, with filing-address and currency limits explicit.",
+      "unknowns": [
+        "Current operations and area served are not established by the filing address."
+      ]
+    },
+    "skeptic": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:skeptic:s-irs-wa",
+      "issues": [],
+      "outcome": "passed",
+      "reason": "No material source-admission defect found within the bounded identity use."
+    }
+  },
+  "required_details": [
+    "identity",
+    "access",
+    "handling",
+    "utility"
+  ]
+}

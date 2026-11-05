@@ -1,0 +1,191 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "o-foodlifeline",
+    "version": 1,
+    "kind": "organization",
+    "body": {
+      "category": "service_delivery",
+      "claims": [
+        {
+          "evidence": [
+            "e-irs-foodlifeline"
+          ],
+          "id": "foodlifeline-id",
+          "material": true,
+          "text": "Food Lifeline is listed in the IRS Washington EO BMF under EIN 91-1090450 in Seattle and NTEE code K33Z.",
+          "type": "paraphrase"
+        }
+      ],
+      "dependencies": [
+        "s-irs-wa",
+        "e-irs-foodlifeline"
+      ],
+      "details": {
+        "eligibility": "resolved",
+        "identity": "resolved"
+      },
+      "geography": [
+        "Washington"
+      ],
+      "limitations": [
+        "IRS listing alone does not establish service area, current need, or commercial relevance."
+      ],
+      "live": true,
+      "name": "Food Lifeline"
+    }
+  },
+  "stage": "fact_checker",
+  "fingerprint": "09ee85926ed90ceca4137a5ae17a1d8664e7ab1d5901efe0159981021ec1b473",
+  "dependencies": {
+    "s-irs-wa": {
+      "id": "s-irs-wa",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-irs-foodlifeline"
+            ],
+            "id": "irs-fl",
+            "material": true,
+            "text": "The Washington CSV contains a Food Lifeline row with EIN 91-1090450 and a Seattle address.",
+            "type": "paraphrase"
+          },
+          {
+            "evidence": [
+              "e-irs-nurturing"
+            ],
+            "id": "irs-nr",
+            "material": true,
+            "text": "The Washington CSV contains a Nurturing Roots row with EIN 46-3115382 and a Seattle address.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-irs-foodlifeline",
+          "e-irs-nurturing",
+          "e-irs-use"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "resolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "Filing address does not establish area served or current operating activity.",
+          "Only selected public fields are retained; the downloaded CSV is transient."
+        ],
+        "live": true,
+        "name": "IRS Washington EO BMF CSV"
+      }
+    },
+    "e-irs-foodlifeline": {
+      "id": "e-irs-foodlifeline",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-911090450": "EIN=911090450; NAME=FOOD LIFELINE; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202506; NTEE_CD=K33Z."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-nurturing": {
+      "id": "e-irs-nurturing",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-463115382": "EIN=463115382; NAME=NURTURING ROOTS; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202412; NTEE_CD=K30."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-use": {
+      "id": "e-irs-use",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected IRS use notice.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Copyright notice",
+        "paragraphs": {
+          "copyright-note": "Factual note: IRS says federal employee-created site content may be copied, requests credit, and excludes third-party copyrighted material."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/about-irs/use-of-content-from-irsgov",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:o-foodlifeline",
+      "outcome": "passed",
+      "reason": "Name, EIN, Seattle address and NTEE code are retained from the exact IRS row."
+    },
+    "researcher": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "claim_ids": [
+        "foodlifeline-id"
+      ],
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:researcher:o-foodlifeline",
+      "outcome": "passed",
+      "reason": "IRS identity plus a current inspected organization report support the in-scope service-delivery identity.",
+      "unknowns": [
+        "No commercial relevance or budget is inferred from admission."
+      ]
+    },
+    "skeptic": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:skeptic:o-foodlifeline",
+      "issues": [],
+      "outcome": "passed",
+      "reason": "No material identity or eligibility defect found."
+    }
+  },
+  "required_details": [
+    "identity",
+    "eligibility"
+  ]
+}

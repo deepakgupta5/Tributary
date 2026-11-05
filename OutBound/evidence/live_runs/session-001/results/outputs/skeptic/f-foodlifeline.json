@@ -1,0 +1,25 @@
+{
+  "execution_id": "live-session-001:skeptic:f-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The arithmetic is checkable and the interpretation remains bounded.",
+  "issues": [
+    {
+      "id": "fl-rounding",
+      "claim_id": "fl-change",
+      "material": false,
+      "reason": "The report's '5M' is rounded while the calculated difference is 5,245,755.",
+      "remedy": "Show exact inputs and label the percentage as calculated."
+    },
+    {
+      "id": "fl-interpretation",
+      "claim_id": "fl-hypothesis",
+      "material": false,
+      "reason": "More visits do not prove internal operational strain or demand for assistance.",
+      "remedy": "Keep this as a hypothesis and preserve alternatives."
+    }
+  ]
+}

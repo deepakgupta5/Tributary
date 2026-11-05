@@ -1,0 +1,39 @@
+{
+  "execution_id": "live-session-001:fact_checker:o-gvfb",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "Identity is verified for the 2024 dataset; current eligibility is unresolved.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "CRA row supplies exact legal name, BN and Burnaby, BC location.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001",
+      "corroboration": "single_origin",
+      "claim_id": "gvfb-id"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Legal name and BN match the retained row.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001"
+    },
+    "eligibility": {
+      "status": "unverifiable",
+      "reason": "The 2024 identification row does not prove current status.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001"
+    }
+  },
+  "resolutions": {
+    "gvfb-current": {
+      "status": "unresolved",
+      "reason": "No current-status evidence was collected."
+    }
+  }
+}

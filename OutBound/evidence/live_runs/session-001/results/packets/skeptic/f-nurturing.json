@@ -1,0 +1,328 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "f-nurturing",
+    "version": 1,
+    "kind": "finding",
+    "body": {
+      "claims": [
+        {
+          "evidence": [
+            "e-emerald-nurturing-2026"
+          ],
+          "id": "nr-grant",
+          "material": true,
+          "text": "South Seattle Emerald reports that Nurturing Roots' Future Food Systems program is supported by $85,260 from the Food Equity Fund.",
+          "type": "number"
+        },
+        {
+          "evidence": [
+            "e-emerald-nurturing-2026"
+          ],
+          "id": "nr-program",
+          "material": true,
+          "text": "The article describes Future Food Systems as training young adults ages 18–22 for food-system careers and responding to requests from former program participants.",
+          "type": "paraphrase"
+        },
+        {
+          "evidence": [
+            "e-emerald-nurturing-2026"
+          ],
+          "id": "nr-funding-use",
+          "material": true,
+          "text": "The $85,260 award is available for outside operational or data consulting.",
+          "type": "paraphrase"
+        },
+        {
+          "evidence": [
+            "e-emerald-nurturing-2026"
+          ],
+          "id": "nr-hypothesis",
+          "material": false,
+          "text": "A new funded workforce program may create operational or outcome-tracking questions worth investigating, but no unmet need or consulting budget is established.",
+          "type": "hypothesis"
+        }
+      ],
+      "dependencies": [
+        "o-nurturing",
+        "s-emerald",
+        "e-emerald-nurturing-2026"
+      ],
+      "details": {
+        "evidence": "resolved",
+        "identity": "resolved"
+      },
+      "limitations": [
+        "One local article; the city award record was not independently checked in this run.",
+        "Funding supports the program and does not establish discretionary consulting funds."
+      ],
+      "live": true,
+      "name": "Nurturing Roots funded workforce program",
+      "organization": "o-nurturing",
+      "route_status": "evidence_available"
+    }
+  },
+  "stage": "skeptic",
+  "fingerprint": "7c92aa215da73701922478961326c02c5774281492c5ea07e57e21f8e041ebd0",
+  "dependencies": {
+    "o-nurturing": {
+      "id": "o-nurturing",
+      "version": 1,
+      "kind": "organization",
+      "body": {
+        "category": "service_delivery",
+        "claims": [
+          {
+            "evidence": [
+              "e-irs-nurturing"
+            ],
+            "id": "nurturing-id",
+            "material": true,
+            "text": "Nurturing Roots is listed in the IRS Washington EO BMF under EIN 46-3115382 in Seattle and NTEE code K30.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "s-irs-wa",
+          "e-irs-nurturing"
+        ],
+        "details": {
+          "eligibility": "resolved",
+          "identity": "resolved"
+        },
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "IRS listing and local reporting support identity and programs, not a purchasing budget or willingness to engage."
+        ],
+        "live": true,
+        "name": "Nurturing Roots"
+      }
+    },
+    "s-irs-wa": {
+      "id": "s-irs-wa",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-irs-foodlifeline"
+            ],
+            "id": "irs-fl",
+            "material": true,
+            "text": "The Washington CSV contains a Food Lifeline row with EIN 91-1090450 and a Seattle address.",
+            "type": "paraphrase"
+          },
+          {
+            "evidence": [
+              "e-irs-nurturing"
+            ],
+            "id": "irs-nr",
+            "material": true,
+            "text": "The Washington CSV contains a Nurturing Roots row with EIN 46-3115382 and a Seattle address.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-irs-foodlifeline",
+          "e-irs-nurturing",
+          "e-irs-use"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "resolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "Filing address does not establish area served or current operating activity.",
+          "Only selected public fields are retained; the downloaded CSV is transient."
+        ],
+        "live": true,
+        "name": "IRS Washington EO BMF CSV"
+      }
+    },
+    "e-irs-foodlifeline": {
+      "id": "e-irs-foodlifeline",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-911090450": "EIN=911090450; NAME=FOOD LIFELINE; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202506; NTEE_CD=K33Z."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-nurturing": {
+      "id": "e-irs-nurturing",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-463115382": "EIN=463115382; NAME=NURTURING ROOTS; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202412; NTEE_CD=K30."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-use": {
+      "id": "e-irs-use",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected IRS use notice.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Copyright notice",
+        "paragraphs": {
+          "copyright-note": "Factual note: IRS says federal employee-created site content may be copied, requests credit, and excludes third-party copyrighted material."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/about-irs/use-of-content-from-irsgov",
+        "whole_document_stored": false
+      }
+    },
+    "s-emerald": {
+      "id": "s-emerald",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-emerald-nurturing-2026"
+            ],
+            "id": "emerald-source",
+            "material": true,
+            "text": "The January 3, 2026 article reports on Nurturing Roots' Future Food Systems program and its Food Equity Fund support.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-emerald-nurturing-2026",
+          "e-emerald-handling"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "unresolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://southseattleemerald.org/",
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "One local article was inspected; publication-wide coverage and retention terms were not established.",
+          "A short attributed passage and factual note were retained for this supervised research run; routine handling remains unresolved."
+        ],
+        "live": true,
+        "name": "South Seattle Emerald"
+      }
+    },
+    "e-emerald-nurturing-2026": {
+      "id": "e-emerald-nurturing-2026",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Section beginning 'Workforce development has recently become a central focus of Nurturing Roots' work'",
+        "paragraphs": {
+          "future-food-systems-grant": "The program is supported by $85,260 from the Food Equity Fund.",
+          "future-food-systems-note": "Factual note: Future Food Systems is described as training young adults ages 18–22 for food-system careers and as responding to former participant requests."
+        },
+        "publication_date": "2026-01-03",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-emerald",
+        "source_url": "https://southseattleemerald.org/community/2026/01/03/south-end-groups-provide-food-and-farming-opportunities-for-youth",
+        "whole_document_stored": false
+      }
+    },
+    "e-emerald-handling": {
+      "id": "e-emerald-handling",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected standards page.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Standards & Ethics page",
+        "paragraphs": {
+          "handling-note": "Factual note: the inspected standards page links editorial policies but does not state copying or retention terms."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-emerald",
+        "source_url": "https://southseattleemerald.org/standards-ethics",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:f-nurturing",
+      "outcome": "passed",
+      "reason": "Article date, URL, section locator, amount, program note and hypothesis classification are retained; the unsupported funding-use proposition remains explicit for review."
+    },
+    "researcher": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "claim_ids": [
+        "nr-grant",
+        "nr-program",
+        "nr-funding-use",
+        "nr-hypothesis"
+      ],
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:researcher:f-nurturing",
+      "outcome": "failed",
+      "reason": "Program and grant facts are source-supported, while permitted use of the award for outside consulting is unsupported.",
+      "unknowns": [
+        "Official city award record.",
+        "Allowable uses of funds.",
+        "Unmet operational need, budget and buying intent."
+      ]
+    }
+  },
+  "required_details": [
+    "identity",
+    "evidence"
+  ]
+}

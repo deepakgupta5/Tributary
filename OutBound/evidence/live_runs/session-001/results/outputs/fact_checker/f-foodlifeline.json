@@ -1,0 +1,59 @@
+{
+  "execution_id": "live-session-001:fact_checker:f-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "Both factual claims are source-faithful and arithmetic is correct; the prospect interpretation remains nonfactual.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "The retained factual note matches the inspected page's FY24 and FY25 network-visit values.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits",
+      "corroboration": "single_origin",
+      "claim_id": "fl-visits"
+    },
+    {
+      "status": "verified",
+      "reason": "16,001,264 minus 10,755,509 equals 5,245,755; dividing by 10,755,509 gives approximately 48.77%.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits",
+      "corroboration": "single_origin",
+      "claim_id": "fl-change"
+    },
+    {
+      "status": "reviewed_hypothesis",
+      "reason": "Possible operational or data relevance is an investigation prompt, not a verified need or budget.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits",
+      "corroboration": "unknown",
+      "claim_id": "fl-hypothesis"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Finding is linked to the admitted Food Lifeline identity.",
+      "evidence": "e-irs-foodlifeline",
+      "locator": "row-ein-911090450"
+    },
+    "evidence": {
+      "status": "verified",
+      "reason": "Exact values and periods are retained with a precise report-page locator.",
+      "evidence": "e-foodlifeline-impact-2025",
+      "locator": "pdf-page-2-network-visits"
+    }
+  },
+  "resolutions": {
+    "fl-rounding": {
+      "status": "supported_as_written",
+      "reason": "Finding uses exact subtraction and labels the rate calculated, while separately noting the report's rounded 5M label."
+    },
+    "fl-interpretation": {
+      "status": "limitation_retained",
+      "reason": "Hypothesis explicitly disclaims need, budget and buying intent."
+    }
+  }
+}

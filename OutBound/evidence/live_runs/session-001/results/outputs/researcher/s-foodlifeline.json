@@ -1,0 +1,16 @@
+{
+  "execution_id": "live-session-001:researcher:s-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The report is useful for attributed operational trend evidence but remains first-party and has no observed publication date.",
+  "claim_ids": [
+    "fl-source"
+  ],
+  "unknowns": [
+    "Independent confirmation of the network-visit counts.",
+    "Report publication date."
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "execution_id": "live-session-001:fact_checker:o-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "Required identity and eligibility are supported for the bounded run.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "IRS row gives exact name, EIN, Seattle address and K30 classification.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382",
+      "corroboration": "single_origin",
+      "claim_id": "nurturing-id"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Exact name and EIN match the IRS row.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382"
+    },
+    "eligibility": {
+      "status": "verified",
+      "reason": "K30 classification and current local reporting support food/agriculture service programming.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382"
+    }
+  },
+  "resolutions": {}
+}

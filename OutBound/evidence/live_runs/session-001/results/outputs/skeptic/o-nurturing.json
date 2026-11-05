@@ -1,0 +1,10 @@
+{
+  "execution_id": "live-session-001:skeptic:o-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "No material identity or eligibility defect found; local reporting is single-origin for program details.",
+  "issues": []
+}

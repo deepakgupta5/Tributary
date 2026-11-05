@@ -1,0 +1,177 @@
+{
+  "basis": "Open-book, contaminated, same assistant; descriptive case counts only.",
+  "frozen_at": "2026-11-04T05:12:15.653627+00:00",
+  "scored_at": "2026-11-04T05:12:16.177442+00:00",
+  "tracks": {
+    "complete_chain": {
+      "researcher": {
+        "eligible": 11,
+        "checked": 11,
+        "defects": 2,
+        "caught": 2,
+        "missed": 0,
+        "false_verification": 0,
+        "correct_controls": 9,
+        "false_rejection": 0,
+        "control_abstentions": 0,
+        "exact_status_matches": 10,
+        "submitted": 11,
+        "pending": 0,
+        "abstentions": 1,
+        "mismatches": [
+          {
+            "id": "o-ambiguous/oa1",
+            "expected": "unverifiable",
+            "actual": "contradicted"
+          }
+        ]
+      },
+      "fact_checker": {
+        "eligible": 11,
+        "checked": 11,
+        "defects": 2,
+        "caught": 2,
+        "missed": 0,
+        "false_verification": 0,
+        "correct_controls": 9,
+        "false_rejection": 0,
+        "control_abstentions": 0,
+        "exact_status_matches": 10,
+        "submitted": 11,
+        "pending": 0,
+        "abstentions": 1,
+        "mismatches": [
+          {
+            "id": "o-ambiguous/oa1",
+            "expected": "unverifiable",
+            "actual": "contradicted"
+          }
+        ]
+      },
+      "skeptic": {
+        "defects": 2,
+        "caught": 2,
+        "missed": 0,
+        "correct_controls": 9,
+        "material_false_alarms": 0
+      }
+    },
+    "reviewer_challenge": {
+      "researcher": {
+        "eligible": 11,
+        "checked": 11,
+        "defects": 9,
+        "caught": 9,
+        "missed": 0,
+        "false_verification": 0,
+        "correct_controls": 2,
+        "false_rejection": 0,
+        "control_abstentions": 0,
+        "exact_status_matches": 10,
+        "submitted": 11,
+        "pending": 0,
+        "abstentions": 2,
+        "mismatches": [
+          {
+            "id": "f-challenge/c7",
+            "expected": "unverifiable",
+            "actual": "contradicted"
+          }
+        ]
+      },
+      "fact_checker": {
+        "eligible": 11,
+        "checked": 11,
+        "defects": 9,
+        "caught": 9,
+        "missed": 0,
+        "false_verification": 0,
+        "correct_controls": 2,
+        "false_rejection": 0,
+        "control_abstentions": 0,
+        "exact_status_matches": 10,
+        "submitted": 11,
+        "pending": 0,
+        "abstentions": 2,
+        "mismatches": [
+          {
+            "id": "f-challenge/c7",
+            "expected": "unverifiable",
+            "actual": "contradicted"
+          }
+        ]
+      },
+      "skeptic": {
+        "defects": 9,
+        "caught": 9,
+        "missed": 0,
+        "correct_controls": 2,
+        "material_false_alarms": 0
+      }
+    }
+  },
+  "coverage": {
+    "eligible": 24,
+    "submitted": 24,
+    "completed": 24,
+    "pending": 0,
+    "unsubmitted": 0
+  },
+  "stages": {
+    "eligible": 28,
+    "submitted": 28,
+    "completed": 28,
+    "pending": 0
+  },
+  "hypotheses": {
+    "eligible": 2,
+    "retained_nonfactual": 2
+  },
+  "admission": {
+    "eligible": 7,
+    "expected_active": 4,
+    "actual_active": 4,
+    "false_approval": [],
+    "false_block": []
+  },
+  "collection": {
+    "documents_expected": 4,
+    "documents_stored": 4,
+    "exact_document_preservation": 4,
+    "directions": [
+      "organization_to_source",
+      "source_to_organization"
+    ]
+  },
+  "qc": {
+    "subjects": 7,
+    "completed": 7,
+    "note": "QC assessed faithful storage and proposal labelling; it did not confer factual or admission approval."
+  },
+  "reconciliation": {
+    "opening_pending": 0,
+    "new_candidates": 7,
+    "reopened": 0,
+    "admitted": 4,
+    "closing_pending": 3,
+    "population_ids": [
+      "f-chain",
+      "f-challenge",
+      "o-ambiguous",
+      "o-harbor",
+      "s-annual",
+      "s-register",
+      "s-reprint"
+    ],
+    "candidate_balance": true,
+    "opening_active": 0,
+    "activations": 4,
+    "inactivations": 0,
+    "closing_active": 4,
+    "stock_balance": true,
+    "discrepancies": [],
+    "passed": true,
+    "incomplete_runs": [],
+    "limits": "Distinct candidate work per period; repeated revisions of one subject are coalesced in counts and retained individually in history. No merge/exclusion execution or scheduler. Retries are attempts, not new sources."
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "s-foodlifeline",
+    "version": 2,
+    "kind": "source",
+    "body": {
+      "claims": [
+        {
+          "evidence": [
+            "e-foodlifeline-impact-2025"
+          ],
+          "id": "fl-source",
+          "material": true,
+          "text": "Food Lifeline's FY2025 impact report provides FY24 and FY25 network-visit figures.",
+          "type": "paraphrase"
+        }
+      ],
+      "dependencies": [
+        "e-foodlifeline-impact-2025",
+        "e-foodlifeline-terms"
+      ],
+      "details": {
+        "access": "resolved",
+        "handling": "resolved",
+        "identity": "resolved",
+        "utility": "resolved"
+      },
+      "endpoint": "https://foodlifeline.org/financials",
+      "geography": [
+        "Washington"
+      ],
+      "limitations": [
+        "First-party impact reporting; figures are source-attributed and not independently audited here.",
+        "The report publication date is unknown; only factual notes and locators are retained, with no copied report text."
+      ],
+      "live": true,
+      "name": "Food Lifeline publications"
+    }
+  },
+  "stage": "researcher",
+  "fingerprint": "b00b44fe178dc3fa054d0d8a876e5363f73341c4abfb56656c9e389fa827826a",
+  "dependencies": {
+    "e-foodlifeline-impact-2025": {
+      "id": "e-foodlifeline-impact-2025",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "The inspected PDF is labelled FY2025 but does not state a publication date in the checked passage.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "PDF page 2 (viewer index 1), network visits panel",
+        "paragraphs": {
+          "pdf-page-2-network-visits": "Factual note: FY24 network visits are 10,755,509 and FY25 network visits are 16,001,264; the report labels this an increase of 5M visits."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-foodlifeline",
+        "source_url": "https://e1.nmcdn.io/assets/foodlife/wp-content/uploads/2025/12/FoodLifeline-ImpactReport2025_SinglePages.pdf",
+        "whole_document_stored": false
+      }
+    },
+    "e-foodlifeline-terms": {
+      "id": "e-foodlifeline-terms",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected terms page.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Permission & Copyright",
+        "paragraphs": {
+          "terms-note": "Factual note: written permission is specified for commercial use, electronic republication, or print publication; retained report text is therefore excluded here."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-foodlifeline",
+        "source_url": "https://foodlifeline.org/privacy-policy",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:s-foodlifeline",
+      "outcome": "passed",
+      "reason": "The retained note preserves both periods, exact visit values, source URL and page locator; no report file or copied report prose was retained."
+    }
+  },
+  "required_details": [
+    "identity",
+    "access",
+    "handling",
+    "utility"
+  ]
+}

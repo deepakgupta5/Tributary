@@ -1,0 +1,19 @@
+{
+  "created": "2026-11-04T05:12:15.653627+00:00",
+  "sha256": {
+    "context.json": "d7778163e936008eab32162ab22d4086c243f61c02cde15b31197c72ac8a598a",
+    "inputs/challenge.json": "8662bfb4927c8bc54c2725f75741d133ceaeb5237aecb99e340d6fd0828ef414",
+    "inputs/expected.json": "f92c305b7e3de98997588fef0580351963c06490ad8e2d7fa52a05114416bbd2",
+    "inputs/source_documents.json": "927678654fb6a068566c5450cf655791d6ab6ea9a7e1217f4c067f1d29764037",
+    "outputs/collection.json": "52d2e78c6cd072108385861d4ed05d35cda0f0ece214f794e3d18feb7ec33ed1",
+    "outputs/fact_checker.json": "effa72898eb4810220f0c4f442b9edb92fdba6adb38842592df7d86b366c8e1e",
+    "outputs/qc.json": "9898bb88d7882d50a9ce099483d1fb6690745b9dd8777c948591b567b8e65358",
+    "outputs/researcher.json": "15ed1338a5177bbb855c6cfd1790568e3bfa82779b3243d324303c3d9dbadef3",
+    "outputs/skeptic.json": "14695b06c5e2ec7f93a326782ac888f3c7c5b71fb27e376e0c9155456bcbd56c",
+    "packets/fact_checker.json": "f5e73121ef9bdd4140953fda778e559a8d09d585bb16f606aff009f3ed4d089a",
+    "packets/qc.json": "b3f462e61fd6b23a991958d70cd32fcc543bba6d26dc87a0677f2f4cdb4bd4de",
+    "packets/researcher.json": "dfc847942623efd9e01999d3ad4e3a7d96fcf2942a5a8f09335735ea51e40a24",
+    "packets/skeptic.json": "701f6d96b249f8fb7193ea106c74977be7179c7f98836bff241309a872013ee2"
+  },
+  "meaning": "Byte freeze before scoring, not a signature or isolation guarantee."
+}

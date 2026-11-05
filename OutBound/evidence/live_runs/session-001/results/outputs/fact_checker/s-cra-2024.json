@@ -1,0 +1,51 @@
+{
+  "execution_id": "live-session-001:fact_checker:s-cra-2024",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The selected row, download and licence note support bounded identity use.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "Selected row gives the legal name, BN and Burnaby, BC location exactly.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001",
+      "corroboration": "single_origin",
+      "claim_id": "cra-gvfb"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Dataset row and endpoint are identified.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001"
+    },
+    "access": {
+      "status": "verified",
+      "reason": "CSV was downloaded without authentication on the retrieval date.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001"
+    },
+    "handling": {
+      "status": "verified",
+      "reason": "Open Government Licence note supports attributed use of covered information with stated exclusions.",
+      "evidence": "e-cra-license",
+      "locator": "licence-note"
+    },
+    "utility": {
+      "status": "verified",
+      "reason": "Selected public fields support legal-name and BN matching.",
+      "evidence": "e-cra-gvfb",
+      "locator": "row-bn-107449787rr0001"
+    }
+  },
+  "resolutions": {
+    "cra-vintage": {
+      "status": "limitation_retained",
+      "reason": "The report labels the dataset 2024 and does not claim current status."
+    }
+  }
+}
