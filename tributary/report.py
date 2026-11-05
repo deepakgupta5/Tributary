@@ -1,6 +1,6 @@
-"""Lossless synthetic exports and deterministic Markdown rendering."""
+"""Lossless exports and deterministic Markdown rendering."""
 import json
-from .core import REQUIRED, STAGES, encode
+from .core import REQUIRED, STAGES, encode, record_scope
 
 
 def coverage(claims, checks):
@@ -22,7 +22,9 @@ def export(store, directory, demonstration):
     statuses = {r['id']: {'state': store.status(r['id']), 'blockers': store.blockers(r['id'])}
                 for r in store.current() if r['kind'] in REQUIRED}
     bases = sorted({r['body']['basis'] for r in tables['reviews']})
-    data = {'schema_version': 2, 'synthetic_only': True, 'execution_bases': bases,
+    scopes = sorted({record_scope(r['body']) for r in store.current()})
+    data = {'schema_version': 3, 'data_scopes': scopes,
+            'synthetic_only': scopes == ['synthetic'], 'execution_bases': bases,
             'tables': tables, 'current_status': statuses, 'demonstration': demonstration}
     data['claim_coverage'] = {}
     for record in store.current():
@@ -38,9 +40,13 @@ def export(store, directory, demonstration):
     (directory / 'demonstration.json').write_text(json.dumps(demonstration, indent=2) + '\n')
     basis_note = ('Hand-authored fixture replay; no actual coding-session role review performed.' if bases == ['fixture_replay'] else
                   'Recorded execution bases: ' + ', '.join(bases) + '; context separation must be assessed from the records.')
-    lines = ['# Synthetic Tributary report', '',
-             '**Basis: ' + basis_note + ' No model accuracy, live-source feasibility, or owner usefulness is established by this report.**', '',
-             'All names and evidence are fictional. Source locators use synthetic references.', '',
+    live = 'live_sanitized' in scopes
+    scope_note = ('This records one bounded supervised run; it does not establish broad source coverage, independent review, or owner usefulness.'
+                  if live else 'No model accuracy, live-source feasibility, or owner usefulness is established by this report.')
+    lines = ['# ' + ('Bounded live Tributary report' if live else 'Synthetic Tributary report'), '',
+             '**Basis: ' + basis_note + ' ' + scope_note + '**', '',
+             ('Live records contain only retained factual notes and short checking passages; whole source documents are not stored.'
+              if live else 'All names and evidence are fictional. Source locators use synthetic references.'), '',
              '## Register and approval queue', '']
     def order(record):
         kind, body = record['kind'], record['body']
@@ -106,14 +112,36 @@ def export(store, directory, demonstration):
             for alternative in body.get('alternatives', []):
                 lines.append('- Alternative: ' + alternative)
         lines.append('')
-    lines += ['## Discovery and coverage', '',
-              'Source coverage is limited to the fictional records listed above; it does not establish live publication or geographic coverage.',
-              'No real endpoint was attempted. No geographic completeness percentage is claimed.', '']
+    discovery_limits = ([
+        'Source coverage is limited to the inspected endpoints listed above; it does not establish publication-wide or geographic coverage.',
+        'This was a supervised bounded retrieval, not a broad crawl. No geographic completeness percentage is claimed.'
+    ] if live else [
+        'Source coverage is limited to the fictional records listed above; it does not establish live publication or geographic coverage.',
+        'No real endpoint was attempted. No geographic completeness percentage is claimed.'
+    ])
+    lines += ['## Discovery and coverage', '', *discovery_limits, '']
     for event in tables['history']:
         if event['type'] == 'discovery':
             b = event['body']
             lines.append(f'- {b["direction"]}: {b["parent"]} → {b["candidate"]}; {b["method"]}.')
+    if live:
+        lines += ['', '## Retained live evidence catalog', '',
+                  'Only selected fields, factual notes, and bounded checking passages are included.', '']
+        for record in store.current():
+            if record['kind'] != 'evidence' or record_scope(record['body']) != 'live_sanitized':
+                continue
+            body = record['body']
+            lines += [f'### {record["id"]}', '',
+                      f'- Source URL: {body["source_url"]}',
+                      f'- Publication date: {body.get("publication_date") or "unknown — " + body.get("date_unknown_reason", "reason unavailable")}',
+                      f'- Retrieved: {body["retrieved_at"]}',
+                      f'- Locator description: {body.get("locator_description", "unavailable")}',
+                      f'- Retention: {body["retention"]}; whole document stored: {body["whole_document_stored"]}']
+            for locator, note in body['paragraphs'].items():
+                lines.append(f'- `{locator}`: {note}')
+            lines.append('')
     lines += ['', '## Reconciliation', '', '```json', json.dumps(demonstration, indent=2), '```', '',
               '## Limits', '',
-              'Review IDs and packets provide traceability, not reviewer independence. Execution basis and actual context limitations are recorded per review. No authentication boundary prevents a trusted local operator editing SQLite directly. No live retrieval, scheduler, merge engine, paid dependency, or provider API is included.', '']
+              ('Review IDs and packets provide traceability, not reviewer independence. Execution basis and actual context limitations are recorded per review. No authentication boundary prevents a trusted local operator editing SQLite directly. This bounded run used supervised live retrieval; no scheduler, broad crawler, merge engine, paid dependency, or provider API is included.' if live else
+               'Review IDs and packets provide traceability, not reviewer independence. Execution basis and actual context limitations are recorded per review. No authentication boundary prevents a trusted local operator editing SQLite directly. No live retrieval, scheduler, merge engine, paid dependency, or provider API is included.'), '']
     (directory / 'report.md').write_text('\n'.join(lines))

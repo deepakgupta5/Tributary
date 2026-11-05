@@ -1,0 +1,114 @@
+{
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "subjects": {
+    "s-irs-wa": {
+      "qc": {"outcome": "passed", "reason": "The two retained rows match exact names and EINs in the downloaded Washington CSV; only selected fields, file hash and retrieval metadata were retained."},
+      "researcher": {"outcome": "passed", "reason": "The dataset is useful for organization identity and tax-exempt listing, with filing-address and currency limits explicit.", "unknowns": ["Current operations and area served are not established by the filing address."]},
+      "skeptic": {"outcome": "passed", "reason": "No material source-admission defect found within the bounded identity use.", "issues": []},
+      "fact": {"outcome": "passed", "reason": "Both selected rows and the bounded use basis were checked.", "checks": {
+        "irs-fl": {"status": "verified", "reason": "Selected CSV row gives NAME FOOD LIFELINE, EIN 911090450, Seattle, WA.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450", "corroboration": "single_origin"},
+        "irs-nr": {"status": "verified", "reason": "Selected CSV row gives NAME NURTURING ROOTS, EIN 463115382, Seattle, WA.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382", "corroboration": "single_origin"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "IRS endpoint and selected row are identified.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450"},
+        "access": {"status": "verified", "reason": "CSV was downloaded without authentication on the retrieval date.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450"},
+        "handling": {"status": "verified", "reason": "IRS use notice supports copying federal employee-created material with credit, subject to third-party exclusions.", "evidence": "e-irs-use", "locator": "copyright-note"},
+        "utility": {"status": "verified", "reason": "Rows provide stable EIN, name and filing address fields for identity checks.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382"}
+      }, "resolutions": {}}
+    },
+    "s-cra-2024": {
+      "qc": {"outcome": "passed", "reason": "The retained row matches the exact BN and legal name in the downloaded 2024 identification CSV; only selected fields and download metadata were retained."},
+      "researcher": {"outcome": "passed", "reason": "The dataset is useful for Canadian charity identity, while its 2024 vintage prevents a current-status inference.", "unknowns": ["Current charity and operating status after the 2024 dataset period."]},
+      "skeptic": {"outcome": "passed", "reason": "The source is fit for historical identity if its age remains visible.", "issues": [{"id": "cra-vintage", "claim_id": "cra-gvfb", "material": false, "reason": "A 2024 row cannot establish current status.", "remedy": "Retain the period and require a later current-status check."}]},
+      "fact": {"outcome": "passed", "reason": "The selected row, download and licence note support bounded identity use.", "checks": {
+        "cra-gvfb": {"status": "verified", "reason": "Selected row gives the legal name, BN and Burnaby, BC location exactly.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001", "corroboration": "single_origin"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Dataset row and endpoint are identified.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001"},
+        "access": {"status": "verified", "reason": "CSV was downloaded without authentication on the retrieval date.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001"},
+        "handling": {"status": "verified", "reason": "Open Government Licence note supports attributed use of covered information with stated exclusions.", "evidence": "e-cra-license", "locator": "licence-note"},
+        "utility": {"status": "verified", "reason": "Selected public fields support legal-name and BN matching.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001"}
+      }, "resolutions": {"cra-vintage": {"status": "limitation_retained", "reason": "The report labels the dataset 2024 and does not claim current status."}}}
+    },
+    "s-foodlifeline": {
+      "qc": {"outcome": "passed", "reason": "The retained note preserves both periods, exact visit values, source URL and page locator; no report file or copied report prose was retained."},
+      "researcher": {"outcome": "passed", "reason": "The report is useful for attributed operational trend evidence but remains first-party and has no observed publication date.", "unknowns": ["Independent confirmation of the network-visit counts.", "Report publication date."]},
+      "skeptic": {"outcome": "passed", "reason": "The source is usable with its first-party and date limits visible.", "issues": [{"id": "fl-origin", "claim_id": "fl-source", "material": false, "reason": "The organization reports its own figures.", "remedy": "Label source attribution and corroboration separately."}, {"id": "fl-date", "claim_id": "fl-source", "material": false, "reason": "The report passage does not show a publication date.", "remedy": "Keep publication date unknown and retain FY2025 period."}]},
+      "fact": {"outcome": "passed", "reason": "The report page and terms note support a factual-note-only use.", "checks": {
+        "fl-source": {"status": "verified", "reason": "The inspected FY2025 report page provides FY24 and FY25 network-visit values.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits", "corroboration": "single_origin"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Report is linked from Food Lifeline's financials page and identified by its source URL.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits"},
+        "access": {"status": "verified", "reason": "Report page was inspected without authentication.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits"},
+        "handling": {"status": "verified", "reason": "Prototype retains factual notes and locators, excluding copied report text and electronic republication.", "evidence": "e-foodlifeline-terms", "locator": "terms-note"},
+        "utility": {"status": "verified", "reason": "Report provides comparable network-visit periods for an attributed trend calculation.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits"}
+      }, "resolutions": {"fl-origin": {"status": "limitation_retained", "reason": "Claims and report label the figures first-party and single-origin."}, "fl-date": {"status": "limitation_retained", "reason": "Publication date remains explicitly unknown."}}}
+    },
+    "s-emerald": {
+      "qc": {"outcome": "passed", "reason": "The retained item includes publication date, URL, precise section locator, one short passage and one factual note; no whole article was stored."},
+      "researcher": {"outcome": "failed", "reason": "The article is useful local reporting, but routine copied-text retention terms were not established.", "unknowns": ["Publisher permission or other documented basis for continuing copied-passage retention."]},
+      "skeptic": {"outcome": "failed", "reason": "Readability and editorial standards do not resolve the handling basis.", "issues": [{"id": "emerald-handling", "detail": "handling", "material": true, "reason": "The inspected standards page does not state copying or retention terms.", "remedy": "Keep routine source admission pending until handling is resolved."}]},
+      "fact": {"outcome": "failed", "reason": "The article claim is source-faithful, while required handling remains unverifiable.", "checks": {
+        "emerald-source": {"status": "verified", "reason": "The dated article section identifies Nurturing Roots, Future Food Systems and Food Equity Fund support.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant", "corroboration": "single_origin"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Publication and article URL are identified.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant"},
+        "access": {"status": "verified", "reason": "Article was inspected without authentication.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant"},
+        "handling": {"status": "unverifiable", "reason": "Inspected standards material did not state copying or retention terms.", "evidence": "e-emerald-handling", "locator": "handling-note"},
+        "utility": {"status": "verified", "reason": "Article supplies program, amount and participant-context leads.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-note"}
+      }, "resolutions": {"emerald-handling": {"status": "unresolved", "reason": "No handling basis was added during this run."}}}
+    },
+    "o-gvfb": {
+      "qc": {"outcome": "passed", "reason": "Legal name, BN and BC location are faithfully retained from one CRA row."},
+      "researcher": {"outcome": "failed", "reason": "Historical identity is supported, but the 2024 dataset alone does not establish current eligibility or operations.", "unknowns": ["Current registration and operating status."]},
+      "skeptic": {"outcome": "failed", "reason": "A historical listing should not silently become a current admitted organization.", "issues": [{"id": "gvfb-current", "detail": "eligibility", "material": true, "reason": "No current-status evidence was retained in this run.", "remedy": "Perform a current CRA or suitable first-party status check."}]},
+      "fact": {"outcome": "failed", "reason": "Identity is verified for the 2024 dataset; current eligibility is unresolved.", "checks": {
+        "gvfb-id": {"status": "verified", "reason": "CRA row supplies exact legal name, BN and Burnaby, BC location.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001", "corroboration": "single_origin"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Legal name and BN match the retained row.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001"},
+        "eligibility": {"status": "unverifiable", "reason": "The 2024 identification row does not prove current status.", "evidence": "e-cra-gvfb", "locator": "row-bn-107449787rr0001"}
+      }, "resolutions": {"gvfb-current": {"status": "unresolved", "reason": "No current-status evidence was collected."}}}
+    },
+    "o-foodlifeline": {
+      "qc": {"outcome": "passed", "reason": "Name, EIN, Seattle address and NTEE code are retained from the exact IRS row."},
+      "researcher": {"outcome": "passed", "reason": "IRS identity plus a current inspected organization report support the in-scope service-delivery identity.", "unknowns": ["No commercial relevance or budget is inferred from admission."]},
+      "skeptic": {"outcome": "passed", "reason": "No material identity or eligibility defect found.", "issues": []},
+      "fact": {"outcome": "passed", "reason": "Required identity and eligibility are supported for this bounded run.", "checks": {"foodlifeline-id": {"status": "verified", "reason": "IRS row gives exact name, EIN, Seattle address and K33Z classification.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450", "corroboration": "single_origin"}}, "details": {
+        "identity": {"status": "verified", "reason": "Exact name and EIN match the IRS row.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450"},
+        "eligibility": {"status": "verified", "reason": "IRS subsection and K33Z classification plus inspected first-party service reporting support service-delivery scope.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450"}
+      }, "resolutions": {}}
+    },
+    "o-nurturing": {
+      "qc": {"outcome": "passed", "reason": "Name, EIN, Seattle address and NTEE code are retained from the exact IRS row."},
+      "researcher": {"outcome": "passed", "reason": "IRS identity and dated local program reporting support an active in-scope service-delivery candidate.", "unknowns": ["No consulting budget or willingness to engage is established."]},
+      "skeptic": {"outcome": "passed", "reason": "No material identity or eligibility defect found; local reporting is single-origin for program details.", "issues": []},
+      "fact": {"outcome": "passed", "reason": "Required identity and eligibility are supported for the bounded run.", "checks": {"nurturing-id": {"status": "verified", "reason": "IRS row gives exact name, EIN, Seattle address and K30 classification.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382", "corroboration": "single_origin"}}, "details": {
+        "identity": {"status": "verified", "reason": "Exact name and EIN match the IRS row.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382"},
+        "eligibility": {"status": "verified", "reason": "K30 classification and current local reporting support food/agriculture service programming.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382"}
+      }, "resolutions": {}}
+    },
+    "f-foodlifeline": {
+      "qc": {"outcome": "passed", "reason": "Values, periods, locator, URL and calculation inputs are complete; hypothesis classification is preserved."},
+      "researcher": {"outcome": "passed", "reason": "The report supports an attributed network-visit increase; it does not establish unique people, organizational strain, consulting need or budget.", "unknowns": ["Independent confirmation.", "Cause and operational effect of the increase.", "Any unmet need, budget or buying intent."]},
+      "skeptic": {"outcome": "passed", "reason": "The arithmetic is checkable and the interpretation remains bounded.", "issues": [{"id": "fl-rounding", "claim_id": "fl-change", "material": false, "reason": "The report's '5M' is rounded while the calculated difference is 5,245,755.", "remedy": "Show exact inputs and label the percentage as calculated."}, {"id": "fl-interpretation", "claim_id": "fl-hypothesis", "material": false, "reason": "More visits do not prove internal operational strain or demand for assistance.", "remedy": "Keep this as a hypothesis and preserve alternatives."}]},
+      "fact": {"outcome": "passed", "reason": "Both factual claims are source-faithful and arithmetic is correct; the prospect interpretation remains nonfactual.", "checks": {
+        "fl-visits": {"status": "verified", "reason": "The retained factual note matches the inspected page's FY24 and FY25 network-visit values.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits", "corroboration": "single_origin"},
+        "fl-change": {"status": "verified", "reason": "16,001,264 minus 10,755,509 equals 5,245,755; dividing by 10,755,509 gives approximately 48.77%.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits", "corroboration": "single_origin"},
+        "fl-hypothesis": {"status": "reviewed_hypothesis", "reason": "Possible operational or data relevance is an investigation prompt, not a verified need or budget.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits", "corroboration": "unknown"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Finding is linked to the admitted Food Lifeline identity.", "evidence": "e-irs-foodlifeline", "locator": "row-ein-911090450"},
+        "evidence": {"status": "verified", "reason": "Exact values and periods are retained with a precise report-page locator.", "evidence": "e-foodlifeline-impact-2025", "locator": "pdf-page-2-network-visits"}
+      }, "resolutions": {"fl-rounding": {"status": "supported_as_written", "reason": "Finding uses exact subtraction and labels the rate calculated, while separately noting the report's rounded 5M label."}, "fl-interpretation": {"status": "limitation_retained", "reason": "Hypothesis explicitly disclaims need, budget and buying intent."}}}
+    },
+    "f-nurturing": {
+      "qc": {"outcome": "passed", "reason": "Article date, URL, section locator, amount, program note and hypothesis classification are retained; the unsupported funding-use proposition remains explicit for review."},
+      "researcher": {"outcome": "failed", "reason": "Program and grant facts are source-supported, while permitted use of the award for outside consulting is unsupported.", "unknowns": ["Official city award record.", "Allowable uses of funds.", "Unmet operational need, budget and buying intent."]},
+      "skeptic": {"outcome": "failed", "reason": "The funder relationship is useful, but it cannot be converted into discretionary consulting capacity.", "issues": [{"id": "nr-funding-use", "claim_id": "nr-funding-use", "material": true, "reason": "The article does not say the award may fund outside operational or data consulting.", "remedy": "Keep the proposition unresolved and seek award terms before any such conclusion."}, {"id": "nr-origin", "claim_id": "nr-grant", "material": false, "reason": "The city award was not independently checked.", "remedy": "Label the amount as locally reported and single-origin."}]},
+      "fact": {"outcome": "failed", "reason": "Program and reported grant facts are source-faithful; allowable consulting use is unverifiable and blocks approval.", "checks": {
+        "nr-grant": {"status": "verified", "reason": "The retained short passage states the $85,260 Food Equity Fund support.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant", "corroboration": "single_origin"},
+        "nr-program": {"status": "verified", "reason": "The inspected section describes ages 18–22, food-system careers and former participant requests.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-note", "corroboration": "single_origin"},
+        "nr-funding-use": {"status": "unverifiable", "reason": "No retained or inspected material states that the award can pay outside operational or data consultants.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant", "corroboration": "unknown"},
+        "nr-hypothesis": {"status": "reviewed_hypothesis", "reason": "Possible operational or outcome-tracking relevance remains an investigation prompt only.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-note", "corroboration": "unknown"}
+      }, "details": {
+        "identity": {"status": "verified", "reason": "Finding links to the admitted Nurturing Roots identity.", "evidence": "e-irs-nurturing", "locator": "row-ein-463115382"},
+        "evidence": {"status": "verified", "reason": "Article passage and factual note support the attributed program and grant claims.", "evidence": "e-emerald-nurturing-2026", "locator": "future-food-systems-grant"}
+      }, "resolutions": {"nr-funding-use": {"status": "unresolved", "reason": "No award terms or official grant record were added."}, "nr-origin": {"status": "limitation_retained", "reason": "The report labels the amount as South Seattle Emerald reporting and single-origin."}}}
+    }
+  }
+}

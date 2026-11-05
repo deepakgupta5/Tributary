@@ -1,0 +1,25 @@
+{
+  "execution_id": "live-session-001:skeptic:f-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "The funder relationship is useful, but it cannot be converted into discretionary consulting capacity.",
+  "issues": [
+    {
+      "id": "nr-funding-use",
+      "claim_id": "nr-funding-use",
+      "material": true,
+      "reason": "The article does not say the award may fund outside operational or data consulting.",
+      "remedy": "Keep the proposition unresolved and seek award terms before any such conclusion."
+    },
+    {
+      "id": "nr-origin",
+      "claim_id": "nr-grant",
+      "material": false,
+      "reason": "The city award was not independently checked.",
+      "remedy": "Label the amount as locally reported and single-origin."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "execution_id": "live-session-001:researcher:s-cra-2024",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The dataset is useful for Canadian charity identity, while its 2024 vintage prevents a current-status inference.",
+  "claim_ids": [
+    "cra-gvfb"
+  ],
+  "unknowns": [
+    "Current charity and operating status after the 2024 dataset period."
+  ]
+}

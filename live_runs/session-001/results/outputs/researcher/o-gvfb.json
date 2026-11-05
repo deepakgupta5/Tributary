@@ -1,0 +1,15 @@
+{
+  "execution_id": "live-session-001:researcher:o-gvfb",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "Historical identity is supported, but the 2024 dataset alone does not establish current eligibility or operations.",
+  "claim_ids": [
+    "gvfb-id"
+  ],
+  "unknowns": [
+    "Current registration and operating status."
+  ]
+}

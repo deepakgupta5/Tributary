@@ -1,0 +1,151 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "o-gvfb",
+    "version": 1,
+    "kind": "organization",
+    "body": {
+      "category": "service_delivery",
+      "claims": [
+        {
+          "evidence": [
+            "e-cra-gvfb"
+          ],
+          "id": "gvfb-id",
+          "material": true,
+          "text": "Greater Vancouver Food Bank Society is listed in the CRA 2024 charity identification data under BN 107449787RR0001 in Burnaby, BC.",
+          "type": "paraphrase"
+        }
+      ],
+      "dependencies": [
+        "s-cra-2024",
+        "e-cra-gvfb"
+      ],
+      "details": {
+        "eligibility": "resolved",
+        "identity": "resolved"
+      },
+      "geography": [
+        "BC"
+      ],
+      "limitations": [
+        "No current operational or prospect finding was approved in this run; current status needs a later check."
+      ],
+      "live": true,
+      "name": "Greater Vancouver Food Bank Society"
+    }
+  },
+  "stage": "skeptic",
+  "fingerprint": "960202f6a371346277e9b68d39ee316c3d8e54586e52c5d71dc3e644ebe303ec",
+  "dependencies": {
+    "s-cra-2024": {
+      "id": "s-cra-2024",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-cra-gvfb"
+            ],
+            "id": "cra-gvfb",
+            "material": true,
+            "text": "The CRA identification CSV contains Greater Vancouver Food Bank Society with BN 107449787RR0001 in Burnaby, BC.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-cra-gvfb",
+          "e-cra-license"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "resolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+        "geography": [
+          "Canada"
+        ],
+        "limitations": [
+          "This is the 2024 identification dataset, not a current-status check or operational report.",
+          "Only selected public fields are retained; the downloaded CSV is transient."
+        ],
+        "live": true,
+        "name": "CRA 2024 List of charities identification CSV"
+      }
+    },
+    "e-cra-gvfb": {
+      "id": "e-cra-gvfb",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact Legal Name and BN",
+        "paragraphs": {
+          "row-bn-107449787rr0001": "BN=107449787RR0001; Legal Name=GREATER VANCOUVER FOOD BANK SOCIETY; Account Name=GREATER VANCOUVER FOOD BANK SOCIETY; City=BURNABY; Province=BC; Designation=C."
+        },
+        "publication_date": "2026-10-04",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-cra-2024",
+        "source_url": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-cra-license": {
+      "id": "e-cra-license",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected licence page.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Using Information under this licence; exemptions",
+        "paragraphs": {
+          "licence-note": "Factual note: the licence permits copying and use with attribution, while excluding personal information and third-party rights."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-cra-2024",
+        "source_url": "https://open.canada.ca/en/open-government-licence-canada",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:o-gvfb",
+      "outcome": "passed",
+      "reason": "Legal name, BN and BC location are faithfully retained from one CRA row."
+    },
+    "researcher": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "claim_ids": [
+        "gvfb-id"
+      ],
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:researcher:o-gvfb",
+      "outcome": "failed",
+      "reason": "Historical identity is supported, but the 2024 dataset alone does not establish current eligibility or operations.",
+      "unknowns": [
+        "Current registration and operating status."
+      ]
+    }
+  },
+  "required_details": [
+    "identity",
+    "eligibility"
+  ]
+}

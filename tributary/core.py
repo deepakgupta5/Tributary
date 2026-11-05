@@ -36,6 +36,14 @@ def require(condition, message):
         raise Invalid(message)
 
 
+def record_scope(body):
+    """Return the explicit data scope; legacy synthetic bodies remain valid."""
+    synthetic = body.get('synthetic') is True
+    live = body.get('live') is True
+    require(synthetic != live, 'Record must be exactly one of synthetic or live')
+    return 'synthetic' if synthetic else 'live_sanitized'
+
+
 class Store:
     def __init__(self, path=':memory:'):
         self.db = sqlite3.connect(path)
@@ -88,7 +96,8 @@ class Store:
 
     def validate_record(self, rid, kind, body):
         require(isinstance(rid, str) and rid and kind in KINDS, 'Invalid ID/kind')
-        require(isinstance(body, dict) and body.get('synthetic') is True, 'Synthetic records only')
+        require(isinstance(body, dict), 'Record body required')
+        scope = record_scope(body)
         require(isinstance(body.get('dependencies', []), list), 'Invalid dependencies')
         require(len(set(body.get('dependencies', []))) == len(body.get('dependencies', [])), 'Duplicate dependency')
         for dep in body.get('dependencies', []):
@@ -107,6 +116,18 @@ class Store:
                     raise Invalid('Malformed publication date')
             else:
                 require(bool(body.get('date_unknown_reason')), 'Unknown date needs reason')
+            if scope == 'live_sanitized':
+                require(isinstance(body.get('source_url'), str) and
+                        body['source_url'].startswith(('https://', 'http://')), 'Live evidence requires source URL')
+                try:
+                    datetime.strptime(body.get('retrieved_at', ''), '%Y-%m-%d')
+                except (ValueError, TypeError):
+                    raise Invalid('Live evidence requires retrieval date')
+                require(body.get('retention') == 'sanitized_excerpt_and_factual_notes',
+                        'Live evidence retention boundary missing')
+                require(body.get('whole_document_stored') is False, 'Whole live documents cannot be stored')
+                require(sum(len(value) for value in body['paragraphs'].values()) <= 2000,
+                        'Live evidence excerpt limit exceeded')
         else:
             require(isinstance(body.get('name'), str) and bool(body['name'].strip()), 'Missing subject name')
             require(isinstance(body.get('claims'), list), 'Missing claim ledger')

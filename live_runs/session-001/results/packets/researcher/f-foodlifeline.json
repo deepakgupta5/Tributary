@@ -1,0 +1,299 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "f-foodlifeline",
+    "version": 1,
+    "kind": "finding",
+    "body": {
+      "claims": [
+        {
+          "evidence": [
+            "e-foodlifeline-impact-2025"
+          ],
+          "id": "fl-visits",
+          "material": true,
+          "text": "Food Lifeline's FY2025 impact report lists 10,755,509 network visits for FY24 and 16,001,264 for FY25.",
+          "type": "number"
+        },
+        {
+          "evidence": [
+            "e-foodlifeline-impact-2025"
+          ],
+          "id": "fl-change",
+          "material": true,
+          "text": "The reported increase is 5,245,755 visits, or approximately 48.77%, calculated from the two report values.",
+          "type": "number"
+        },
+        {
+          "evidence": [
+            "e-foodlifeline-impact-2025"
+          ],
+          "id": "fl-hypothesis",
+          "material": false,
+          "text": "The scale of growth might create operational or data needs worth investigating, but no unmet need, budget, or buying intent is established.",
+          "type": "hypothesis"
+        }
+      ],
+      "dependencies": [
+        "o-foodlifeline",
+        "s-foodlifeline",
+        "e-foodlifeline-impact-2025"
+      ],
+      "details": {
+        "evidence": "resolved",
+        "identity": "resolved"
+      },
+      "limitations": [
+        "First-party report only; report publication date is unknown.",
+        "Network visits are not unique people and do not establish organizational strain."
+      ],
+      "live": true,
+      "name": "Food Lifeline network visits increased in FY2025",
+      "organization": "o-foodlifeline",
+      "route_status": "not_investigated"
+    }
+  },
+  "stage": "researcher",
+  "fingerprint": "95cff095924651b319fb3bdff5b0b3b626ea0e477e00e620a633607c39022a43",
+  "dependencies": {
+    "o-foodlifeline": {
+      "id": "o-foodlifeline",
+      "version": 1,
+      "kind": "organization",
+      "body": {
+        "category": "service_delivery",
+        "claims": [
+          {
+            "evidence": [
+              "e-irs-foodlifeline"
+            ],
+            "id": "foodlifeline-id",
+            "material": true,
+            "text": "Food Lifeline is listed in the IRS Washington EO BMF under EIN 91-1090450 in Seattle and NTEE code K33Z.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "s-irs-wa",
+          "e-irs-foodlifeline"
+        ],
+        "details": {
+          "eligibility": "resolved",
+          "identity": "resolved"
+        },
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "IRS listing alone does not establish service area, current need, or commercial relevance."
+        ],
+        "live": true,
+        "name": "Food Lifeline"
+      }
+    },
+    "s-irs-wa": {
+      "id": "s-irs-wa",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-irs-foodlifeline"
+            ],
+            "id": "irs-fl",
+            "material": true,
+            "text": "The Washington CSV contains a Food Lifeline row with EIN 91-1090450 and a Seattle address.",
+            "type": "paraphrase"
+          },
+          {
+            "evidence": [
+              "e-irs-nurturing"
+            ],
+            "id": "irs-nr",
+            "material": true,
+            "text": "The Washington CSV contains a Nurturing Roots row with EIN 46-3115382 and a Seattle address.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-irs-foodlifeline",
+          "e-irs-nurturing",
+          "e-irs-use"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "resolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "Filing address does not establish area served or current operating activity.",
+          "Only selected public fields are retained; the downloaded CSV is transient."
+        ],
+        "live": true,
+        "name": "IRS Washington EO BMF CSV"
+      }
+    },
+    "e-irs-foodlifeline": {
+      "id": "e-irs-foodlifeline",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-911090450": "EIN=911090450; NAME=FOOD LIFELINE; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202506; NTEE_CD=K33Z."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-nurturing": {
+      "id": "e-irs-nurturing",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "CSV header plus row selected by exact NAME and EIN",
+        "paragraphs": {
+          "row-ein-463115382": "EIN=463115382; NAME=NURTURING ROOTS; CITY=SEATTLE; STATE=WA; SUBSECTION=03; TAX_PERIOD=202412; NTEE_CD=K30."
+        },
+        "publication_date": "2026-09-07",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+        "whole_document_stored": false
+      }
+    },
+    "e-irs-use": {
+      "id": "e-irs-use",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected IRS use notice.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Copyright notice",
+        "paragraphs": {
+          "copyright-note": "Factual note: IRS says federal employee-created site content may be copied, requests credit, and excludes third-party copyrighted material."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-irs-wa",
+        "source_url": "https://www.irs.gov/about-irs/use-of-content-from-irsgov",
+        "whole_document_stored": false
+      }
+    },
+    "s-foodlifeline": {
+      "id": "s-foodlifeline",
+      "version": 2,
+      "kind": "source",
+      "body": {
+        "claims": [
+          {
+            "evidence": [
+              "e-foodlifeline-impact-2025"
+            ],
+            "id": "fl-source",
+            "material": true,
+            "text": "Food Lifeline's FY2025 impact report provides FY24 and FY25 network-visit figures.",
+            "type": "paraphrase"
+          }
+        ],
+        "dependencies": [
+          "e-foodlifeline-impact-2025",
+          "e-foodlifeline-terms"
+        ],
+        "details": {
+          "access": "resolved",
+          "handling": "resolved",
+          "identity": "resolved",
+          "utility": "resolved"
+        },
+        "endpoint": "https://foodlifeline.org/financials",
+        "geography": [
+          "Washington"
+        ],
+        "limitations": [
+          "First-party impact reporting; figures are source-attributed and not independently audited here.",
+          "The report publication date is unknown; only factual notes and locators are retained, with no copied report text."
+        ],
+        "live": true,
+        "name": "Food Lifeline publications"
+      }
+    },
+    "e-foodlifeline-impact-2025": {
+      "id": "e-foodlifeline-impact-2025",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "The inspected PDF is labelled FY2025 but does not state a publication date in the checked passage.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "PDF page 2 (viewer index 1), network visits panel",
+        "paragraphs": {
+          "pdf-page-2-network-visits": "Factual note: FY24 network visits are 10,755,509 and FY25 network visits are 16,001,264; the report labels this an increase of 5M visits."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-foodlifeline",
+        "source_url": "https://e1.nmcdn.io/assets/foodlife/wp-content/uploads/2025/12/FoodLifeline-ImpactReport2025_SinglePages.pdf",
+        "whole_document_stored": false
+      }
+    },
+    "e-foodlifeline-terms": {
+      "id": "e-foodlifeline-terms",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected terms page.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Permission & Copyright",
+        "paragraphs": {
+          "terms-note": "Factual note: written permission is specified for commercial use, electronic republication, or print publication; retained report text is therefore excluded here."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-foodlifeline",
+        "source_url": "https://foodlifeline.org/privacy-policy",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:f-foodlifeline",
+      "outcome": "passed",
+      "reason": "Values, periods, locator, URL and calculation inputs are complete; hypothesis classification is preserved."
+    }
+  },
+  "required_details": [
+    "identity",
+    "evidence"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "execution_id": "live-session-001:skeptic:s-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The source is usable with its first-party and date limits visible.",
+  "issues": [
+    {
+      "id": "fl-origin",
+      "claim_id": "fl-source",
+      "material": false,
+      "reason": "The organization reports its own figures.",
+      "remedy": "Label source attribution and corroboration separately."
+    },
+    {
+      "id": "fl-date",
+      "claim_id": "fl-source",
+      "material": false,
+      "reason": "The report passage does not show a publication date.",
+      "remedy": "Keep publication date unknown and retain FY2025 period."
+    }
+  ]
+}

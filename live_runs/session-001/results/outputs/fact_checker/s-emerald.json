@@ -1,0 +1,51 @@
+{
+  "execution_id": "live-session-001:fact_checker:s-emerald",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "The article claim is source-faithful, while required handling remains unverifiable.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "The dated article section identifies Nurturing Roots, Future Food Systems and Food Equity Fund support.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant",
+      "corroboration": "single_origin",
+      "claim_id": "emerald-source"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "Publication and article URL are identified.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant"
+    },
+    "access": {
+      "status": "verified",
+      "reason": "Article was inspected without authentication.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-grant"
+    },
+    "handling": {
+      "status": "unverifiable",
+      "reason": "Inspected standards material did not state copying or retention terms.",
+      "evidence": "e-emerald-handling",
+      "locator": "handling-note"
+    },
+    "utility": {
+      "status": "verified",
+      "reason": "Article supplies program, amount and participant-context leads.",
+      "evidence": "e-emerald-nurturing-2026",
+      "locator": "future-food-systems-note"
+    }
+  },
+  "resolutions": {
+    "emerald-handling": {
+      "status": "unresolved",
+      "reason": "No handling basis was added during this run."
+    }
+  }
+}

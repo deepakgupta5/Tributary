@@ -1,0 +1,20 @@
+{
+  "execution_id": "live-session-001:researcher:f-nurturing",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "Program and grant facts are source-supported, while permitted use of the award for outside consulting is unsupported.",
+  "claim_ids": [
+    "nr-grant",
+    "nr-program",
+    "nr-funding-use",
+    "nr-hypothesis"
+  ],
+  "unknowns": [
+    "Official city award record.",
+    "Allowable uses of funds.",
+    "Unmet operational need, budget and buying intent."
+  ]
+}

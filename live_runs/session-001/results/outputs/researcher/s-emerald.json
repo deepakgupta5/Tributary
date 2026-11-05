@@ -1,0 +1,15 @@
+{
+  "execution_id": "live-session-001:researcher:s-emerald",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "The article is useful local reporting, but routine copied-text retention terms were not established.",
+  "claim_ids": [
+    "emerald-source"
+  ],
+  "unknowns": [
+    "Publisher permission or other documented basis for continuing copied-passage retention."
+  ]
+}

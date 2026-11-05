@@ -1,0 +1,18 @@
+{
+  "execution_id": "live-session-001:skeptic:o-gvfb",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "A historical listing should not silently become a current admitted organization.",
+  "issues": [
+    {
+      "id": "gvfb-current",
+      "detail": "eligibility",
+      "material": true,
+      "reason": "No current-status evidence was retained in this run.",
+      "remedy": "Perform a current CRA or suitable first-party status check."
+    }
+  ]
+}

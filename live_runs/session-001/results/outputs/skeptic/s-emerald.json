@@ -1,0 +1,18 @@
+{
+  "execution_id": "live-session-001:skeptic:s-emerald",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "failed",
+  "reason": "Readability and editorial standards do not resolve the handling basis.",
+  "issues": [
+    {
+      "id": "emerald-handling",
+      "detail": "handling",
+      "material": true,
+      "reason": "The inspected standards page does not state copying or retention terms.",
+      "remedy": "Keep routine source admission pending until handling is resolved."
+    }
+  ]
+}

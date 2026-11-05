@@ -1,0 +1,15 @@
+{
+  "execution_id": "live-session-001:researcher:o-foodlifeline",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "IRS identity plus a current inspected organization report support the in-scope service-delivery identity.",
+  "claim_ids": [
+    "foodlifeline-id"
+  ],
+  "unknowns": [
+    "No commercial relevance or budget is inferred from admission."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "execution_id": "live-session-001:skeptic:s-cra-2024",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "The source is fit for historical identity if its age remains visible.",
+  "issues": [
+    {
+      "id": "cra-vintage",
+      "claim_id": "cra-gvfb",
+      "material": false,
+      "reason": "A 2024 row cannot establish current status.",
+      "remedy": "Retain the period and require a later current-status check."
+    }
+  ]
+}

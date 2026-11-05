@@ -1,0 +1,54 @@
+{
+  "execution_id": "live-session-001:fact_checker:s-irs-wa",
+  "actor": "Codex assistant",
+  "basis": "coding_session",
+  "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+  "completed": true,
+  "outcome": "passed",
+  "reason": "Both selected rows and the bounded use basis were checked.",
+  "checks": [
+    {
+      "status": "verified",
+      "reason": "Selected CSV row gives NAME FOOD LIFELINE, EIN 911090450, Seattle, WA.",
+      "evidence": "e-irs-foodlifeline",
+      "locator": "row-ein-911090450",
+      "corroboration": "single_origin",
+      "claim_id": "irs-fl"
+    },
+    {
+      "status": "verified",
+      "reason": "Selected CSV row gives NAME NURTURING ROOTS, EIN 463115382, Seattle, WA.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382",
+      "corroboration": "single_origin",
+      "claim_id": "irs-nr"
+    }
+  ],
+  "details": {
+    "identity": {
+      "status": "verified",
+      "reason": "IRS endpoint and selected row are identified.",
+      "evidence": "e-irs-foodlifeline",
+      "locator": "row-ein-911090450"
+    },
+    "access": {
+      "status": "verified",
+      "reason": "CSV was downloaded without authentication on the retrieval date.",
+      "evidence": "e-irs-foodlifeline",
+      "locator": "row-ein-911090450"
+    },
+    "handling": {
+      "status": "verified",
+      "reason": "IRS use notice supports copying federal employee-created material with credit, subject to third-party exclusions.",
+      "evidence": "e-irs-use",
+      "locator": "copyright-note"
+    },
+    "utility": {
+      "status": "verified",
+      "reason": "Rows provide stable EIN, name and filing address fields for identity checks.",
+      "evidence": "e-irs-nurturing",
+      "locator": "row-ein-463115382"
+    }
+  },
+  "resolutions": {}
+}

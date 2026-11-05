@@ -1,0 +1,104 @@
+{
+  "contract_version": 2,
+  "subject": {
+    "id": "s-emerald",
+    "version": 2,
+    "kind": "source",
+    "body": {
+      "claims": [
+        {
+          "evidence": [
+            "e-emerald-nurturing-2026"
+          ],
+          "id": "emerald-source",
+          "material": true,
+          "text": "The January 3, 2026 article reports on Nurturing Roots' Future Food Systems program and its Food Equity Fund support.",
+          "type": "paraphrase"
+        }
+      ],
+      "dependencies": [
+        "e-emerald-nurturing-2026",
+        "e-emerald-handling"
+      ],
+      "details": {
+        "access": "resolved",
+        "handling": "unresolved",
+        "identity": "resolved",
+        "utility": "resolved"
+      },
+      "endpoint": "https://southseattleemerald.org/",
+      "geography": [
+        "Washington"
+      ],
+      "limitations": [
+        "One local article was inspected; publication-wide coverage and retention terms were not established.",
+        "A short attributed passage and factual note were retained for this supervised research run; routine handling remains unresolved."
+      ],
+      "live": true,
+      "name": "South Seattle Emerald"
+    }
+  },
+  "stage": "researcher",
+  "fingerprint": "8955ce0a7a42a4eaf462e0faa628d9e7ea3d0f02f1f00f855cec3f6f72f9d40f",
+  "dependencies": {
+    "e-emerald-nurturing-2026": {
+      "id": "e-emerald-nurturing-2026",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Section beginning 'Workforce development has recently become a central focus of Nurturing Roots' work'",
+        "paragraphs": {
+          "future-food-systems-grant": "The program is supported by $85,260 from the Food Equity Fund.",
+          "future-food-systems-note": "Factual note: Future Food Systems is described as training young adults ages 18–22 for food-system careers and as responding to former participant requests."
+        },
+        "publication_date": "2026-01-03",
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-emerald",
+        "source_url": "https://southseattleemerald.org/community/2026/01/03/south-end-groups-provide-food-and-farming-opportunities-for-youth",
+        "whole_document_stored": false
+      }
+    },
+    "e-emerald-handling": {
+      "id": "e-emerald-handling",
+      "version": 1,
+      "kind": "evidence",
+      "body": {
+        "available": true,
+        "date_unknown_reason": "No publication date displayed on the inspected standards page.",
+        "dependencies": [],
+        "live": true,
+        "locator_description": "Standards & Ethics page",
+        "paragraphs": {
+          "handling-note": "Factual note: the inspected standards page links editorial policies but does not state copying or retention terms."
+        },
+        "publication_date": null,
+        "retention": "sanitized_excerpt_and_factual_notes",
+        "retrieved_at": "2026-11-05",
+        "source": "s-emerald",
+        "source_url": "https://southseattleemerald.org/standards-ethics",
+        "whole_document_stored": false
+      }
+    }
+  },
+  "prior_reviews": {
+    "qc": {
+      "actor": "Codex assistant",
+      "basis": "coding_session",
+      "completed": true,
+      "context": "Same Codex chat and assistant across collection, QC, researcher, skeptic and fact-checker. Stage packets and outputs are separate and versioned, but contexts are not isolated and later stages saw prior outputs. This is supervised coding-session review, not independent verification.",
+      "execution_id": "live-session-001:qc:s-emerald",
+      "outcome": "passed",
+      "reason": "The retained item includes publication date, URL, precise section locator, one short passage and one factual note; no whole article was stored."
+    }
+  },
+  "required_details": [
+    "identity",
+    "access",
+    "handling",
+    "utility"
+  ]
+}
