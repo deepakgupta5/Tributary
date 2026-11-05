@@ -148,5 +148,13 @@ The authoritative open-product-decision register is PRD.md, Open decisions. Earl
 | D053 | 2026-11-05 | Store substantive external product research in the repository. | Each research record retains scope, sources, conclusions, evidence limits, and implementation implications. Chat-only conclusions are insufficient for decisions that affect the build. |
 | D054 | 2026-11-05 | Adapt the useful operating and Library separation from the Fractional repository to Tributary without copying unused folders. | Current operating material is organized under `OutBound/`; code and tests retain standard roots; accepted decisions and examples retain distinct roots; `Library/` is reserved for actual owner-facing artifacts. Empty project-specific placeholders are not created before use. |
 
+## Account-centered event monitor
+
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D055 | 2026-11-05 | Admit accounts using resolved identity, geography, and in-scope eligibility, independently of signal recency or commercial strength. Current official registry status and historical filings serve different purposes. | Greater Vancouver Food Bank Society is included as a valid account. A stale filing, unknown consulting budget, or weak current signal cannot remove an otherwise valid account. This supersedes D040 and D048 only where their generic checkpoint wording could be read to block account admission for missing signal or commercial evidence. |
+| D056 | 2026-11-05 | Build the week-one product as an account-centered event monitor with separate documents, accounts, events, assessments, actions, and feedback. | The daily outputs are new accounts, new account events, evidence-backed commercial hypotheses, and a short action queue. Duplicate documents cannot inflate event counts. |
+| D057 | 2026-11-05 | Use `Act`, `Investigate`, `Monitor`, and `Suppress` as operational tiers, supported by explicit sorting rules rather than a universal numeric score. | Valid accounts can remain monitored. Action items require a concrete next step and explicit unknowns. Week one does not claim predictive buyer intent, trained ranking, or automatic outreach. |
+
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

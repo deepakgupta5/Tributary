@@ -1,10 +1,17 @@
 # Tributary product requirements
-Status: Bounded live prototype complete; seven-day daily-worklist plan is the current delivery schedule
+Status: Bounded live prototype and Day 1 account worklist complete; seven-day daily-worklist plan is the current delivery schedule
 Owner: Deepak Gupta
 Updated: 2026-11-05
 
 ## Purpose and user
-Tributary supports nonprofit business development for Autonomy Bridge. Its sole product goal is to find potential clients and credible organizational routes to reach them. Deepak reviews evidence and makes commercial decisions privately.
+Tributary supports nonprofit business development for Autonomy Bridge. Its sole product goal is to find potential clients and credible organizational routes to reach them. Deepak reviews evidence and makes commercial decisions privately. The week-one product is an account-centered event monitor, not a buyer-intent prediction system.
+
+The product must produce four daily outputs:
+
+1. Newly discovered nonprofit accounts.
+2. New events associated with known accounts.
+3. Evidence-backed commercial hypotheses.
+4. A short action queue for investigation or outbound preparation.
 
 The initial geographic scope is all of Canada and Washington State. Oregon and California are future possibilities, not initial requirements. Collection can be introduced in stages, but coverage gaps must remain visible.
 
@@ -13,18 +20,22 @@ The initial geographic scope is all of Canada and Washington State. Oregon and C
 - Which funders or intermediaries sponsor outside operational or capacity-building support?
 - What documented funding or organizational relationships offer a plausible route in?
 - What changed, how reliable is the evidence, and what needs investigation before deciding to pursue an organization?
+- Which items require action now, further investigation, continued monitoring, or suppression as duplicates/irrelevant records?
 
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
 ## Project baseline and delivery
 [PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
 
+The documented design basis is [SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md](../research/SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md). The immediate build deliberately implements a usable subset of those practices. It does not claim predictive buyer intent, national-scale crawling, automated outreach, or trained ranking.
+
 No numerical quality targets, source quotas, organization quotas, throughput targets, or forced shortlist count have been approved. Expected source/organization growth is measured, not promised. Product open choices are listed only in this document's Open decisions section; other documents refer here.
 ## Confirmed starting decisions
 - Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
 - Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
 - First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
-- Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+- Day 1 delivery: a batch account worklist that separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society is a valid in-scope account and must be included; an older CRA filing may provide historical context but does not negate current registry status.
+- Account admission is independent of whether the account has a recent actionable signal. Weak or unknown commercial evidence leaves the account available for monitoring.
 
 ## Accepted foundation design
 Accepted choices are recorded in D046-D052 and detailed in FOUNDATION_SPEC.md and RESEARCH_WORKFLOW.md:
@@ -35,7 +46,23 @@ Accepted choices are recorded in D046-D052 and detailed in FOUNDATION_SPEC.md an
 - Dependency-based rechecks after material changes.
 - Named candidate publications, datasets, and exact endpoints with selection reasons before live collection; no unperformed verification implied.
 
-Day 1 design is complete. Implementation and tests remain separately authorized; live collection has its own gate. No live feasibility, role accuracy, or usefulness result is established.
+The bounded foundation and Day 1 worklist are implemented and tested. Live collection still has a source-specific access and handling gate. No unattended-operation or owner-usefulness result is established by software tests alone.
+
+## Operating model and data boundaries
+The processing stages remain separate:
+
+| Stage | Required result |
+| --- | --- |
+| Source collection | A retrieved document or official record with provenance and retrieval status. |
+| Account resolution | A definite, possible, or rejected association with a stable account. |
+| Event resolution | The underlying occurrence, grouped across duplicate or corroborating documents. |
+| Signal assessment | A supported explanation of why the event may matter, with uncertainty and unknowns. |
+| Action queue | An operational tier and concrete next step. |
+| Human feedback | A dated decision and reason that can improve explicit rules without implying model training. |
+
+The core records are `account`, `source_document`, `event`, `account_event`, `signal_assessment`, and `action_item`. Stable identifiers, append-only observations, versioned rules, source checkpoints, content hashes, and separate event/publication/retrieval dates are required architectural allowances.
+
+Public news, filings, and organization updates can establish change, pressure, expansion, funding, leadership movement, and operating context. They usually do not establish consulting budget, purchasing authority, or willingness to engage. Those fields support explicit `unknown` values. Direct first-party behaviour, if available later under an approved handling policy, ranks above inferred public context.
 
 ## Discovery requirements
 Discovery must cover both pressure and opportunity. Successful fundraising or expansion is not a prerequisite. Candidate signals include:
@@ -50,20 +77,27 @@ Discovery must cover both pressure and opportunity. Successful fundraising or ex
 
 An active campaign does not establish poor performance. A deficit does not establish a donor-retention problem. A grant does not establish an unrestricted consulting budget. Financial pressure may reduce ability to engage.
 
-Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding.
+Keep evidence of need, evidence of capacity to engage, and evidence of access separate. Unknown capacity or access must be visible, not treated as proof of absence or used to silently discard a finding or account.
+
+Week-one extraction starts with observable event classes: new programs/services/geographies; material demand or usage increases; funding awards, losses, or campaigns; leadership changes; partnerships or major commitments; facility openings, closures, or relocations; hiring surges or critical vacancies; financial pressure or service reductions; technology/data/operational modernization; and public requests for vendors, proposals, or specialized support.
 
 ## Continuously expanding organization and source universes
 The product begins with bounded seeds, not an assumed complete list of nonprofits or sources. Two discovery directions are required: a source reveals organizations, and research on an organization reveals sources. Each discovery has a stable record ID, first-seen date, discovery method, parent organization/source/evidence reference, last check, reviewed version, status, reason, and next action.
 
-New organizations and sources enter candidate queues. Organization admission checks identity, geography, aliases, available official identifiers, and in-scope eligibility. Source admission checks publisher/endpoint identity, coverage, sample utility, independence/syndication, access, formats/history, and permitted handling. Admission is separate from commercial qualification. Unknown organization identity remains unresolved; an accessible URL does not prove source suitability.
+New organizations and sources enter candidate queues. Organization admission checks identity, geography, aliases, available official identifiers, and in-scope eligibility. Current official registry evidence establishes current registration status; historical filings provide financial and activity context for their stated periods. A stale filing does not invalidate a currently registered account. Source admission checks publisher/endpoint identity, coverage, sample utility, independence/syndication, access, formats/history, and permitted handling. Admission is separate from commercial qualification and signal priority. Unknown organization identity remains unresolved; an accessible URL does not prove source suitability.
 
-Findings, organization additions, and source additions all pass the same four checkpoints in RESEARCH_WORKFLOW.md. Collection and data QC are separate responsibilities within the first checkpoint. Collection cannot approve its own proposals. Researcher, skeptic, and fact-checker maintain distinct versioned records. No candidate is admitted or approved for routine collection with a missing or unresolved required check.
+Findings, organization additions, and source additions pass the applicable checkpoints in RESEARCH_WORKFLOW.md. Collection and data QC are separate responsibilities within the first checkpoint. Collection cannot approve its own proposals. Researcher, skeptic, and fact-checker maintain distinct versioned records. Account admission requires resolved identity, geography, and in-scope eligibility, not a recent event, consulting-budget evidence, or a passing commercial assessment. Source admission and finding verification retain their own required checks.
 
-Organization states are candidate, identity unresolved, admitted, merged, or excluded with reason. Source states are candidate, inspected, approved for collection, blocked, merged, or inactive. These admission states are distinct from fetch status, review status, and private business relevance. Missing optional information is explicit; unresolved identity, required eligibility, access/handling, or material verification prevents admission.
+Organization states are candidate, identity unresolved, admitted, merged, or excluded with reason. Source states are candidate, inspected, approved for collection, blocked, merged, or inactive. These admission states are distinct from fetch status, event status, signal assessment, action tier, review status, and private business relevance. Missing optional information is explicit; unresolved identity or required eligibility prevents account admission. Source access/handling gaps prevent the affected source admission. Material verification gaps affect the finding or action tier, not an otherwise valid account.
 
 A candidate source can receive bounded permitted inspection to establish its admission evidence; inspection is not approval for routine collection. On source admission, inspect available history within the agreed discovery window and then use incremental checks. Incomplete archives remain gaps. Material changes reopen affected checks; unchanged approved records do not require the full process daily.
 
-Daily research includes candidate discovery and queue processing when execution is available. Bounded batches and continuation points prevent unbounded recursive research. Pending checks can carry across runs. Expansion priorities use geographic/source-type gaps, useful findings, and owner feedback; detailed batch sizes and ranking rules remain open. Coverage distinguishes intended, discovered, admitted, configured, attempted, and successfully checked populations. No percentage of all nonprofits is claimed without a defensible denominator.
+Daily research includes candidate discovery and queue processing when execution is available. Bounded batches and continuation points prevent unbounded recursive research. Pending checks can carry across runs. Expansion priorities use geographic/source-type gaps, useful findings, and owner feedback; detailed batch sizes remain open. Coverage distinguishes intended, discovered, admitted, configured, attempted, and successfully checked populations. No percentage of all nonprofits is claimed without a defensible denominator.
+
+Account resolution uses official identifiers first, then official domain, normalized name, city, and jurisdiction. Ambiguous associations enter a resolution queue. Name similarity alone cannot auto-merge accounts. Document deduplication starts with canonical URL and exact-content hash, then normalized headline, organization, event type, and close event dates. Multiple documents about one occurrence become one event with multiple evidence records and a manual merge/split path.
+
+One document is an observation. Repeated related events can form an episode, and a material change from the account's own history is stronger than a generic keyword mention. Week one accumulates this history without claiming a baseline that does not yet exist.
+
 ## Execution and repository continuity
 Codex is the initial execution environment. Collection, storage, deduplication, audits, research logic, role definitions, input/output contracts, evidence records, tests, and actual results belong to the repository or its documented private data store. Claude Code can later inspect and continue the same project through repository access. No provider adapter, API migration, local model installation, or hardware benchmark is required for this continuity.
 
@@ -125,6 +159,17 @@ Confirmed design: a searchable dashboard organized around organizations, with a 
 | Organization profile | Signals, campaign history, funding relationships, contradictory evidence, and possible routes in, linked to source records. |
 | Coverage and collection | Sources checked, failures, geographic/language gaps, and last successful updates; distinguish no findings from no coverage. |
 
+The daily queue uses four operational tiers:
+
+| Tier | Meaning | Treatment |
+| --- | --- | --- |
+| Act | Evidence supports a concrete next step. | Put on the daily outbound-preparation worklist. |
+| Investigate | Potential relevance with one or more material gaps. | Put on the daily research queue with the missing evidence named. |
+| Monitor | Valid account or event without current urgency. | Retain, continue incremental monitoring, and keep searchable. |
+| Suppress | Duplicate, irrelevant, or demonstrably incorrect item. | Hide from active queues and retain the reason. Suppressing an item does not remove a valid account. |
+
+Week one uses explicit sorting rules, not a universal numeric score. The account must be in scope, the event must be timely enough for its type, the evidence must directly support the event, the event must map to an Autonomy Bridge problem area, and the item must have a concrete investigation or outbound step. Independent evidence, recurrence, or a material change from the account's own history raises priority. Fit, evidence, freshness, and access remain separate components even if no combined score exists.
+
 Filter by geography, signal category, and date. Each review card must answer:
 - What happened: factual observation, event date, and publication date, with missing dates explicit.
 - Why examine it: a specific connection to the intended services, labelled as interpretation.
@@ -141,6 +186,8 @@ Record two separate judgments:
 | Business relevance | Worth investigating, monitor, irrelevant |
 
 Evidence quality applies to a finding and its version; relevance is recorded against the organization and the findings supporting that judgment. Leave unreviewed judgments explicit. Record the reason and date. New evidence must not silently overwrite prior feedback or imply that an old review covers changed evidence. A supported finding may be irrelevant; a potentially relevant organization may lack sufficient evidence.
+
+Action tier is a third, operational judgment. It belongs to the current signal assessment/action item, carries a reason and next step, and can change without rewriting account identity or prior evidence-quality decisions.
 
 Private pursuit decisions, relationship notes, outreach status, and actual business-relevance feedback stay outside the public repository and recorded development sessions. Public examples and session demonstrations use synthetic review records. The product may support private feedback without publishing it.
 
@@ -194,16 +241,18 @@ The initial implementation is described in [FOUNDATION_SPEC.md](FOUNDATION_SPEC.
 1. A fresh checkout runs the documented synthetic example and meaningful tests.
 2. A bounded, verified source set feeds a complete collection-to-review flow.
 3. Every emitted finding links to evidence and separates observation from interpretation.
-4. Duplicate stories do not inflate the underlying event count.
+4. Source documents, events, account-event relationships, signal assessments, and action items remain distinct; duplicate stories do not inflate the underlying event count.
 5. Incorrect/uncertain matches and inaccessible sources appear in visible queues.
 6. Import counts reconcile; rerunning identical inputs does not multiply records.
 7. Separate evidence-quality and relevance judgments retain reasons, dates, and reviewed versions; changed evidence does not silently inherit approval.
 8. Coverage reporting distinguishes intended, configured, and successfully checked coverage.
+9. Valid accounts remain admitted when their latest event, commercial relevance, budget, authority, or willingness to engage is unknown.
+10. Each surfaced action contains the account, event type/date, observed fact, source evidence, possible relevance, unknowns, tier, and concrete next step.
 
 These are draft acceptance criteria for the bounded foundation as a whole. Gate A is the synthetic end-to-end implementation and its software checks. Gate B is permitted live-source collection through the same flow, with separate source/QC evidence. Owner usefulness review is a further distinct outcome. Passing Gate A does not establish Gate B or owner approval. Numeric quality thresholds and the live-source set are not yet approved.
 
 ## Success measures to establish in the trial
-Measure source/geographic coverage, findings judged useful, unsupported claims, incorrect identity matches, duplicate events, source-to-review delay, missed relevant items in an independently reviewed sample, and review time per useful finding. Do not claim completeness across the open web. Revenue or introductions are downstream outcomes, not guaranteed software results.
+Measure worklist precision (the share of `Act` and `Investigate` items judged worth seeing), discovery yield, unsupported claims, incorrect account associations, duplicate documents/events reaching the worklist, source-to-review delay, review load per useful item, and source health. Estimate recall only against a defined, independently reviewed sample. Also report source/geographic coverage and missed relevant items in that sample. Do not claim completeness across the open web. Revenue or introductions are downstream outcomes, not guaranteed software results.
 
 ## Open decisions
 This is the authoritative open-product-decision register. Resolved requirements remain in the product sections and DECISIONS.md; they are not additional open blockers. No unapproved proposal is an implementation requirement.
@@ -212,7 +261,7 @@ This is the authoritative open-product-decision register. Resolved requirements 
 | --- | --- | --- |
 | Q1 | Whether and when to include hospitals, universities, religious organizations, and advocacy groups. Service-delivery nonprofits plus foundations/umbrella bodies as potential buyers/routes are confirmed, with no revenue cutoff. | Undecided categories remain pending an owner decision before admission; they do not block the approved starting categories or Day 1 design. |
 | Q2 | Specific source endpoints/localities within the confirmed BC/Washington pilot and subsequent expansion priorities. Priority source types are local reporting, organization publications, and official/funder records. No quota is approved. | A concrete proposal naming candidate publications, datasets, and exact endpoints with selection reasons is required before live collection; verification/access states remain explicit. Source-specific admission precedes routine collection. Canada-wide geography remains the product scope. |
-| Q3 | Exact weekly owner availability, shortlist presentation, ranking, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity and no forced shortlist quota are confirmed. | Owner availability before scheduling review; detailed ranking/batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
+| Q3 | Exact weekly owner availability, shortlist presentation, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity, no forced shortlist quota, the four action tiers, and initial explicit sorting rules are confirmed. | Owner availability before scheduling review; detailed batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
 | Q6 | Local run time, scheduler mechanism, source-specific refresh exceptions, and comparison periods beyond the agreed discovery window. | Before unattended daily operation or source-specific scheduling; initial research can remain owner-initiated. |
 | Q7 | Source-specific access, permitted transient processing/excerpts, cleanup, personal-data handling, and redistribution basis. | Before inspection/collection under the applicable source conditions. Whole live content is not permanently stored. Transcription is deferred. |
 | Q8 | Measured numerical quality/omission thresholds and the source/role evaluation sample. Required functional checks and complete claim accounting are already specified. | Measurement method before the trial; numerical acceptance targets require owner approval before a numerical pass claim. Trial observations can be reported without declaring an unapproved threshold met. |

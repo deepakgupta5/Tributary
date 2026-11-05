@@ -39,8 +39,8 @@ These entries record product decisions, not paid-session ratings or a claim of s
 ## 2026-11-05: account visibility and review scale
 
 - Owner feedback: "Greater Vancouver Food Bank is valid..it should have been included" and "I cant do this one by one...need to go wode".
-- Requirement affected: discovered accounts remain visible independently of admission, signal review, and private commercial qualification; the default output must support organization-level review rather than requiring the owner to inspect audit records one by one.
-- Change: added a compact Markdown and JSON account worklist. It separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society appears in the worklist with verified historical identity and its current-status question visible. The detailed report and packets remain the audit trail.
+- Requirement affected: account admission is resolved independently of signal review and private commercial qualification; the default output must support organization-level review rather than requiring the owner to inspect audit records one by one.
+- Change: added a compact Markdown and JSON account worklist. It separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society appears in the worklist. The updated PRD requires it to be treated as a valid account and distinguishes current official registry status from the historical context supplied by an older filing. The detailed report and packets remain the audit trail.
 - Branch: `codex/day-1-account-worklist`.
 - Validation: 60 unit tests passed; the bounded live replay generated a 69-line worklist containing all three organizations, compared with the 573-line detailed audit report. JSON parsing and `git diff --check` passed.
 - Limitation: this Day 1 output uses the existing saved live session. Fresh broad collection and signal generation begin in later days of the seven-day plan.
@@ -53,3 +53,11 @@ These entries record product decisions, not paid-session ratings or a claim of s
 - Branch: `codex/day-1-account-worklist`.
 - Validation: 60 unit tests passed. The moved bounded-live replay reproduced a 69-line worklist and 573-line audit report. All local Markdown links resolved, all committed JSON parsed, `git diff --check` passed, and the retained-file scan found no PDF, CSV, spreadsheet, or SQLite/database artifact.
 - Limitation: the evidence review identifies transferable system practices and failure modes. It does not prove that any public event predicts nonprofit consulting purchases. Fresh operational runs and owner judgments remain necessary.
+
+## 2026-11-05: account-centered event-monitor requirements
+
+- Owner input: use the research conclusions to update the PRD while retaining a usable one-week delivery boundary.
+- Requirement affected: daily outputs, account admission, document-to-event resolution, signal assessment, action tiers, week-one ranking, acceptance criteria, and trial measures.
+- Change: the PRD now specifies separate account, source-document, event, account-event, assessment, and action records; four daily outputs; `Act`, `Investigate`, `Monitor`, and `Suppress` tiers; explicit week-one sorting rules; and trial measures focused on surfaced-item usefulness and review load. D055-D057 record the accepted direction.
+- Validation: repository Markdown links, PRD requirement checks, unit tests, and whitespace checks are run before committing this update.
+- Limitation: the requirements preserve later baseline and model options, but week one does not claim behavioural intent, predictive scoring, automated outreach, or unattended operation.
