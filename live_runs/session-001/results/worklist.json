@@ -1,0 +1,175 @@
+{
+  "contract_version": 1,
+  "purpose": "Daily research input for private outbound decisions",
+  "accounts": [
+    {
+      "account_id": "o-foodlifeline",
+      "name": "Food Lifeline",
+      "discovery_state": "discovered",
+      "register_state": "admitted",
+      "identity_state": "verified",
+      "eligibility_state": "verified",
+      "signal_review_state": "reviewed_signal",
+      "business_relevance": "unreviewed_private",
+      "geography": [
+        "Washington"
+      ],
+      "category": "service_delivery",
+      "open_questions": [
+        "IRS listing alone does not establish service area, current need, or commercial relevance."
+      ],
+      "signals": [
+        {
+          "finding_id": "f-foodlifeline",
+          "title": "Food Lifeline network visits increased in FY2025",
+          "review_state": "reviewed",
+          "observations": [
+            {
+              "claim_id": "fl-visits",
+              "text": "Food Lifeline's FY2025 impact report lists 10,755,509 network visits for FY24 and 16,001,264 for FY25.",
+              "status": "verified"
+            },
+            {
+              "claim_id": "fl-change",
+              "text": "The reported increase is 5,245,755 visits, or approximately 48.77%, calculated from the two report values.",
+              "status": "verified"
+            }
+          ],
+          "hypotheses": [
+            {
+              "claim_id": "fl-hypothesis",
+              "text": "The scale of growth might create operational or data needs worth investigating, but no unmet need, budget, or buying intent is established.",
+              "status": "reviewed_hypothesis"
+            }
+          ],
+          "unresolved_claims": [],
+          "limitations": [
+            "First-party report only; report publication date is unknown.",
+            "Network visits are not unique people and do not establish organizational strain."
+          ],
+          "route_status": "not_investigated",
+          "references": [
+            {
+              "evidence_id": "e-foodlifeline-impact-2025",
+              "url": "https://e1.nmcdn.io/assets/foodlife/wp-content/uploads/2025/12/FoodLifeline-ImpactReport2025_SinglePages.pdf",
+              "locator": "pdf-page-2-network-visits",
+              "publication_date": null,
+              "retrieved_at": "2026-11-05"
+            }
+          ],
+          "checkpoint_completion": {
+            "qc": true,
+            "researcher": true,
+            "skeptic": true,
+            "fact_checker": true
+          }
+        }
+      ],
+      "next_action": "investigate_relevance"
+    },
+    {
+      "account_id": "o-nurturing",
+      "name": "Nurturing Roots",
+      "discovery_state": "discovered",
+      "register_state": "admitted",
+      "identity_state": "verified",
+      "eligibility_state": "verified",
+      "signal_review_state": "signal_under_review",
+      "business_relevance": "unreviewed_private",
+      "geography": [
+        "Washington"
+      ],
+      "category": "service_delivery",
+      "open_questions": [
+        "IRS listing and local reporting support identity and programs, not a purchasing budget or willingness to engage."
+      ],
+      "signals": [
+        {
+          "finding_id": "f-nurturing",
+          "title": "Nurturing Roots funded workforce program",
+          "review_state": "under_review",
+          "observations": [
+            {
+              "claim_id": "nr-grant",
+              "text": "South Seattle Emerald reports that Nurturing Roots' Future Food Systems program is supported by $85,260 from the Food Equity Fund.",
+              "status": "verified"
+            },
+            {
+              "claim_id": "nr-program",
+              "text": "The article describes Future Food Systems as training young adults ages 18–22 for food-system careers and responding to requests from former program participants.",
+              "status": "verified"
+            }
+          ],
+          "hypotheses": [
+            {
+              "claim_id": "nr-hypothesis",
+              "text": "A new funded workforce program may create operational or outcome-tracking questions worth investigating, but no unmet need or consulting budget is established.",
+              "status": "reviewed_hypothesis"
+            }
+          ],
+          "unresolved_claims": [
+            {
+              "claim_id": "nr-funding-use",
+              "text": "The $85,260 award is available for outside operational or data consulting.",
+              "status": "unverifiable"
+            }
+          ],
+          "limitations": [
+            "One local article; the city award record was not independently checked in this run.",
+            "Funding supports the program and does not establish discretionary consulting funds."
+          ],
+          "route_status": "evidence_available",
+          "references": [
+            {
+              "evidence_id": "e-emerald-nurturing-2026",
+              "url": "https://southseattleemerald.org/community/2026/01/03/south-end-groups-provide-food-and-farming-opportunities-for-youth",
+              "locator": "future-food-systems-grant",
+              "publication_date": "2026-01-03",
+              "retrieved_at": "2026-11-05"
+            },
+            {
+              "evidence_id": "e-emerald-nurturing-2026",
+              "url": "https://southseattleemerald.org/community/2026/01/03/south-end-groups-provide-food-and-farming-opportunities-for-youth",
+              "locator": "future-food-systems-note",
+              "publication_date": "2026-01-03",
+              "retrieved_at": "2026-11-05"
+            }
+          ],
+          "checkpoint_completion": {
+            "qc": true,
+            "researcher": true,
+            "skeptic": true,
+            "fact_checker": true
+          }
+        }
+      ],
+      "next_action": "review_signal"
+    },
+    {
+      "account_id": "o-gvfb",
+      "name": "Greater Vancouver Food Bank Society",
+      "discovery_state": "discovered",
+      "register_state": "pending",
+      "identity_state": "verified",
+      "eligibility_state": "open",
+      "signal_review_state": "no_signal_identified",
+      "business_relevance": "unreviewed_private",
+      "geography": [
+        "BC"
+      ],
+      "category": "service_delivery",
+      "open_questions": [
+        "No current operational or prospect finding was approved in this run; current status needs a later check.",
+        "Current in-scope operating or eligibility status needs verification."
+      ],
+      "signals": [],
+      "next_action": "find_current_signal"
+    }
+  ],
+  "counts": {
+    "accounts": 3,
+    "reviewed_signal": 1,
+    "signal_under_review": 1,
+    "no_signal_identified": 1
+  }
+}
