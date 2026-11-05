@@ -1,120 +1,63 @@
-# Tributary project plan
-Recorded: 2026-11-03
+# Tributary: seven-day plan to a daily prospect worklist
 Owner: Deepak Gupta
-Status: Day 1 design decisions and refinements accepted and recorded. Implementation has not been authorized through this planning conversation.
-Start date: Unset. Days 1-7 are project days, not dated commitments.
+Status: Planning target, approved by the owner as a seven-project-day schedule on 2026-11-05. Start date unset.
+Baseline: `codex/bounded-live-prototype-v1` at `a81f047`.
 
-## Document roles
-This plan defines the beginning, first seven project days, ongoing cycle, expected deliverables, and reconciliation. [PRD.md](PRD.md) defines product scope and is the single register of open product decisions. [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md) defines the four checkpoints for findings and both registers. [SOURCES.md](SOURCES.md) defines source admission and coverage. [FOUNDATION_SPEC.md](FOUNDATION_SPEC.md) defines foundation acceptance evidence; [WORKFLOW_EVALUATION.md](WORKFLOW_EVALUATION.md) distinguishes software checks from actual role quality, live feasibility, and owner usefulness. [ROADMAP.md](ROADMAP.md) provides the longer-term engineering stages.
+This plan replaces the earlier seven-day design and synthetic-foundation schedule in this file. Those milestones have been completed through a bounded live run. The current task is to turn that run into a repeatable daily research operation. Seven days are project days, not a guarantee of seven calendar days or nationwide source completeness. Day 7 succeeds on observed output, not elapsed time.
 
-There are no approved numerical accuracy targets, source quotas, organization quotas, weekly shortlist quotas, throughput promises, or effort estimates. Counts are observations unless the owner approves a target separately. Requirements such as checking every number, quote, and paraphrase remain applicable. No target date can turn an incomplete check into a pass.
+## Objective and Day X
 
-## Confirmed starting decisions
-- Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
-- Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
-- First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
-- Initial delivery boundary: Day 1 design proposal only, comprising documentation inspection, proposed technical design, record formats, initial source sample, and test matrix. Owner review precedes any implementation. Approval of these starting decisions does not itself launch work or authorize implementation.
+Tributary supports nonprofit business development for Autonomy Bridge. It finds potential clients and credible organizational routes in across Canada and Washington State. It surfaces dated evidence of operational, fundraising, campaign, or data-related pressure and opportunity, as well as funder-sponsored support. Deepak makes relevance and pursuit decisions privately. Tributary does not send outreach.
 
-## Accepted Day 1 design and execution boundary
-Day 1 design is complete. D046-D052 record the accepted choices and refinements: Python + SQLite, JSON/JSONL interchange, Markdown-first output, a minimum schema organized into six logical groups, explicit required-versus-optional approval criteria, actual context-separation evidence, and dependency-based rechecks. Reversible merges, detailed funding relationships, HTML, and dashboard work are deferred from the first synthetic build.
+**Day X is the first operational daily cycle.** A local run produces:
+1. New signal-bearing accounts, including candidates with visible unresolved checks.
+2. New or materially changed signals at accounts already known.
+3. A concise organization-level worklist: what happened, when, source links and locators, why to investigate (labelled interpretation), alternative explanations, unknowns, and a documented route in or "none identified."
+4. A searchable account history and a private owner decision field: investigate, monitor, or dismiss.
+5. A short run/coverage record distinguishing no findings from no successful collection.
 
-Implementation and tests still require separate owner authorization. Any next implementation authorization is for the bounded synthetic flow unless live work is separately authorized. Before live collection, the source proposal must name candidate publications, datasets, and exact endpoints with selection reasons and explicit verification states. No source quota is introduced. No live-source feasibility, role accuracy, or product usefulness result is established by design acceptance.
+A credible day can contain zero new accounts or zero new signals. No quota forces weak items into the worklist. The worklist is a research input for outbound, not a claim of need, budget, authority, or willingness to engage. Only supported, checked claims may be labelled verified. Open questions and uncertain but potentially relevant accounts remain visible.
 
-## Part 1: Beginning and baseline
+## Corrections from the bounded live run
 
-### Purpose, scope, and expectations
-The product supports nonprofit prospect discovery and documented organizational routes in across Canada and Washington State, using English-language, freely accessible material. It investigates pressure and opportunity, including indirect signals, with observations, attributed statements, hypotheses, alternative explanations, and unknowns kept distinct.
+- Greater Vancouver Food Bank Society must appear in the account queue. The 2024 CRA record supports its identity at that date; lack of a current-status check is shown as an open field, not grounds to hide the account. Resolve current status when promoting a current-status claim. Preserve the original run and its decision history.
+- Separate discovery, identity resolution, signal review, and private commercial qualification. An admitted organization is not automatically a prospect; a pending admission does not erase a discovered organization from the queue.
+- The saved `live_runs/session-001/run.py` replays saved records and assessments. It does not fetch new material or perform new reasoning. Day X must process fresh inputs from another run and must label supervised versus automated work honestly.
+- The long audit report remains available behind the worklist. It is not the owner's default reading surface.
 
-The organization and source universes are incomplete at launch and expand in both directions: sources reveal organizations; organization research reveals sources. Being registered is not evidence of being a commercially qualified prospect. The owner can spend multiple hours reviewing output. Coverage gaps and investigation backlogs remain visible.
+## Delivery sequence
 
-Discovery uses a 12-month window, recent-six-month priority only when evidence and relevance are comparable, and older records for comparison. Daily collection/candidate discovery is the intended cadence; a weekly shortlist is a separate review view. No unattended operation is claimed before implementation and operational testing.
-
-Cost is zero additional monetary operating cost. Permanent live content is limited to metadata/checksums and permitted sanitized excerpts, not whole articles, recordings, or transcripts. Private pursuit and relevance judgments remain outside the public repository. Outreach, client donor analysis, campaign delivery, model training, and fine-tuning are outside scope.
-
-### Expected deliverables
-| Deliverable | Required content | Acceptance evidence |
+| Day | Build and research work | Evidence to inspect at day's end |
 | --- | --- | --- |
-| Consistent baseline | Product scope, decisions, deliverables, QC, testing, dependencies, exclusions, and open choices. | Cross-document consistency and an explicit owner approval state. |
-| Organization register | Stable IDs, identity evidence, geography, aliases/official IDs where available, discovery provenance, admission status, review versions, and next action. | New/duplicate/ambiguous identity cases and versioned admission checks. |
-| Source register | Publisher/endpoint, coverage, access and retention handling, discovery provenance, admission status, operating state, and next action. | Candidate inspection and four-check admission records; blocked sources stay visible. |
-| Evidence and claim records | Dates, permitted passages, locators, organization/source links, duplicate grouping, uncertainties, and versions. | Traceability, exact known-answer cases, reruns, and visible incomplete evidence. |
-| Role outputs and report | Research report, skeptic issues, complete claim checks, corrections, residual problems, and verification basis. | Full chain linked to actual reviewed inputs; unperformed checks cannot inherit approval. |
-| Audits and coverage | Collection dispositions, review queues, register additions, source attempts/successes, geographic/source-type gaps, and reconciliations. | Accounted populations and explicit discrepancy records. |
-| Development evidence | Actual changes, relevant checks/results, owner-provided product feedback, unresolved defects, and factual release records. | Links to actual artifacts and commits; no invented owner reasoning or assistant review commentary. |
+| 1. Account and output correction | Implement the four distinct states above, show Greater Vancouver Food Bank in the account queue with its status gap, and produce a compact card and daily-worklist format from existing live records. Keep detailed packets accessible. | Existing three cases render without hiding pending accounts or treating a hypothesis as a fact. Diff and relevant regression checks. |
+| 2. Broad source setup | Configure repeatable collection from available official registers, funder/sector announcements, organization publications, and local reporting. Set up a source inventory spanning Canada and Washington, with geography/type, actual endpoint, access outcome, and last successful check. Start a staged 12-month backfill without claiming unmonitored places are covered. | A fresh source attempt log and newly collected items beyond the saved three-case session. Failures and missing geographic/source-type coverage visible. |
+| 3. Batch account resolution | Extract organizations from collected items, connect exact official IDs where available, group aliases and suspected duplicates conservatively, and connect stories to existing accounts. Discover new sources from organization research as well as organizations from sources. | Batch import and discovery counts reconcile. Unresolved identities remain in a queue. Rerun does not multiply accounts, source records, or events. |
+| 4. Signal generation | Convert fresh material into dated factual observations and candidate signals for all agreed categories. Group repeated coverage of the same event; track publication/event/reporting dates separately. Record possible service relevance, alternative explanations, evidence of capacity to engage, and route in as separate fields. | New-account and existing-account signals from fresh material; unsupported consulting-budget or donor-retention inferences are not promoted as facts. |
+| 5. Review and owner worklist | Apply collection/data QC and the existing researcher, skeptic, and fact-checker process to promoted findings and admissions. Render concise account cards with evidence quality and uncertainty; expose lower-confidence candidates in a separate investigation queue. Add private investigate/monitor/dismiss feedback that survives subsequent runs. | Source-faithful sample checked against original pages; every displayed number, quote, and paraphrase has a completed check or a visible pending label. Full audit remains retrievable. |
+| 6. Daily execution and recovery | Add a local daily runner, per-source successful checkpoints, continuation after an interrupted batch, catch-up when the host resumes, and worklist export. Keep free-only operation and source access limits. Do not infer that the machine ran while off or asleep. | Successive run and identical-rerun tests, plus simulated missed day, partial source failure, and restart. Failed sources do not advance their successful checkpoints. |
+| 7. Operational trial and correction | Run the daily cycle on new material, inspect the output with Deepak, repair material defects, and document actual source/geographic coverage and time spent on the supervised review step. Deliver the first usable worklist and a prioritized expansion backlog. | One fresh daily worklist, linked account histories, run/coverage report, test log, known defects, and Deepak's actual usefulness feedback if available. Replay of session 001 alone does not pass. |
 
-These are delivered incrementally. Nationwide coverage, a polished dashboard, complete funding graph, scheduling, all adapters, and audio transcription are not first-week completion promises.
+Days 2–5 can overlap where independent source setup, output design, and tests permit it. A blocked endpoint does not stop other accessible sources. Scope is broad by geography and source type, but coverage is reported from successful checks rather than inferred from the intended universe.
 
-### QC and verification
-The same four checkpoints apply to news/evidence findings, organization additions, and source additions:
-1. Collection and data QC. Collection proposes records; a separate QC responsibility checks extraction, identity, dates, completeness, and duplicates. The collector cannot approve its own output.
-2. Researcher. Evidence-backed details, relevance to scope, cross-checks, hypotheses, and unknowns.
-3. Skeptic. Constructive ranked objections, alternative explanations, and evidence needed.
-4. Fact-checker. Original-document checks for every number, quote, paraphrase, and required admission detail, including unflagged claims; disposition of every skeptic issue.
+## Minimum daily worklist contract
 
-Each checkpoint has its own versioned result and actor/run identity; execution completion is separate from passing review. A skeptic question alone does not fail a record. Material unresolved required details block approval, while optional missing information and documented nonmaterial limitations may remain visible without blocking approval. Actual context separation is recorded; separate IDs/files do not prove isolation. Same-model reviews do not establish independent corroboration. Owner commercial usefulness is separate from all four checks. An unchanged approved record is not fully re-reviewed daily; a material change reopens affected checks before a revised version can replace an approval.
+Each row/card carries: stable organization ID and name; official ID if known; headquarters and area served as distinct fields; new account or changed existing account; event and publication dates; signal category; factual observation; source URL and locator; possible relevance as a hypothesis; alternative explanation; evidence quality and review status; missing facts; documented funder/intermediary route, if any; prior-account history; and next investigation action. The organization appears once even if several stories support it. An export usable for manual outbound preparation accompanies the review view, but private pursuit data and messages stay out of the public repository.
 
-### Testing and acceptance
-| Evidence category | Required cases or observations | What a pass establishes |
-| --- | --- | --- |
-| Synthetic software checks | Source and organization duplicates, ambiguous identity, unknown/malformed dates, missing evidence, admission bypass, changed versions, omitted claim checks, repeated runs, partial failure, and reconciled counts. | Specified software behavior for fixtures, not live access or model reasoning. |
-| Actual role evaluation | Planted numeric errors, altered quotations, misleading paraphrases, missing qualifications, benign explanations, and non-independent corroboration. Expected answers are separate from reviewed inputs. | Observed errors caught/missed and false verification, with denominators; no unapproved accuracy target. |
-| Bounded live trial | Permitted Canadian and Washington source material through the same pipeline; both organization-to-source and source-to-organization discovery. | Feasibility and extraction/review results for inspected material only. |
-| Owner usefulness review | Actual reports examined for relevant context, missing evidence, misleading implications, and practical investigation value. | Owner-provided feedback, not an assistant-invented relevance rating. |
-| Operational testing, later | Missed/interrupted runs, checkpoints, catch-up, idempotence, partial source failures, and host unavailability. | Demonstrated scheduling/recovery behavior, not continuous availability. |
+Lists must distinguish **newly discovered**, **newly signal-bearing**, and **already known with a new signal**. A charity-register row alone may establish an identity or create a candidate, but it is not by itself a commercial signal.
 
-Gate A is the synthetic foundation. Gate B is the bounded live flow. Owner usefulness and daily operation are additional distinct outcomes. Every outcome is passed, incomplete, failed, or explicitly deferred with evidence. A calendar milestone or fixture replay cannot substitute for missing live or owner evidence.
+## Acceptance checks and reconciliation
 
-### Responsibilities and beginning checkpoint
-The planning conversation reviews and updates product documentation and reports its judgments to the owner in chat. The owner separately instructs repository-connected Codex to implement and run tests, assesses usefulness, and approves scope changes. Codex implementation artifacts are evaluated from actual results. Claude Code may later continue from the same repository; private data access is separate.
+- Fresh live inputs flow from collection to account matching, signal candidates, checked findings, and the daily worklist. The saved assessment replay remains a regression fixture only.
+- Every collected item has a disposition: unique, duplicate, or quarantined, with pending work explicit. Candidate organizations and sources reconcile to their current states; a pending review does not make a candidate disappear.
+- A sampled worklist is checked against original source pages for identity, dates, numbers, paraphrases, and alternative explanations. Incorrect matches and unsupported claims are corrected or visibly held. Same-assistant checks are labelled as such, never independent verification.
+- A rerun is idempotent. Changed evidence reopens affected checks. A missed day and partial source failure are visible and recoverable where source history permits.
+- Report configured, attempted, and successful sources by geography and type; do not claim completeness across Canada or Washington from a narrow sample. Measure useful items, missed relevant items in a sampled source set, duplicates, false matches, and owner review time without inventing pass percentages or quotas.
+- Day X is reached only when the daily cycle produces a usable fresh worklist and the operational checks above pass. If owner usefulness review is unavailable, record that separately; do not fabricate it.
 
-The starting eligibility, BC/Washington pilot, and design-only first delivery are owner-confirmed. The beginning checkpoint is a consistent documentation baseline with remaining open decisions identified and no fabricated targets or source counts. Day 1 returns a design proposal for owner review before implementation. Approval of this plan does not itself launch work or authorize implementation. Source-specific access/handling is required before live material is collected.
+## Execution boundary and operating model
 
-## Part 2: First seven project days
-This is a dependency-based planning target. Day 1 starts with the owner's design-assignment instruction; start date and availability remain unset. Days 2-7 remain conditional planning targets and cannot begin implementation until the owner reviews the Day 1 proposal and separately authorizes it. If a dependency fails, the affected outcome remains incomplete and is carried forward with a reason. It is not replaced by an invented pass or a weaker unrecorded requirement.
+Zero additional monetary operating cost remains the constraint. Use English-language freely accessible sources; do not bypass access controls. Store source links, metadata, factual notes and necessary permitted short checking passages, not whole live articles, recordings or transcripts. Record specific restrictions found rather than presume all public research is blocked.
 
-| Day | Planned outcome | Expected deliverables and completion evidence | Dependency |
-| --- | --- | --- | --- |
-| 1 | Design proposal only, returned for owner review before implementation. | Documentation inspection, proposed technical design, record formats, proposed BC/Washington source sample and coverage rationale, test matrix, and remaining design decisions. No preset source/organization count. | Owner instruction to begin the design assignment. No implementation or test execution is part of this stage. |
-| 2 | Synthetic collection and persistent evidence foundation. | Source/organization references, storage/provenance, identity uncertainty, duplicate handling, reconciled dispositions, and reruns without multiplying records. | Owner review of Day 1 proposal, separate implementation authorization, agreed contracts, and synthetic fixtures. |
-| 3 | Expanding registers and admission flow. | Both discovery directions demonstrated; candidate queues, four-check admission records, duplicate links/unresolved matches and exclusions, changed-version rechecks, and coverage reporting. | Day 2 storage and identifiers. |
-| 4 | Complete research-to-report flow. | Separate researcher, skeptic, and fact-checker inputs/outputs; source locators, claim checks, residual problems, and a reviewable report. Actual role outputs are distinct from fixture replay. | Evidence storage and versioned review/admission logic. |
-| 5 | Bounded live collection through the same flow. | Permitted Canadian and Washington source material, actual findings/candidate additions, access/QC results, and explicit gaps. If blocked, Gate B remains incomplete. | Separate live-collection authorization, concrete candidate endpoints, source access/retention decisions, and a working synthetic flow. |
-| 6 | Owner review and corrections. | Actual owner feedback; resulting product/code changes; relevant regression evidence; unresolved defects. No invented review if owner input is unavailable. | Inspectable outputs and owner availability. |
-| 7 | Reconciled week-one close and next increment. | Planned-versus-delivered register, data/queue reconciliation, acceptance outcomes, actual checks, limitations, carryovers, and a proposed next-week backlog. | Actual evidence from completed work; blocked outcomes remain visible. |
+Current coding-session reasoning is supervised. A scheduled local collector may gather and organize candidates, but the repository does not yet provide an unattended model reviewer. The Day X worklist therefore distinguishes automatically collected candidates from supervised, checked findings. If a daily supervised pass is necessary, measure its actual time and report when it was skipped. Do not represent unreviewed candidates as independently verified or outbound-ready.
 
-### Week-one target
-A working, inspectable bounded flow supports collection, stored evidence, both expanding registers, all four checkpoints, and a reviewable report. Synthetic, live, role-quality, and owner-usefulness outcomes are reported separately. The first live sample tests the workflow without implying complete geographic coverage.
-
-### Daily and weekly reconciliation
-Delivery records contain commitment ID, planned deliverable, acceptance evidence reference, actual outcome, blocked/deferred reason, dependency, and next action. Daily states are completed with evidence, in progress, blocked, or carried forward with reason. Week-end closure identifies the actual evidence for each completed commitment; changed scope has an owner decision reference.
-
-Data accounting uses defined populations and stages:
-- At ingestion, input items equal unique evidence items plus duplicate items plus rejected/quarantined items. These dispositions are mutually exclusive for that ingestion stage.
-- For each organization/source candidate population, opening pending plus new candidates plus reopened versions equals admitted plus merged plus excluded/blocked plus closing pending. Each candidate/version has one closing disposition; prior admitted records are not repeatedly counted as new admissions. A blocked record reopened later enters that later period's opening/reopened population.
-- Register stock changes are separate from candidate admission flows: opening admitted/active records plus new admissions/reactivations minus merges, exclusions, or inactivations equal closing admitted/active records. Every transition references its record/version; an unchanged record does not count as new growth.
-- Attempt counts are separate from distinct-source counts. Retries do not inflate the source universe or count as extra successful source coverage.
-- For every checkpoint, reviewed versions have passed, limited/incomplete, failed, or pending outcomes with reasons; the admission decision cannot bypass a required pass.
-- Claim ledgers account for every number, quote, and paraphrase. Checked claims reconcile by verification status; pending checks remain in the denominator. Skeptic issues reconcile to corrected, supported as written, limitation retained, or unresolved.
-- Discrepancies are visible failed reconciliation checks, with affected records identified. A clean total cannot hide a source access failure, stale review, unsupported claim, or missing usefulness review.
-
-Reconciliation counts describe the actual run/period. They are not growth quotas, quality targets, or claims of completeness across all nonprofits.
-
-## Part 3: Week two onward
-Week two begins at project day 8 and continues through evidence-based increments. Incomplete week-one work remains visible and takes priority where it blocks the core flow.
-
-| Frequency | Activity | Evidence retained |
-| --- | --- | --- |
-| Daily research cycle | Collection from approved sources; source and organization candidate discovery; four-check queue processing; changed-record review; per-source failure reporting. Initially owner-initiated where unattended execution is unproven. | Run audit, candidate/admission dispositions, source attempts/successes, pending reviews, and last successful checkpoints. |
-| Weekly owner review | Organization reports, missed context, weak reasoning, irrelevant findings, and investigation usefulness. | Actual feedback, changes, verification evidence, and unresolved concerns; commercial judgments remain private. |
-| Weekly expansion | Prioritized geography/source-type gaps, discovered connections, candidate inspection, and admission through all checks. | Demonstrated coverage added, blocked sources, rejected/merged candidates, and next expansion priorities. |
-| Weekly delivery reconciliation | Commitments, data/queue balances, acceptance outcomes, defects, review backlog, and carried work. | Factual weekly completion report and the next seven-day plan, based on actual capacity and dependencies. |
-| Engineering increments | Scheduling/recovery, dashboard, funding relationships, better matching/deduplication, adapters, and feedback-driven refinement. | Feature-specific checks, observed operating behavior, regression evidence, and owner decisions. |
-
-Expansion batches have continuation points so research does not become an unbounded recursive crawl. Batch sizes, priority weights, backlog limits, and refresh intervals remain open. Geographic and source-type gaps stay visible; existing concentrations must not be mistaken for full coverage. Register growth alone is not success.
-
-Daily scheduling is adopted only after its checkpoints, catch-up, failure handling, and actual operational run have been demonstrated. Source access limits and free-only operation still apply. Weekly reporting continues even when no useful findings are produced.
-
-## Open decisions and change control
-The authoritative open-decision register is the Open decisions section in PRD.md. Starting organization eligibility, no revenue cutoff, BC/Washington pilot geography, priority source types, and the Day 1 design-only review boundary are confirmed. Specific source endpoints, undecided organization categories, detailed schema/runtime contracts and actual role-context separation, numerical quality thresholds, ranking/expansion rules, scheduling mechanism/time, source-specific permissions, and start date remain unresolved.
-
-Decisions affecting Gate A, Gate B, weekly prioritization, or later operation are identified by their dependency rather than all being treated as day-zero blockers. Approved changes update the affected product documents and factual decision history together. Execution prompts, assistant-to-assistant handoffs, assistant review judgments, private prospect decisions, and unaided program ratings are not part of this plan.
+After Day X, continue daily collection and worklist generation, weekly owner feedback and source/geographic expansion, and weekly reconciliation of coverage, missed signals, duplicates, and review backlog. Prioritize demonstrated prospect usefulness over register size or checkpoint volume.
