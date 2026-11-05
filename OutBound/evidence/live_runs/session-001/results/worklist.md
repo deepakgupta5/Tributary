@@ -2,7 +2,7 @@
 
 This is a research queue for private outbound decisions. Verified observations, hypotheses, unresolved questions, and commercial relevance remain separate.
 
-Accounts: 3; reviewed signals: 1; signals under review: 1; accounts without an identified signal: 1.
+Accounts: 3; accounts with a reviewed signal: 1; accounts with signals only under review: 1; accounts without an identified signal: 1.
 
 ## Accounts with reviewed signals
 

@@ -63,7 +63,8 @@ def _finding_card(store, finding):
         'route_status': body.get('route_status', 'not_investigated'),
         'references': references,
         'checkpoint_completion': {
-            stage: bool(store.latest_review(rid, stage)) for stage in STAGES
+            stage: review['body']['completed'] if (review := store.latest_review(rid, stage)) else False
+            for stage in STAGES
         },
     }
 
@@ -124,8 +125,8 @@ def render_markdown(worklist):
              'This is a research queue for private outbound decisions. Verified observations, '
              'hypotheses, unresolved questions, and commercial relevance remain separate.', '',
              f'Accounts: {worklist["counts"]["accounts"]}; '
-             f'reviewed signals: {worklist["counts"]["reviewed_signal"]}; '
-             f'signals under review: {worklist["counts"]["signal_under_review"]}; '
+             f'accounts with a reviewed signal: {worklist["counts"]["reviewed_signal"]}; '
+             f'accounts with signals only under review: {worklist["counts"]["signal_under_review"]}; '
              f'accounts without an identified signal: {worklist["counts"]["no_signal_identified"]}.', '']
     sections = [
         ('reviewed_signal', 'Accounts with reviewed signals'),

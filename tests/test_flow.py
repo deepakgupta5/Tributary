@@ -8,6 +8,7 @@ from unittest.mock import patch
 from tributary.core import Store, Invalid, STAGES, digest
 from tributary.demo import seed, replay, replay_output, demonstrate, subject, claim, evidence
 from tributary.report import export
+from tributary.worklist import export_worklist
 
 
 class FlowTests(unittest.TestCase):
@@ -150,6 +151,18 @@ class FlowTests(unittest.TestCase):
         out['completed'] = False
         with self.assertRaises(Invalid):
             self.s.review(p, out)
+
+    def test_worklist_exports_stored_qc_completion(self):
+        packet = self.s.packet('f-campaign', 'qc')
+        output = replay_output(packet, 'incomplete-qc')
+        output.update(completed=False, outcome='incomplete')
+        self.s.review(packet, output)
+        with tempfile.TemporaryDirectory() as directory:
+            export_worklist(self.s, Path(directory))
+            worklist = json.loads((Path(directory) / 'worklist.json').read_text())
+        signal = next(s for a in worklist['accounts'] for s in a['signals']
+                      if s['finding_id'] == 'f-campaign')
+        self.assertIs(signal['checkpoint_completion']['qc'], False)
 
     def test_optional_missing_field_and_nonmaterial_issue_allow_approval(self):
         result = replay(self.s, 'o-cedar', 'optional', issue=True)
