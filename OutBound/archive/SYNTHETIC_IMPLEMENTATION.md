@@ -16,7 +16,7 @@ python3 -m tributary.demo --partial --out out/partial-demo
 
 The demonstration refuses an existing output directory. Choose a new directory to repeat it. It creates `tributary.sqlite`, `report.md`, `records.json`, `records.jsonl`, and `demonstration.json`. No dependency installation is necessary. All data is fictional. Audits and records contain execution timestamps; business records, decisions, and reconciliation outcomes repeat, but timestamped export bytes need not be identical.
 
-`examples/` contains a captured run, excluding the database. The executable source fixture is `tributary/demo.py`. `fixtures/role_inputs.json` is an additional standalone role-evaluation packet; its answer key is in `fixtures/expected.json`. The demonstration and packet construction do not load that key. Scoring tests load it separately to exercise the evaluator, not to simulate model accuracy.
+`examples/` contains a captured run, excluding the database. The executable source fixture is `tributary/demo.py`. `OutBound/data/fixtures/role_inputs.json` is an additional standalone role-evaluation packet; its answer key is in `OutBound/data/fixtures/expected.json`. The demonstration and packet construction do not load that key. Scoring tests load it separately to exercise the evaluator, not to simulate model accuracy.
 
 ## Storage and contracts
 

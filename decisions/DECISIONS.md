@@ -2,7 +2,7 @@
 Status: Draft v0.1
 Recorded: 2026-11-03
 
-Dates below are recording dates, not claims about when a discussion originally occurred. Current direction includes D036-D052 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](PRD.md).
+Dates below are recording dates, not claims about when a discussion originally occurred. Current direction includes D036-D054 where it supersedes earlier entries. Earlier wording is retained as history, not a current implementation requirement. This log records agreed direction. Proposals and unanswered questions remain in [PRD.md](../OutBound/frameworks/PRD.md).
 
 | ID | Recorded | Decision | Rationale / consequence |
 | --- | --- | --- | --- |
@@ -140,6 +140,13 @@ The authoritative open-product-decision register is PRD.md, Open decisions. Earl
 | D050 | 2026-11-03 | Reopen affected checks through recorded dependencies after material changes. | Changed evidence cannot inherit old approval. Historical decisions remain; the affected current version awaits recheck. Unchanged records do not require full daily review. |
 | D051 | 2026-11-03 | Identify actual candidate publications, datasets, and endpoints with selection reasons before live collection. | Candidates may remain explicitly unverified pending permitted inspection. Categories alone are insufficient for the live-source proposal; no source quota is introduced. |
 | D052 | 2026-11-03 | Day 1 design is complete and its accepted choices are recorded as product requirements. | Design acceptance and documentation updates do not authorize implementation or tests. Bounded synthetic implementation requires separate owner instruction; live collection remains a separate gate. Live-source feasibility, role accuracy, and product usefulness are not established. |
+
+## Research retention and repository organization
+
+| ID | Recorded | Decision | Consequence |
+| --- | --- | --- | --- |
+| D053 | 2026-11-05 | Store substantive external product research in the repository. | Each research record retains scope, sources, conclusions, evidence limits, and implementation implications. Chat-only conclusions are insufficient for decisions that affect the build. |
+| D054 | 2026-11-05 | Adapt the useful operating and Library separation from the Fractional repository to Tributary without copying unused folders. | Current operating material is organized under `OutBound/`; code and tests retain standard roots; accepted decisions and examples retain distinct roots; `Library/` is reserved for actual owner-facing artifacts. Empty project-specific placeholders are not created before use. |
 
 ## Change procedure
 Add a dated entry when the owner agrees a material product decision. If a decision changes, preserve its history and identify the superseding entry. Update affected requirements, sources, roadmap, and checks in the same change when practical.

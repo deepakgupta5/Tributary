@@ -9,7 +9,7 @@ from pathlib import Path
 import sys
 
 ROOT = Path(__file__).resolve().parent
-sys.path.insert(0, str(ROOT.parent.parent))
+sys.path.insert(0, str(ROOT.parents[3]))
 from tributary.core import Store, STAGES, now, require
 from tributary.report import export
 from tributary.checks import evaluate

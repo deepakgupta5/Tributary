@@ -94,7 +94,7 @@ Confirmed: daily local collection when the computer is available. Record per-sou
 The daily run checks sources that are due under their permitted access conditions. Any source-specific refresh exception must be documented; the default collection cadence remains daily. Static or slowly changing datasets need not be repeatedly downloaded unchanged. Initial historical discovery is distinct from daily incremental checks.
 
 ## Researcher, skeptic, and fact-checker review
-Follow [RESEARCH_WORKFLOW.md](RESEARCH_WORKFLOW.md). The researcher uses the prescribed source mix, separates facts and attributed statements from speculation, and cross-checks consequential claims. The skeptic produces a short ranked issue list. The fact-checker checks the complete report's numbers, quotes, and paraphrases against the original documents, not merely the skeptic's flagged subset.
+Follow [RESEARCH_WORKFLOW.md](../frameworks/RESEARCH_WORKFLOW.md). The researcher uses the prescribed source mix, separates facts and attributed statements from speculation, and cross-checks consequential claims. The skeptic produces a short ranked issue list. The fact-checker checks the complete report's numbers, quotes, and paraphrases against the original documents, not merely the skeptic's flagged subset.
 
 Each evidence claim needs a locator, checked version, verification state, reviewer identity, and check time. Record source-faithfulness and independent corroboration separately. Inaccessible originals, missing context, and unperformed checks remain explicit. A successful fetch is not factual verification.
 

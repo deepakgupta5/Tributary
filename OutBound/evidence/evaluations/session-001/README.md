@@ -58,7 +58,7 @@ No dependency installation was required. Host: macOS 27.2 arm64; Python 3.12.10.
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 evaluations/session-001/reproduce.py replay --out out/session-001-reproduction
+python3 OutBound/evidence/evaluations/session-001/reproduce.py replay --out out/session-001-reproduction
 ```
 
 The output directory must contain no previous evaluation database. The replay reads frozen outputs, verifies reconstructed packets, persists all stages, makes admission decisions, exports Markdown/JSON/JSONL and scores the saved results. It does not run another assistant or regenerate semantic judgments. Timestamps for database insertion and scoring differ on replay; saved packet contents, outputs and substantive score sections match the original.

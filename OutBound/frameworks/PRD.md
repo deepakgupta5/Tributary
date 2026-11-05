@@ -93,7 +93,7 @@ These observations are investigation prompts. Record the underlying facts, possi
 ## Source breadth and coverage
 Use official records together with city/community newspapers, provincial/state and regional media, local radio/TV, sector publications, podcasts, newsletters, organizational publications, and funder/community networks. Generic search is one discovery channel, not the coverage strategy.
 
-Track coverage by province/territory or state, city/region, source type, language, and last successful check. Record unserved areas and access failures. Headquarters location and area served are distinct fields. Source feasibility is defined in [SOURCES.md](SOURCES.md).
+Track coverage by province/territory or state, city/region, source type, language, and last successful check. Record unserved areas and access failures. Headquarters location and area served are distinct fields. Source feasibility is defined in [SOURCES.md](../research/SOURCES.md).
 
 ## Required information
 Each finding must carry:
@@ -154,7 +154,7 @@ Support deep investigation with permitted source context, original links, dated 
 Use human feedback to refine documented collection and filtering rules. In the source trial, measure investigation time and usefulness without treating speed alone as success. Test whether evidence organization improves the owner's ability to assess a prospect, including plausible alternative explanations. Coding-session roles prepare research and review outputs; the owner manually examines results and makes commercial decisions.
 
 ## Development feedback record
-Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Record owner-provided or owner-approved product feedback, changed requirements/implementation, related commits, and actual validation evidence. Assistant judgments, review commentary, execution prompts, and instructions to other assistants remain in owner chat and are excluded from repository records.
+Confirmed: record material owner feedback on assistant outputs and resulting development changes in [DEVELOPMENT_FEEDBACK.md](../tracker/DEVELOPMENT_FEEDBACK.md), linked to relevant commits, issues, checks, and pull requests. Record owner-provided or owner-approved product feedback, changed requirements/implementation, related commits, and actual validation evidence. Assistant judgments, review commentary, execution prompts, and instructions to other assistants remain in owner chat and are excluded from repository records.
 
 This records how the owner steers development and improves role instructions. Coding-session role execution follows the current scope. Private prospect judgments and external program ratings remain separate. Any unaided ratings/reasoning are authored by the owner under applicable program rules.
 
@@ -219,4 +219,4 @@ This is the authoritative open-product-decision register. Resolved requirements 
 | Q9 | Exact schema/runtime contracts, demonstrated role-context separation, and repository license. Python + SQLite, JSON/JSONL interchange, and Markdown-first reporting are accepted by D046-D049. | Detailed contracts before the authorized synthetic build; actual isolation evidence before claiming enforcement or independence; license before claiming usage/distribution rights. No provider migration or local model benchmark is required. |
 | Q10 | Seven-project-day start date and actual owner availability for usefulness review. | Schedule when work begins; a missing owner review is recorded separately and cannot be invented. |
 
-See [ROADMAP.md](ROADMAP.md) for stages and [DECISIONS.md](DECISIONS.md) for agreed decisions.
+See [ROADMAP.md](../tracker/ROADMAP.md) for stages and [DECISIONS.md](../../decisions/DECISIONS.md) for agreed decisions.

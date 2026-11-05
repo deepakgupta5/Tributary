@@ -35,3 +35,21 @@ Owner reasoning is recorded only when supplied by the owner. Synthetic fixture o
 | Instruction channel | "all instructions via me only", "in the chat" | D034-D035. |
 
 These entries record product decisions, not paid-session ratings or a claim of software validation. Private commercial judgments, credentials, client data, and restricted source content are excluded.
+
+## 2026-11-05: account visibility and review scale
+
+- Owner feedback: "Greater Vancouver Food Bank is valid..it should have been included" and "I cant do this one by one...need to go wode".
+- Requirement affected: discovered accounts remain visible independently of admission, signal review, and private commercial qualification; the default output must support organization-level review rather than requiring the owner to inspect audit records one by one.
+- Change: added a compact Markdown and JSON account worklist. It separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society appears in the worklist with verified historical identity and its current-status question visible. The detailed report and packets remain the audit trail.
+- Branch: `codex/day-1-account-worklist`.
+- Validation: 60 unit tests passed; the bounded live replay generated a 69-line worklist containing all three organizations, compared with the 573-line detailed audit report. JSON parsing and `git diff --check` passed.
+- Limitation: this Day 1 output uses the existing saved live session. Fresh broad collection and signal generation begin in later days of the seven-day plan.
+
+## 2026-11-05: evidence review and repository organization
+
+- Owner feedback: "all research needs to be stored" and the repository should be structured using the useful operating separation from the Fractional repository, adapted to Tributary rather than copied literally.
+- Requirement affected: external research must remain in the repository with sources, conclusions, evidence limits, and implementation implications. Operating material, run evidence, code, test data, decisions, examples, and owner-facing artifacts need clear homes.
+- Change: added `OutBound/research/SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md`; incorporated its week-one implications into `OutBound/frameworks/PROJECT_PLAN.md`; organized current material into `OutBound/frameworks`, `research`, `evidence`, `tracker`, `data`, and `archive`; retained standard code/test roots; reserved `Library` for actual reviewable artifacts; removed empty Fractional-specific placeholder directories that had no Tributary function.
+- Branch: `codex/day-1-account-worklist`.
+- Validation: 60 unit tests passed. The moved bounded-live replay reproduced a 69-line worklist and 573-line audit report. All local Markdown links resolved, all committed JSON parsed, `git diff --check` passed, and the retained-file scan found no PDF, CSV, spreadsheet, or SQLite/database artifact.
+- Limitation: the evidence review identifies transferable system practices and failure modes. It does not prove that any public event predicts nonprofit consulting purchases. Fresh operational runs and owner judgments remain necessary.

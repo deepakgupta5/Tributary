@@ -28,13 +28,17 @@ The two CSV downloads were temporary. Their URLs, byte counts, and SHA-256 hashe
 
 These findings help identify and begin understanding prospects: the registers establish exact identities, while the report/article add scale or program context. They do not establish a need for services, purchasing authority, available consulting budget, or willingness to engage.
 
+## Owner worklist
+
+`results/worklist.md` is the default review surface. It keeps every discovered account visible while separating identity, eligibility, signal review and private commercial relevance. Greater Vancouver Food Bank Society therefore remains in the account queue with a verified historical identity and an open current-status question. `results/report.md`, the exact packets and structured records remain the audit trail.
+
 ## Reproduce
 
 From the repository root:
 
 ```sh
 python3 -m unittest discover -s tests -v
-python3 live_runs/session-001/run.py --out /tmp/tributary-live-session-001
+python3 OutBound/evidence/live_runs/session-001/run.py --out /tmp/tributary-live-session-001
 ```
 
 The runner refuses to overwrite an existing output directory. It validates the three-organization limit, bounded evidence retention, and the Food Lifeline arithmetic; saves the exact packet and output for every checkpoint; exports Markdown, JSON, and JSONL; and deletes its temporary SQLite database.

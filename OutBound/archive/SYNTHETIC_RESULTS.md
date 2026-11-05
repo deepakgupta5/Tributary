@@ -8,9 +8,9 @@ The branch was created from the approved documentation commit in a fresh checkou
 
 ## Actual checks
 
-- `python3 -m unittest discover -s tests -v`: 49 tests passed on Python 3.12.10. The complete command output, including measured duration, is in [examples/tests.txt](../examples/tests.txt).
-- `python3 -m tributary.demo --out out/review-fixes-demo`: synthetic end-to-end demonstration completed; captured outputs are in [examples](../examples/).
-- `python3 -m tributary.demo --partial --out out/review-fixes-partial`: a partially checked report completed with 4 submitted entries, 3 completed checks, and 1 pending check for the campaign finding; its decision remains pending. Captured report and coverage summary are in [examples/partial](../examples/partial/).
+- `python3 -m unittest discover -s tests -v`: 49 tests passed on Python 3.12.10. The complete command output, including measured duration, is in [examples/tests.txt](../../examples/tests.txt).
+- `python3 -m tributary.demo --out out/review-fixes-demo`: synthetic end-to-end demonstration completed; captured outputs are in [examples](../../examples/).
+- `python3 -m tributary.demo --partial --out out/review-fixes-partial`: a partially checked report completed with 4 submitted entries, 3 completed checks, and 1 pending check for the campaign finding; its decision remains pending. Captured report and coverage summary are in [examples/partial](../../examples/partial/).
 - `git diff --check`: no whitespace errors.
 
 The suite covers stage order and bypass attempts on all three admission subject types, collection/QC execution separation checks, explicit context metadata, optional versus material issues, required claim/detail/issue accounting, unavailable locators, stale inputs, upstream review changes, transitive material-change rechecks, dependency-cycle rollback, persistence, duplicate/repeated runs, malformed/unknown dates, interrupted ingestion recovery, answer-key separation, numeric context/arithmetic, evaluator counters, network refusal during the demo, and export reconciliation. The network refusal check patches socket creation; the application itself contains no network integration.
@@ -45,7 +45,7 @@ The finding after correction attributes CAD 110000 to the corrected bulletin and
 | Rechecks and reconciliation | Dependency fingerprints, history and audit functions; demonstrated before/after correction and rerun. |
 | Reproducible demonstration | Commands in README and SYNTHETIC_IMPLEMENTATION.md; executed. |
 | Markdown/JSON/JSONL | `examples/report.md`, `records.json`, `records.jsonl`, `demonstration.json`; generated and export-row accounting checked. |
-| Known-answer evaluation support | Separate `fixtures/role_inputs.json` and `fixtures/expected.json`; evaluator tested with deliberately flawed saved verdicts. |
+| Known-answer evaluation support | Separate `OutBound/data/fixtures/role_inputs.json` and `OutBound/data/fixtures/expected.json`; evaluator tested with deliberately flawed saved verdicts. |
 | Actual coding-session role evaluation | Not performed. No accuracy or independent-review result claimed. |
 | Live feasibility and owner usefulness | Not performed; separate review gates. |
 

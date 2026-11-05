@@ -9,7 +9,7 @@ from unittest.mock import patch
 
 from tributary.core import Store, STAGES, Invalid
 
-ROOT = Path(__file__).resolve().parents[1] / 'evaluations/session-001'
+ROOT = Path(__file__).resolve().parents[1] / 'OutBound/evidence/evaluations/session-001'
 spec = importlib.util.spec_from_file_location('session_reproduce', ROOT / 'reproduce.py')
 session = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(session)

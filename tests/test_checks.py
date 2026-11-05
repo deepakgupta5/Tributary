@@ -20,7 +20,7 @@ class CheckTests(unittest.TestCase):
         with self.assertRaises(Invalid): amount_equal(self.amount('NaN'), self.amount())
 
     def test_evaluator_counts_missing_false_verification_and_abstention(self):
-        expected = json.loads(Path('fixtures/expected.json').read_text())
+        expected = json.loads(Path('OutBound/data/fixtures/expected.json').read_text())
         # Deliberately flawed saved results test scoring, not AI reasoning.
         observed = [{'id': 'correct', 'status': 'contradicted'}, {'id': 'target', 'status': 'verified'},
                     {'id': 'quote', 'status': 'contradicted'}, {'id': 'cause', 'status': 'unverifiable'},
@@ -34,6 +34,6 @@ class CheckTests(unittest.TestCase):
             with self.assertRaises(Invalid): evaluate({'a': 'verified'}, rows)
 
     def test_expected_answers_are_separate_artifact(self):
-        inputs = json.loads(Path('fixtures/role_inputs.json').read_text())
-        self.assertEqual({c['id'] for c in inputs['claims']}, set(json.loads(Path('fixtures/expected.json').read_text())))
+        inputs = json.loads(Path('OutBound/data/fixtures/role_inputs.json').read_text())
+        self.assertEqual({c['id'] for c in inputs['claims']}, set(json.loads(Path('OutBound/data/fixtures/expected.json').read_text())))
         self.assertNotIn('contradicted', json.dumps(inputs))
