@@ -1,0 +1,114 @@
+{
+  "flags": [
+    {
+      "account_id": "132168162RR0001",
+      "reason": "The account describes pressure and successful supply responses together. It does not establish a current capacity shortfall.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-05cb7c7fb182aa89f8d18520",
+      "status": "supported_context",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "Past staffing loss and demand change are attributed facts. Expanded distribution and volunteer response prevent an inference of a currently unresolved operating bottleneck.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-5eff20a2203c656f9bb5c616",
+      "status": "supported_context",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_id": "WA:familyworks",
+      "reason": "The profile supports attributed growth and matching activity. It cannot establish whether a completed campaign overperformed or underperformed.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-606f8881901d692f838825a8",
+      "status": "research_required",
+      "url": "https://www.wagives.org/organization/Familyworksseattle"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "The leadership appointment is supported. Its wording describes improving capability and does not substantiate the operational-strain interpretation.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-6e9ef48a6633133f4c83bdca",
+      "status": "unsupported",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "reason": "The explicit statement that donations were keeping up contradicts treating this article as evidence of a donation shortfall. Concern was prospective, not a measured later outcome.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-82ce9ff52cb9b7c94898de91",
+      "status": "contradicted",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "The historical funding loss is supported. Strong donor response is material counterevidence; the article supplies no current deficit, runway or unfilled funding gap.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+      "status": "supported_context",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_id": "911090450",
+      "reason": "This is attributed campaign performance, not evidence that the gala missed its target or that fundraising was difficult.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-e30d24146a3d0e4d851f7181",
+      "status": "supported_context",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_id": "911090450",
+      "reason": "The fundraiser name triggered a false pressure flag. The source supplies a successful fundraising amount, not declining donations.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8",
+      "status": "unsupported",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_id": "272172486",
+      "reason": "The attributed funding-cut statement is supported, but its timing and current material effect remain unfinished research. The current primary site confirms identity and active fundraising, not the cut period.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "signal_id": "signal-fd575c91233a256a8e898589",
+      "status": "research_required",
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork"
+    }
+  ],
+  "source_checks": [
+    {
+      "at": "2026-11-06T04:51:10.791112+00:00",
+      "http": 403,
+      "outcome": "blocked",
+      "reason": "HTTP 403",
+      "source": "account-85ed1a4637d7",
+      "url": "https://philanthropy.org/990/report/831742878/hip-hop-is-green"
+    },
+    {
+      "at": "2026-11-06T04:51:10.791112+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt disallows this endpoint",
+      "source": "contracts",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/awarded-contracts/records?where=vendor_name%20like%20%27food%20bank%27&order_by=award_date%20desc&limit=100"
+    },
+    {
+      "at": "2026-11-06T04:51:10.791112+00:00",
+      "outcome": "failed",
+      "reason": "CalledProcessError: Command '['curl', '-sSL', '--max-time', '60', '--max-filesize', '35000000', '-H', 'If-None-Match: \"0x8DEBCCADCB5C92E\"', '-H', 'If-Modified-Since: Thu, 28 May 2026 15:07:40 GMT', '-D', '/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tmpxaq0eeyi/headers', '-w', '\\n%{http_code}', 'https://open.canada",
+      "source": "cra",
+      "url": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    {
+      "at": "2026-11-06T04:51:10.791112+00:00",
+      "outcome": "held",
+      "reason": "First-party report processing held under the inspected personal-use terms. Monitor the account through the official register.",
+      "source": "gvfb",
+      "url": "https://foodbank.bc.ca/2025-impact-report/"
+    },
+    {
+      "at": "2026-11-06T04:51:10.791112+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt unavailable, HTTP 403",
+      "source": "review-source-9483275a7a63",
+      "url": "https://northdeltarotary.ca/"
+    }
+  ]
+}

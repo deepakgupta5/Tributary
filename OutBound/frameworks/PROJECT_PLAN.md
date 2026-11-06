@@ -7,7 +7,7 @@ This plan replaces the earlier seven-day design and synthetic-foundation schedul
 
 ## Delivery status on November 5, 2026
 
-Days 1–4 are merged in `main`, confirmed at `1002f1dea10e1b412595ce789236c8f0a3a5d862`. Day 2 [collection](../evidence/day-2/README.md), Day 3 [identity resolution](../evidence/day-3/README.md), and Day 4 [non-award pressure observations](../evidence/day-4/pressure-report.md) are preserved. This Day 5 review branch adds a [source-reviewed daily worklist](../evidence/day-5/worklist.md), with [versioned review records, private feedback persistence, validation and operating limitations](../evidence/day-5/README.md). Day 6 fresh-run/recovery integration and Day 7 separate-day owner usefulness testing remain pending.
+Days 1–5 are merged into `main`, confirmed at merge `eb295bb9181cea6922608c94d023d17fa4d408ba`, which contains Day 5 commit `de4c852`. The [Day 5 reviewed worklist](../evidence/day-5/worklist.md) remains the reviewed baseline. This Day 6 branch adds a [live daily command, repeat and recovery evidence](../evidence/day-6/README.md), with new/changed candidates explicitly pending review. Native Mac scheduler registration is blocked by the managed execution environment. An app morning fallback is registered, but future Mac binding and a later scheduled collection are unverified. Day 6 is partial until that registration/execution gap is resolved; Day 7 separate-day owner usefulness testing remains pending.
 
 ## Objective and Day X
 
@@ -79,3 +79,7 @@ Zero additional monetary operating cost remains the constraint. Use English-lang
 Current coding-session reasoning is supervised. A scheduled local collector may gather and organize candidates, but the repository does not yet provide an unattended model reviewer. The Day X worklist therefore distinguishes automatically collected candidates from supervised, checked findings. If a daily supervised pass is necessary, measure its actual time and report when it was skipped. Do not represent unreviewed candidates as independently verified or outbound-ready.
 
 After Day X, continue daily collection and worklist generation, weekly owner feedback and source/geographic expansion, and weekly reconciliation of coverage, missed signals, duplicates, and review backlog. Prioritize demonstrated prospect usefulness over register size or checkpoint volume.
+
+## Day 6 source-review delivery update
+
+The missing review stage is implemented in `tributary/source_review.py` and the existing desktop daily job. [Nine dispositions and the gated owner worklist](../evidence/day-6/source-review/README.md) replace the earlier raw-candidate attention view. Nine flags were reviewed once across seven originals, producing zero owner-attention cards. An actual live repeat reused all nine verdicts with no new review records. Unfinished claim checks and blocked/held sources remain internal. The zero-additional-cost app prompt now requires substantive original reading and structured validation before owner publication; no paid inference adapter was added. Native scheduling and a later scheduled execution remain unverified, so Day 6 retains that operational blocker.

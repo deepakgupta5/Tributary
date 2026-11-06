@@ -1,0 +1,7 @@
+[
+ {"id":"clark-news","url":"https://www.clarkcountyfoodbank.org/news-updates?format=rss","kind":"feed","account_id":"911307564","publisher":"Clark County Food Bank","geography":"WA"},
+ {"id":"surrey-news","url":"https://surreyfoodbank.org/feed/","kind":"feed","account_id":"132168162RR0001","publisher":"Surrey Food Bank","geography":"BC"},
+ {"id":"lifeline-news","url":"https://foodlifeline.org/feed/?post_type=article","kind":"feed","account_id":"911090450","publisher":"Food Lifeline","geography":"WA"},
+ {"id":"compass-news","url":"https://www.compasshousingalliance.org/feed/","kind":"feed","account_id":"WA:compass housing alliance","publisher":"Compass Housing Alliance","geography":"WA"},
+ {"id":"citynews-local","url":"https://vancouver.citynews.ca/feed/","kind":"feed","publisher":"CityNews Vancouver","geography":"BC"}
+]

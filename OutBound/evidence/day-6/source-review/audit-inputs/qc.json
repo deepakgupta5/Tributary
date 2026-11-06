@@ -1,0 +1,47 @@
+{
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Director interview, December 2025; compare the two retained paragraphs from the same report.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Giving profile is attributable to the organization. Publication date missing.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "President's March report and staffing, demand and response locators are present.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "The same March report also supports a separate funding question.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "June interview is a separate Surrey publication and period.",
+    "result": "pass"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "VP announcement is separate from the capacity report despite sharing its date.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "October article, September gala and amount share one source.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Same gala source; check the separate pressure interpretation.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Matching-donor acknowledgement and service-demand comparison appear in different passages; reporting year unclear.",
+    "result": "pass"
+  }
+}

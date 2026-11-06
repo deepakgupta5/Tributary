@@ -1,0 +1,14 @@
+{
+  "id": "Automation_ff4b60d7f0a081919b220907ffc29cd0",
+  "is_enabled": true,
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/Vancouver:20261106T080500\nRRULE:FREQ=DAILY;BYHOUR=7;BYMINUTE=30\nEND:VEVENT",
+  "timing_mode": "flexible_schedule",
+  "default_timezone": "America/Vancouver",
+  "environment_selection": "inherited",
+  "environments": null,
+  "last_run": null,
+  "next_run_time": null,
+  "prompt": "Run Tributary's existing zero-additional-cost daily workflow on the Mac where available. Operating checkout: /Users/deepakgupta/Documents/ChatGPT/Non Profits Signals/Tributary-day6. Follow OutBound/frameworks/DESKTOP_SOURCE_REVIEW.md in that checkout. Run python3 scripts/run_daily.py --scheduled, then read out/daily/latest/source-review-request.json and the locally cached permitted originals once per account/document. Use the included desktop assistant to substantively review every new or changed claim, recording exact factual observations, paragraph locators/hashes, dates/reporting periods, comparison bases, contradictory evidence and separate commercial relevance. Return structured desktop-verdicts.json for python3 -m tributary.source_review complete to validate and save before publishing the owner worklist. Reuse unchanged verdicts and preserve private feedback against reviewed evidence fingerprints. Keep unsupported, blocked and unfinished checks in the internal research queue, with an outstanding count. Promote only supported current evidence with a concrete commercial decision or investigation step. If the reviewer or Mac cannot run, report collection status and the last reviewed worklist with its original dates; never describe an unreviewed run as freshly verified. Report actual new-account, new/changed-signal and owner-attention counts. Distinguish this job's actual execution from the prior manual proof. Do not use paid model APIs, purchase access, bypass source restrictions, change the schedule, commit, push, merge or send outreach.",
+  "verified_updated_at": "2026-11-06T05:50:52.718788+00:00",
+  "execution_claim": "Prompt updated and read back; later scheduled Mac execution unverified."
+}

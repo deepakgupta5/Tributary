@@ -1,0 +1,101 @@
+[
+  {
+    "account_id": "132168162RR0001",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-05cb7c7fb182aa89f8d18520/cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-05cb7c7fb182aa89f8d18520",
+    "status": "pending",
+    "version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225"
+  },
+  {
+    "account_id": "911307564",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-5eff20a2203c656f9bb5c616/79fc07a58324e83058c0eb01f9000147835508511caf3a47ad8277ee8fb32073",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-5eff20a2203c656f9bb5c616",
+    "status": "superseded",
+    "version": "79fc07a58324e83058c0eb01f9000147835508511caf3a47ad8277ee8fb32073"
+  },
+  {
+    "account_id": "911307564",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-5eff20a2203c656f9bb5c616/941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-5eff20a2203c656f9bb5c616",
+    "status": "pending",
+    "version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de"
+  },
+  {
+    "account_id": "WA:familyworks",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-606f8881901d692f838825a8/274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-606f8881901d692f838825a8",
+    "status": "pending",
+    "version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d"
+  },
+  {
+    "account_id": "911307564",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-6e9ef48a6633133f4c83bdca/8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-6e9ef48a6633133f4c83bdca",
+    "status": "pending",
+    "version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983"
+  },
+  {
+    "account_id": "132168162RR0001",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-82ce9ff52cb9b7c94898de91/476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-82ce9ff52cb9b7c94898de91",
+    "status": "pending",
+    "version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6"
+  },
+  {
+    "account_id": "911307564",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-bc6d441f41e791b2b95e57c2/acf2aa14674f5a131aab5bf020f33a76143f30666229e6f0e92fc475ef1b2d79",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+    "status": "superseded",
+    "version": "acf2aa14674f5a131aab5bf020f33a76143f30666229e6f0e92fc475ef1b2d79"
+  },
+  {
+    "account_id": "911307564",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-bc6d441f41e791b2b95e57c2/f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+    "status": "pending",
+    "version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb"
+  },
+  {
+    "account_id": "911090450",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-e30d24146a3d0e4d851f7181/774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-e30d24146a3d0e4d851f7181",
+    "status": "pending",
+    "version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4"
+  },
+  {
+    "account_id": "911090450",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-e9eb4b0e748f8cc244e0a9a8/5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8",
+    "status": "pending",
+    "version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf"
+  },
+  {
+    "account_id": "272172486",
+    "created_at": "2026-11-06T04:49:45.565009+00:00",
+    "id": "signal-fd575c91233a256a8e898589/af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac",
+    "reason": "Changed or newly observed evidence requires researcher, skeptic and fact-checker review; never auto-approved.",
+    "signal_id": "signal-fd575c91233a256a8e898589",
+    "status": "pending",
+    "version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac"
+  }
+]

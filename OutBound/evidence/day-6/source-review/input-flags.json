@@ -1,0 +1,218 @@
+{
+  "before_attention_count": 6,
+  "signals": [
+    {
+      "account_id": "132168162RR0001",
+      "baseline_replay": true,
+      "category": "operational_strain",
+      "event_date": null,
+      "evidence_by_source": {
+        "review-source-96b480d2d557": "925350e3528d53da8f6ff0d136354a58fbab1b113b0523b87cb0e436600b59e6"
+      },
+      "evidence_fingerprint": "4c1965ca5f0d78ab4b391d4134faf9da7e92f94f25eb33a7b06d36f107e6d5fb",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-05cb7c7fb182aa89f8d18520",
+      "last_seen": "2026-11-06T04:51:10.791112+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [],
+      "publication_date": "2025-12-25",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "review-source-96b480d2d557",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full",
+      "version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225"
+    },
+    {
+      "account_id": "911307564",
+      "baseline_replay": true,
+      "category": "operational_strain",
+      "event_date": null,
+      "evidence_by_source": {
+        "account-2d05d1c736dc": "78296dc7b74bb7524e53194691b902990c0f951b7a2780f1883a875787e68fd9",
+        "clark-news": "680f988c5d095d5bed3be0db56c23e11d2246d0b6f057cd559c6e42530439688"
+      },
+      "evidence_fingerprint": "6bc04bf07b558a9e7ebdb2c5706ad52f96a1224af6bb4d8cebe91189dac88c2a",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-5eff20a2203c656f9bb5c616",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [
+        "79fc07a58324e83058c0eb01f9000147835508511caf3a47ad8277ee8fb32073"
+      ],
+      "publication_date": "2026-03-20",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "account-2d05d1c736dc",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+      "version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de"
+    },
+    {
+      "account_id": "WA:familyworks",
+      "baseline_replay": false,
+      "category": "campaign_performance",
+      "event_date": null,
+      "evidence_by_source": {
+        "account-f332a7575c6c": "46645c9cde3ad73fb5b16cf1e6532174ef6f03b4bc480f78996207356c16586c"
+      },
+      "evidence_fingerprint": "570e4d0087a27af537d947410b660cfabe2523a90fc97e42ebc2827d63d6d414",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-606f8881901d692f838825a8",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [],
+      "publication_date": null,
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "account-f332a7575c6c",
+      "url": "https://www.wagives.org/organization/Familyworksseattle",
+      "version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d"
+    },
+    {
+      "account_id": "911307564",
+      "baseline_replay": false,
+      "category": "operational_strain",
+      "event_date": null,
+      "evidence_by_source": {
+        "clark-news": "7156a8fd5bc5b45213b9d85e89a650827b1a9ada2bba9eee9d9fe62105c42183"
+      },
+      "evidence_fingerprint": "cd93b6ff713860195fa660ffa912afd978288a201fa067feaddff1a5e3c6aab0",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-6e9ef48a6633133f4c83bdca",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "RSS/Atom item https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp",
+      "prior_versions": [],
+      "publication_date": "2026-03-20",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "clark-news",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp",
+      "version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "baseline_replay": true,
+      "category": "fundraising_pressure",
+      "event_date": null,
+      "evidence_by_source": {
+        "account-d60391ed0ba8": "64ca60ab84579a7bec541480101e82495fab1c574dc06581a6686d7de9e49e3e"
+      },
+      "evidence_fingerprint": "81bc9ebd3f8197c09b07d036d2649692ae2f14fe6f54994ceb8fe7481e119fd1",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-82ce9ff52cb9b7c94898de91",
+      "last_seen": "2026-11-06T04:51:10.791112+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [],
+      "publication_date": "2026-06-11",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "account-d60391ed0ba8",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending",
+      "version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6"
+    },
+    {
+      "account_id": "911307564",
+      "baseline_replay": true,
+      "category": "financial_pressure",
+      "event_date": null,
+      "evidence_by_source": {
+        "account-2d05d1c736dc": "5d70673108978ed34e2e0ef9037cc6db5eee7633ee078d883ba7d09eb04421cc",
+        "clark-news": "d6fcded35737ab42cf1bc674e9b828f363d68de5a1f6148d2ceda400511aa9b3"
+      },
+      "evidence_fingerprint": "3cd8fd577805d2b554da08f8fefae6b8116c01984fb8d54d7cab900b350e0fcb",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-bc6d441f41e791b2b95e57c2",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [
+        "acf2aa14674f5a131aab5bf020f33a76143f30666229e6f0e92fc475ef1b2d79"
+      ],
+      "publication_date": "2026-03-20",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "account-2d05d1c736dc",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+      "version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb"
+    },
+    {
+      "account_id": "911090450",
+      "baseline_replay": false,
+      "category": "campaign_performance",
+      "event_date": null,
+      "evidence_by_source": {
+        "lifeline-news": "fb3594eb050c1d7ea3afe903f42622ef37f4b584e527be136f47770fd141bcb2"
+      },
+      "evidence_fingerprint": "7e40e1d231a27dd131b30afb2acdaa25bb55751b898ae683c32582b35c7cff2c",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-e30d24146a3d0e4d851f7181",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "RSS/Atom item https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+      "prior_versions": [],
+      "publication_date": "2026-10-20",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "lifeline-news",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+      "version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4"
+    },
+    {
+      "account_id": "911090450",
+      "baseline_replay": false,
+      "category": "fundraising_pressure",
+      "event_date": null,
+      "evidence_by_source": {
+        "lifeline-news": "8d06c9f8f28db6d706dc4fe8d57fdd467cb3c0f4b6a7956e67c9de0d881345ed"
+      },
+      "evidence_fingerprint": "7e40e1d231a27dd131b30afb2acdaa25bb55751b898ae683c32582b35c7cff2c",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-e9eb4b0e748f8cc244e0a9a8",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "RSS/Atom item https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+      "prior_versions": [],
+      "publication_date": "2026-10-20",
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "lifeline-news",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+      "version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf"
+    },
+    {
+      "account_id": "272172486",
+      "baseline_replay": false,
+      "category": "financial_pressure",
+      "event_date": null,
+      "evidence_by_source": {
+        "account-e1d176526de1": "dd2333e810aa54009dc7493c585428208842975c9092c6147ef8212d90cd9bd6"
+      },
+      "evidence_fingerprint": "1d18fccf9a916b558ddd9c072de29e80e7cf74acaf65dca3d93687c68e7e8b6f",
+      "evidence_quality": "unreviewed",
+      "fact": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+      "first_seen": "2026-11-06T04:49:45.565009+00:00",
+      "id": "signal-fd575c91233a256a8e898589",
+      "last_seen": "2026-11-06T04:49:45.565009+00:00",
+      "locator": "Published page, matched category wording",
+      "prior_versions": [],
+      "publication_date": null,
+      "review_status": "pending",
+      "rule_version": "day6-v2",
+      "source_id": "account-e1d176526de1",
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork",
+      "version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac"
+    }
+  ]
+}

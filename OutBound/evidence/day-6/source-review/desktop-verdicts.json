@@ -1,0 +1,366 @@
+{
+  "contract": "source-review-v1",
+  "packet_id": "e8fb926a76948d569c912e4d27b5d3447ee93a8bc7c943edd6cf16179a4c256b",
+  "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+  "verdicts": [
+    {
+      "candidate_version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225",
+      "commercial_reason": "Historical supporter and partner coordination context could fit Autonomy Bridge, but no present decision is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Director-attributed distribution comparison, not audited tonnage or an unmet-capacity measure",
+      "contradictory_evidence": [
+        {
+          "hash": "b412b666047790cb61d8b163194e12a0a3ccc8712eb2d79acbac9d8921b98216",
+          "locator": "passage:b412b666047790cb61d8",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "1542764672bb8dcf312b3fe6e8ab491f70ce3eed83bd51bc02581bcf5a5d6a78",
+      "evidence": [
+        {
+          "hash": "31ed396512a53ce2fba738f69172e00f8df6740ca7478d7068ce03b948a789f6",
+          "locator": "passage:31ed396512a53ce2fba7",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "b412b666047790cb61d8b163194e12a0a3ccc8712eb2d79acbac9d8921b98216",
+          "locator": "passage:b412b666047790cb61d8",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Director-attributed distribution comparison, not audited tonnage or an unmet-capacity measure",
+      "fact_reason": "The account describes pressure and successful supply responses together. It does not establish a current capacity shortfall.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Find a dated post-June 2026 demand, donation or distribution update before reopening this account for the owner.",
+      "observation": "The director described fundraising as just sufficient, and reported improved food availability and selection and twice as much food distributed as at the same time the previous year.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 25 December 2025; year-to-date comparison to the same point in 2024",
+      "researcher_assessment": "The director described fundraising as just sufficient, and reported improved food availability and selection and twice as much food distributed as at the same time the previous year.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-05cb7c7fb182aa89f8d18520",
+      "skeptic_assessment": "The account describes pressure and successful supply responses together. It does not establish a current capacity shortfall.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac",
+      "commercial_reason": "Supporter and revenue diversification could fit Autonomy Bridge if a current gap is verified. The owner should not be asked to resolve the missing source period.",
+      "commercial_relevance": "research_required",
+      "comparison_basis": "No amount, financial-year comparator, remaining gap or demand baseline given",
+      "contradictory_evidence": [],
+      "disposition": "research_required",
+      "document_version": "d58512676f86c123ea7aa78a07bf4cabdf168bca554b0b9374fad397694f0c96",
+      "evidence": [
+        {
+          "hash": "71c62c9f08289f69aca4d634a3248391a298ced4ac8bf4735d73f79840caf2c4",
+          "locator": "passage:71c62c9f08289f69aca4",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. No amount, financial-year comparator, remaining gap or demand baseline given",
+      "fact_reason": "The attributed funding-cut statement is supported, but its timing and current material effect remain unfinished research. The current primary site confirms identity and active fundraising, not the cut period.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Locate a dated original budget or funding announcement establishing the cut period, amount and current residual need.",
+      "observation": "Good Business Network of Washington, formerly Seattle Good Business Network, says it faces public funding cuts while demand grows. This is a substantive self-report, not an inference from a donation button.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Undated giving profile; funding-cut period and continuing status not established",
+      "researcher_assessment": "Good Business Network of Washington, formerly Seattle Good Business Network, says it faces public funding cuts while demand grows. This is a substantive self-report, not an inference from a donation button.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-fd575c91233a256a8e898589",
+      "skeptic_assessment": "The attributed funding-cut statement is supported, but its timing and current material effect remain unfinished research. The current primary site confirms identity and active fundraising, not the cut period.",
+      "source_checks_complete": false,
+      "time_status": "undated"
+    },
+    {
+      "candidate_version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de",
+      "commercial_reason": "Past strain could make supporter and operating cadence relevant; current unmet need is unproven.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Self-reported client increase without a stated numeric baseline; volunteer inquiries up 732% versus the same time the preceding year",
+      "contradictory_evidence": [
+        {
+          "hash": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca",
+          "locator": "passage:5191c07c04a5e18690b0",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        },
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "evidence": [
+        {
+          "hash": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0",
+          "locator": "passage:8e9ebb120ecc4902b2bd",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca",
+          "locator": "passage:5191c07c04a5e18690b0",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Self-reported client increase without a stated numeric baseline; volunteer inquiries up 732% versus the same time the preceding year",
+      "fact_reason": "Past staffing loss and demand change are attributed facts. Expanded distribution and volunteer response prevent an inference of a currently unresolved operating bottleneck.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Locate dated current staffing coverage and distribution-capacity evidence, with the client comparison denominator.",
+      "observation": "Clark reported losing nine AmeriCorps team members and a 56% increase in clients during a SNAP disruption, while expanding distribution and receiving sharply higher volunteer inquiries.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Article published 20 March 2026, modified 9 July 2026; precise disruption and comparison window unspecified",
+      "researcher_assessment": "Clark reported losing nine AmeriCorps team members and a 56% increase in clients during a SNAP disruption, while expanding distribution and receiving sharply higher volunteer inquiries.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-5eff20a2203c656f9bb5c616",
+      "skeptic_assessment": "Past staffing loss and demand change are attributed facts. Expanded distribution and volunteer response prevent an inference of a currently unresolved operating bottleneck.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb",
+      "commercial_reason": "Historical revenue replacement may fit Autonomy Bridge, but a current supporter-revenue decision is not established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Funding loss is an absolute amount; donor support is a percentage with no dollar denominator. They cannot be netted to infer a residual deficit.",
+      "contradictory_evidence": [
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "evidence": [
+        {
+          "hash": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0",
+          "locator": "passage:8e9ebb120ecc4902b2bd",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Funding loss is an absolute amount; donor support is a percentage with no dollar denominator. They cannot be netted to infer a residual deficit.",
+      "fact_reason": "The historical funding loss is supported. Strong donor response is material counterevidence; the article supplies no current deficit, runway or unfilled funding gap.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Check a dated financial update for remaining gap, recurring revenue and reporting period before owner escalation.",
+      "observation": "Clark reported losing nearly USD900,000 in government funding, while donor support rose 132% compared with the same time the previous year.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 20 March 2026, modified 9 July 2026; funding-loss interval and financial year unspecified",
+      "researcher_assessment": "Clark reported losing nearly USD900,000 in government funding, while donor support rose 132% compared with the same time the previous year.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+      "skeptic_assessment": "The historical funding loss is supported. Strong donor response is material counterevidence; the article supplies no current deficit, runway or unfilled funding gap.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6",
+      "commercial_reason": "No current fundraising difficulty is established. The latest dated comparative demand/donation evidence found ends on 11 June 2026; later operating calendars do not establish a subsequent demand, donation or capacity change.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "Director-attributed demand versus donations, without donation totals or a documented deficit",
+      "contradictory_evidence": [
+        {
+          "hash": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "locator": "passage:b75b25240ab18e31d167",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "contradicted",
+      "document_version": "047d7ebb3e41b7148cba2f0127bacd84ae23dc417439e3d5239f0e7d0af44912",
+      "evidence": [
+        {
+          "hash": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "locator": "passage:b75b25240ab18e31d167",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Director-attributed demand versus donations, without donation totals or a documented deficit",
+      "fact_reason": "The explicit statement that donations were keeping up contradicts treating this article as evidence of a donation shortfall. Concern was prospective, not a measured later outcome.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Find a later original report that measures the summer or later outcome; do not ask the owner to decide from a forecast.",
+      "observation": "On 11 June Surrey said donations were keeping up with demand, alongside concern about the coming summer.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 11 June 2026; current position then and prospective summer concern",
+      "researcher_assessment": "On 11 June Surrey said donations were keeping up with demand, alongside concern about the coming summer.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-82ce9ff52cb9b7c94898de91",
+      "skeptic_assessment": "The explicit statement that donations were keeping up contradicts treating this article as evidence of a donation shortfall. Concern was prospective, not a measured later outcome.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983",
+      "commercial_reason": "Leadership context alone provides no current operating problem for Autonomy Bridge to investigate.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "Qualitative leadership and capability announcement; no service failure, backlog or capacity-deficit comparator",
+      "contradictory_evidence": [
+        {
+          "hash": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d",
+          "locator": "passage:9d6d27b31c0e9db08511",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "unsupported",
+      "document_version": "1eda19734934289957488abeaf8ac999c61bfaa49a4e1f51c8b0a69a8b19a436",
+      "evidence": [
+        {
+          "hash": "68f2d8aee1ddea20aafad3f4cbaed8eb5fa6763f2682e3c6d22f9e7519c55e52",
+          "locator": "passage:68f2d8aee1ddea20aafa",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d",
+          "locator": "passage:9d6d27b31c0e9db08511",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Qualitative leadership and capability announcement; no service failure, backlog or capacity-deficit comparator",
+      "fact_reason": "The leadership appointment is supported. Its wording describes improving capability and does not substantiate the operational-strain interpretation.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Suppress this strain interpretation. Reopen only on separate dated evidence of an unresolved operational problem.",
+      "observation": "Clark appointed Brent Derocher Vice President of Operations after eight years with the organization, describing stronger processes, collaboration and technology.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 20 March 2026, modified 9 July 2026; appointment date not separately established",
+      "researcher_assessment": "Clark appointed Brent Derocher Vice President of Operations after eight years with the organization, describing stronger processes, collaboration and technology.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-6e9ef48a6633133f4c83bdca",
+      "skeptic_assessment": "The leadership appointment is supported. Its wording describes improving capability and does not substantiate the operational-strain interpretation.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4",
+      "commercial_reason": "A successful campaign offers supporter-engagement context. No concrete present commercial investigation is supported.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Reported amount raised, without a prior-year gala result or gala target. Other Hunger Action Month totals are separate and are not added to this figure.",
+      "contradictory_evidence": [],
+      "disposition": "supported_context",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Reported amount raised, without a prior-year gala result or gala target. Other Hunger Action Month totals are separate and are not added to this figure.",
+      "fact_reason": "This is attributed campaign performance, not evidence that the gala missed its target or that fundraising was difficult.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Monitor for a dated campaign target, comparable prior result or documented post-campaign supporter retention issue.",
+      "observation": "Food Lifeline reported that its 18 September Dress Down Hunger gala raised more than USD400,000.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Article published 20 October 2026; September 18 gala in the article context.",
+      "researcher_assessment": "Food Lifeline reported that its 18 September Dress Down Hunger gala raised more than USD400,000.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-e30d24146a3d0e4d851f7181",
+      "skeptic_assessment": "This is attributed campaign performance, not evidence that the gala missed its target or that fundraising was difficult.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf",
+      "commercial_reason": "The pressure interpretation provides no basis for outbound preparation.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "A word in the event name was mistaken for a directional fundraising comparison; no falling-donation comparator exists",
+      "contradictory_evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Counterevidence to the pressure interpretation; do not omit the positive response or explicit contrary statement."
+        }
+      ],
+      "disposition": "unsupported",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. A word in the event name was mistaken for a directional fundraising comparison; no falling-donation comparator exists",
+      "fact_reason": "The fundraiser name triggered a false pressure flag. The source supplies a successful fundraising amount, not declining donations.",
+      "fact_verdict": "supported_attributed",
+      "next_research_step": "Suppress this claim and retain the campaign-performance observation separately.",
+      "observation": "Dress Down Hunger is the event name in Food Lifeline’s report of more than USD400,000 raised, not a statement that donations were down.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "20 October 2026 article describing the September 18 gala.",
+      "researcher_assessment": "Dress Down Hunger is the event name in Food Lifeline’s report of more than USD400,000 raised, not a statement that donations were down.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8",
+      "skeptic_assessment": "The fundraiser name triggered a false pressure flag. The source supplies a successful fundraising amount, not declining donations.",
+      "source_checks_complete": true,
+      "time_status": "historical"
+    },
+    {
+      "candidate_version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d",
+      "commercial_reason": "Supporter segmentation may be relevant, but campaign timing and outcome are source research, not an owner judgment.",
+      "commercial_relevance": "research_required",
+      "comparison_basis": "Household growth lacks its absolute baseline and exact period; widget goal progress lacks a closing date",
+      "contradictory_evidence": [],
+      "disposition": "research_required",
+      "document_version": "a73374c6c1b4fc3633b141d1f241298634bac9317d104fe3df7d63be5afc9261",
+      "evidence": [
+        {
+          "hash": "bf724af8a75ff7acd0e279166b047e135fb2cc6f561bd96515b6e2add2623d16",
+          "locator": "passage:bf724af8a75ff7acd0e2",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        },
+        {
+          "hash": "ca71b0ba2c1ade807a3f3699e2b7b006f57ba4792d2bcb5423cc64e3200c34b6",
+          "locator": "passage:ca71b0ba2c1ade807a3f",
+          "note": "Original paragraph supports the attributed observation; interpretation and limits recorded separately."
+        }
+      ],
+      "fact_checker_assessment": "Checked original paragraph locators, date metadata and comparison limits. Household growth lacks its absolute baseline and exact period; widget goal progress lacks a closing date",
+      "fact_reason": "The profile supports attributed growth and matching activity. It cannot establish whether a completed campaign overperformed or underperformed.",
+      "fact_verdict": "partly_supported",
+      "next_research_step": "Find the campaign closing date and dated final result, and identify the year and baseline of household growth.",
+      "observation": "The FamilyWorks giving profile thanks matching donors and describes nearly 40% more households seeking services last year. A live fundraising widget is a progress snapshot, not a completed campaign outcome.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Undated profile; last year is not anchored to a calendar year; campaign deadline and final result unestablished",
+      "researcher_assessment": "The FamilyWorks giving profile thanks matching donors and describes nearly 40% more households seeking services last year. A live fundraising widget is a progress snapshot, not a completed campaign outcome.",
+      "reviewed_at": "2026-11-06T05:24:59.300265+00:00",
+      "reviewer": "Codex desktop assistant, shared-session researcher/skeptic/fact-checker passes, not independent reviewers",
+      "signal_id": "signal-606f8881901d692f838825a8",
+      "skeptic_assessment": "The profile supports attributed growth and matching activity. It cannot establish whether a completed campaign overperformed or underperformed.",
+      "source_checks_complete": false,
+      "time_status": "undated"
+    }
+  ]
+}

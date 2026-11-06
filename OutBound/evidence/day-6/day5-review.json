@@ -1,0 +1,16 @@
+{
+  "pr": 7,
+  "reviewed_head": "de4c85227e5f37f36e306049fa8f2f695bec8240",
+  "clean_checkout_tests_passed": 90,
+  "merged": true,
+  "merge_commit": "eb295bb9181cea6922608c94d023d17fa4d408ba",
+  "fetched_main_contains_day5": true,
+  "original_checkout_uncommitted_files_untouched": true,
+  "requirements_checked": [
+    "Six non-award source checks with per-claim provenance and limits",
+    "Four-tier unique account cards",
+    "Separate version-bound role packets and outputs",
+    "Private feedback persistence, stale decision flags and public exclusion",
+    "Byte-identical repeat and original files preserved"
+  ]
+}

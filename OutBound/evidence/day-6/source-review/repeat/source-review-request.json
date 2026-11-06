@@ -1,0 +1,25 @@
+{
+  "contract": "source-review-v1",
+  "groups": [],
+  "id": "9b22c3f6736a99676ee9fa180b420be89f2c7bce47e1da9a375f59937539c8ac",
+  "prepared_at": "2026-11-06T05:28:25.994789+00:00",
+  "reused": [
+    "signal-05cb7c7fb182aa89f8d18520",
+    "signal-fd575c91233a256a8e898589",
+    "signal-5eff20a2203c656f9bb5c616",
+    "signal-bc6d441f41e791b2b95e57c2",
+    "signal-82ce9ff52cb9b7c94898de91",
+    "signal-6e9ef48a6633133f4c83bdca",
+    "signal-e30d24146a3d0e4d851f7181",
+    "signal-e9eb4b0e748f8cc244e0a9a8",
+    "signal-606f8881901d692f838825a8"
+  ],
+  "source_failures": [],
+  "summary": {
+    "flags_for_desktop": 0,
+    "grouped_documents": 7,
+    "inaccessible_flags": 0,
+    "original_fetches": 7,
+    "reused_verdicts": 9
+  }
+}

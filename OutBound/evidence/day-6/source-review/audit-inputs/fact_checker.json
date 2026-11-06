@@ -1,0 +1,47 @@
+{
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Source supports an attributed historical comparison, no current deficit established.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Attribution supported; hold current-impact claim pending dated budget evidence.",
+    "result": "hold"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Attributable historical observation; timing and present gap remain unknown.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Both figures match the passage; residual gap cannot be computed.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Pressure interpretation contradicted by the quoted June statement.",
+    "result": "pass"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Appointment supported; strain interpretation unsupported.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Amount and event supported; retain positive campaign context.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Reject donation-decline interpretation; retain separate gala result.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Hold completed-performance claim; no closing date or final total established.",
+    "result": "hold"
+  }
+}

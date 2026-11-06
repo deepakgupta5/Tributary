@@ -1,0 +1,28 @@
+{
+  "attempts": [
+    {
+      "at": "2026-11-06T04:54:20.778251+00:00",
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "compass-news",
+      "url": "https://www.compasshousingalliance.org/feed/",
+      "validators": {
+        "etag": "\"d4f14854e85bfa1fbfd397365548400f\"",
+        "last-modified": "Wed, 04 Nov 2026 18:21:45 GMT"
+      }
+    }
+  ],
+  "changed_signals": [],
+  "coverage_gap": "Feeds/indexes are bounded. Catch-up checks last successful checkpoints but cannot guarantee every missed publication is recoverable.",
+  "ended_at": "2026-11-06T04:54:21.295422+00:00",
+  "execution": "manual_live_recovery",
+  "historical_first_observed": [],
+  "id": "2026-11-06T04-54-20.778251+00-00",
+  "local_date": "2026-11-05",
+  "missed_dates": [],
+  "new_accounts": [],
+  "new_signals": [],
+  "source_rechecks": [],
+  "started_at": "2026-11-06T04:54:20.778251+00:00",
+  "status": "complete"
+}
