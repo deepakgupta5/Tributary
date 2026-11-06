@@ -1,0 +1,32 @@
+{
+  "actor": "Codex assistant",
+  "basis": "supervised_coding_session",
+  "checks": {
+    "observations": 8,
+    "original_day4_observations": 6,
+    "private_feedback_in_public_inputs": false,
+    "source_links_and_versions_present": true,
+    "unique_accounts": 4,
+    "unique_observation_ids": true,
+    "whole_live_documents_stored": 0
+  },
+  "completed": true,
+  "context": "Separate versioned role packet and output; same assistant and shared conversation context. Not independent review or enforced isolation.",
+  "executed_at": "2026-11-06T04:21:33.702945+00:00",
+  "execution_id": "day5:qc:49fb15f6c974",
+  "input_hash": "f4204c903c6c6b305f85b9f24f3f1cebf25cfd33bfc2a358aab7a4e9b9a1bcf5",
+  "reason": "Checked row/account reconciliation, source-qualified references, dates, retained originals and correction provenance. No account or routine-source admission is granted.",
+  "result": "passed",
+  "stage": "qc",
+  "subjects": {
+    "ccfb-capacity-review-2026": "8aead086d5cda9b58febca3265fbab2160eca72e45cc3fa07f9f9d8f4bd259b0",
+    "ccfb-government-funding-review-2026": "a42e8a5cb2c6c18858b297ab187dddd55054ae752a40159304bc34866c29af76",
+    "compass-2025-matches": "895b85bd66397be504abadb3484a3da4619825d5ff49d99fa5ebf65534b7c932",
+    "food-frenzy-2026-results": "02594065af8765a465746f396562bb5b49b647e592ac77e53bbb6946f451ffd5",
+    "surrey-delview-october2026": "ae9171a65f7a5e113bc1ee95f036779171be2ce9dc4c68bc5a78b913e57896ff",
+    "surrey-donation-pressure-dec2025": "baf497480d7f2d4df3ac529d911aa87b427e834eb27f001802987a929a553fcb",
+    "surrey-ed-search-october2026": "9bf74487e47c3c7fe91a5fbf36697b03375452d6245dd8d9ae6a70142046bf30",
+    "surrey-monthly-demand-june2026": "322bc0677d5b39120b680bd361668822dfa3b752f9312148da3502935e1cc1e9"
+  },
+  "version": 1
+}
