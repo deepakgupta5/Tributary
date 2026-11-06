@@ -19,11 +19,23 @@ The initial geographic scope is all of Canada and Washington State. Oregon and C
 
 The active outbound market is BC nonprofits with roughly $1M–$5M in annual revenue and 10–50 paid staff, with at least one live trigger below. Working interpretation for the BC pilot: CAD, latest available annual revenue, and paid headcount. Record fiscal year, currency, staff measurement basis, date and source. Label FTE or full-time-only figures explicitly. Approximate bands guide fit; missing or borderline size evidence goes to research. The wider discovery register can retain organizations outside this target.
 
+**Working pitch (D059, 2026-11-06).** The pitch used in BC conversations is the tight pitch: help nonprofits raise more money from their existing donors, and fine-tune how they do that using analytics and systems. This supersedes the website's operational-leadership framing for outbound use; revising the website is a separate owner decision, not yet made. Buyer order under this pitch: development/fundraising lead first, Executive Director second.
+
+**Donor-base gate (2026-11-06).** Applied after size fit and before trigger assessment. From the T3010 revenue mix, tax-receipted gifts and fundraising revenue must be a material share of revenue — the account must have an existing-donor base to work with. An organization funded predominantly by government contracts or fees goes to Monitor regardless of size fit. Record the revenue mix on the account: tax-receipted gifts, total gifts, fundraising revenue, government revenue, total revenue, fiscal year, and source.
+
 | Live trigger | Evidence needed for a qualified account |
 | --- | --- |
 | A funder or supporter wants to do more | A specific expression of interest in expanding support, a decision deadline, and a need for a feasible delivery outline, reliable costs and evidence of impact. Record what decision the material will support. |
 | A funded commitment or partnership is stalling | Evidence of an existing funded obligation, a delayed or blocked milestone, and the dependency between programs, finance or development that is holding up delivery. Record what is due and who needs to act. |
 | Leadership transition, leave or growth puts delivery at risk | Evidence of the transition, leave or expansion plus a specific delivery obligation at risk during that window. Record the responsibility, timing and evidence of the capacity gap. |
+
+**Donor-side triggers (added 2026-11-06).** Same evidence standard as the triggers above and [BC_TRIGGER_SCREEN.md](BC_TRIGGER_SCREEN.md) — an anchor, a corroborating clue on the same initiative, and a still-open decision window:
+
+- **Donor revenue trend:** tax-receipted gifts flat or declining across consecutive T3010 filings while programs or costs grow.
+- **Open campaign window:** a dated donor decision point is approaching — GivingTuesday (December 1, 2026), a year-end appeal, or a seasonal campaign — with preparation work still open.
+- **Donor-program systems signal:** an active monthly-donor or lapsed-donor program, a development hire posted, or a CRM/donor-database change, indicating donor-data work underway without evidence of segmentation or follow-through analysis.
+
+The first trigger in the table (a funder or supporter wants to do more) is already a donor-side trigger and is unchanged. The second and third table triggers remain Investigate signals; under the tight pitch they qualify an account for outbound preparation only when the at-risk decision is a donor-revenue decision, recorded explicitly.
 
 For outbound qualification, record size fit and trigger status separately. For each trigger retain the dated source, what remains open, deadline or next milestone where known, and last status check. A grant announcement, ED vacancy, generic appeal or growth figure alone is a research lead. Keep plausible leads with missing evidence in Investigate; keep size-fit accounts without a live trigger in Monitor. A qualified account is eligible for private outbound preparation; the owner decides whether to contact it.
 
@@ -37,14 +49,14 @@ For outbound qualification, record size fit and trigger status separately. For e
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
 ## Project baseline and delivery
-[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. [BC_CONVERSATION_PLAN.md](BC_CONVERSATION_PLAN.md) is the operating plan for BC outbound — objective, execution steps, and owner decisions — distinct from that build schedule. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
 
 The documented design basis is [SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md](../research/SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md). The immediate build deliberately implements a usable subset of those practices. It does not claim predictive buyer intent, national-scale crawling, automated outreach, or trained ranking.
 
 No numerical quality targets, source quotas, organization quotas, throughput targets, or forced shortlist count have been approved. Expected source/organization growth is measured, not promised. Product open choices are listed only in this document's Open decisions section; other documents refer here.
 ## Confirmed starting decisions
 - Initial eligibility: service-delivery nonprofits, with foundations and umbrella bodies as potential buyers or organizational routes in. No revenue cutoff.
-- Hospitals, universities, religious organizations, and advocacy groups remain undecided. They are not silently included or permanently excluded; candidates in these categories remain pending an owner decision.
+- Hospitals, universities, religious organizations, and advocacy groups: decided 2026-11-06 (D062) — excluded as buyers for the BC pilot; hospital foundations remain eligible as separate entities. Each exclusion is reversible by a new dated decision entry.
 - First live sample: British Columbia and Washington State, prioritizing local reporting, organization publications, and official/funder records. Full product geography remains Canada and Washington; the bounded sample does not narrow that ambition.
 - Day 1 delivery: a batch account worklist that separates discovery, identity, eligibility, signal review, and private business relevance. Greater Vancouver Food Bank Society is a valid in-scope account and must be included; an older CRA filing may provide historical context but does not negate current registry status.
 - Account admission is independent of whether the account has a recent actionable signal. Weak or unknown commercial evidence leaves the account available for monitoring.
@@ -154,7 +166,7 @@ Each finding must carry:
 Amounts retain original currency and period. Missing dates, identifiers, amounts, and full text must be explicit. Do not invent them.
 
 ## Collection schedule
-Confirmed: one daily local collection run when the host computer is available. The weekly shortlist remains a separate review view. This is a product requirement; no collection scheduler is deployed yet.
+Confirmed: one daily local collection run when the host computer is available. The weekly shortlist remains a separate review view. This is a product requirement. Delivery status (Day 6: live daily command and app morning fallback registered; native Mac scheduler registration blocked and unverified) is maintained in [PROJECT_PLAN.md](PROJECT_PLAN.md), which is the single status source; this document does not restate it.
 
 On startup or resume, identify missed daily runs and perform a catch-up collection from the last successful source checkpoint, within source availability and access limits. Do not claim complete recovery where feeds or archives no longer expose missed items. Avoid repeated full-history downloads; initial 12-month discovery/backfill and ongoing incremental collection are separate operations.
 
@@ -271,7 +283,7 @@ This is the authoritative open-product-decision register. Resolved requirements 
 
 | ID | Open choice | Dependency / when required |
 | --- | --- | --- |
-| Q1 | Whether and when to include hospitals, universities, religious organizations, and advocacy groups. Service-delivery nonprofits plus foundations/umbrella bodies as potential buyers/routes are confirmed, with no revenue cutoff. | Undecided categories remain pending an owner decision before admission; they do not block the approved starting categories or Day 1 design. |
+| Q1 | **Decided 2026-11-06 (D062):** hospitals, universities, religious organizations, and advocacy groups are excluded as buyers for the BC pilot. Service-delivery nonprofits plus foundations/umbrella bodies as potential buyers/routes are confirmed, with no revenue cutoff. Hospital foundations are separate entities and remain eligible. | Closed. Each exclusion is reversible by a new dated decision entry in DECISIONS.md. |
 | Q2 | Specific source endpoints/localities within the confirmed BC/Washington pilot and subsequent expansion priorities. Priority source types are local reporting, organization publications, and official/funder records. No quota is approved. | A concrete proposal naming candidate publications, datasets, and exact endpoints with selection reasons is required before live collection; verification/access states remain explicit. Source-specific admission precedes routine collection. Canada-wide geography remains the product scope. |
 | Q3 | Exact weekly owner availability, shortlist presentation, expansion batch sizes, continuation limits, and backlog priorities. Multiple-hour review capacity, no forced shortlist quota, the four action tiers, and initial explicit sorting rules are confirmed. | Owner availability before scheduling review; detailed batching before relying on those behaviors. No arbitrary quality discard based on an unapproved limit. |
 | Q6 | Local run time, scheduler mechanism, source-specific refresh exceptions, and comparison periods beyond the agreed discovery window. | Before unattended daily operation or source-specific scheduling; initial research can remain owner-initiated. |
