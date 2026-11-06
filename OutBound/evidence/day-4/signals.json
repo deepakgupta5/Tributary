@@ -1,0 +1,3208 @@
+{
+  "accounts": {
+    "107449787RR0001": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "cra/107449787RR0001"
+      ],
+      "name": "Greater Vancouver Food Bank Society",
+      "official_id": "107449787RR0001",
+      "official_id_entity": "Greater Vancouver Food Bank Society",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "132168162RR0001": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "cra/132168162RR0001"
+      ],
+      "name": "SURREY FOOD BANK SOCIETY",
+      "official_id": "132168162RR0001",
+      "official_id_entity": "SURREY FOOD BANK SOCIETY",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "133859058RR0001": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "cra/133859058RR0001"
+      ],
+      "name": "SURREY FOOD BANK FOUNDATION",
+      "official_id": "133859058RR0001",
+      "official_id_entity": "SURREY FOOD BANK FOUNDATION",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "272172486": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-b0bb4ec9e1743d9f006e82e0"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Seattle Good Business Network"
+      ],
+      "name": "Seattle Good Business Network",
+      "official_id": "272172486",
+      "official_id_entity": "Seattle Good Business Network",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "364939852": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-554df53ddb1788d6dccc6bd9"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Lake City Collective"
+      ],
+      "name": "Lake City Collective",
+      "official_id": "364939852",
+      "official_id_entity": "Lake City Collective",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "453827860": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-9f9116583cddb435ff141ae8"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/American Polynesian Organization"
+      ],
+      "name": "American Polynesian Organization",
+      "official_id": "453827860",
+      "official_id_entity": "American Polynesian Organization",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "461793603": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city KENT",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-857e86d2f658adbb746b049e"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Mother Africa"
+      ],
+      "name": "Mother Africa",
+      "official_id": "461793603",
+      "official_id_entity": "Mother Africa",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "463115382": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [
+        "award-f3dd124bc018b6f3b859ffa9"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/463115382",
+        "food/Nurturing Roots"
+      ],
+      "name": "Nurturing Roots",
+      "official_id": "463115382",
+      "official_id_entity": "Nurturing Roots",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "730610870RR0001": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "cra/730610870RR0001"
+      ],
+      "name": "GURU NANAK MODI KHANA FOOD BANK SOCIETY",
+      "official_id": "730610870RR0001",
+      "official_id_entity": "GURU NANAK MODI KHANA FOOD BANK SOCIETY",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "800579830": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-ad0449230ec8069ee89cc1dc"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/City Fruit"
+      ],
+      "name": "City Fruit",
+      "official_id": "800579830",
+      "official_id_entity": "City Fruit",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "831665288": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATAC",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-fe29610b1ba024e9669a7174"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/African Community Housing & Development"
+      ],
+      "name": "African Community Housing & Development",
+      "official_id": "831665288",
+      "official_id_entity": "African Community Housing & Development",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "831742878": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city FEDERAL WAY",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e1b30f21ef7dac8310022a2a"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Hip Hop is Green"
+      ],
+      "name": "Hip Hop is Green",
+      "official_id": "831742878",
+      "official_id_entity": "Hip Hop is Green",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "833561540": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-40b5844f57cb34b072923c58"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Villa Comunitaria"
+      ],
+      "name": "Villa Comunitaria",
+      "official_id": "833561540",
+      "official_id_entity": "Villa Comunitaria",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "861331130RR0001": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "cra/861331130RR0001"
+      ],
+      "name": "FOOD BANKS BRITISH COLUMBIA",
+      "official_id": "861331130RR0001",
+      "official_id_entity": "FOOD BANKS BRITISH COLUMBIA",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911090450": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911090450"
+      ],
+      "name": "Food Lifeline",
+      "official_id": "911090450",
+      "official_id_entity": "Food Lifeline",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911122115": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-b1d68a09a10d89ff11fdc37f"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Duwamish Tribal Services"
+      ],
+      "name": "Duwamish Tribal Services",
+      "official_id": "911122115",
+      "official_id_entity": "Duwamish Tribal Services",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911288919": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-7cce47529588a5fa8962e0c5"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Ethiopian Community in Seattle"
+      ],
+      "name": "Ethiopian Community in Seattle",
+      "official_id": "911288919",
+      "official_id_entity": "Ethiopian Community in Seattle",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911307564": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911307564"
+      ],
+      "name": "CLARK COUNTY FOOD BANK",
+      "official_id": "911307564",
+      "official_id_entity": "CLARK COUNTY FOOD BANK",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911428805": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911428805"
+      ],
+      "name": "BALLARD FOOD BANK",
+      "official_id": "911428805",
+      "official_id_entity": "BALLARD FOOD BANK",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911464412": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911464412"
+      ],
+      "name": "WEST SEATTLE FOOD BANK",
+      "official_id": "911464412",
+      "official_id_entity": "WEST SEATTLE FOOD BANK",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911485319": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911485319"
+      ],
+      "name": "BEACON AVENUE FOOD BANK",
+      "official_id": "911485319",
+      "official_id_entity": "BEACON AVENUE FOOD BANK",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911500768": {
+      "area_served": null,
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "irs/911500768"
+      ],
+      "name": "RAINIER VALLEY FOOD BANK",
+      "official_id": "911500768",
+      "official_id_entity": "RAINIER VALLEY FOOD BANK",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911703201": {
+      "area_served": null,
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-6d16aef308c5463e96a6df86"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [
+        "food/Eritrean Association in Greater Seattle"
+      ],
+      "name": "Eritrean Association in Greater Seattle",
+      "official_id": "911703201",
+      "official_id_entity": "Eritrean Association in Greater Seattle",
+      "official_id_role": "registry_entity",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "WA:bellwether housing": {
+      "area_served": null,
+      "basis": "Publisher label; identity pending",
+      "events": [
+        "award-e767294d019818429ff54405"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [],
+      "name": "Bellwether Housing",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": null,
+      "question": "Verify legal identity and eligibility.",
+      "registration": "unchecked"
+    },
+    "WA:black dollar days task force’s clean greens farm and market": {
+      "area_served": null,
+      "basis": "program parent: Black Dollar Days Task Force",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-55fb0904948cadf423bdf83b"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "91-1475024",
+        "name": "Black Dollar Days Task Force",
+        "role": "program_parent",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L7"
+      },
+      "inputs": [
+        "food/Black Dollar Days Task Force’s Clean Greens Farm and Market"
+      ],
+      "name": "Black Dollar Days Task Force’s Clean Greens Farm and Market",
+      "official_id": "91-1475024",
+      "official_id_entity": "Black Dollar Days Task Force",
+      "official_id_role": "program_parent",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1475024",
+        "name": "Black Dollar Days Task Force",
+        "role": "program_parent",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L7"
+      }
+    },
+    "WA:cambodian american community council of washington (caccwa)": {
+      "area_served": null,
+      "basis": "operating entity: Cambodian American Community Council of Washington",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-10c3ff9838a4282ab6df887e"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "84-2587937",
+        "name": "Cambodian American Community Council of Washington",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L8"
+      },
+      "inputs": [
+        "food/Cambodian American Community Council of Washington (CACCWA)"
+      ],
+      "name": "Cambodian American Community Council of Washington (CACCWA)",
+      "official_id": "84-2587937",
+      "official_id_entity": "Cambodian American Community Council of Washington",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "84-2587937",
+        "name": "Cambodian American Community Council of Washington",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L8"
+      }
+    },
+    "WA:chief seattle club": {
+      "area_served": null,
+      "basis": "Publisher label; identity pending",
+      "events": [
+        "award-f7fe97795ee69a714edc4963"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [],
+      "name": "Chief Seattle Club",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": null,
+      "question": "Verify legal identity and eligibility.",
+      "registration": "unchecked"
+    },
+    "WA:compass housing alliance": {
+      "area_served": null,
+      "basis": "Publisher label; identity pending",
+      "events": [
+        "award-c3e8c7df0f7ba797bdbc1f6b"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [],
+      "name": "Compass Housing Alliance",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": null,
+      "question": "Verify legal identity and eligibility.",
+      "registration": "unchecked"
+    },
+    "WA:eat happy now": {
+      "area_served": null,
+      "basis": "operating entity: Eathappy",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-86ce1b1a070c33f6d6a231e6"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "88-2683238",
+        "name": "Eathappy",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L9"
+      },
+      "inputs": [
+        "food/Eat Happy Now"
+      ],
+      "name": "Eat Happy Now",
+      "official_id": "88-2683238",
+      "official_id_entity": "Eathappy",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "88-2683238",
+        "name": "Eathappy",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L9"
+      }
+    },
+    "WA:familyworks": {
+      "area_served": null,
+      "basis": "operating entity: Family Works",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e88a6b2ff250685cadebcc38"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "91-1757277",
+        "name": "Family Works",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L10"
+      },
+      "inputs": [
+        "food/FamilyWorks"
+      ],
+      "name": "FamilyWorks",
+      "official_id": "91-1757277",
+      "official_id_entity": "Family Works",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1757277",
+        "name": "Family Works",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L10"
+      }
+    },
+    "WA:feest": {
+      "area_served": null,
+      "basis": "operating entity: FEEST Food Empowerment Education and Sustainability Team",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-229c4f71d961ed7b2817b7de"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "46-2268038",
+        "name": "FEEST Food Empowerment Education and Sustainability Team",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L11"
+      },
+      "inputs": [
+        "food/FEEST"
+      ],
+      "name": "FEEST",
+      "official_id": "46-2268038",
+      "official_id_entity": "FEEST Food Empowerment Education and Sustainability Team",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "46-2268038",
+        "name": "FEEST Food Empowerment Education and Sustainability Team",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L11"
+      }
+    },
+    "WA:international migrants alliance (washington chapter)": {
+      "area_served": null,
+      "basis": "chapter: International Migrants Alliance (Washington Chapter)",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-16e2b79e544f2beb00012ad6"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": null,
+        "name": "International Migrants Alliance (Washington Chapter)",
+        "role": "chapter",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L17"
+      },
+      "inputs": [
+        "food/International Migrants Alliance (Washington Chapter)"
+      ],
+      "name": "International Migrants Alliance (Washington Chapter)",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": "chapter",
+      "question": "Does the Washington chapter have its own EIN or operate under a parent?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": null,
+        "name": "International Migrants Alliance (Washington Chapter)",
+        "role": "chapter",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L17"
+      }
+    },
+    "WA:kin on health care center of washington": {
+      "area_served": null,
+      "basis": "operating entity: Kin On Health Care Center",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e277d5a49bf662a1b00a5d1d"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "91-1620786",
+        "name": "Kin On Health Care Center",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L12"
+      },
+      "inputs": [
+        "food/Kin On Health Care Center of Washington"
+      ],
+      "name": "Kin On Health Care Center of Washington",
+      "official_id": "91-1620786",
+      "official_id_entity": "Kin On Health Care Center",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1620786",
+        "name": "Kin On Health Care Center",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L12"
+      }
+    },
+    "WA:plymouth housing group": {
+      "area_served": null,
+      "basis": "Publisher label; identity pending",
+      "events": [
+        "award-9462f0a80428258fde00f4d5"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [],
+      "name": "Plymouth Housing Group",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": null,
+      "question": "Verify legal identity and eligibility.",
+      "registration": "unchecked"
+    },
+    "WA:rainier beach action coalition": {
+      "area_served": null,
+      "basis": "operating entity: Rainier Beach Community Empowerment Coalition / RBAC",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-3e798fb72764b283a7e1d09d"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "20-3758788",
+        "name": "Rainier Beach Community Empowerment Coalition / RBAC",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L13"
+      },
+      "inputs": [
+        "food/Rainier Beach Action Coalition"
+      ],
+      "name": "Rainier Beach Action Coalition",
+      "official_id": "20-3758788",
+      "official_id_entity": "Rainier Beach Community Empowerment Coalition / RBAC",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "20-3758788",
+        "name": "Rainier Beach Community Empowerment Coalition / RBAC",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L13"
+      }
+    },
+    "WA:seattle indian health board (sihb)": {
+      "area_served": null,
+      "basis": "operating entity: Seattle Indian Health Board",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-be2f82f34c5f4387e359c2a4"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "91-0869056",
+        "name": "Seattle Indian Health Board",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L14"
+      },
+      "inputs": [
+        "food/Seattle Indian Health Board (SIHB)"
+      ],
+      "name": "Seattle Indian Health Board (SIHB)",
+      "official_id": "91-0869056",
+      "official_id_entity": "Seattle Indian Health Board",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-0869056",
+        "name": "Seattle Indian Health Board",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L14"
+      }
+    },
+    "WA:solid ground": {
+      "area_served": null,
+      "basis": "Publisher label; identity pending",
+      "events": [
+        "award-2d7bdc6e63825830de937d4e"
+      ],
+      "headquarters": null,
+      "identity_relationship": null,
+      "inputs": [],
+      "name": "Solid Ground",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": null,
+      "question": "Verify legal identity and eligibility.",
+      "registration": "unchecked"
+    },
+    "WA:tongan community food pantry": {
+      "area_served": null,
+      "basis": "fundraising host: Sustainable Seattle",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-0dcb03f5a3545ed403e30a26"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "31-1580932",
+        "name": "Sustainable Seattle",
+        "role": "fundraising_host",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L16"
+      },
+      "inputs": [
+        "food/Tongan Community Food Pantry"
+      ],
+      "name": "Tongan Community Food Pantry",
+      "official_id": null,
+      "official_id_entity": null,
+      "official_id_role": "fundraising_host",
+      "question": "Which legal entity operates the pantry, and does it have its own EIN?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "31-1580932",
+        "name": "Sustainable Seattle",
+        "role": "fundraising_host",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L16"
+      }
+    },
+    "WA:young women empowered (y-we)": {
+      "area_served": null,
+      "basis": "operating entity: Young Women Empowered",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-4e98103411be5fa230bf1fcb"
+      ],
+      "headquarters": null,
+      "identity_relationship": {
+        "ein": "47-2230647",
+        "name": "Young Women Empowered",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L15"
+      },
+      "inputs": [
+        "food/Young Women Empowered (Y-WE)"
+      ],
+      "name": "Young Women Empowered (Y-WE)",
+      "official_id": "47-2230647",
+      "official_id_entity": "Young Women Empowered",
+      "official_id_role": "operating_entity",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "47-2230647",
+        "name": "Young Women Empowered",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L15"
+      }
+    }
+  },
+  "as_of": "2026-11-06",
+  "assessments": {
+    "award-0dcb03f5a3545ed403e30a26": {
+      "account_id": "WA:tongan community food pantry",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-0dcb03f5a3545ed403e30a26",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "ef86f2ff209dc8e86d230afd476fb4df6a4e13f1f4e2470e3e2135da9f19fca5"
+    },
+    "award-10c3ff9838a4282ab6df887e": {
+      "account_id": "WA:cambodian american community council of washington (caccwa)",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-10c3ff9838a4282ab6df887e",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "fe55529dc1ed2b6ce92d44e2e817cc497d3e10ab138cbc79a92c6d2cef957981"
+    },
+    "award-16e2b79e544f2beb00012ad6": {
+      "account_id": "WA:international migrants alliance (washington chapter)",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-16e2b79e544f2beb00012ad6",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "8090e732475b8358bf7a2baef2c0077032e8713231e14bd4cb1aca6d64f7b7b6"
+    },
+    "award-229c4f71d961ed7b2817b7de": {
+      "account_id": "WA:feest",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-229c4f71d961ed7b2817b7de",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "90531421c3d3d4a1d98b113e9f7f6b36873f145d1f5436d5aa82500f94a3c10e"
+    },
+    "award-2d7bdc6e63825830de937d4e": {
+      "account_id": "WA:solid ground",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-2d7bdc6e63825830de937d4e",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": true,
+      "newly_observed": true,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "fb6990721a340520a50b0c9e394f362c37f4f19c3f55258c5a08c0d99fa9aa4a"
+    },
+    "award-3e798fb72764b283a7e1d09d": {
+      "account_id": "WA:rainier beach action coalition",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-3e798fb72764b283a7e1d09d",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "178a5e5f166c61c1e631913182e6af5e7cdada0dfab211ea27c790cf1e75b872"
+    },
+    "award-40b5844f57cb34b072923c58": {
+      "account_id": "833561540",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-40b5844f57cb34b072923c58",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "15097a2625ff31d0e8fe26ee785c995d4755e98243d8761bf69130529a1c0998"
+    },
+    "award-4e98103411be5fa230bf1fcb": {
+      "account_id": "WA:young women empowered (y-we)",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-4e98103411be5fa230bf1fcb",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "5d4386f4436ac9433748fbf164a618a341ed948943959dd8c529d54abbb135d1"
+    },
+    "award-554df53ddb1788d6dccc6bd9": {
+      "account_id": "364939852",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-554df53ddb1788d6dccc6bd9",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "07fc7adf1449c0d2eb6ba4a0df595f6d65358428fe53e4f77561aad6ab8daf1c"
+    },
+    "award-55fb0904948cadf423bdf83b": {
+      "account_id": "WA:black dollar days task force’s clean greens farm and market",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-55fb0904948cadf423bdf83b",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "6db704f381fd572ac2cb6c786b4e5be9af8c8c59c046b4776f3405647905a930"
+    },
+    "award-6d16aef308c5463e96a6df86": {
+      "account_id": "911703201",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-6d16aef308c5463e96a6df86",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "84679f036c3d9982e8f7925e2069a40180cb5d4cd0010718336e638fb6b483b8"
+    },
+    "award-7cce47529588a5fa8962e0c5": {
+      "account_id": "911288919",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-7cce47529588a5fa8962e0c5",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "9b78f7c48db8a573ed1130db53b870dea3ca1b97c9f28b58e4d3e82fed2aa22f"
+    },
+    "award-857e86d2f658adbb746b049e": {
+      "account_id": "461793603",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-857e86d2f658adbb746b049e",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "4df8f43f1a469b3b602838ebc95cd070841924779a3c64c62ddc1bca40e8589f"
+    },
+    "award-86ce1b1a070c33f6d6a231e6": {
+      "account_id": "WA:eat happy now",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-86ce1b1a070c33f6d6a231e6",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "8eea9c8b081df2e639166920e472420d2c4cadc82ce4865b9c5ea8b067a351fa"
+    },
+    "award-9462f0a80428258fde00f4d5": {
+      "account_id": "WA:plymouth housing group",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-9462f0a80428258fde00f4d5",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": true,
+      "newly_observed": true,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "1b768378b2864005f8306db42ce54eb1e2e23594c9079d2412125af46bad5e06"
+    },
+    "award-9f9116583cddb435ff141ae8": {
+      "account_id": "453827860",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-9f9116583cddb435ff141ae8",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "42929c59ba3174fb587ec2fe510f6386aa05dce9d27517412b9b907c3585a3b2"
+    },
+    "award-ad0449230ec8069ee89cc1dc": {
+      "account_id": "800579830",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-ad0449230ec8069ee89cc1dc",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "3e1407ed583b4c60386e4c98d32036eae36ef0a4fe3223ecb88b919f5305c681"
+    },
+    "award-b0bb4ec9e1743d9f006e82e0": {
+      "account_id": "272172486",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-b0bb4ec9e1743d9f006e82e0",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "67dff3386bbf1b2c6811cb2db896f34fcc2c79753f163fd572cf3afa6a74e47c"
+    },
+    "award-b1d68a09a10d89ff11fdc37f": {
+      "account_id": "911122115",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-b1d68a09a10d89ff11fdc37f",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "ee9cb07f188c860f7d36ac9d3b3bbd6042bc21a71f5606f31860a9c58363613f"
+    },
+    "award-be2f82f34c5f4387e359c2a4": {
+      "account_id": "WA:seattle indian health board (sihb)",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-be2f82f34c5f4387e359c2a4",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "08bcf0df031fb3ebe484ea661ad90d33d7d7e5c3201f6a623b8706b713e25a28"
+    },
+    "award-c3e8c7df0f7ba797bdbc1f6b": {
+      "account_id": "WA:compass housing alliance",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-c3e8c7df0f7ba797bdbc1f6b",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "ae57b5541119e0abb9983642f420ef8cb4ff9e1d96b00c2be9ab7efa3a763165"
+    },
+    "award-e1b30f21ef7dac8310022a2a": {
+      "account_id": "831742878",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-e1b30f21ef7dac8310022a2a",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "f644ae86a7109608d810caeda14604bedb6cbd83b8dfec0f86146d1c174d835a"
+    },
+    "award-e277d5a49bf662a1b00a5d1d": {
+      "account_id": "WA:kin on health care center of washington",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-e277d5a49bf662a1b00a5d1d",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "cf0596411db11c49bfd3d6f1917a08c39d98c02385f01467d1dea2a19c02be82"
+    },
+    "award-e767294d019818429ff54405": {
+      "account_id": "WA:bellwether housing",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-e767294d019818429ff54405",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "36559f9eb7b6f5a1d20b6530b075712c6dbf693595785c735867c9561ddfe232"
+    },
+    "award-e88a6b2ff250685cadebcc38": {
+      "account_id": "WA:familyworks",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-e88a6b2ff250685cadebcc38",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "2137dc68087f9280b39a0d264a546b606410c3e9b5e6561bd04912d5256c24ab"
+    },
+    "award-f3dd124bc018b6f3b859ffa9": {
+      "account_id": "463115382",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-f3dd124bc018b6f3b859ffa9",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "5413b4d081bd2476fa3ff8ca3e9b55a27dadc2c485173c0d42e7ead729ab69b6"
+    },
+    "award-f7fe97795ee69a714edc4963": {
+      "account_id": "WA:chief seattle club",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-f7fe97795ee69a714edc4963",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "52e1071a1f073705d302fb13c64c38f482b520e5d0b282741842cea01c104bcb"
+    },
+    "award-fe29610b1ba024e9669a7174": {
+      "account_id": "831665288",
+      "alternative_explanation": "The award may fully fund delivery through the existing team.",
+      "capacity_to_engage": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "evidence": "A funding award is restricted program context only.",
+        "willingness": "unknown"
+      },
+      "category": "new_commitments",
+      "contradiction_check": "pending",
+      "contradictory_evidence": [],
+      "current_reason_to_investigate": false,
+      "current_status": "unknown",
+      "donor_retention": "unknown",
+      "event_id": "award-fe29610b1ba024e9669a7174",
+      "evidence_quality": "candidate",
+      "freshness": "older_event",
+      "freshness_basis": "event date, otherwise publication date; retrieval is never a freshness proxy",
+      "material_change": false,
+      "missing_facts": [
+        "Current status and any resolution",
+        "Service relevance",
+        "Capacity and procurement route",
+        "Contract payee where applicable"
+      ],
+      "new_account": false,
+      "newly_observed": false,
+      "next_action": "Check the original evidence and current status, then resolve relevance and identity gaps.",
+      "possible_relevance_hypothesis": "Check delivery obligations and whether operating or data work is relevant.",
+      "review_status": "pending",
+      "rule_version": "day4-v1",
+      "tier": "monitor",
+      "version": "82417c7810e380b7596e00bb6788f8617eadb43829bd30d77c7713d6dada0bf3"
+    }
+  },
+  "collection_runs": [
+    {
+      "attempts": [
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:31.448706+00:00",
+          "duplicates": 0,
+          "http": 200,
+          "outcome": "unchanged",
+          "revisions": [],
+          "source": "contracts"
+        },
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:32.047007+00:00",
+          "duplicates": 0,
+          "http": 304,
+          "outcome": "unchanged",
+          "revisions": [],
+          "source": "housing-feed"
+        },
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:32.170907+00:00",
+          "duplicates": 0,
+          "http": 304,
+          "outcome": "unchanged",
+          "revisions": [],
+          "source": "cra"
+        },
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:33.229389+00:00",
+          "duplicates": 0,
+          "http": 304,
+          "outcome": "unchanged",
+          "revisions": [],
+          "source": "irs"
+        },
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:33.567469+00:00",
+          "duplicates": 23,
+          "http": 200,
+          "outcome": "success",
+          "revisions": [],
+          "source": "food"
+        },
+        {
+          "additions": [
+            "housing/Bellwether Housing",
+            "housing/Chief Seattle Club",
+            "housing/Compass Housing Alliance",
+            "housing/Solid Ground",
+            "housing/Plymouth Housing Group"
+          ],
+          "at": "2026-11-06T02:36:33.963907+00:00",
+          "duplicates": 0,
+          "http": 200,
+          "outcome": "success",
+          "revisions": [],
+          "source": "housing"
+        },
+        {
+          "additions": [],
+          "at": "2026-11-06T02:36:34.294739+00:00",
+          "duplicates": 0,
+          "outcome": "blocked",
+          "reason": "First-party report processing held under the inspected personal-use terms. Monitor the account through the official register.",
+          "revisions": [],
+          "source": "gvfb"
+        }
+      ],
+      "batch": 2,
+      "new_accounts": [
+        "WA:plymouth housing group",
+        "WA:solid ground"
+      ]
+    }
+  ],
+  "delta": {
+    "accounts_with_current_reason": [],
+    "known_accounts_with_new_events": [],
+    "new_accounts": [
+      "WA:plymouth housing group",
+      "WA:solid ground"
+    ],
+    "newly_observed_events": [
+      "award-9462f0a80428258fde00f4d5",
+      "award-2d7bdc6e63825830de937d4e"
+    ],
+    "newly_signal_bearing_accounts": [
+      "WA:plymouth housing group",
+      "WA:solid ground"
+    ]
+  },
+  "documents": {
+    "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/": {
+      "geography": "WA",
+      "items": [
+        "food/African Community Housing & Development",
+        "food/American Polynesian Organization",
+        "food/Black Dollar Days Task Force’s Clean Greens Farm and Market",
+        "food/Cambodian American Community Council of Washington (CACCWA)",
+        "food/City Fruit",
+        "food/Duwamish Tribal Services",
+        "food/Eat Happy Now",
+        "food/Eritrean Association in Greater Seattle",
+        "food/Ethiopian Community in Seattle",
+        "food/FEEST",
+        "food/FamilyWorks",
+        "food/Hip Hop is Green",
+        "food/International Migrants Alliance (Washington Chapter)",
+        "food/Kin On Health Care Center of Washington",
+        "food/Lake City Collective",
+        "food/Mother Africa",
+        "food/Nurturing Roots",
+        "food/Rainier Beach Action Coalition",
+        "food/Seattle Good Business Network",
+        "food/Seattle Indian Health Board (SIHB)",
+        "food/Tongan Community Food Pantry",
+        "food/Villa Comunitaria",
+        "food/Young Women Empowered (Y-WE)"
+      ],
+      "language": "English",
+      "last_successful_check": "2026-11-06T02:36:33.567469+00:00",
+      "publication_date": "2025-12-17",
+      "publisher": "Seattle Department of Neighborhoods",
+      "response_sha256": "f45609a87168cc4757593cec49dc76cee4c74906e159d2c884f8cb92c6e05f66",
+      "source": "food",
+      "source_type": "municipal funder",
+      "title": null,
+      "title_status": "not captured",
+      "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "https://housing.seattle.gov/2026-uos-rfq-awards/": {
+      "geography": "WA",
+      "items": [
+        "housing/Bellwether Housing",
+        "housing/Chief Seattle Club",
+        "housing/Compass Housing Alliance",
+        "housing/Plymouth Housing Group",
+        "housing/Solid Ground"
+      ],
+      "language": "English",
+      "last_successful_check": "2026-11-06T02:36:33.963907+00:00",
+      "publication_date": "2026-02-06",
+      "publisher": "Seattle Office of Housing",
+      "response_sha256": "27c7d646fac68e6e77f75f5f8eb70c3405016e8c9cf1ba359b9fa8fba56ae897",
+      "source": "housing",
+      "source_type": "municipal funder",
+      "title": null,
+      "title_status": "not captured",
+      "url": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+    },
+    "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv": {
+      "geography": "BC",
+      "items": [
+        "cra/107449787RR0001",
+        "cra/132168162RR0001",
+        "cra/133859058RR0001",
+        "cra/730610870RR0001",
+        "cra/861331130RR0001"
+      ],
+      "language": "English",
+      "last_successful_check": "2026-11-06T02:36:32.170907+00:00",
+      "publication_date": null,
+      "publisher": "Canada Revenue Agency",
+      "response_sha256": "4f214ff2a9e659185b20f50431fd98f1d89e2d08fff8c2a9583b82b24fc4cd8e",
+      "source": "cra",
+      "source_type": "official historical register",
+      "title": null,
+      "title_status": "not captured",
+      "url": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "https://www.irs.gov/pub/irs-soi/eo_wa.csv": {
+      "geography": "WA",
+      "items": [
+        "irs/463115382",
+        "irs/911090450",
+        "irs/911307564",
+        "irs/911428805",
+        "irs/911464412",
+        "irs/911485319",
+        "irs/911500768"
+      ],
+      "language": "English",
+      "last_successful_check": "2026-11-06T02:36:33.229389+00:00",
+      "publication_date": null,
+      "publisher": "Internal Revenue Service",
+      "response_sha256": "a04c7897480c07b89ed5cb1e32fc756ef3561a8a901f9e79c5621d9c31ab0c3c",
+      "source": "irs",
+      "source_type": "official register",
+      "title": null,
+      "title_status": "not captured",
+      "url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    }
+  },
+  "events": {
+    "award-0dcb03f5a3545ed403e30a26": {
+      "account_id": "WA:tongan community food pantry",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Tongan Community Food Pantry": {
+          "account": "WA:tongan community food pantry",
+          "event_date": null,
+          "evidence_hash": "9dd0bd8234eca13c96802375d6239ff7bf55af8d4ffedbff846d303b6cdd06bf",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Tongan Community Food Pantry.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Tongan Community Food Pantry",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Tongan Community Food Pantry."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-10c3ff9838a4282ab6df887e": {
+      "account_id": "WA:cambodian american community council of washington (caccwa)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Cambodian American Community Council of Washington (CACCWA)": {
+          "account": "WA:cambodian american community council of washington (caccwa)",
+          "event_date": null,
+          "evidence_hash": "d1d89d5b69145f4c25e67438e5ae1604c6942db686410a884b11a0578ba089eb",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Cambodian American Community Council of Washington (CACCWA).",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Cambodian American Community Council of Washington (CACCWA)",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Cambodian American Community Council of Washington (CACCWA)."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-16e2b79e544f2beb00012ad6": {
+      "account_id": "WA:international migrants alliance (washington chapter)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/International Migrants Alliance (Washington Chapter)": {
+          "account": "WA:international migrants alliance (washington chapter)",
+          "event_date": null,
+          "evidence_hash": "0eae654120b67104cfe3e37b8e2a1af82a3c116d72a1bd089db79133378569ef",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for International Migrants Alliance (Washington Chapter).",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "International Migrants Alliance (Washington Chapter)",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for International Migrants Alliance (Washington Chapter)."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-229c4f71d961ed7b2817b7de": {
+      "account_id": "WA:feest",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/FEEST": {
+          "account": "WA:feest",
+          "event_date": null,
+          "evidence_hash": "9163ee07fd68dd1a9c097fc81e0986861bab12e0a6b05a37a2c387ff55abe545",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for FEEST.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "FEEST",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for FEEST."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-2d7bdc6e63825830de937d4e": {
+      "account_id": "WA:solid ground",
+      "award_key": "Seattle/Urgent Operating Support/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "housing/Solid Ground": {
+          "account": "WA:solid ground",
+          "event_date": null,
+          "evidence_hash": "e8799587767809b0c8c9abf44fc12d435b8005082b2e3b5927e930c5034b2258",
+          "fact": "City announced USD 481,073 in urgent operating support funding for Solid Ground.",
+          "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+          "locator": "Solid Ground",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 481,073 in urgent operating support funding for Solid Ground."
+      ],
+      "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+      "last_retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+      "publication_dates": [
+        "2026-02-06"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+        "name": "Seattle Office of Housing"
+      }
+    },
+    "award-3e798fb72764b283a7e1d09d": {
+      "account_id": "WA:rainier beach action coalition",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Rainier Beach Action Coalition": {
+          "account": "WA:rainier beach action coalition",
+          "event_date": null,
+          "evidence_hash": "cf4d2937e0918818c562d097cfd484d44d09030bb44b5e5018bd17a94d03ec81",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Rainier Beach Action Coalition.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Rainier Beach Action Coalition",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Rainier Beach Action Coalition."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-40b5844f57cb34b072923c58": {
+      "account_id": "833561540",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Villa Comunitaria": {
+          "account": "WA:villa comunitaria",
+          "event_date": null,
+          "evidence_hash": "9469f188f2f17cbcce1decada4e996536d7a8879f985d1bb3eb0f69dd231893b",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Villa Comunitaria.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Villa Comunitaria",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Villa Comunitaria."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-4e98103411be5fa230bf1fcb": {
+      "account_id": "WA:young women empowered (y-we)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Young Women Empowered (Y-WE)": {
+          "account": "WA:young women empowered (y-we)",
+          "event_date": null,
+          "evidence_hash": "cf8cf0cf3f2221da3275b90816a771958d2d38be4ba021147adec205beaa4871",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Young Women Empowered (Y-WE).",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Young Women Empowered (Y-WE)",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Young Women Empowered (Y-WE)."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-554df53ddb1788d6dccc6bd9": {
+      "account_id": "364939852",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Lake City Collective": {
+          "account": "WA:lake city collective",
+          "event_date": null,
+          "evidence_hash": "33ef5b2bb180fe73923b116de39ed69d3e6982d2bec5043b902818f61add8b48",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Lake City Collective.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Lake City Collective",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Lake City Collective."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-55fb0904948cadf423bdf83b": {
+      "account_id": "WA:black dollar days task force’s clean greens farm and market",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Black Dollar Days Task Force’s Clean Greens Farm and Market": {
+          "account": "WA:black dollar days task force’s clean greens farm and market",
+          "event_date": null,
+          "evidence_hash": "e01420581d4cc6d1b7ab005fb5594bab8e813e490126a2d96bd9a77ac4fc3082",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Black Dollar Days Task Force’s Clean Greens Farm and Market.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Black Dollar Days Task Force’s Clean Greens Farm and Market",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Black Dollar Days Task Force’s Clean Greens Farm and Market."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-6d16aef308c5463e96a6df86": {
+      "account_id": "911703201",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Eritrean Association in Greater Seattle": {
+          "account": "WA:eritrean association in greater seattle",
+          "event_date": null,
+          "evidence_hash": "b6a323174f5c1d496fe6f5882c29031815ea0ae5237ebe82959c4dba35c62c2d",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Eritrean Association in Greater Seattle.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Eritrean Association in Greater Seattle",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Eritrean Association in Greater Seattle."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-7cce47529588a5fa8962e0c5": {
+      "account_id": "911288919",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Ethiopian Community in Seattle": {
+          "account": "WA:ethiopian community in seattle",
+          "event_date": null,
+          "evidence_hash": "cb590c937374425874dd387c9b03d06677c675744de447c75d82199b31635a3c",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Ethiopian Community in Seattle.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Ethiopian Community in Seattle",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Ethiopian Community in Seattle."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-857e86d2f658adbb746b049e": {
+      "account_id": "461793603",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Mother Africa": {
+          "account": "WA:mother africa",
+          "event_date": null,
+          "evidence_hash": "b872b78e64a9204fe61225aab26474523ae99b7a10fb9ba52a8d75f43a040374",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Mother Africa.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Mother Africa",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Mother Africa."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-86ce1b1a070c33f6d6a231e6": {
+      "account_id": "WA:eat happy now",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Eat Happy Now": {
+          "account": "WA:eat happy now",
+          "event_date": null,
+          "evidence_hash": "9d8c906ea3819f1e738c6c4c2ba40ac011c0b0d10721b890029ad58728f83f47",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Eat Happy Now.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Eat Happy Now",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Eat Happy Now."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-9462f0a80428258fde00f4d5": {
+      "account_id": "WA:plymouth housing group",
+      "award_key": "Seattle/Urgent Operating Support/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "housing/Plymouth Housing Group": {
+          "account": "WA:plymouth housing group",
+          "event_date": null,
+          "evidence_hash": "f2619d6124df7ce4b08ac11d05cab7aa53579ac920d0e71f508a7ddaa35b15f3",
+          "fact": "City announced USD 500,000 in urgent operating support funding for Plymouth Housing Group.",
+          "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+          "locator": "Plymouth Housing Group",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 500,000 in urgent operating support funding for Plymouth Housing Group."
+      ],
+      "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+      "last_retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+      "publication_dates": [
+        "2026-02-06"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+        "name": "Seattle Office of Housing"
+      }
+    },
+    "award-9f9116583cddb435ff141ae8": {
+      "account_id": "453827860",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/American Polynesian Organization": {
+          "account": "WA:american polynesian organization",
+          "event_date": null,
+          "evidence_hash": "7a40c4412cb7b97001ecc3730ecb61afa79800ab174c42bb84feba730a664da7",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for American Polynesian Organization.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "American Polynesian Organization",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for American Polynesian Organization."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-ad0449230ec8069ee89cc1dc": {
+      "account_id": "800579830",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/City Fruit": {
+          "account": "WA:city fruit",
+          "event_date": null,
+          "evidence_hash": "76a7b8ac9d5621a1ac6dd62284b6535e518946617474453b70a366c0accba5fa",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for City Fruit.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "City Fruit",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for City Fruit."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-b0bb4ec9e1743d9f006e82e0": {
+      "account_id": "272172486",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Seattle Good Business Network": {
+          "account": "WA:seattle good business network",
+          "event_date": null,
+          "evidence_hash": "943fb310c472dd72f4ae06e4bb51c46696e3acf802290c1598696b3c2ef7930f",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Seattle Good Business Network.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Seattle Good Business Network",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Seattle Good Business Network."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-b1d68a09a10d89ff11fdc37f": {
+      "account_id": "911122115",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Duwamish Tribal Services": {
+          "account": "WA:duwamish tribal services",
+          "event_date": null,
+          "evidence_hash": "17cd12d6b27fd33361996d040a9beb0a0549e24c4f2d55a04504d5d7487a3566",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Duwamish Tribal Services.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Duwamish Tribal Services",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Duwamish Tribal Services."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-be2f82f34c5f4387e359c2a4": {
+      "account_id": "WA:seattle indian health board (sihb)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Seattle Indian Health Board (SIHB)": {
+          "account": "WA:seattle indian health board (sihb)",
+          "event_date": null,
+          "evidence_hash": "0c58a0d2719b0d61a540205cd76662c09dfb2c6b2ef292682903834d53d10508",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Seattle Indian Health Board (SIHB).",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Seattle Indian Health Board (SIHB)",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for Seattle Indian Health Board (SIHB)."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-c3e8c7df0f7ba797bdbc1f6b": {
+      "account_id": "WA:compass housing alliance",
+      "award_key": "Seattle/Urgent Operating Support/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "housing/Compass Housing Alliance": {
+          "account": "WA:compass housing alliance",
+          "event_date": null,
+          "evidence_hash": "d357de73dfad13e5462fee809d5a9a4dc40eaad1ed0e6ec88eecba16965c731b",
+          "fact": "City announced USD 1,002,494 in urgent operating support funding for Compass Housing Alliance.",
+          "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+          "locator": "Compass Housing Alliance",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        },
+        "pilot/Compass Housing Alliance": {
+          "event_date": null,
+          "evidence_hash": "c422f7b3f7434d3b55ea106168533e393a9f01142aabe5d689a45ab42d09f72d",
+          "fact": "City announced USD 1,002,494 in urgent operating support funding for Compass Housing Alliance.",
+          "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+          "locator": "Eligible Organization table, Compass Housing Alliance row",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-05T23:29:56.720580+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 1,002,494 in urgent operating support funding for Compass Housing Alliance."
+      ],
+      "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+      "last_retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+      "publication_dates": [
+        "2026-02-06"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+        "name": "Seattle Office of Housing"
+      }
+    },
+    "award-e1b30f21ef7dac8310022a2a": {
+      "account_id": "831742878",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Hip Hop is Green": {
+          "account": "WA:hip hop is green",
+          "event_date": null,
+          "evidence_hash": "b1f5d1777ea22ef94f892648d18697b255a41143c01c58060e30b6ff8062f279",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Hip Hop is Green.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Hip Hop is Green",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Hip Hop is Green."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-e277d5a49bf662a1b00a5d1d": {
+      "account_id": "WA:kin on health care center of washington",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Kin On Health Care Center of Washington": {
+          "account": "WA:kin on health care center of washington",
+          "event_date": null,
+          "evidence_hash": "2bb101ba6e869846cb6c2694f7b23d3ec81f282b0901675b255216a0b55a7b54",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Kin On Health Care Center of Washington.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Kin On Health Care Center of Washington",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Kin On Health Care Center of Washington."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-e767294d019818429ff54405": {
+      "account_id": "WA:bellwether housing",
+      "award_key": "Seattle/Urgent Operating Support/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "housing/Bellwether Housing": {
+          "account": "WA:bellwether housing",
+          "event_date": null,
+          "evidence_hash": "d34e739131453676feca7d585c6e7c3d37b9dca5544929593b6349709460287b",
+          "fact": "City announced USD 2,800,000 in urgent operating support funding for Bellwether Housing.",
+          "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+          "locator": "Bellwether Housing",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        },
+        "pilot/Bellwether Housing": {
+          "event_date": null,
+          "evidence_hash": "22610a4f202ca3aadcda27579b6edbaab3b1fcab533b57b5ba10b25564bebf64",
+          "fact": "City announced USD 2,800,000 in urgent operating support funding for Bellwether Housing.",
+          "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+          "locator": "Eligible Organization table, Bellwether Housing row",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-05T23:29:56.720580+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 2,800,000 in urgent operating support funding for Bellwether Housing."
+      ],
+      "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+      "last_retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+      "publication_dates": [
+        "2026-02-06"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+        "name": "Seattle Office of Housing"
+      }
+    },
+    "award-e88a6b2ff250685cadebcc38": {
+      "account_id": "WA:familyworks",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/FamilyWorks": {
+          "account": "WA:familyworks",
+          "event_date": null,
+          "evidence_hash": "33eb753723a8cbade4a16c88c75d0dce10ec3e3b8bd9321bbad1a3b83a875df4",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for FamilyWorks.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "FamilyWorks",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for FamilyWorks."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-f3dd124bc018b6f3b859ffa9": {
+      "account_id": "463115382",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/Nurturing Roots": {
+          "account": "463115382",
+          "event_date": null,
+          "evidence_hash": "569d1e14ee08dab00d2391da6d26510e272eae3978800d2e326421e4a98b99ac",
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Nurturing Roots.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "Nurturing Roots",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 65,000 in Food Equity Fund funding for Nurturing Roots."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    },
+    "award-f7fe97795ee69a714edc4963": {
+      "account_id": "WA:chief seattle club",
+      "award_key": "Seattle/Urgent Operating Support/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "housing/Chief Seattle Club": {
+          "account": "WA:chief seattle club",
+          "event_date": null,
+          "evidence_hash": "eed8020905bfb1e81d67891258145ed1a364d58726f53c5d470bdb2f16974bb7",
+          "fact": "City announced USD 1,067,671 in urgent operating support funding for Chief Seattle Club.",
+          "first_seen_at": "2026-11-06T02:36:33.963907+00:00",
+          "locator": "Chief Seattle Club",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        },
+        "pilot/Chief Seattle Club": {
+          "event_date": null,
+          "evidence_hash": "dba12ac198d6bfef674597692c8febae62773e7f465d04144622bf5e59710751",
+          "fact": "City announced USD 1,067,671 in urgent operating support funding for Chief Seattle Club.",
+          "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+          "locator": "Eligible Organization table, Chief Seattle Club row",
+          "publication_date": "2026-02-06",
+          "retrieved_at": "2026-11-05T23:29:56.720580+00:00",
+          "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 1,067,671 in urgent operating support funding for Chief Seattle Club."
+      ],
+      "first_seen_at": "2026-11-05T23:29:56.720580+00:00",
+      "last_retrieved_at": "2026-11-06T02:36:33.963907+00:00",
+      "publication_dates": [
+        "2026-02-06"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+        "name": "Seattle Office of Housing"
+      }
+    },
+    "award-fe29610b1ba024e9669a7174": {
+      "account_id": "831665288",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "event_date": null,
+      "event_type": "funding_award",
+      "evidence": {
+        "food/African Community Housing & Development": {
+          "account": "WA:african community housing & development",
+          "event_date": null,
+          "evidence_hash": "2f01ef4fc9b2456e776c35b2ae5f4cb1f21efdc146f457578d7ceec6aaeb40a7",
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for African Community Housing & Development.",
+          "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+          "locator": "African Community Housing & Development",
+          "publication_date": "2025-12-17",
+          "retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+          "version": 1
+        }
+      },
+      "factual_observations": [
+        "City announced USD 60,000 in Food Equity Fund funding for African Community Housing & Development."
+      ],
+      "first_seen_at": "2026-11-05T23:34:40.235095+00:00",
+      "last_retrieved_at": "2026-11-05T23:34:40.235095+00:00",
+      "publication_dates": [
+        "2025-12-17"
+      ],
+      "route": {
+        "basis": "Published funder-recipient relationship; no promised introduction",
+        "evidence_url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+        "name": "Seattle Department of Neighborhoods"
+      }
+    }
+  },
+  "ledger": {
+    "cra/107449787RR0001": {
+      "account_id": "107449787RR0001",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "cra/132168162RR0001": {
+      "account_id": "132168162RR0001",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "cra/133859058RR0001": {
+      "account_id": "133859058RR0001",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "cra/730610870RR0001": {
+      "account_id": "730610870RR0001",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "cra/861331130RR0001": {
+      "account_id": "861331130RR0001",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "food/African Community Housing & Development": {
+      "account_id": "831665288",
+      "disposition": "event",
+      "event_id": "award-fe29610b1ba024e9669a7174"
+    },
+    "food/American Polynesian Organization": {
+      "account_id": "453827860",
+      "disposition": "event",
+      "event_id": "award-9f9116583cddb435ff141ae8"
+    },
+    "food/Black Dollar Days Task Force’s Clean Greens Farm and Market": {
+      "account_id": "WA:black dollar days task force’s clean greens farm and market",
+      "disposition": "event",
+      "event_id": "award-55fb0904948cadf423bdf83b"
+    },
+    "food/Cambodian American Community Council of Washington (CACCWA)": {
+      "account_id": "WA:cambodian american community council of washington (caccwa)",
+      "disposition": "event",
+      "event_id": "award-10c3ff9838a4282ab6df887e"
+    },
+    "food/City Fruit": {
+      "account_id": "800579830",
+      "disposition": "event",
+      "event_id": "award-ad0449230ec8069ee89cc1dc"
+    },
+    "food/Duwamish Tribal Services": {
+      "account_id": "911122115",
+      "disposition": "event",
+      "event_id": "award-b1d68a09a10d89ff11fdc37f"
+    },
+    "food/Eat Happy Now": {
+      "account_id": "WA:eat happy now",
+      "disposition": "event",
+      "event_id": "award-86ce1b1a070c33f6d6a231e6"
+    },
+    "food/Eritrean Association in Greater Seattle": {
+      "account_id": "911703201",
+      "disposition": "event",
+      "event_id": "award-6d16aef308c5463e96a6df86"
+    },
+    "food/Ethiopian Community in Seattle": {
+      "account_id": "911288919",
+      "disposition": "event",
+      "event_id": "award-7cce47529588a5fa8962e0c5"
+    },
+    "food/FEEST": {
+      "account_id": "WA:feest",
+      "disposition": "event",
+      "event_id": "award-229c4f71d961ed7b2817b7de"
+    },
+    "food/FamilyWorks": {
+      "account_id": "WA:familyworks",
+      "disposition": "event",
+      "event_id": "award-e88a6b2ff250685cadebcc38"
+    },
+    "food/Hip Hop is Green": {
+      "account_id": "831742878",
+      "disposition": "event",
+      "event_id": "award-e1b30f21ef7dac8310022a2a"
+    },
+    "food/International Migrants Alliance (Washington Chapter)": {
+      "account_id": "WA:international migrants alliance (washington chapter)",
+      "disposition": "event",
+      "event_id": "award-16e2b79e544f2beb00012ad6"
+    },
+    "food/Kin On Health Care Center of Washington": {
+      "account_id": "WA:kin on health care center of washington",
+      "disposition": "event",
+      "event_id": "award-e277d5a49bf662a1b00a5d1d"
+    },
+    "food/Lake City Collective": {
+      "account_id": "364939852",
+      "disposition": "event",
+      "event_id": "award-554df53ddb1788d6dccc6bd9"
+    },
+    "food/Mother Africa": {
+      "account_id": "461793603",
+      "disposition": "event",
+      "event_id": "award-857e86d2f658adbb746b049e"
+    },
+    "food/Nurturing Roots": {
+      "account_id": "463115382",
+      "disposition": "event",
+      "event_id": "award-f3dd124bc018b6f3b859ffa9"
+    },
+    "food/Rainier Beach Action Coalition": {
+      "account_id": "WA:rainier beach action coalition",
+      "disposition": "event",
+      "event_id": "award-3e798fb72764b283a7e1d09d"
+    },
+    "food/Seattle Good Business Network": {
+      "account_id": "272172486",
+      "disposition": "event",
+      "event_id": "award-b0bb4ec9e1743d9f006e82e0"
+    },
+    "food/Seattle Indian Health Board (SIHB)": {
+      "account_id": "WA:seattle indian health board (sihb)",
+      "disposition": "event",
+      "event_id": "award-be2f82f34c5f4387e359c2a4"
+    },
+    "food/Tongan Community Food Pantry": {
+      "account_id": "WA:tongan community food pantry",
+      "disposition": "event",
+      "event_id": "award-0dcb03f5a3545ed403e30a26"
+    },
+    "food/Villa Comunitaria": {
+      "account_id": "833561540",
+      "disposition": "event",
+      "event_id": "award-40b5844f57cb34b072923c58"
+    },
+    "food/Young Women Empowered (Y-WE)": {
+      "account_id": "WA:young women empowered (y-we)",
+      "disposition": "event",
+      "event_id": "award-4e98103411be5fa230bf1fcb"
+    },
+    "housing/Bellwether Housing": {
+      "account_id": "WA:bellwether housing",
+      "disposition": "event",
+      "event_id": "award-e767294d019818429ff54405"
+    },
+    "housing/Chief Seattle Club": {
+      "account_id": "WA:chief seattle club",
+      "disposition": "event",
+      "event_id": "award-f7fe97795ee69a714edc4963"
+    },
+    "housing/Compass Housing Alliance": {
+      "account_id": "WA:compass housing alliance",
+      "disposition": "event",
+      "event_id": "award-c3e8c7df0f7ba797bdbc1f6b"
+    },
+    "housing/Plymouth Housing Group": {
+      "account_id": "WA:plymouth housing group",
+      "disposition": "event",
+      "event_id": "award-9462f0a80428258fde00f4d5"
+    },
+    "housing/Solid Ground": {
+      "account_id": "WA:solid ground",
+      "disposition": "event",
+      "event_id": "award-2d7bdc6e63825830de937d4e"
+    },
+    "irs/463115382": {
+      "account_id": "463115382",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911090450": {
+      "account_id": "911090450",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911307564": {
+      "account_id": "911307564",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911428805": {
+      "account_id": "911428805",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911464412": {
+      "account_id": "911464412",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911485319": {
+      "account_id": "911485319",
+      "disposition": "identity_only",
+      "event_id": null
+    },
+    "irs/911500768": {
+      "account_id": "911500768",
+      "disposition": "identity_only",
+      "event_id": null
+    }
+  },
+  "limitations": [
+    "Candidate signals only. Separate researcher, skeptic and fact-checker execution is pending Day 5.",
+    "No independent verification or owner usefulness judgment is claimed.",
+    "BC and WA selected English-language endpoints only; other Canadian jurisdictions, local journalism and sector sources remain gaps.",
+    "A recent six-month publication/event date supplies current candidate context, not proof that a need persists. Six months is review priority, not a discovery cutoff.",
+    "Older observations remain visible. Current status requires fresh supporting evidence; a new retrieval alone does not establish continuation."
+  ],
+  "rule_version": "day4-v1"
+}

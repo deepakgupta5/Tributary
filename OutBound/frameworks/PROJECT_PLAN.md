@@ -7,7 +7,7 @@ This plan replaces the earlier seven-day design and synthetic-foundation schedul
 
 ## Delivery status on November 5, 2026
 
-Day 1 shipped at merge `30e5e03`. Day 2 is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). The [first-run evidence](../evidence/day-2/first-run.md) measures discovery, and the [repeat-run evidence](../evidence/day-2/second-run.md) measures duplicate suppression. Day 3 starts with the [saved batch and delivery contract](../evidence/day-2/README.md#day-3-input-and-delivery).
+Day 1 shipped at merge `30e5e03`. Day 2 is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). The [first-run evidence](../evidence/day-2/first-run.md) measures discovery, and the [repeat-run evidence](../evidence/day-2/second-run.md) measures duplicate suppression. Day 3 resolution and reviewed identity relationships are in [PR #5](https://github.com/deepakgupta5/Tributary/pull/5). The Day 4 implementation on this branch provides [candidate signals and fresh collection results](../evidence/day-4/signal-report.md), with [reproduction and limitations](../evidence/day-4/README.md). It advances the next permitted backfill batch and separates older newly observed events from recent developments. Day 5 separate-role review and owner usefulness review remain pending.
 
 ## Objective and Day X
 

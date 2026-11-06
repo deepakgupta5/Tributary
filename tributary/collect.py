@@ -158,6 +158,7 @@ def run(state, inventory, retrieve=fetch, advance=False):
             if code != 200:
                 raise ValueError(f"HTTP {code}")
             digest = hashlib.sha256(raw).hexdigest()
+            attempt["response_sha256"] = digest
             unchanged = digest == cp.get("sha256")
             rows = [] if unchanged else [r for r in extract(src,raw) if
                 not (r[4] or r[5]) or start <= date.fromisoformat(r[4] or r[5]) <= today]
