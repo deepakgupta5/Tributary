@@ -279,7 +279,7 @@
       "registration": "unchecked"
     },
     "WA:black dollar days task force’s clean greens farm and market": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "program parent: Black Dollar Days Task Force",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-55fb0904948cadf423bdf83b"
@@ -288,11 +288,17 @@
         "food/Black Dollar Days Task Force’s Clean Greens Farm and Market"
       ],
       "name": "Black Dollar Days Task Force’s Clean Greens Farm and Market",
-      "question": "Does the award agreement name Black Dollar Days Task Force or the farm as grantee? Obtain the payee EIN.",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1475024",
+        "name": "Black Dollar Days Task Force",
+        "role": "program_parent",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L7"
+      }
     },
     "WA:cambodian american community council of washington (caccwa)": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Cambodian American Community Council of Washington",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-10c3ff9838a4282ab6df887e"
@@ -301,11 +307,17 @@
         "food/Cambodian American Community Council of Washington (CACCWA)"
       ],
       "name": "Cambodian American Community Council of Washington (CACCWA)",
-      "question": "Which official legal name and EIN does the funder associate with the award label Cambodian American Community Council of Washington (CACCWA)?",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "84-2587937",
+        "name": "Cambodian American Community Council of Washington",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L8"
+      }
     },
     "WA:eat happy now": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Eathappy",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-86ce1b1a070c33f6d6a231e6"
@@ -314,11 +326,17 @@
         "food/Eat Happy Now"
       ],
       "name": "Eat Happy Now",
-      "question": "Which legal entity received the award listed as Eat Happy Now? Obtain the recipient or fiscal sponsor's legal name and EIN from the funder.",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "88-2683238",
+        "name": "Eathappy",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L9"
+      }
     },
     "WA:familyworks": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Family Works",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-e88a6b2ff250685cadebcc38"
@@ -327,11 +345,17 @@
         "food/FamilyWorks"
       ],
       "name": "FamilyWorks",
-      "question": "Which legal entity received the award listed as FamilyWorks? Obtain the recipient or fiscal sponsor's legal name and EIN from the funder.",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1757277",
+        "name": "Family Works",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L10"
+      }
     },
     "WA:feest": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: FEEST Food Empowerment Education and Sustainability Team",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-229c4f71d961ed7b2817b7de"
@@ -340,11 +364,17 @@
         "food/FEEST"
       ],
       "name": "FEEST",
-      "question": "Which official legal name and EIN does the funder associate with the award label FEEST?",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "46-2268038",
+        "name": "FEEST Food Empowerment Education and Sustainability Team",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L11"
+      }
     },
     "WA:international migrants alliance (washington chapter)": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "chapter: International Migrants Alliance (Washington Chapter)",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-16e2b79e544f2beb00012ad6"
@@ -353,11 +383,17 @@
         "food/International Migrants Alliance (Washington Chapter)"
       ],
       "name": "International Migrants Alliance (Washington Chapter)",
-      "question": "Does the Washington chapter have its own EIN or use the parent or a sponsor as payee?",
-      "registration": "unchecked"
+      "question": "Does the Washington chapter have its own EIN or operate under a parent?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": null,
+        "name": "International Migrants Alliance (Washington Chapter)",
+        "role": "chapter",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L17"
+      }
     },
     "WA:kin on health care center of washington": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Kin On Health Care Center",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-e277d5a49bf662a1b00a5d1d"
@@ -366,11 +402,17 @@
         "food/Kin On Health Care Center of Washington"
       ],
       "name": "Kin On Health Care Center of Washington",
-      "question": "Which legal entity received the award listed as Kin On Health Care Center of Washington? Obtain the recipient or fiscal sponsor's legal name and EIN from the funder.",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1620786",
+        "name": "Kin On Health Care Center",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L12"
+      }
     },
     "WA:rainier beach action coalition": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Rainier Beach Community Empowerment Coalition / RBAC",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-3e798fb72764b283a7e1d09d"
@@ -379,11 +421,17 @@
         "food/Rainier Beach Action Coalition"
       ],
       "name": "Rainier Beach Action Coalition",
-      "question": "Which legal entity received the award listed as Rainier Beach Action Coalition? Obtain the recipient or fiscal sponsor's legal name and EIN from the funder.",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "20-3758788",
+        "name": "Rainier Beach Community Empowerment Coalition / RBAC",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L13"
+      }
     },
     "WA:seattle indian health board (sihb)": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Seattle Indian Health Board",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-be2f82f34c5f4387e359c2a4"
@@ -392,11 +440,17 @@
         "food/Seattle Indian Health Board (SIHB)"
       ],
       "name": "Seattle Indian Health Board (SIHB)",
-      "question": "Which official legal name and EIN does the funder associate with the award label Seattle Indian Health Board (SIHB)?",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-0869056",
+        "name": "Seattle Indian Health Board",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L14"
+      }
     },
     "WA:tongan community food pantry": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "fundraising host: Sustainable Seattle",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-0dcb03f5a3545ed403e30a26"
@@ -405,11 +459,17 @@
         "food/Tongan Community Food Pantry"
       ],
       "name": "Tongan Community Food Pantry",
-      "question": "Which legal entity received the award listed as Tongan Community Food Pantry? Obtain the recipient or fiscal sponsor's legal name and EIN from the funder.",
-      "registration": "unchecked"
+      "question": "Which legal entity operates the pantry, and does it have its own EIN?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "31-1580932",
+        "name": "Sustainable Seattle",
+        "role": "fundraising_host",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L16"
+      }
     },
     "WA:young women empowered (y-we)": {
-      "basis": "Publisher label; legal identity open",
+      "basis": "operating entity: Young Women Empowered",
       "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
       "events": [
         "award-4e98103411be5fa230bf1fcb"
@@ -418,17 +478,25 @@
         "food/Young Women Empowered (Y-WE)"
       ],
       "name": "Young Women Empowered (Y-WE)",
-      "question": "Which official legal name and EIN does the funder associate with the award label Young Women Empowered (Y-WE)?",
-      "registration": "unchecked"
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "47-2230647",
+        "name": "Young Women Empowered",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L15"
+      }
     }
   },
   "counts": {
     "accounts": 34,
     "dated_accounts": 23,
+    "day2_new_candidates": 31,
+    "day3_discoveries": 0,
     "events": 23,
     "items": 35,
     "known_items": 4,
-    "manual": 11,
+    "manual": 2,
     "new_candidates": 31,
     "registry_only": 11
   },
@@ -479,6 +547,7 @@
     "award-0dcb03f5a3545ed403e30a26": {
       "account_id": "WA:tongan community food pantry",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Tongan Community Food Pantry": {
           "event_date": null,
@@ -492,6 +561,7 @@
     "award-10c3ff9838a4282ab6df887e": {
       "account_id": "WA:cambodian american community council of washington (caccwa)",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Cambodian American Community Council of Washington (CACCWA)": {
           "event_date": null,
@@ -505,6 +575,7 @@
     "award-16e2b79e544f2beb00012ad6": {
       "account_id": "WA:international migrants alliance (washington chapter)",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/International Migrants Alliance (Washington Chapter)": {
           "event_date": null,
@@ -518,6 +589,7 @@
     "award-229c4f71d961ed7b2817b7de": {
       "account_id": "WA:feest",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/FEEST": {
           "event_date": null,
@@ -531,6 +603,7 @@
     "award-3e798fb72764b283a7e1d09d": {
       "account_id": "WA:rainier beach action coalition",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Rainier Beach Action Coalition": {
           "event_date": null,
@@ -544,6 +617,7 @@
     "award-40b5844f57cb34b072923c58": {
       "account_id": "833561540",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Villa Comunitaria": {
           "event_date": null,
@@ -557,6 +631,7 @@
     "award-4e98103411be5fa230bf1fcb": {
       "account_id": "WA:young women empowered (y-we)",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Young Women Empowered (Y-WE)": {
           "event_date": null,
@@ -570,6 +645,7 @@
     "award-554df53ddb1788d6dccc6bd9": {
       "account_id": "364939852",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Lake City Collective": {
           "event_date": null,
@@ -583,6 +659,7 @@
     "award-55fb0904948cadf423bdf83b": {
       "account_id": "WA:black dollar days task force’s clean greens farm and market",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Black Dollar Days Task Force’s Clean Greens Farm and Market": {
           "event_date": null,
@@ -596,6 +673,7 @@
     "award-6d16aef308c5463e96a6df86": {
       "account_id": "911703201",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Eritrean Association in Greater Seattle": {
           "event_date": null,
@@ -609,6 +687,7 @@
     "award-7cce47529588a5fa8962e0c5": {
       "account_id": "911288919",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Ethiopian Community in Seattle": {
           "event_date": null,
@@ -622,6 +701,7 @@
     "award-857e86d2f658adbb746b049e": {
       "account_id": "461793603",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Mother Africa": {
           "event_date": null,
@@ -635,6 +715,7 @@
     "award-86ce1b1a070c33f6d6a231e6": {
       "account_id": "WA:eat happy now",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Eat Happy Now": {
           "event_date": null,
@@ -648,6 +729,7 @@
     "award-9f9116583cddb435ff141ae8": {
       "account_id": "453827860",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/American Polynesian Organization": {
           "event_date": null,
@@ -661,6 +743,7 @@
     "award-ad0449230ec8069ee89cc1dc": {
       "account_id": "800579830",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/City Fruit": {
           "event_date": null,
@@ -674,6 +757,7 @@
     "award-b0bb4ec9e1743d9f006e82e0": {
       "account_id": "272172486",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Seattle Good Business Network": {
           "event_date": null,
@@ -687,6 +771,7 @@
     "award-b1d68a09a10d89ff11fdc37f": {
       "account_id": "911122115",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Duwamish Tribal Services": {
           "event_date": null,
@@ -700,6 +785,7 @@
     "award-be2f82f34c5f4387e359c2a4": {
       "account_id": "WA:seattle indian health board (sihb)",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Seattle Indian Health Board (SIHB)": {
           "event_date": null,
@@ -713,6 +799,7 @@
     "award-e1b30f21ef7dac8310022a2a": {
       "account_id": "831742878",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Hip Hop is Green": {
           "event_date": null,
@@ -726,6 +813,7 @@
     "award-e277d5a49bf662a1b00a5d1d": {
       "account_id": "WA:kin on health care center of washington",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Kin On Health Care Center of Washington": {
           "event_date": null,
@@ -739,6 +827,7 @@
     "award-e88a6b2ff250685cadebcc38": {
       "account_id": "WA:familyworks",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/FamilyWorks": {
           "event_date": null,
@@ -752,6 +841,7 @@
     "award-f3dd124bc018b6f3b859ffa9": {
       "account_id": "463115382",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/Nurturing Roots": {
           "event_date": null,
@@ -765,6 +855,7 @@
     "award-fe29610b1ba024e9669a7174": {
       "account_id": "831665288",
       "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
       "evidence": {
         "food/African Community Housing & Development": {
           "event_date": null,

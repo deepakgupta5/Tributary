@@ -102,13 +102,31 @@ def resolve(state, inventory, prior, lookup):
 def export(out):
     result = resolve(load(EVIDENCE/"day-2/state.json"),load(ROOT/"OutBound/data/day2-sources.json"),
                      load(EVIDENCE/"live_runs/session-001/records.json"),load(EVIDENCE/"day-3/irs-lookup.json"))
+    reviewed = load(EVIDENCE/"day-3/identity-review.json")
+    for aid, finding in reviewed.items():
+        row = result["accounts"][aid]
+        row["reviewed_relationship"] = finding
+        role = finding["role"]
+        row["basis"] = role.replace("_"," ") + ": " + finding["name"]
+        row["question"] = None
+        if role == "fundraising_host":
+            row["question"] = "Which legal entity operates the pantry, and does it have its own EIN?"
+        elif role == "chapter":
+            row["question"] = "Does the Washington chapter have its own EIN or operate under a parent?"
+        elif role not in {"operating_entity","program_parent"}:
+            raise ValueError("Unknown reviewed relationship: " + role)
+    for event in result["events"].values():
+        event["contract_payee"] = None
+    result["counts"].update(day2_new_candidates=result["counts"]["new_candidates"],day3_discoveries=0,
+                            manual=sum(bool(a["question"]) for a in result["accounts"].values()))
     out.mkdir(exist_ok=True,parents=True)
     save(out/"worklist.json",result)
     lines = ["# Account worklist", "", "First Day 2 batch. Registry identity is period-specific. "
              "Current registration remains unchecked, including for Greater Vancouver Food Bank Society.", "",
              "| Organization | Identifier and identity evidence | First discovery | Event and dates | Review question |",
              "|---|---|---|---|---|"]
-    exceptions = ["# Identity exceptions", "", "One entry per provisional recipient.", ""]
+    lines.insert(2,"31 Day 2 discoveries plus three previously known accounts. Day 3 discoveries: zero. Award contract payees remain unverified.\n")
+    exceptions = ["# Identity exceptions", "", "Two recipient identities need follow-up. Contract payee verification is a separate award-level question.", ""]
     for aid,row in sorted(result["accounts"].items(),key=lambda pair:pair[1]["name"].casefold()):
         source = row["discovery"]
         refs = []
@@ -116,9 +134,15 @@ def export(out):
             for ev in result["events"][eid]["evidence"].values():
                 refs.append(f"{ev['fact']} [Announced {ev['publication_date']}]({ev['url']}); award date {ev['event_date'] or 'unknown'}.")
         q = row["question"]
+        evidence = row["basis"]
+        identifier = aid
+        if aid in reviewed:
+            finding = reviewed[aid]
+            identifier = (finding["ein"] or "unknown EIN") + " (" + finding["role"].replace("_"," ") + ")"
+            evidence += f" · [identity research]({finding['source']})"
         if q:
-            exceptions.append(f"- **{row['name']}** — {q} [Award row]({source})")
-        lines.append(f"| {row['name']} | {aid if not q else 'ID unresolved'} · {row['basis']} | "
+            exceptions.append(f"- **{row['name']}** — {identifier} · {evidence}. {q} [Award row]({source})")
+        lines.append(f"| {row['name']} | {identifier} · {evidence} | "
                      f"[{row['inputs'][0].split('/')[0]}]({source}) | {' '.join(refs) or 'Registry evidence only'} | {q or '—'} |")
     lines += ["", "Outside this batch (earlier Seattle housing pilot): "+", ".join(result["outside_batch"])+".",
               "", "Each registry row or recipient row has an entry in the [structured reconciliation](worklist.json)."]

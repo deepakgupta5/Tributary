@@ -1,8 +1,34 @@
 import unittest
+from pathlib import Path
+from tempfile import TemporaryDirectory
+from tributary.resolution import export
 from tributary.resolution import EVIDENCE, ROOT, load, resolve, identity, attach_award
 
 
 class ResolutionTests(unittest.TestCase):
+    def test_reviewed_exports_preserve_snapshot_and_separate_host_parent_payee(self):
+        old = load(EVIDENCE/"day-3/original/worklist.json")
+        with TemporaryDirectory() as directory:
+            path = Path(directory)
+            export(path)
+            current = load(path/"worklist.json")
+            queue = (path/"exceptions.md").read_text()
+            worklist = (path/"worklist.md").read_text()
+        self.assertEqual(old["ledger"],current["ledger"])
+        self.assertEqual(set(old["accounts"]),set(current["accounts"]))
+        self.assertEqual(set(old["events"]),set(current["events"]))
+        self.assertEqual(current["counts"]["day3_discoveries"],0)
+        self.assertEqual(current["counts"]["manual"],2)
+        for aid, research in load(EVIDENCE/"day-3/identity-review.json").items():
+            row = current["accounts"][aid]
+            self.assertEqual(row["reviewed_relationship"],research)
+            self.assertIn(research["name"],worklist)
+            self.assertEqual(row["name"] in queue,research["role"] in {"chapter","fundraising_host"})
+            if research["ein"]:
+                self.assertIn(research["ein"],worklist)
+        self.assertIn("31-1580932 (fundraising host)",queue)
+        self.assertTrue(all(e["contract_payee"] is None for e in current["events"].values()))
+
     def test_ambiguous_name_stays_provisional(self):
         key, _, question = identity("WA:club","Club",{"club":[{"EIN":"123"},{"EIN":"456"}]})
         self.assertEqual(key,"WA:club")
