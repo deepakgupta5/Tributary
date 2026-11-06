@@ -1,6 +1,6 @@
 # Development roadmap
 Status: Days 1–5 merged; main contains de4c852 at merge eb295bb. Day 6 local live runner and recovery proofs are on this review branch. Native Mac scheduler registration is blocked; scheduled execution and owner usefulness remain unproven.
-Updated: 2026-11-05
+Updated: 2026-11-05 (Vancouver), source-review completion
 
 [PROJECT_PLAN.md](../frameworks/PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. [PRD.md](../frameworks/PRD.md) holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.
 
@@ -13,7 +13,7 @@ Updated: 2026-11-05
 | 3. Account and event resolution | Merged in PR #5. The [worklist](../evidence/day-3/worklist.md) reconciles 35 items to 34 accounts. Two identity questions remain. |
 | 4. Candidate signals | Merged in PR #6. The automated backfill added two accounts and two historical awards. A [supervised non-award pass](../evidence/day-4/pressure-report.md) searched 39 existing accounts, producing six observations across four accounts and one investigation candidate. Recurring collection of these sources and broad category coverage remain open. |
 | 5. Reviewed worklist | Merged in PR #7. [Reviewed worklist](../evidence/day-5/worklist.md): six original non-award observations checked, two qualified Surrey follow-ups, four unique account cards. Act 0, Investigate 1, Monitor 3, Suppress 0. [Review packets, tests and private feedback persistence](../evidence/day-5/README.md). Same-assistant review and unresolved current-status/identity checks remain explicit. |
-| 6. Daily execution | [Live runner and proofs](../evidence/day-6/README.md): 57 endpoints, 0 new accounts, 5 new candidates, 0 changed candidates, 6 attention cards; repeat adds no versions. Controlled failure and live 304 recovery preserve checkpoints. Private feedback is reused only for unchanged evidence. **Partial delivery:** native scheduler registration is blocked; app fallback registered with future Mac binding unverified. |
+| 6. Daily execution | [Live runner and proofs](../evidence/day-6/README.md): Initial collection: 57 endpoints, 0 new accounts, 5 new candidates. [Source-reviewed daily gate](../evidence/day-6/source-review/README.md): nine flags reviewed across seven documents, owner attention 6 → 0; live repeat reuses nine verdicts, with 0 new/changed candidates and no duplicates. Two claim questions plus four blocked/held source checks remain internal. Controlled failure and live 304 recovery preserve checkpoints. Private feedback is reused only for unchanged evidence. **Partial delivery:** native scheduler registration is blocked; app fallback registered with future Mac binding unverified. |
 | 7. Operating trial | Run on separate days, measure actual yield and review effort, and record owner usefulness feedback. |
 
 Next acceptance checks: resolve native Mac scheduler registration and observe an actual later scheduled execution. Clear pending candidate/source checks through the supervised review handoff. Separate-day yield and owner usefulness remain Day 7 evidence; a saved replay or manual run does not establish them.
@@ -120,3 +120,7 @@ Implement distinct versioned outputs and actors for each review stage. Coding-se
 
 ## Deferred decisions
 Detailed schema/runtime contracts, later interface implementation details, hosting, collection scheduling, free/local source access and transcription feasibility, source refresh frequency and historical comparison periods, numeric quality targets, and milestone effort are decided from the PRD and trial. No client donor-analysis or outreach capability is planned.
+
+## Source-review completion, 5 November 2026 Vancouver
+
+The desktop workflow now reads originals before owner publication and returns version-bound structured factual and commercial verdicts. Python validates all required claims, locators, periods and commercial gates atomically. Relevant/cited passage changes reopen affected claims; unchanged evidence preserves decisions and review dates. Collection-only or inaccessible-review fallback publishes dated collection status and the last reviewed worklist. The original checkout and private owner journal remain preserved. See [first batch, real repeat and test evidence](../evidence/day-6/source-review/README.md). Scheduled app instructions were updated; later scheduled Mac execution remains unproven.

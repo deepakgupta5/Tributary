@@ -13,9 +13,11 @@ The repository contains:
 - an approved seven-project-day path to fresh daily account and signal output; and
 - a documented evidence review of signal-system practices and failure modes.
 
-Days 1–5 are merged into `main`; PR #7 merged at `eb295bb9181cea6922608c94d023d17fa4d408ba`, which contains `de4c852`. This Day 6 branch adds [one daily Mac command and actual live results](OutBound/evidence/day-6/README.md). The [live worklist](OutBound/evidence/day-6/live/worklist.md) has zero new accounts, five new signal candidates, zero changed candidates and six cards needing attention. Three candidates are older/undated. New evidence remains pending review.
+Days 1–5 are merged into `main`; merge `eb295bb9181cea6922608c94d023d17fa4d408ba` contains `de4c852`. Day 6 now includes [substantive source review before owner publication](OutBound/evidence/day-6/source-review/README.md). The [current owner worklist](OutBound/evidence/day-6/source-review/repeat/worklist.md) has **0 attention accounts**, down from 6 unreviewed candidate cards. All nine flags have individual dispositions: four historical/positive contexts, three unsupported or contradicted interpretations, two unfinished research checks.
 
-The immediate live repeat adds no records or versions. Controlled failure plus a real recovery request preserves source checkpoints without duplicates. Private feedback stays local and is reused only for unchanged evidence. **Native Mac scheduling remains blocked by this managed session.** A morning app fallback is registered, but future Mac binding is unverified. [Schedule status and remaining blockers](OutBound/evidence/day-6/schedule-status.json). No later scheduled collection is claimed. Outreach stays manual.
+The live collection repeat found 0 new accounts and 0 new/changed candidates. Seven original checks reused all nine verdicts without new review records or duplicate cards. Current outstanding research is 6 items: two claim questions and four blocked/held source checks. Private feedback remains local and version-bound. See [desktop review operation](OutBound/frameworks/DESKTOP_SOURCE_REVIEW.md).
+
+The existing zero-additional-cost morning app workflow now includes source reading and structured Python validation. Native Mac registration remains blocked and future scheduled Mac execution is unverified. No later scheduled run is claimed. Outreach remains manual.
 
 ## Repository structure
 

@@ -133,7 +133,10 @@ class DailyRunnerTests(unittest.TestCase):
             data=execute(base/'state',base/'public',db,lambda *_:(200,feed(),{}),AT,[SOURCE],jobs=1)
             self.assertNotIn('SYNTHETIC_PRIVATE_DAILY',(base/'public/worklist.md').read_text())
             self.assertNotIn('SYNTHETIC_PRIVATE_DAILY',(base/'public/worklist.json').read_text())
-            self.assertIn('SYNTHETIC_PRIVATE_DAILY',(base/'state/private-latest/worklist.md').read_text())
+            # A source-research card is no longer published to the owner.
+            self.assertEqual(json.loads((base/'state/private-latest/worklist.json').read_text())['cards'],[])
+            saved=Feedback(db)
+            self.assertEqual(saved.latest(c['account_id'])['reason'],'SYNTHETIC_PRIVATE_DAILY');saved.close()
             self.assertEqual((base/'state/private-latest').stat().st_mode & 0o777,0o700)
 
     def test_failure_invalidates_reuse_without_erasing_original_decision(self):

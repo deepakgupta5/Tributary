@@ -406,8 +406,13 @@ class Network:
         return collect.fetch(url,checkpoint)
 
 
-def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,execution='manual_live',jobs=6):
-    retrieve=retrieve or Network()
+def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,execution='manual_live',jobs=6,reviewer=None):
+    upstream=retrieve or Network()
+    responses={}
+    def retrieve(url,checkpoint):
+        key=canonical(url)
+        if key not in responses:responses[key]=upstream(url,checkpoint)
+        return responses[key]
     directory=Path(directory);directory.mkdir(parents=True,exist_ok=True)
     path=directory/'state.json'
     with (directory/'runner.lock').open('a') as lock:
@@ -420,18 +425,32 @@ def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,ex
         log=run(state,sources or inventory(),retrieve,at,lambda s:save(path,s),execution,jobs)
         data=worklist(state,log)
         out=Path(out);out.mkdir(parents=True,exist_ok=True)
-        save(out/'worklist.json',data);(out/'worklist.md').write_text(render(data))
+        # Raw collection is diagnostic, never the owner publication.
+        save(out/'collection-worklist.json',data);(out/'collection-worklist.md').write_text(render(data))
+        from tributary.source_review import prepare, apply, publish, render_owner
+        packet=prepare(state,retrieve,cache_dir=directory/'source-cache')
+        save(out/'source-review-request.json',packet)
+        reviewed=False
+        if reviewer and packet['groups']:
+            try:
+                apply(state,packet,reviewer(packet));reviewed=True
+            except Exception as exc:
+                save(out/'reviewer-error.json',dict(error=type(exc).__name__+': '+str(exc)))
+        owner=publish(state,data,packet,out,reviewed)
+        save(path,state)
+        save(out/'worklist.json',owner);(out/'worklist.md').write_text(render_owner(owner))
+        data['owner_counts']=owner['counts'];data['verification']=owner['verification']
         save(out/'run.json',log);save(out/'review-queue.json',sorted(state['review_tasks'].values(),key=lambda t:t['id']))
         if feedback_db and Path(feedback_db).exists():
             store=Feedback(feedback_db)
             try:
-                private=store.overlay(data)
+                private=store.overlay(owner)
                 private['queue_counts']=private['counts']
-                private['counts']=deepcopy(data['counts'])
+                private['counts']=deepcopy(owner['counts'])
             finally: store.close()
             dest=private_destination(directory/'private-latest');dest.mkdir(mode=0o700,exist_ok=True)
             os.chmod(dest,0o700)
-            save(dest/'worklist.json',private);(dest/'worklist.md').write_text(render(private))
+            save(dest/'worklist.json',private);(dest/'worklist.md').write_text(render_owner(private))
             for name in ('worklist.json','worklist.md'): os.chmod(dest/name,0o600)
         return data
 
@@ -456,9 +475,9 @@ def main():
         print(json.dumps(data,sort_keys=True));return
     # Stable local entry point for the newest dated output. No automatic publication.
     latest=args.state_dir/'latest';latest.mkdir(exist_ok=True)
-    for name in ('worklist.json','worklist.md','run.json','review-queue.json'):
+    for name in ('worklist.json','worklist.md','run.json','review-queue.json','collection-worklist.json','collection-worklist.md','source-review-request.json','owner-worklist.json','owner-worklist.md','research-queue.json','dispositions.md'):
         temp=latest/(name+'.tmp');temp.write_bytes((out/name).read_bytes());temp.replace(latest/name)
-    print(json.dumps(dict(output=str(out),**data['counts']),sort_keys=True))
+    print(json.dumps(dict(output=str(out),collection_counts={k:v for k,v in data['counts'].items() if k not in {'cards_requiring_attention','unique_cards'}},owner_counts=data['owner_counts'],verification=data['verification']),sort_keys=True))
 
 
 if __name__=='__main__': main()

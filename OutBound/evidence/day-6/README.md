@@ -1,3 +1,5 @@
+> Superseded attention counts: the raw-candidate view below is historical collection evidence. The [source-reviewed worklist](source-review/repeat/worklist.md) is now the owner publication. Nine flag dispositions reduce owner attention from 6 to 0. See [source-review proof](source-review/README.md).
+
 # Day 6: live daily command and recovery
 
 [Live worklist](live/worklist.md) · [Immediate repeat](repeat/worklist.md) · [Run verification](verification.json) · [Recovery proof](recovery-proof.json) · [Schedule status](schedule-status.json) · [Tests](tests.txt)
