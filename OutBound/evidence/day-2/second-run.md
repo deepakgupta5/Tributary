@@ -11,6 +11,8 @@ New candidate accounts: 0. Backfill batch: 1.
 | food | unchanged | 0 | 0 | 2026-11-05T23:34:41.831778+00:00 |
 | gvfb | blocked | 0 | 0 | 2026-11-05T23:34:41.929694+00:00 |
 
+0 new evidence items, including 0 for previously known accounts.
+
 ## New candidate accounts
 
 Zero new or revised items.

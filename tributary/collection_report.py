@@ -13,6 +13,22 @@ def render(state, number):
              "|---|---|---:|---:|---|"]
     for a in run["attempts"]:
         lines.append(f"| {a['source']} | {a['outcome']} | {len(a['additions'])} | {len(a['revisions'])} | {a['at']} |")
+    first_sources = {}
+    added = known_items = 0
+    for attempt in run["attempts"]:
+        for key in attempt["additions"]:
+            account = next(v["item"]["account"] for v in state["items"][key]
+                           if v["retrieved_at"] == attempt["at"])
+            added += 1
+            if account in new:
+                first_sources.setdefault(account, attempt["source"])
+            else:
+                known_items += 1
+    lines += ["", f"{added} new evidence items, including {known_items} for previously known accounts."]
+    if first_sources:
+        counts = {s:list(first_sources.values()).count(s) for s in sorted(set(first_sources.values()))}
+        lines.append("New candidate accounts by first source: " + ", ".join(
+            f"{s} {n}" for s,n in counts.items()) + ". Discovery describes first appearance in this ledger. Registration dates are separate.")
     for title, is_new in [("New candidate accounts", True), ("Items at previously known accounts", False)]:
         lines += ["", "## "+title, ""]
         count = 0

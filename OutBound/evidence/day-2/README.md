@@ -2,6 +2,24 @@
 
 [First run](first-run.md) · [Repeat run](second-run.md) · [Source inventory](../../data/day2-sources.json) · [Checkpoints, attempts and evidence versions](state.json)
 
+## Day 3 input and delivery
+
+Use [state.json](state.json) for ordered attempts, original account keys, locators and evidence versions, and [day2-sources.json](../../data/day2-sources.json) for endpoint identity and handling. For pre-existing accounts use [Day 1 discovery records](../live_runs/session-001/records.json) and the [three-account housing pilot](https://github.com/deepakgupta5/Tributary/blob/4a8d611/OutBound/evidence/day-2/collection.json). Its [standalone parser](https://github.com/deepakgupta5/Tributary/blob/4a8d611/OutBound/evidence/day-2/seattle_awards.py) and run history remain on the pilot branch. The three housing names were seeded into Day 2. Their earlier awards belong to the pilot, outside the incremental batch totals.
+
+Reproduce the saved baseline offline from the repository root:
+
+```sh
+mkdir -p out/day2-baseline
+python3 -m tributary.collection_report OutBound/evidence/day-2/state.json 1 out/day2-baseline/first-run.md
+python3 -m tributary.collection_report OutBound/evidence/day-2/state.json 2 out/day2-baseline/second-run.md
+cmp out/day2-baseline/first-run.md OutBound/evidence/day-2/first-run.md
+cmp out/day2-baseline/second-run.md OutBound/evidence/day-2/second-run.md
+```
+
+Day 3 deliverables are one account worklist with structured output, an ambiguous-match queue with specific missing evidence, and item-level reconciliation to all 35 inputs. Preserve the first discovery source. Separate identity rows from events, announcement dates from award dates, and recipient relationships from the shared announcement. Keep registry-only accounts visible, including Greater Vancouver Food Bank Society with current registration unchecked. A local Day 3 branch was prepared at `0d15b32`; the initial batch inspection and IRS name lookup produced no committed implementation or published PR as of this reconciliation.
+
+## Continue live collection
+
 From the repo root, copy the saved state to a working directory to continue. An empty directory starts a separate baseline.
 
 ```sh

@@ -11,6 +11,9 @@ New candidate accounts: 31. Backfill batch: 1.
 | food | success | 23 | 0 | 2026-11-05T23:34:40.235095+00:00 |
 | gvfb | blocked | 0 | 0 | 2026-11-05T23:34:40.343887+00:00 |
 
+35 new evidence items, including 4 for previously known accounts.
+New candidate accounts by first source: cra 4, food 22, irs 5. Discovery describes first appearance in this ledger. Registration dates are separate.
+
 ## New candidate accounts
 
 - **FOOD BANKS BRITISH COLUMBIA** — FOOD BANKS BRITISH COLUMBIA listed in SURREY; 2024 charity identification file. Published unknown; event date unknown / inapplicable. [861331130RR0001](https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv)

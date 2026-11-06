@@ -1,5 +1,5 @@
 # Development roadmap
-Status: Day 1 merged. Day 2 live collection demonstrated on PR #4. Day 3 account and event resolution is next.
+Status: Day 1 shipped on `main`. Day 2 incremental collection is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). See the [collection baseline](../evidence/day-2/first-run.md) and [Day 3 delivery](../evidence/day-2/README.md#day-3-input-and-delivery).
 Updated: 2026-11-05
 
 [PROJECT_PLAN.md](../frameworks/PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. [PRD.md](../frameworks/PRD.md) holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.

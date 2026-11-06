@@ -5,6 +5,10 @@ Baseline: `codex/bounded-live-prototype-v1` at `a81f047`.
 
 This plan replaces the earlier seven-day design and synthetic-foundation schedule in this file. Those milestones have been completed through a bounded live run. The current task is to turn that run into a repeatable daily research operation. Seven days are project days, not a guarantee of seven calendar days or nationwide source completeness. Day 7 succeeds on observed output, not elapsed time.
 
+## Delivery status on November 5, 2026
+
+Day 1 shipped at merge `30e5e03`. Day 2 is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). The [first-run evidence](../evidence/day-2/first-run.md) measures discovery, and the [repeat-run evidence](../evidence/day-2/second-run.md) measures duplicate suppression. Day 3 starts with the [saved batch and delivery contract](../evidence/day-2/README.md#day-3-input-and-delivery).
+
 ## Objective and Day X
 
 Tributary supports nonprofit business development for Autonomy Bridge. It finds potential clients and credible organizational routes in across Canada and Washington State. It surfaces dated evidence of operational, fundraising, campaign, or data-related pressure and opportunity, as well as funder-sponsored support. Deepak makes relevance and pursuit decisions privately. Tributary does not send outreach.

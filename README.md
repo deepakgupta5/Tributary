@@ -13,7 +13,7 @@ The repository contains:
 - an approved seven-project-day path to fresh daily account and signal output; and
 - a documented evidence review of signal-system practices and failure modes.
 
-Day 1 of the current seven-day plan is implemented. Fresh broad collection, event resolution, daily scheduling, and an operational daily worklist remain to be built and tested. Saved live-session replay is a regression fixture, not a fresh collection run.
+Day 1 shipped on `main` through [PR #3](https://github.com/deepakgupta5/Tributary/pull/3). The incremental Day 2 collector is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). Its [fresh collection report](OutBound/evidence/day-2/first-run.md) and [immediate repeat](OutBound/evidence/day-2/second-run.md) record observed coverage and yield. The [Day 3 handoff](OutBound/evidence/day-2/README.md#day-3-input-and-delivery) defines the batch resolution and event work. Daily scheduling remains planned.
 
 ## Repository structure
 
