@@ -1,0 +1,118 @@
+{
+  "queried": [
+    "african community housing development",
+    "american polynesian organization",
+    "bellwether housing",
+    "black dollar days task force s clean greens farm and market",
+    "cambodian american community council of washington caccwa",
+    "chief seattle club",
+    "city fruit",
+    "compass housing alliance",
+    "duwamish tribal services",
+    "eat happy now",
+    "eritrean association in greater seattle",
+    "ethiopian community in seattle",
+    "familyworks",
+    "feest",
+    "hip hop is green",
+    "international migrants alliance washington chapter",
+    "kin on health care center of washington",
+    "lake city collective",
+    "mother africa",
+    "rainier beach action coalition",
+    "seattle good business network",
+    "seattle indian health board sihb",
+    "tongan community food pantry",
+    "villa comunitaria",
+    "young women empowered y we"
+  ],
+  "retrieved": "2026-11-06T01:46:41.043491+00:00",
+  "rows": [
+    {
+      "CITY": "SEATTLE",
+      "EIN": "272172486",
+      "NAME": "SEATTLE GOOD BUSINESS NETWORK",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "364939852",
+      "NAME": "LAKE CITY COLLECTIVE",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "453827860",
+      "NAME": "AMERICAN POLYNESIAN ORGANIZATION",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "KENT",
+      "EIN": "461793603",
+      "NAME": "MOTHER AFRICA",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "800579830",
+      "NAME": "CITY FRUIT",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATAC",
+      "EIN": "831665288",
+      "NAME": "AFRICAN COMMUNITY HOUSING & DEVELOPMENT",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "FEDERAL WAY",
+      "EIN": "831742878",
+      "NAME": "HIP HOP IS GREEN",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "833561540",
+      "NAME": "VILLA COMUNITARIA",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "910578229",
+      "NAME": "COMPASS HOUSING ALLIANCE",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "910852503",
+      "NAME": "CHIEF SEATTLE CLUB",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "911116960",
+      "NAME": "BELLWETHER HOUSING",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "911122115",
+      "NAME": "DUWAMISH TRIBAL SERVICES",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "911288919",
+      "NAME": "ETHIOPIAN COMMUNITY IN SEATTLE",
+      "STATE": "WA"
+    },
+    {
+      "CITY": "SEATTLE",
+      "EIN": "911703201",
+      "NAME": "ERITREAN ASSOCIATION IN GREATER SEATTLE",
+      "STATE": "WA"
+    }
+  ],
+  "sha256": "a04c7897480c07b89ed5cb1e32fc756ef3561a8a901f9e79c5621d9c31ab0c3c",
+  "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+}
