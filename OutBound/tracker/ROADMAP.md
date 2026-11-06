@@ -1,5 +1,5 @@
 # Development roadmap
-Status: Days 1–4 merged on main at 1002f1d. Day 5 reviewed worklist is implemented on this review branch. Daily operations and owner usefulness testing remain pending.
+Status: Days 1–5 merged; main contains de4c852 at merge eb295bb. Day 6 local live runner and recovery proofs are on this review branch. Native Mac scheduler registration is blocked; scheduled execution and owner usefulness remain unproven.
 Updated: 2026-11-05
 
 [PROJECT_PLAN.md](../frameworks/PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. [PRD.md](../frameworks/PRD.md) holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.
@@ -12,11 +12,11 @@ Updated: 2026-11-05
 | 2. Incremental collection | Merged in PR #4. Live registry and announcement collection found 31 new candidates. Checkpoints and duplicate control demonstrated. Geographic and source breadth remain limited. |
 | 3. Account and event resolution | Merged in PR #5. The [worklist](../evidence/day-3/worklist.md) reconciles 35 items to 34 accounts. Two identity questions remain. |
 | 4. Candidate signals | Merged in PR #6. The automated backfill added two accounts and two historical awards. A [supervised non-award pass](../evidence/day-4/pressure-report.md) searched 39 existing accounts, producing six observations across four accounts and one investigation candidate. Recurring collection of these sources and broad category coverage remain open. |
-| 5. Reviewed worklist | [Reviewed worklist](../evidence/day-5/worklist.md): six original non-award observations checked, two qualified Surrey follow-ups, four unique account cards. Act 0, Investigate 1, Monitor 3, Suppress 0. [Review packets, tests and private feedback persistence](../evidence/day-5/README.md). Same-assistant review and unresolved current-status/identity checks remain explicit. |
-| 6. Daily execution | Install and test local scheduling, missed-day catch-up, recovery and export with persistent state. |
+| 5. Reviewed worklist | Merged in PR #7. [Reviewed worklist](../evidence/day-5/worklist.md): six original non-award observations checked, two qualified Surrey follow-ups, four unique account cards. Act 0, Investigate 1, Monitor 3, Suppress 0. [Review packets, tests and private feedback persistence](../evidence/day-5/README.md). Same-assistant review and unresolved current-status/identity checks remain explicit. |
+| 6. Daily execution | [Live runner and proofs](../evidence/day-6/README.md): 57 endpoints, 0 new accounts, 5 new candidates, 0 changed candidates, 6 attention cards; repeat adds no versions. Controlled failure and live 304 recovery preserve checkpoints. Private feedback is reused only for unchanged evidence. **Partial delivery:** native scheduler registration is blocked; app fallback registered with future Mac binding unverified. |
 | 7. Operating trial | Run on separate days, measure actual yield and review effort, and record owner usefulness feedback. |
 
-Next acceptance check, Day 6: integrate fresh non-award collection with the review handoff, recovery, catch-up and export. Day 5 demonstrates supervised source checks, version-bound review and deterministic worklist reproduction. Reproduction is not a fresh collection/reasoning cycle. Separate-day runs and owner usefulness judgments remain Day 7 evidence.
+Next acceptance checks: resolve native Mac scheduler registration and observe an actual later scheduled execution. Clear pending candidate/source checks through the supervised review handoff. Separate-day yield and owner usefulness remain Day 7 evidence; a saved replay or manual run does not establish them.
 
 ## Day 2 results and Day 3 handoff
 

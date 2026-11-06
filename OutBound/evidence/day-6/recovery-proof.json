@@ -1,0 +1,22 @@
+{
+  "injected_outcome": "failed",
+  "missed_dates_simulated": [
+    "2026-11-04"
+  ],
+  "production_state_modified": false,
+  "recovered_counts": {
+    "cards_requiring_attention": 6,
+    "changed_signal_candidates": 0,
+    "historical_first_observed": 0,
+    "historical_source_rechecks": 0,
+    "new_accounts": 0,
+    "new_signal_candidates": 0,
+    "pending_review_tasks": 9,
+    "unique_cards": 6
+  },
+  "recovery_http": 304,
+  "recovery_outcome": "unchanged",
+  "source": "compass-news",
+  "successful_checkpoint_preserved_after_failure": true,
+  "test": "copied real state, injected 503 and simulated missed-date bookmark, followed by a real live request"
+}

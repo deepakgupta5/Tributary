@@ -7,7 +7,7 @@ This plan replaces the earlier seven-day design and synthetic-foundation schedul
 
 ## Delivery status on November 5, 2026
 
-Days 1–4 are merged in `main`, confirmed at `1002f1dea10e1b412595ce789236c8f0a3a5d862`. Day 2 [collection](../evidence/day-2/README.md), Day 3 [identity resolution](../evidence/day-3/README.md), and Day 4 [non-award pressure observations](../evidence/day-4/pressure-report.md) are preserved. This Day 5 review branch adds a [source-reviewed daily worklist](../evidence/day-5/worklist.md), with [versioned review records, private feedback persistence, validation and operating limitations](../evidence/day-5/README.md). Day 6 fresh-run/recovery integration and Day 7 separate-day owner usefulness testing remain pending.
+Days 1–5 are merged into `main`, confirmed at merge `eb295bb9181cea6922608c94d023d17fa4d408ba`, which contains Day 5 commit `de4c852`. The [Day 5 reviewed worklist](../evidence/day-5/worklist.md) remains the reviewed baseline. This Day 6 branch adds a [live daily command, repeat and recovery evidence](../evidence/day-6/README.md), with new/changed candidates explicitly pending review. Native Mac scheduler registration is blocked by the managed execution environment. An app morning fallback is registered, but future Mac binding and a later scheduled collection are unverified. Day 6 is partial until that registration/execution gap is resolved; Day 7 separate-day owner usefulness testing remains pending.
 
 ## Objective and Day X
 

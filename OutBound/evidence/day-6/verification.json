@@ -1,0 +1,43 @@
+{
+  "duplicate_cards": 0,
+  "endpoint_count": 57,
+  "immediate_repeat_counts": {
+    "cards_requiring_attention": 6,
+    "changed_signal_candidates": 0,
+    "historical_first_observed": 0,
+    "historical_source_rechecks": 0,
+    "new_accounts": 0,
+    "new_signal_candidates": 0,
+    "pending_review_tasks": 9,
+    "unique_cards": 6
+  },
+  "live_outcomes": {
+    "blocked": 3,
+    "failed": 1,
+    "held": 1,
+    "success": 50,
+    "unchanged": 2
+  },
+  "manual_live_counts": {
+    "cards_requiring_attention": 6,
+    "changed_signal_candidates": 0,
+    "historical_first_observed": 3,
+    "historical_source_rechecks": 4,
+    "new_accounts": 0,
+    "new_signal_candidates": 5,
+    "pending_review_tasks": 9,
+    "unique_cards": 6
+  },
+  "manual_run_is_later_scheduled_execution": false,
+  "new_candidates_are_verified": false,
+  "private_feedback_in_public_outputs": false,
+  "repeat_outcomes": {
+    "blocked": 3,
+    "failed": 1,
+    "held": 1,
+    "unchanged": 52
+  },
+  "same_review_task_ids": true,
+  "same_signal_ids_and_versions": true,
+  "scope": "Selected BC/WA public sources; not complete news coverage"
+}

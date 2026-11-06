@@ -1,0 +1,17 @@
+{
+  "app_automation_enabled": true,
+  "app_automation_environment": "inherited; no Mac binding returned",
+  "app_automation_registered": true,
+  "app_manual_test": "run_now returned inline execution; local --scheduled command skipped because collection had already run today",
+  "automatic_outreach": false,
+  "later_scheduled_execution_observed": false,
+  "manual_test_started_new_collection": false,
+  "native_crontab_error": "PermissionError: Operation not permitted executing /usr/bin/crontab in the managed shell",
+  "native_crontab_registered": false,
+  "native_launchd_error": "launchctl bootstrap exited 5; subsequent launchctl print found no service",
+  "native_launchd_registered": false,
+  "plist_validation": "plutil: OK",
+  "remaining_blocker": "Native Mac registration is blocked in this session. The app fallback is registered, but its future Mac access is not verified.",
+  "schedule": "daily morning around 08:05 America/Vancouver",
+  "zero_cost_local_runtime": true
+}

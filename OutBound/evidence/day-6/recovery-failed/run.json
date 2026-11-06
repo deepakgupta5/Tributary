@@ -1,0 +1,26 @@
+{
+  "attempts": [
+    {
+      "at": "2026-11-06T04:54:20.763731+00:00",
+      "outcome": "failed",
+      "reason": "ValueError: HTTP 503",
+      "source": "compass-news",
+      "url": "https://www.compasshousingalliance.org/feed/"
+    }
+  ],
+  "changed_signals": [],
+  "coverage_gap": "Feeds/indexes are bounded. Catch-up checks last successful checkpoints but cannot guarantee every missed publication is recoverable.",
+  "ended_at": "2026-11-06T04:54:20.771142+00:00",
+  "execution": "controlled_failure_injection",
+  "historical_first_observed": [],
+  "id": "2026-11-06T04-54-20.763731+00-00",
+  "local_date": "2026-11-05",
+  "missed_dates": [
+    "2026-11-04"
+  ],
+  "new_accounts": [],
+  "new_signals": [],
+  "source_rechecks": [],
+  "started_at": "2026-11-06T04:54:20.763731+00:00",
+  "status": "partial"
+}

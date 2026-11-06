@@ -1,0 +1,719 @@
+{
+  "as_of": "2026-11-05",
+  "cards": [
+    {
+      "account_id": "911307564",
+      "alternative": "The same review reports stronger donor support and expanded distribution; the response may have resolved the pressure.",
+      "business_relevance": "unreviewed_private",
+      "capacity": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "willingness": "unknown"
+      },
+      "carry_forward": true,
+      "evidence_quality": "supported_attributed",
+      "fingerprint": "a832b0cbdd571ec3ae50dfdd4765ed285295b842ec360a15a9a090886cecb6b6",
+      "live_check": "source recheck or changed document; review pending",
+      "live_signals": [
+        {
+          "account_id": "911307564",
+          "baseline_replay": true,
+          "category": "operational_strain",
+          "event_date": null,
+          "evidence_by_source": {
+            "account-2d05d1c736dc": "78296dc7b74bb7524e53194691b902990c0f951b7a2780f1883a875787e68fd9",
+            "clark-news": "680f988c5d095d5bed3be0db56c23e11d2246d0b6f057cd559c6e42530439688"
+          },
+          "evidence_fingerprint": "6bc04bf07b558a9e7ebdb2c5706ad52f96a1224af6bb4d8cebe91189dac88c2a",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-5eff20a2203c656f9bb5c616",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [
+            "79fc07a58324e83058c0eb01f9000147835508511caf3a47ad8277ee8fb32073"
+          ],
+          "publication_date": "2026-03-20",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "account-2d05d1c736dc",
+          "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+          "version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de"
+        },
+        {
+          "account_id": "911307564",
+          "baseline_replay": false,
+          "category": "operational_strain",
+          "event_date": null,
+          "evidence_by_source": {
+            "clark-news": "7156a8fd5bc5b45213b9d85e89a650827b1a9ada2bba9eee9d9fe62105c42183"
+          },
+          "evidence_fingerprint": "cd93b6ff713860195fa660ffa912afd978288a201fa067feaddff1a5e3c6aab0",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-6e9ef48a6633133f4c83bdca",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "RSS/Atom item https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp",
+          "prior_versions": [],
+          "publication_date": "2026-03-20",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "clark-news",
+          "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp",
+          "version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983"
+        },
+        {
+          "account_id": "911307564",
+          "baseline_replay": true,
+          "category": "financial_pressure",
+          "event_date": null,
+          "evidence_by_source": {
+            "account-2d05d1c736dc": "5d70673108978ed34e2e0ef9037cc6db5eee7633ee078d883ba7d09eb04421cc",
+            "clark-news": "d6fcded35737ab42cf1bc674e9b828f363d68de5a1f6148d2ceda400511aa9b3"
+          },
+          "evidence_fingerprint": "3cd8fd577805d2b554da08f8fefae6b8116c01984fb8d54d7cab900b350e0fcb",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-bc6d441f41e791b2b95e57c2",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [
+            "acf2aa14674f5a131aab5bf020f33a76143f30666229e6f0e92fc475ef1b2d79"
+          ],
+          "publication_date": "2026-03-20",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "account-2d05d1c736dc",
+          "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+          "version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb"
+        }
+      ],
+      "material_pending": true,
+      "name": "Clark County Food Bank",
+      "next_step": "Check the latest published operating update for an unresolved funding or staffing gap before preparing an approach.",
+      "observation_ids": [
+        "ccfb-government-funding-review-2026",
+        "ccfb-capacity-review-2026"
+      ],
+      "observations": [
+        {
+          "account_id": "911307564",
+          "claim_source_version": {
+            "funding": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+            "response": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe"
+          },
+          "claims": [
+            {
+              "id": "funding",
+              "locator": "President review, government funding paragraph",
+              "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+              "text": "Clark County reported losing nearly USD 900,000 in government funding.",
+              "type": "number"
+            },
+            {
+              "id": "response",
+              "locator": "Community response paragraph",
+              "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+              "text": "It also reported increased donor support.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "historical",
+          "event_date": null,
+          "event_reference": "ccfb-government-funding-review-2026",
+          "event_type": "funding_loss",
+          "fact": "Clark County reported losing nearly USD 900,000 in government funding. It also reported increased donor support.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "ccfb-government-funding-review-2026",
+          "locator": "President's review, government funding",
+          "next": "Check the latest budget for replacement funding before treating this as a continuing gap.",
+          "origin": "day4",
+          "original_fact": "Clark County reported losing nearly USD 900,000 in government funding. It also reported increased donor support.",
+          "publication_date": "2026-03-20",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+          ],
+          "source_versions": {
+            "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe"
+          },
+          "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        },
+        {
+          "account_id": "911307564",
+          "claim_source_version": {
+            "demand": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+            "staff": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe"
+          },
+          "claims": [
+            {
+              "id": "staff",
+              "locator": "President review, AmeriCorps paragraph",
+              "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+              "text": "Clark County reported losing nine AmeriCorps team members.",
+              "type": "number"
+            },
+            {
+              "id": "demand",
+              "locator": "SNAP disruption and distribution paragraph",
+              "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+              "text": "It reported a 56% increase in clients seeking support during SNAP disruption and said distribution expanded.",
+              "type": "number"
+            }
+          ],
+          "disposition": "historical",
+          "event_date": null,
+          "event_reference": "ccfb-capacity-review-2026",
+          "event_type": "demand_change",
+          "fact": "Clark County reported losing nine AmeriCorps team members and a 56% increase in clients seeking support during SNAP disruption. It expanded distribution.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "ccfb-capacity-review-2026",
+          "locator": "President's review, staffing and SNAP disruption",
+          "next": "Check whether staffing and delivery capacity recovered.",
+          "origin": "day4",
+          "original_fact": "Clark County reported losing nine AmeriCorps team members and a 56% increase in clients seeking support during SNAP disruption. It expanded distribution.",
+          "publication_date": "2026-03-20",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+          ],
+          "source_versions": {
+            "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe"
+          },
+          "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        }
+      ],
+      "recommended_tier": "monitor",
+      "requires_attention": true,
+      "review_status": "pending new or changed evidence review; historical facts remain separately labelled",
+      "route": "None identified for an introduction.",
+      "scope": "Existing account; no new admission or current-registration approval",
+      "unknowns": "Current funding replacement, staffing recovery and residual delivery gap are unknown. Precise event periods and comparable baselines are unspecified.",
+      "why_hypothesis": "Reported funding and staffing disruption could justify operating or fundraising-data research if an unresolved gap remains."
+    },
+    {
+      "account_id": "WA:compass housing alliance",
+      "alternative": "Both reported targets were met; the record supports success rather than fundraising failure.",
+      "business_relevance": "unreviewed_private",
+      "capacity": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "willingness": "unknown"
+      },
+      "carry_forward": true,
+      "evidence_quality": "supported_attributed",
+      "fingerprint": "cb8ad8c67fcfe0328df111459512e91590db29cfb4c13cca9516dae0d1ea111a",
+      "live_check": "source recheck or changed document; review pending",
+      "live_signals": [],
+      "material_pending": true,
+      "name": "Compass Housing Alliance",
+      "next_step": "Compare the next completed matching challenge with the 2025 baseline before reopening campaign-improvement research.",
+      "observation_ids": [
+        "compass-2025-matches"
+      ],
+      "observations": [
+        {
+          "account_id": "WA:compass housing alliance",
+          "claim_source_version": {
+            "matches": "db5c9ef0f238d4612a56818cd8aab93ea0ff8b447e348da98abba4043a707fef"
+          },
+          "claims": [
+            {
+              "id": "matches",
+              "locator": "Matching-gifts bullet",
+              "source": "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/",
+              "text": "Compass reported meeting both its spring and winter matching challenges during 2025.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "positive_context",
+          "event_date": null,
+          "event_reference": "compass-2025-matches",
+          "event_type": "campaign_comparison",
+          "fact": "Compass reported meeting both its spring and winter matching challenges in 2025.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "compass-2025-matches",
+          "locator": "2025 philanthropy highlights, matching gifts",
+          "next": "Retain as target attainment; compare the next completed matching campaigns before drawing a trend.",
+          "origin": "day4",
+          "original_fact": "Compass reported meeting both its spring and winter matching challenges in 2025.",
+          "publication_date": "2026-02-03",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/"
+          ],
+          "source_versions": {
+            "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/": "db5c9ef0f238d4612a56818cd8aab93ea0ff8b447e348da98abba4043a707fef"
+          },
+          "url": "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/"
+        }
+      ],
+      "recommended_tier": "monitor",
+      "requires_attention": true,
+      "review_status": "prior Day 5 facts carried forward; current source review pending",
+      "route": "No introduction verified; existing funder relationships remain in the Day 3/4 ledger.",
+      "scope": "Existing account; no new admission or current-registration approval",
+      "unknowns": "The next matching-campaign result and current need are unknown. Legal-entity/current-registration checks remain separate.",
+      "why_hypothesis": "Completed matching campaigns provide historical context for later campaign comparisons."
+    },
+    {
+      "account_id": "WA:familyworks",
+      "alternative": "Routine or positive activity may explain the publication.",
+      "carry_forward": false,
+      "fingerprint": "1dc7a2e1619856e69547516c90d58276a2c8ace9ea6a77bc9cef30f387247856",
+      "live_signals": [
+        {
+          "account_id": "WA:familyworks",
+          "baseline_replay": false,
+          "category": "campaign_performance",
+          "event_date": null,
+          "evidence_by_source": {
+            "account-f332a7575c6c": "46645c9cde3ad73fb5b16cf1e6532174ef6f03b4bc480f78996207356c16586c"
+          },
+          "evidence_fingerprint": "570e4d0087a27af537d947410b660cfabe2523a90fc97e42ebc2827d63d6d414",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-606f8881901d692f838825a8",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [],
+          "publication_date": null,
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "account-f332a7575c6c",
+          "url": "https://www.wagives.org/organization/Familyworksseattle",
+          "version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d"
+        }
+      ],
+      "material_pending": true,
+      "name": "FamilyWorks",
+      "next_step": "Review the original source and decide whether the candidate supports a factual observation.",
+      "observations": [],
+      "recommended_tier": "monitor",
+      "requires_attention": true,
+      "review_status": "pending new or changed evidence review; historical facts remain separately labelled",
+      "route": "None verified.",
+      "unknowns": "Factual accuracy, current status, relevance, identity/eligibility where unresolved, budget, authority and willingness.",
+      "why_hypothesis": "Candidate wording may concern operating or fundraising work; relevance is unassessed."
+    },
+    {
+      "account_id": "911090450",
+      "alternative": "The campaign result is positive; no improvement problem is established.",
+      "business_relevance": "unreviewed_private",
+      "capacity": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "willingness": "unknown"
+      },
+      "carry_forward": true,
+      "evidence_quality": "supported_attributed",
+      "fingerprint": "09796a8875a96fb646f2aa8e210503da2a651d2af563c948953693d86e009b3e",
+      "live_check": "source recheck or changed document; review pending",
+      "live_signals": [
+        {
+          "account_id": "911090450",
+          "baseline_replay": false,
+          "category": "campaign_performance",
+          "event_date": null,
+          "evidence_by_source": {
+            "lifeline-news": "fb3594eb050c1d7ea3afe903f42622ef37f4b584e527be136f47770fd141bcb2"
+          },
+          "evidence_fingerprint": "7e40e1d231a27dd131b30afb2acdaa25bb55751b898ae683c32582b35c7cff2c",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-e30d24146a3d0e4d851f7181",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "RSS/Atom item https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+          "prior_versions": [],
+          "publication_date": "2026-10-20",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "lifeline-news",
+          "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+          "version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4"
+        },
+        {
+          "account_id": "911090450",
+          "baseline_replay": false,
+          "category": "fundraising_pressure",
+          "event_date": null,
+          "evidence_by_source": {
+            "lifeline-news": "8d06c9f8f28db6d706dc4fe8d57fdd467cb3c0f4b6a7956e67c9de0d881345ed"
+          },
+          "evidence_fingerprint": "7e40e1d231a27dd131b30afb2acdaa25bb55751b898ae683c32582b35c7cff2c",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-e9eb4b0e748f8cc244e0a9a8",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "RSS/Atom item https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+          "prior_versions": [],
+          "publication_date": "2026-10-20",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "lifeline-news",
+          "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month",
+          "version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf"
+        }
+      ],
+      "material_pending": true,
+      "name": "Food Lifeline",
+      "next_step": "Record the campaign as a positive baseline and compare the next completed campaign on the same measures before proposing a problem.",
+      "observation_ids": [
+        "food-frenzy-2026-results"
+      ],
+      "observations": [
+        {
+          "account_id": "911090450",
+          "claim_source_version": {
+            "result": "0baaae7457168402d526827f9d7acb7cf10c7829b8d2a17532b5906b64907669"
+          },
+          "claims": [
+            {
+              "id": "result",
+              "locator": "Opening results paragraph",
+              "source": "https://foodlifeline.org/article/food-frenzy-2026-results",
+              "text": "Food Lifeline reported more than USD 703,000 raised and a higher total than the previous Food Frenzy.",
+              "type": "number"
+            }
+          ],
+          "disposition": "positive_context",
+          "event_date": null,
+          "event_reference": "food-frenzy-2026-results",
+          "event_type": "campaign_comparison",
+          "fact": "Food Lifeline reported raising over USD 703,000, exceeding the previous Food Frenzy total.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "food-frenzy-2026-results",
+          "locator": "Food Frenzy annual results",
+          "next": "Use the result as a campaign benchmark. Retention and participation need separate evidence.",
+          "origin": "day4",
+          "original_fact": "Food Lifeline reported raising over USD 703,000, exceeding the previous Food Frenzy total.",
+          "publication_date": "2026-08-07",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://foodlifeline.org/article/food-frenzy-2026-results"
+          ],
+          "source_versions": {
+            "https://foodlifeline.org/article/food-frenzy-2026-results": "0baaae7457168402d526827f9d7acb7cf10c7829b8d2a17532b5906b64907669"
+          },
+          "url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        }
+      ],
+      "recommended_tier": "monitor",
+      "requires_attention": true,
+      "review_status": "pending new or changed evidence review; historical facts remain separately labelled",
+      "route": "Campaign participants are documented, but no personal introduction or purchasing route is verified.",
+      "scope": "Existing account; no new admission or current-registration approval",
+      "unknowns": "Comparable participation, repeat giving and follow-through results are unknown; the reported total does not establish donor-retention difficulty.",
+      "why_hypothesis": "A completed campaign supplies a benchmark for future supporter and corporate-partner follow-through research."
+    },
+    {
+      "account_id": "272172486",
+      "alternative": "Routine or positive activity may explain the publication.",
+      "carry_forward": false,
+      "fingerprint": "bf4b0c02f822dccb69fcaead4c115d41b5df36391618602d918910b2eeee8e9d",
+      "live_signals": [
+        {
+          "account_id": "272172486",
+          "baseline_replay": false,
+          "category": "financial_pressure",
+          "event_date": null,
+          "evidence_by_source": {
+            "account-e1d176526de1": "dd2333e810aa54009dc7493c585428208842975c9092c6147ef8212d90cd9bd6"
+          },
+          "evidence_fingerprint": "1d18fccf9a916b558ddd9c072de29e80e7cf74acaf65dca3d93687c68e7e8b6f",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-fd575c91233a256a8e898589",
+          "last_seen": "2026-11-06T04:49:45.565009+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [],
+          "publication_date": null,
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "account-e1d176526de1",
+          "url": "https://www.wagives.org/organization/goodbusinessnetwork",
+          "version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac"
+        }
+      ],
+      "material_pending": true,
+      "name": "Seattle Good Business Network",
+      "next_step": "Review the original source and decide whether the candidate supports a factual observation.",
+      "observations": [],
+      "recommended_tier": "monitor",
+      "requires_attention": true,
+      "review_status": "pending new or changed evidence review; historical facts remain separately labelled",
+      "route": "None verified.",
+      "unknowns": "Factual accuracy, current status, relevance, identity/eligibility where unresolved, budget, authority and willingness.",
+      "why_hypothesis": "Candidate wording may concern operating or fundraising work; relevance is unassessed."
+    },
+    {
+      "account_id": "132168162RR0001",
+      "alternative": "Existing staff and partners may already cover the work. A recruitment process is not evidence that external help is wanted.",
+      "business_relevance": "unreviewed_private",
+      "capacity": {
+        "authority": "unknown",
+        "consulting_budget": "unknown",
+        "willingness": "unknown"
+      },
+      "carry_forward": true,
+      "evidence_quality": "partial",
+      "fingerprint": "ad375f47a71e9a5dc8ab083d10031085139d6a8efff51b1985883691c3a647d5",
+      "live_check": "source recheck or changed document; review pending",
+      "live_signals": [
+        {
+          "account_id": "132168162RR0001",
+          "baseline_replay": true,
+          "category": "operational_strain",
+          "event_date": null,
+          "evidence_by_source": {
+            "review-source-96b480d2d557": "925350e3528d53da8f6ff0d136354a58fbab1b113b0523b87cb0e436600b59e6"
+          },
+          "evidence_fingerprint": "4c1965ca5f0d78ab4b391d4134faf9da7e92f94f25eb33a7b06d36f107e6d5fb",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-05cb7c7fb182aa89f8d18520",
+          "last_seen": "2026-11-06T04:51:10.791112+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [],
+          "publication_date": "2025-12-25",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "review-source-96b480d2d557",
+          "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full",
+          "version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225"
+        },
+        {
+          "account_id": "132168162RR0001",
+          "baseline_replay": true,
+          "category": "fundraising_pressure",
+          "event_date": null,
+          "evidence_by_source": {
+            "account-d60391ed0ba8": "64ca60ab84579a7bec541480101e82495fab1c574dc06581a6686d7de9e49e3e"
+          },
+          "evidence_fingerprint": "81bc9ebd3f8197c09b07d036d2649692ae2f14fe6f54994ceb8fe7481e119fd1",
+          "evidence_quality": "unreviewed",
+          "fact": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+          "first_seen": "2026-11-06T04:49:45.565009+00:00",
+          "id": "signal-82ce9ff52cb9b7c94898de91",
+          "last_seen": "2026-11-06T04:51:10.791112+00:00",
+          "locator": "Published page, matched category wording",
+          "prior_versions": [],
+          "publication_date": "2026-06-11",
+          "review_status": "pending",
+          "rule_version": "day6-v2",
+          "source_id": "account-d60391ed0ba8",
+          "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending",
+          "version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6"
+        }
+      ],
+      "material_pending": true,
+      "name": "Surrey Food Bank Society",
+      "next_step": "Prepare one verification brief comparing June with current monthly visits, cash and food donations, and depot throughput; confirm the Delview operator and leadership appointment from original publications before drafting outreach.",
+      "observation_ids": [
+        "surrey-donation-pressure-dec2025",
+        "surrey-monthly-demand-june2026",
+        "surrey-delview-october2026",
+        "surrey-ed-search-october2026"
+      ],
+      "observations": [
+        {
+          "account_id": "132168162RR0001",
+          "claim_source_version": {
+            "observation": "48828d994929270c28064b76fd570a824decd871dc174b0828e8fb040d577748"
+          },
+          "claims": [
+            {
+              "id": "observation",
+              "locator": "Executive director interview",
+              "source": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/",
+              "text": "CityNews reported that Surrey Food Bank was meeting high usage with fundraising that provided just enough to serve clients.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "historical",
+          "event_date": null,
+          "event_reference": "surrey-donation-pressure-dec2025",
+          "event_type": "fundraising_pressure",
+          "fact": "CityNews reported that Surrey Food Bank was meeting high usage with fundraising that provided just enough to serve clients.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "surrey-donation-pressure-dec2025",
+          "locator": "Executive director interview",
+          "next": "Compare cash and in-kind results separately before proposing donor follow-up.",
+          "origin": "day4",
+          "original_fact": "Surrey Food Bank described high usage and fundraising efforts that brought in just enough to serve clients. In June it reported donations keeping pace.",
+          "publication_date": "2025-12-25",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/"
+          ],
+          "source_versions": {
+            "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/": "48828d994929270c28064b76fd570a824decd871dc174b0828e8fb040d577748"
+          },
+          "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/"
+        },
+        {
+          "account_id": "132168162RR0001",
+          "claim_source_version": {
+            "demand": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711",
+            "donations": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711"
+          },
+          "claims": [
+            {
+              "id": "demand",
+              "locator": "Monthly service volume paragraph",
+              "source": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+              "text": "CityNews reported that Surrey was serving nearly 22,000 people monthly on average in 2026 to date, above 2025 levels.",
+              "type": "number"
+            },
+            {
+              "id": "donations",
+              "locator": "Opening executive-director attribution",
+              "source": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+              "text": "The executive director said donations were keeping up with demand at that time.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "investigate",
+          "event_date": null,
+          "event_reference": "surrey-monthly-demand-june2026",
+          "event_type": "demand_change",
+          "fact": "CityNews reported nearly 22,000 people served monthly on average and donations keeping pace on June 11, 2026. The article does not resolve unique people versus repeat visits.",
+          "first_seen_at": "2026-11-06T03:00:59+00:00",
+          "id": "surrey-monthly-demand-june2026",
+          "locator": "Executive director, monthly volume and school-year transition",
+          "next": "Check fall service volumes and whether the summer increase stretched distribution capacity.",
+          "origin": "day4",
+          "original_fact": "Surrey reported serving nearly 22,000 people monthly on average, above 2025 levels. Donations were keeping pace at the time.",
+          "publication_date": "2026-06-11",
+          "retrieved_at": "2026-11-06T03:00:59+00:00",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/"
+          ],
+          "source_versions": {
+            "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711"
+          },
+          "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/"
+        },
+        {
+          "account_id": "132168162RR0001",
+          "claim_source_version": {
+            "depot": "0c01f95aa9b796083efa93fc0e4e4682d8352f653b46434cc92233f0208e34d1"
+          },
+          "claims": [
+            {
+              "id": "depot",
+              "locator": "Inaugural Food Bank at Delview Secondary School paragraph",
+              "source": "https://northdeltarotary.ca/",
+              "text": "North Delta Rotary reports its volunteers worked at an inaugural Delview food bank on October 14.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "investigate",
+          "event_date": null,
+          "event_date_text": "October 14; 2026 inferred from dated site sequence, not an explicit year on the item",
+          "event_reference": "surrey-delview-october2026",
+          "event_type": "facility_opening",
+          "fact": "North Delta Rotary reports volunteers worked at an inaugural food bank at Delview on October 14. Its link to Surrey is suggested by a mirrored Surrey announcement; primary operator confirmation remains pending.",
+          "first_seen_at": "2026-11-06T04:17:14.012251+00:00",
+          "id": "surrey-delview-october2026",
+          "locator": "Inaugural Food Bank at Delview Secondary School paragraph; nearby September 10, 2026 entry",
+          "next": "Verify operator, launch date and current throughput from an original Surrey or Delview publication.",
+          "origin": "day5_followup",
+          "publication_date": null,
+          "retrieved_at": "2026-11-06T04:15:11.368Z",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://northdeltarotary.ca/"
+          ],
+          "source_versions": {
+            "https://northdeltarotary.ca/": "0c01f95aa9b796083efa93fc0e4e4682d8352f653b46434cc92233f0208e34d1"
+          },
+          "url": "https://northdeltarotary.ca/"
+        },
+        {
+          "account_id": "132168162RR0001",
+          "claim_source_version": {
+            "search": "c3558adf0634f1377a59f92703bc6ee4f37b19267bc919222f2950d971f65c45"
+          },
+          "claims": [
+            {
+              "id": "search",
+              "locator": "Posting date and opportunity section",
+              "source": "https://afpcalgary.ca/executive-director-surrey-food-bank/",
+              "text": "AFP Calgary published a Surrey Food Bank Executive Director recruitment notice dated October 12, 2026.",
+              "type": "paraphrase"
+            }
+          ],
+          "disposition": "investigate",
+          "event_date": null,
+          "event_reference": "surrey-ed-search-october2026",
+          "event_type": "leadership_change",
+          "fact": "An October 12 AFP posting advertised Surrey Food Bank's search for its next Executive Director. A filled role, interim vacancy or consulting requirement is not established.",
+          "first_seen_at": "2026-11-06T04:17:14.012251+00:00",
+          "id": "surrey-ed-search-october2026",
+          "locator": "Posting header and opportunity section",
+          "next": "Check whether the leadership appointment is complete before identifying any transition work.",
+          "origin": "day5_followup",
+          "publication_date": "2026-10-12",
+          "retrieved_at": "2026-11-06T04:15:11.570Z",
+          "reviewed_at": "2026-11-06T04:17:14.012251+00:00",
+          "source_ids": [
+            "https://afpcalgary.ca/executive-director-surrey-food-bank/"
+          ],
+          "source_versions": {
+            "https://afpcalgary.ca/executive-director-surrey-food-bank/": "c3558adf0634f1377a59f92703bc6ee4f37b19267bc919222f2950d971f65c45"
+          },
+          "url": "https://afpcalgary.ca/executive-director-surrey-food-bank/"
+        }
+      ],
+      "recommended_tier": "investigate",
+      "requires_attention": true,
+      "review_status": "pending new or changed evidence review; historical facts remain separately labelled",
+      "route": "North Delta Rotary is a possible organizational route, with the Surrey/Delview relationship still pending primary confirmation; no introduction verified.",
+      "scope": "Existing account; no new admission or current-registration approval",
+      "unknowns": "Comparable demand and donation evidence ends on June 11, 2026. No checked later aggregate series establishes whether demand rose, cash or food donations fell behind, or capacity became inadequate. Delview operator, year and throughput need confirmation; leadership appointment status is unknown.",
+      "why_hypothesis": "A reported distribution initiative and leadership search may create operating-cadence or partner follow-through work relevant to Autonomy Bridge."
+    }
+  ],
+  "collection": [
+    {
+      "at": "2026-11-06T04:54:20.763731+00:00",
+      "outcome": "failed",
+      "reason": "ValueError: HTTP 503",
+      "source": "compass-news",
+      "url": "https://www.compasshousingalliance.org/feed/"
+    }
+  ],
+  "counts": {
+    "cards_requiring_attention": 6,
+    "changed_signal_candidates": 0,
+    "historical_first_observed": 0,
+    "historical_source_rechecks": 0,
+    "new_accounts": 0,
+    "new_signal_candidates": 0,
+    "pending_review_tasks": 9,
+    "unique_cards": 6
+  },
+  "coverage_gap": "Feeds/indexes are bounded. Catch-up checks last successful checkpoints but cannot guarantee every missed publication is recoverable.",
+  "execution": "controlled_failure_injection",
+  "missed_dates": [
+    "2026-11-04"
+  ],
+  "outreach": "manual",
+  "run_id": "2026-11-06T04-54-20.763731+00-00",
+  "run_status": "partial"
+}

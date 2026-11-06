@@ -13,9 +13,9 @@ The repository contains:
 - an approved seven-project-day path to fresh daily account and signal output; and
 - a documented evidence review of signal-system practices and failure modes.
 
-Days 1–4 are merged into `main`, confirmed at `1002f1dea10e1b412595ce789236c8f0a3a5d862`. The Day 5 branch adds a [reviewed daily worklist](OutBound/evidence/day-5/worklist.md): one Investigate card, three Monitor cards, and empty Act and Suppress queues. Six non-award observations are source-checked and two Surrey follow-ups are added with explicit limits. Surrey's comparable demand and donation evidence ends on June 11, 2026; newer qualitative distribution/recruitment evidence does not establish current adequacy.
+Days 1–5 are merged into `main`; PR #7 merged at `eb295bb9181cea6922608c94d023d17fa4d408ba`, which contains `de4c852`. This Day 6 branch adds [one daily Mac command and actual live results](OutBound/evidence/day-6/README.md). The [live worklist](OutBound/evidence/day-6/live/worklist.md) has zero new accounts, five new signal candidates, zero changed candidates and six cards needing attention. Three candidates are older/undated. New evidence remains pending review.
 
-[Day 5 reproduction and private-feedback instructions](OutBound/evidence/day-5/README.md) distinguish fresh supervised review from replay. Private owner decisions persist in a local ignored SQLite journal and never enter public outputs. Daily non-award collection, recovery integration, scheduling and owner usefulness trials remain pending. Outreach stays manual.
+The immediate live repeat adds no records or versions. Controlled failure plus a real recovery request preserves source checkpoints without duplicates. Private feedback stays local and is reused only for unchanged evidence. **Native Mac scheduling remains blocked by this managed session.** A morning app fallback is registered, but future Mac binding is unverified. [Schedule status and remaining blockers](OutBound/evidence/day-6/schedule-status.json). No later scheduled collection is claimed. Outreach stays manual.
 
 ## Repository structure
 
