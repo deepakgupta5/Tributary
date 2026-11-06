@@ -1,0 +1,19 @@
+# Batch account resolution
+
+Base: `0946f7a50471e066bb1607653d203878e97e1239` (Day 2 PR #4). [Worklist](worklist.md) · [Identity exceptions](exceptions.md) · [Account, document, event and item ledger](worklist.json).
+
+Run `python3 -m tributary.resolution out/day3` from the repository root. The offline batch reads the [Day 2 ledger](../day-2/state.json), [inventory](../../data/day2-sources.json), [Day 1 discovery records](../live_runs/session-001/records.json), and [selected IRS lookup](irs-lookup.json). The lookup repeats the preliminary exact normalized-name search against the Washington CSV, preserves matching public fields and lists every search label. Three housing pilot names and their previously observed awards are outside this batch.
+
+35 items comprise 12 register rows and 23 recipient rows in one Seattle announcement. The 31 new candidate labels and four previously known-account items map to 34 account rows: Nurturing Roots has two inputs. There are 11 registry-only accounts and 23 accounts with dated announcements. The automated run flagged 11 recipient identities and preserved provisional IDs. See the subsequent review below. Unique exact normalized register-name matches are supported by Washington geography; city is the filing city. No official-domain lookup was performed. EIN linkage does not establish current operating status.
+
+The event key uses the recipient and funder round for this announcement, which lists one award per recipient. Additional reporting can be attached with the same supported award reference. Separate awards need distinct references; the batch does not infer an award date or automatically link new articles.
+
+Validation on the Day 3 branch: 65 unit tests passed. Two offline runs produced byte-identical worklist JSON, Markdown and exception queues, including IDs and counts. The Day 1 replay reproduced both committed worklists, and the two Day 2 report commands reproduced both saved reports byte-for-byte.
+
+## Current operating record after identity review
+
+Day 3 added zero newly discovered candidates. The batch contains 31 newly discovered Day 2 candidates plus three distinct previously known accounts, for 34 account rows. Four items concern previously known accounts because Nurturing Roots appears twice.
+
+The [recipient-by-recipient review](../../research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md) supplies nine operating-entity or program-parent EIN matches. Tongan Community Food Pantry has a documented fundraising host, Sustainable Seattle. Its host's EIN belongs on the relationship. International Migrants Alliance's Washington chapter remains visible with an unknown EIN. Contract payee is a separate field and requires award-specific evidence. These enrichments add zero accounts or award events to the batch.
+
+The [original snapshot](original/worklist.json) and [original exception queue](original/exceptions.md) preserve the automated result. The current export applies [the reviewed relationships](identity-review.json) using the original account IDs. Each EIN belongs to the named entity in its stated role. Two recipient identities remain open. Award-level contract payees remain unknown pending agreement or payment evidence.

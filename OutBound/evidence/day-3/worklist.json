@@ -1,0 +1,1122 @@
+{
+  "accounts": {
+    "107449787RR0001": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "inputs": [
+        "cra/107449787RR0001"
+      ],
+      "name": "Greater Vancouver Food Bank Society",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "132168162RR0001": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "inputs": [
+        "cra/132168162RR0001"
+      ],
+      "name": "SURREY FOOD BANK SOCIETY",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "133859058RR0001": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "inputs": [
+        "cra/133859058RR0001"
+      ],
+      "name": "SURREY FOOD BANK FOUNDATION",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "272172486": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-b0bb4ec9e1743d9f006e82e0"
+      ],
+      "inputs": [
+        "food/Seattle Good Business Network"
+      ],
+      "name": "Seattle Good Business Network",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "364939852": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-554df53ddb1788d6dccc6bd9"
+      ],
+      "inputs": [
+        "food/Lake City Collective"
+      ],
+      "name": "Lake City Collective",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "453827860": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-9f9116583cddb435ff141ae8"
+      ],
+      "inputs": [
+        "food/American Polynesian Organization"
+      ],
+      "name": "American Polynesian Organization",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "461793603": {
+      "basis": "Unique normalized IRS name in Washington; filing city KENT",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-857e86d2f658adbb746b049e"
+      ],
+      "inputs": [
+        "food/Mother Africa"
+      ],
+      "name": "Mother Africa",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "463115382": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [
+        "award-f3dd124bc018b6f3b859ffa9"
+      ],
+      "inputs": [
+        "irs/463115382",
+        "food/Nurturing Roots"
+      ],
+      "name": "Nurturing Roots",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "730610870RR0001": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "inputs": [
+        "cra/730610870RR0001"
+      ],
+      "name": "GURU NANAK MODI KHANA FOOD BANK SOCIETY",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "800579830": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-ad0449230ec8069ee89cc1dc"
+      ],
+      "inputs": [
+        "food/City Fruit"
+      ],
+      "name": "City Fruit",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "831665288": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATAC",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-fe29610b1ba024e9669a7174"
+      ],
+      "inputs": [
+        "food/African Community Housing & Development"
+      ],
+      "name": "African Community Housing & Development",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "831742878": {
+      "basis": "Unique normalized IRS name in Washington; filing city FEDERAL WAY",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e1b30f21ef7dac8310022a2a"
+      ],
+      "inputs": [
+        "food/Hip Hop is Green"
+      ],
+      "name": "Hip Hop is Green",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "833561540": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-40b5844f57cb34b072923c58"
+      ],
+      "inputs": [
+        "food/Villa Comunitaria"
+      ],
+      "name": "Villa Comunitaria",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "861331130RR0001": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "events": [],
+      "inputs": [
+        "cra/861331130RR0001"
+      ],
+      "name": "FOOD BANKS BRITISH COLUMBIA",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911090450": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911090450"
+      ],
+      "name": "Food Lifeline",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911122115": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-b1d68a09a10d89ff11fdc37f"
+      ],
+      "inputs": [
+        "food/Duwamish Tribal Services"
+      ],
+      "name": "Duwamish Tribal Services",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911288919": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-7cce47529588a5fa8962e0c5"
+      ],
+      "inputs": [
+        "food/Ethiopian Community in Seattle"
+      ],
+      "name": "Ethiopian Community in Seattle",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911307564": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911307564"
+      ],
+      "name": "CLARK COUNTY FOOD BANK",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911428805": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911428805"
+      ],
+      "name": "BALLARD FOOD BANK",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911464412": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911464412"
+      ],
+      "name": "WEST SEATTLE FOOD BANK",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911485319": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911485319"
+      ],
+      "name": "BEACON AVENUE FOOD BANK",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911500768": {
+      "basis": "Day 2 register identifier",
+      "discovery": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "events": [],
+      "inputs": [
+        "irs/911500768"
+      ],
+      "name": "RAINIER VALLEY FOOD BANK",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "911703201": {
+      "basis": "Unique normalized IRS name in Washington; filing city SEATTLE",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-6d16aef308c5463e96a6df86"
+      ],
+      "inputs": [
+        "food/Eritrean Association in Greater Seattle"
+      ],
+      "name": "Eritrean Association in Greater Seattle",
+      "question": null,
+      "registration": "unchecked"
+    },
+    "WA:black dollar days task force’s clean greens farm and market": {
+      "basis": "program parent: Black Dollar Days Task Force",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-55fb0904948cadf423bdf83b"
+      ],
+      "inputs": [
+        "food/Black Dollar Days Task Force’s Clean Greens Farm and Market"
+      ],
+      "name": "Black Dollar Days Task Force’s Clean Greens Farm and Market",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1475024",
+        "name": "Black Dollar Days Task Force",
+        "role": "program_parent",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L7"
+      }
+    },
+    "WA:cambodian american community council of washington (caccwa)": {
+      "basis": "operating entity: Cambodian American Community Council of Washington",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-10c3ff9838a4282ab6df887e"
+      ],
+      "inputs": [
+        "food/Cambodian American Community Council of Washington (CACCWA)"
+      ],
+      "name": "Cambodian American Community Council of Washington (CACCWA)",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "84-2587937",
+        "name": "Cambodian American Community Council of Washington",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L8"
+      }
+    },
+    "WA:eat happy now": {
+      "basis": "operating entity: Eathappy",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-86ce1b1a070c33f6d6a231e6"
+      ],
+      "inputs": [
+        "food/Eat Happy Now"
+      ],
+      "name": "Eat Happy Now",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "88-2683238",
+        "name": "Eathappy",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L9"
+      }
+    },
+    "WA:familyworks": {
+      "basis": "operating entity: Family Works",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e88a6b2ff250685cadebcc38"
+      ],
+      "inputs": [
+        "food/FamilyWorks"
+      ],
+      "name": "FamilyWorks",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1757277",
+        "name": "Family Works",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L10"
+      }
+    },
+    "WA:feest": {
+      "basis": "operating entity: FEEST Food Empowerment Education and Sustainability Team",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-229c4f71d961ed7b2817b7de"
+      ],
+      "inputs": [
+        "food/FEEST"
+      ],
+      "name": "FEEST",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "46-2268038",
+        "name": "FEEST Food Empowerment Education and Sustainability Team",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L11"
+      }
+    },
+    "WA:international migrants alliance (washington chapter)": {
+      "basis": "chapter: International Migrants Alliance (Washington Chapter)",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-16e2b79e544f2beb00012ad6"
+      ],
+      "inputs": [
+        "food/International Migrants Alliance (Washington Chapter)"
+      ],
+      "name": "International Migrants Alliance (Washington Chapter)",
+      "question": "Does the Washington chapter have its own EIN or operate under a parent?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": null,
+        "name": "International Migrants Alliance (Washington Chapter)",
+        "role": "chapter",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L17"
+      }
+    },
+    "WA:kin on health care center of washington": {
+      "basis": "operating entity: Kin On Health Care Center",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-e277d5a49bf662a1b00a5d1d"
+      ],
+      "inputs": [
+        "food/Kin On Health Care Center of Washington"
+      ],
+      "name": "Kin On Health Care Center of Washington",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-1620786",
+        "name": "Kin On Health Care Center",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L12"
+      }
+    },
+    "WA:rainier beach action coalition": {
+      "basis": "operating entity: Rainier Beach Community Empowerment Coalition / RBAC",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-3e798fb72764b283a7e1d09d"
+      ],
+      "inputs": [
+        "food/Rainier Beach Action Coalition"
+      ],
+      "name": "Rainier Beach Action Coalition",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "20-3758788",
+        "name": "Rainier Beach Community Empowerment Coalition / RBAC",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L13"
+      }
+    },
+    "WA:seattle indian health board (sihb)": {
+      "basis": "operating entity: Seattle Indian Health Board",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-be2f82f34c5f4387e359c2a4"
+      ],
+      "inputs": [
+        "food/Seattle Indian Health Board (SIHB)"
+      ],
+      "name": "Seattle Indian Health Board (SIHB)",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "91-0869056",
+        "name": "Seattle Indian Health Board",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L14"
+      }
+    },
+    "WA:tongan community food pantry": {
+      "basis": "fundraising host: Sustainable Seattle",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-0dcb03f5a3545ed403e30a26"
+      ],
+      "inputs": [
+        "food/Tongan Community Food Pantry"
+      ],
+      "name": "Tongan Community Food Pantry",
+      "question": "Which legal entity operates the pantry, and does it have its own EIN?",
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "31-1580932",
+        "name": "Sustainable Seattle",
+        "role": "fundraising_host",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L16"
+      }
+    },
+    "WA:young women empowered (y-we)": {
+      "basis": "operating entity: Young Women Empowered",
+      "discovery": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "events": [
+        "award-4e98103411be5fa230bf1fcb"
+      ],
+      "inputs": [
+        "food/Young Women Empowered (Y-WE)"
+      ],
+      "name": "Young Women Empowered (Y-WE)",
+      "question": null,
+      "registration": "unchecked",
+      "reviewed_relationship": {
+        "ein": "47-2230647",
+        "name": "Young Women Empowered",
+        "role": "operating_entity",
+        "source": "https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L15"
+      }
+    }
+  },
+  "counts": {
+    "accounts": 34,
+    "dated_accounts": 23,
+    "day2_new_candidates": 31,
+    "day3_discoveries": 0,
+    "events": 23,
+    "items": 35,
+    "known_items": 4,
+    "manual": 2,
+    "new_candidates": 31,
+    "registry_only": 11
+  },
+  "documents": {
+    "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/": [
+      "food/American Polynesian Organization",
+      "food/Black Dollar Days Task Force’s Clean Greens Farm and Market",
+      "food/Cambodian American Community Council of Washington (CACCWA)",
+      "food/City Fruit",
+      "food/Duwamish Tribal Services",
+      "food/Eat Happy Now",
+      "food/Eritrean Association in Greater Seattle",
+      "food/Ethiopian Community in Seattle",
+      "food/FamilyWorks",
+      "food/FEEST",
+      "food/Hip Hop is Green",
+      "food/Kin On Health Care Center of Washington",
+      "food/Lake City Collective",
+      "food/Nurturing Roots",
+      "food/Young Women Empowered (Y-WE)",
+      "food/African Community Housing & Development",
+      "food/International Migrants Alliance (Washington Chapter)",
+      "food/Mother Africa",
+      "food/Rainier Beach Action Coalition",
+      "food/Seattle Good Business Network",
+      "food/Seattle Indian Health Board (SIHB)",
+      "food/Tongan Community Food Pantry",
+      "food/Villa Comunitaria"
+    ],
+    "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv": [
+      "cra/861331130RR0001",
+      "cra/107449787RR0001",
+      "cra/133859058RR0001",
+      "cra/132168162RR0001",
+      "cra/730610870RR0001"
+    ],
+    "https://www.irs.gov/pub/irs-soi/eo_wa.csv": [
+      "irs/463115382",
+      "irs/911090450",
+      "irs/911307564",
+      "irs/911428805",
+      "irs/911464412",
+      "irs/911485319",
+      "irs/911500768"
+    ]
+  },
+  "events": {
+    "award-0dcb03f5a3545ed403e30a26": {
+      "account_id": "WA:tongan community food pantry",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Tongan Community Food Pantry": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Tongan Community Food Pantry.",
+          "locator": "Tongan Community Food Pantry",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-10c3ff9838a4282ab6df887e": {
+      "account_id": "WA:cambodian american community council of washington (caccwa)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Cambodian American Community Council of Washington (CACCWA)": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Cambodian American Community Council of Washington (CACCWA).",
+          "locator": "Cambodian American Community Council of Washington (CACCWA)",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-16e2b79e544f2beb00012ad6": {
+      "account_id": "WA:international migrants alliance (washington chapter)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/International Migrants Alliance (Washington Chapter)": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for International Migrants Alliance (Washington Chapter).",
+          "locator": "International Migrants Alliance (Washington Chapter)",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-229c4f71d961ed7b2817b7de": {
+      "account_id": "WA:feest",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/FEEST": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for FEEST.",
+          "locator": "FEEST",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-3e798fb72764b283a7e1d09d": {
+      "account_id": "WA:rainier beach action coalition",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Rainier Beach Action Coalition": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Rainier Beach Action Coalition.",
+          "locator": "Rainier Beach Action Coalition",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-40b5844f57cb34b072923c58": {
+      "account_id": "833561540",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Villa Comunitaria": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Villa Comunitaria.",
+          "locator": "Villa Comunitaria",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-4e98103411be5fa230bf1fcb": {
+      "account_id": "WA:young women empowered (y-we)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Young Women Empowered (Y-WE)": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Young Women Empowered (Y-WE).",
+          "locator": "Young Women Empowered (Y-WE)",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-554df53ddb1788d6dccc6bd9": {
+      "account_id": "364939852",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Lake City Collective": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Lake City Collective.",
+          "locator": "Lake City Collective",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-55fb0904948cadf423bdf83b": {
+      "account_id": "WA:black dollar days task force’s clean greens farm and market",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Black Dollar Days Task Force’s Clean Greens Farm and Market": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Black Dollar Days Task Force’s Clean Greens Farm and Market.",
+          "locator": "Black Dollar Days Task Force’s Clean Greens Farm and Market",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-6d16aef308c5463e96a6df86": {
+      "account_id": "911703201",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Eritrean Association in Greater Seattle": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Eritrean Association in Greater Seattle.",
+          "locator": "Eritrean Association in Greater Seattle",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-7cce47529588a5fa8962e0c5": {
+      "account_id": "911288919",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Ethiopian Community in Seattle": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Ethiopian Community in Seattle.",
+          "locator": "Ethiopian Community in Seattle",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-857e86d2f658adbb746b049e": {
+      "account_id": "461793603",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Mother Africa": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Mother Africa.",
+          "locator": "Mother Africa",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-86ce1b1a070c33f6d6a231e6": {
+      "account_id": "WA:eat happy now",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Eat Happy Now": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Eat Happy Now.",
+          "locator": "Eat Happy Now",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-9f9116583cddb435ff141ae8": {
+      "account_id": "453827860",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/American Polynesian Organization": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for American Polynesian Organization.",
+          "locator": "American Polynesian Organization",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-ad0449230ec8069ee89cc1dc": {
+      "account_id": "800579830",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/City Fruit": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for City Fruit.",
+          "locator": "City Fruit",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-b0bb4ec9e1743d9f006e82e0": {
+      "account_id": "272172486",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Seattle Good Business Network": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Seattle Good Business Network.",
+          "locator": "Seattle Good Business Network",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-b1d68a09a10d89ff11fdc37f": {
+      "account_id": "911122115",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Duwamish Tribal Services": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Duwamish Tribal Services.",
+          "locator": "Duwamish Tribal Services",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-be2f82f34c5f4387e359c2a4": {
+      "account_id": "WA:seattle indian health board (sihb)",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Seattle Indian Health Board (SIHB)": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for Seattle Indian Health Board (SIHB).",
+          "locator": "Seattle Indian Health Board (SIHB)",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-e1b30f21ef7dac8310022a2a": {
+      "account_id": "831742878",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Hip Hop is Green": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Hip Hop is Green.",
+          "locator": "Hip Hop is Green",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-e277d5a49bf662a1b00a5d1d": {
+      "account_id": "WA:kin on health care center of washington",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Kin On Health Care Center of Washington": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Kin On Health Care Center of Washington.",
+          "locator": "Kin On Health Care Center of Washington",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-e88a6b2ff250685cadebcc38": {
+      "account_id": "WA:familyworks",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/FamilyWorks": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for FamilyWorks.",
+          "locator": "FamilyWorks",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-f3dd124bc018b6f3b859ffa9": {
+      "account_id": "463115382",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/Nurturing Roots": {
+          "event_date": null,
+          "fact": "City announced USD 65,000 in Food Equity Fund funding for Nurturing Roots.",
+          "locator": "Nurturing Roots",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    },
+    "award-fe29610b1ba024e9669a7174": {
+      "account_id": "831665288",
+      "award_key": "Seattle/Food Equity Fund/2026",
+      "contract_payee": null,
+      "evidence": {
+        "food/African Community Housing & Development": {
+          "event_date": null,
+          "fact": "City announced USD 60,000 in Food Equity Fund funding for African Community Housing & Development.",
+          "locator": "African Community Housing & Development",
+          "publication_date": "2025-12-17",
+          "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+        }
+      }
+    }
+  },
+  "ledger": {
+    "cra/107449787RR0001": {
+      "account_id": "107449787RR0001",
+      "day2_account": "107449787RR0001",
+      "event_id": null,
+      "new_candidate": false,
+      "source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "cra/132168162RR0001": {
+      "account_id": "132168162RR0001",
+      "day2_account": "132168162RR0001",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "cra/133859058RR0001": {
+      "account_id": "133859058RR0001",
+      "day2_account": "133859058RR0001",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "cra/730610870RR0001": {
+      "account_id": "730610870RR0001",
+      "day2_account": "730610870RR0001",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "cra/861331130RR0001": {
+      "account_id": "861331130RR0001",
+      "day2_account": "861331130RR0001",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv"
+    },
+    "food/African Community Housing & Development": {
+      "account_id": "831665288",
+      "day2_account": "WA:african community housing & development",
+      "event_id": "award-fe29610b1ba024e9669a7174",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/American Polynesian Organization": {
+      "account_id": "453827860",
+      "day2_account": "WA:american polynesian organization",
+      "event_id": "award-9f9116583cddb435ff141ae8",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Black Dollar Days Task Force’s Clean Greens Farm and Market": {
+      "account_id": "WA:black dollar days task force’s clean greens farm and market",
+      "day2_account": "WA:black dollar days task force’s clean greens farm and market",
+      "event_id": "award-55fb0904948cadf423bdf83b",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Cambodian American Community Council of Washington (CACCWA)": {
+      "account_id": "WA:cambodian american community council of washington (caccwa)",
+      "day2_account": "WA:cambodian american community council of washington (caccwa)",
+      "event_id": "award-10c3ff9838a4282ab6df887e",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/City Fruit": {
+      "account_id": "800579830",
+      "day2_account": "WA:city fruit",
+      "event_id": "award-ad0449230ec8069ee89cc1dc",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Duwamish Tribal Services": {
+      "account_id": "911122115",
+      "day2_account": "WA:duwamish tribal services",
+      "event_id": "award-b1d68a09a10d89ff11fdc37f",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Eat Happy Now": {
+      "account_id": "WA:eat happy now",
+      "day2_account": "WA:eat happy now",
+      "event_id": "award-86ce1b1a070c33f6d6a231e6",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Eritrean Association in Greater Seattle": {
+      "account_id": "911703201",
+      "day2_account": "WA:eritrean association in greater seattle",
+      "event_id": "award-6d16aef308c5463e96a6df86",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Ethiopian Community in Seattle": {
+      "account_id": "911288919",
+      "day2_account": "WA:ethiopian community in seattle",
+      "event_id": "award-7cce47529588a5fa8962e0c5",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/FEEST": {
+      "account_id": "WA:feest",
+      "day2_account": "WA:feest",
+      "event_id": "award-229c4f71d961ed7b2817b7de",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/FamilyWorks": {
+      "account_id": "WA:familyworks",
+      "day2_account": "WA:familyworks",
+      "event_id": "award-e88a6b2ff250685cadebcc38",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Hip Hop is Green": {
+      "account_id": "831742878",
+      "day2_account": "WA:hip hop is green",
+      "event_id": "award-e1b30f21ef7dac8310022a2a",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/International Migrants Alliance (Washington Chapter)": {
+      "account_id": "WA:international migrants alliance (washington chapter)",
+      "day2_account": "WA:international migrants alliance (washington chapter)",
+      "event_id": "award-16e2b79e544f2beb00012ad6",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Kin On Health Care Center of Washington": {
+      "account_id": "WA:kin on health care center of washington",
+      "day2_account": "WA:kin on health care center of washington",
+      "event_id": "award-e277d5a49bf662a1b00a5d1d",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Lake City Collective": {
+      "account_id": "364939852",
+      "day2_account": "WA:lake city collective",
+      "event_id": "award-554df53ddb1788d6dccc6bd9",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Mother Africa": {
+      "account_id": "461793603",
+      "day2_account": "WA:mother africa",
+      "event_id": "award-857e86d2f658adbb746b049e",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Nurturing Roots": {
+      "account_id": "463115382",
+      "day2_account": "463115382",
+      "event_id": "award-f3dd124bc018b6f3b859ffa9",
+      "new_candidate": false,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Rainier Beach Action Coalition": {
+      "account_id": "WA:rainier beach action coalition",
+      "day2_account": "WA:rainier beach action coalition",
+      "event_id": "award-3e798fb72764b283a7e1d09d",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Seattle Good Business Network": {
+      "account_id": "272172486",
+      "day2_account": "WA:seattle good business network",
+      "event_id": "award-b0bb4ec9e1743d9f006e82e0",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Seattle Indian Health Board (SIHB)": {
+      "account_id": "WA:seattle indian health board (sihb)",
+      "day2_account": "WA:seattle indian health board (sihb)",
+      "event_id": "award-be2f82f34c5f4387e359c2a4",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Tongan Community Food Pantry": {
+      "account_id": "WA:tongan community food pantry",
+      "day2_account": "WA:tongan community food pantry",
+      "event_id": "award-0dcb03f5a3545ed403e30a26",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Villa Comunitaria": {
+      "account_id": "833561540",
+      "day2_account": "WA:villa comunitaria",
+      "event_id": "award-40b5844f57cb34b072923c58",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "food/Young Women Empowered (Y-WE)": {
+      "account_id": "WA:young women empowered (y-we)",
+      "day2_account": "WA:young women empowered (y-we)",
+      "event_id": "award-4e98103411be5fa230bf1fcb",
+      "new_candidate": true,
+      "source": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/"
+    },
+    "irs/463115382": {
+      "account_id": "463115382",
+      "day2_account": "463115382",
+      "event_id": null,
+      "new_candidate": false,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911090450": {
+      "account_id": "911090450",
+      "day2_account": "911090450",
+      "event_id": null,
+      "new_candidate": false,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911307564": {
+      "account_id": "911307564",
+      "day2_account": "911307564",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911428805": {
+      "account_id": "911428805",
+      "day2_account": "911428805",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911464412": {
+      "account_id": "911464412",
+      "day2_account": "911464412",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911485319": {
+      "account_id": "911485319",
+      "day2_account": "911485319",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    },
+    "irs/911500768": {
+      "account_id": "911500768",
+      "day2_account": "911500768",
+      "event_id": null,
+      "new_candidate": true,
+      "source": "https://www.irs.gov/pub/irs-soi/eo_wa.csv"
+    }
+  },
+  "outside_batch": [
+    "Bellwether Housing",
+    "Chief Seattle Club",
+    "Compass Housing Alliance"
+  ]
+}

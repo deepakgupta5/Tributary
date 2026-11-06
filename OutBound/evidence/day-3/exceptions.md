@@ -1,0 +1,6 @@
+# Identity exceptions
+
+Two recipient identities need follow-up. Contract payee verification is a separate award-level question.
+
+- **International Migrants Alliance (Washington Chapter)** — unknown EIN (chapter) · chapter: International Migrants Alliance (Washington Chapter) · [identity research](https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L17). Does the Washington chapter have its own EIN or operate under a parent? [Award row](https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/)
+- **Tongan Community Food Pantry** — 31-1580932 (fundraising host) · fundraising host: Sustainable Seattle · [identity research](https://github.com/deepakgupta5/Tributary/blob/0e1f7014e7244a894372ed5c5aa254c39f771f19/OutBound/research/SEATTLE_RECIPIENT_IDENTITIES_2026-11-05.md#L16). Which legal entity operates the pantry, and does it have its own EIN? [Award row](https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/)
