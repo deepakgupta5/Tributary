@@ -1,7 +1,7 @@
 # Tributary product requirements
 Status: Bounded live prototype and Day 1 account worklist complete; seven-day daily-worklist plan is the current delivery schedule
 Owner: Deepak Gupta
-Updated: 2026-11-05
+Updated: 2026-11-06
 
 ## Purpose and user
 Tributary supports nonprofit business development for Autonomy Bridge. Its sole product goal is to find potential clients and credible organizational routes to reach them. Deepak reviews evidence and makes commercial decisions privately. The week-one product is an account-centered event monitor, not a buyer-intent prediction system.
@@ -14,6 +14,18 @@ The product must produce four daily outputs:
 4. A short action queue for investigation or outbound preparation.
 
 The initial geographic scope is all of Canada and Washington State. Oregon and California are future possibilities, not initial requirements. Collection can be introduced in stages, but coverage gaps must remain visible.
+
+## Current outbound target: mid-sized BC nonprofits
+
+The active outbound market is BC nonprofits with roughly $1M–$5M in annual revenue and 10–50 paid staff, with at least one live trigger below. Working interpretation for the BC pilot: CAD, latest available annual revenue, and paid headcount. Record fiscal year, currency, staff measurement basis, date and source. Label FTE or full-time-only figures explicitly. Approximate bands guide fit; missing or borderline size evidence goes to research. The wider discovery register can retain organizations outside this target.
+
+| Live trigger | Evidence needed for a qualified account |
+| --- | --- |
+| A funder or supporter wants to do more | A specific expression of interest in expanding support, a decision deadline, and a need for a feasible delivery outline, reliable costs and evidence of impact. Record what decision the material will support. |
+| A funded commitment or partnership is stalling | Evidence of an existing funded obligation, a delayed or blocked milestone, and the dependency between programs, finance or development that is holding up delivery. Record what is due and who needs to act. |
+| Leadership transition, leave or growth puts delivery at risk | Evidence of the transition, leave or expansion plus a specific delivery obligation at risk during that window. Record the responsibility, timing and evidence of the capacity gap. |
+
+For outbound qualification, record size fit and trigger status separately. For each trigger retain the dated source, what remains open, deadline or next milestone where known, and last status check. A grant announcement, ED vacancy, generic appeal or growth figure alone is a research lead. Keep plausible leads with missing evidence in Investigate; keep size-fit accounts without a live trigger in Monitor. A qualified account is eligible for private outbound preparation; the owner decides whether to contact it.
 
 ## Decisions the product supports
 - Which nonprofits show evidence of needs relevant to operational leadership, fundraising support, or better use of data in campaigns and existing-supporter engagement?
