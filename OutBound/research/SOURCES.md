@@ -1,9 +1,9 @@
 # Source coverage and feasibility
-Status: Draft v0.1
+Status: Source strategy. For Day 2 implementation see the [configured endpoints](../data/day2-sources.json) and [observed results](../evidence/day-2/first-run.md).
 Updated: 2026-11-03
 
 ## Current evidence status
-This document defines required coverage and a verification process. No individual source or endpoint has been verified for ingestion in this repository. The categories below are candidates, not working integrations.
+This document defines intended coverage. Endpoint-specific handling and actual retrieval outcomes are recorded separately in the Day 2 inventory and evidence linked above. Categories below include planned coverage.
 
 ## Coverage requirements
 Initial geography: all Canadian provinces and territories, plus Washington State. Track city/community and regional coverage as well as jurisdiction-level sources. A national outlet does not substitute for local coverage.
