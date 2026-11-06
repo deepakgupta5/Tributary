@@ -1,8 +1,23 @@
 # Development roadmap
-Status: Foundation and bounded live run complete; daily worklist is current delivery target
+Status: Day 1 merged. Day 2 live collection demonstrated on PR #4. Day 3 account and event resolution is next.
 Updated: 2026-11-05
 
 [PROJECT_PLAN.md](../frameworks/PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. [PRD.md](../frameworks/PRD.md) holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.
+
+## Day 2 results and Day 3 handoff
+
+| Source | New candidate accounts | Items for previously known accounts |
+| --- | ---: | ---: |
+| CRA charity identification file (2024) | 4 | 1 |
+| IRS exempt-organization data | 5 | 2 |
+| Seattle Food Equity Fund announcement | 22 | 1 |
+| Total | 31 | 4 |
+
+The [first run](../evidence/day-2/first-run.md) produced 35 evidence items. Registry rows identify organizations as of the source period. The Seattle announcement identifies individual award recipients. The [immediate repeat](../evidence/day-2/second-run.md) added zero accounts, items or revisions. Daily discovery yield across separate dates remains unmeasured.
+
+Day 3 takes these 35 items through batch identity matching and event grouping. Preserve the discovery source per account, registry-only accounts, and each recipient's relationship to its award. Produce one account worklist, a separate queue for ambiguous matches, and reconciliation back to every input. Greater Vancouver Food Bank Society stays visible with current registration marked unchecked.
+
+## Foundation history
 
 Development occurs in bounded increments in Codex. The repository preserves code, logic, product role definitions, data contracts, tests, and factual outcomes so Claude Code can later continue the work. No model installation, provider adapter, or hardware test is a prerequisite. See [WORKFLOW_EVALUATION.md](../frameworks/WORKFLOW_EVALUATION.md).
 
