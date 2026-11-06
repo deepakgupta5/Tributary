@@ -65,7 +65,7 @@ The archived 12,040 records still need to be screened against this target (Step 
 | --- | --- | --- |
 | 1 | Record this plan, the objective, the steps, and the decisions in the repository. | This document; decisions also entered in `decisions/DECISIONS.md`. |
 | 2 | Correct the pitch in the PRD (donor-base gate, buyer order, donor-side triggers) and sync the PRD with PROJECT_PLAN.md (single status source). | Pending — draft goes to the owner for approval before landing. |
-| 3 | Decide the PRD Q1 categories (hospitals, universities, religious organizations, advocacy groups) and record each decision with rationale in DECISIONS.md. Owner decision per category; nothing is cut unilaterally. | **Decided 2026-11-06: all four categories excluded as buyers for the pilot** (hospital foundations remain eligible as separate entities). Recorded as DECISIONS.md entry D062; landing pending GitHub write access. |
+| 3 | Decide the PRD Q1 categories (hospitals, universities, religious organizations, advocacy groups) and record each decision with rationale in DECISIONS.md. Owner decision per category; nothing is cut unilaterally. | **Decided 2026-11-06: all four categories excluded as buyers for the pilot** (hospital foundations remain eligible as separate entities). Recorded as DECISIONS.md entry D062. |
 | 4 | Screen the archived 12,040 against the target and the Step 3 decisions; commit the output dataset and a reconciliation table (12,040 in → excluded by reason, with counts → 754 size-fit → 414 enrichment). Verify the 754/414 reproduce, or document the variance. | Pending — Codex task via GitHub issue. |
 
 ## Boundaries
@@ -78,4 +78,4 @@ The archived 12,040 records still need to be screened against this target (Step 
 ## Status log
 
 - 2026-11-06 — Plan, objective, steps, and Decisions 1–8 recorded at the owner's instruction. Repo-update program Steps 2–4 pending as tabled above. AFP Philanthropy Day buy decision outstanding (deadline Wed Nov 11).
-- 2026-11-06 — Q1 decided (program Step 3): hospitals, universities, religious organizations, and advocacy groups excluded as buyers for the pilot; hospital foundations remain eligible. DECISIONS.md entries D058–D062 prepared; landing of this document and the decision entries is pending GitHub write access for the Muse app (Contents permission currently read-only — push returned 403).
+- 2026-11-06 — Q1 decided (program Step 3): hospitals, universities, religious organizations, and advocacy groups excluded as buyers for the pilot; hospital foundations remain eligible. DECISIONS.md entries D058–D062 recorded. This document, the frameworks index, and the decision entries landed on main on 2026-11-06 (commits 3000a1e, f1983e3, ff6c341) after the owner installed the Muse GitHub App on the deepakgupta5 account with Tributary selected — earlier pushes had failed with 403 because the app was not installed.
