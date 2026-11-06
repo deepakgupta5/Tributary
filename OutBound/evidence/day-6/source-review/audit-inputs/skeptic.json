@@ -1,0 +1,47 @@
+{
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Greater distribution and better availability undermine a claim of present unmet capacity.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "No date or magnitude establishes present impact.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Expanded distribution and volunteer interest may have compensated.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Percentage increase in support cannot be netted against the dollar loss.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Concern about future summer demand does not show a June shortfall.",
+    "result": "pass"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "An internal appointment and process improvements do not establish a vacancy or strain.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Outcome alone has no target or prior-year comparator.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "The word Down describes the title, not the direction of receipts.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "A live widget is not a final result; last year is ambiguous without a dated report.",
+    "result": "pass"
+  }
+}

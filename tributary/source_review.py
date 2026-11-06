@@ -14,6 +14,7 @@ from pathlib import Path
 import re
 
 from tributary.daily import ROOT, Network, PATTERNS, canonical, digest, read, save, text_of
+from tributary.checkpoint_audit import STAGES, verify
 
 CONTRACT='source-review-v1'
 FACTS={'supported_attributed','partly_supported','contradicted','insufficient','inaccessible'}
@@ -117,7 +118,7 @@ def prepare(state,retrieve=None,cache_dir=None):
                 scope_hash=digest(scope)
                 refs=(old.get('evidence',[])+old.get('contradictory_evidence',[])) if old else []
                 cited_unchanged=all(doc['paragraphs'].get(r['locator'],{}).get('hash')==r['hash'] for r in refs)
-                if old and cited_unchanged and old['scope_hash']==scope_hash and not old.get('invalidated'):
+                if old and old.get('audit_ids') and cited_unchanged and old['scope_hash']==scope_hash and not old.get('invalidated'):
                     rebound=deepcopy(old);rebound.update(candidate_version=signal['version'],last_revalidated_at=checked_at,document_version=doc['version'])
                     if rebound['candidate_version']!=old['candidate_version']:
                         rebound['rebound_from']=old['candidate_version']
@@ -200,9 +201,10 @@ def validate(packet,results):
     return rows
 
 
-def apply(state,packet,results):
+def apply(state,packet,results,chain=()):
     rows=validate(packet,results);store=storage(state)
     if not rows:return 0
+    verify(packet,results,chain)
     for row in rows:
         group,flag=next((g,f) for g in packet['groups'] for f in g['flags'] if f['signal_id']==row['signal_id'])
         current=state['signals'].get(row['signal_id'],{})
@@ -212,7 +214,8 @@ def apply(state,packet,results):
     # Validate the entire batch before applying any verdict.
     for row in rows:
         group,flag=next((g,f) for g in packet['groups'] for f in g['flags'] if f['signal_id']==row['signal_id'])
-        record=dict(row,scope=flag['scope'],scope_hash=flag['scope_hash'],group_id=group['id'],url=group['url'],invalidated=False)
+        ids=[r['execution_id'] for r in chain]
+        record=dict(row,scope=flag['scope'],scope_hash=flag['scope_hash'],group_id=group['id'],url=group['url'],invalidated=False,audit_ids=ids)
         old=store['verdicts'].get(row['signal_id'])
         if old and all(old.get(k)==v for k,v in record.items()):continue
         store['history'].append(record);store['verdicts'][row['signal_id']]=record
@@ -221,6 +224,8 @@ def apply(state,packet,results):
             if task['signal_id']==row['signal_id'] and task['status']=='pending':
                 task.update(status=row['disposition'],source_review_id=digest(record))
     store['last_desktop_review_at']=results['reviewed_at']
+    store.setdefault('audit_records',{}).update({r['execution_id']:r for r in chain})
+    store.setdefault('audit_packets',{})[digest(packet)]=packet
     return len(rows)
 
 
@@ -230,7 +235,10 @@ def owner_view(state,collection,packet,reviewer_ran=False):
     outstanding=[]
     for sid,signal in state['signals'].items():
         verdict=store['verdicts'].get(sid)
-        valid=bool(verdict and not verdict.get('invalidated') and sid not in unavailable and verdict['candidate_version']==signal['version'])
+        audit=store.get('audit_records',{})
+        ids=verdict.get('audit_ids',[]) if verdict else []
+        audited=len(ids)==4 and all(audit.get(i,{}).get('stage')==stage for i,stage in zip(ids,STAGES))
+        valid=bool(audited and not verdict.get('invalidated') and sid not in unavailable and verdict['candidate_version']==signal['version'])
         reason='Original source unavailable' if sid in unavailable else 'Desktop review unfinished or evidence changed' if not valid else verdict['fact_reason']
         row=dict(signal_id=sid,account_id=signal['account_id'],url=signal['url'],status=verdict['disposition'] if valid else 'unfinished',reason=reason,
                  reviewed_at=verdict.get('reviewed_at') if verdict else None)
@@ -274,7 +282,7 @@ def render_owner(data):
         if c.get('owner_feedback'):
             lines += ['Private decision: '+c['owner_feedback']['decision']+'. '+c['owner_feedback']['reason'], 'Decision needs review: '+str(c.get('decision_needs_review')), '']
         for v in c['findings']:
-            lines += [v['observation']+' [Source]('+v['url']+').', 'Period: '+v['reporting_period']+'.',
+            lines += [v['observation']+' [Source]('+v['url']+').', '[Four checkpoint records](checkpoint-audit.json): '+', '.join(v['audit_ids']), 'Period: '+v['reporting_period']+'.',
                       'Why it may matter, hypothesis: '+v['commercial_reason'], 'Decision: '+v['owner_decision'], 'Next step: '+v['owner_next_step'],'']
     lines+=['## Monitor','',f"{n['reviewed_flags']} flags have recorded source dispositions. Historical/positive context remains in the review ledger; it is not an owner attention request.",'',
             '## Suppress','',f"{n['unsupported_or_contradicted_flags']} unsupported or contradicted interpretations are retained internally with reasons. Accounts are not deleted.",'']
@@ -295,6 +303,8 @@ def render_owner(data):
 def publish(state,collection,packet,directory,reviewer_ran=False):
     directory=Path(directory);directory.mkdir(parents=True,exist_ok=True)
     data=owner_view(state,collection,packet,reviewer_ran)
+    audit_store=storage(state)
+    save(directory/'checkpoint-audit.json',dict(records=audit_store.get('audit_records',{}),packets=audit_store.get('audit_packets',{})))
     save(directory/'owner-worklist.json',data)
     (directory/'owner-worklist.md').write_text(render_owner(data))
     # Separate internal queue, including closed unsupported flags and live access gaps.
@@ -338,7 +348,8 @@ def _main(args):
     packet=read(packet_path)
     if args.action=='complete':
         if not args.verdicts:raise ValueError('--verdicts required')
-        count=apply(state,packet,read(args.verdicts))
+        chain=[read(out/'checkpoints'/packet['id']/(s+'.json')) for s in STAGES] if packet['groups'] else []
+        count=apply(state,packet,read(args.verdicts),chain)
         data=publish(state,collection,packet,out,bool(count))
     else:
         count=0;data=publish(state,collection,packet,out,False)

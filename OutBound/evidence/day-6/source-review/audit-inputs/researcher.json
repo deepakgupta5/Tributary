@@ -1,0 +1,47 @@
+{
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Surrey described just sufficient supply and twice the food distributed year over year.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Organization explicitly reports public funding cuts and rising demand.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Nine AmeriCorps team members lost; clients seeking help increased 56% during disruption.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Nearly USD900,000 government funding lost; donor support increased 132%.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Director said donations kept pace with demand in June.",
+    "result": "pass"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Long-serving staff member appointed VP of Operations.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "September gala reportedly raised more than USD400,000.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Dress Down Hunger is the event name.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex, shared context, retrospective November 6 review",
+    "reason": "Organization acknowledges matching donors and reports nearly 40% household growth last year.",
+    "result": "pass"
+  }
+}

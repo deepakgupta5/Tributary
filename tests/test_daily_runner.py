@@ -166,7 +166,7 @@ class DailyRunnerTests(unittest.TestCase):
     def test_native_schedule_preserves_unrelated_entries_and_is_idempotent(self):
         from tributary.schedule import block,replace
         existing='MAILTO=""\n10 9 * * * /usr/bin/true # unrelated\n'
-        entry=block(ROOT,'/usr/bin/python3')
+        entry=block(Path('/tmp/Tributary project'),'/usr/bin/python3')
         result=replace(existing,entry)
         self.assertTrue(result.startswith(existing))
         self.assertEqual(replace(result,entry),result)

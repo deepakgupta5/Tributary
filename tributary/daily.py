@@ -433,7 +433,8 @@ def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,ex
         reviewed=False
         if reviewer and packet['groups']:
             try:
-                reviewed=bool(apply(state,packet,reviewer(packet)))
+                response=reviewer(packet)
+                reviewed=bool(apply(state,packet,response['verdicts_packet'],response['checkpoints']))
             except Exception as exc:
                 save(out/'reviewer-error.json',dict(error=type(exc).__name__+': '+str(exc)))
         owner=publish(state,data,packet,out,reviewed)

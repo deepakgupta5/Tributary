@@ -33,15 +33,46 @@ def verdicts(p,owner=False):
 
 def collection():return dict(as_of='2026-11-06',run_id='test',run_status='complete',collection=[],counts={})
 
+def apply_review(s,p,r):
+    from tributary.checkpoint_audit import execute, STAGES
+    sr.validate(p,r)
+    chain=[]
+    if not r['verdicts']:return sr.apply(s,p,r)
+    for stage in STAGES:
+        answers={v['signal_id']:dict(actor='fixture',reason='synthetic check',result='pass') for v in r['verdicts']}
+        chain.append(execute(stage,p,answers,chain[-1] if chain else None,r))
+    if s.get('_test_chain_key')==digest([p,r]):chain=s['_test_chain']
+    s['_test_chain_key']=digest([p,r]);s['_test_chain']=chain
+    return sr.apply(s,p,r,chain)
+
 class SourceReviewTests(unittest.TestCase):
+    def test_missing_checkpoint_blocks_actionable_owner_card(self):
+        from tributary.checkpoint_audit import STAGES, execute
+        s=state(); p=sr.prepare(s,lambda *_:(200,HTML,{})); r=verdicts(p,True)
+        checks=[]
+        answers={v['signal_id']:dict(actor='fixture',reason='case-specific check',result='pass') for v in r['verdicts']}
+        for stage in STAGES:
+            checks.append(execute(stage,p,answers,checks[-1] if checks else None,r))
+        for i in range(4):
+            with self.subTest(stage=STAGES[i]), self.assertRaises(ValueError):
+                sr.apply(s,p,r,checks[:i]+checks[i+1:])
+            self.assertEqual(sr.owner_view(s,collection(),p)['cards'],[])
+        held=dict(answers)
+        held[r['verdicts'][0]['signal_id']]=dict(actor='fixture',reason='Unresolved contradiction',result='hold')
+        fourth=execute('fact_checker',p,held,checks[2],r)
+        with self.assertRaises(ValueError):
+            sr.apply(s,p,r,checks[:3]+[fourth])
+        sr.apply(s,p,r,checks)
+        self.assertEqual(len(sr.owner_view(s,collection(),p)['cards']),1)
+
     def test_one_original_two_independent_claims(self):
         s=state();calls=[]
         p=sr.prepare(s,lambda u,c:(calls.append(u) or 200,HTML,{}))
         self.assertEqual(len(calls),1);self.assertEqual(p['summary']['flags_for_desktop'],2)
-        sr.apply(s,p,verdicts(p));self.assertEqual(len(s['source_review']['verdicts']),2)
+        apply_review(s,p,verdicts(p));self.assertEqual(len(s['source_review']['verdicts']),2)
 
     def test_unchanged_200_and_304_reuse_without_duplicate_cards_or_history(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{'etag':'v1'}));sr.apply(s,p,verdicts(p,True))
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{'etag':'v1'}));apply_review(s,p,verdicts(p,True))
         first=sr.owner_view(s,collection(),p,True);history=deepcopy(s['source_review']['history'])
         for code in (200,304):
             p=sr.prepare(s,lambda *_:(code,HTML if code==200 else b'',{}))
@@ -51,7 +82,7 @@ class SourceReviewTests(unittest.TestCase):
         self.assertEqual(s['source_review']['history'],history)
 
     def test_changed_claim_only_reopens_affected_category(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p))
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p))
         p=sr.prepare(s,lambda *_:(200,HTML.replace(b'20%',b'30%'),{}))
         self.assertEqual(p['reused'],['operational_strain'])
         self.assertEqual([f['signal_id'] for g in p['groups'] for f in g['flags']],['fundraising_pressure'])
@@ -61,11 +92,11 @@ class SourceReviewTests(unittest.TestCase):
         p=sr.prepare(s,lambda *_:(200,raw,{}));r=verdicts(p)
         g=p['groups'][0];k=next(k for k,v in g['passages'].items() if v['index']==3)
         r['verdicts'][0]['evidence'].append(dict(locator=k,hash=g['passages'][k]['hash'],note='Important ledger basis.'))
-        sr.apply(s,p,r);p=sr.prepare(s,lambda *_:(200,raw.replace(b'USD100',b'USD200'),{}))
+        apply_review(s,p,r);p=sr.prepare(s,lambda *_:(200,raw.replace(b'USD100',b'USD200'),{}))
         self.assertIn(r['verdicts'][0]['signal_id'],[f['signal_id'] for g in p['groups'] for f in g['flags']])
 
     def test_new_contradiction_reopens_then_removes_owner_claim(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p,True));sr.owner_view(s,collection(),p,True)
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p,True));sr.owner_view(s,collection(),p,True)
         changed=HTML.replace(b'</article>',b'<p>Updated: donations are keeping pace; no remaining shortfall.</p></article>')
         p=sr.prepare(s,lambda *_:(200,changed,{}));self.assertEqual(p['summary']['flags_for_desktop'],2)
         r=verdicts(p)
@@ -73,11 +104,11 @@ class SourceReviewTests(unittest.TestCase):
             row.update(fact_verdict='contradicted',disposition='contradicted',commercial_relevance='not_relevant',fact_reason='Updated source contradicts prior gap.')
             g=p['groups'][0];k=next(k for k,v in g['passages'].items() if v['index']==3)
             row['contradictory_evidence']=[dict(locator=k,hash=g['passages'][k]['hash'],note='Explicit contrary update.')]
-        sr.apply(s,p,r);v=sr.owner_view(s,collection(),p,True)
+        apply_review(s,p,r);v=sr.owner_view(s,collection(),p,True)
         self.assertEqual(v['counts']['owner_attention_accounts'],0);self.assertEqual(v['counts']['unsupported_or_contradicted_flags'],2)
 
     def test_inaccessible_retains_last_reviewed_worklist_with_its_date(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p,True));first=sr.owner_view(s,collection(),p,True)
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p,True));first=sr.owner_view(s,collection(),p,True)
         p=sr.prepare(s,lambda *_:(403,b'',{}));v=sr.owner_view(s,collection(),p)
         self.assertEqual(p['summary']['original_fetches'],1);self.assertEqual(p['summary']['inaccessible_flags'],2)
         self.assertEqual(v['cards'],[]);self.assertEqual(v['verification'],'reviewer_unavailable_or_incomplete')
@@ -99,18 +130,18 @@ class SourceReviewTests(unittest.TestCase):
             elif change=='locator':r['verdicts'][0]['evidence'][0]['hash']='wrong'
             elif change=='period':r['verdicts'][0]['reporting_period']=''
             else:r['verdicts'][0]['source_checks_complete']=False
-            with self.assertRaises(ValueError):sr.apply(s,p,r)
+            with self.assertRaises(ValueError):apply_review(s,p,r)
             self.assertEqual(s['source_review']['verdicts'],{})
 
     def test_donation_page_and_campaign_success_do_not_establish_pressure(self):
         s=state();p=sr.prepare(s,lambda *_:(200,b'<article><p>Donate today. Our campaign raised USD1000 and surpassed its goal.</p></article>',{}))
         r=verdicts(p)
         for row in r['verdicts']:row.update(fact_verdict='insufficient',disposition='unsupported',commercial_relevance='not_relevant',fact_reason='Donation request and successful performance do not establish financial pressure.')
-        sr.apply(s,p,r);v=sr.owner_view(s,collection(),p,True)
+        apply_review(s,p,r);v=sr.owner_view(s,collection(),p,True)
         self.assertEqual(v['cards'],[]);self.assertEqual(v['counts']['unsupported_or_contradicted_flags'],2)
 
     def test_new_flag_on_304_needs_readable_original_not_silent_approval(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p))
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p))
         s['signals']['financial_pressure']=dict(s['signals']['fundraising_pressure'],id='financial_pressure',category='financial_pressure')
         p=sr.prepare(s,lambda *_:(304,b'',{}))
         self.assertEqual(p['summary']['inaccessible_flags'],3)
@@ -118,7 +149,7 @@ class SourceReviewTests(unittest.TestCase):
 
     def test_reapply_same_results_is_idempotent(self):
         s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));r=verdicts(p)
-        sr.apply(s,p,r);sr.apply(s,p,r);self.assertEqual(len(s['source_review']['history']),2)
+        apply_review(s,p,r);apply_review(s,p,r);self.assertEqual(len(s['source_review']['history']),2)
 
     def test_cached_original_allows_desktop_reading_without_second_fetch(self):
         s=state()
@@ -134,7 +165,7 @@ class SourceReviewTests(unittest.TestCase):
 
     def test_private_feedback_survives_reuse_and_changed_evidence(self):
         from tributary.daily_worklist import Feedback
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p,True));v=sr.owner_view(s,collection(),p,True)
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p,True));v=sr.owner_view(s,collection(),p,True)
         with tempfile.TemporaryDirectory() as directory:
             db=Path(directory)/'private.sqlite';store=Feedback(db)
             card=v['cards'][0];store.record(card['account_id'],'monitor','PRIVATE_ONLY',card['fingerprint']);store.close()
@@ -143,13 +174,13 @@ class SourceReviewTests(unittest.TestCase):
             private=__import__('json').loads((Path(directory)/'private-latest/worklist.json').read_text())
             self.assertFalse(private['cards'][0]['decision_needs_review']);self.assertNotIn('PRIVATE_ONLY',sr.render_owner(v))
             self.assertEqual(db.read_bytes(),before)
-            p=sr.prepare(s,lambda *_:(200,HTML.replace(b'20%',b'30%'),{}));sr.apply(s,p,verdicts(p,True));v=sr.owner_view(s,collection(),p,True)
+            p=sr.prepare(s,lambda *_:(200,HTML.replace(b'20%',b'30%'),{}));apply_review(s,p,verdicts(p,True));v=sr.owner_view(s,collection(),p,True)
             store=Feedback(db);self.assertTrue(store.overlay(v)['cards'][0]['decision_needs_review']);store.close()
 
     def test_empty_completion_cannot_refresh_review_date(self):
-        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p))
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));apply_review(s,p,verdicts(p))
         old=s['source_review']['last_desktop_review_at']
         p=sr.prepare(s,lambda *_:(304,b'',{}));r=verdicts(p);r['reviewed_at']='2026-12-01T00:00:00Z'
-        self.assertEqual(sr.apply(s,p,r),0);self.assertEqual(s['source_review']['last_desktop_review_at'],old)
+        self.assertEqual(apply_review(s,p,r),0);self.assertEqual(s['source_review']['last_desktop_review_at'],old)
 
 if __name__=='__main__':unittest.main()

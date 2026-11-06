@@ -1,5 +1,7 @@
 # Source review, first live batch
 
+[November 6 four-checkpoint audit](four-checkpoint-audit.md): the original nine source dispositions now have a separately executed QC, researcher, skeptic and fact-checker audit. The daily completion gate requires all four. Local deployment and a later scheduled Mac execution require separate confirmation.
+
 Manual execution on 5 November 2026 Vancouver (6 November UTC). Same included desktop assistant performed researcher, skeptic and fact-checker passes in shared context. These are attributed source checks, not independent corroboration. No paid inference API or outreach was used.
 
 [Current owner worklist](repeat/worklist.md) · [Each of the nine dispositions](dispositions.md) · [Structured verdicts](desktop-verdicts.json) · [First grouped request](source-review-request.json) · [Real repeat request](repeat/source-review-request.json)
