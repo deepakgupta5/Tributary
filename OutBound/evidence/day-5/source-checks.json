@@ -1,0 +1,112 @@
+[
+  {
+    "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:14:40.824Z",
+    "response_sha256": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2026-03-20",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:14:42.353Z",
+    "response_sha256": "48828d994929270c28064b76fd570a824decd871dc174b0828e8fb040d577748",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2025-12-25",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:14:43.874Z",
+    "response_sha256": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2026-06-11",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://foodlifeline.org/article/food-frenzy-2026-results",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:14:44.415Z",
+    "response_sha256": "0baaae7457168402d526827f9d7acb7cf10c7829b8d2a17532b5906b64907669",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2026-08-07",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:14:44.925Z",
+    "response_sha256": "db5c9ef0f238d4612a56818cd8aab93ea0ff8b447e348da98abba4043a707fef",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2026-02-03",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://northdeltarotary.ca/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:15:11.368Z",
+    "response_sha256": "0c01f95aa9b796083efa93fc0e4e4682d8352f653b46434cc92233f0208e34d1",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": null,
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://afpcalgary.ca/executive-director-surrey-food-bank/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:15:11.570Z",
+    "response_sha256": "c3558adf0634f1377a59f92703bc6ee4f37b19267bc919222f2950d971f65c45",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": "2026-10-12",
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://surreyfoodbank.org/about-us/reports/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:15:11.720Z",
+    "response_sha256": "51d2de848293019a0a2cd4442be37f70b6e46b9ebaacda686acf9f484400879a",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": null,
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://surreyfoodbank.org/about-us/alternate-distribution-centres/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:15:11.748Z",
+    "response_sha256": "8db3e5a1e7cab113edeeaf6a45c27cd3cda5cbaa7b44b71eb2ca24086b63e2d1",
+    "processing": "transient response, organization-level factual notes only; no whole content retained",
+    "review_basis": "supervised source inspection; same assistant, not independent verification",
+    "publication_date": null,
+    "admission": "bounded supervised inspection only; no routine-source admission granted"
+  },
+  {
+    "url": "https://surreyfoodbank.org/wp-content/uploads/2026/02/SFB-2025-Annual-Report-WEB.pdf",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:21:01.375Z",
+    "response_sha256": "09113d2b18be7b041ddf1f2beb713840f58802ef8d0c0f165769dd395f8c3310",
+    "publication_date": null,
+    "processing": "Transient PDF; retained reporting-period note only, no whole document stored",
+    "admission": "bounded supervised inspection only; no routine-source admission granted",
+    "review_basis": "same-assistant source inspection, PDF reporting-period statement"
+  },
+  {
+    "url": "https://surreyfoodbank.org/about-us/careers/",
+    "http_status": 200,
+    "retrieved_at": "2026-11-06T04:21:01.479Z",
+    "response_sha256": "07e2d19b80f02bc5d0f45e7ae6025fb468e90a5fc28fdd785abfcadda81481ed",
+    "publication_date": null,
+    "processing": "Transient HTML; retained organization-level note only",
+    "admission": "bounded supervised inspection only; no routine-source admission granted",
+    "review_basis": "same-assistant source inspection"
+  }
+]

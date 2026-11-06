@@ -1,0 +1,206 @@
+{
+  "actor": "Codex assistant",
+  "basis": "supervised_coding_session",
+  "claim_checks": {
+    "ccfb-capacity-review-2026": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "staff",
+        "locator": "President review, AmeriCorps paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+        "source_sha256": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+        "status": "supported_attributed"
+      },
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "demand",
+        "locator": "SNAP disruption and distribution paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+        "source_sha256": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+        "status": "supported_attributed"
+      }
+    ],
+    "ccfb-government-funding-review-2026": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "funding",
+        "locator": "President review, government funding paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+        "source_sha256": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+        "status": "supported_attributed"
+      },
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "response",
+        "locator": "Community response paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+        "source_sha256": "70974c8cbe610a1eac333b16f8aba6c4ecaf0676462827c38eae0c1b4a53dbbe",
+        "status": "supported_attributed"
+      }
+    ],
+    "compass-2025-matches": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "matches",
+        "locator": "Matching-gifts bullet",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/",
+        "source_sha256": "db5c9ef0f238d4612a56818cd8aab93ea0ff8b447e348da98abba4043a707fef",
+        "status": "supported_attributed"
+      }
+    ],
+    "food-frenzy-2026-results": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "result",
+        "locator": "Opening results paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://foodlifeline.org/article/food-frenzy-2026-results",
+        "source_sha256": "0baaae7457168402d526827f9d7acb7cf10c7829b8d2a17532b5906b64907669",
+        "status": "supported_attributed"
+      }
+    ],
+    "surrey-delview-october2026": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "depot",
+        "locator": "Inaugural Food Bank at Delview Secondary School paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://northdeltarotary.ca/",
+        "source_sha256": "0c01f95aa9b796083efa93fc0e4e4682d8352f653b46434cc92233f0208e34d1",
+        "status": "supported_attributed"
+      }
+    ],
+    "surrey-donation-pressure-dec2025": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "observation",
+        "locator": "Executive director interview",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/",
+        "source_sha256": "48828d994929270c28064b76fd570a824decd871dc174b0828e8fb040d577748",
+        "status": "supported_attributed"
+      }
+    ],
+    "surrey-ed-search-october2026": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "search",
+        "locator": "Posting date and opportunity section",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://afpcalgary.ca/executive-director-surrey-food-bank/",
+        "source_sha256": "c3558adf0634f1377a59f92703bc6ee4f37b19267bc919222f2950d971f65c45",
+        "status": "supported_attributed"
+      }
+    ],
+    "surrey-monthly-demand-june2026": [
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "demand",
+        "locator": "Monthly service volume paragraph",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+        "source_sha256": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711",
+        "status": "supported_attributed"
+      },
+      {
+        "checked_at": "2026-11-06T04:21:33.705991+00:00",
+        "claim_id": "donations",
+        "locator": "Opening executive-director attribution",
+        "reason": "Paraphrase/number matches the original publisher statement at the cited locator; truth beyond that attribution is not independently verified.",
+        "source": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+        "source_sha256": "f48399994cc343eb10dc6126ce12cab356859c2f6c1143525b2a3c640a8b8711",
+        "status": "supported_attributed"
+      }
+    ]
+  },
+  "completed": true,
+  "context": "Separate versioned role packet and output; same assistant and shared conversation context. Not independent review or enforced isolation.",
+  "context_checks": {
+    "careers-no-readable-role": {
+      "id": "careers-no-readable-role",
+      "locator": "Current Employment Opportunities section",
+      "source": "https://surreyfoodbank.org/about-us/careers/",
+      "source_sha256": "07e2d19b80f02bc5d0f45e7ae6025fb468e90a5fc28fdd785abfcadda81481ed",
+      "status": "supported_attributed",
+      "text": "The checked employer careers page exposes no readable vacancy details. A filled role cannot be inferred."
+    },
+    "delview-official-list": {
+      "id": "delview-official-list",
+      "locator": "Locations list",
+      "source": "https://surreyfoodbank.org/about-us/alternate-distribution-centres/",
+      "source_sha256": "8db3e5a1e7cab113edeeaf6a45c27cd3cda5cbaa7b44b71eb2ca24086b63e2d1",
+      "status": "supported_attributed",
+      "text": "The checked official alternate distribution page does not list Delview. Absence from this page does not prove absence of the service."
+    },
+    "fy2025-period": {
+      "id": "fy2025-period",
+      "locator": "PDF page 2, period statement",
+      "source": "https://surreyfoodbank.org/wp-content/uploads/2026/02/SFB-2025-Annual-Report-WEB.pdf",
+      "source_sha256": "09113d2b18be7b041ddf1f2beb713840f58802ef8d0c0f165769dd395f8c3310",
+      "status": "supported_attributed",
+      "text": "The linked Surrey annual report covers October 1, 2024 to September 30, 2025, not post-June 2026 results."
+    }
+  },
+  "executed_at": "2026-11-06T04:21:33.705991+00:00",
+  "execution_id": "day5:fact_checker:650b048987f3",
+  "input_hash": "99bef14929c6124e7e313027f4253bf29ad28f78d49c67c26ec9fdd98095f903",
+  "issue_resolutions": {
+    "issue:ccfb-capacity-review-2026": {
+      "reason": "Staffing and SNAP demand figures have unspecified event periods and comparison denominators; expanded distribution is counterevidence to an assumed service failure.",
+      "status": "limitation_retained"
+    },
+    "issue:ccfb-government-funding-review-2026": {
+      "reason": "Historical funding loss does not establish a current uncovered deficit; donor support increased.",
+      "status": "limitation_retained"
+    },
+    "issue:compass-2025-matches": {
+      "reason": "The matching-gift outcomes concern 2025, not the publication month in 2026. No decline is established.",
+      "status": "unsupported_inference_withheld"
+    },
+    "issue:food-frenzy-2026-results": {
+      "reason": "A higher campaign total is positive context, not evidence of donor-retention or campaign-performance failure.",
+      "status": "unsupported_inference_withheld"
+    },
+    "issue:surrey-delview-october2026": {
+      "reason": "Rotary directly supports activity at Delview but the specific Surrey operator link relies on a mirror. The item omits the year; source sequence suggests 2026. Official Surrey locations page lacks Delview, and closing times differ.",
+      "status": "material_link_pending"
+    },
+    "issue:surrey-donation-pressure-dec2025": {
+      "reason": "Day 4 attached a June statement to the December source. The revised observation removes it and keeps the June evidence separately sourced.",
+      "status": "corrected_before_this_version"
+    },
+    "issue:surrey-ed-search-october2026": {
+      "reason": "A recruitment notice dated October 12 supports an advertised search, not proof of an unfilled role today or demand for fractional services. Employer careers page has no readable role listing.",
+      "status": "limitation_retained"
+    },
+    "issue:surrey-monthly-demand-june2026": {
+      "reason": "Do not treat an expected summer spike as an observed outcome. Article says people; unique clients versus repeat visits is unresolved. No later aggregate comparison was established.",
+      "status": "limitation_retained"
+    }
+  },
+  "material_pending": [
+    {
+      "detail": "Primary confirmation of Surrey operator link, exact year and current throughput.",
+      "observation_id": "surrey-delview-october2026"
+    }
+  ],
+  "reason": "All claims in the full ledger checked, including claims not challenged by a skeptic. Source-faithfulness completed; temporal, legal identity and current-status limitations remain explicit.",
+  "result": "completed_with_material_limit",
+  "stage": "fact_checker",
+  "subjects": {
+    "ccfb-capacity-review-2026": "8aead086d5cda9b58febca3265fbab2160eca72e45cc3fa07f9f9d8f4bd259b0",
+    "ccfb-government-funding-review-2026": "a42e8a5cb2c6c18858b297ab187dddd55054ae752a40159304bc34866c29af76",
+    "compass-2025-matches": "895b85bd66397be504abadb3484a3da4619825d5ff49d99fa5ebf65534b7c932",
+    "food-frenzy-2026-results": "02594065af8765a465746f396562bb5b49b647e592ac77e53bbb6946f451ffd5",
+    "surrey-delview-october2026": "ae9171a65f7a5e113bc1ee95f036779171be2ce9dc4c68bc5a78b913e57896ff",
+    "surrey-donation-pressure-dec2025": "baf497480d7f2d4df3ac529d911aa87b427e834eb27f001802987a929a553fcb",
+    "surrey-ed-search-october2026": "9bf74487e47c3c7fe91a5fbf36697b03375452d6245dd8d9ae6a70142046bf30",
+    "surrey-monthly-demand-june2026": "322bc0677d5b39120b680bd361668822dfa3b752f9312148da3502935e1cc1e9"
+  },
+  "version": 1
+}

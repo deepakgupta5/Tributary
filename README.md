@@ -13,9 +13,9 @@ The repository contains:
 - an approved seven-project-day path to fresh daily account and signal output; and
 - a documented evidence review of signal-system practices and failure modes.
 
-Day 1 shipped on `main` through [PR #3](https://github.com/deepakgupta5/Tributary/pull/3). The incremental Day 2 collector is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). Its [fresh collection report](OutBound/evidence/day-2/first-run.md) and [immediate repeat](OutBound/evidence/day-2/second-run.md) record observed coverage and yield. Day 3 identity and event resolution is under review in [PR #5](https://github.com/deepakgupta5/Tributary/pull/5). This Day 4 branch adds [candidate signal generation and fresh batch-2 results](OutBound/evidence/day-4/signal-report.md): two new accounts, two newly observed older awards, and no current candidate investigation reason from the bounded inputs. [Reproduction and limits](OutBound/evidence/day-4/README.md) distinguish live collection, candidate rules and pending Day 5 review. Daily scheduling remains planned.
+Days 1–4 are merged into `main`, confirmed at `1002f1dea10e1b412595ce789236c8f0a3a5d862`. The Day 5 branch adds a [reviewed daily worklist](OutBound/evidence/day-5/worklist.md): one Investigate card, three Monitor cards, and empty Act and Suppress queues. Six non-award observations are source-checked and two Surrey follow-ups are added with explicit limits. Surrey's comparable demand and donation evidence ends on June 11, 2026; newer qualitative distribution/recruitment evidence does not establish current adequacy.
 
-The subsequent [non-award account review](OutBound/evidence/day-4/pressure-report.md) screened 39 account records, identified six observations across four organizations, and surfaced Surrey Food Bank for investigation. See the [PRD progress assessment](OutBound/tracker/ROADMAP.md#progress-against-the-seven-day-plan) for remaining delivery gaps.
+[Day 5 reproduction and private-feedback instructions](OutBound/evidence/day-5/README.md) distinguish fresh supervised review from replay. Private owner decisions persist in a local ignored SQLite journal and never enter public outputs. Daily non-award collection, recovery integration, scheduling and owner usefulness trials remain pending. Outreach stays manual.
 
 ## Repository structure
 

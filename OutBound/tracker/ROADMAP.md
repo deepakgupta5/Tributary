@@ -1,5 +1,5 @@
 # Development roadmap
-Status: Day 1 merged. Days 2–4 are on open review branches. Daily operations and owner usefulness testing are pending.
+Status: Days 1–4 merged on main at 1002f1d. Day 5 reviewed worklist is implemented on this review branch. Daily operations and owner usefulness testing remain pending.
 Updated: 2026-11-05
 
 [PROJECT_PLAN.md](../frameworks/PROJECT_PLAN.md) defines the current seven-project-day path to a daily prospect worklist, starting from the bounded live prototype. The older design and synthetic-first sequence below records the completed foundation and deferred capabilities; it is not the current delivery schedule. [PRD.md](../frameworks/PRD.md) holds the open-product-decision register. Day numbers are planning targets, not dated commitments. There are no approved numerical quality targets or source/organization quotas.
@@ -9,14 +9,14 @@ Updated: 2026-11-05
 | Milestone | Evidence and remaining work |
 | --- | --- |
 | 1. Account visibility | Merged in PR #3. Known accounts remain visible with separate eligibility and commercial status. |
-| 2. Incremental collection | PR #4. Live registry and announcement collection found 31 new candidates. Checkpoints and duplicate control demonstrated. Geographic and source breadth remain limited. |
-| 3. Account and event resolution | PR #5. The [worklist](../evidence/day-3/worklist.md) reconciles 35 items to 34 accounts. Two identity questions remain. |
-| 4. Candidate signals | PR #6. The automated backfill added two accounts and two historical awards. A [supervised non-award pass](../evidence/day-4/pressure-report.md) searched 39 existing accounts, producing six observations across four accounts and one investigation candidate. Recurring collection of these sources and broad category coverage remain open. |
-| 5. Reviewed worklist | Apply source checks to current candidates, show reasons and unknowns on action cards, and persist private owner feedback. |
+| 2. Incremental collection | Merged in PR #4. Live registry and announcement collection found 31 new candidates. Checkpoints and duplicate control demonstrated. Geographic and source breadth remain limited. |
+| 3. Account and event resolution | Merged in PR #5. The [worklist](../evidence/day-3/worklist.md) reconciles 35 items to 34 accounts. Two identity questions remain. |
+| 4. Candidate signals | Merged in PR #6. The automated backfill added two accounts and two historical awards. A [supervised non-award pass](../evidence/day-4/pressure-report.md) searched 39 existing accounts, producing six observations across four accounts and one investigation candidate. Recurring collection of these sources and broad category coverage remain open. |
+| 5. Reviewed worklist | [Reviewed worklist](../evidence/day-5/worklist.md): six original non-award observations checked, two qualified Surrey follow-ups, four unique account cards. Act 0, Investigate 1, Monitor 3, Suppress 0. [Review packets, tests and private feedback persistence](../evidence/day-5/README.md). Same-assistant review and unresolved current-status/identity checks remain explicit. |
 | 6. Daily execution | Install and test local scheduling, missed-day catch-up, recovery and export with persistent state. |
 | 7. Operating trial | Run on separate days, measure actual yield and review effort, and record owner usefulness feedback. |
 
-Next acceptance check: a fresh non-award observation must travel from a repeatable source check to a reviewed worklist card. An immediate repeat tests deduplication; separate-day runs measure real yield.
+Next acceptance check, Day 6: integrate fresh non-award collection with the review handoff, recovery, catch-up and export. Day 5 demonstrates supervised source checks, version-bound review and deterministic worklist reproduction. Reproduction is not a fresh collection/reasoning cycle. Separate-day runs and owner usefulness judgments remain Day 7 evidence.
 
 ## Day 2 results and Day 3 handoff
 

@@ -7,7 +7,7 @@ This plan replaces the earlier seven-day design and synthetic-foundation schedul
 
 ## Delivery status on November 5, 2026
 
-Day 1 shipped at merge `30e5e03`. Day 2 is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). The [first-run evidence](../evidence/day-2/first-run.md) measures discovery, and the [repeat-run evidence](../evidence/day-2/second-run.md) measures duplicate suppression. Day 3 resolution and reviewed identity relationships are in [PR #5](https://github.com/deepakgupta5/Tributary/pull/5). The Day 4 implementation on this branch provides [candidate signals and fresh collection results](../evidence/day-4/signal-report.md), with [reproduction and limitations](../evidence/day-4/README.md). It advances the next permitted backfill batch and separates older newly observed events from recent developments. Day 5 separate-role review and owner usefulness review remain pending.
+Days 1–4 are merged in `main`, confirmed at `1002f1dea10e1b412595ce789236c8f0a3a5d862`. Day 2 [collection](../evidence/day-2/README.md), Day 3 [identity resolution](../evidence/day-3/README.md), and Day 4 [non-award pressure observations](../evidence/day-4/pressure-report.md) are preserved. This Day 5 review branch adds a [source-reviewed daily worklist](../evidence/day-5/worklist.md), with [versioned review records, private feedback persistence, validation and operating limitations](../evidence/day-5/README.md). Day 6 fresh-run/recovery integration and Day 7 separate-day owner usefulness testing remain pending.
 
 ## Objective and Day X
 

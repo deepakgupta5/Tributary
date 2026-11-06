@@ -1,0 +1,13 @@
+{
+  "baseline_commit": "1002f1dea10e1b412595ce789236c8f0a3a5d862",
+  "output_sha256": {
+    "worklist.json": "2c1b62aaac35a8e7d547065ac302ba874b47012546a9caeeb691f3f23a0d0ec0",
+    "worklist.md": "23490aeb7ecf622726db746beb89274b241252cb703e4d8759154f09b0396021"
+  },
+  "private_feedback_test_basis": "Synthetic temporary SQLite databases; reopen and repeated-decision preservation tested. No actual owner feedback was invented.",
+  "public_repeat_byte_identical": true,
+  "review_replay_is_fresh_collection": false,
+  "source_check_count": 11,
+  "tests_passed": 90,
+  "unique_cards": 4
+}
