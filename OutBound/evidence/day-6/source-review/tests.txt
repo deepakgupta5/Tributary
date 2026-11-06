@@ -109,6 +109,7 @@ test_cached_original_allows_desktop_reading_without_second_fetch (test_source_re
 test_changed_cited_passage_outside_regex_reopens (test_source_review.SourceReviewTests.test_changed_cited_passage_outside_regex_reopens) ... ok
 test_changed_claim_only_reopens_affected_category (test_source_review.SourceReviewTests.test_changed_claim_only_reopens_affected_category) ... ok
 test_donation_page_and_campaign_success_do_not_establish_pressure (test_source_review.SourceReviewTests.test_donation_page_and_campaign_success_do_not_establish_pressure) ... ok
+test_empty_completion_cannot_refresh_review_date (test_source_review.SourceReviewTests.test_empty_completion_cannot_refresh_review_date) ... ok
 test_inaccessible_retains_last_reviewed_worklist_with_its_date (test_source_review.SourceReviewTests.test_inaccessible_retains_last_reviewed_worklist_with_its_date) ... ok
 test_incomplete_stale_and_bad_locator_rejected_atomically (test_source_review.SourceReviewTests.test_incomplete_stale_and_bad_locator_rejected_atomically) ... ok
 test_missing_reviewer_publishes_status_not_raw_cards (test_source_review.SourceReviewTests.test_missing_reviewer_publishes_status_not_raw_cards) ... ok
@@ -122,7 +123,7 @@ test_existing_live_accounts_are_visible_with_separate_states (test_worklist.Work
 test_markdown_is_compact_default_and_keeps_uncertainty_visible (test_worklist.WorklistTests.test_markdown_is_compact_default_and_keeps_uncertainty_visible) ... ok
 
 ----------------------------------------------------------------------
-Ran 122 tests in 5.008s
+Ran 123 tests in 5.084s
 
 OK
 {"accounts": 34, "dated_accounts": 23, "day2_new_candidates": 31, "day3_discoveries": 0, "events": 23, "items": 35, "known_items": 4, "manual": 2, "new_candidates": 31, "registry_only": 11}

@@ -146,4 +146,10 @@ class SourceReviewTests(unittest.TestCase):
             p=sr.prepare(s,lambda *_:(200,HTML.replace(b'20%',b'30%'),{}));sr.apply(s,p,verdicts(p,True));v=sr.owner_view(s,collection(),p,True)
             store=Feedback(db);self.assertTrue(store.overlay(v)['cards'][0]['decision_needs_review']);store.close()
 
+    def test_empty_completion_cannot_refresh_review_date(self):
+        s=state();p=sr.prepare(s,lambda *_:(200,HTML,{}));sr.apply(s,p,verdicts(p))
+        old=s['source_review']['last_desktop_review_at']
+        p=sr.prepare(s,lambda *_:(304,b'',{}));r=verdicts(p);r['reviewed_at']='2026-12-01T00:00:00Z'
+        self.assertEqual(sr.apply(s,p,r),0);self.assertEqual(s['source_review']['last_desktop_review_at'],old)
+
 if __name__=='__main__':unittest.main()

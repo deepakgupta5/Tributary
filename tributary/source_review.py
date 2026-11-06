@@ -202,6 +202,7 @@ def validate(packet,results):
 
 def apply(state,packet,results):
     rows=validate(packet,results);store=storage(state)
+    if not rows:return 0
     for row in rows:
         group,flag=next((g,f) for g in packet['groups'] for f in g['flags'] if f['signal_id']==row['signal_id'])
         current=state['signals'].get(row['signal_id'],{})
@@ -338,7 +339,7 @@ def _main(args):
     if args.action=='complete':
         if not args.verdicts:raise ValueError('--verdicts required')
         count=apply(state,packet,read(args.verdicts))
-        data=publish(state,collection,packet,out,True)
+        data=publish(state,collection,packet,out,bool(count))
     else:
         count=0;data=publish(state,collection,packet,out,False)
     save(args.state_dir/'state.json',state)
