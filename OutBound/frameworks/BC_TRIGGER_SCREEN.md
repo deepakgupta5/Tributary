@@ -5,6 +5,8 @@ Purpose: surface an evidence-backed hypothesis about an internal decision before
 ## Population gate
 Start with the 754 historical revenue/staff-proxy matches. In parallel retain the 414 revenue matches with incomplete staffing for enrichment. A 2024 filing establishes historical fit only. Resolve the operating organization, service scope and latest available size before outreach preparation. Preserve near-band and unknown records separately.
 
+Population exclusions (D062, 2026-11-06): hospitals, universities, religious organizations, and advocacy groups are excluded as buyers for the BC pilot; hospital foundations are separate entities and remain eligible. Qualification order is size fit → donor-base gate → trigger: from the T3010 revenue mix, tax-receipted gifts and fundraising revenue must be a material share of revenue; an organization funded predominantly by government contracts or fees goes to Monitor regardless of size fit (see PRD, "Current outbound target: mid-sized BC nonprofits").
+
 ## Three rules
 | Trigger | Anchor | Corroborating clue on the same initiative | Decision question |
 |---|---|---|---|
