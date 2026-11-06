@@ -13,7 +13,9 @@ The repository contains:
 - an approved seven-project-day path to fresh daily account and signal output; and
 - a documented evidence review of signal-system practices and failure modes.
 
-Day 1 shipped on `main` through [PR #3](https://github.com/deepakgupta5/Tributary/pull/3). The incremental Day 2 collector is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). Its [fresh collection report](OutBound/evidence/day-2/first-run.md) and [immediate repeat](OutBound/evidence/day-2/second-run.md) record observed coverage and yield. The [Day 3 handoff](OutBound/evidence/day-2/README.md#day-3-input-and-delivery) defines the batch resolution and event work. Daily scheduling remains planned.
+Day 1 shipped on `main` through [PR #3](https://github.com/deepakgupta5/Tributary/pull/3). The incremental Day 2 collector is under review in [PR #4](https://github.com/deepakgupta5/Tributary/pull/4). Its [fresh collection report](OutBound/evidence/day-2/first-run.md) and [immediate repeat](OutBound/evidence/day-2/second-run.md) record observed coverage and yield. Day 3 identity and event resolution is under review in [PR #5](https://github.com/deepakgupta5/Tributary/pull/5). This Day 4 branch adds [candidate signal generation and fresh batch-2 results](OutBound/evidence/day-4/signal-report.md): two new accounts, two newly observed older awards, and no current candidate investigation reason from the bounded inputs. [Reproduction and limits](OutBound/evidence/day-4/README.md) distinguish live collection, candidate rules and pending Day 5 review. Daily scheduling remains planned.
+
+The subsequent [non-award account review](OutBound/evidence/day-4/pressure-report.md) screened 39 account records, identified six observations across four organizations, and surfaced Surrey Food Bank for investigation. See the [PRD progress assessment](OutBound/tracker/ROADMAP.md#progress-against-the-seven-day-plan) for remaining delivery gaps.
 
 ## Repository structure
 

@@ -1,0 +1,67 @@
+{
+  "accounts": {
+    "Bellwether Housing": {
+      "identity": "publisher name only"
+    },
+    "Chief Seattle Club": {
+      "identity": "publisher name only"
+    },
+    "Compass Housing Alliance": {
+      "identity": "publisher name only"
+    }
+  },
+  "attempts": [
+    {
+      "at": "2026-11-05T23:29:56.720580+00:00",
+      "duplicates": 0,
+      "new_accounts": 3,
+      "new_events": 3,
+      "outcome": "success",
+      "revised": 0,
+      "selected_rows_sha256": "3638d824758a684fd1dff42deb23b1cf061f5e5e64d9f699d1d865ffeeaeb895",
+      "url": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+    },
+    {
+      "at": "2026-11-05T23:29:57.251249+00:00",
+      "duplicates": 3,
+      "new_accounts": 0,
+      "new_events": 0,
+      "outcome": "unchanged",
+      "revised": 0,
+      "selected_rows_sha256": "3638d824758a684fd1dff42deb23b1cf061f5e5e64d9f699d1d865ffeeaeb895",
+      "url": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+    }
+  ],
+  "events": {
+    "seattle-uos-2026/Bellwether Housing": [
+      {
+        "account": "Bellwether Housing",
+        "amount_usd": 2800000,
+        "announcement_date": "2026-02-06",
+        "locator": "Eligible Organization table, Bellwether Housing row",
+        "review": "candidate",
+        "source": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+      }
+    ],
+    "seattle-uos-2026/Chief Seattle Club": [
+      {
+        "account": "Chief Seattle Club",
+        "amount_usd": 1067671,
+        "announcement_date": "2026-02-06",
+        "locator": "Eligible Organization table, Chief Seattle Club row",
+        "review": "candidate",
+        "source": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+      }
+    ],
+    "seattle-uos-2026/Compass Housing Alliance": [
+      {
+        "account": "Compass Housing Alliance",
+        "amount_usd": 1002494,
+        "announcement_date": "2026-02-06",
+        "locator": "Eligible Organization table, Compass Housing Alliance row",
+        "review": "candidate",
+        "source": "https://housing.seattle.gov/2026-uos-rfq-awards/"
+      }
+    ]
+  }
+}
