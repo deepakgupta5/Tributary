@@ -1,5 +1,9 @@
 # Day 4: candidate signal generation
 
+## Account-first review of four PRD categories
+
+The [non-award report](pressure-report.md) covers the 39 existing account records, including the earlier pilot. Its [inputs and coverage ledger](pressure-inputs.json) distinguish search attempts from reviewed observations. Regenerate with `python3 -m tributary.pressure_report`. To export full assessments in the existing signal format, run `python3 -m tributary.signals OutBound/evidence/day-4/state.json out/pressure --baseline OutBound/evidence/day-4/state.json --event-inputs OutBound/evidence/day-4/pressure-inputs.json --as-of 2026-11-05`. The identical collection baseline isolates additions from this supervised research pass. For a repeat, carry the previous current observations into the baseline array.
+
 [Readable signal report](signal-report.md) · [Structured output](signals.json) · [Fresh checkpoints](state.json) · [Repeat checkpoints](repeat-state.json) · [Tests](tests.txt)
 
 Based on Day 3 PR #5, commit `c21b34f7de1f92668ecf05317b78df6b1036300b`. Its PRD, seven-day project plan, signal-generator evidence review and recipient identity findings govern this increment. No Day 4 branch or PR was present before execution. The original local feasibility checkout and its uncommitted files were preserved. Execution used an isolated checkout because this session could not write to the original checkout.

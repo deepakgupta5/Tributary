@@ -68,7 +68,8 @@ def assess(event, as_of):
     else:
         freshness = 'undated'
     # A fresh observation is a candidate investigation reason, not an ongoing-need claim.
-    current = bool(rule and freshness == 'recent_development')
+    current = bool(rule and freshness == 'recent_development'
+                   and event.get('disposition') not in ('positive_context','historical'))
     category, relevance, alternative = rule or ('unclassified', 'Relevance unassessed.', 'A mention alone may have no service relevance.')
     return dict(rule_version=VERSION, category=category, possible_relevance_hypothesis=relevance,
         alternative_explanation=alternative, freshness=freshness,
@@ -78,7 +79,7 @@ def assess(event, as_of):
                                 consulting_budget='unknown', authority='unknown', willingness='unknown'),
         donor_retention='unknown', evidence_quality='candidate', review_status='pending',
         tier='investigate' if current else 'monitor',
-        next_action='Check the original evidence and current status, then resolve relevance and identity gaps.',
+        next_action=event.get('next') or 'Check the original evidence and current status, then resolve relevance and identity gaps.',
         contradictory_evidence=[], contradiction_check='pending',
         missing_facts=['Current status and any resolution', 'Service relevance', 'Capacity and procurement route', 'Contract payee where applicable'],
         version=digest([VERSION, event]))
@@ -183,6 +184,10 @@ def add_typed_events(accounts, events, inputs, documents=None, ledger=None):
             factual_observations=[row['fact']],evidence={row['url']+'#'+row['locator']:evidence},
             route=None,contract_payee=None)
         accounts[row['account_id']]['events'].append(eid)
+        if 'disposition' in row:
+            if row['disposition'] not in ('positive_context','historical','investigate'):
+                raise ValueError('Invalid reviewed disposition')
+            events[eid].update(disposition=row['disposition'], next=row.get('next'))
         if documents is not None:
             doc=documents.setdefault(row['url'],dict(url=row['url'],source='typed_observation',publisher=None,title=None,source_type=None,geography=None,language='English',publication_date=row['publication_date'],response_sha256=None,last_successful_check=None,items=[],source_admission='pending'))
             doc['items'].append('typed/'+eid)
