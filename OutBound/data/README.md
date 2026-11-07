@@ -11,3 +11,7 @@
 `screened/` contains all 12,040 dispositions plus size-fit, enrichment and unresolved-category subsets. Read the [reconciliation](../evidence/population-screen/README.md) before use. Rebuild with `python3 -m tributary.population_screen`. The archive remains disabled for collection/outreach.
 
 `bc-category-decisions-d065.json` records the 32 exact-ID owner dispositions from D065 at main commit `2cd378e`. The screen applies them on every rerun. The category-review TSV preserves the full reviewed audit even when no checks remain pending. Twenty-eight moot out-of-band rows stay held from buyer admission and reopen on in-band re-entry; changed identity/category evidence reopens any affected D065 decision.
+
+## Canonical geography
+
+`bc-geography-rules.json` records the D060/D066 corridor, canonical locality normalization, known outside-corridor localities and the sourced Aldergrove-to-Langley area alias. `geography/` contains the routed retained population, Pool A, funder/intermediary list, remote/monitor list, review queue and per-locality counts. [Report and reconciliation](../evidence/canonical-geography/README.md). Run `python3 -m tributary.geography` after the population screen. Subsets overlap for remote foundations; sum the disjoint stage routes, not file row counts.

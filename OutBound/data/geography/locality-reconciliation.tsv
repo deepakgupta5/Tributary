@@ -1,0 +1,186 @@
+Raw locality	Canonical locality	Geography status	Organization route	Historical size disposition	Stage route	Records
+100 MILE HOUSE	100 MILE HOUSE	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+100 MILE HOUSE	100 MILE HOUSE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+108 MILE RANCH	108 MILE RANCH	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+ABBOTSFORD	ABBOTSFORD	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	6
+ABBOTSFORD	ABBOTSFORD	in-corridor	operating-organization	enrichment	pool-a	4
+ABBOTSFORD	ABBOTSFORD	in-corridor	operating-organization	size-fit	pool-a	9
+AGASSIZ	AGASSIZ	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+ALDERGROVE	LANGLEY	in-corridor	operating-organization	enrichment	pool-a	1
+ALDERGROVE	LANGLEY	in-corridor	operating-organization	size-fit	pool-a	3
+ALERT BAY	ALERT BAY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+ARMSTRONG	ARMSTRONG	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+ASHCROFT	ASHCROFT	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+BELLA BELLA	BELLA BELLA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+BOWEN ISLAND	BOWEN ISLAND	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+BOWEN ISLAND	BOWEN ISLAND	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+BOWEN ISLAND	BOWEN ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+BRENTWOOD BAY	BRENTWOOD BAY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+BURNABY	BURNABY	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	6
+BURNABY	BURNABY	in-corridor	operating-organization	enrichment	pool-a	6
+BURNABY	BURNABY	in-corridor	operating-organization	size-fit	pool-a	14
+BURNS LAKE	BURNS LAKE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+CAMPBELL RIVER	CAMPBELL RIVER	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+CAMPBELL RIVER	CAMPBELL RIVER	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+CAMPBELL RIVER	CAMPBELL RIVER	remote-monitor	operating-organization	size-fit	remote-operating-monitor	8
+CASTLEGAR	CASTLEGAR	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+CASTLEGAR	CASTLEGAR	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+CHEMAINUS	CHEMAINUS	remote-monitor	funder-intermediary	size-fit	remote-funder-intermediary-monitor	1
+CHETWYND	CHETWYND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+CHILLIWACK	CHILLIWACK	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+CLEARWATER	CLEARWATER	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+COBBLE HILL	COBBLE HILL	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+COMOX	COMOX	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+COQUITLAM	COQUITLAM	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	3
+COQUITLAM	COQUITLAM	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	1
+COQUITLAM	COQUITLAM	in-corridor	operating-organization	enrichment	pool-a	3
+COQUITLAM	COQUITLAM	in-corridor	operating-organization	size-fit	pool-a	6
+COURTENAY	COURTENAY	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	2
+COURTENAY	COURTENAY	remote-monitor	operating-organization	enrichment	remote-operating-monitor	2
+COURTENAY	COURTENAY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	7
+CRANBROOK	CRANBROOK	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+CRANBROOK	CRANBROOK	remote-monitor	operating-organization	size-fit	remote-operating-monitor	6
+CRESTON	CRESTON	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+CRESTON	CRESTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+DAWSON CREEK	DAWSON CREEK	remote-monitor	operating-organization	enrichment	remote-operating-monitor	3
+DAWSON CREEK	DAWSON CREEK	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+DELTA	DELTA	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	2
+DELTA	DELTA	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	2
+DELTA	DELTA	in-corridor	operating-organization	enrichment	pool-a	1
+DELTA	DELTA	in-corridor	operating-organization	size-fit	pool-a	1
+DUNCAN	DUNCAN	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+DUNCAN	DUNCAN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	10
+ELKFORD	ELKFORD	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+ENDERBY	ENDERBY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+ERRINGTON	ERRINGTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+FERNIE	FERNIE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+FORT NELSON	FORT NELSON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+FORT ST JOHN	FORT ST JOHN	remote-monitor	operating-organization	enrichment	remote-operating-monitor	2
+FORT ST JOHN	FORT ST JOHN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+FORT ST. JOHN	FORT ST JOHN	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+FORT ST. JOHN	FORT ST JOHN	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+FORT ST. JOHN	FORT ST JOHN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+GABRIOLA	GABRIOLA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+GABRIOLA ISLAND	GABRIOLA ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+GALIANO ISLAND	GALIANO ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+GIBSONS	GIBSONS	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+GITWINKSIHLKW	GITWINKSIHLKW	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+GOLDEN	GOLDEN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+GRAND FORKS	GRAND FORKS	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+HORNBY ISLAND	HORNBY ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+HOUSTON	HOUSTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+INVERMERE	INVERMERE	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+INVERMERE	INVERMERE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+KAMLOOPS	KAMLOOPS	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	2
+KAMLOOPS	KAMLOOPS	remote-monitor	funder-intermediary	size-fit	remote-funder-intermediary-monitor	1
+KAMLOOPS	KAMLOOPS	remote-monitor	operating-organization	enrichment	remote-operating-monitor	3
+KAMLOOPS	KAMLOOPS	remote-monitor	operating-organization	size-fit	remote-operating-monitor	16
+KASLO	KASLO	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+KELOWNA	KELOWNA	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	6
+KELOWNA	KELOWNA	remote-monitor	funder-intermediary	size-fit	remote-funder-intermediary-monitor	1
+KELOWNA	KELOWNA	remote-monitor	operating-organization	enrichment	remote-operating-monitor	7
+KELOWNA	KELOWNA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	23
+KIMBERLEY	KIMBERLEY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+KITIMAT	KITIMAT	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+KITWANGA	KITWANGA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+KOOTENAY BAY	KOOTENAY BAY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+LAC LA HACHE	LAC LA HACHE	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+LADYSMITH	LADYSMITH	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+LAKE COUNTRY	LAKE COUNTRY	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+LAKE COWICHAN	LAKE COWICHAN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+LANGFORD	LANGFORD	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+LANGLEY	LANGLEY	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	6
+LANGLEY	LANGLEY	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	1
+LANGLEY	LANGLEY	in-corridor	operating-organization	enrichment	pool-a	6
+LANGLEY	LANGLEY	in-corridor	operating-organization	size-fit	pool-a	11
+LILLOOET	LILLOOET	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+LYTTON	LYTTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+MACKENZIE	MACKENZIE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+MADEIRA PARK	MADEIRA PARK	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+MAPLE RIDGE	MAPLE RIDGE	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	2
+MAPLE RIDGE	MAPLE RIDGE	in-corridor	operating-organization	enrichment	pool-a	4
+MAPLE RIDGE	MAPLE RIDGE	in-corridor	operating-organization	size-fit	pool-a	10
+MASSET	MASSET	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+MERRITT	MERRITT	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+MERVILLE	MERVILLE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+MISSION	MISSION	in-corridor	operating-organization	enrichment	pool-a	2
+MISSION	MISSION	in-corridor	operating-organization	size-fit	pool-a	3
+NANAIMO	NANAIMO	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+NANAIMO	NANAIMO	remote-monitor	operating-organization	enrichment	remote-operating-monitor	3
+NANAIMO	NANAIMO	remote-monitor	operating-organization	size-fit	remote-operating-monitor	9
+NARAMATA	NARAMATA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+NELSON	NELSON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+NEW WESTMINSTER	NEW WESTMINSTER	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	2
+NEW WESTMINSTER	NEW WESTMINSTER	in-corridor	operating-organization	enrichment	pool-a	2
+NEW WESTMINSTER	NEW WESTMINSTER	in-corridor	operating-organization	size-fit	pool-a	12
+NORTH SAANICH	NORTH SAANICH	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+NORTH VANCOUVER	NORTH VANCOUVER	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	7
+NORTH VANCOUVER	NORTH VANCOUVER	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	1
+NORTH VANCOUVER	NORTH VANCOUVER	in-corridor	operating-organization	enrichment	pool-a	5
+NORTH VANCOUVER	NORTH VANCOUVER	in-corridor	operating-organization	size-fit	pool-a	14
+PARKSVILLE	PARKSVILLE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+PEMBERTON	PEMBERTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+PENDER ISLAND	PENDER ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+PENTICTON	PENTICTON	remote-monitor	operating-organization	enrichment	remote-operating-monitor	2
+PENTICTON	PENTICTON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	5
+PORT ALBERNI	PORT ALBERNI	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+PORT ALBERNI	PORT ALBERNI	remote-monitor	operating-organization	size-fit	remote-operating-monitor	7
+PORT COQUITLAM	PORT COQUITLAM	in-corridor	operating-organization	size-fit	pool-a	5
+POWELL RIVER	POWELL RIVER	remote-monitor	operating-organization	size-fit	remote-operating-monitor	6
+PRINCE GEORGE	PRINCE GEORGE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	10
+PRINCE RUPERT	PRINCE RUPERT	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+QUALICUM BEACH	QUALICUM BEACH	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+QUESNEL	QUESNEL	remote-monitor	operating-organization	size-fit	remote-operating-monitor	5
+REVELSTOKE	REVELSTOKE	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+REVELSTOKE	REVELSTOKE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+RICHMOND	RICHMOND	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	7
+RICHMOND	RICHMOND	in-corridor	operating-organization	enrichment	pool-a	3
+RICHMOND	RICHMOND	in-corridor	operating-organization	size-fit	pool-a	13
+SALMON ARM	SALMON ARM	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	2
+SALMON ARM	SALMON ARM	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+SALT SPRING ISLAND	SALT SPRING ISLAND	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+SALT SPRING ISLAND	SALT SPRING ISLAND	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+SALT SPRING ISLAND	SALT SPRING ISLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SECHELT	SECHELT	remote-monitor	operating-organization	enrichment	remote-operating-monitor	2
+SECHELT	SECHELT	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SICAMOUS	SICAMOUS	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+SIDNEY	SIDNEY	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+SIDNEY	SIDNEY	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SKIDEGATE	SKIDEGATE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SMITHERS	SMITHERS	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+SMITHERS	SMITHERS	remote-monitor	operating-organization	size-fit	remote-operating-monitor	3
+SOOKE	SOOKE	remote-monitor	operating-organization	enrichment	remote-operating-monitor	2
+SOOKE	SOOKE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SPALLUMCHEEN	SPALLUMCHEEN	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+SQUAMISH	SQUAMISH	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+SQUAMISH	SQUAMISH	remote-monitor	operating-organization	size-fit	remote-operating-monitor	5
+SUMMERLAND	SUMMERLAND	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+SUMMERLAND	SUMMERLAND	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+SURREY	SURREY	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	12
+SURREY	SURREY	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	1
+SURREY	SURREY	in-corridor	operating-organization	enrichment	pool-a	6
+SURREY	SURREY	in-corridor	operating-organization	size-fit	pool-a	13
+TERRACE	TERRACE	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	1
+TERRACE	TERRACE	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+TERRACE	TERRACE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+TOFINO	TOFINO	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+TRAIL	TRAIL	remote-monitor	operating-organization	size-fit	remote-operating-monitor	2
+UCLUELET	UCLUELET	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+VANCOUVER	VANCOUVER	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	99
+VANCOUVER	VANCOUVER	in-corridor	funder-intermediary	size-fit	corridor-funder-intermediary	4
+VANCOUVER	VANCOUVER	in-corridor	operating-organization	enrichment	pool-a	44
+VANCOUVER	VANCOUVER	in-corridor	operating-organization	size-fit	pool-a	114
+VANDERHOOF	VANDERHOOF	remote-monitor	operating-organization	size-fit	remote-operating-monitor	1
+VERNON	VERNON	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+VERNON	VERNON	remote-monitor	operating-organization	size-fit	remote-operating-monitor	9
+VICTORIA	VICTORIA	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	13
+VICTORIA	VICTORIA	remote-monitor	operating-organization	enrichment	remote-operating-monitor	13
+VICTORIA	VICTORIA	remote-monitor	operating-organization	size-fit	remote-operating-monitor	51
+WEST VANCOUVER	WEST VANCOUVER	in-corridor	funder-intermediary	enrichment	corridor-funder-intermediary	6
+WEST VANCOUVER	WEST VANCOUVER	in-corridor	operating-organization	enrichment	pool-a	4
+WEST VANCOUVER	WEST VANCOUVER	in-corridor	operating-organization	size-fit	pool-a	3
+WHISTLER	WHISTLER	remote-monitor	funder-intermediary	enrichment	remote-funder-intermediary-monitor	2
+WHISTLER	WHISTLER	remote-monitor	operating-organization	enrichment	remote-operating-monitor	1
+WHISTLER	WHISTLER	remote-monitor	operating-organization	size-fit	remote-operating-monitor	4
+WHITE ROCK	WHITE ROCK	in-corridor	operating-organization	enrichment	pool-a	1
+WILLIAMS LAKE	WILLIAMS LAKE	remote-monitor	operating-organization	size-fit	remote-operating-monitor	5
