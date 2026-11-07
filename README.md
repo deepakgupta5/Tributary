@@ -23,6 +23,10 @@ Source-review originals use per-command temporary storage, removed at command ex
 
 [D064 private-feedback baseline](OutBound/evidence/private-feedback-initialization/README.md): available local/cloud backup searches found no recoverable journal or evidence of prior population. A new empty private journal is initialized; assistant review dispositions are not owner feedback.
 
+## BC population screen, Issue #9
+
+[Reconciliation and limits](OutBound/evidence/population-screen/README.md): 12,040 historical records reconcile to 4,167 deterministic category exclusions, 552 retained size-fit, 345 retained enrichment and 6,976 remainder. Historical pre-exclusion 754/414 reproduces exactly. Thirty-two unresolved category clues remain held for activities review. Current eligibility, donor-base and trigger gates are unassessed. No collection or outreach enabled.
+
 ## Repository structure
 
 | Path | Purpose |

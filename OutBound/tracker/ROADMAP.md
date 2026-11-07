@@ -124,3 +124,7 @@ Detailed schema/runtime contracts, later interface implementation details, hosti
 ## Source-review completion, 5 November 2026 Vancouver
 
 The desktop workflow now reads originals before owner publication and returns version-bound structured factual and commercial verdicts. Python validates all required claims, locators, periods and commercial gates atomically. Relevant/cited passage changes reopen affected claims; unchanged evidence preserves decisions and review dates. Collection-only or inaccessible-review fallback publishes dated collection status and the last reviewed worklist. The original checkout and private owner journal remain preserved. See [first batch, real repeat and test evidence](../evidence/day-6/source-review/README.md). Scheduled app instructions were updated; later scheduled Mac execution remains unproven.
+
+## Issue #9: historical BC population screen
+
+Deterministic screen and one-to-one filing join implemented. Historical 754 size-fit / 414 enrichment reproduce. After D062 deterministic rules: 552 size-fit / 345 enrichment; 4,167 category exclusions; 6,976 remainder. [Reconciliation, rules and input hashes](../evidence/population-screen/README.md). All 12,040 rows have a reason. Thirty-two category clues need activities review, especially advocacy, which has no dedicated CRA category. No current buyer-eligibility or donor-base qualification is claimed. Geography/form cut remains the next downstream population step; unresolved category clues must be cleared before buyer admission.
