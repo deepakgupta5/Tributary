@@ -2,6 +2,7 @@
 
 Research is retained with its date, scope, sources, conclusions, and limitations.
 
+- [Lapsed-donor tracker idea input, 2026-11-07](DONOR_TRACKER_IDEA_INPUT_2026-11-07.md)
 - [Signal-generator evidence review, 2026-11-05](SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md)
 - [Research source log, 2026-11-05](RESEARCH_SOURCE_LOG_2026-11-05.md)
 - [Source strategy and feasibility](SOURCES.md)
