@@ -19,6 +19,8 @@ The live collection repeat found 0 new accounts and 0 new/changed candidates. Se
 
 The existing zero-additional-cost morning app workflow now includes source reading and structured Python validation. Native Mac registration remains blocked and future scheduled Mac execution is unverified. No later scheduled run is claimed. Outreach remains manual.
 
+Source-review originals use per-command temporary storage, removed at command exit, including Python exceptions and unfinished reviews. A later review re-fetches the permitted source. Persistent state retains hashes, metadata and bounded excerpts only; the PRD retention policy is unchanged.
+
 ## Repository structure
 
 | Path | Purpose |

@@ -161,7 +161,7 @@ class SourceReviewTests(unittest.TestCase):
             self.assertTrue(all('text' in row for row in original['paragraphs'].values()))
             self.assertFalse(any('text' in row for doc in s['source_review']['documents'].values() for row in doc['paragraphs'].values()))
             p=sr.prepare(s,lambda *_:(304,b'',{}),Path(directory))
-            self.assertEqual(Path(p['groups'][0]['original_cache']),cache)
+            self.assertIsNone(p['groups'][0]['original_cache'])  # 304 metadata never revives a full-original cache path
 
     def test_private_feedback_survives_reuse_and_changed_evidence(self):
         from tributary.daily_worklist import Feedback
