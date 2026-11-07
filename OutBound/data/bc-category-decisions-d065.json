@@ -1,0 +1,264 @@
+{
+  "authority_commit": "2cd378e5f38b5c6fde5197d05adfac00fc6d4112",
+  "authority_path": "decisions/DECISIONS.md",
+  "decision": "D065",
+  "decision_date": "2026-11-06",
+  "reviews": [
+    {
+      "category": "0001",
+      "cra_identifier": "118780212RR0001",
+      "legal_name": "ALBERNI VALLEY CITIZEN ADVOCACY SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0001",
+      "cra_identifier": "131516320RR0001",
+      "legal_name": "PLANNED LIFETIME ADVOCACY NETWORK",
+      "reason": "D065: policy advocacy and membership model are core; led the campaign creating the RDSP",
+      "status": "excluded-advocacy",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0001",
+      "cra_identifier": "136223971RR0001",
+      "legal_name": "CHRISTIAN ADVOCACY SOCIETY OF GREATER VANCOUVER",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0180",
+      "cra_identifier": "701950289RR0001",
+      "legal_name": "CAT ADVOCATES TEACHING AND SAVING SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0004"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "708566682RR0001",
+      "legal_name": "THINK CITY EDUCATION SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0001"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "708924097RR0001",
+      "legal_name": "SHER VANCOUVER LGBTQ FRIENDS SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0001"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "725521272RR0001",
+      "legal_name": "CANADIAN ON PAPER SOCIETY FOR IMMIGRANT PHYSICIANS EQUALITY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0003"
+    },
+    {
+      "category": "0100",
+      "cra_identifier": "736612680RR0001",
+      "legal_name": "CHILD AND YOUTH ADVOCACY CENTRE OF KELOWNA SOCIETY",
+      "reason": "D065: child advocacy centre service-delivery model",
+      "status": "retained-service-delivery",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "739855278RR0001",
+      "legal_name": "ROUNDTABLE EDUCATIONAL SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0001"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "740234935RR0001",
+      "legal_name": "Poetic Justice Foundation",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0001"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "740440474RR0002",
+      "legal_name": "HEALTH JUSTICE SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0003"
+    },
+    {
+      "category": "0100",
+      "cra_identifier": "764536553RR0001",
+      "legal_name": "WELLNESS TRUTH FAMILY COUNSELLING AND ADVOCACY FOUNDATION",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0004"
+    },
+    {
+      "category": "0110",
+      "cra_identifier": "768932295RR0001",
+      "legal_name": "MAYDAY YOUTH ADVOCATES FOR DIVERSITY CLUB",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0014"
+    },
+    {
+      "category": "0014",
+      "cra_identifier": "772217469RR0001",
+      "legal_name": "FIRST CALL CHILD AND YOUTH ADVOCACY SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0004"
+    },
+    {
+      "category": "0110",
+      "cra_identifier": "794641118RR0001",
+      "legal_name": "BIG BEAR CHILD AND YOUTH ADVOCACY CENTRE (SOCIETY)",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0180",
+      "cra_identifier": "802374942RR0001",
+      "legal_name": "HUGABULL ADVOCACY AND RESCUE SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0002"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "804989101RR0001",
+      "legal_name": "GIRLKIND FOUNDATION",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0110",
+      "cra_identifier": "809309842RR0001",
+      "legal_name": "TREEHOUSE ADVOCACY CENTRE SOCIETY VANCOUVER",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "815502448RR0001",
+      "legal_name": "WALLENBERG-SUGIHARA CIVIL COURAGE SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0001"
+    },
+    {
+      "category": "0180",
+      "cra_identifier": "834396178RR0001",
+      "legal_name": "ANIMAL ADVOCATES SOCIETY OF BC",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "843225939RR0001",
+      "legal_name": "PEACEGEEKS INTERNATIONAL SOCIETY",
+      "reason": "D065: technology project delivery for peace and humanitarian partners",
+      "status": "retained-service-delivery",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0012",
+      "cra_identifier": "851771774RR0001",
+      "legal_name": "UNIVERSAL JAZZ ADVOCATES AND MENTORS SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0002"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "853176295RR0001",
+      "legal_name": "SUPPORTING WOMEN'S ALTERNATIVES NETWORK (SWAN VANCOUVER) SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0110",
+      "cra_identifier": "854041241RR0001",
+      "legal_name": "OKANAGAN ADVOCACY AND RESOURCE SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0155",
+      "cra_identifier": "860807866RR0001",
+      "legal_name": "INTERNATIONAL INSTITUTE FOR CHILD RIGHTS AND DEVELOPMENT / INSTITUT INTERNATIONAL POUR LES DROITS DES ENFANTS ET LE DEVELOPPEMENT",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0001",
+      "cra_identifier": "866665433RR0001",
+      "legal_name": "THE GRENDEL GROUP (FAMILY ADVOCATES)",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0013"
+    },
+    {
+      "category": "0160",
+      "cra_identifier": "872366067RR0001",
+      "legal_name": "CHILLIWACK RESTORATIVE JUSTICE AND YOUTH ADVOCACY ASSOCIATION",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0160",
+      "cra_identifier": "881883318RR0001",
+      "legal_name": "ABBOTSFORD RESTORATIVE JUSTICE AND ADVOCACY ASSOCIATION",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0180",
+      "cra_identifier": "882481609RR0001",
+      "legal_name": "VANCOUVER RABBIT RESCUE AND ADVOCACY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0003"
+    },
+    {
+      "category": "0160",
+      "cra_identifier": "890673049RR0001",
+      "legal_name": "CREAN COASTAL RESEARCH  EDUCATION  AND ADVOCACY NETWORK SOCIETY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0019"
+    },
+    {
+      "category": "0001",
+      "cra_identifier": "898116462RR0001",
+      "legal_name": "PROVIDING ADVOCACY COUNSELLING & EDUCATION SOCIETY",
+      "reason": "D065: PACE Society provides front-line harm-reduction services; advocacy is a service component. Current operating status remains a downstream gate (closed around 2025; rebuilding toward fall 2026 relaunch)",
+      "status": "retained-service-delivery",
+      "subcategory": "0099"
+    },
+    {
+      "category": "0001",
+      "cra_identifier": "898182340RR0001",
+      "legal_name": "ASSOCIATION ADVOCATING FOR WOMEN AND COMMUNITY",
+      "reason": "D065: out-of-band on size; classification moot for this pilot; held from buyer admission; reopen if a future screen brings this record in-band",
+      "status": "moot-for-pilot",
+      "subcategory": "0099"
+    }
+  ]
+}

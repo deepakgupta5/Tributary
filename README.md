@@ -25,7 +25,7 @@ Source-review originals use per-command temporary storage, removed at command ex
 
 ## BC population screen, Issue #9
 
-[Reconciliation and limits](OutBound/evidence/population-screen/README.md): 12,040 historical records reconcile to 4,167 deterministic category exclusions, 552 retained size-fit, 345 retained enrichment and 6,976 remainder. Historical pre-exclusion 754/414 reproduces exactly. Thirty-two unresolved category clues remain held for activities review. Current eligibility, donor-base and trigger gates are unassessed. No collection or outreach enabled.
+[Reconciliation and limits](OutBound/evidence/population-screen/README.md): 12,040 historical records reconcile to 4,168 category exclusions, 551 retained size-fit, 345 retained enrichment and 6,976 remainder. Historical pre-exclusion 754/414 reproduces exactly. D065 resolves all 32 category clues: PLAN excluded, three service-delivery accounts retained, 28 out-of-band records batch-resolved and held from buyer admission. Pending category reviews: zero. Current eligibility, donor-base and trigger gates are unassessed. No collection or outreach enabled.
 
 ## Repository structure
 

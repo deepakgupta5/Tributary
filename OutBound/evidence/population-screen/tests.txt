@@ -75,7 +75,10 @@ test_live_excerpt_size_is_bounded (test_live_boundary.LiveBoundaryTests.test_liv
 test_live_report_labels_scope_and_does_not_claim_fiction (test_live_boundary.LiveBoundaryTests.test_live_report_labels_scope_and_does_not_claim_fiction) ... ok
 test_scope_must_be_explicit_and_exclusive (test_live_boundary.LiveBoundaryTests.test_scope_must_be_explicit_and_exclusive) ... ok
 test_ambiguous_advocacy_not_silently_excluded (test_population_screen.PopulationScreenTests.test_ambiguous_advocacy_not_silently_excluded) ... ok
+test_changed_identity_reopens_owner_category_decision (test_population_screen.PopulationScreenTests.test_changed_identity_reopens_owner_category_decision) ... ok
 test_committed_outputs_match_and_repeat_bytes (test_population_screen.PopulationScreenTests.test_committed_outputs_match_and_repeat_bytes) ... ok
+test_d065_dispositions_and_correct_plan_identity (test_population_screen.PopulationScreenTests.test_d065_dispositions_and_correct_plan_identity) ... ok
+test_d065_moot_record_reopens_on_size_fit_or_enrichment (test_population_screen.PopulationScreenTests.test_d065_moot_record_reopens_on_size_fit_or_enrichment) ... ok
 test_duplicate_missing_and_disagreeing_join_fail (test_population_screen.PopulationScreenTests.test_duplicate_missing_and_disagreeing_join_fail) ... ok
 test_hospital_foundation_and_education_exceptions (test_population_screen.PopulationScreenTests.test_hospital_foundation_and_education_exceptions) ... ok
 test_population_conservation_and_historical_reproduction (test_population_screen.PopulationScreenTests.test_population_conservation_and_historical_reproduction) ... ok
@@ -135,7 +138,7 @@ test_existing_live_accounts_are_visible_with_separate_states (test_worklist.Work
 test_markdown_is_compact_default_and_keeps_uncertainty_visible (test_worklist.WorklistTests.test_markdown_is_compact_default_and_keeps_uncertainty_visible) ... ok
 
 ----------------------------------------------------------------------
-Ran 135 tests in 19.730s
+Ran 138 tests in 6.854s
 
 OK
 {"accounts": 34, "dated_accounts": 23, "day2_new_candidates": 31, "day3_discoveries": 0, "events": 23, "items": 35, "known_items": 4, "manual": 2, "new_candidates": 31, "registry_only": 11}

@@ -2,16 +2,27 @@
   "category_code_pdf_sha256": "3572ee7455a6465430f5b05ad2ba7b2f4d2e72696a370b4256dc392303f5a995",
   "category_code_section": "2.3, category/subcategory codes; no generic advocacy category",
   "identification_archive_byte_match": true,
+  "owner_activities_review": {
+    "authority_commit": "2cd378e5f38b5c6fde5197d05adfac00fc6d4112",
+    "correct_plan_identifier": "131516320RR0001",
+    "decision": "D065",
+    "decision_packet_sha256": "c49b0619ad04582bac98087a494a90c13c8876f0b0813e09fb9636536d3ec8b8",
+    "excluded": 1,
+    "moot_for_pilot_held": 28,
+    "pending": 0,
+    "retained_service_delivery": 3,
+    "reviewed_records": 32
+  },
   "repeat_verification": "test_committed_outputs_match_and_repeat_bytes reruns the CLI and compares SHA-256 of all generated TSV/report/summary files",
   "sha256": {
-    "OutBound/data/screened/bc-category-review-2024.tsv": "cab90609320625b263103189f684d859c699f07ca54b54b33c049fb7b9bca8a8",
-    "OutBound/data/screened/bc-enrichment-2024.tsv": "0400cba54e71eb8ed780b98fab5a9d624656ea76ce230de98e58f614fe34c491",
-    "OutBound/data/screened/bc-population-2024.tsv": "00041a095494892e80fc5f903d5c83aecd16f5493458dada7d32b6b34394e6a7",
-    "OutBound/data/screened/bc-size-fit-2024.tsv": "d6f02366e1d94053ff4f5bd28f8383819736594a13fb0b5630872a64f845f668",
-    "OutBound/evidence/population-screen/README.md": "c2c08a8d0ed94528a0e45754383f1d4b931c6c2ad409f71617a8fc540149c6d3",
-    "OutBound/evidence/population-screen/reconciliation.json": "f96b7bf4127dfd0e50ac84046db72d5d2bb26d7a6f37eae1428926f66d5128c6"
+    "OutBound/data/screened/bc-category-review-2024.tsv": "dd157ea4000a85f5191eb57a8d5af6d7b4427ca4508b909c4e76fd8c07506f6c",
+    "OutBound/data/screened/bc-enrichment-2024.tsv": "07b1151910ae06f9219127ecd3649d15c1d58d200b5bd707a61025af953e8568",
+    "OutBound/data/screened/bc-population-2024.tsv": "b2e0cad723563d40a4d634ef602072957c3f6db906ae2c1ae07b7c9573a5bdea",
+    "OutBound/data/screened/bc-size-fit-2024.tsv": "22bce0971962643f5e8ff13edd7205a0b0dbbdb106a2ca7de5b70fa227d74a51",
+    "OutBound/evidence/population-screen/README.md": "2f0f21c3f069103ae36b58ebf5c55acb5ea4db9f654c75b5d2ade4f64deb3ba0",
+    "OutBound/evidence/population-screen/reconciliation.json": "e113f4340f75e19d3028af9d5bc13d1e94e29c3b04c5b2ab414417421bed325a"
   },
   "source_archive": "BC-nonprofit-screen-12040.zip",
   "source_archive_sha256": "7f2d20ad0c8813456f6e86bb796826c76eee54b5e09d9ef771713e808fead4e4",
-  "tests_passed": 135
+  "tests_passed": 138
 }

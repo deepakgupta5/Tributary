@@ -47,6 +47,29 @@ def category(row):
         return 'advocacy-groups', 'Literal ADVOCACY GROUP in registered legal name; no general CRA advocacy category'
     return '', 'No deterministic D062 exclusion established' + ('; hospital foundation protected' if protected else '')
 
+def load_category_decisions():
+    """Load the exact owner-reviewed records, not a generalized category rule."""
+    path = Path(__file__).resolve().parents[1] / 'OutBound/data/bc-category-decisions-d065.json'
+    packet = json.loads(path.read_text())
+    decisions = {r['cra_identifier']: r for r in packet['reviews']}
+    if packet['decision'] != 'D065' or len(decisions) != len(packet['reviews']):
+        raise ValueError('Invalid D065 decision packet')
+    return decisions
+
+
+def apply_category_decision(row, historical, excluded, reason, decisions):
+    review = decisions.get(row['CRA identifier'])
+    if review is None:
+        return excluded, reason, None
+    if any(row[field] != review[key] for field, key in [('Legal name','legal_name'),('Category','category'),('Subcategory','subcategory')]):
+        return excluded, reason, dict(status='reopened', reason='Identity/category evidence differs from the D065 reviewed record')
+    if review['status'] == 'moot-for-pilot' and historical != 'out-of-band':
+        return excluded, reason, dict(status='reopened', reason='D065 requires fresh activities review when a formerly out-of-band record enters size-fit or enrichment')
+    if review['status'] == 'excluded-advocacy':
+        excluded, reason = 'advocacy-groups', review['reason']
+    return excluded, reason, review
+
+
 def screen(identification, filings):
     reader = csv.DictReader(io.StringIO(identification.decode().split('\n', 1)[1]), delimiter='\t')
     ids = list(reader)
@@ -56,6 +79,7 @@ def screen(identification, filings):
         raise ValueError('Duplicate CRA identifiers')
     if set(indexed) != {r['CRA identifier'] for r in ids}:
         raise ValueError('Identification / filing join is not one-to-one and complete')
+    decisions = load_category_decisions()
     result = []
     historic = Counter()
     for ident in ids:
@@ -68,22 +92,32 @@ def screen(identification, filings):
         historical = 'size-fit' if rev == staff == 'in band' else 'enrichment' if rev == 'in band' and staff == 'unknown' else 'out-of-band'
         historic[historical] += 1
         excluded, cat_reason = category(ident)
+        excluded, cat_reason, review = apply_category_decision(ident, historical, excluded, cat_reason, decisions)
         disposition = 'excluded-category' if excluded else historical
         reason = cat_reason if excluded else ('Revenue and summed staffing proxy in band' if historical == 'size-fit' else 'Revenue in band; at least one staffing component missing' if historical == 'enrichment' else 'Revenue missing/outside band or complete staffing proxy outside band')
         name = ident['Legal name'].upper()
         ambiguity = not excluded and (bool(re.search(r'ADVOC', name)) or ident['Category'] == '0155')
+        review_status = review['status'] if review else 'pending' if ambiguity else 'not-required'
+        review_required = review_status in {'pending', 'reopened'}
+        review_reason = review['reason'] if review else 'Advocacy purpose cannot be determined from a legal-name clue or broad human-rights category; inspect activities before buyer admission' if ambiguity else ''
+        held = review_required or review_status == 'moot-for-pilot' or bool(excluded)
+        if review and not excluded:
+            reason += '; ' + review_reason
         result.append(dict(ident, **{k: filing[k] for k in ['Period end', 'Revenue CAD', 'Permanent full-time positions', 'Part-time/part-year employees']}, **{
             'Currency': 'CAD', 'Staff measurement': 'sum of permanent full-time positions and part-time/part-year employees; historical proxy, not point-in-time headcount or FTE',
             'Historical size disposition': historical, 'Disposition': disposition, 'Reason': reason,
             'Excluded category': excluded, 'Category evidence': cat_reason,
-            'Category review required': 'yes' if ambiguity else 'no',
-            'Category review reason': 'Advocacy purpose cannot be determined from a legal-name clue or broad human-rights category; inspect activities before buyer admission' if ambiguity else '',
+            'Category review required': 'yes' if review_required else 'no',
+            'Category review status': review_status, 'Category decision': 'D065' if review else '',
+            'Category decision authority': 'decisions/DECISIONS.md at 2cd378e5f38b5c6fde5197d05adfac00fc6d4112' if review else '',
+            'Buyer admission held': 'yes' if held else 'no',
+            'Category review reason': review_reason,
             'Current eligibility': 'unchecked', 'Donor-base gate': 'unassessed', 'Live trigger': 'unassessed', 'Collection enabled': 'no', 'Outreach enabled': 'no'}))
     result.sort(key=lambda r: r['CRA identifier'])
     counts = Counter(r['Disposition'] for r in result)
     excluded = Counter(r['Excluded category'] for r in result if r['Excluded category'])
     removed = {k: sum(r['Disposition'] == 'excluded-category' and r['Historical size disposition'] == k for r in result) for k in ['size-fit', 'enrichment', 'out-of-band']}
-    summary = dict(input_rows=len(ids), unique_identifiers=len(indexed), dispositions=dict(sorted(counts.items())), exclusions={k: excluded[k] for k in ['religious-organizations','hospitals','universities','advocacy-groups']}, historical=dict(sorted(historic.items())), removed_by_historical_disposition=removed, category_review_required=sum(r['Category review required']=='yes' for r in result), historical_gate_reproduced=historic['size-fit']==754 and historic['enrichment']==414,
+    summary = dict(input_rows=len(ids), unique_identifiers=len(indexed), dispositions=dict(sorted(counts.items())), exclusions={k: excluded[k] for k in ['religious-organizations','hospitals','universities','advocacy-groups']}, historical=dict(sorted(historic.items())), removed_by_historical_disposition=removed, category_review_required=sum(r['Category review required']=='yes' for r in result), category_review_dispositions=dict(sorted(Counter(r['Category review status'] for r in result if r['Category review status'] != 'not-required').items())), historical_gate_reproduced=historic['size-fit']==754 and historic['enrichment']==414,
         input_sha256={'identification':hashlib.sha256(identification).hexdigest(), 'filings':hashlib.sha256(filings).hexdigest()}, category_code_source=CODE_SOURCE)
     assert sum(counts.values()) == len(ids)
     return result, summary
@@ -92,7 +126,7 @@ def render(summary):
     c=summary['dispositions']; e=summary['exclusions']; h=summary['historical']
     lines=['# BC historical population reconciliation', '', 'Issue #9. Offline screen of archived CRA 2024 data. No collection or outreach enabled.', '', '| Disjoint result | Records |', '| --- | ---: |', f"| Input | {summary['input_rows']:,} |"]
     lines += [f'| Excluded: {key} | {n:,} |' for key,n in e.items()]
-    lines += [f"| Retained size-fit | {c.get('size-fit',0):,} |", f"| Retained enrichment | {c.get('enrichment',0):,} |", f"| Remaining out-of-band / missing revenue | {c.get('out-of-band',0):,} |", f"| Reconciled total | {sum(c.values()):,} |", '', f"Historical pre-exclusion gates: **{h.get('size-fit',0)} size-fit and {h.get('enrichment',0)} enrichment**, exactly reproducing 754/414. Category-first gates differ because D062 now removes {summary['removed_by_historical_disposition']['size-fit']} historical size-fit and {summary['removed_by_historical_disposition']['enrichment']} enrichment records. The historical numbers are not overwritten.", '', '## Rules and limits', '', '- Revenue band: CAD 1,000,000 through 5,000,000 inclusive. Staff proxy: permanent full-time positions plus part-time/part-year employees, 10 through 50 inclusive. A blank component remains unknown, never zero. This reproduces every saved band label.', '- Category exclusions precede size disposition. Religion: CRA categories 0030–0090. Hospitals: 0100/0006, except a separately named hospital foundation. Universities: teaching institutions 0010 with subcategory 0015 or literal UNIVERSITY in the legal name, excluding school/daycare/foundation names. Colleges are not automatically excluded. Advocacy: literal ADVOCACY GROUP in the legal name.', f"- **{summary['category_review_required']} unresolved category clues** remain explicitly marked in the dataset and category-review subset. CRA has no general advocacy-group category. Advocacy in a service-provider name and a human-rights purpose alone do not establish an advocacy-group buyer. Those rows are held from buyer admission pending activities review. Organizations without such clues can still be misclassified; this is a deterministic historical screen, not a completed current-eligibility review.", '- Hospital auxiliaries and hospital foundations are not treated as hospital operators merely because HOSPITAL appears in their name. Religious-category foundations remain excluded as religious organizations.', '- The recovered financial/staff file is a saved derivative, not newly fetched filings. It joins one-to-one on all 12,040 CRA IDs and matches the archived identification fields. Raw CRA financial/compensation rows are not in this archive, so the original derivative values cannot be independently audited from this input alone.', '- These are historical size candidates. Current registry status, latest size, donor-base materiality, geography/form split and live triggers remain separate downstream gates. No account is qualified for outreach by this screen.', '', '## Reproduce', '', '```sh', 'python3 -m tributary.population_screen', 'python3 -m unittest discover -s tests -v', '```', '', f"Category definitions: [CRA 2024 code list]({CODE_SOURCE}), section 2.3 (category/subcategory). Input hashes and machine counts: [reconciliation.json](reconciliation.json). All rows: [bc-population-2024.tsv](../../data/screened/bc-population-2024.tsv).", '']
+    lines += [f"| Retained size-fit | {c.get('size-fit',0):,} |", f"| Retained enrichment | {c.get('enrichment',0):,} |", f"| Remaining out-of-band / missing revenue | {c.get('out-of-band',0):,} |", f"| Reconciled total | {sum(c.values()):,} |", '', f"Historical pre-exclusion gates: **{h.get('size-fit',0)} size-fit and {h.get('enrichment',0)} enrichment**, exactly reproducing 754/414. Category-first gates differ because D062 and the D065 activities decision remove {summary['removed_by_historical_disposition']['size-fit']} historical size-fit and {summary['removed_by_historical_disposition']['enrichment']} enrichment records. The historical numbers are not overwritten.", '', '## Rules and limits', '', '- Revenue band: CAD 1,000,000 through 5,000,000 inclusive. Staff proxy: permanent full-time positions plus part-time/part-year employees, 10 through 50 inclusive. A blank component remains unknown, never zero. This reproduces every saved band label.', '- Category exclusions precede size disposition. Religion: CRA categories 0030–0090. Hospitals: 0100/0006, except a separately named hospital foundation. Universities: teaching institutions 0010 with subcategory 0015 or literal UNIVERSITY in the legal name, excluding school/daycare/foundation names. Colleges are not automatically excluded. Advocacy: literal ADVOCACY GROUP in the legal name plus the exact-ID D065 exclusion for PLAN.', f"- **D065 applies all 32 owner activities-review dispositions**: {summary['category_review_dispositions'].get('excluded-advocacy',0)} excluded (PLAN, 131516320RR0001), {summary['category_review_dispositions'].get('retained-service-delivery',0)} retained as service delivery (PACE, CYAC Kelowna, PeaceGeeks), {summary['category_review_dispositions'].get('moot-for-pilot',0)} out-of-band records batch-resolved as moot for the pilot and held from buyer admission. Pending/reopened category reviews: **{summary['category_review_required']}**. Moot classifications reopen if a future screen moves the record in-band; changed identity/category evidence also reopens review. The category-review subset retains all reviewed rows as an audit, not just pending rows. [Owner authority D065](../../../decisions/DECISIONS.md) and [exact-ID decisions](../../data/bc-category-decisions-d065.json). This does not establish current eligibility. PACE operating status remains a downstream gate.", '- Hospital auxiliaries and hospital foundations are not treated as hospital operators merely because HOSPITAL appears in their name. Religious-category foundations remain excluded as religious organizations.', '- The recovered financial/staff file is a saved derivative, not newly fetched filings. It joins one-to-one on all 12,040 CRA IDs and matches the archived identification fields. Raw CRA financial/compensation rows are not in this archive, so the original derivative values cannot be independently audited from this input alone.', '- These are historical size candidates. Current registry status, latest size, donor-base materiality, geography/form split and live triggers remain separate downstream gates. No account is qualified for outreach by this screen.', '', '## Reproduce', '', '```sh', 'python3 -m tributary.population_screen', 'python3 -m unittest discover -s tests -v', '```', '', f"Category definitions: [CRA 2024 code list]({CODE_SOURCE}), section 2.3 (category/subcategory). Input hashes and machine counts: [reconciliation.json](reconciliation.json). All rows: [bc-population-2024.tsv](../../data/screened/bc-population-2024.tsv).", '']
     return '\n'.join(lines)
 
 def main():
@@ -101,7 +135,7 @@ def main():
     args=parser.parse_args(); root=args.root
     rows,summary=screen((root/'OutBound/data/archive/BC-charity-candidates-2024.txt').read_bytes(),(root/'OutBound/data/archive/BC-size-screen-2024.txt').read_bytes())
     out=root/'OutBound/data/screened'; out.mkdir(parents=True,exist_ok=True)
-    for name,subset in [('bc-population-2024.tsv',rows),('bc-size-fit-2024.tsv',[r for r in rows if r['Disposition']=='size-fit']),('bc-enrichment-2024.tsv',[r for r in rows if r['Disposition']=='enrichment']),('bc-category-review-2024.tsv',[r for r in rows if r['Category review required']=='yes'])]:
+    for name,subset in [('bc-population-2024.tsv',rows),('bc-size-fit-2024.tsv',[r for r in rows if r['Disposition']=='size-fit']),('bc-enrichment-2024.tsv',[r for r in rows if r['Disposition']=='enrichment']),('bc-category-review-2024.tsv',[r for r in rows if r['Category review status'] != 'not-required'])]:
         with (out/name).open('w',newline='') as f:
             writer=csv.DictWriter(f,fieldnames=list(rows[0]),delimiter='\t',lineterminator='\n');writer.writeheader();writer.writerows(subset)
     evidence=root/'OutBound/evidence/population-screen';evidence.mkdir(parents=True,exist_ok=True)
