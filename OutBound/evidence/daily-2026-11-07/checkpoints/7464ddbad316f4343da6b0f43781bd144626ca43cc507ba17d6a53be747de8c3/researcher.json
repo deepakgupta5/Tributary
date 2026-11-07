@@ -1,0 +1,98 @@
+{
+  "executed_at": "2026-11-07T16:28:24.056714+00:00",
+  "execution_id": "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+  "outputs": {
+    "signal-049ff472a878ca7ea0488757": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "d411b554f78d1edf4e42df0e0efa7a111d858787a19137940918469e81bf2a91",
+      "document_version": "919a92a28f00389eac65845480706f6edd5612127d1be88d75b6acc6475479f4",
+      "reason": "Food Lifeline reports USD703,137 raised in Food Frenzy 2026, exceeding its prior-year fundraising total, with 64 participating companies, 2,802 volunteer hours and 4,964 food items donated. Period and comparison limits: Food Frenzy 2026; page published 7 August 2026 and modified 24 August 2026; Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures.",
+      "result": "pass",
+      "source": "https://foodlifeline.org/article/food-frenzy-2026-results"
+    },
+    "signal-05cb7c7fb182aa89f8d18520": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225",
+      "document_version": "1542764672bb8dcf312b3fe6e8ab491f70ce3eed83bd51bc02581bcf5a5d6a78",
+      "reason": "In December 2025, Surrey Food Bank described rising monthly visits and fundraising that was just sufficient, while reporting greater food availability and twice the food distributed at the comparable point in 2024. Period and comparison limits: 25 December 2025 reporting; comparison with the same point in 2024; Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate.",
+      "result": "pass",
+      "source": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+    },
+    "signal-5eff20a2203c656f9bb5c616": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "reason": "Clark County Food Bank reports losing nine AmeriCorps team members and a 56 percent increase in clients during a SNAP disruption, alongside expanded food distribution and a 732 percent rise in volunteer inquiries. Period and comparison limits: Page published 20 March 2026, modified 9 July 2026; precise disruption/comparison interval unspecified; Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity.",
+      "result": "pass",
+      "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    "signal-606f8881901d692f838825a8": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d",
+      "document_version": "816f303aead42fa0e249f7f7cdd8b9fad712d74b944de2e01676939764de9fb8",
+      "reason": "The FamilyWorks giving profile displays USD32,007 from 75 donors against a USD40,000 goal and thanks matching partners. It also describes a nearly 40 percent increase in households served last year. Period and comparison limits: Undated profile; campaign window and last-year reference period unspecified; USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure.",
+      "result": "hold",
+      "source": "https://www.wagives.org/organization/Familyworksseattle"
+    },
+    "signal-6e9ef48a6633133f4c83bdca": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983",
+      "document_version": "1eda19734934289957488abeaf8ac999c61bfaa49a4e1f51c8b0a69a8b19a436",
+      "reason": "Clark County Food Bank announced an internal appointment to Vice President of Operations and credited that leader with improving processes, technology and collaboration in response to rising demand. Period and comparison limits: Published 20 March 2026 and modified 9 July 2026; appointment effective date unspecified; No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement.",
+      "result": "pass",
+      "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+    },
+    "signal-82ce9ff52cb9b7c94898de91": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6",
+      "document_version": "047d7ebb3e41b7148cba2f0127bacd84ae23dc417439e3d5239f0e7d0af44912",
+      "reason": "On 11 June 2026, Surrey Food Bank said donations were keeping up with demand while preparing a joint summer appeal for an anticipated increase after school food programs ended. Period and comparison limits: 11 June 2026, prospective summer 2026 concern; No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits.",
+      "result": "pass",
+      "source": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+    },
+    "signal-bc6d441f41e791b2b95e57c2": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "reason": "Clark County Food Bank reports nearly USD900,000 in government funding lost, while donor support rose 132 percent compared with the same time the preceding year. Period and comparison limits: Published 20 March 2026, modified 9 July 2026; loss interval and financial year not specified; Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap.",
+      "result": "pass",
+      "source": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    "signal-d084a003a8fc3894d6731788": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "3ab6fb23b3ae78b6806ade506e3ef48f0bfa9c264d0f5f6093316d69068cf0df",
+      "document_version": "5793fcb66f2bf6f9a774f0402ef74f803666d0b00ecbca66653ac388ad216139",
+      "reason": "Surrey Food Bank has an Executive Director search with a stated 8 November 2026 application deadline. The brief assigns fundraising and distribution leadership to the incoming role and describes the organization as well positioned. Period and comparison limits: Posting published 12 October 2026; closing 8 November 2026. Annual financial/distribution totals in the copy lack a stated fiscal period.; Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck.",
+      "result": "pass",
+      "source": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+    },
+    "signal-e30d24146a3d0e4d851f7181": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "reason": "Food Lifeline reports more than USD400,000 raised at its 18 September Dress Down Hunger gala and nearly USD50,000 for Hunger Action Month, including a USD25,000 match. Period and comparison limits: September 2026 campaign context; page metadata says 20 October 2026, but another passage retrospectively describes 29 October, an unresolved page chronology inconsistency; Separate gala and month figures are not summed; no target or prior-year gala result is supplied.",
+      "result": "pass",
+      "source": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    "signal-e9eb4b0e748f8cc244e0a9a8": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "reason": "The matched term Down occurs in the gala name Dress Down Hunger; the sentence reports more than USD400,000 raised rather than declining fundraising. Period and comparison limits: 18 September 2026 gala in October 2026 page context; page chronology limitation recorded separately; No declining donor count, revenue comparison, target miss or shortfall is stated.",
+      "result": "pass",
+      "source": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    "signal-fd575c91233a256a8e898589": {
+      "actor": "Codex included desktop assistant, shared-session researcher",
+      "candidate_version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac",
+      "document_version": "d58512676f86c123ea7aa78a07bf4cabdf168bca554b0b9374fad397694f0c96",
+      "reason": "Good Business Network of Washington, formerly Seattle Good Business Network, attributes increasing demand and public funding cuts to its fundraising need. The profile also reports USD526,894 directed to independent businesses in 2025. Period and comparison limits: Undated profile; 2025 program results are explicit, but the funding-cut period is not; No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied.",
+      "result": "hold",
+      "source": "https://www.wagives.org/organization/goodbusinessnetwork"
+    }
+  },
+  "packet_hash": "f717a6b121ebe060c363dcf2fa2df514ed141a6b0a12abcdc48f138938d67b78",
+  "packet_id": "7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3",
+  "predecessor": "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+  "stage": "researcher"
+}

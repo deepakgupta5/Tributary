@@ -1,0 +1,57 @@
+{
+  "signal-049ff472a878ca7ea0488757": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Food Lifeline reports USD703,137 raised in Food Frenzy 2026, exceeding its prior-year fundraising total, with 64 participating companies, 2,802 volunteer hours and 4,964 food items donated. Period and comparison limits: Food Frenzy 2026; page published 7 August 2026 and modified 24 August 2026; Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures.",
+    "result": "pass"
+  },
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "In December 2025, Surrey Food Bank described rising monthly visits and fundraising that was just sufficient, while reporting greater food availability and twice the food distributed at the comparable point in 2024. Period and comparison limits: 25 December 2025 reporting; comparison with the same point in 2024; Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Clark County Food Bank reports losing nine AmeriCorps team members and a 56 percent increase in clients during a SNAP disruption, alongside expanded food distribution and a 732 percent rise in volunteer inquiries. Period and comparison limits: Page published 20 March 2026, modified 9 July 2026; precise disruption/comparison interval unspecified; Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "The FamilyWorks giving profile displays USD32,007 from 75 donors against a USD40,000 goal and thanks matching partners. It also describes a nearly 40 percent increase in households served last year. Period and comparison limits: Undated profile; campaign window and last-year reference period unspecified; USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure.",
+    "result": "hold"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Clark County Food Bank announced an internal appointment to Vice President of Operations and credited that leader with improving processes, technology and collaboration in response to rising demand. Period and comparison limits: Published 20 March 2026 and modified 9 July 2026; appointment effective date unspecified; No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "On 11 June 2026, Surrey Food Bank said donations were keeping up with demand while preparing a joint summer appeal for an anticipated increase after school food programs ended. Period and comparison limits: 11 June 2026, prospective summer 2026 concern; No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Clark County Food Bank reports nearly USD900,000 in government funding lost, while donor support rose 132 percent compared with the same time the preceding year. Period and comparison limits: Published 20 March 2026, modified 9 July 2026; loss interval and financial year not specified; Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap.",
+    "result": "pass"
+  },
+  "signal-d084a003a8fc3894d6731788": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Surrey Food Bank has an Executive Director search with a stated 8 November 2026 application deadline. The brief assigns fundraising and distribution leadership to the incoming role and describes the organization as well positioned. Period and comparison limits: Posting published 12 October 2026; closing 8 November 2026. Annual financial/distribution totals in the copy lack a stated fiscal period.; Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Food Lifeline reports more than USD400,000 raised at its 18 September Dress Down Hunger gala and nearly USD50,000 for Hunger Action Month, including a USD25,000 match. Period and comparison limits: September 2026 campaign context; page metadata says 20 October 2026, but another passage retrospectively describes 29 October, an unresolved page chronology inconsistency; Separate gala and month figures are not summed; no target or prior-year gala result is supplied.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "The matched term Down occurs in the gala name Dress Down Hunger; the sentence reports more than USD400,000 raised rather than declining fundraising. Period and comparison limits: 18 September 2026 gala in October 2026 page context; page chronology limitation recorded separately; No declining donor count, revenue comparison, target miss or shortfall is stated.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex included desktop assistant, shared-session researcher",
+    "reason": "Good Business Network of Washington, formerly Seattle Good Business Network, attributes increasing demand and public funding cuts to its fundraising need. The profile also reports USD526,894 directed to independent businesses in 2025. Period and comparison limits: Undated profile; 2025 program results are explicit, but the funding-cut period is not; No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied.",
+    "result": "hold"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "artifact_sha256": {
+    "checkpoints/7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3/fact_checker.json": "730ed77af18bfd9541e3f6329bc14d539c40ce9bcd8031b9ef5c4245b52d3107",
+    "checkpoints/7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3/qc.json": "0e1d1e53487d48faf858df2058be2382bb280087f72887cb1c47bf65a72a2f95",
+    "checkpoints/7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3/researcher.json": "63a338c8330b30ce80104d6eb236de610a8ce56ecc4c1f5c18802aad4816f77c",
+    "checkpoints/7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3/skeptic.json": "18a90f0a4251c14b2fecf3f017f3cd294b37b4445d8b2574e9a125b738719d5c",
+    "desktop-fact-checker-responses.json": "7cb27d062087fd4cc6a93c8a059de2b0e215d3d6e58a5e160fbdebbbdc23e1fa",
+    "desktop-qc-responses.json": "e8ae33e57b0d954862b40e58777795b69e32600724864b96e795493ee97921a1",
+    "desktop-researcher-responses.json": "405420c661d7c329ec214b5fc8f5a59416c3b3c9a8bb0cac2825904be594f541",
+    "desktop-skeptic-responses.json": "3f9dd3bbe738e65149362bae34fc989f9d3240ae069c88e5d720cd4d3cf1468c",
+    "desktop-verdicts.json": "5f834c3c54f82b093f4116a223b8ebcc4fb8dff717edcb1d8f4844ba938e7acd",
+    "dispositions.md": "1c0b1f91de895b2510518d96ec079a59e62366e2106f04925fa6365b4c2c8b9c",
+    "research-queue.json": "62d88afd1af6efa933702127ff6fd2afab2752218c2f61e8c876e91f389fae03",
+    "run.json": "943d36fb2079b0f81a3f04b14b5852cde414a25b8aa1a5b0de6b83c8b37b9973",
+    "source-review-request.json": "d661c69a2a1ef82d3a10314fb052788c73c7c0c567b40b5b09e98c9a3c2537c8",
+    "worklist.json": "751f4dc6e97534980008b9d22a1e294b071ea2b37e82e519a058b1908263b325",
+    "worklist.md": "b55f55edb86b351a6586d45affbcc15de883c78c5055d5d224891dc631849e6d"
+  },
+  "changed_signal_candidates": 0,
+  "collection_date": "2026-11-07",
+  "execution": "manual recovery invoking --scheduled; not a successful unattended scheduler execution",
+  "new_accounts": 0,
+  "new_signal_candidates": 0,
+  "operating_checkout_commit": "81b6798",
+  "original_reading": "Re-fetched each grouped original with permitted Network handling, compared document version and paragraph hashes, read source content before verdicts. One profile was retrieved again to recover tool-truncated output. No full-original files were recreated.",
+  "owner_counts": {
+    "outstanding_research": 6,
+    "owner_attention_accounts": 0,
+    "reviewed_flags": 11,
+    "source_checks_outstanding": 4,
+    "unfinished_or_research_flags": 2,
+    "unsupported_or_contradicted_flags": 3
+  },
+  "persistent_documents_have_no_full_text": true,
+  "private_feedback_hash_unchanged": true,
+  "recovered_at": "2026-11-07T16:30:02.641824+00:00",
+  "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+  "reviewer_context": "Same included desktop assistant; sequential QC/researcher/skeptic/fact-checker executions share context and are not independent reviewers.",
+  "same_day_guard": "second --scheduled invocation skipped as expected",
+  "scheduler_attempt": {
+    "delivery_status": "unknown",
+    "recorded_status": "failed",
+    "technical_cause": "Not exposed in automation diagnostics"
+  },
+  "separate_checkpoint_executions": 4,
+  "source_cache_paths_expired": true,
+  "verdict_dispositions": {
+    "contradicted": 1,
+    "research_required": 2,
+    "supported_context": 6,
+    "unsupported": 2
+  }
+}

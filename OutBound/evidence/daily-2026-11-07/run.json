@@ -1,0 +1,634 @@
+{
+  "attempts": [
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "80c1e9d1212ee36a68b3e4e1216da2932cb2cff5fd80e273855621589686c3e5",
+      "source": "account-07807de1222d",
+      "url": "https://charitybreakdown.ca/charity/guru-nanak-modi-khana-food-bank-society",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "account-09dfbecfbbe0",
+      "url": "https://eathappynow.org/donation",
+      "validators": {
+        "etag": "\"213627658c8af4d40ac1f0c3b29fbca65d4de95f853317e6220773bd9cf2484f\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "316ce312355c91d77de7a7eeb5d70eb85a511d547c5929d7b645a5351b8226d3",
+      "source": "account-0f24007bc328",
+      "url": "https://projects.propublica.org/nonprofits/organizations/911122115",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "7bf2f895010ceabe8ef055df2d60b755a04f1dc31d39fbfac106dcc899a86f0a",
+      "source": "account-213b80d97f47",
+      "url": "https://www.wagives.org/organization/youngwomenempowered",
+      "validators": {
+        "etag": "W/\"3740b-6goAHWobwL6/wfy6OUxCP9lqul8\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 2,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "2857cd454a3d6b81b178b754154c584e32ac02d1298ee6e66271826a1308d6ee",
+      "source": "account-2d05d1c736dc",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth",
+      "validators": {
+        "etag": "W/\"85879b408a6a87a9ae8cb7a99f49a388\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "account-2eee00c325ff",
+      "url": "https://www.ima-usa.org/",
+      "validators": {
+        "etag": "W/\"6e133e662c7b075c74ce4241284625a7\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "ed6b07f3df58fb000e14af49e471ba217f92f3ca02d54954391ac0dfb63d6b10",
+      "source": "account-31d3726907ee",
+      "url": "https://www.caccwa.org/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "22ed90f1b4294827078aa4c7a7bf494afa4005653ec70a4bd12e4cee58ce0672",
+      "source": "account-326172cd2b7c",
+      "url": "https://www.wagives.org/organization/City-Fruit",
+      "validators": {
+        "etag": "W/\"3a70d-wjxq/1f9LOSt8Om8g3gNO6QgXvY\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "71c0c2ad98a8662e789c921bbe4a9cc1e3eb0318a712911986716f0cb48546e5",
+      "source": "account-328f85a4ab43",
+      "url": "https://www.wagives.org/organization/VillaComunitaria",
+      "validators": {
+        "etag": "W/\"357c4-xsxIRNaSiTmTbZe3wvpK1g/x/no\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "9db84893548b550615853980dcece34a411da959013f71590346dc167cb5eaa9",
+      "source": "account-382350e58ec7",
+      "url": "https://www.wagives.org/organization/ACHD",
+      "validators": {
+        "etag": "W/\"3c1cf-IgmsVklCIlMcoTRH0JRmNBX/QWA\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "36f833560759c692be88c0bba96897208679e47a29e825b04f59b2b81dde3579",
+      "source": "account-45dc1cc5c2f9",
+      "url": "https://www.wagives.org/organization/feest",
+      "validators": {
+        "etag": "W/\"3d1d7-EK6ehhhxd2m75n/k8VjQMaF/TXo\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "5116d0863d1c9d48a951103990d1f6b88682d70ff5f37b3bd6ecb94d9e68192a",
+      "source": "account-4659acaad3a9",
+      "url": "https://www.compasshousingalliance.org/2026/02/2025-a-year-of-extraordinary-philanthropic-impact/",
+      "validators": {
+        "last-modified": "Sat, 07 Nov 2026 16:24:03 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "fdd9c38b8aaf61898f8bae85b4e4c2562d02cd25d6ba89ad1a4b30b664fa2878",
+      "source": "account-47589d60e104",
+      "url": "https://charityintelligence.ca/charity-details/1126-food-banks-bc",
+      "validators": {
+        "last-modified": "Sat, 07 Nov 2026 16:24:02 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "252ff76570ec5590dc1e6566abf9776b8ca68b43027ceb1e9e80dbad561dfd7e",
+      "source": "account-57b30fb9ff7e",
+      "url": "https://www.bellwetherhousing.org/funding",
+      "validators": {
+        "etag": "W/\"0e567dea842556776533e21f7a15f4ea\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "1d5c53ad7b313cb1668f12ba75610a3a843970c23a5f201cb94d3d0fca91dbaa",
+      "source": "account-63fbe418beab",
+      "url": "https://ecseattle.org/careers/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "07c28574dfa48929252563eaed406d49f59a8e65fef4c57ab71eca5cd54f3088",
+      "source": "account-656a4b6b8f66",
+      "url": "https://projects.propublica.org/nonprofits/organizations/237421892",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "2844c54f89543ab10c0ceee2ec9549af1b0f51f5c93e47009f5a4a8bef29e11a",
+      "source": "account-67afaf591e11",
+      "url": "https://www.wagives.org/organization/ballardfoodbank",
+      "validators": {
+        "etag": "W/\"3bcb2-HM2bM+BidEFAW8SyW3elEc6AX6I\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "96676ed27efee7b0661486014d188982b836f60b9cffc1e97020601985dc6df3",
+      "source": "account-71879adb07f8",
+      "url": "https://www.wagives.org/organization/Mother-Africa",
+      "validators": {
+        "etag": "W/\"3808a-UZbtyRwZNp3xjmLvVjUx7s9hmIg\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "362a5ca64148990ef30035923f5b3b64628c7f639b3322b9105c7c126c1f47de",
+      "source": "account-7c70669bf453",
+      "url": "https://projects.propublica.org/nonprofits/organizations/911703201",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "24a408a531cd6fba029b98c990bbc86ecc609009095af2e85aabdb80b0b97897",
+      "source": "account-7dfdc4e8f82f",
+      "url": "https://charitybreakdown.ca/charity/surrey-food-bank-foundation",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 403,
+      "outcome": "blocked",
+      "reason": "HTTP 403",
+      "source": "account-85ed1a4637d7",
+      "url": "https://philanthropy.org/990/report/831742878/hip-hop-is-green"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "94121f33a2611a7ebcfad5d96ef2fc7b69386bed9d4368b6c7a10d49d8205ac3",
+      "source": "account-8b942509b82e",
+      "url": "https://web6.seattle.gov/ethics/elections/popvendorlist.aspx",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "e17b662ed3f18414ca82b656240b6f61290d0374b08b188b248e11bfe3b44018",
+      "source": "account-8cec0aeda5fc",
+      "url": "https://givebutter.com/s2-tcfp",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "dbf8c9e08a9607e58938b77af100b924ca07edbd0810e9cefea4b4fc501d8f12",
+      "source": "account-960ba4bc8acc",
+      "url": "https://www.wagives.org/organization/Rainier-Beach-Community-Empowerment-Coalition",
+      "validators": {
+        "etag": "W/\"48fef-2HZ+Y63hgwoYYKPS4xy0bLF4k3M\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "2476e2aa8b3d940037740dae4be933fb30ab645d82b3001fdea8126cd8fe429f",
+      "source": "account-a53c004b03d4",
+      "url": "https://www.charitynavigator.org/ein/911485319",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "account-af76d94aa6d0",
+      "url": "https://www.cleangreensfarmmarket.com/schedules-events",
+      "validators": {
+        "etag": "W/\"137387c9340e019dc6ed48ea761556b1\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "20d6043877bbf900e6c246f1e8e9e8ba5c0c09813dfbb366a5e7345db88833cd",
+      "source": "account-c2cddf67f5a1",
+      "url": "https://projects.propublica.org/nonprofits/organizations/453827860",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "f906f69435f0ecb3302c698947a46a26914e21d0c617887cfe48a7acd5bf2fff",
+      "source": "account-cb8b9a41bef2",
+      "url": "https://westseattlefoodbank.org/our-statistics/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "21c1ca7ca2b9fbbd335b8b4b07b74b9690214d3e25304ab40571f4588dcc60df",
+      "source": "account-d1811f35cc3f",
+      "url": "https://www.wagives.org/organization/Nurturing-Roots",
+      "validators": {
+        "etag": "W/\"33742-nf+HW76dDcFrFPCQZ1zg7OdMquE\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "0ccb9d48a86af837513262d078a469db4a21c4780e83da3fc942036999079ef5",
+      "source": "account-d2bb4c23581d",
+      "url": "https://projects.propublica.org/nonprofits/organizations/364939852",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "649c483583511c0fd00a952cc280a12d98a6bdcc11f2865e08bb08c9232bf6d2",
+      "source": "account-d60391ed0ba8",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "0f3aca8d889db4910d2900ec7aa4a0ae96b592abe312d8e51383ba46690d5b55",
+      "source": "account-e1d176526de1",
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork",
+      "validators": {
+        "etag": "W/\"39804-VDPr2/vRocaKXo6J8Spx40xpqj0\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "9ea458179a1a04b0506c2361d363a607d54d68fd5f46e6b765716bbfde099ad3",
+      "source": "account-e7adeed862b8",
+      "url": "https://www.wagives.org/organization/rainier-valley-food-bank",
+      "validators": {
+        "etag": "W/\"4205b-xtuWeutfl5bAuvFTSYecCcM3RbA\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "c17764994b239a0ce55e11a6ebf4a7c3d83da638a7e466526143e14a3f209fe0",
+      "source": "account-e83e6f3309aa",
+      "url": "https://foodlifeline.org/article/food-frenzy-2026-results",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "71b64db18158ffaf8240a96af639a36876c06c3d70000bb9c09af4eba386cca3",
+      "source": "account-ece2bab3ea4a",
+      "url": "https://content.govdelivery.com/accounts/WASEATTLE/bulletins/42c0669",
+      "validators": {
+        "etag": "W/\"71b64db18158ffaf8240a96af639a368\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "d5c1bf78637dd0b7d3ac95841bd060c53a8cbf75a674b8b0bbf54384898e0372",
+      "source": "account-ee2147a6c136",
+      "url": "https://projects.propublica.org/nonprofits/organizations/910869056",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "7184c3f021aee0dbb2942583b4d15f57cb3bb3ef7a8566fb6471ce59efe84ad7",
+      "source": "account-efe1676da1c7",
+      "url": "https://globalnews.ca/news/10750981/bc-food-banks-record-demand-low-donations/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "83a596256b9994cb4cf52c8f475b84bc84af9f3770dacacfa68d6d9b09967f7e",
+      "source": "account-f332a7575c6c",
+      "url": "https://www.wagives.org/organization/Familyworksseattle",
+      "validators": {
+        "etag": "W/\"40782-3vOSeAfC6Od8/ENDLurSpziaiWI\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "3d3f61c84be4890a516fb47767fe01a9a78d1e6051f87c87fd58ee106f826a54",
+      "source": "account-f52ade0a1443",
+      "url": "https://projects.propublica.org/nonprofits/organizations/911122621",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "1aaf9be9188565c262d04df7a58e5a79dbd103fa94943f05ad9f1979b929fc32",
+      "source": "citynews-local",
+      "url": "https://vancouver.citynews.ca/feed/",
+      "validators": {
+        "etag": "\"ce05e05e2a9608b4f5b36ddcdbfdc186\"",
+        "last-modified": "Sat, 07 Nov 2026 15:44:35 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 3,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "0bc9bd4ce777411b69c12a64dfed5f8871ed623187cd49ad57adec451b395b48",
+      "source": "clark-news",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates?format=rss",
+      "validators": {
+        "etag": "W/\"eace666237e8ed751279d2664a70a2d7\""
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "compass-news",
+      "url": "https://www.compasshousingalliance.org/feed/",
+      "validators": {
+        "etag": "\"d4f14854e85bfa1fbfd397365548400f\"",
+        "last-modified": "Wed, 04 Nov 2026 18:21:45 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt disallows this endpoint",
+      "source": "contracts",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/awarded-contracts/records?where=vendor_name%20like%20%27food%20bank%27&order_by=award_date%20desc&limit=100"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "discovery_items_added": 0,
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "cra",
+      "url": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/694fdc72-eae4-4ee0-83eb-832ab7b230e3/download/ident_2024_updated.csv",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "discovery_items_added": 0,
+      "http": 200,
+      "outcome": "success",
+      "raw_sha256": "c56498dc3782c072265a8e187b8e327c5609f0253b0c8382f97e41ebcf7d4c1b",
+      "source": "food",
+      "url": "https://frontporch.seattle.gov/2025/12/17/food-equity-fund-invests-1-45m-into-community-organizations-and-prepares-for-update-to-the-grant-process-in-2026/",
+      "validators": {
+        "last-modified": "Sat, 07 Nov 2026 16:23:56 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "held",
+      "reason": "First-party report processing held under the inspected personal-use terms. Monitor the account through the official register.",
+      "source": "gvfb",
+      "url": "https://foodbank.bc.ca/2025-impact-report/"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "discovery_items_added": 0,
+      "http": 200,
+      "outcome": "success",
+      "raw_sha256": "319fafe75aa84c31d43182c4ce7771232024a730e8e98bb2deb264658b3bc32a",
+      "source": "housing",
+      "url": "https://housing.seattle.gov/2026-uos-rfq-awards/",
+      "validators": {
+        "last-modified": "Sat, 07 Nov 2026 16:23:55 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "discovery_items_added": 0,
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "housing-feed",
+      "url": "https://housing.seattle.gov/feed/",
+      "validators": {
+        "etag": "\"c2323be255e40bf9f29eed311c5cc0ad\"",
+        "last-modified": "Fri, 30 Oct 2026 19:35:09 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "discovery_items_added": 0,
+      "http": 304,
+      "outcome": "unchanged",
+      "source": "irs",
+      "url": "https://www.irs.gov/pub/irs-soi/eo_wa.csv",
+      "validators": {
+        "last-modified": "Tue, 13 Oct 2026 19:14:08 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 2,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "fb1cf34f8623269575347a2ab53390c2eec8d8e435f1aba3810091b4171f90b8",
+      "source": "lifeline-news",
+      "url": "https://foodlifeline.org/feed/?post_type=article",
+      "validators": {
+        "etag": "W/\"30ba46a5cc5c1cda6f1849662fe19253\"",
+        "last-modified": "Sat, 07 Nov 2026 01:28:18 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "fbd2240b66ae1e8859edfc4db88421f0ff4f1454ab4f9b42f1f9e36be1262a29",
+      "source": "review-source-130af42f296d",
+      "url": "https://surreyfoodbank.org/about-us/alternate-distribution-centres/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "46febd5182699f4328bf4aaa53c9f634e8e969894f4a5cf6ff427e247153d414",
+      "source": "review-source-1830e0848e45",
+      "url": "https://surreyfoodbank.org/about-us/careers/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "7f612565cca6c436615765e120cdda1506aee46846f8473a009e34535b9d259e",
+      "source": "review-source-79fea1dbf9a9",
+      "url": "https://surreyfoodbank.org/about-us/reports/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt unavailable, HTTP 403",
+      "source": "review-source-9483275a7a63",
+      "url": "https://northdeltarotary.ca/"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "c50ed67e52d75f9f89b38ff2aebf7116caf695202074acc1583c50cd5164876d",
+      "source": "review-source-96b480d2d557",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full/",
+      "validators": {}
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 1,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "2d7ff40e871c686d58aea89264e4bea8038db04c0a0d0716ca048355c3933ce1",
+      "source": "review-source-9d5bc2889ad8",
+      "url": "https://afpcalgary.ca/executive-director-surrey-food-bank/",
+      "validators": {
+        "last-modified": "Sat, 07 Nov 2026 16:24:06 GMT"
+      }
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "candidate_count": 0,
+      "http": 200,
+      "outcome": "unchanged",
+      "raw_sha256": "03830e109a0cf2941d32b1d5519723d9eca6a658bdba3260f299ca559b30b3e3",
+      "source": "surrey-news",
+      "url": "https://surreyfoodbank.org/feed/",
+      "validators": {
+        "last-modified": "Fri, 06 Nov 2026 18:21:53 GMT"
+      }
+    }
+  ],
+  "changed_signals": [],
+  "coverage_gap": "Feeds/indexes are bounded. Catch-up checks last successful checkpoints but cannot guarantee every missed publication is recoverable.",
+  "ended_at": "2026-11-07T16:24:06.532602+00:00",
+  "execution": "scheduled_local",
+  "historical_first_observed": [],
+  "id": "2026-11-07T16-23-46.927229+00-00",
+  "local_date": "2026-11-07",
+  "missed_dates": [
+    "2026-11-06"
+  ],
+  "new_accounts": [],
+  "new_signals": [],
+  "source_rechecks": [
+    "signal-049ff472a878ca7ea0488757",
+    "signal-d084a003a8fc3894d6731788"
+  ],
+  "started_at": "2026-11-07T16:23:46.927229+00:00",
+  "status": "partial"
+}

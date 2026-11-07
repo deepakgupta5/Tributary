@@ -1,3 +1,5 @@
+> Latest: [November 7 manual recovery and reviewed worklist](../daily-2026-11-07/README.md). The counts below describe earlier Day 6 proofs, not the latest run.
+
 > Superseded attention counts: the raw-candidate view below is historical collection evidence. The [source-reviewed worklist](source-review/repeat/worklist.md) is now the owner publication. Nine flag dispositions reduce owner attention from 6 to 0. See [source-review proof](source-review/README.md).
 
 # Day 6: live daily command and recovery
