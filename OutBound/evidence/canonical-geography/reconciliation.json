@@ -1,0 +1,53 @@
+{
+  "alias_rows": 4,
+  "authority": [
+    "D060",
+    "D066"
+  ],
+  "canonical_localities": 108,
+  "donor_base_gate": "unassessed",
+  "form_counts": {
+    "funder-intermediary": 209,
+    "operating-organization": 687
+  },
+  "geography_counts": {
+    "in-corridor": 491,
+    "remote-monitor": 405
+  },
+  "input_population_rows": 12040,
+  "input_sha256": "b2e0cad723563d40a4d634ef602072957c3f6db906ae2c1ae07b7c9573a5bdea",
+  "live_trigger_gate": "unassessed",
+  "operating_geography_verified": false,
+  "outreach_enabled": false,
+  "raw_localities": 110,
+  "retained_input_rows": 896,
+  "retained_input_size_dispositions": {
+    "enrichment": 345,
+    "size-fit": 551
+  },
+  "route_size_counts": {
+    "corridor-funder-intermediary": {
+      "enrichment": 158,
+      "size-fit": 10
+    },
+    "pool-a": {
+      "enrichment": 92,
+      "size-fit": 231
+    },
+    "remote-funder-intermediary-monitor": {
+      "enrichment": 38,
+      "size-fit": 3
+    },
+    "remote-operating-monitor": {
+      "enrichment": 57,
+      "size-fit": 307
+    }
+  },
+  "rules_sha256": "c5d30ffee8b382ad474b5f7ab3f374ceefae8751662e6f503834d4564e5e77a7",
+  "stage_routes": {
+    "corridor-funder-intermediary": 168,
+    "pool-a": 323,
+    "remote-funder-intermediary-monitor": 41,
+    "remote-operating-monitor": 364
+  }
+}

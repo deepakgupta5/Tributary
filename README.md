@@ -27,6 +27,10 @@ Source-review originals use per-command temporary storage, removed at command ex
 
 [Reconciliation and limits](OutBound/evidence/population-screen/README.md): 12,040 historical records reconcile to 4,168 category exclusions, 551 retained size-fit, 345 retained enrichment and 6,976 remainder. Historical pre-exclusion 754/414 reproduces exactly. D065 resolves all 32 category clues: PLAN excluded, three service-delivery accounts retained, 28 out-of-band records batch-resolved and held from buyer admission. Pending category reviews: zero. Current eligibility, donor-base and trigger gates are unassessed. No collection or outreach enabled.
 
+## Canonical BC geography
+
+[Geography reconciliation](OutBound/evidence/canonical-geography/README.md): 896 retained historical records yield Pool A of **323 operating organizations** (231 size-fit, 92 staffing-enrichment), **168 in-corridor foundations**, and **405 remote/monitor records** (364 operating, 41 foundations). D066 includes Delta, Mission and White Rock. No unresolved geography/form checks. The source is historical mailing locality; current operating geography, donor-base and live triggers remain unchecked. Outreach stays manual and disabled in the artifacts.
+
 ## Repository structure
 
 | Path | Purpose |

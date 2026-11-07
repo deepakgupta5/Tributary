@@ -1,0 +1,18 @@
+{
+  "base_commit": "72d471752872e523b24114f0be89aa002e78d79b",
+  "geography_evidence": "CRA historical mailing locality; operating geography not freshly verified",
+  "owner_boundary_decision": "D066: explicitly include Delta, Mission and White Rock",
+  "repeat_verification": "test_repeat_outputs_identical_and_population_untouched reruns the CLI and compares SHA-256 of every output and the unchanged population input",
+  "sha256": {
+    "OutBound/data/bc-geography-rules.json": "c5d30ffee8b382ad474b5f7ab3f374ceefae8751662e6f503834d4564e5e77a7",
+    "OutBound/data/geography/bc-funder-intermediaries-2024.tsv": "2f372802afe7f9a93a162454805d6ee7a3ea2b1df16cd87616cf6c050933f989",
+    "OutBound/data/geography/bc-geography-2024.tsv": "dfa616b8bc35f3c5e3f04ccfd86c31904eba02414e06903404f85236654d8683",
+    "OutBound/data/geography/bc-geography-review-2024.tsv": "e383c477fea3f88766daccddc1cd1bf6c219dbd8de50050dc3f0537747d2d1ef",
+    "OutBound/data/geography/bc-pool-a-2024.tsv": "6696ea6bdf4934ddc2bd1cd94ffe4c66b6fe6aa6f0701a53bb29ec2d896d9aa7",
+    "OutBound/data/geography/bc-remote-monitor-2024.tsv": "ef0d42b76192541ad4aff715090635a45de9ca62871ea6255eac34ba7cdeb265",
+    "OutBound/data/geography/locality-reconciliation.tsv": "61ea79c20f545210d76c9c1d9907718e2d9fe84b612ff5d2f4a7915a94262f9c",
+    "OutBound/evidence/canonical-geography/README.md": "32a54bc66c180244be79ccc0b0fbc5c4d06f30daa2c90b214f14ad40486ceaed",
+    "OutBound/evidence/canonical-geography/reconciliation.json": "61ea601076eada66b4034d212d0ca18882c9b61ba0dfaeefd24b93506db12e61"
+  },
+  "tests_passed": 143
+}
