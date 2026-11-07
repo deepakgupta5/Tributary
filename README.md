@@ -21,6 +21,8 @@ The existing zero-additional-cost morning app workflow now includes source readi
 
 Source-review originals use per-command temporary storage, removed at command exit, including Python exceptions and unfinished reviews. A later review re-fetches the permitted source. Persistent state retains hashes, metadata and bounded excerpts only; the PRD retention policy is unchanged.
 
+[D064 private-feedback baseline](OutBound/evidence/private-feedback-initialization/README.md): available local/cloud backup searches found no recoverable journal or evidence of prior population. A new empty private journal is initialized; assistant review dispositions are not owner feedback.
+
 ## Repository structure
 
 | Path | Purpose |
