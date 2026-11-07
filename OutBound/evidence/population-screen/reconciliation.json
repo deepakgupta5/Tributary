@@ -1,0 +1,38 @@
+{
+  "category_code_source": "https://open.canada.ca/data/dataset/80c00cdb-1358-415c-bb8b-0de7f12675b8/resource/e9f81074-9fc7-456f-8ce1-6fd101b77963/download/codes_en.pdf",
+  "category_review_dispositions": {
+    "excluded-advocacy": 1,
+    "moot-for-pilot": 28,
+    "retained-service-delivery": 3
+  },
+  "category_review_required": 0,
+  "dispositions": {
+    "enrichment": 345,
+    "excluded-category": 4168,
+    "out-of-band": 6976,
+    "size-fit": 551
+  },
+  "exclusions": {
+    "advocacy-groups": 2,
+    "hospitals": 22,
+    "religious-organizations": 4131,
+    "universities": 13
+  },
+  "historical": {
+    "enrichment": 414,
+    "out-of-band": 10872,
+    "size-fit": 754
+  },
+  "historical_gate_reproduced": true,
+  "input_rows": 12040,
+  "input_sha256": {
+    "filings": "6917065413c499b95b7bfad85f370c5c680d1936d10a3b5dbadd8568d840d788",
+    "identification": "bbfea4276669836ad84d8f3fca37188467c04527aa94f79a8f969df5f720af10"
+  },
+  "removed_by_historical_disposition": {
+    "enrichment": 69,
+    "out-of-band": 3896,
+    "size-fit": 203
+  },
+  "unique_identifiers": 12040
+}
