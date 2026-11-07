@@ -12,6 +12,7 @@ import fcntl
 import hashlib
 from html.entities import name2codepoint
 import threading
+from tempfile import TemporaryDirectory
 from html.parser import HTMLParser
 import json
 import os
@@ -415,8 +416,10 @@ def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,ex
         return responses[key]
     directory=Path(directory);directory.mkdir(parents=True,exist_ok=True)
     path=directory/'state.json'
-    with (directory/'runner.lock').open('a') as lock:
+    with (directory/'runner.lock').open('a') as lock, TemporaryDirectory(prefix='tributary-source-review-') as cache:
         fcntl.flock(lock,fcntl.LOCK_EX)
+        from tributary.source_review import purge_legacy_cache
+        purge_legacy_cache(directory)
         state=read(path) if path.exists() else initial_state()
         if state.get('version')!=VERSION:
             raise ValueError('Runtime state version differs; preserve it and migrate explicitly before collecting')
@@ -428,7 +431,7 @@ def execute(directory,out,feedback_db=None,retrieve=None,at=None,sources=None,ex
         # Raw collection is diagnostic, never the owner publication.
         save(out/'collection-worklist.json',data);(out/'collection-worklist.md').write_text(render(data))
         from tributary.source_review import prepare, apply, publish, render_owner
-        packet=prepare(state,retrieve,cache_dir=directory/'source-cache')
+        packet=prepare(state,retrieve,cache_dir=cache)
         save(out/'source-review-request.json',packet)
         reviewed=False
         if reviewer and packet['groups']:

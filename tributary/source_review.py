@@ -12,6 +12,7 @@ import fcntl
 import os
 from pathlib import Path
 import re
+from tempfile import TemporaryDirectory
 
 from tributary.daily import ROOT, Network, PATTERNS, canonical, digest, read, save, text_of
 from tributary.checkpoint_audit import STAGES, verify
@@ -77,15 +78,37 @@ def scope_for(signal,doc):
                 publication_date=doc.get('publication_date'),modified_date=None)
 
 
+def purge_legacy_cache(directory):
+    """Remove only full-original JSON files written by the old state-dir cache.
+
+    Do not traverse symlinks or remove unrelated state, feedback or evidence.
+    """
+    root=Path(directory)/'source-cache';removed=0
+    if not root.exists() or root.is_symlink():return removed
+    for group in root.iterdir():
+        if group.is_symlink() or not group.is_dir() or not re.fullmatch(r'[0-9a-f]{24}',group.name):continue
+        for file in group.iterdir():
+            if file.is_symlink() or not file.is_file() or not re.fullmatch(r'[0-9a-f]{64}\.json',file.name):continue
+            try:body=read(file)
+            except (ValueError,OSError):continue
+            if (isinstance(body,dict) and body.get('document_version')==file.stem and isinstance(body.get('paragraphs'),dict)
+                    and any(isinstance(p,dict) and 'text' in p for p in body['paragraphs'].values())):
+                file.unlink();removed+=1
+        if not any(group.iterdir()):group.rmdir()
+    if not any(root.iterdir()):root.rmdir()
+    return removed
+
+
 def prepare(state,retrieve=None,cache_dir=None):
-    """One original check per account+document, never one fetch per flag."""
+    """One original check per account+document. cache_dir must be run-scoped temp storage."""
     store=storage(state);retrieve=retrieve or Network();groups={};requests=[];reused=[];failures=[]
     for sid,signal in sorted(state['signals'].items()):
         key=digest([signal['account_id'],canonical(signal['url'])])[:24]
         groups.setdefault(key,dict(id=key,account_id=signal['account_id'],url=canonical(signal['url']),signals=[]))['signals'].append(signal)
     fetches=0;checked_at=now()
     for key,group in sorted(groups.items()):
-        previous=store['documents'].get(key,{})
+        previous=deepcopy(store['documents'].get(key,{}))
+        previous.pop('original_cache',None)
         try:
             fetches+=1
             code,raw,validators=retrieve(group['url'],previous.get('validators',{}))
@@ -105,6 +128,7 @@ def prepare(state,retrieve=None,cache_dir=None):
                 doc['scopes']={s['category']:scope_for(s,doc) for s in group['signals']}
             # Persist only hashes and short necessary checking excerpts, not full pages.
             persisted=deepcopy(doc)
+            persisted.pop('original_cache',None)
             for p in persisted['paragraphs'].values():p.pop('text',None)
             store['documents'][key]=persisted
             group_out=dict(id=key,account_id=group['account_id'],account_name=state['accounts'][group['account_id']]['name'],url=group['url'],
@@ -339,11 +363,16 @@ def private_owner(directory,data,feedback_db):
 
 
 def _main(args):
+    purge_legacy_cache(args.state_dir)
     out=args.out or args.state_dir/'latest';state=read(args.state_dir/'state.json')
     collection=read(out/'collection-worklist.json') if (out/'collection-worklist.json').exists() else read(out/'worklist.json')
     packet_path=out/'source-review-request.json'
     if args.action=='prepare':
-        packet=prepare(state,cache_dir=args.state_dir/'source-cache');save(packet_path,packet);save(args.state_dir/'state.json',state)
+        # This command ends before the asynchronous desktop review. Do not keep
+        # whole originals waiting for it; later reading must re-fetch the source.
+        with TemporaryDirectory(prefix='tributary-source-review-') as cache:
+            packet=prepare(state,cache_dir=cache)
+            save(packet_path,packet);save(args.state_dir/'state.json',state)
         print(json.dumps(packet['summary'],sort_keys=True));return
     packet=read(packet_path)
     if args.action=='complete':
