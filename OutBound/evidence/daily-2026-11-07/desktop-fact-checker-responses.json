@@ -1,0 +1,57 @@
+{
+  "signal-049ff472a878ca7ea0488757": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures. The original supports successful campaign performance; no fundraising difficulty or current decision window is established.",
+    "result": "pass"
+  },
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate. Historical strain and successful supply collaboration coexist. Neither a December 2025 worry nor a forecast proves a November 2026 shortfall.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity. Historical strain is attributed and supported, but successful expansion and service continuity are counterevidence to a current unfilled delivery gap.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure. The display and matching context are factual, but timing, final outcome, denominator of the household comparison and current campaign status remain research gaps.",
+    "result": "hold"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement. The appointment is factual, but rising-demand wording in a successful internal promotion does not support an operational-strain flag requiring owner action.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits. The observation that donations were keeping up is supported; it contradicts the fundraising-pressure interpretation. A future summer concern is not an observed later outcome.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap. The loss is supported as an attributed historical fact. Increased donor support and continued food access limit any present financial-pressure interpretation.",
+    "result": "pass"
+  },
+  "signal-d084a003a8fc3894d6731788": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck. The dated search is a supported current fact, but there is no related overdue donor milestone, conditional supporter decision or unassigned campaign dependency. A vacancy alone is insufficient.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Separate gala and month figures are not summed; no target or prior-year gala result is supplied. Attributed positive campaign results are supported. The October 29 chronology inconsistency is recorded and the source establishes no current unmet revenue decision.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No declining donor count, revenue comparison, target miss or shortfall is stated. This is a lexical false positive: the fundraiser name is not a direction-of-change claim.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex included desktop assistant, separate shared-session fact-checker execution, not independent",
+    "reason": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied. A substantive attributed funding-cut statement exists, beyond a donation button, but its timing and current financial effect are unresolved.",
+    "result": "hold"
+  }
+}

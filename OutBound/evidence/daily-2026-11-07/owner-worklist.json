@@ -1,0 +1,979 @@
+{
+  "as_of": "2026-11-07",
+  "cards": [],
+  "collection_counts": {
+    "cards_requiring_attention": 6,
+    "changed_signal_candidates": 0,
+    "historical_first_observed": 0,
+    "historical_source_rechecks": 2,
+    "new_accounts": 0,
+    "new_signal_candidates": 0,
+    "pending_review_tasks": 2,
+    "unique_cards": 6
+  },
+  "collection_run_id": "2026-11-07T16-23-46.927229+00-00",
+  "collection_status": "partial",
+  "counts": {
+    "outstanding_research": 6,
+    "owner_attention_accounts": 0,
+    "reviewed_flags": 11,
+    "source_checks_outstanding": 4,
+    "unfinished_or_research_flags": 2,
+    "unsupported_or_contradicted_flags": 3
+  },
+  "last_reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+  "research_queue": [
+    {
+      "account_id": "911090450",
+      "reason": "The original supports successful campaign performance; no fundraising difficulty or current decision window is established.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-049ff472a878ca7ea0488757",
+      "status": "supported_context",
+      "url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "reason": "Historical strain and successful supply collaboration coexist. Neither a December 2025 worry nor a forecast proves a November 2026 shortfall.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-05cb7c7fb182aa89f8d18520",
+      "status": "supported_context",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "Historical strain is attributed and supported, but successful expansion and service continuity are counterevidence to a current unfilled delivery gap.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-5eff20a2203c656f9bb5c616",
+      "status": "supported_context",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_id": "WA:familyworks",
+      "reason": "The display and matching context are factual, but timing, final outcome, denominator of the household comparison and current campaign status remain research gaps.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-606f8881901d692f838825a8",
+      "status": "research_required",
+      "url": "https://www.wagives.org/organization/Familyworksseattle"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "The appointment is factual, but rising-demand wording in a successful internal promotion does not support an operational-strain flag requiring owner action.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-6e9ef48a6633133f4c83bdca",
+      "status": "unsupported",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "reason": "The observation that donations were keeping up is supported; it contradicts the fundraising-pressure interpretation. A future summer concern is not an observed later outcome.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-82ce9ff52cb9b7c94898de91",
+      "status": "contradicted",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+    },
+    {
+      "account_id": "911307564",
+      "reason": "The loss is supported as an attributed historical fact. Increased donor support and continued food access limit any present financial-pressure interpretation.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+      "status": "supported_context",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "reason": "The dated search is a supported current fact, but there is no related overdue donor milestone, conditional supporter decision or unassigned campaign dependency. A vacancy alone is insufficient.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-d084a003a8fc3894d6731788",
+      "status": "supported_context",
+      "url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+    },
+    {
+      "account_id": "911090450",
+      "reason": "Attributed positive campaign results are supported. The October 29 chronology inconsistency is recorded and the source establishes no current unmet revenue decision.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-e30d24146a3d0e4d851f7181",
+      "status": "supported_context",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_id": "911090450",
+      "reason": "This is a lexical false positive: the fundraiser name is not a direction-of-change claim.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8",
+      "status": "unsupported",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_id": "272172486",
+      "reason": "A substantive attributed funding-cut statement exists, beyond a donation button, but its timing and current financial effect are unresolved.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "signal_id": "signal-fd575c91233a256a8e898589",
+      "status": "research_required",
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork"
+    }
+  ],
+  "review_history": [
+    {
+      "account_name": "Food Lifeline",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "d411b554f78d1edf4e42df0e0efa7a111d858787a19137940918469e81bf2a91",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures.",
+      "contradictory_evidence": [],
+      "disposition": "supported_context",
+      "document_version": "919a92a28f00389eac65845480706f6edd5612127d1be88d75b6acc6475479f4",
+      "evidence": [
+        {
+          "hash": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4",
+          "locator": "passage:37722aa75f372021042e",
+          "note": "Narrative says the prior-year total was exceeded.",
+          "paragraph_index": 2,
+          "source_url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        },
+        {
+          "hash": "538c9dfbf26d9ab54915ecfab85608fa305bb5b211c8f9632ed6b0870f3e02a3",
+          "locator": "passage:538c9dfbf26d9ab54915",
+          "note": "Exact dollar total.",
+          "paragraph_index": 6,
+          "source_url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        },
+        {
+          "hash": "cf0a761e07bd20eab9bc08942f09745b8dba02606a32c6163ba67852e972e940",
+          "locator": "passage:cf0a761e07bd20eab9bc",
+          "note": "Participating companies, not donor count.",
+          "paragraph_index": 7,
+          "source_url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        },
+        {
+          "hash": "de750141d0750f34708d984e58c1c9a68bb6aee45e41c4a2970006d53b0c15a9",
+          "locator": "passage:de750141d0750f34708d",
+          "note": "Volunteer hours, not staff capacity.",
+          "paragraph_index": 8,
+          "source_url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        },
+        {
+          "hash": "ed2b2b6f0b8e28cdccd44c24f303565ba2f799888d7bef2a6e206f7258cd7645",
+          "locator": "passage:ed2b2b6f0b8e28cdccd4",
+          "note": "Donated item count.",
+          "paragraph_index": 9,
+          "source_url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures. The original supports successful campaign performance; no fundraising difficulty or current decision window is established.",
+      "fact_reason": "The original supports successful campaign performance; no fundraising difficulty or current decision window is established.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "027207a1c57564a18de4c539",
+      "invalidated": false,
+      "next_research_step": "Monitor for a dated post-campaign donor follow-through or renewal decision before owner escalation.",
+      "observation": "Food Lifeline reports USD703,137 raised in Food Frenzy 2026, exceeding its prior-year fundraising total, with 64 participating companies, 2,802 volunteer hours and 4,964 food items donated.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Food Frenzy 2026; page published 7 August 2026 and modified 24 August 2026",
+      "researcher_assessment": "Food Lifeline reports USD703,137 raised in Food Frenzy 2026, exceeding its prior-year fundraising total, with 64 participating companies, 2,802 volunteer hours and 4,964 food items donated. Period and comparison limits: Food Frenzy 2026; page published 7 August 2026 and modified 24 August 2026; Prior-year total is said to be surpassed but is not quantified. Dollars, company count, volunteer hours and items are separate measures.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "campaign_performance",
+        "context": {
+          "passage:37722aa75f372021042e": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4"
+        },
+        "modified_date": null,
+        "publication_date": "2026-08-07",
+        "relevant": {
+          "passage:184fcf7f3a92c2a1c1cb": "184fcf7f3a92c2a1c1cb206f1c8ee7b432cf179af6756a47a38630c78777b8f3",
+          "passage:37722aa75f372021042e": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4",
+          "passage:a21585a24b16ca7888ce": "a21585a24b16ca7888ced2d61576ca50ebc973b2783c105ad35d7c35455c863e",
+          "passage:a93afe9bca13d7daa348": "a93afe9bca13d7daa348b7681b11765cc08bb6297c7c7e960d7e662de56a1c15"
+        }
+      },
+      "scope_hash": "d68fb557da56753237f7d11af7d2054568f87bb9a7fd0bca43943793ff8abf83",
+      "signal_id": "signal-049ff472a878ca7ea0488757",
+      "skeptic_assessment": "Successful results three months old do not establish a current campaign window or difficulty. Company participation is not donor retention.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+    },
+    {
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate.",
+      "contradictory_evidence": [
+        {
+          "hash": "b412b666047790cb61d8b163194e12a0a3ccc8712eb2d79acbac9d8921b98216",
+          "locator": "passage:b412b666047790cb61d8",
+          "note": "Improved supply counters an unsupported unmet-capacity inference.",
+          "paragraph_index": 19,
+          "source_url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "1542764672bb8dcf312b3fe6e8ab491f70ce3eed83bd51bc02581bcf5a5d6a78",
+      "evidence": [
+        {
+          "hash": "2e422db3c36e6b195f761e92fcd69f1ac9d7a3825d85f017f5e2fe4089962cdb",
+          "locator": "passage:2e422db3c36e6b195f76",
+          "note": "Approximately 22,000 monthly visits in December 2025.",
+          "paragraph_index": 6,
+          "source_url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+        },
+        {
+          "hash": "31ed396512a53ce2fba738f69172e00f8df6740ca7478d7068ce03b948a789f6",
+          "locator": "passage:31ed396512a53ce2fba7",
+          "note": "Fundraising described as just enough.",
+          "paragraph_index": 9,
+          "source_url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+        },
+        {
+          "hash": "b412b666047790cb61d8b163194e12a0a3ccc8712eb2d79acbac9d8921b98216",
+          "locator": "passage:b412b666047790cb61d8",
+          "note": "Distribution doubled with improved availability.",
+          "paragraph_index": 19,
+          "source_url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate. Historical strain and successful supply collaboration coexist. Neither a December 2025 worry nor a forecast proves a November 2026 shortfall.",
+      "fact_reason": "Historical strain and successful supply collaboration coexist. Neither a December 2025 worry nor a forecast proves a November 2026 shortfall.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "1734073a23e2646622bc117b",
+      "invalidated": false,
+      "next_research_step": "Obtain dated post-June 2026 demand/donation/distribution comparisons. The reviewed comparable evidence still ends on 11 June 2026.",
+      "observation": "In December 2025, Surrey Food Bank described rising monthly visits and fundraising that was just sufficient, while reporting greater food availability and twice the food distributed at the comparable point in 2024.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "25 December 2025 reporting; comparison with the same point in 2024",
+      "researcher_assessment": "In December 2025, Surrey Food Bank described rising monthly visits and fundraising that was just sufficient, while reporting greater food availability and twice the food distributed at the comparable point in 2024. Period and comparison limits: 25 December 2025 reporting; comparison with the same point in 2024; Director-attributed monthly client visits and year-to-date distribution; no audited tonnage or current unmet capacity estimate.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "operational_strain",
+        "context": {
+          "passage:31ed396512a53ce2fba7": "31ed396512a53ce2fba738f69172e00f8df6740ca7478d7068ce03b948a789f6"
+        },
+        "modified_date": null,
+        "publication_date": "2025-12-25",
+        "relevant": {
+          "passage:4b2e63c7a410a55fc32b": "4b2e63c7a410a55fc32b7713e15a4626eb299510b2b4187f8ec26858c02cb138",
+          "passage:58c93334087711846382": "58c93334087711846382da6a46d4f6a373df2c5f5d13a33cce7c49dda42864ef",
+          "passage:e52fbfaa81499c02b9a7": "e52fbfaa81499c02b9a76d3afffa7d4f7356227de83100507c4197f460fd4904"
+        }
+      },
+      "scope_hash": "16ec0caba1df261a7614ba7cd7346400045f4583599033cd6dfa8a842e282601",
+      "signal_id": "signal-05cb7c7fb182aa89f8d18520",
+      "skeptic_assessment": "Do not carry December 2025 strain forward as November 2026 need, or compare monthly visits with annual households. Supply improvements must remain visible.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+    },
+    {
+      "account_name": "CLARK COUNTY FOOD BANK",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity.",
+      "contradictory_evidence": [
+        {
+          "hash": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca",
+          "locator": "passage:5191c07c04a5e18690b0",
+          "note": "Distribution expanded in response.",
+          "paragraph_index": 5,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        },
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Inquiries and donor response increased; inquiries do not prove staffing coverage.",
+          "paragraph_index": 6,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "evidence": [
+        {
+          "hash": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0",
+          "locator": "passage:8e9ebb120ecc4902b2bd",
+          "note": "Loss of nine AmeriCorps members.",
+          "paragraph_index": 4,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        },
+        {
+          "hash": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca",
+          "locator": "passage:5191c07c04a5e18690b0",
+          "note": "Client increase and distribution response.",
+          "paragraph_index": 5,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity. Historical strain is attributed and supported, but successful expansion and service continuity are counterevidence to a current unfilled delivery gap.",
+      "fact_reason": "Historical strain is attributed and supported, but successful expansion and service continuity are counterevidence to a current unfilled delivery gap.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "7055ea2edc68fa0129c00432",
+      "invalidated": false,
+      "next_research_step": "Check dated current staffing coverage and distribution capacity with a defined client comparison period.",
+      "observation": "Clark County Food Bank reports losing nine AmeriCorps team members and a 56 percent increase in clients during a SNAP disruption, alongside expanded food distribution and a 732 percent rise in volunteer inquiries.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Page published 20 March 2026, modified 9 July 2026; precise disruption/comparison interval unspecified",
+      "researcher_assessment": "Clark County Food Bank reports losing nine AmeriCorps team members and a 56 percent increase in clients during a SNAP disruption, alongside expanded food distribution and a 732 percent rise in volunteer inquiries. Period and comparison limits: Page published 20 March 2026, modified 9 July 2026; precise disruption/comparison interval unspecified; Client baseline is unquantified; volunteer inquiries are not deployed staff or volunteer capacity.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "operational_strain",
+        "context": {
+          "passage:ac567f8bb63c6da075bd": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b"
+        },
+        "modified_date": null,
+        "publication_date": "2026-03-20",
+        "relevant": {
+          "passage:5191c07c04a5e18690b0": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca"
+        }
+      },
+      "scope_hash": "3d0bb7ec301014368b7bca5e1fc3e5045762b8ebbd944ad9d4aa36da1c6bf36e",
+      "signal_id": "signal-5eff20a2203c656f9bb5c616",
+      "skeptic_assessment": "A 56 percent increase has no stated client baseline; 732 percent volunteer inquiries cannot be treated as staffing replacement. Distribution expansion is counterevidence.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_name": "FamilyWorks",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "research_required",
+      "comparison_basis": "USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure.",
+      "contradictory_evidence": [],
+      "disposition": "research_required",
+      "document_version": "816f303aead42fa0e249f7f7cdd8b9fad712d74b944de2e01676939764de9fb8",
+      "evidence": [
+        {
+          "hash": "2727025c5366d565e13a59a28707f95f14ac001b2171a1621898fda448ad2a19",
+          "locator": "passage:2727025c5366d565e13a",
+          "note": "Displayed receipts and donor count.",
+          "paragraph_index": 1,
+          "source_url": "https://www.wagives.org/organization/Familyworksseattle"
+        },
+        {
+          "hash": "e37b920429d653e027c119040e0e3d8d87fc57ebb0cd5008b42b70fd2d579de1",
+          "locator": "passage:e37b920429d653e027c1",
+          "note": "Displayed goal.",
+          "paragraph_index": 3,
+          "source_url": "https://www.wagives.org/organization/Familyworksseattle"
+        },
+        {
+          "hash": "ca71b0ba2c1ade807a3f3699e2b7b006f57ba4792d2bcb5423cc64e3200c34b6",
+          "locator": "passage:ca71b0ba2c1ade807a3f",
+          "note": "Matching partners are thanked, with no verified closing date.",
+          "paragraph_index": 16,
+          "source_url": "https://www.wagives.org/organization/Familyworksseattle"
+        },
+        {
+          "hash": "bf724af8a75ff7acd0e279166b047e135fb2cc6f561bd96515b6e2add2623d16",
+          "locator": "passage:bf724af8a75ff7acd0e2",
+          "note": "Demand comparison has an unstated year and baseline.",
+          "paragraph_index": 11,
+          "source_url": "https://www.wagives.org/organization/Familyworksseattle"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure. The display and matching context are factual, but timing, final outcome, denominator of the household comparison and current campaign status remain research gaps.",
+      "fact_reason": "The display and matching context are factual, but timing, final outcome, denominator of the household comparison and current campaign status remain research gaps.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "d8c2ba3c1e73cd29d8cf8e5f",
+      "invalidated": false,
+      "next_research_step": "Establish the campaign start/end dates, whether the goal is still open and the match terms before assessing a live donor decision.",
+      "observation": "The FamilyWorks giving profile displays USD32,007 from 75 donors against a USD40,000 goal and thanks matching partners. It also describes a nearly 40 percent increase in households served last year.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Undated profile; campaign window and last-year reference period unspecified",
+      "researcher_assessment": "The FamilyWorks giving profile displays USD32,007 from 75 donors against a USD40,000 goal and thanks matching partners. It also describes a nearly 40 percent increase in households served last year. Period and comparison limits: Undated profile; campaign window and last-year reference period unspecified; USD32,007 divided by USD40,000 is about 80 percent, leaving USD7,993 to the displayed goal. No deadline or comparable past campaign is provided; this is not evidence of failure.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "campaign_performance",
+        "context": {},
+        "modified_date": null,
+        "publication_date": null,
+        "relevant": {
+          "passage:ca71b0ba2c1ade807a3f": "ca71b0ba2c1ade807a3f3699e2b7b006f57ba4792d2bcb5423cc64e3200c34b6"
+        }
+      },
+      "scope_hash": "8334099dc422e68649909263e0aada02eaad1012992dec17e1fe675b9b271a25",
+      "signal_id": "signal-606f8881901d692f838825a8",
+      "skeptic_assessment": "An undated 80-percent-to-goal display is not a missed goal. A match exists in the narrative, but current availability and deadline are not documented.",
+      "source_checks_complete": false,
+      "time_status": "undated",
+      "url": "https://www.wagives.org/organization/Familyworksseattle"
+    },
+    {
+      "account_name": "CLARK COUNTY FOOD BANK",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement.",
+      "contradictory_evidence": [
+        {
+          "hash": "203f035aefa75a6ffb698591df1dcb2af7eae9921668ffc4a700ea59bdf58f86",
+          "locator": "passage:203f035aefa75a6ffb69",
+          "note": "Leadership role is assigned rather than an unfilled dependency.",
+          "paragraph_index": 7,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+        }
+      ],
+      "disposition": "unsupported",
+      "document_version": "1eda19734934289957488abeaf8ac999c61bfaa49a4e1f51c8b0a69a8b19a436",
+      "evidence": [
+        {
+          "hash": "68f2d8aee1ddea20aafad3f4cbaed8eb5fa6763f2682e3c6d22f9e7519c55e52",
+          "locator": "passage:68f2d8aee1ddea20aafa",
+          "note": "Appointment announced.",
+          "paragraph_index": 3,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+        },
+        {
+          "hash": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d",
+          "locator": "passage:9d6d27b31c0e9db08511",
+          "note": "Operational and technology improvements credited.",
+          "paragraph_index": 6,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement. The appointment is factual, but rising-demand wording in a successful internal promotion does not support an operational-strain flag requiring owner action.",
+      "fact_reason": "The appointment is factual, but rising-demand wording in a successful internal promotion does not support an operational-strain flag requiring owner action.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "8fdeca9e22ceaa786fdc3f27",
+      "invalidated": false,
+      "next_research_step": "Monitor for a dated unassigned responsibility or blocked donor-revenue dependency; do not infer it from this promotion.",
+      "observation": "Clark County Food Bank announced an internal appointment to Vice President of Operations and credited that leader with improving processes, technology and collaboration in response to rising demand.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 20 March 2026 and modified 9 July 2026; appointment effective date unspecified",
+      "researcher_assessment": "Clark County Food Bank announced an internal appointment to Vice President of Operations and credited that leader with improving processes, technology and collaboration in response to rising demand. Period and comparison limits: Published 20 March 2026 and modified 9 July 2026; appointment effective date unspecified; No staffing deficit, failed milestone or demand baseline is supplied by the appointment announcement.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "operational_strain",
+        "context": {
+          "passage:9d6d27b31c0e9db08511": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d"
+        },
+        "modified_date": null,
+        "publication_date": "2026-03-20",
+        "relevant": {
+          "passage:9d6d27b31c0e9db08511": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d"
+        }
+      },
+      "scope_hash": "5339fbc05504484947c1548db8e7b948abfc8a3336b3e80c919922b92e53eac4",
+      "signal_id": "signal-6e9ef48a6633133f4c83bdca",
+      "skeptic_assessment": "An assigned internal leader and reported process improvement support organizational response, not an unassigned delivery obligation.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+    },
+    {
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits.",
+      "contradictory_evidence": [
+        {
+          "hash": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "locator": "passage:b75b25240ab18e31d167",
+          "note": "Explicit counterevidence to fundraising pressure.",
+          "paragraph_index": 5,
+          "source_url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+        }
+      ],
+      "disposition": "contradicted",
+      "document_version": "047d7ebb3e41b7148cba2f0127bacd84ae23dc417439e3d5239f0e7d0af44912",
+      "evidence": [
+        {
+          "hash": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "locator": "passage:b75b25240ab18e31d167",
+          "note": "Donations keeping up at publication.",
+          "paragraph_index": 5,
+          "source_url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+        },
+        {
+          "hash": "74aafea03a43e7bbc3304d859e921a6c2710e8e01fca33e39278c8828def2e97",
+          "locator": "passage:74aafea03a43e7bbc330",
+          "note": "Summer spike is a forecast.",
+          "paragraph_index": 6,
+          "source_url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+        },
+        {
+          "hash": "749d6c3863fc93cee729e5ad582c58d271d54e0595e90abe80180f1f264b7789",
+          "locator": "passage:749d6c3863fc93cee729",
+          "note": "Joint summer appeal is a response.",
+          "paragraph_index": 14,
+          "source_url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits. The observation that donations were keeping up is supported; it contradicts the fundraising-pressure interpretation. A future summer concern is not an observed later outcome.",
+      "fact_reason": "The observation that donations were keeping up is supported; it contradicts the fundraising-pressure interpretation. A future summer concern is not an observed later outcome.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "8d53b97c5c9ac6bc3f541041",
+      "invalidated": false,
+      "next_research_step": "Find a dated post-summer donation/demand result; do not replay the June forecast as a current finding.",
+      "observation": "On 11 June 2026, Surrey Food Bank said donations were keeping up with demand while preparing a joint summer appeal for an anticipated increase after school food programs ended.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "11 June 2026, prospective summer 2026 concern",
+      "researcher_assessment": "On 11 June 2026, Surrey Food Bank said donations were keeping up with demand while preparing a joint summer appeal for an anticipated increase after school food programs ended. Period and comparison limits: 11 June 2026, prospective summer 2026 concern; No donation decline is reported. Nearly 22,000 monthly people served is not directly comparable with household counts or December client visits.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "fundraising_pressure",
+        "context": {
+          "passage:2df375b0a720b79b6396": "2df375b0a720b79b6396ad16fc9ab6a2a5777bae5765114e376ecd99da5ccc26",
+          "passage:b75b25240ab18e31d167": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "passage:fd840718772cac733588": "fd840718772cac733588081e64c205f4da1b0a275824646ed025bc755ae2632b"
+        },
+        "modified_date": null,
+        "publication_date": "2026-06-11",
+        "relevant": {
+          "passage:1e03abf7b6ffdc0ae6f3": "1e03abf7b6ffdc0ae6f3044cd7d3a5eebe4565098c78f055adef858e4583d7df"
+        }
+      },
+      "scope_hash": "50dc18431f123d1a12971f4593c39af7af7704fc48eb0a4e0bf0ab1ca8bb6e89",
+      "signal_id": "signal-82ce9ff52cb9b7c94898de91",
+      "skeptic_assessment": "The factual observation is supported; the fundraising-pressure interpretation is contradicted by donations keeping up. The forecast summer spike is not a measured outcome.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+    },
+    {
+      "account_name": "CLARK COUNTY FOOD BANK",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap.",
+      "contradictory_evidence": [
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Higher donor support and service continuity are material counterevidence.",
+          "paragraph_index": 6,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "evidence": [
+        {
+          "hash": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0",
+          "locator": "passage:8e9ebb120ecc4902b2bd",
+          "note": "Attributed government funding loss.",
+          "paragraph_index": 4,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        },
+        {
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "locator": "passage:ac567f8bb63c6da075bd",
+          "note": "Donor support comparison.",
+          "paragraph_index": 6,
+          "source_url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap. The loss is supported as an attributed historical fact. Increased donor support and continued food access limit any present financial-pressure interpretation.",
+      "fact_reason": "The loss is supported as an attributed historical fact. Increased donor support and continued food access limit any present financial-pressure interpretation.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "7055ea2edc68fa0129c00432",
+      "invalidated": false,
+      "next_research_step": "Locate a dated financial statement or budget showing recurring revenue, cut period and remaining deficit before escalation.",
+      "observation": "Clark County Food Bank reports nearly USD900,000 in government funding lost, while donor support rose 132 percent compared with the same time the preceding year.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Published 20 March 2026, modified 9 July 2026; loss interval and financial year not specified",
+      "researcher_assessment": "Clark County Food Bank reports nearly USD900,000 in government funding lost, while donor support rose 132 percent compared with the same time the preceding year. Period and comparison limits: Published 20 March 2026, modified 9 July 2026; loss interval and financial year not specified; Absolute funding loss and percentage donor increase have different unspecified denominators; they cannot establish a net remaining dollar gap.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "financial_pressure",
+        "context": {
+          "passage:ac567f8bb63c6da075bd": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b"
+        },
+        "modified_date": null,
+        "publication_date": "2026-03-20",
+        "relevant": {
+          "passage:8e9ebb120ecc4902b2bd": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0"
+        }
+      },
+      "scope_hash": "06ee45287967625a34f6256c766808d34b2184891da741c719e158c877c03e69",
+      "signal_id": "signal-bc6d441f41e791b2b95e57c2",
+      "skeptic_assessment": "Do not subtract the funding loss from a percentage donor rise or assume either still applies. Net deficit cannot be computed without consistent dollar and period bases.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "3ab6fb23b3ae78b6806ade506e3ef48f0bfa9c264d0f5f6093316d69068cf0df",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck.",
+      "contradictory_evidence": [
+        {
+          "hash": "4cb1945954537c0b98b8099c4552e5f824253a4a8f541c386c25e1848a91afc0",
+          "locator": "passage:4cb1945954537c0b98b8",
+          "note": "Brief says well positioned, rather than documenting a breakdown.",
+          "paragraph_index": 6,
+          "source_url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "5793fcb66f2bf6f9a774f0402ef74f803666d0b00ecbca66653ac388ad216139",
+      "evidence": [
+        {
+          "hash": "1ebfe88806b68f886102dc4eb98ea8fa2bdc3474b10a0bb27fdd4a56cd4c2c56",
+          "locator": "passage:1ebfe88806b68f886102",
+          "note": "Explicit closing date.",
+          "paragraph_index": 1,
+          "source_url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+        },
+        {
+          "hash": "10255557fa42383b1322c8c20e23d3b0a2ddf28400147ea68b3d92ee8e138666",
+          "locator": "passage:10255557fa42383b1322",
+          "note": "Posting identifies a current vacancy.",
+          "paragraph_index": 142,
+          "source_url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+        },
+        {
+          "hash": "971ee5b9445724b376fd6c2d4393a0e1f75eb593b4f8b879d5005805cbf841ad",
+          "locator": "passage:971ee5b9445724b376fd",
+          "note": "Fundraising remit is part of the role.",
+          "paragraph_index": 69,
+          "source_url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck. The dated search is a supported current fact, but there is no related overdue donor milestone, conditional supporter decision or unassigned campaign dependency. A vacancy alone is insufficient.",
+      "fact_reason": "The dated search is a supported current fact, but there is no related overdue donor milestone, conditional supporter decision or unassigned campaign dependency. A vacancy alone is insufficient.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "ccbfb78e9f836ecf36456a15",
+      "invalidated": false,
+      "next_research_step": "Check current size on a comparable revenue basis and identify a dated donor-revenue obligation affected by the transition before owner escalation.",
+      "observation": "Surrey Food Bank has an Executive Director search with a stated 8 November 2026 application deadline. The brief assigns fundraising and distribution leadership to the incoming role and describes the organization as well positioned.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Posting published 12 October 2026; closing 8 November 2026. Annual financial/distribution totals in the copy lack a stated fiscal period.",
+      "researcher_assessment": "Surrey Food Bank has an Executive Director search with a stated 8 November 2026 application deadline. The brief assigns fundraising and distribution leadership to the incoming role and describes the organization as well positioned. Period and comparison limits: Posting published 12 October 2026; closing 8 November 2026. Annual financial/distribution totals in the copy lack a stated fiscal period.; Nearly 8,000 households per year, monthly client visits and food pounds measure different things. A job vacancy has no baseline proving operational strain or a donor decision bottleneck.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "operational_strain",
+        "context": {
+          "passage:18395ee478cac6654a02": "18395ee478cac6654a027ef122dc228317cb39f88796e720f8cef7cd648012a8",
+          "passage:23f3e56b43fa51c2cfe6": "23f3e56b43fa51c2cfe6cd004c40faa80b662ea3634df80ebf6ed239390a6467",
+          "passage:5e2608cabbf1a79a3d17": "5e2608cabbf1a79a3d17dd5fee5506588463d28afedf771be3b68168d458daff",
+          "passage:b2a959ba636ee29d1812": "b2a959ba636ee29d1812d0e7fefb2707f62849223df3b01cf4737954f7e6e4c3",
+          "passage:b3006164a88bfcfd8a9d": "b3006164a88bfcfd8a9d0687dcde41cd0d0449b92a20ea847f8c517c599d0a5f"
+        },
+        "modified_date": null,
+        "publication_date": "2026-10-12",
+        "relevant": {
+          "passage:23f3e56b43fa51c2cfe6": "23f3e56b43fa51c2cfe6cd004c40faa80b662ea3634df80ebf6ed239390a6467",
+          "passage:419639a22e656d2f8b14": "419639a22e656d2f8b14629c660063e371aacc1f3973762c82227e1f93a4f2cc",
+          "passage:ded0b6a1831c0e65a181": "ded0b6a1831c0e65a1812062cd2034f2baf2b7919f5cbe3a73894187363100cf",
+          "passage:fb0b047d2d8defd4c16e": "fb0b047d2d8defd4c16e911867d07cca02ba8efd1a7d37c377ff8f54bf011a1f"
+        }
+      },
+      "scope_hash": "38a29c23d01b9bb00117a7e6767c241dfea98ea017eb26eaa0b9a13b3e57e585",
+      "signal_id": "signal-d084a003a8fc3894d6731788",
+      "skeptic_assessment": "The November 8 hiring deadline is live but does not establish a donor-revenue deadline. The brief says well positioned. Revenue includes in-kind food, and its unspecified period prevents current size-gate verification.",
+      "source_checks_complete": true,
+      "time_status": "current_supported",
+      "url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+    },
+    {
+      "account_name": "Food Lifeline",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "monitor",
+      "comparison_basis": "Separate gala and month figures are not summed; no target or prior-year gala result is supplied.",
+      "contradictory_evidence": [
+        {
+          "hash": "b08a32f772019949b2356a4d408c410ef64ee93f57702d4fdb16cabab95b8a13",
+          "locator": "passage:b08a32f772019949b235",
+          "note": "October 29 retrospective passage conflicts with October 20 publication metadata; do not assert that date as verified.",
+          "paragraph_index": 9,
+          "source_url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+        }
+      ],
+      "disposition": "supported_context",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Gala result and date.",
+          "paragraph_index": 8,
+          "source_url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+        },
+        {
+          "hash": "7f41e2eca3497373fe65e1d75c1ec833947db35813defcd7b0513bd2c2ca7c2b",
+          "locator": "passage:7f41e2eca3497373fe65",
+          "note": "Month result with matching contribution.",
+          "paragraph_index": 5,
+          "source_url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. Separate gala and month figures are not summed; no target or prior-year gala result is supplied. Attributed positive campaign results are supported. The October 29 chronology inconsistency is recorded and the source establishes no current unmet revenue decision.",
+      "fact_reason": "Attributed positive campaign results are supported. The October 29 chronology inconsistency is recorded and the source establishes no current unmet revenue decision.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "ca61bbf2f0f939df4dde1feb",
+      "invalidated": false,
+      "next_research_step": "Monitor for a dated campaign comparison or post-campaign donor-retention decision; resolve page chronology before relying on October activity dates.",
+      "observation": "Food Lifeline reports more than USD400,000 raised at its 18 September Dress Down Hunger gala and nearly USD50,000 for Hunger Action Month, including a USD25,000 match.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "September 2026 campaign context; page metadata says 20 October 2026, but another passage retrospectively describes 29 October, an unresolved page chronology inconsistency",
+      "researcher_assessment": "Food Lifeline reports more than USD400,000 raised at its 18 September Dress Down Hunger gala and nearly USD50,000 for Hunger Action Month, including a USD25,000 match. Period and comparison limits: September 2026 campaign context; page metadata says 20 October 2026, but another passage retrospectively describes 29 October, an unresolved page chronology inconsistency; Separate gala and month figures are not summed; no target or prior-year gala result is supplied.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "campaign_performance",
+        "context": {
+          "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+        },
+        "modified_date": null,
+        "publication_date": "2026-10-20",
+        "relevant": {
+          "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+        }
+      },
+      "scope_hash": "c5c862d57f4106695d5931affaddab3a057d19cb90a3e37b7b3710821fe6bbc8",
+      "signal_id": "signal-e30d24146a3d0e4d851f7181",
+      "skeptic_assessment": "Keep month and gala totals separate; missing target prevents performance grading. October 29 described as past conflicts with October 20 metadata; do not attest to that event date.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_name": "Food Lifeline",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "not_relevant",
+      "comparison_basis": "No declining donor count, revenue comparison, target miss or shortfall is stated.",
+      "contradictory_evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Successful fundraising counters the pressure reading.",
+          "paragraph_index": 8,
+          "source_url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+        }
+      ],
+      "disposition": "unsupported",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "evidence": [
+        {
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "locator": "passage:cfe254f4af78c258dd19",
+          "note": "Event name explains the keyword match; result is positive.",
+          "paragraph_index": 8,
+          "source_url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No declining donor count, revenue comparison, target miss or shortfall is stated. This is a lexical false positive: the fundraiser name is not a direction-of-change claim.",
+      "fact_reason": "This is a lexical false positive: the fundraiser name is not a direction-of-change claim.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "ca61bbf2f0f939df4dde1feb",
+      "invalidated": false,
+      "next_research_step": "Keep the pressure interpretation suppressed unless genuinely new dated evidence establishes a decline or gap.",
+      "observation": "The matched term Down occurs in the gala name Dress Down Hunger; the sentence reports more than USD400,000 raised rather than declining fundraising.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "18 September 2026 gala in October 2026 page context; page chronology limitation recorded separately",
+      "researcher_assessment": "The matched term Down occurs in the gala name Dress Down Hunger; the sentence reports more than USD400,000 raised rather than declining fundraising. Period and comparison limits: 18 September 2026 gala in October 2026 page context; page chronology limitation recorded separately; No declining donor count, revenue comparison, target miss or shortfall is stated.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "fundraising_pressure",
+        "context": {
+          "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+        },
+        "modified_date": null,
+        "publication_date": "2026-10-20",
+        "relevant": {
+          "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+        }
+      },
+      "scope_hash": "41f3975e21a49168f71d8c8745d715e9f1580d1a9d5406ff313088aad5d1ad6c",
+      "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8",
+      "skeptic_assessment": "Down is part of the event name; fundraising pressure is a false positive, even though the factual result is supported.",
+      "source_checks_complete": true,
+      "time_status": "historical",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_name": "Seattle Good Business Network",
+      "audit_ids": [
+        "0a9ca146523a2f7b088154d449f0b22d7090a8e729489c56fd51591c325672d2",
+        "dc3eac176f62ba79f92abd272b0db905ce5ffb7e3b60244845a1e3eb375bf687",
+        "78514a4bd57c9e01ca32d57bb68cc892f7b6607c788fddde2777f01ec0b5e121",
+        "96d8465f89458d483b2695187ec6bc12a9eb35d059f468562f9e1a25b52d7d04"
+      ],
+      "candidate_version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac",
+      "commercial_reason": "Potential existing-donor relevance is contextual; no supported current donor-revenue decision with a concrete owner step is established.",
+      "commercial_relevance": "research_required",
+      "comparison_basis": "No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied.",
+      "contradictory_evidence": [],
+      "disposition": "research_required",
+      "document_version": "d58512676f86c123ea7aa78a07bf4cabdf168bca554b0b9374fad397694f0c96",
+      "evidence": [
+        {
+          "hash": "71c62c9f08289f69aca4d634a3248391a298ced4ac8bf4735d73f79840caf2c4",
+          "locator": "passage:71c62c9f08289f69aca4",
+          "note": "Explicit attributed funding cuts and increasing demand.",
+          "paragraph_index": 15,
+          "source_url": "https://www.wagives.org/organization/goodbusinessnetwork"
+        },
+        {
+          "hash": "c45aaaf3eb20da4e146513eb2502e27ca57f841276638a009128b77ef86370b8",
+          "locator": "passage:c45aaaf3eb20da4e1465",
+          "note": "2025 program expenditure/result context, not the cut amount.",
+          "paragraph_index": 12,
+          "source_url": "https://www.wagives.org/organization/goodbusinessnetwork"
+        },
+        {
+          "hash": "4dceaf68ecff1796ef337156ad0b5da6398931cbe726b1757083ae38301352f0",
+          "locator": "passage:4dceaf68ecff1796ef33",
+          "note": "Former name establishes account association.",
+          "paragraph_index": 23,
+          "source_url": "https://www.wagives.org/organization/goodbusinessnetwork"
+        }
+      ],
+      "fact_checker_assessment": "Checked the re-fetched original version, attributed observation, paragraph locators/hashes and reporting dates against the request. No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied. A substantive attributed funding-cut statement exists, beyond a donation button, but its timing and current financial effect are unresolved.",
+      "fact_reason": "A substantive attributed funding-cut statement exists, beyond a donation button, but its timing and current financial effect are unresolved.",
+      "fact_verdict": "supported_attributed",
+      "group_id": "1e89ac9c6a37a40298799be7",
+      "invalidated": false,
+      "next_research_step": "Find a dated budget or public funding decision establishing the cut amount, period and remaining gap.",
+      "observation": "Good Business Network of Washington, formerly Seattle Good Business Network, attributes increasing demand and public funding cuts to its fundraising need. The profile also reports USD526,894 directed to independent businesses in 2025.",
+      "original_read": true,
+      "owner_decision": null,
+      "owner_next_step": null,
+      "reporting_period": "Undated profile; 2025 program results are explicit, but the funding-cut period is not",
+      "researcher_assessment": "Good Business Network of Washington, formerly Seattle Good Business Network, attributes increasing demand and public funding cuts to its fundraising need. The profile also reports USD526,894 directed to independent businesses in 2025. Period and comparison limits: Undated profile; 2025 program results are explicit, but the funding-cut period is not; No funding-cut amount, prior funding baseline, residual deficit or dated demand comparator is supplied.",
+      "reviewed_at": "2026-11-07T16:29:28.872610+00:00",
+      "reviewer": "Codex included desktop assistant; separate sequential QC/researcher/skeptic/fact-checker executions share context and are not independent",
+      "scope": {
+        "category": "financial_pressure",
+        "context": {},
+        "modified_date": null,
+        "publication_date": null,
+        "relevant": {
+          "passage:71c62c9f08289f69aca4": "71c62c9f08289f69aca4d634a3248391a298ced4ac8bf4735d73f79840caf2c4"
+        }
+      },
+      "scope_hash": "bff19e730bc097d06bf88e49c4a9a8b7e151ecc8a3ac2d0b4c738bf17efd9f68",
+      "signal_id": "signal-fd575c91233a256a8e898589",
+      "skeptic_assessment": "Public funding-cut language is substantive but undated; 2025 project delivery does not date or quantify the cut. Hold commercially pending current financial evidence.",
+      "source_checks_complete": false,
+      "time_status": "undated",
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork"
+    }
+  ],
+  "source_issues": [
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "http": 403,
+      "outcome": "blocked",
+      "reason": "HTTP 403",
+      "source": "account-85ed1a4637d7",
+      "url": "https://philanthropy.org/990/report/831742878/hip-hop-is-green"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt disallows this endpoint",
+      "source": "contracts",
+      "url": "https://opendata.vancouver.ca/api/explore/v2.1/catalog/datasets/awarded-contracts/records?where=vendor_name%20like%20%27food%20bank%27&order_by=award_date%20desc&limit=100"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "held",
+      "reason": "First-party report processing held under the inspected personal-use terms. Monitor the account through the official register.",
+      "source": "gvfb",
+      "url": "https://foodbank.bc.ca/2025-impact-report/"
+    },
+    {
+      "at": "2026-11-07T16:23:46.927229+00:00",
+      "outcome": "blocked",
+      "reason": "PermissionError: robots.txt unavailable, HTTP 403",
+      "source": "review-source-9483275a7a63",
+      "url": "https://northdeltarotary.ca/"
+    }
+  ],
+  "verification": "desktop_review_completed"
+}

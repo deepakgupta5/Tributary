@@ -1,0 +1,57 @@
+{
+  "signal-049ff472a878ca7ea0488757": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Food Lifeline identity and dated original confirmed; 2026 Food Frenzy results version/locators match. Success performance, not pressure.",
+    "result": "pass"
+  },
+  "signal-05cb7c7fb182aa89f8d18520": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Surrey identity and CityNews attribution confirmed; original is dated December 2025, not a current development. Version and locators match.",
+    "result": "pass"
+  },
+  "signal-5eff20a2203c656f9bb5c616": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Clark identity and original March publication/July modification confirmed. Both claim flags share one document. Version/locators match; comparative periods and baseline remain unspecified.",
+    "result": "pass"
+  },
+  "signal-606f8881901d692f838825a8": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "FamilyWorks identity/EIN and matching-gift profile confirmed. Version/locators match; campaign dates and performance denominator are missing.",
+    "result": "pass"
+  },
+  "signal-6e9ef48a6633133f4c83bdca": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Clark appointment original matched; increasing-demand wording is contained in a promotion announcement, not evidence of an unfilled operating dependency.",
+    "result": "pass"
+  },
+  "signal-82ce9ff52cb9b7c94898de91": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Surrey June CityNews original matched. Explicit donations-keeping-up counterevidence must accompany any pressure interpretation.",
+    "result": "pass"
+  },
+  "signal-bc6d441f41e791b2b95e57c2": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Clark identity and original March publication/July modification confirmed. Both claim flags share one document. Version/locators match; comparative periods and baseline remain unspecified.",
+    "result": "pass"
+  },
+  "signal-d084a003a8fc3894d6731788": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Surrey recruitment original matched; October 12 publication and November 8 closing are explicit. Annual totals in the copy lack an explicit fiscal period; recruitment is not proof of a blocked donor decision.",
+    "result": "pass"
+  },
+  "signal-e30d24146a3d0e4d851f7181": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Food Lifeline original matched; campaign and fundraising-pressure flags share the document. Publication October 20 conflicts with an October 29 retrospective passage, so retain date limitation separately from gala result.",
+    "result": "pass"
+  },
+  "signal-e9eb4b0e748f8cc244e0a9a8": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Food Lifeline original matched; campaign and fundraising-pressure flags share the document. Publication October 20 conflicts with an October 29 retrospective passage, so retain date limitation separately from gala result.",
+    "result": "pass"
+  },
+  "signal-fd575c91233a256a8e898589": {
+    "actor": "Codex included desktop assistant, shared-session QC responsibility, not independent reviewer",
+    "reason": "Profile explicitly identifies former Seattle Good Business Network name and current organization identity. Original matched; undated funding-cut reporting period is a material research gap.",
+    "result": "pass"
+  }
+}

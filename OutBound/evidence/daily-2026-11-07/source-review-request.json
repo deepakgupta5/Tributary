@@ -1,0 +1,2083 @@
+{
+  "contract": "source-review-v1",
+  "groups": [
+    {
+      "account_id": "911090450",
+      "account_name": "Food Lifeline",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "919a92a28f00389eac65845480706f6edd5612127d1be88d75b6acc6475479f4",
+      "flags": [
+        {
+          "candidate_version": "d411b554f78d1edf4e42df0e0efa7a111d858787a19137940918469e81bf2a91",
+          "category": "campaign_performance",
+          "original_candidate_note": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "campaign_performance",
+            "context": {
+              "passage:37722aa75f372021042e": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4"
+            },
+            "modified_date": null,
+            "publication_date": "2026-08-07",
+            "relevant": {
+              "passage:184fcf7f3a92c2a1c1cb": "184fcf7f3a92c2a1c1cb206f1c8ee7b432cf179af6756a47a38630c78777b8f3",
+              "passage:37722aa75f372021042e": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4",
+              "passage:a21585a24b16ca7888ce": "a21585a24b16ca7888ced2d61576ca50ebc973b2783c105ad35d7c35455c863e",
+              "passage:a93afe9bca13d7daa348": "a93afe9bca13d7daa348b7681b11765cc08bb6297c7c7e960d7e662de56a1c15"
+            }
+          },
+          "scope_hash": "d68fb557da56753237f7d11af7d2054568f87bb9a7fd0bca43943793ff8abf83",
+          "signal_id": "signal-049ff472a878ca7ea0488757"
+        }
+      ],
+      "id": "027207a1c57564a18de4c539",
+      "modified_date": "2026-08-24",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/027207a1c57564a18de4c539/919a92a28f00389eac65845480706f6edd5612127d1be88d75b6acc6475479f4.json",
+      "passages": {
+        "passage:05a8dd7d6b0ab04f5b24": {
+          "checking_excerpt": "",
+          "hash": "05a8dd7d6b0ab04f5b245035e96d31978e6c254ecbb415fe36ab3ed3d2a4e90d",
+          "index": 50
+        },
+        "passage:184fcf7f3a92c2a1c1cb": {
+          "checking_excerpt": "Food Frenzy 2026 Results",
+          "hash": "184fcf7f3a92c2a1c1cb206f1c8ee7b432cf179af6756a47a38630c78777b8f3",
+          "index": 1
+        },
+        "passage:236f2511af218158ae1e": {
+          "checking_excerpt": "",
+          "hash": "236f2511af218158ae1e76d14e7405f7feb5b011898d9a11c2e60d1af06c49be",
+          "index": 57
+        },
+        "passage:263a80c01b37ed58c2be": {
+          "checking_excerpt": "",
+          "hash": "263a80c01b37ed58c2bef666eba4964d492152570528e92583ba88d9985ce200",
+          "index": 44
+        },
+        "passage:2b75e31ea03a2c575a07": {
+          "checking_excerpt": "",
+          "hash": "2b75e31ea03a2c575a07796ad35f88c964f5d23e7115ffca79c98fb9c1a6ec2d",
+          "index": 29
+        },
+        "passage:31044eff23eb19a7e27e": {
+          "checking_excerpt": "",
+          "hash": "31044eff23eb19a7e27ec476c41e4e9e62fa86411e3a5e24e7b35a460e52c4e3",
+          "index": 3
+        },
+        "passage:37722aa75f372021042e": {
+          "checking_excerpt": "We did it! With your support, we surpassed last year’s fundraising total, raising more than $703,000!",
+          "hash": "37722aa75f372021042e6227f9fd17cc36ad4822dbf584f0a7e6d89fdc8de1b4",
+          "index": 2
+        },
+        "passage:3b2ddb5d8eb7f85e765b": {
+          "checking_excerpt": "",
+          "hash": "3b2ddb5d8eb7f85e765b8514bf2b47d670d28ba510f41771c106e634e57a99d9",
+          "index": 42
+        },
+        "passage:4543700cef1340aa7a3f": {
+          "checking_excerpt": "",
+          "hash": "4543700cef1340aa7a3f0156cbc1d4d010c1d1e264e44bef241f122818ab16be",
+          "index": 37
+        },
+        "passage:491e1018004400974c48": {
+          "checking_excerpt": "",
+          "hash": "491e1018004400974c48f75bee1737708eda7cd5c4880301fc68ed912e65c60b",
+          "index": 48
+        },
+        "passage:510121bb92192a931fbb": {
+          "checking_excerpt": "",
+          "hash": "510121bb92192a931fbb23d7517a452da0cf5c15f1dfd3ea6215b802c40a356c",
+          "index": 32
+        },
+        "passage:538c9dfbf26d9ab54915": {
+          "checking_excerpt": "",
+          "hash": "538c9dfbf26d9ab54915ecfab85608fa305bb5b211c8f9632ed6b0870f3e02a3",
+          "index": 6
+        },
+        "passage:5923e755e36e382f7494": {
+          "checking_excerpt": "",
+          "hash": "5923e755e36e382f7494bef93b56533bbf81870239aeb96d2520991bbb9cb0f3",
+          "index": 17
+        },
+        "passage:5c87ec0afa5fa142d2f2": {
+          "checking_excerpt": "",
+          "hash": "5c87ec0afa5fa142d2f279f124e0a9832ed82aa008e12ed4de7d3070f09cd178",
+          "index": 52
+        },
+        "passage:6792ffb353b26f3a5227": {
+          "checking_excerpt": "",
+          "hash": "6792ffb353b26f3a52270d6f5e4fbd62e8daa9d1699020bedee03517b4f53bb4",
+          "index": 49
+        },
+        "passage:6a93fc122e6d3f491bc6": {
+          "checking_excerpt": "",
+          "hash": "6a93fc122e6d3f491bc6b6e9c0d91f5a2d05348bc0d0f44e074490696ba27d18",
+          "index": 47
+        },
+        "passage:73de7ee57a1d135679d7": {
+          "checking_excerpt": "",
+          "hash": "73de7ee57a1d135679d7cba4557a16920c31734d2fbc3b9122a283e77d24d61c",
+          "index": 51
+        },
+        "passage:751866f80fbf6fa81b98": {
+          "checking_excerpt": "",
+          "hash": "751866f80fbf6fa81b9806f23e31b345ae514005e73319465314dff32a7a570d",
+          "index": 33
+        },
+        "passage:80baa4234c6d4a7e7416": {
+          "checking_excerpt": "",
+          "hash": "80baa4234c6d4a7e741679a5fd17030dab23e348e48a67d1a8734c44249aad34",
+          "index": 15
+        },
+        "passage:8781c558bfeb1ff7282b": {
+          "checking_excerpt": "",
+          "hash": "8781c558bfeb1ff7282b74e91bcc70eae1ceaf81fc4564f557690c59beb25e04",
+          "index": 23
+        },
+        "passage:8a44b6b7f391d2778657": {
+          "checking_excerpt": "",
+          "hash": "8a44b6b7f391d2778657dafb8283ce90987ea6281285de5707feb7e688c4a8b0",
+          "index": 27
+        },
+        "passage:8ca3dd6c0c8ba5ae62b9": {
+          "checking_excerpt": "",
+          "hash": "8ca3dd6c0c8ba5ae62b902435bd90c93cc1da8c06272fdb6063fe46b3ab46e8e",
+          "index": 21
+        },
+        "passage:93184650046046d3b8e9": {
+          "checking_excerpt": "",
+          "hash": "93184650046046d3b8e9a99a12174646dc350f3e23a4ffa1f5dd7d6ae88f6db9",
+          "index": 16
+        },
+        "passage:9ba494df5481c58d93d0": {
+          "checking_excerpt": "",
+          "hash": "9ba494df5481c58d93d0df18946391e6661692435e1a9446c96da59b948ead15",
+          "index": 24
+        },
+        "passage:a21585a24b16ca7888ce": {
+          "checking_excerpt": "And now for this year’s Food Frenzy results…",
+          "hash": "a21585a24b16ca7888ced2d61576ca50ebc973b2783c105ad35d7c35455c863e",
+          "index": 4
+        },
+        "passage:a838523cb0fd6e7de214": {
+          "checking_excerpt": "",
+          "hash": "a838523cb0fd6e7de214ce0d49e4b6a9dc8cbb0132b178ff1220b78e00a78d7b",
+          "index": 55
+        },
+        "passage:a93afe9bca13d7daa348": {
+          "checking_excerpt": "FOOD FRENZY 2026 TOTALS:",
+          "hash": "a93afe9bca13d7daa348b7681b11765cc08bb6297c7c7e960d7e662de56a1c15",
+          "index": 5
+        },
+        "passage:aa380a793827abb03d56": {
+          "checking_excerpt": "",
+          "hash": "aa380a793827abb03d56b4592665ef94c0bcbbaad1b27e90e2dcb13f4b8813e8",
+          "index": 13
+        },
+        "passage:b3989d36d054c62c8ecb": {
+          "checking_excerpt": "",
+          "hash": "b3989d36d054c62c8ecb438ee02c212dffcfd5706212f4c9668c680c526d25b8",
+          "index": 41
+        },
+        "passage:b86c27760654a52d6822": {
+          "checking_excerpt": "",
+          "hash": "b86c27760654a52d68221f79a585f92aa5b95725c508dfc97f9316d4dc4b214f",
+          "index": 39
+        },
+        "passage:ba1523e5a6868a60347b": {
+          "checking_excerpt": "",
+          "hash": "ba1523e5a6868a60347b63e883d6396088406aa5774f9aae1a362e10f3f8758d",
+          "index": 56
+        },
+        "passage:c75db18b4892d99f686f": {
+          "checking_excerpt": "",
+          "hash": "c75db18b4892d99f686f700d1d3c81dca099302155b5dff072a9c42989038ba8",
+          "index": 43
+        },
+        "passage:c8f379b5a7282fe61781": {
+          "checking_excerpt": "",
+          "hash": "c8f379b5a7282fe6178178a173fd0ebeb1b88c619115737516446e902dbebaf6",
+          "index": 31
+        },
+        "passage:cf0a761e07bd20eab9bc": {
+          "checking_excerpt": "",
+          "hash": "cf0a761e07bd20eab9bc08942f09745b8dba02606a32c6163ba67852e972e940",
+          "index": 7
+        },
+        "passage:d1b326180084083bea7f": {
+          "checking_excerpt": "",
+          "hash": "d1b326180084083bea7f5f62cf1e0f1a1f583bf3403994e7a7cd42a33a47ea6e",
+          "index": 40
+        },
+        "passage:de5fc79e5429f2c91755": {
+          "checking_excerpt": "",
+          "hash": "de5fc79e5429f2c91755249579d9bde12ce9042a16be67d4eba917c05732076c",
+          "index": 28
+        },
+        "passage:de750141d0750f34708d": {
+          "checking_excerpt": "",
+          "hash": "de750141d0750f34708d984e58c1c9a68bb6aee45e41c4a2970006d53b0c15a9",
+          "index": 8
+        },
+        "passage:e06eaca87aab321461ee": {
+          "checking_excerpt": "",
+          "hash": "e06eaca87aab321461ee0a30dc84d54d998af21f39773aad11830f235d2238c5",
+          "index": 25
+        },
+        "passage:ed2b2b6f0b8e28cdccd4": {
+          "checking_excerpt": "",
+          "hash": "ed2b2b6f0b8e28cdccd44c24f303565ba2f799888d7bef2a6e206f7258cd7645",
+          "index": 9
+        },
+        "passage:eeb0a188c3c5bc6cfb9e": {
+          "checking_excerpt": "",
+          "hash": "eeb0a188c3c5bc6cfb9e7de5c2f9711297988c84d38ec82083ebbb09e139c463",
+          "index": 46
+        },
+        "passage:f3a132e2384174ae2605": {
+          "checking_excerpt": "",
+          "hash": "f3a132e2384174ae2605276b77f4b219ead6a9210ee0fe43a91bcffda3394863",
+          "index": 54
+        },
+        "passage:fc5bf35309bd5f1e95cf": {
+          "checking_excerpt": "",
+          "hash": "fc5bf35309bd5f1e95cffb7f23920dbbcd892312f1fa8a720b183dcaac48bab9",
+          "index": 53
+        }
+      },
+      "publication_date": "2026-08-07",
+      "url": "https://foodlifeline.org/article/food-frenzy-2026-results"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "1542764672bb8dcf312b3fe6e8ab491f70ce3eed83bd51bc02581bcf5a5d6a78",
+      "flags": [
+        {
+          "candidate_version": "cf90e73c73639f60551daea434dd5b5d648d1edf2eb23944e2830b99eea7b225",
+          "category": "operational_strain",
+          "original_candidate_note": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "operational_strain",
+            "context": {
+              "passage:31ed396512a53ce2fba7": "31ed396512a53ce2fba738f69172e00f8df6740ca7478d7068ce03b948a789f6"
+            },
+            "modified_date": null,
+            "publication_date": "2025-12-25",
+            "relevant": {
+              "passage:4b2e63c7a410a55fc32b": "4b2e63c7a410a55fc32b7713e15a4626eb299510b2b4187f8ec26858c02cb138",
+              "passage:58c93334087711846382": "58c93334087711846382da6a46d4f6a373df2c5f5d13a33cce7c49dda42864ef",
+              "passage:e52fbfaa81499c02b9a7": "e52fbfaa81499c02b9a76d3afffa7d4f7356227de83100507c4197f460fd4904"
+            }
+          },
+          "scope_hash": "16ec0caba1df261a7614ba7cd7346400045f4583599033cd6dfa8a842e282601",
+          "signal_id": "signal-05cb7c7fb182aa89f8d18520"
+        }
+      ],
+      "id": "1734073a23e2646622bc117b",
+      "modified_date": "2025-12-25",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/1734073a23e2646622bc117b/1542764672bb8dcf312b3fe6e8ab491f70ce3eed83bd51bc02581bcf5a5d6a78.json",
+      "passages": {
+        "passage:02db66468bda38683979": {
+          "checking_excerpt": "",
+          "hash": "02db66468bda38683979bb4733424070c193b850f2262573a5fcaaf526b0cd00",
+          "index": 15
+        },
+        "passage:1a1e721bac585aeea2b8": {
+          "checking_excerpt": "",
+          "hash": "1a1e721bac585aeea2b8c31019808060bf8fb49ca432b31f39a2f48981b79fd5",
+          "index": 25
+        },
+        "passage:1c5dd2f8781892a59928": {
+          "checking_excerpt": "",
+          "hash": "1c5dd2f8781892a5992836368a62948e85bde49d014f865c2ee3e3036f48fb6f",
+          "index": 21
+        },
+        "passage:1e1fc7890370c62bdf36": {
+          "checking_excerpt": "",
+          "hash": "1e1fc7890370c62bdf368ea04d1379e6566f104fa3d89343501c4a05480dc0bd",
+          "index": 26
+        },
+        "passage:28e38cedc100a90725da": {
+          "checking_excerpt": "",
+          "hash": "28e38cedc100a90725dae23e05b8bf7bc9c26ccf1e02b7806ce90205b9a4a6d7",
+          "index": 8
+        },
+        "passage:2a86477c5e4c6dfe0e59": {
+          "checking_excerpt": "",
+          "hash": "2a86477c5e4c6dfe0e59e9fe5748f2e4fbfee3eb21d8a4a6a9cda6bcb1ca5a9d",
+          "index": 22
+        },
+        "passage:2e422db3c36e6b195f76": {
+          "checking_excerpt": "",
+          "hash": "2e422db3c36e6b195f761e92fcd69f1ac9d7a3825d85f017f5e2fe4089962cdb",
+          "index": 6
+        },
+        "passage:31ed396512a53ce2fba7": {
+          "checking_excerpt": "“We’re hanging in there. Obviously, for a lot of charities it’s tough. We’ve been very proactive to put a lot of heart and hustle into fundraising and raising awareness about the need. The community is responding but we’re just hovering right at that point of having just enough for everybody.”",
+          "hash": "31ed396512a53ce2fba738f69172e00f8df6740ca7478d7068ce03b948a789f6",
+          "index": 9
+        },
+        "passage:45f07e0ecfba864b4953": {
+          "checking_excerpt": "",
+          "hash": "45f07e0ecfba864b4953a02d9ccf6151228d5bd58d41d65af3aef84cf8ee8a7f",
+          "index": 3
+        },
+        "passage:4b2e63c7a410a55fc32b": {
+          "checking_excerpt": "Looking ahead to 2026, Savage is trying to remain optimistic they’ll be able to serve the growing demand.",
+          "hash": "4b2e63c7a410a55fc32b7713e15a4626eb299510b2b4187f8ec26858c02cb138",
+          "index": 20
+        },
+        "passage:58c93334087711846382": {
+          "checking_excerpt": "‘A record no one wants’: Surrey Food Bank usage at all-time high ahead of Thanksgiving",
+          "hash": "58c93334087711846382da6a46d4f6a373df2c5f5d13a33cce7c49dda42864ef",
+          "index": 16
+        },
+        "passage:5984105462aaef36b764": {
+          "checking_excerpt": "",
+          "hash": "5984105462aaef36b7641159a8e76688446e6b012df42696039cec6b692b9fee",
+          "index": 24
+        },
+        "passage:5bc257b8b76771ea1362": {
+          "checking_excerpt": "",
+          "hash": "5bc257b8b76771ea1362cbb4771811c29127de07ed918c267b810757f214344d",
+          "index": 7
+        },
+        "passage:5ec99b1e6f3a89e2d7a0": {
+          "checking_excerpt": "",
+          "hash": "5ec99b1e6f3a89e2d7a0a90f220f746ee14091c7388e66054acc5fc452c80b33",
+          "index": 27
+        },
+        "passage:660f51dad6d44358c57c": {
+          "checking_excerpt": "",
+          "hash": "660f51dad6d44358c57ce622171b518b730757a90f918db02260f52150c60ffa",
+          "index": 18
+        },
+        "passage:6d6a85537797ddd4efdb": {
+          "checking_excerpt": "",
+          "hash": "6d6a85537797ddd4efdb648c4365f33281b8ac59288b6d74e08757fba4cfce6d",
+          "index": 4
+        },
+        "passage:86bc5dc8b8ecc3815985": {
+          "checking_excerpt": "",
+          "hash": "86bc5dc8b8ecc3815985fd5490d48af5219bd4f2b619fd799ad236a0df232ae6",
+          "index": 14
+        },
+        "passage:a4920aa5cb2a04a78092": {
+          "checking_excerpt": "",
+          "hash": "a4920aa5cb2a04a78092fa25b77442ca66339d12c6fa8f0f451b3d41640d1636",
+          "index": 1
+        },
+        "passage:af331ef41182190b773d": {
+          "checking_excerpt": "",
+          "hash": "af331ef41182190b773db230ef72d624c66ba3732d8ee25bf93be053783171b9",
+          "index": 23
+        },
+        "passage:b0c1e35027331dd4d8de": {
+          "checking_excerpt": "",
+          "hash": "b0c1e35027331dd4d8de67a146ffd87f5c7c23111852de65afe32ec49ba9fb04",
+          "index": 10
+        },
+        "passage:b16da0692e0c1369333d": {
+          "checking_excerpt": "",
+          "hash": "b16da0692e0c1369333d0f58e3537c3de9957db8d1c5abf12039052cbd52142d",
+          "index": 12
+        },
+        "passage:b2072cfd2beed5217b0a": {
+          "checking_excerpt": "",
+          "hash": "b2072cfd2beed5217b0a73a257165f393e77cab29912ce9fde20273550a02a1e",
+          "index": 13
+        },
+        "passage:b3acb32b10e427b82e63": {
+          "checking_excerpt": "",
+          "hash": "b3acb32b10e427b82e633116b567009f9e01e48ef0ba354ac088408b8663fef6",
+          "index": 5
+        },
+        "passage:b412b666047790cb61d8": {
+          "checking_excerpt": "",
+          "hash": "b412b666047790cb61d8b163194e12a0a3ccc8712eb2d79acbac9d8921b98216",
+          "index": 19
+        },
+        "passage:d39faac24a5e14ff7b6f": {
+          "checking_excerpt": "",
+          "hash": "d39faac24a5e14ff7b6f93e280244e6bf2e19caf19a5b81f79743bbed9e7e02a",
+          "index": 11
+        },
+        "passage:d9fc28767c085aeefac1": {
+          "checking_excerpt": "",
+          "hash": "d9fc28767c085aeefac192b8b029dd4ba118076a5925f0bd2ad16664ce45b06d",
+          "index": 2
+        },
+        "passage:e52fbfaa81499c02b9a7": {
+          "checking_excerpt": "Surrey Food Bank breaks record for usage",
+          "hash": "e52fbfaa81499c02b9a76d3afffa7d4f7356227de83100507c4197f460fd4904",
+          "index": 17
+        }
+      },
+      "publication_date": "2025-12-25",
+      "url": "https://vancouver.citynews.ca/2025/12/25/surrey-bc-food-bank-creative-keep-shelves-full"
+    },
+    {
+      "account_id": "272172486",
+      "account_name": "Seattle Good Business Network",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "d58512676f86c123ea7aa78a07bf4cabdf168bca554b0b9374fad397694f0c96",
+      "flags": [
+        {
+          "candidate_version": "af7c9f76c1f9dc0f38e4dba4fc958e5f9e54613a775743079c9524db2c0bffac",
+          "category": "financial_pressure",
+          "original_candidate_note": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "financial_pressure",
+            "context": {},
+            "modified_date": null,
+            "publication_date": null,
+            "relevant": {
+              "passage:71c62c9f08289f69aca4": "71c62c9f08289f69aca4d634a3248391a298ced4ac8bf4735d73f79840caf2c4"
+            }
+          },
+          "scope_hash": "bff19e730bc097d06bf88e49c4a9a8b7e151ecc8a3ac2d0b4c738bf17efd9f68",
+          "signal_id": "signal-fd575c91233a256a8e898589"
+        }
+      ],
+      "id": "1e89ac9c6a37a40298799be7",
+      "modified_date": null,
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/1e89ac9c6a37a40298799be7/d58512676f86c123ea7aa78a07bf4cabdf168bca554b0b9374fad397694f0c96.json",
+      "passages": {
+        "passage:00fe1c2b5f25cda55371": {
+          "checking_excerpt": "",
+          "hash": "00fe1c2b5f25cda55371cab567032e64dd20a0f57a9a50836f8472b5fff21fd8",
+          "index": 1
+        },
+        "passage:0a3b9b9ce7f510518511": {
+          "checking_excerpt": "",
+          "hash": "0a3b9b9ce7f5105185115ed99ebf15c873d33a973f60d8c3293e0374175aafb2",
+          "index": 11
+        },
+        "passage:0b04f9cf214d4501b6b7": {
+          "checking_excerpt": "",
+          "hash": "0b04f9cf214d4501b6b7ec2fb4a182200e33f776969a491168961638e2216314",
+          "index": 9
+        },
+        "passage:2a29ad183512f3954336": {
+          "checking_excerpt": "",
+          "hash": "2a29ad183512f3954336147c444e32297b8f6319d0538305a463618414e10734",
+          "index": 22
+        },
+        "passage:2f033a18c64e0fd71453": {
+          "checking_excerpt": "",
+          "hash": "2f033a18c64e0fd714531df86dd54d35e42a59c4a0874db58864a9ff9f3ec3fc",
+          "index": 29
+        },
+        "passage:3005cb6901114f22f1a8": {
+          "checking_excerpt": "",
+          "hash": "3005cb6901114f22f1a8c7c08410d8217dd07dc36b55b42426eed5510eb766c5",
+          "index": 6
+        },
+        "passage:324565a746588d9ecd67": {
+          "checking_excerpt": "",
+          "hash": "324565a746588d9ecd678c2f5033708a749526c3d02b2ce64ac18916ce588718",
+          "index": 8
+        },
+        "passage:3c4ac05873e2d270d50b": {
+          "checking_excerpt": "",
+          "hash": "3c4ac05873e2d270d50b80b9b510abffa2dd318641adef0abca44cf25b495a84",
+          "index": 18
+        },
+        "passage:4dceaf68ecff1796ef33": {
+          "checking_excerpt": "",
+          "hash": "4dceaf68ecff1796ef337156ad0b5da6398931cbe726b1757083ae38301352f0",
+          "index": 23
+        },
+        "passage:5837bb203e86cdbe3629": {
+          "checking_excerpt": "",
+          "hash": "5837bb203e86cdbe3629d90ee0811386ae5004d5762dabed1888a2dfef8c83b2",
+          "index": 13
+        },
+        "passage:662ca000782ef6436442": {
+          "checking_excerpt": "",
+          "hash": "662ca000782ef64364425e8cbb5c8d5248cc44cc5c9c1ebfe3fae5fbbc522659",
+          "index": 28
+        },
+        "passage:70ddfb481dec2006c401": {
+          "checking_excerpt": "",
+          "hash": "70ddfb481dec2006c401ad3ec2ef71ec5d109bd9e4fd3cae16c3e366f6c9f8fc",
+          "index": 4
+        },
+        "passage:71c62c9f08289f69aca4": {
+          "checking_excerpt": "Like many nonprofits, we're navigating significant public funding cuts while demand for our work grows. Businesses need us. Communities need us. And we need you.",
+          "hash": "71c62c9f08289f69aca4d634a3248391a298ced4ac8bf4735d73f79840caf2c4",
+          "index": 15
+        },
+        "passage:740401a6781bdd8c1ecc": {
+          "checking_excerpt": "",
+          "hash": "740401a6781bdd8c1ecc45439bb177c037ca364e57f15e5e68772c89097f533f",
+          "index": 32
+        },
+        "passage:8a86fcd6cf579904f4ad": {
+          "checking_excerpt": "",
+          "hash": "8a86fcd6cf579904f4adb9badce5c67b7454b84032d62fd4416a4f3a8b7e61b0",
+          "index": 2
+        },
+        "passage:8e63ed1148fba69f4998": {
+          "checking_excerpt": "",
+          "hash": "8e63ed1148fba69f4998195ec2ea67a1152cc279bba4257aaafa4cebba5fccfe",
+          "index": 35
+        },
+        "passage:92a770844f9b2f503608": {
+          "checking_excerpt": "",
+          "hash": "92a770844f9b2f503608741b0f5adf741bf3fa88978bbab6ede1bbf5200c52cf",
+          "index": 7
+        },
+        "passage:9383e285edd43b192db6": {
+          "checking_excerpt": "",
+          "hash": "9383e285edd43b192db69f45ba33214b77c8b9406cf988f17794177786d5f033",
+          "index": 3
+        },
+        "passage:9c29154c30716ec17780": {
+          "checking_excerpt": "",
+          "hash": "9c29154c30716ec17780ee06a7890918c9535d6d7bd431d627b23888a31ba5f4",
+          "index": 21
+        },
+        "passage:a224c0b7b98cfc658bcf": {
+          "checking_excerpt": "",
+          "hash": "a224c0b7b98cfc658bcfb9ac41ded41ba5edf776a86104cf7fd47ac81000fe4f",
+          "index": 30
+        },
+        "passage:a3603253bc308b52ca14": {
+          "checking_excerpt": "",
+          "hash": "a3603253bc308b52ca1458faa32d2a2746abac030d91088e3b2c5944e65af3f7",
+          "index": 16
+        },
+        "passage:a49652003d49dd96266c": {
+          "checking_excerpt": "",
+          "hash": "a49652003d49dd96266c6093150d222e7218296aa0a600be32d24d0648787d58",
+          "index": 10
+        },
+        "passage:abc915739a4ab92ea7a3": {
+          "checking_excerpt": "",
+          "hash": "abc915739a4ab92ea7a3c7080dd16cf8400c2f16e830d40d4f50e48cb1408b90",
+          "index": 5
+        },
+        "passage:acd859b983975bd86a56": {
+          "checking_excerpt": "",
+          "hash": "acd859b983975bd86a562e1cd71f3a767838093766a5107f82b486abc4804e43",
+          "index": 36
+        },
+        "passage:acfd767e637f9f314e45": {
+          "checking_excerpt": "",
+          "hash": "acfd767e637f9f314e4536f27db164df280f03b9836680f54dc912594f7f3653",
+          "index": 33
+        },
+        "passage:ada47d201669620799fc": {
+          "checking_excerpt": "",
+          "hash": "ada47d201669620799fc7d50009f118f8e2bf9377ed1bb07196cc5a7abf3d188",
+          "index": 37
+        },
+        "passage:c45aaaf3eb20da4e1465": {
+          "checking_excerpt": "",
+          "hash": "c45aaaf3eb20da4e146513eb2502e27ca57f841276638a009128b77ef86370b8",
+          "index": 12
+        },
+        "passage:c45e0f7d54855c363df9": {
+          "checking_excerpt": "",
+          "hash": "c45e0f7d54855c363df9ce097f3b7ab2f55d009728314d2bf575edf3ffd27ca6",
+          "index": 24
+        },
+        "passage:cd55b2db2c786348d241": {
+          "checking_excerpt": "",
+          "hash": "cd55b2db2c786348d24155c3f0a0d8a18eb70d190468329f939c5544a38a12e6",
+          "index": 25
+        },
+        "passage:d448c0e0f65da7948e3e": {
+          "checking_excerpt": "",
+          "hash": "d448c0e0f65da7948e3edb7805b5272b54f75f427c33333157324b626f5ca51f",
+          "index": 27
+        },
+        "passage:d5511d58ae89a5136544": {
+          "checking_excerpt": "",
+          "hash": "d5511d58ae89a5136544686b7e471128789e3309c2ec9b520c217067f6abb75d",
+          "index": 31
+        },
+        "passage:d71bd8bd27daa940c68d": {
+          "checking_excerpt": "",
+          "hash": "d71bd8bd27daa940c68d7b07f7e332bb5212ec4647eb45657904b96e2d19db55",
+          "index": 34
+        },
+        "passage:de46a45ced4697015845": {
+          "checking_excerpt": "",
+          "hash": "de46a45ced4697015845d3f118403fe727f9bb926139ef920a5832f8e96b7274",
+          "index": 26
+        },
+        "passage:e0e9dcd5c7e975767a1b": {
+          "checking_excerpt": "",
+          "hash": "e0e9dcd5c7e975767a1b1fa3da80c1e30e43039b801687bc8629d02655c923da",
+          "index": 20
+        },
+        "passage:ecd2afdc1fbd8e51c7f6": {
+          "checking_excerpt": "",
+          "hash": "ecd2afdc1fbd8e51c7f64e5436175ded9ee0dec2385124be8f299a004db68a7d",
+          "index": 17
+        },
+        "passage:fa7209f7c1fdc81517fd": {
+          "checking_excerpt": "",
+          "hash": "fa7209f7c1fdc81517fd09d62d7771cb961007e7963b2bf5dc3fdba167ffc9c5",
+          "index": 19
+        },
+        "passage:fc1ddf998764a0d6fa04": {
+          "checking_excerpt": "",
+          "hash": "fc1ddf998764a0d6fa04384b6fa72325c661169ae9a3b7756c42155cab3aced0",
+          "index": 14
+        }
+      },
+      "publication_date": null,
+      "url": "https://www.wagives.org/organization/goodbusinessnetwork"
+    },
+    {
+      "account_id": "911307564",
+      "account_name": "CLARK COUNTY FOOD BANK",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9",
+      "flags": [
+        {
+          "candidate_version": "941e8f4413e92711c2e1e3c80e9f5321cf080c203a12f2ad13bc5491642d98de",
+          "category": "operational_strain",
+          "original_candidate_note": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "operational_strain",
+            "context": {
+              "passage:ac567f8bb63c6da075bd": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b"
+            },
+            "modified_date": null,
+            "publication_date": "2026-03-20",
+            "relevant": {
+              "passage:5191c07c04a5e18690b0": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca"
+            }
+          },
+          "scope_hash": "3d0bb7ec301014368b7bca5e1fc3e5045762b8ebbd944ad9d4aa36da1c6bf36e",
+          "signal_id": "signal-5eff20a2203c656f9bb5c616"
+        },
+        {
+          "candidate_version": "f511a7d99403c46a69161f59d3b4d12e6dbbab22da8bd023fe3992610b0f00fb",
+          "category": "financial_pressure",
+          "original_candidate_note": "Publication contains wording potentially relevant to financial pressure. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "financial_pressure",
+            "context": {
+              "passage:ac567f8bb63c6da075bd": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b"
+            },
+            "modified_date": null,
+            "publication_date": "2026-03-20",
+            "relevant": {
+              "passage:8e9ebb120ecc4902b2bd": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0"
+            }
+          },
+          "scope_hash": "06ee45287967625a34f6256c766808d34b2184891da741c719e158c877c03e69",
+          "signal_id": "signal-bc6d441f41e791b2b95e57c2"
+        }
+      ],
+      "id": "7055ea2edc68fa0129c00432",
+      "modified_date": "2026-07-09",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/7055ea2edc68fa0129c00432/eb069a8f8e3b928f83f5b97b2f7560ed47ca0d0a1d2ad3ab1cc6c7945bb160e9.json",
+      "passages": {
+        "passage:3052bb9dc409a8827ea9": {
+          "checking_excerpt": "In a year of change, steady leadership and a committed community kept food access moving forward. That momentum continues as CCFB looks ahead, grounded in partnership and focused on long-term solutions.",
+          "hash": "3052bb9dc409a8827ea921c1fb5299b314ad34cc88f6f93da44048b0b784042a",
+          "index": 7
+        },
+        "passage:5191c07c04a5e18690b0": {
+          "checking_excerpt": "Rather than shrink in the face of uncertainty, the board and leadership team chose to dig deeper and expand. As SNAP benefits were disrupted and households faced sudden uncertainty, the impact was immediate. CCFB saw a 56% increase in clients seeking support. In response, food distribution efforts grew to meet rising demand, and Food+ Programs strengthened support beyond groceries alone. Food+ Finance workshops focus",
+          "hash": "5191c07c04a5e18690b0683004a1727b8cd55ffa054266ab97c2019a9fb614ca",
+          "index": 5
+        },
+        "passage:71ae28235f2e99dfe8b0": {
+          "checking_excerpt": "A Year of Growth: Strengthened by Community",
+          "hash": "71ae28235f2e99dfe8b082c74bbca6c0de452781eb830e91988a4cc59d74f9ff",
+          "index": 1
+        },
+        "passage:81f695fdb94ccaf15c05": {
+          "checking_excerpt": "Emily Straw, President",
+          "hash": "81f695fdb94ccaf15c051b4cb25e251fd3b858c7d5899a300e4d6754c4889097",
+          "index": 2
+        },
+        "passage:8e9ebb120ecc4902b2bd": {
+          "checking_excerpt": "From the beginning, Emily has strengthened the organization while proactively adapting to evolving community needs. That balance was tested in real time. CCFB faced the loss of nearly $900,000 in government funding. In addition, the pause of the AmeriCorps program resulted in the loss of nine team members whose contributions were essential to daily operations. Their absence was deeply felt, and the transition require",
+          "hash": "8e9ebb120ecc4902b2bdd389bdfff2e893022dcf55f9edb1ca721186c5ba36c0",
+          "index": 4
+        },
+        "passage:ac567f8bb63c6da075bd": {
+          "checking_excerpt": "The community responded just as quickly. Volunteer inquiries increased by 732%, and donor support rose by 132% compared to this time last year. “The strength of this organization has always come from our community,” shared Emily. “When we face change, it’s our partnerships, our volunteers, and our donors who help carry this work forward.” That spirit of collaboration had immediate and meaningful impact. Families were",
+          "hash": "ac567f8bb63c6da075bdc66c94774c94ad31b191bab6c3c841dafb3184920c5b",
+          "index": 6
+        },
+        "passage:f3af3e618136b7c4767a": {
+          "checking_excerpt": "This past year marked an important milestone for CCFB as Emily Straw completed her first full year as President. It was a year defined by transition, resilience, and a renewed focus on how we show up for neighbors across Clark County.",
+          "hash": "f3af3e618136b7c4767a299be03d5a7a938a82e0be4bbb2ea2f0ff6e7a2adf23",
+          "index": 3
+        }
+      },
+      "publication_date": "2026-03-20",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/yearofgrowth"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "047d7ebb3e41b7148cba2f0127bacd84ae23dc417439e3d5239f0e7d0af44912",
+      "flags": [
+        {
+          "candidate_version": "476f7f9fecd5a695929a07a5f5d22b1da0b23a1af1ba4116a2d3b8bfa04119f6",
+          "category": "fundraising_pressure",
+          "original_candidate_note": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "fundraising_pressure",
+            "context": {
+              "passage:2df375b0a720b79b6396": "2df375b0a720b79b6396ad16fc9ab6a2a5777bae5765114e376ecd99da5ccc26",
+              "passage:b75b25240ab18e31d167": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+              "passage:fd840718772cac733588": "fd840718772cac733588081e64c205f4da1b0a275824646ed025bc755ae2632b"
+            },
+            "modified_date": null,
+            "publication_date": "2026-06-11",
+            "relevant": {
+              "passage:1e03abf7b6ffdc0ae6f3": "1e03abf7b6ffdc0ae6f3044cd7d3a5eebe4565098c78f055adef858e4583d7df"
+            }
+          },
+          "scope_hash": "50dc18431f123d1a12971f4593c39af7af7704fc48eb0a4e0bf0ab1ca8bb6e89",
+          "signal_id": "signal-82ce9ff52cb9b7c94898de91"
+        }
+      ],
+      "id": "8d53b97c5c9ac6bc3f541041",
+      "modified_date": "2026-06-11",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/8d53b97c5c9ac6bc3f541041/047d7ebb3e41b7148cba2f0127bacd84ae23dc417439e3d5239f0e7d0af44912.json",
+      "passages": {
+        "passage:02db66468bda38683979": {
+          "checking_excerpt": "",
+          "hash": "02db66468bda38683979bb4733424070c193b850f2262573a5fcaaf526b0cd00",
+          "index": 9
+        },
+        "passage:069ba7ce196a2a2514b5": {
+          "checking_excerpt": "",
+          "hash": "069ba7ce196a2a2514b5127d026571b20033e44338307dde32eea28572ea14e4",
+          "index": 30
+        },
+        "passage:0de42aa3eb1de09e050a": {
+          "checking_excerpt": "",
+          "hash": "0de42aa3eb1de09e050a9906da57778c48456ee7a204f5e06ade372f014c3676",
+          "index": 32
+        },
+        "passage:1e03abf7b6ffdc0ae6f3": {
+          "checking_excerpt": "Vancouver councillors warn school lunch program is facing funding shortfall",
+          "hash": "1e03abf7b6ffdc0ae6f3044cd7d3a5eebe4565098c78f055adef858e4583d7df",
+          "index": 11
+        },
+        "passage:24fac31f352717a76a71": {
+          "checking_excerpt": "",
+          "hash": "24fac31f352717a76a71281ae823600472f36a88517c0f975d4bfa1824b72da1",
+          "index": 1
+        },
+        "passage:2b96ab57217340c5d8d8": {
+          "checking_excerpt": "",
+          "hash": "2b96ab57217340c5d8d8ae27c4da8742279034113f65f4699aab55eab0fcac8e",
+          "index": 22
+        },
+        "passage:2df375b0a720b79b6396": {
+          "checking_excerpt": "She explains as jobs disappear to newer or improved technology, that’s also driving up usage.",
+          "hash": "2df375b0a720b79b6396ad16fc9ab6a2a5777bae5765114e376ecd99da5ccc26",
+          "index": 28
+        },
+        "passage:355f69fc5ad8a73f0db7": {
+          "checking_excerpt": "",
+          "hash": "355f69fc5ad8a73f0db749346ec4fd31015f25f378442c9d9a528dc15d08d7e3",
+          "index": 12
+        },
+        "passage:483856f4d25b13d1c213": {
+          "checking_excerpt": "",
+          "hash": "483856f4d25b13d1c2131618ee511c5936a048c5f5e3542ff44d71c223f0e00e",
+          "index": 31
+        },
+        "passage:6532e0e85e310ce4eb9e": {
+          "checking_excerpt": "",
+          "hash": "6532e0e85e310ce4eb9e8b5351d8efe845f9c3f6e981d80d13e7518a90b47b86",
+          "index": 20
+        },
+        "passage:749d6c3863fc93cee729": {
+          "checking_excerpt": "",
+          "hash": "749d6c3863fc93cee729e5ad582c58d271d54e0595e90abe80180f1f264b7789",
+          "index": 14
+        },
+        "passage:74aafea03a43e7bbc330": {
+          "checking_excerpt": "",
+          "hash": "74aafea03a43e7bbc3304d859e921a6c2710e8e01fca33e39278c8828def2e97",
+          "index": 6
+        },
+        "passage:815faa78ce8772309605": {
+          "checking_excerpt": "",
+          "hash": "815faa78ce87723096058c2a18d11a24cfa9c945be9b4afbf9fb999ff1df3e48",
+          "index": 29
+        },
+        "passage:86bc5dc8b8ecc3815985": {
+          "checking_excerpt": "",
+          "hash": "86bc5dc8b8ecc3815985fd5490d48af5219bd4f2b619fd799ad236a0df232ae6",
+          "index": 7
+        },
+        "passage:9221a0a6e6886b183dcf": {
+          "checking_excerpt": "",
+          "hash": "9221a0a6e6886b183dcf0e4ac47c13ff45e6e3ec1c033c5b20789a778e1b8444",
+          "index": 16
+        },
+        "passage:93378e80af92fdb006c5": {
+          "checking_excerpt": "",
+          "hash": "93378e80af92fdb006c5f85f05e3a1aa006701e6ff824eaa44e13c7e3da120d4",
+          "index": 13
+        },
+        "passage:96bb178ae0cd23c160d5": {
+          "checking_excerpt": "",
+          "hash": "96bb178ae0cd23c160d5c7f816f6769d98591c8cb088b4fabbf73cd32beefa87",
+          "index": 21
+        },
+        "passage:a5cfe261cd5296c42e36": {
+          "checking_excerpt": "",
+          "hash": "a5cfe261cd5296c42e36a65f4aabf4c0fb8f8f600d4ccfe23054f2485e4706ac",
+          "index": 4
+        },
+        "passage:a9684c6983ac845b17c6": {
+          "checking_excerpt": "",
+          "hash": "a9684c6983ac845b17c6d4734717a6024a2594f383d99c81cfbf1ad597b5737f",
+          "index": 23
+        },
+        "passage:ae13704a531b51d8c18c": {
+          "checking_excerpt": "",
+          "hash": "ae13704a531b51d8c18c147d95cb3553a35e906be44f64e494f8999fb3af35ad",
+          "index": 17
+        },
+        "passage:b6553d9a028fcff3ac37": {
+          "checking_excerpt": "",
+          "hash": "b6553d9a028fcff3ac371e73c93c64b4b14a2d9e09aff3c0fe3b97c89306f731",
+          "index": 24
+        },
+        "passage:b75b25240ab18e31d167": {
+          "checking_excerpt": "Surrey Food Bank executive director Kim Savage tells 1130 NewsRadio that donations are keeping up with demand right now, but concerns linger.",
+          "hash": "b75b25240ab18e31d1674f7008403ea3e996b6c724c491f5488793e3dceaca92",
+          "index": 5
+        },
+        "passage:bd913ebb54b210d3e7a4": {
+          "checking_excerpt": "",
+          "hash": "bd913ebb54b210d3e7a46438239aaf9fdf4ff0cd60f2f4ab8f8c9a82785166f3",
+          "index": 19
+        },
+        "passage:caaeaa8180afc85f9703": {
+          "checking_excerpt": "",
+          "hash": "caaeaa8180afc85f97035ae93e46f3fc7e0ad2e2fe475c6c31f74f7ac684f361",
+          "index": 8
+        },
+        "passage:cc864562620a0054d373": {
+          "checking_excerpt": "",
+          "hash": "cc864562620a0054d3738c6d8bb5b2c99ce7b42f2e162674bde0c1882732edb5",
+          "index": 10
+        },
+        "passage:d2135264bc144a92b602": {
+          "checking_excerpt": "",
+          "hash": "d2135264bc144a92b602139703de6a77607fe61a3449db7eedddc95feb36a3d3",
+          "index": 3
+        },
+        "passage:d7aae6044dd4d7c0590b": {
+          "checking_excerpt": "",
+          "hash": "d7aae6044dd4d7c0590b91217aeb10d3a222f61310c9f27445355b19a5841eec",
+          "index": 15
+        },
+        "passage:d9fc28767c085aeefac1": {
+          "checking_excerpt": "",
+          "hash": "d9fc28767c085aeefac192b8b029dd4ba118076a5925f0bd2ad16664ce45b06d",
+          "index": 2
+        },
+        "passage:dd94195b9b9b77abcdad": {
+          "checking_excerpt": "",
+          "hash": "dd94195b9b9b77abcdadbc3cf0fd735e0afad1f50d07fe50f67b73b0226451d2",
+          "index": 18
+        },
+        "passage:e7e8188770f2eda4ee98": {
+          "checking_excerpt": "",
+          "hash": "e7e8188770f2eda4ee9867c6199aaf186df5e6bbe7e40b6d24164203ee150c50",
+          "index": 25
+        },
+        "passage:f25cbe68062156644d41": {
+          "checking_excerpt": "",
+          "hash": "f25cbe68062156644d410c81757a31c9f573878d22c0e51006f761b0b2bc8783",
+          "index": 27
+        },
+        "passage:fd840718772cac733588": {
+          "checking_excerpt": "Savage says it starts with improved access to jobs and wages that keep up with cost of living.",
+          "hash": "fd840718772cac733588081e64c205f4da1b0a275824646ed025bc755ae2632b",
+          "index": 26
+        }
+      },
+      "publication_date": "2026-06-11",
+      "url": "https://vancouver.citynews.ca/2026/06/11/bc-food-bank-concerns-school-year-ending"
+    },
+    {
+      "account_id": "911307564",
+      "account_name": "CLARK COUNTY FOOD BANK",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "1eda19734934289957488abeaf8ac999c61bfaa49a4e1f51c8b0a69a8b19a436",
+      "flags": [
+        {
+          "candidate_version": "8f05ad3e6d88b5b59ca4a506b49c7233e89571c9bba8e1ce19dec081bf3f7983",
+          "category": "operational_strain",
+          "original_candidate_note": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "operational_strain",
+            "context": {
+              "passage:9d6d27b31c0e9db08511": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d"
+            },
+            "modified_date": null,
+            "publication_date": "2026-03-20",
+            "relevant": {
+              "passage:9d6d27b31c0e9db08511": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d"
+            }
+          },
+          "scope_hash": "5339fbc05504484947c1548db8e7b948abfc8a3336b3e80c919922b92e53eac4",
+          "signal_id": "signal-6e9ef48a6633133f4c83bdca"
+        }
+      ],
+      "id": "8fdeca9e22ceaa786fdc3f27",
+      "modified_date": "2026-07-09",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/8fdeca9e22ceaa786fdc3f27/1eda19734934289957488abeaf8ac999c61bfaa49a4e1f51c8b0a69a8b19a436.json",
+      "passages": {
+        "passage:203f035aefa75a6ffb69": {
+          "checking_excerpt": "“Brent’s leadership reflects what’s possible when people are given room to grow and lead with purpose,” shared Emily Straw. “His understanding of our work, from the warehouse floor to IT systems to program partners to strategic planning, strengthens our ability to serve the community.” Brent’s appointment reflects CCFB’s commitment to investi",
+          "hash": "203f035aefa75a6ffb698591df1dcb2af7eae9921668ffc4a700ea59bdf58f86",
+          "index": 7
+        },
+        "passage:68f2d8aee1ddea20aafa": {
+          "checking_excerpt": "Clark County Food Bank is pleased to announce the appointment of Brent Derocher as Vice President of Operations, marking the next chapter in his eight-year journey shaped by steady growth, hands-on leadership, and deep institutional knowledge.",
+          "hash": "68f2d8aee1ddea20aafad3f4cbaed8eb5fa6763f2682e3c6d22f9e7519c55e52",
+          "index": 3
+        },
+        "passage:8309f81ee60a5e59316d": {
+          "checking_excerpt": "Brent joined CCFB as an Operations Apprentice, working directly in the warehouse alongside staff and volunteers to ensure food reached neighbors across Clark County. That front-line experience grounded his understanding of the organization’s mission and the systems required to carry it forward.",
+          "hash": "8309f81ee60a5e59316d89dcb5b4e82e3575707ec86911f7ab5751359e820a9f",
+          "index": 5
+        },
+        "passage:831ef778e16197d7add5": {
+          "hash": "831ef778e16197d7add533195547fc8b713bb005604243dc8e445484977dd9e0",
+          "index": 8
+        },
+        "passage:857c0bfd356daa5fcece": {
+          "checking_excerpt": "As Vice President, Brent will work closely with President Emily Straw, the Board of Directors, and senior leadership to support organizational strategy, operational excellence, and long-term sustainability. Derocher shared, “I’ve always wanted my work to be rooted in caring for my community. Seeing the care shown every day by donors, partners, staff, and volunteers is what makes this role meaningful and motivates me ",
+          "hash": "857c0bfd356daa5fcece4cd23321459d840e2ae13c4ebb7c6c7a0c4447523877",
+          "index": 4
+        },
+        "passage:9d6d27b31c0e9db08511": {
+          "checking_excerpt": "Over time, Brent’s role expanded as he helped strengthen operations across the organization. He became a leader at the organization, improving internal processes, supporting collaboration across teams, and advancing technology that allows the food bank to respond more effectively to rising demand. His leadership has supported staff, volunteers, and partners through periods of growth and change, always with a focus on",
+          "hash": "9d6d27b31c0e9db085118ecd5b00e63957e61a15fa0fb0c7b6ff0a62ef04633d",
+          "index": 6
+        },
+        "passage:b724652d3460f5f9e108": {
+          "checking_excerpt": "Brent Derocher Name Vice President",
+          "hash": "b724652d3460f5f9e108454e066ecf982d5e45b6de99e3cd3264a63844f20c6a",
+          "index": 1
+        },
+        "passage:e3c2e46e50e834b397c2": {
+          "checking_excerpt": "Brent Derocher, Vice President of Operations",
+          "hash": "e3c2e46e50e834b397c2c5bd0f9cbe5441e953a8d8e305296a7f59cb0c13761e",
+          "index": 2
+        }
+      },
+      "publication_date": "2026-03-20",
+      "url": "https://www.clarkcountyfoodbank.org/news-updates/2026/3/18/26/brentderochernamedvp"
+    },
+    {
+      "account_id": "911090450",
+      "account_name": "Food Lifeline",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe",
+      "flags": [
+        {
+          "candidate_version": "774738d05c6f8139132afa5c50d90f6e510989f345b744a6c34cc3535941a5f4",
+          "category": "campaign_performance",
+          "original_candidate_note": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "campaign_performance",
+            "context": {
+              "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+            },
+            "modified_date": null,
+            "publication_date": "2026-10-20",
+            "relevant": {
+              "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+            }
+          },
+          "scope_hash": "c5c862d57f4106695d5931affaddab3a057d19cb90a3e37b7b3710821fe6bbc8",
+          "signal_id": "signal-e30d24146a3d0e4d851f7181"
+        },
+        {
+          "candidate_version": "5d18e523cb174c4895330107a2da282718086179cfdcaa087cba6dc663c670bf",
+          "category": "fundraising_pressure",
+          "original_candidate_note": "Publication contains wording potentially relevant to fundraising pressure. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "fundraising_pressure",
+            "context": {
+              "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+            },
+            "modified_date": null,
+            "publication_date": "2026-10-20",
+            "relevant": {
+              "passage:cfe254f4af78c258dd19": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd"
+            }
+          },
+          "scope_hash": "41f3975e21a49168f71d8c8745d715e9f1580d1a9d5406ff313088aad5d1ad6c",
+          "signal_id": "signal-e9eb4b0e748f8cc244e0a9a8"
+        }
+      ],
+      "id": "ca61bbf2f0f939df4dde1feb",
+      "modified_date": "2026-10-20",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/ca61bbf2f0f939df4dde1feb/82e78acd2835f48f89b68bd9387e45e33af8b017523995568b0ab749ca2d60fe.json",
+      "passages": {
+        "passage:0145d43920ac7790de27": {
+          "checking_excerpt": "",
+          "hash": "0145d43920ac7790de27d5061b0ad412dd87b070281a4fc331f82b19d6c6a73f",
+          "index": 12
+        },
+        "passage:3d423b6a14b1266f24cc": {
+          "checking_excerpt": "",
+          "hash": "3d423b6a14b1266f24cc179a1d74df6e8b97d7cde49d86cb39ebef5355b84f41",
+          "index": 11
+        },
+        "passage:49df100f15ae76edcb60": {
+          "checking_excerpt": "",
+          "hash": "49df100f15ae76edcb609d3c6460674708951869311643d2f00fbc03a775e814",
+          "index": 3
+        },
+        "passage:4c5893c3e8ad01364387": {
+          "checking_excerpt": "",
+          "hash": "4c5893c3e8ad01364387d1a4a549c3f47a1bb39dfb8c5c258f394f4fa2d29982",
+          "index": 10
+        },
+        "passage:628688a146fab17e58d5": {
+          "checking_excerpt": "",
+          "hash": "628688a146fab17e58d599cf4ba458eda27f1ee052208692d9f41117d16d62c8",
+          "index": 13
+        },
+        "passage:70d6bd6a7470f7e5bd89": {
+          "checking_excerpt": "",
+          "hash": "70d6bd6a7470f7e5bd89e68f0eedbe7a83dc932f2a75ed68e98fe79362228f2c",
+          "index": 1
+        },
+        "passage:7f41e2eca3497373fe65": {
+          "checking_excerpt": "",
+          "hash": "7f41e2eca3497373fe65e1d75c1ec833947db35813defcd7b0513bd2c2ca7c2b",
+          "index": 5
+        },
+        "passage:8b78359feed43cc6e710": {
+          "checking_excerpt": "",
+          "hash": "8b78359feed43cc6e7101ac99ccb64470334b703c235ab3dcda40f5f88810184",
+          "index": 2
+        },
+        "passage:b08a32f772019949b235": {
+          "checking_excerpt": "",
+          "hash": "b08a32f772019949b2356a4d408c410ef64ee93f57702d4fdb16cabab95b8a13",
+          "index": 9
+        },
+        "passage:cbf7a0e47f98ea6d4654": {
+          "checking_excerpt": "",
+          "hash": "cbf7a0e47f98ea6d4654a896b3907de3ac9691143f9dea6242183aef6b460e4e",
+          "index": 7
+        },
+        "passage:cfe254f4af78c258dd19": {
+          "checking_excerpt": "On September 18, more than $400,000 was raised during our fundraising gala, Dress Down Hunger.",
+          "hash": "cfe254f4af78c258dd19b10b6b54a8e7011954264afebf9d247cee9a7c7379fd",
+          "index": 8
+        },
+        "passage:e5449cc51956b9c4659f": {
+          "checking_excerpt": "",
+          "hash": "e5449cc51956b9c4659f4fced479fcb3a815794aef96597cd03c10f673fef96b",
+          "index": 4
+        },
+        "passage:f97add6aca2d709481cf": {
+          "checking_excerpt": "",
+          "hash": "f97add6aca2d709481cf7b2e328505bc100aaf41c7aa8dc044477088e9e522f9",
+          "index": 6
+        }
+      },
+      "publication_date": "2026-10-20",
+      "url": "https://foodlifeline.org/article/community-support-powers-hunger-action-month"
+    },
+    {
+      "account_id": "132168162RR0001",
+      "account_name": "SURREY FOOD BANK SOCIETY",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "5793fcb66f2bf6f9a774f0402ef74f803666d0b00ecbca66653ac388ad216139",
+      "flags": [
+        {
+          "candidate_version": "3ab6fb23b3ae78b6806ade506e3ef48f0bfa9c264d0f5f6093316d69068cf0df",
+          "category": "operational_strain",
+          "original_candidate_note": "Publication contains wording potentially relevant to operational strain. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "operational_strain",
+            "context": {
+              "passage:18395ee478cac6654a02": "18395ee478cac6654a027ef122dc228317cb39f88796e720f8cef7cd648012a8",
+              "passage:23f3e56b43fa51c2cfe6": "23f3e56b43fa51c2cfe6cd004c40faa80b662ea3634df80ebf6ed239390a6467",
+              "passage:5e2608cabbf1a79a3d17": "5e2608cabbf1a79a3d17dd5fee5506588463d28afedf771be3b68168d458daff",
+              "passage:b2a959ba636ee29d1812": "b2a959ba636ee29d1812d0e7fefb2707f62849223df3b01cf4737954f7e6e4c3",
+              "passage:b3006164a88bfcfd8a9d": "b3006164a88bfcfd8a9d0687dcde41cd0d0449b92a20ea847f8c517c599d0a5f"
+            },
+            "modified_date": null,
+            "publication_date": "2026-10-12",
+            "relevant": {
+              "passage:23f3e56b43fa51c2cfe6": "23f3e56b43fa51c2cfe6cd004c40faa80b662ea3634df80ebf6ed239390a6467",
+              "passage:419639a22e656d2f8b14": "419639a22e656d2f8b14629c660063e371aacc1f3973762c82227e1f93a4f2cc",
+              "passage:ded0b6a1831c0e65a181": "ded0b6a1831c0e65a1812062cd2034f2baf2b7919f5cbe3a73894187363100cf",
+              "passage:fb0b047d2d8defd4c16e": "fb0b047d2d8defd4c16e911867d07cca02ba8efd1a7d37c377ff8f54bf011a1f"
+            }
+          },
+          "scope_hash": "38a29c23d01b9bb00117a7e6767c241dfea98ea017eb26eaa0b9a13b3e57e585",
+          "signal_id": "signal-d084a003a8fc3894d6731788"
+        }
+      ],
+      "id": "ccbfb78e9f836ecf36456a15",
+      "modified_date": "2026-10-12",
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/ccbfb78e9f836ecf36456a15/5793fcb66f2bf6f9a774f0402ef74f803666d0b00ecbca66653ac388ad216139.json",
+      "passages": {
+        "passage:0024fa128fe5ff20b11d": {
+          "checking_excerpt": "",
+          "hash": "0024fa128fe5ff20b11de038a3790cc82d2942be3ce17573765c61354f0c3896",
+          "index": 135
+        },
+        "passage:03ba5d70351e4c6d697b": {
+          "checking_excerpt": "",
+          "hash": "03ba5d70351e4c6d697bc5e1b571c19226ce31229bc999214a8818f00bb00621",
+          "index": 22
+        },
+        "passage:0617248827f201b54eb9": {
+          "checking_excerpt": "",
+          "hash": "0617248827f201b54eb98cb1474e5c2bcb84a6a8342b5a2aab45a10d3ff4d6c7",
+          "index": 88
+        },
+        "passage:07ee56798ca1748e800c": {
+          "checking_excerpt": "",
+          "hash": "07ee56798ca1748e800c37b80c573ad9d9e74f0a43c8fe7742b8d209181aa81c",
+          "index": 76
+        },
+        "passage:08593ecce167c7ddcf89": {
+          "checking_excerpt": "",
+          "hash": "08593ecce167c7ddcf895122d6a66f4b9e9fc4e94025c908f783cf0cca9746af",
+          "index": 17
+        },
+        "passage:095b63e0c7fd927acf8a": {
+          "checking_excerpt": "",
+          "hash": "095b63e0c7fd927acf8a7ee92bdd95965d5e636d7eb4f5cf8100ce0cfed29960",
+          "index": 85
+        },
+        "passage:0e2d3493120df65e5dc4": {
+          "checking_excerpt": "",
+          "hash": "0e2d3493120df65e5dc4dab570875bd1997c5610702b487d76c2b4c0f340f26d",
+          "index": 120
+        },
+        "passage:0f748d269d4ebde794ff": {
+          "checking_excerpt": "",
+          "hash": "0f748d269d4ebde794ff48f2c190141146f800dd95dc40a1c048af509138bb54",
+          "index": 131
+        },
+        "passage:10255557fa42383b1322": {
+          "checking_excerpt": "",
+          "hash": "10255557fa42383b1322c8c20e23d3b0a2ddf28400147ea68b3d92ee8e138666",
+          "index": 142
+        },
+        "passage:1068add5916dc7ea5ed2": {
+          "checking_excerpt": "",
+          "hash": "1068add5916dc7ea5ed2793225b551690e22bdd0a004e45244b540b6c741322e",
+          "index": 112
+        },
+        "passage:11ea85b154110079d013": {
+          "checking_excerpt": "",
+          "hash": "11ea85b154110079d0139e0769e93008a977bc9ec65b399796ce636299fa2475",
+          "index": 128
+        },
+        "passage:152f44e198bc16f7e53c": {
+          "checking_excerpt": "",
+          "hash": "152f44e198bc16f7e53c9ddbdc695e05838c6ce1635897de25ca24cfee09ab59",
+          "index": 103
+        },
+        "passage:17689ef040fce44478dd": {
+          "checking_excerpt": "",
+          "hash": "17689ef040fce44478ddbdb0e774ff338b125e6a5824e4fcdf67ea0062e03887",
+          "index": 59
+        },
+        "passage:18395ee478cac6654a02": {
+          "checking_excerpt": "Creativity/Innovation: Develop new and unique ways to improve operations of the organization and to create new opportunities.",
+          "hash": "18395ee478cac6654a027ef122dc228317cb39f88796e720f8cef7cd648012a8",
+          "index": 126
+        },
+        "passage:19782fc730251914bdb9": {
+          "checking_excerpt": "",
+          "hash": "19782fc730251914bdb9f78881aef39fa4c9f8f173d7c91f6356ec75807d268b",
+          "index": 75
+        },
+        "passage:1ebfe88806b68f886102": {
+          "checking_excerpt": "",
+          "hash": "1ebfe88806b68f886102dc4eb98ea8fa2bdc3474b10a0bb27fdd4a56cd4c2c56",
+          "index": 1
+        },
+        "passage:218f8774ce451a1d3ae9": {
+          "checking_excerpt": "",
+          "hash": "218f8774ce451a1d3ae93c6d4df4c25d43bb369708e0238e7adf1850283dd8f3",
+          "index": 16
+        },
+        "passage:224c78a8e58a0ee4893e": {
+          "checking_excerpt": "",
+          "hash": "224c78a8e58a0ee4893e84aa57268b6e536db2e363b3127d672f2c0aa490d59c",
+          "index": 28
+        },
+        "passage:23ea8a27e0343d44d519": {
+          "checking_excerpt": "",
+          "hash": "23ea8a27e0343d44d51924d0879db4761f103eb492453e663c7c01db2c9d2d59",
+          "index": 119
+        },
+        "passage:23f3e56b43fa51c2cfe6": {
+          "checking_excerpt": "Reporting to the Board of Directors, the Executive Director will provide overall leadership for the organization, including its staff, volunteers, programs, partnerships, and multiple distribution depots. Building on Surrey Food Bank’s recently established strategic direction, the Executive Director will be responsible for driving execution while helping identify new opportunities to amplify the organization’s impact",
+          "hash": "23f3e56b43fa51c2cfe6cd004c40faa80b662ea3634df80ebf6ed239390a6467",
+          "index": 7
+        },
+        "passage:247084d71377d06399a5": {
+          "checking_excerpt": "",
+          "hash": "247084d71377d06399a5e192afc973edf94a48d7a8187b58d5b36ec892a5787c",
+          "index": 47
+        },
+        "passage:266d5df6c0fb5c665d53": {
+          "checking_excerpt": "",
+          "hash": "266d5df6c0fb5c665d53aee84c5fe2137d3ef95fc82c25c9e9aa700ad0ccdc82",
+          "index": 42
+        },
+        "passage:2d6ecc2b0ef5e6a22625": {
+          "checking_excerpt": "",
+          "hash": "2d6ecc2b0ef5e6a22625a549e9c433a24fc2d83830a9e50aeefab5d12938cbd9",
+          "index": 107
+        },
+        "passage:2f0bd239b26de1287624": {
+          "checking_excerpt": "",
+          "hash": "2f0bd239b26de12876245d71cec4bc7cf0d55dbbc35e4cc5539e7e5512b78fc7",
+          "index": 43
+        },
+        "passage:30e50c74b63225162e1e": {
+          "checking_excerpt": "",
+          "hash": "30e50c74b63225162e1e69e633b4a3e58b954d7d654d080cf9125590c1434e46",
+          "index": 127
+        },
+        "passage:31ad8047b0c32d7fe686": {
+          "checking_excerpt": "",
+          "hash": "31ad8047b0c32d7fe6867083897e395bbe0c870736fa7e8ab4397dc00d75e120",
+          "index": 101
+        },
+        "passage:328024528fec82aa7aff": {
+          "checking_excerpt": "",
+          "hash": "328024528fec82aa7aff072196499dc56786cdc440a631562f659170704273f3",
+          "index": 77
+        },
+        "passage:3336c767f7aeb088ab32": {
+          "checking_excerpt": "",
+          "hash": "3336c767f7aeb088ab3282c5adc26d45fb6b5a523abf14f9e7b32578de93720e",
+          "index": 79
+        },
+        "passage:341b76588776e010179e": {
+          "checking_excerpt": "",
+          "hash": "341b76588776e010179e872001618d26201935d74494ed5508e4529b92833957",
+          "index": 124
+        },
+        "passage:37593d443063b4867276": {
+          "checking_excerpt": "",
+          "hash": "37593d443063b4867276e7022226cff02e8fb3914cb6c970e99f9a9f18fcf55a",
+          "index": 45
+        },
+        "passage:38e1884dbce4baa1ea8c": {
+          "checking_excerpt": "",
+          "hash": "38e1884dbce4baa1ea8c07e497ffae7da9c51d8a4c58d2e145368a5b17a4e0eb",
+          "index": 38
+        },
+        "passage:3a93bbc93d55405e55b9": {
+          "checking_excerpt": "",
+          "hash": "3a93bbc93d55405e55b9d190efbb3af0ff47d892f669e6d8e71dbb8259fe3dec",
+          "index": 92
+        },
+        "passage:3c13b2ccd5acf9faaf40": {
+          "checking_excerpt": "",
+          "hash": "3c13b2ccd5acf9faaf40c9a024a66d275933cb787a722f12919efdf89e2038b4",
+          "index": 36
+        },
+        "passage:3fb680aadde14482acc7": {
+          "checking_excerpt": "",
+          "hash": "3fb680aadde14482acc70db9a8599d992395fa95a32295cbb8f8e4eb69c1be7c",
+          "index": 100
+        },
+        "passage:400f215019f9ec4bd6d2": {
+          "checking_excerpt": "",
+          "hash": "400f215019f9ec4bd6d2a59b987af2c24f748f53b81b068a8992fcc30acf1418",
+          "index": 23
+        },
+        "passage:419639a22e656d2f8b14": {
+          "checking_excerpt": "Identify and evaluate risks to the organization (clients, staff, management, volunteers, property, finances, goodwill, and image) and implement measures to control risks.",
+          "hash": "419639a22e656d2f8b14629c660063e371aacc1f3973762c82227e1f93a4f2cc",
+          "index": 97
+        },
+        "passage:41eb1011e6adfba97056": {
+          "checking_excerpt": "",
+          "hash": "41eb1011e6adfba9705615cbe55b29a153cbb2cc3c7c972ebe93b7dbe0b1ae1c",
+          "index": 133
+        },
+        "passage:42f346df9e332d5bfc10": {
+          "checking_excerpt": "",
+          "hash": "42f346df9e332d5bfc10ef2bbc27143ded735e83e7b2da2eb9aaa61bf7f546af",
+          "index": 37
+        },
+        "passage:44a20464a6560b2e4777": {
+          "checking_excerpt": "",
+          "hash": "44a20464a6560b2e47771ca0c7d9dbd43dfb8b0fc663d27884800313ef56b60a",
+          "index": 48
+        },
+        "passage:44dc02ec8b21ec3cfd92": {
+          "checking_excerpt": "",
+          "hash": "44dc02ec8b21ec3cfd924e310e0bd2b765632863c024742aa3777a25f3189e48",
+          "index": 129
+        },
+        "passage:4684408f8b07f4e41cba": {
+          "checking_excerpt": "",
+          "hash": "4684408f8b07f4e41cba6448365b9e357edebd486c96fa83e0250749b1014236",
+          "index": 96
+        },
+        "passage:46dd6dca5a12ce79bcdd": {
+          "checking_excerpt": "",
+          "hash": "46dd6dca5a12ce79bcdd614b8bcf00798ee7640283998e15c8f2c4e6c5c5ed0d",
+          "index": 91
+        },
+        "passage:474ac3659078514605fe": {
+          "checking_excerpt": "",
+          "hash": "474ac3659078514605fe3b86a035209cf45436f8637782883f2ca2bf35dd5379",
+          "index": 99
+        },
+        "passage:47a04528497e0af49a02": {
+          "checking_excerpt": "",
+          "hash": "47a04528497e0af49a02a167019fea62677f49a609819372703a7a10516990d8",
+          "index": 84
+        },
+        "passage:48615ba07b5e1116d096": {
+          "checking_excerpt": "",
+          "hash": "48615ba07b5e1116d096ae1422c5a3ec218fdaafdc4e407f39f0546ee06c9261",
+          "index": 134
+        },
+        "passage:4a8bad3921744ca0486c": {
+          "checking_excerpt": "",
+          "hash": "4a8bad3921744ca0486c05dcd8fe62942d868002b2d5b7cda6ef6f1f0135233e",
+          "index": 122
+        },
+        "passage:4cb1945954537c0b98b8": {
+          "checking_excerpt": "",
+          "hash": "4cb1945954537c0b98b8099c4552e5f824253a4a8f541c386c25e1848a91afc0",
+          "index": 6
+        },
+        "passage:4cf7cc6c038baefa6523": {
+          "checking_excerpt": "",
+          "hash": "4cf7cc6c038baefa6523b9a68ce4cabade427599f3017e3ecbaa43d04c10e068",
+          "index": 2
+        },
+        "passage:507f77eddadbdcbb96b1": {
+          "checking_excerpt": "",
+          "hash": "507f77eddadbdcbb96b126b2819d9d9a36e533cb53e202365045e235cf667ba9",
+          "index": 25
+        },
+        "passage:50e20f2867f4c0086e21": {
+          "checking_excerpt": "",
+          "hash": "50e20f2867f4c0086e21658c1f24450a492426adbdf55f26e3be98a242cdfaee",
+          "index": 116
+        },
+        "passage:5482c9818e6159bc4df8": {
+          "checking_excerpt": "",
+          "hash": "5482c9818e6159bc4df8afc87619d87f7ccdb8d9bbc75beb63cc04f66efc93a4",
+          "index": 49
+        },
+        "passage:57aea249fe42da4906b6": {
+          "checking_excerpt": "",
+          "hash": "57aea249fe42da4906b65f53175d2efc4e47c2d22148a58b4afaf6ff1df72f8e",
+          "index": 15
+        },
+        "passage:5e2608cabbf1a79a3d17": {
+          "checking_excerpt": "Coach and mentor staff as appropriate to improve performance.",
+          "hash": "5e2608cabbf1a79a3d17dd5fee5506588463d28afedf771be3b68168d458daff",
+          "index": 67
+        },
+        "passage:5e993f53594b76bb0f07": {
+          "checking_excerpt": "",
+          "hash": "5e993f53594b76bb0f07a71538b1601d787be66ffa18f22fc8540843e45e6ead",
+          "index": 115
+        },
+        "passage:5f61e95fc82e79adccda": {
+          "checking_excerpt": "",
+          "hash": "5f61e95fc82e79adccda0e89195c4aa669d94b9eead7e0ec1ebe111b12d35e55",
+          "index": 123
+        },
+        "passage:62ad516b4baf8d796c16": {
+          "checking_excerpt": "",
+          "hash": "62ad516b4baf8d796c16d4f2ab8d4ed35488eaf2855a385051982e9f6973badb",
+          "index": 62
+        },
+        "passage:6462d99065c43d476ccb": {
+          "checking_excerpt": "",
+          "hash": "6462d99065c43d476ccb549ed2860d2a3d73bc9a8a8c49efba3f79ed0c5f2fca",
+          "index": 32
+        },
+        "passage:6f6f48ede4e8a719ef7c": {
+          "checking_excerpt": "",
+          "hash": "6f6f48ede4e8a719ef7c8f7b4d89cbab384b5ffdcf9f2979b3d1bc6af195ff4f",
+          "index": 138
+        },
+        "passage:7104129166b98372438c": {
+          "checking_excerpt": "",
+          "hash": "7104129166b98372438ce19d238a02f38e18df6af9ca3eae6ffaca467c75b4f3",
+          "index": 74
+        },
+        "passage:720ea04e0ca41cd0c533": {
+          "checking_excerpt": "",
+          "hash": "720ea04e0ca41cd0c53346888e3cc9ed1f3c20e6423c9ddfc8189771724808eb",
+          "index": 90
+        },
+        "passage:72669711cc4f1d56281a": {
+          "checking_excerpt": "",
+          "hash": "72669711cc4f1d56281a0c106a71c89d0dea5f15e7823d6b009021ee8f4bede8",
+          "index": 80
+        },
+        "passage:741666787e07607e83c5": {
+          "checking_excerpt": "",
+          "hash": "741666787e07607e83c5a40d5b2a42d9a12fc14193dc7eef5fc8c8d6ebc26b46",
+          "index": 78
+        },
+        "passage:7b293a49bee7e124d003": {
+          "checking_excerpt": "",
+          "hash": "7b293a49bee7e124d00364183af9de5e92c3d398251add3a6b2583448d265732",
+          "index": 4
+        },
+        "passage:7bdbb7cfb518117d727c": {
+          "checking_excerpt": "",
+          "hash": "7bdbb7cfb518117d727cd617138a2ba051efce423fc2393caf2884a9a5d2779e",
+          "index": 33
+        },
+        "passage:7be7c92af66f7b429aae": {
+          "checking_excerpt": "",
+          "hash": "7be7c92af66f7b429aae62390120daf2f5a216a4843210afc815904c20786134",
+          "index": 83
+        },
+        "passage:7c2bc8f6e329b6606f3b": {
+          "checking_excerpt": "",
+          "hash": "7c2bc8f6e329b6606f3b376bdb66ea1589a4174d77cbfc80f958493291efe2f6",
+          "index": 66
+        },
+        "passage:7d43346b577c133decc7": {
+          "checking_excerpt": "",
+          "hash": "7d43346b577c133decc7902c864a836e344cb166c324afe61696a2a0dc9e8096",
+          "index": 95
+        },
+        "passage:820f5afd29538497859b": {
+          "checking_excerpt": "",
+          "hash": "820f5afd29538497859bed7bc5ee8420226fcdf366770343d72dfa9cfff33b81",
+          "index": 106
+        },
+        "passage:839a218b7aeedb927d44": {
+          "checking_excerpt": "",
+          "hash": "839a218b7aeedb927d44eefcafd738af6cb71c51b32cc074aa11f62c71c92e31",
+          "index": 5
+        },
+        "passage:83ca9f26645b301b5590": {
+          "checking_excerpt": "",
+          "hash": "83ca9f26645b301b559029fa6efc75a0f12fb6c5aa5f31565d6bb580a81d3fc9",
+          "index": 109
+        },
+        "passage:84cad07634239335ab2b": {
+          "checking_excerpt": "",
+          "hash": "84cad07634239335ab2b3499076fad2d1c0c01365beb7c1acef2527bd7fe6a42",
+          "index": 140
+        },
+        "passage:85ef50590d8ed418b503": {
+          "checking_excerpt": "",
+          "hash": "85ef50590d8ed418b5036adbfb186d7f46f8e3e13e7347f329a77ce541bcb53e",
+          "index": 111
+        },
+        "passage:864266382344c02cc9b1": {
+          "checking_excerpt": "",
+          "hash": "864266382344c02cc9b1dc5fa2850a13619f02bc80988d68f638587f6b16f0aa",
+          "index": 68
+        },
+        "passage:88f02417d1341627cc3b": {
+          "checking_excerpt": "",
+          "hash": "88f02417d1341627cc3b20452f4536a13ed7e693c96bc5f7825df826f1fbfb67",
+          "index": 58
+        },
+        "passage:8b1ee2571dee9fd3f937": {
+          "checking_excerpt": "",
+          "hash": "8b1ee2571dee9fd3f937822a889884620df212481d42717ced5664c37b286299",
+          "index": 81
+        },
+        "passage:8beda7cddcd7d383f1df": {
+          "checking_excerpt": "",
+          "hash": "8beda7cddcd7d383f1df32279ae1c29f142cf029d03814b63cbd0f5090597b7c",
+          "index": 121
+        },
+        "passage:8c3a54d26e6050b0efaf": {
+          "checking_excerpt": "",
+          "hash": "8c3a54d26e6050b0efaf1d3e971f7016dface1b9dfe866078cbc768aa6eaeb72",
+          "index": 64
+        },
+        "passage:8c8de081cd27c76ce895": {
+          "checking_excerpt": "",
+          "hash": "8c8de081cd27c76ce895931cd00a4ab1ac8a9f3a40b94ec2678e7f0dd9d2d07d",
+          "index": 70
+        },
+        "passage:8ff97a4f9c08a83e2384": {
+          "checking_excerpt": "",
+          "hash": "8ff97a4f9c08a83e238434072bdb46d070b453ab3f24d8dfbc859a8c9c12af68",
+          "index": 52
+        },
+        "passage:93535285bbce2fde58a6": {
+          "checking_excerpt": "",
+          "hash": "93535285bbce2fde58a6362f5b64622aed63aa92bb19748c8fbe39df939819c4",
+          "index": 56
+        },
+        "passage:941d70b582a8ab87f559": {
+          "checking_excerpt": "",
+          "hash": "941d70b582a8ab87f5593a2537de4ce01f9f3021cb7feedac24221d47f6bdec6",
+          "index": 21
+        },
+        "passage:95a69887d6edfed320a3": {
+          "checking_excerpt": "",
+          "hash": "95a69887d6edfed320a32b9ec93f9a5cbc412153589378451fa62a94c7f29cb3",
+          "index": 13
+        },
+        "passage:971ee5b9445724b376fd": {
+          "checking_excerpt": "",
+          "hash": "971ee5b9445724b376fd6c2d4393a0e1f75eb593b4f8b879d5005805cbf841ad",
+          "index": 69
+        },
+        "passage:97bfb166965bfec6cc90": {
+          "checking_excerpt": "",
+          "hash": "97bfb166965bfec6cc9076468b74eed9d600235a2de655dec4f03ecde388b1e8",
+          "index": 54
+        },
+        "passage:9c6fc196874904f220bb": {
+          "checking_excerpt": "",
+          "hash": "9c6fc196874904f220bbe744929dfce84f1d3351a04dafe66d9747fe96e2f963",
+          "index": 34
+        },
+        "passage:9dba51e7b4ea7575e4ea": {
+          "checking_excerpt": "",
+          "hash": "9dba51e7b4ea7575e4ea98533bb1b1bd5b00bdc7d7a45229cf12a16e280f816a",
+          "index": 61
+        },
+        "passage:a6abad31ee96b91492bd": {
+          "checking_excerpt": "",
+          "hash": "a6abad31ee96b91492bd060a971fece2243dbfb351d36a97d4e4d966cb217184",
+          "index": 65
+        },
+        "passage:a9e4c402fd70f019f7d1": {
+          "checking_excerpt": "",
+          "hash": "a9e4c402fd70f019f7d1a8f7f11c10cf6217e8274100f3a174f54bc995aa7c0b",
+          "index": 50
+        },
+        "passage:ab9ad387890dbab6a13e": {
+          "checking_excerpt": "",
+          "hash": "ab9ad387890dbab6a13ece3e673d446dbc1b8efacb0dc1fdebcd1c0f9afa920b",
+          "index": 110
+        },
+        "passage:ac900b3b83886deaf2cc": {
+          "checking_excerpt": "",
+          "hash": "ac900b3b83886deaf2cc0d2d53bb5783549eba12ec9b947f5a35fb87a16aaa14",
+          "index": 125
+        },
+        "passage:afca8623943b657591e9": {
+          "checking_excerpt": "",
+          "hash": "afca8623943b657591e927ed16badb97bcad0503fce35ebd4d5aa5b89ae3bdcc",
+          "index": 94
+        },
+        "passage:b108adf12a1d69e54da6": {
+          "checking_excerpt": "",
+          "hash": "b108adf12a1d69e54da6e4ad719f1959ad56585b548a4dc21a95089dd064d5e6",
+          "index": 89
+        },
+        "passage:b2175e655fef7d22d7a4": {
+          "checking_excerpt": "",
+          "hash": "b2175e655fef7d22d7a4d1c77c70b45c19e14988a9691ef18c443781f628b8ee",
+          "index": 139
+        },
+        "passage:b2a959ba636ee29d1812": {
+          "checking_excerpt": "Surrey Food Bank partners with others, adapts when needed, and continuously improves how they serve their community.",
+          "hash": "b2a959ba636ee29d1812d0e7fefb2707f62849223df3b01cf4737954f7e6e4c3",
+          "index": 30
+        },
+        "passage:b3006164a88bfcfd8a9d": {
+          "checking_excerpt": "Monitor the day-to-day delivery of programs and services of the organization, maintaining or improving quality as required.",
+          "hash": "b3006164a88bfcfd8a9d0687dcde41cd0d0449b92a20ea847f8c517c599d0a5f",
+          "index": 87
+        },
+        "passage:b3233478ac9634257c73": {
+          "checking_excerpt": "",
+          "hash": "b3233478ac9634257c73d64f75e1f73586cadb100d4ed77106a1b8a09941edae",
+          "index": 63
+        },
+        "passage:b3dc3fd188f7879ead26": {
+          "checking_excerpt": "",
+          "hash": "b3dc3fd188f7879ead2637e41c4d6ca80b0e9b6bc7e45e87e806296ccee46817",
+          "index": 73
+        },
+        "passage:b4467ad98d42a8cfc53f": {
+          "checking_excerpt": "",
+          "hash": "b4467ad98d42a8cfc53f0b51985de88b103f95ea80fed8900440639a219ea02d",
+          "index": 24
+        },
+        "passage:b67a3eb29f1a200bfaf3": {
+          "checking_excerpt": "",
+          "hash": "b67a3eb29f1a200bfaf34f9def16a323afa34dbdb7d3dc1d46a057cf4610758f",
+          "index": 93
+        },
+        "passage:b6811bd1fa8672b81e16": {
+          "checking_excerpt": "",
+          "hash": "b6811bd1fa8672b81e16e08441292bec7eef024715d1c9f9e16b3a69f8e22eaa",
+          "index": 26
+        },
+        "passage:b6d3203dd7e2b0816739": {
+          "checking_excerpt": "",
+          "hash": "b6d3203dd7e2b08167393e4ab76cbe63b10d9d92923b80e62e0bfa6d8c0c45d0",
+          "index": 9
+        },
+        "passage:b7bd0c5a1bb8415de938": {
+          "checking_excerpt": "",
+          "hash": "b7bd0c5a1bb8415de938ad74de1d87a3eb6f1b4bc78ee02fed6f3fb91a383e7d",
+          "index": 136
+        },
+        "passage:b94ca19f394209828eae": {
+          "checking_excerpt": "",
+          "hash": "b94ca19f394209828eae35b258341f595ef224e6b2b1ce2b432f1fca108362f9",
+          "index": 20
+        },
+        "passage:bdaef68c04e5e1eade21": {
+          "checking_excerpt": "",
+          "hash": "bdaef68c04e5e1eade21be4870e071e0193328a8d01c5db81b27f0a0786ff72f",
+          "index": 104
+        },
+        "passage:be25933788c55392002c": {
+          "checking_excerpt": "",
+          "hash": "be25933788c55392002c04c9a0cd4c426d96cccdeebaa770caed7e0c6d9febf8",
+          "index": 105
+        },
+        "passage:be5397252df31eb7b90e": {
+          "checking_excerpt": "",
+          "hash": "be5397252df31eb7b90e4e4fb6691b622ecf26d539d947e3fd849032bdc67c11",
+          "index": 39
+        },
+        "passage:bfb995793d299e6a76d8": {
+          "checking_excerpt": "",
+          "hash": "bfb995793d299e6a76d87c6ae4c37e00901db4d8b063e24c47a019406e25d336",
+          "index": 141
+        },
+        "passage:c6daf3f038f288305fff": {
+          "checking_excerpt": "",
+          "hash": "c6daf3f038f288305fff5b91a14b0b2a631a1f1f1ab20686cb11f6178e006b7d",
+          "index": 51
+        },
+        "passage:c6ff67613d8a22728bb5": {
+          "checking_excerpt": "",
+          "hash": "c6ff67613d8a22728bb5e080e11a16bc55ecc60a4f4614a8d608fbe3c344ad6b",
+          "index": 132
+        },
+        "passage:c76df0cb10597838117e": {
+          "checking_excerpt": "",
+          "hash": "c76df0cb10597838117e0a6844e76923d74afe64701b9cf7a8c6735bcf2f1bc6",
+          "index": 60
+        },
+        "passage:c7d171302d323e7dca57": {
+          "checking_excerpt": "",
+          "hash": "c7d171302d323e7dca57364529ea24bd0ab4b96aeb97f9ba9e07a9fed072ce2f",
+          "index": 41
+        },
+        "passage:c8dbbcd6ecc60636b142": {
+          "checking_excerpt": "",
+          "hash": "c8dbbcd6ecc60636b142cf91b318a3b7ea67eca05fc56999311e7e2e154ca19c",
+          "index": 82
+        },
+        "passage:c9712b9f8c07cf721076": {
+          "checking_excerpt": "",
+          "hash": "c9712b9f8c07cf721076cdedf32a76074dc2037f2e47ada6f1c968ef60491cbd",
+          "index": 55
+        },
+        "passage:c9b0caa27af71ca01341": {
+          "checking_excerpt": "",
+          "hash": "c9b0caa27af71ca013413e38adb72823bf7a219bc79e89bf018fa06be9c0bdb8",
+          "index": 18
+        },
+        "passage:ca52d50fb580afa07a11": {
+          "checking_excerpt": "",
+          "hash": "ca52d50fb580afa07a11f8c24d6162fcd715c1c68ffa24957c3552a3da90eb27",
+          "index": 29
+        },
+        "passage:ccea0185b89ae2fff706": {
+          "checking_excerpt": "",
+          "hash": "ccea0185b89ae2fff706f7996bc957bb73b6190aa8500b0f8a7c09ae627ee1f5",
+          "index": 130
+        },
+        "passage:cf04f901d5a8513261a4": {
+          "checking_excerpt": "",
+          "hash": "cf04f901d5a8513261a4268f2a58cb946d35ba6cdcc80545d1c3c481988e0e28",
+          "index": 8
+        },
+        "passage:d048bdbbdb4c4b3011b0": {
+          "checking_excerpt": "",
+          "hash": "d048bdbbdb4c4b3011b060636328f05f515ac58aae3e708c8ee6b7b6ee191dbb",
+          "index": 14
+        },
+        "passage:d25793593d0bc2cdcf2d": {
+          "checking_excerpt": "",
+          "hash": "d25793593d0bc2cdcf2d27aae96bc582e3ef7976cca64bcece1abb504d8b0120",
+          "index": 102
+        },
+        "passage:d4abd3768901ce18e0f7": {
+          "checking_excerpt": "",
+          "hash": "d4abd3768901ce18e0f7d08f2ec38581fafac92c14355a8c373bc264b92c625d",
+          "index": 72
+        },
+        "passage:d50351c1345c8cb392bb": {
+          "checking_excerpt": "",
+          "hash": "d50351c1345c8cb392bb85f51aab895bbdec27e51c4491751b81e1852251d1ba",
+          "index": 86
+        },
+        "passage:d5fa184beba0ac7979d4": {
+          "checking_excerpt": "",
+          "hash": "d5fa184beba0ac7979d4f0616d75a2635b89b8d49e3a34ee9935d98c62261229",
+          "index": 71
+        },
+        "passage:d9ed19b203cf933ce043": {
+          "checking_excerpt": "",
+          "hash": "d9ed19b203cf933ce043ac8603a7446cc8d1ad0eef8a4a7c7dba0582c529373c",
+          "index": 118
+        },
+        "passage:dd32f01a7aacd76ebab7": {
+          "checking_excerpt": "",
+          "hash": "dd32f01a7aacd76ebab7a04cc257aee9aff6a5b56b2ff75a8a42e4c56eda1a78",
+          "index": 46
+        },
+        "passage:ded0b6a1831c0e65a181": {
+          "checking_excerpt": "Hamper To Your Home was designed to support homebound clients with mobility challenges. These may include individuals with high-risk pregnancies, parents in the postpartum period, those recovering from a C-section (up to a maximum of four weeks), people living with terminal or debilitating conditions, and individuals recovering from surgery or an accident.",
+          "hash": "ded0b6a1831c0e65a1812062cd2034f2baf2b7919f5cbe3a73894187363100cf",
+          "index": 40
+        },
+        "passage:e074a2dafc8b36b03c78": {
+          "checking_excerpt": "",
+          "hash": "e074a2dafc8b36b03c78eb15903ffc9e95a37666a76908597c77bdec5805508b",
+          "index": 114
+        },
+        "passage:e084b2b57ba609f976e5": {
+          "checking_excerpt": "",
+          "hash": "e084b2b57ba609f976e5f9432fd6f884c90fc3e95612fe7263304dc9a9cda8b8",
+          "index": 57
+        },
+        "passage:e72245764e02ff4d2813": {
+          "checking_excerpt": "",
+          "hash": "e72245764e02ff4d281335fefa8de343d79a5a0cde8bc1669dd3efad5fb83f08",
+          "index": 27
+        },
+        "passage:e7e07cebbb5b7f377e27": {
+          "checking_excerpt": "",
+          "hash": "e7e07cebbb5b7f377e273481f4f448f99e55eefa745298a1e5a528763aecb5b6",
+          "index": 44
+        },
+        "passage:ea10e2cb2af0b08c2e36": {
+          "checking_excerpt": "",
+          "hash": "ea10e2cb2af0b08c2e368f938b34a73798c2fea028e182ace8a172effe36e045",
+          "index": 3
+        },
+        "passage:ecc4c6a53f6effa49c8c": {
+          "checking_excerpt": "",
+          "hash": "ecc4c6a53f6effa49c8c37c4b15218349c604a7bffd0d3ba026a4fff29784d71",
+          "index": 35
+        },
+        "passage:ef6b9030c45d8153e15c": {
+          "checking_excerpt": "",
+          "hash": "ef6b9030c45d8153e15ca5e3b2a3a6c93b918193cc66246bca4499750f93eb41",
+          "index": 31
+        },
+        "passage:ef7ac162e061ed3b70bc": {
+          "checking_excerpt": "",
+          "hash": "ef7ac162e061ed3b70bc4abd5f1b93cc9d68a6117ab3e283c236db5a736704d2",
+          "index": 98
+        },
+        "passage:f1a7d3883a7b57167ca4": {
+          "checking_excerpt": "",
+          "hash": "f1a7d3883a7b57167ca4bde6fe331847d4133a6acfbee03d2487556badd416da",
+          "index": 108
+        },
+        "passage:f1aa6d5f5ed4e732ca82": {
+          "checking_excerpt": "",
+          "hash": "f1aa6d5f5ed4e732ca82086814e891e6fc8bd88417cc85d4dca8fbd1f7d1232b",
+          "index": 19
+        },
+        "passage:f36cc4ac311670c891db": {
+          "checking_excerpt": "",
+          "hash": "f36cc4ac311670c891db16a8f2b10c3270af22ce6078473e16686c100251019c",
+          "index": 11
+        },
+        "passage:f3f1cfaee593750e93f9": {
+          "checking_excerpt": "",
+          "hash": "f3f1cfaee593750e93f91fd9bb73a5b7c7c9ed719c4e781d656c51ccf313322f",
+          "index": 53
+        },
+        "passage:f60dd757827f00e2f1f9": {
+          "checking_excerpt": "",
+          "hash": "f60dd757827f00e2f1f9d3777add6d86778ecb239aece1afcb140dc9cc5da0fe",
+          "index": 117
+        },
+        "passage:fb0b047d2d8defd4c16e": {
+          "checking_excerpt": "Serve nearly 8,000 households per year through a centralized warehouse, a network of distribution depots, and tailored programs for seniors, infants, and homebound clients, Surrey Food Bank is entirely community funded, receiving no ongoing core government funding. Surrey Food Bank is powered by local donors, corporate sponsors, and more than 400 active volunteers.",
+          "hash": "fb0b047d2d8defd4c16e911867d07cca02ba8efd1a7d37c377ff8f54bf011a1f",
+          "index": 12
+        },
+        "passage:fbc18e2b0900f9175a5b": {
+          "checking_excerpt": "",
+          "hash": "fbc18e2b0900f9175a5b40b09d1d5cf53049fdef5755acd16c15a2e156f587e6",
+          "index": 113
+        },
+        "passage:fe780ca4b40c27f4aa79": {
+          "checking_excerpt": "",
+          "hash": "fe780ca4b40c27f4aa790a6caea02af233871f340f983b235eb93834151c0339",
+          "index": 137
+        }
+      },
+      "publication_date": "2026-10-12",
+      "url": "https://afpcalgary.ca/executive-director-surrey-food-bank"
+    },
+    {
+      "account_id": "WA:familyworks",
+      "account_name": "FamilyWorks",
+      "checked_at": "2026-11-07T16:24:06.541724+00:00",
+      "document_version": "816f303aead42fa0e249f7f7cdd8b9fad712d74b944de2e01676939764de9fb8",
+      "flags": [
+        {
+          "candidate_version": "274dba8d2f74b39eb3ef8539f83f95d7ef995ff5f6b7918bfd7f6142d97cb46d",
+          "category": "campaign_performance",
+          "original_candidate_note": "Publication contains wording potentially relevant to campaign performance. Original-source review is required before promoting a substantive claim.",
+          "scope": {
+            "category": "campaign_performance",
+            "context": {},
+            "modified_date": null,
+            "publication_date": null,
+            "relevant": {
+              "passage:ca71b0ba2c1ade807a3f": "ca71b0ba2c1ade807a3f3699e2b7b006f57ba4792d2bcb5423cc64e3200c34b6"
+            }
+          },
+          "scope_hash": "8334099dc422e68649909263e0aada02eaad1012992dec17e1fe675b9b271a25",
+          "signal_id": "signal-606f8881901d692f838825a8"
+        }
+      ],
+      "id": "d8c2ba3c1e73cd29d8cf8e5f",
+      "modified_date": null,
+      "original_cache": "/private/var/folders/72/qqqrlnnx1sx6zfgcrymkn_040000gn/T/tributary-source-review-iwsuav6_/d8c2ba3c1e73cd29d8cf8e5f/816f303aead42fa0e249f7f7cdd8b9fad712d74b944de2e01676939764de9fb8.json",
+      "passages": {
+        "passage:12df20d481256b66ac0d": {
+          "checking_excerpt": "",
+          "hash": "12df20d481256b66ac0dde57153e20435be3959a1aa8ce87d5b9f6602c15b5c6",
+          "index": 8
+        },
+        "passage:15322aa64ba309917e70": {
+          "checking_excerpt": "",
+          "hash": "15322aa64ba309917e704cbc9297c3e6ff6c27fb13d5199e2b9cd2ccb5934b55",
+          "index": 5
+        },
+        "passage:17f7e579f5ce619ad986": {
+          "checking_excerpt": "",
+          "hash": "17f7e579f5ce619ad986eadca21a3ad5f36c5dada223b8ce43824bb6dbd9ba01",
+          "index": 23
+        },
+        "passage:2468c54cb4007f7a7037": {
+          "checking_excerpt": "",
+          "hash": "2468c54cb4007f7a70373ccb84eee268139fb55302061fdc1edead8de485fcba",
+          "index": 14
+        },
+        "passage:2727025c5366d565e13a": {
+          "checking_excerpt": "",
+          "hash": "2727025c5366d565e13a59a28707f95f14ac001b2171a1621898fda448ad2a19",
+          "index": 1
+        },
+        "passage:2c5c3fe5b0e69f2c775e": {
+          "checking_excerpt": "",
+          "hash": "2c5c3fe5b0e69f2c775e759fbf5b3525f490ac429bbd6fdf361c4e6af1d11835",
+          "index": 31
+        },
+        "passage:2e1f9928ac4e057252ee": {
+          "checking_excerpt": "",
+          "hash": "2e1f9928ac4e057252eeac591c1f9d00db51a6e1cab40fb0433c18f7e2c26091",
+          "index": 33
+        },
+        "passage:2f033a18c64e0fd71453": {
+          "checking_excerpt": "",
+          "hash": "2f033a18c64e0fd714531df86dd54d35e42a59c4a0874db58864a9ff9f3ec3fc",
+          "index": 29
+        },
+        "passage:3c4ac05873e2d270d50b": {
+          "checking_excerpt": "",
+          "hash": "3c4ac05873e2d270d50b80b9b510abffa2dd318641adef0abca44cf25b495a84",
+          "index": 20
+        },
+        "passage:4f7b86522a3bd721ea79": {
+          "checking_excerpt": "",
+          "hash": "4f7b86522a3bd721ea79bf3e7946bccca54bee3fe2ea9b9e9edcec3ae80298ba",
+          "index": 9
+        },
+        "passage:662ca000782ef6436442": {
+          "checking_excerpt": "",
+          "hash": "662ca000782ef64364425e8cbb5c8d5248cc44cc5c9c1ebfe3fae5fbbc522659",
+          "index": 28
+        },
+        "passage:67e8496a4531d911da3f": {
+          "checking_excerpt": "",
+          "hash": "67e8496a4531d911da3f877c155e73900c63d8d1666b84b1fdf70e3560877da9",
+          "index": 35
+        },
+        "passage:69b9262c014551f7d56f": {
+          "checking_excerpt": "",
+          "hash": "69b9262c014551f7d56f146fb93225d91c941453d3130d6086e051acff2df9d0",
+          "index": 6
+        },
+        "passage:8d49c91a781511ae3621": {
+          "checking_excerpt": "",
+          "hash": "8d49c91a781511ae362150888387d57435bbba45cda0090badad95f72e5ec36b",
+          "index": 12
+        },
+        "passage:8d66e63525fd21ee21a9": {
+          "checking_excerpt": "",
+          "hash": "8d66e63525fd21ee21a9a7e0add82285cd045b4a6987aa5eb03e592281c64a78",
+          "index": 27
+        },
+        "passage:8e63ed1148fba69f4998": {
+          "checking_excerpt": "",
+          "hash": "8e63ed1148fba69f4998195ec2ea67a1152cc279bba4257aaafa4cebba5fccfe",
+          "index": 36
+        },
+        "passage:a0c6dbdfea86442b153d": {
+          "checking_excerpt": "",
+          "hash": "a0c6dbdfea86442b153db8e4dd3d7800979699129bc405f0b551a79f606730c5",
+          "index": 17
+        },
+        "passage:a720e81af153f1854c15": {
+          "checking_excerpt": "",
+          "hash": "a720e81af153f1854c1528fade88fd732b82490af7903db55d35c99b29e66784",
+          "index": 25
+        },
+        "passage:a8fbb9089d91493d7c73": {
+          "checking_excerpt": "",
+          "hash": "a8fbb9089d91493d7c73f53c78756590f6582362b204470da012cedecf81af54",
+          "index": 18
+        },
+        "passage:a954c95af779a5711bf8": {
+          "checking_excerpt": "",
+          "hash": "a954c95af779a5711bf8b99d2677fca0526486154d4740d12974bd3bec238973",
+          "index": 13
+        },
+        "passage:acfd767e637f9f314e45": {
+          "checking_excerpt": "",
+          "hash": "acfd767e637f9f314e4536f27db164df280f03b9836680f54dc912594f7f3653",
+          "index": 34
+        },
+        "passage:ada47d201669620799fc": {
+          "checking_excerpt": "",
+          "hash": "ada47d201669620799fc7d50009f118f8e2bf9377ed1bb07196cc5a7abf3d188",
+          "index": 38
+        },
+        "passage:bf724af8a75ff7acd0e2": {
+          "checking_excerpt": "",
+          "hash": "bf724af8a75ff7acd0e279166b047e135fb2cc6f561bd96515b6e2add2623d16",
+          "index": 11
+        },
+        "passage:c45e0f7d54855c363df9": {
+          "checking_excerpt": "",
+          "hash": "c45e0f7d54855c363df9ce097f3b7ab2f55d009728314d2bf575edf3ffd27ca6",
+          "index": 24
+        },
+        "passage:ca71b0ba2c1ade807a3f": {
+          "checking_excerpt": "A special \"thank you\" to the generous partners who provided the matching donations for our GiveBIG Match Pool. Your gifts will inspire others to join us in cultivating a just and joyful community for all.",
+          "hash": "ca71b0ba2c1ade807a3f3699e2b7b006f57ba4792d2bcb5423cc64e3200c34b6",
+          "index": 16
+        },
+        "passage:cc418ed3475e9f57415f": {
+          "checking_excerpt": "",
+          "hash": "cc418ed3475e9f57415fd1424fe5382f372b1f68777c76ae868581bf2c91f2de",
+          "index": 4
+        },
+        "passage:d5511d58ae89a5136544": {
+          "checking_excerpt": "",
+          "hash": "d5511d58ae89a5136544686b7e471128789e3309c2ec9b520c217067f6abb75d",
+          "index": 32
+        },
+        "passage:d90d920acc28b3744163": {
+          "checking_excerpt": "",
+          "hash": "d90d920acc28b3744163d724cf013fece69a887fec2f9263917ec1fd52acc262",
+          "index": 2
+        },
+        "passage:de46a45ced4697015845": {
+          "checking_excerpt": "",
+          "hash": "de46a45ced4697015845d3f118403fe727f9bb926139ef920a5832f8e96b7274",
+          "index": 26
+        },
+        "passage:e0e9dcd5c7e975767a1b": {
+          "checking_excerpt": "",
+          "hash": "e0e9dcd5c7e975767a1b1fa3da80c1e30e43039b801687bc8629d02655c923da",
+          "index": 22
+        },
+        "passage:e25d21cdad0055343ba6": {
+          "checking_excerpt": "",
+          "hash": "e25d21cdad0055343ba6559b5fd565d86aa49decfdd3b70602cc0b72752f3558",
+          "index": 37
+        },
+        "passage:e37b920429d653e027c1": {
+          "checking_excerpt": "",
+          "hash": "e37b920429d653e027c119040e0e3d8d87fc57ebb0cd5008b42b70fd2d579de1",
+          "index": 3
+        },
+        "passage:eb51336db0d897d42dab": {
+          "checking_excerpt": "",
+          "hash": "eb51336db0d897d42dab269564c60388c0656a069e434483fcbeb3dbbb3df08d",
+          "index": 15
+        },
+        "passage:eb55e9d1a72870bc62f9": {
+          "checking_excerpt": "",
+          "hash": "eb55e9d1a72870bc62f97bf8981a6b74d190083e5d9c367f7b1f34b82ea70dc6",
+          "index": 7
+        },
+        "passage:ecb5ef3868a61044e946": {
+          "checking_excerpt": "",
+          "hash": "ecb5ef3868a61044e946a83a7194512fe346b00b4588579a267c1dc1b508d0bf",
+          "index": 10
+        },
+        "passage:ecd2afdc1fbd8e51c7f6": {
+          "checking_excerpt": "",
+          "hash": "ecd2afdc1fbd8e51c7f64e5436175ded9ee0dec2385124be8f299a004db68a7d",
+          "index": 19
+        },
+        "passage:f9c8e2e6232750fe916b": {
+          "checking_excerpt": "",
+          "hash": "f9c8e2e6232750fe916bc19b6174539f2733e4c543c733654c5706f5d07cfd2a",
+          "index": 30
+        },
+        "passage:fa7209f7c1fdc81517fd": {
+          "checking_excerpt": "",
+          "hash": "fa7209f7c1fdc81517fd09d62d7771cb961007e7963b2bf5dc3fdba167ffc9c5",
+          "index": 21
+        }
+      },
+      "publication_date": null,
+      "url": "https://www.wagives.org/organization/Familyworksseattle"
+    }
+  ],
+  "id": "7464ddbad316f4343da6b0f43781bd144626ca43cc507ba17d6a53be747de8c3",
+  "prepared_at": "2026-11-07T16:24:06.541724+00:00",
+  "reused": [],
+  "source_failures": [],
+  "summary": {
+    "flags_for_desktop": 11,
+    "grouped_documents": 9,
+    "inaccessible_flags": 0,
+    "original_fetches": 9,
+    "reused_verdicts": 0
+  }
+}
