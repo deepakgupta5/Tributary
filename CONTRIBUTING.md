@@ -33,7 +33,7 @@ Report the **branch, commit, and PR link** for every piece of completed work. **
 
 - The daily collector keeps its generated state in its ignored output directory (`out/`) inside the working clone. Runtime state does not get committed as if it were code.
 - Code changes follow the push-and-PR rule above, without exception.
-- Daily runtime data needs **its own backup policy**, separate from git. (Open item: that backup policy is to be defined; until it is, the `out/` directory in the operating clone is the only copy of runtime state — treat it accordingly.)
+- **Backup policy for runtime data** (owner-confirmed November 8, 2026): runtime data is never committed to git, so it is backed up separately. The operating clone lives in the owner's iCloud-synced Documents folder, and all iCloud data is backed up daily; that daily backup covers the whole clone, including `out/` and the private feedback database. Two known limits: sync propagates deletions (the daily backup is the protection against that), and a restore from this backup has not yet been test-run.
 
 ## One-time git setup (every clone)
 
