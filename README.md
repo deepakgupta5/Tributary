@@ -88,3 +88,9 @@ Captured synthetic outputs are in [`examples/`](examples/). Historical implement
 ## Operating boundary
 
 Tributary uses freely accessible English-language sources and stores links, metadata, factual notes, and necessary permitted short checking passages. It does not bypass access controls or commit whole articles, PDFs, source CSVs, or private pursuit data. Same-assistant review provides traceability, not independent verification.
+
+## Repository boundary, 2026-11-08
+
+Tributary holds the signal system: application code, tests, collection and review workflows, source research, population/geography screens, trigger rules, and supporting product evidence and decisions. Commercial execution plans and client-delivery ideas belong in [Non-Profits](https://github.com/deepakgupta5/Non-Profits).
+
+The BC conversation plan and lapsed-donor tracker idea have moved to Non-Profits at their original `OutBound/` paths. Links in the indexes and PRD point to the new locations. Earlier decision entries retain their historical wording; the current commercial execution record is maintained in Non-Profits.

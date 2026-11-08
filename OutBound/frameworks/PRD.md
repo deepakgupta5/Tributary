@@ -49,7 +49,7 @@ For outbound qualification, record size fit and trigger status separately. For e
 Client delivery, donor analysis, campaign execution, and outreach are outside this product's scope.
 
 ## Project baseline and delivery
-[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. [BC_CONVERSATION_PLAN.md](BC_CONVERSATION_PLAN.md) is the operating plan for BC outbound — objective, execution steps, and owner decisions — distinct from that build schedule. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
+[PROJECT_PLAN.md](PROJECT_PLAN.md) defines the current seven-project-day path from the bounded live prototype to a daily prospect worklist. [BC_CONVERSATION_PLAN.md](https://github.com/deepakgupta5/Non-Profits/blob/main/OutBound/frameworks/BC_CONVERSATION_PLAN.md) is the operating plan for BC outbound — objective, execution steps, and owner decisions — distinct from that build schedule. The earlier Day 1 design and synthetic/live foundation milestones are historical. The current schedule has no calendar start date; completion depends on fresh operational results, not elapsed days.
 
 The documented design basis is [SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md](../research/SIGNAL_GENERATOR_EVIDENCE_REVIEW_2026-11-05.md). The immediate build deliberately implements a usable subset of those practices. It does not claim predictive buyer intent, national-scale crawling, automated outreach, or trained ranking.
 

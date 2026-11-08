@@ -1,6 +1,6 @@
 # Frameworks
 
-- [BC conversation plan](BC_CONVERSATION_PLAN.md)
+- [BC conversation plan, moved to private Non-Profits](https://github.com/deepakgupta5/Non-Profits/blob/main/OutBound/frameworks/BC_CONVERSATION_PLAN.md)
 - [Product requirements](PRD.md)
 - [Seven-day project plan](PROJECT_PLAN.md)
 - [Foundation specification](FOUNDATION_SPEC.md)
